@@ -382,34 +382,168 @@ def build_overview(descriptions: list[dict[str, Any]], actor: dict[str, Any]) ->
     }
 
 
-def build_attribution(attribution_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    seen = set()
-    out = []
+COUNTRY_ALIASES = {
+    "russia": ("Russia", "RU", "🇷🇺"),
+    "russian federation": ("Russia", "RU", "🇷🇺"),
+    "ru": ("Russia", "RU", "🇷🇺"),
+    "china": ("China", "CN", "🇨🇳"),
+    "prc": ("China", "CN", "🇨🇳"),
+    "people s republic of china": ("China", "CN", "🇨🇳"),
+    "people's republic of china": ("China", "CN", "🇨🇳"),
+    "north korea": ("North Korea", "KP", "🇰🇵"),
+    "dprk": ("North Korea", "KP", "🇰🇵"),
+    "democratic people's republic of korea": ("North Korea", "KP", "🇰🇵"),
+    "iran": ("Iran", "IR", "🇮🇷"),
+    "islamic republic of iran": ("Iran", "IR", "🇮🇷"),
+    "vietnam": ("Vietnam", "VN", "🇻🇳"),
+    "viet nam": ("Vietnam", "VN", "🇻🇳"),
+    "india": ("India", "IN", "🇮🇳"),
+    "pakistan": ("Pakistan", "PK", "🇵🇰"),
+    "turkey": ("Turkey", "TR", "🇹🇷"),
+    "türkiye": ("Turkey", "TR", "🇹🇷"),
+    "israel": ("Israel", "IL", "🇮🇱"),
+    "lebanon": ("Lebanon", "LB", "🇱🇧"),
+    "syria": ("Syria", "SY", "🇸🇾"),
+    "belarus": ("Belarus", "BY", "🇧🇾"),
+    "ukraine": ("Ukraine", "UA", "🇺🇦"),
+    "united states": ("United States", "US", "🇺🇸"),
+    "usa": ("United States", "US", "🇺🇸"),
+    "u s": ("United States", "US", "🇺🇸"),
+    "united kingdom": ("United Kingdom", "GB", "🇬🇧"),
+    "uk": ("United Kingdom", "GB", "🇬🇧"),
+}
+
+
+def normalize_country_value(value: str) -> dict[str, Any] | None:
+    raw = str(value or "").strip()
+    if not raw:
+        return None
+
+    key = normalize_text(raw)
+    if key in COUNTRY_ALIASES:
+        display, code, flag = COUNTRY_ALIASES[key]
+        return {
+            "display_value": display,
+            "country_code": code,
+            "flag": flag,
+            "normalized_country": normalize_text(display),
+        }
+
+    # Microsoft Origin/Threat sometimes contains simple country names with punctuation variants.
+    compact = key.replace(" the ", " ")
+    if compact in COUNTRY_ALIASES:
+        display, code, flag = COUNTRY_ALIASES[compact]
+        return {
+            "display_value": display,
+            "country_code": code,
+            "flag": flag,
+            "normalized_country": normalize_text(display),
+        }
+
+    return None
+
+
+def source_entry_from_attribution(row: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "source_id": row.get("source_id"),
+        "source_name": row.get("source_name") or row.get("source_id"),
+        "confidence": row.get("confidence", "source-provided"),
+        "source_urls": sorted({canonicalize_url(url) for url in row.get("source_urls", []) if url}),
+        "types": sorted({row.get("type")} if row.get("type") else set()),
+    }
+
+
+def merge_source_entries(existing: list[dict[str, Any]], new_source: dict[str, Any]) -> list[dict[str, Any]]:
+    by_id: dict[str, dict[str, Any]] = {}
+    for source in existing:
+        key = source.get("source_id") or source.get("source_name") or "unknown"
+        by_id[key] = dict(source)
+        by_id[key]["source_urls"] = sorted(set(by_id[key].get("source_urls", [])))
+        by_id[key]["types"] = sorted(set(by_id[key].get("types", [])))
+
+    key = new_source.get("source_id") or new_source.get("source_name") or "unknown"
+    if key not in by_id:
+        by_id[key] = dict(new_source)
+    else:
+        by_id[key]["source_urls"] = sorted(set(by_id[key].get("source_urls", [])) | set(new_source.get("source_urls", [])))
+        by_id[key]["types"] = sorted(set(by_id[key].get("types", [])) | set(new_source.get("types", [])))
+
+    return sorted(by_id.values(), key=lambda item: (item.get("source_name") or item.get("source_id") or "").casefold())
+
+
+def build_attribution(attribution_rows: list[dict[str, Any]]) -> dict[str, Any]:
+    countries_by_key: dict[str, dict[str, Any]] = {}
+    classifications_by_key: dict[tuple[str, str], dict[str, Any]] = {}
 
     for row in attribution_rows:
-        key = (row.get("type"), normalize_text(row.get("value", "")), row.get("source_id"))
-        if key in seen:
+        value = str(row.get("value") or "").strip()
+        if not value:
             continue
-        seen.add(key)
-        out.append(
-            {
-                "type": row.get("type"),
-                "value": row.get("value"),
-                "source_id": row.get("source_id"),
-                "source_name": row.get("source_name") or row.get("source_id"),
-                "confidence": row.get("confidence", "source-provided"),
-                "source_urls": row.get("source_urls", []),
-            }
-        )
 
-    type_order = {
-        "country": 0,
-        "region": 1,
-        "motivation": 2,
-        "microsoft_origin_or_threat": 3,
+        row_type = row.get("type") or "classification"
+        country = normalize_country_value(value)
+        source_entry = source_entry_from_attribution(row)
+
+        # Treat explicit country rows and Microsoft Origin/Threat values that normalize to a country as country attribution.
+        if row_type == "country" or country:
+            if country:
+                display_value = country["display_value"]
+                country_code = country["country_code"]
+                flag = country["flag"]
+                key = country["normalized_country"]
+            else:
+                display_value = value
+                country_code = None
+                flag = None
+                key = normalize_text(value)
+
+            item = countries_by_key.setdefault(
+                key,
+                {
+                    "type": "country",
+                    "value": display_value,
+                    "display_value": display_value,
+                    "country_code": country_code,
+                    "flag": flag,
+                    "sources": [],
+                },
+            )
+            item["sources"] = merge_source_entries(item["sources"], source_entry)
+            if not item.get("country_code") and country_code:
+                item["country_code"] = country_code
+                item["flag"] = flag
+            continue
+
+        class_key = (row_type, normalize_text(value))
+        item = classifications_by_key.setdefault(
+            class_key,
+            {
+                "type": row_type,
+                "value": value,
+                "display_value": value,
+                "sources": [],
+            },
+        )
+        item["sources"] = merge_source_entries(item["sources"], source_entry)
+
+    countries = sorted(countries_by_key.values(), key=lambda item: item.get("display_value", "").casefold())
+    classifications = sorted(
+        classifications_by_key.values(),
+        key=lambda item: (item.get("type") or "", item.get("display_value", "").casefold()),
+    )
+
+    # Backward-compatible flattened list for callers that still expect rows.
+    flattened = []
+    for item in countries:
+        flattened.append(item)
+    for item in classifications:
+        flattened.append(item)
+
+    return {
+        "countries": countries,
+        "classifications": classifications,
+        "items": flattened,
     }
-    out.sort(key=lambda item: (type_order.get(item.get("type"), 99), item.get("value") or ""))
-    return out
 
 
 def build_technique_summary(techniques: list[dict[str, Any]], max_techniques: int = 12) -> dict[str, Any]:
@@ -417,6 +551,7 @@ def build_technique_summary(techniques: list[dict[str, Any]], max_techniques: in
         return {
             "items": [],
             "tactics": [],
+            "tactic_groups": [],
             "total": 0,
         }
 
@@ -430,11 +565,14 @@ def build_technique_summary(techniques: list[dict[str, Any]], max_techniques: in
         unique.append(technique)
 
     tactic_counter = Counter()
-    for technique in unique:
-        for tactic in technique.get("tactics", []):
-            tactic_counter[tactic] += 1
+    grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
 
-    # Prioritize techniques in the most common tactic buckets, then technique ID.
+    for technique in unique:
+        tactic_values = technique.get("tactics", []) or ["unknown"]
+        for tactic in tactic_values:
+            tactic_counter[tactic] += 1
+            grouped[tactic].append(technique)
+
     sorted_items = sorted(
         unique,
         key=lambda item: (
@@ -453,9 +591,25 @@ def build_technique_summary(techniques: list[dict[str, Any]], max_techniques: in
         for tactic, count in tactic_counter.most_common()
     ]
 
+    tactic_groups = []
+    for tactic, count in tactic_counter.most_common():
+        items = sorted(
+            grouped[tactic],
+            key=lambda item: (item.get("technique_id") or "", item.get("name") or ""),
+        )
+        tactic_groups.append(
+            {
+                "tactic": tactic,
+                "label": TACTIC_LABELS.get(tactic, tactic),
+                "count": count,
+                "items": items,
+            }
+        )
+
     return {
         "items": sorted_items[:max_techniques],
         "tactics": tactic_summary,
+        "tactic_groups": tactic_groups,
         "total": len(unique),
     }
 
@@ -574,7 +728,7 @@ def main() -> int:
     duplicate_group_count = sum(1 for actor in index if len(actor.get("merged_actor_ids", [])) > 1)
     activity_count = sum(len(actor.get("recent_activity", [])) for actor in index)
     overview_count = sum(1 for actor in index if actor.get("overview"))
-    attribution_count = sum(len(actor.get("reported_attribution", [])) for actor in index)
+    attribution_count = sum(len((actor.get("reported_attribution") or {}).get("items", [])) for actor in index)
     technique_count = sum((actor.get("observed_techniques") or {}).get("total", 0) for actor in index)
     print(
         f"Built search index with {len(index)} actors "

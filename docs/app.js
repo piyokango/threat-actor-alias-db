@@ -69,11 +69,21 @@ function scoreActor(actor, query) {
     item.name,
     ...(item.tactics || [])
   ]);
-  const attributionFields = (actor.reported_attribution || []).flatMap(item => [
-    item.type,
-    item.value,
-    item.source_name
-  ]);
+  const attributionData = actor.reported_attribution || {};
+  const attributionFields = [
+    ...((attributionData.countries || []).flatMap(item => [
+      item.value,
+      item.display_value,
+      item.country_code,
+      ...((item.sources || []).map(source => source.source_name || source.source_id))
+    ])),
+    ...((attributionData.classifications || []).flatMap(item => [
+      item.type,
+      item.value,
+      item.display_value,
+      ...((item.sources || []).map(source => source.source_name || source.source_id))
+    ]))
+  ];
 
   const fields = [
     actor.canonical_name,
@@ -311,22 +321,42 @@ function renderOverview(actor) {
 }
 
 function renderAttribution(actor) {
-  const rows = actor.reported_attribution || [];
-  if (!rows.length) {
+  const data = actor.reported_attribution || {};
+  const countries = data.countries || [];
+  const classifications = data.classifications || [];
+
+  if (!countries.length && !classifications.length) {
     return "";
   }
 
-  const items = rows.map(row => {
-    const urls = row.source_urls || [];
-    const source = urls.length
-      ? `<a href="${escapeHtml(urls[0])}" target="_blank" rel="noopener noreferrer">${escapeHtml(row.source_name || row.source_id)}</a>`
-      : escapeHtml(row.source_name || row.source_id || "不明");
+  function renderSourceList(sources) {
+    return (sources || []).map(source => {
+      const urls = source.source_urls || [];
+      const name = source.source_name || source.source_id || "不明";
+      if (urls.length) {
+        return `<a href="${escapeHtml(urls[0])}" target="_blank" rel="noopener noreferrer">${escapeHtml(name)}</a>`;
+      }
+      return escapeHtml(name);
+    }).join(" / ");
+  }
 
+  const countryItems = countries.map(item => {
+    const flag = item.flag ? `<span class="attr-flag">${escapeHtml(item.flag)}</span>` : "";
+    const code = item.country_code ? `<span class="attr-code">${escapeHtml(item.country_code)}</span>` : "";
+    return `
+      <li class="country-row">
+        <span class="attr-country">${flag}<span class="attr-value">${escapeHtml(item.display_value || item.value)}</span>${code}</span>
+        <span class="attr-source">${renderSourceList(item.sources)}</span>
+      </li>
+    `;
+  }).join("");
+
+  const classificationItems = classifications.map(item => {
     return `
       <li>
-        <span class="attr-type">${escapeHtml(labelForAttributionType(row.type))}</span>
-        <span class="attr-value">${escapeHtml(row.value)}</span>
-        <span class="attr-source">${source}</span>
+        <span class="attr-type">${escapeHtml(labelForAttributionType(item.type))}</span>
+        <span class="attr-value">${escapeHtml(item.display_value || item.value)}</span>
+        <span class="attr-source">${renderSourceList(item.sources)}</span>
       </li>
     `;
   }).join("");
@@ -334,51 +364,53 @@ function renderAttribution(actor) {
   return `
     <section class="card-section attribution">
       <h3>推定帰属</h3>
-      <ul>${items}</ul>
-      <p class="section-note">出典に記載された情報を表示しています。本DBは帰属を独自に断定しません。</p>
+      ${countryItems ? `<ul class="country-list">${countryItems}</ul>` : ""}
+      ${classificationItems ? `<div class="classification-heading">分類・動機</div><ul>${classificationItems}</ul>` : ""}
+      <p class="section-note">出典に記載された情報を値単位で集約して表示しています。本DBは帰属を独自に断定しません。</p>
     </section>
   `;
 }
 
 function renderObservedTechniques(actor) {
   const data = actor.observed_techniques || {};
-  const items = data.items || [];
-  if (!items.length) {
+  const groups = data.tactic_groups || [];
+  const summary = data.tactics || [];
+
+  if (!groups.length && !(data.items || []).length) {
     return "";
   }
 
-  const tacticSummary = (data.tactics || []).slice(0, 6).map(tactic => {
+  const tacticSummary = summary.slice(0, 8).map(tactic => {
     return `<span class="tactic-badge">${escapeHtml(labelForTactic(tactic.tactic))} <span>${escapeHtml(tactic.count)}</span></span>`;
   }).join("");
 
-  const techniqueItems = items.map(item => {
-    const tacticLabels = (item.tactics || []).map(tactic => {
-      return `<span class="technique-tactic">${escapeHtml(labelForTactic(tactic))}</span>`;
+  const groupItems = groups.map((group, index) => {
+    const itemList = (group.items || []).map(item => {
+      const label = `${item.technique_id || ""} ${item.name || ""}`.trim();
+      const link = item.url
+        ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`
+        : escapeHtml(label);
+      return `<li><span class="technique-name">${link}</span></li>`;
     }).join("");
 
-    const label = `${item.technique_id || ""} ${item.name || ""}`.trim();
-    const link = item.url
-      ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`
-      : escapeHtml(label);
-
+    const openAttr = index === 0 ? " open" : "";
     return `
-      <li>
-        <span class="technique-name">${link}</span>
-        <span class="technique-tactics">${tacticLabels}</span>
-      </li>
+      <details class="technique-group"${openAttr}>
+        <summary>
+          <span class="technique-group-title">${escapeHtml(labelForTactic(group.tactic))}</span>
+          <span class="technique-group-count">${escapeHtml(group.count)}件</span>
+        </summary>
+        <ul>${itemList}</ul>
+      </details>
     `;
   }).join("");
-
-  const more = data.total && data.total > items.length
-    ? `<div class="section-note">MITRE ATT&amp;CKにおける関連Technique ${data.total}件のうち、${items.length}件を表示しています。</div>`
-    : "";
 
   return `
     <section class="card-section techniques">
       <h3>観測された主な攻撃手法</h3>
       ${tacticSummary ? `<div class="tactic-summary">${tacticSummary}</div>` : ""}
-      <ul>${techniqueItems}</ul>
-      ${more}
+      <div class="technique-groups">${groupItems}</div>
+      ${data.total ? `<div class="section-note">MITRE ATT&amp;CKにおける関連Technique ${data.total}件をTactic別に表示しています。</div>` : ""}
     </section>
   `;
 }
