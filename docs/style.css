@@ -577,3 +577,99 @@ footer a {
 .matched-summary:empty {
   display: none;
 }
+
+
+.card-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.card-title-row h2 {
+  margin-bottom: 8px;
+}
+
+.copy-actor-link {
+  border: 1px solid #d0d7de;
+  background: #ffffff;
+  color: #374151;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.copy-actor-link:hover {
+  background: #f6f8fa;
+}
+
+.tactic-summary-compact {
+  margin-bottom: 10px;
+}
+
+.tactic-select {
+  cursor: pointer;
+  font: inherit;
+}
+
+.tactic-select:hover {
+  background: #ffedd5;
+}
+
+.tactic-jump-active,
+.tactic-select.tactic-jump-active {
+  background: #fed7aa;
+  border-color: #fb923c;
+}
+
+.technique-selected-panel {
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+  background: #ffffff;
+  overflow: hidden;
+  min-height: 48px;
+}
+
+.technique-empty-panel {
+  color: #57606a;
+  padding: 14px;
+  font-size: 0.92rem;
+  background: #f6f8fa;
+}
+
+.technique-panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  background: #f6f8fa;
+  border-bottom: 1px solid #d0d7de;
+}
+
+.technique-panel-title {
+  font-weight: 700;
+}
+
+.technique-panel-list {
+  list-style: none;
+  margin: 0;
+  padding: 6px 12px 10px;
+}
+
+.technique-panel-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eef0f2;
+}
+
+.technique-panel-list li:last-child {
+  border-bottom: 0;
+}
+
+@media (max-width: 760px) {
+  .card-title-row {
+    flex-direction: column;
+  }
+}

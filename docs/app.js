@@ -1,7 +1,10 @@
 const state = {
   index: [],
   query: "",
-  extendedSearch: false
+  extendedSearch: false,
+  actorParam: null,
+  singleActorMode: false,
+  activeTechniqueGroups: {}
 };
 
 const queryEl = document.getElementById("query");
@@ -9,6 +12,60 @@ const resultsEl = document.getElementById("results");
 const statsEl = document.getElementById("stats");
 
 let extendedSearchEl = null;
+
+function getUrlParams() {
+  return new URLSearchParams(window.location.search);
+}
+
+function setUrlParams(params, replace = false) {
+  const url = new URL(window.location.href);
+  url.search = params.toString();
+  const method = replace ? "replaceState" : "pushState";
+  window.history[method]({}, "", url.toString());
+}
+
+function actorPermalink(actor) {
+  const url = new URL(window.location.href);
+  url.search = "";
+  url.searchParams.set("actor", actor.actor_id);
+  return url.toString();
+}
+
+function queryPermalink(query) {
+  const url = new URL(window.location.href);
+  url.search = "";
+  if (query) {
+    url.searchParams.set("q", query);
+  }
+  return url.toString();
+}
+
+async function copyText(value) {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    await navigator.clipboard.writeText(value);
+    return true;
+  }
+
+  const textarea = document.createElement("textarea");
+  textarea.value = value;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "absolute";
+  textarea.style.left = "-9999px";
+  document.body.appendChild(textarea);
+  textarea.select();
+  const ok = document.execCommand("copy");
+  document.body.removeChild(textarea);
+  return ok;
+}
+
+function findActorById(actorId) {
+  if (!actorId) return null;
+  return state.index.find(actor => {
+    if (actor.actor_id === actorId) return true;
+    return (actor.merged_actor_ids || []).includes(actorId);
+  }) || null;
+}
+
 
 function normalize(value) {
   return String(value || "")
@@ -511,14 +568,19 @@ function renderObservedTechniques(actor) {
     return "";
   }
 
-  const actorKey = normalize(actor.actor_id || actor.canonical_name).replace(/\s+/g, "-");
+  const actorKey = actor.actor_id || actor.canonical_name;
+  const actorDomKey = normalize(actorKey).replace(/\s+/g, "-");
+  const activeTactic = state.activeTechniqueGroups[actorKey] || null;
+  const activeGroup = activeTactic ? groups.find(group => group.tactic === activeTactic) : null;
 
-  const tacticSummary = summary.slice(0, 8).map(tactic => {
-    const groupId = `technique-group-${actorKey}-${normalize(tactic.tactic).replace(/\s+/g, "-")}`;
+  const tacticSummary = summary.slice(0, 12).map(tactic => {
     const tacticLabel = labelForTactic(tactic.tactic);
     const tacticId = tactic.tactic_id ? `<span class="tactic-id">${escapeHtml(tactic.tactic_id)}</span>` : "";
+    const selected = activeTactic === tactic.tactic ? " tactic-jump-active" : "";
     return `
-      <button class="tactic-badge tactic-jump" type="button" data-target="${escapeHtml(groupId)}">
+      <button class="tactic-badge tactic-select${selected}" type="button"
+        data-actor-id="${escapeHtml(actorKey)}"
+        data-tactic="${escapeHtml(tactic.tactic)}">
         ${tacticId}
         <span>${escapeHtml(tacticLabel)}</span>
         <strong>${escapeHtml(tactic.count)}</strong>
@@ -526,39 +588,45 @@ function renderObservedTechniques(actor) {
     `;
   }).join("");
 
-  const groupItems = groups.map((group, index) => {
-    const groupId = `technique-group-${actorKey}-${normalize(group.tactic).replace(/\s+/g, "-")}`;
-    const itemList = (group.items || []).map(item => {
-      const label = `${item.technique_id || ""} ${item.name || ""}`.trim();
-      const link = item.url
-        ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`
-        : escapeHtml(label);
-      return `<li><span class="technique-name">${link}</span></li>`;
-    }).join("");
-
-    const openAttr = index === 0 ? " open" : "";
-    const tacticId = group.tactic_id ? `<span class="technique-group-id">${escapeHtml(group.tactic_id)}</span>` : "";
-    const title = `${group.tactic_id ? group.tactic_id + " " : ""}${labelForTactic(group.tactic)}`;
-
-    return `
-      <details id="${escapeHtml(groupId)}" class="technique-group"${openAttr}>
-        <summary>
-          <span class="technique-group-title">${tacticId}${escapeHtml(labelForTactic(group.tactic))}</span>
-          <span class="technique-group-count">${escapeHtml(group.count)}件</span>
-        </summary>
-        ${group.url ? `<div class="technique-group-link"><a href="${escapeHtml(group.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)} をATT&CKで開く</a></div>` : ""}
-        <ul>${itemList}</ul>
-      </details>
-    `;
-  }).join("");
+  const activePanel = activeGroup ? renderTechniquePanel(activeGroup) : `
+    <div class="technique-empty-panel">
+      上のATT&amp;CKラベルをクリックすると、該当するTechnique一覧を表示します。
+    </div>
+  `;
 
   return `
     <section class="card-section techniques">
       <h3>観測された主な攻撃手法</h3>
-      ${tacticSummary ? `<div class="tactic-summary">${tacticSummary}</div>` : ""}
-      <div class="technique-groups">${groupItems}</div>
-      ${data.total ? `<div class="section-note">MITRE ATT&amp;CKにおける関連Technique ${data.total}件をTactic別に表示しています。上部のラベルをクリックすると該当Tacticへ移動します。</div>` : ""}
+      ${tacticSummary ? `<div class="tactic-summary tactic-summary-compact">${tacticSummary}</div>` : ""}
+      <div id="technique-panel-${escapeHtml(actorDomKey)}" class="technique-selected-panel">
+        ${activePanel}
+      </div>
+      ${data.total ? `<div class="section-note">MITRE ATT&amp;CKにおける関連Technique ${data.total}件をTactic別に整理しています。初期表示では一覧を出さず、ラベル選択時のみ表示します。</div>` : ""}
     </section>
+  `;
+}
+
+function renderTechniquePanel(group) {
+  const itemList = (group.items || []).map(item => {
+    const label = `${item.technique_id || ""} ${item.name || ""}`.trim();
+    const link = item.url
+      ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`
+      : escapeHtml(label);
+    return `<li><span class="technique-name">${link}</span></li>`;
+  }).join("");
+
+  const tacticId = group.tactic_id ? `<span class="technique-group-id">${escapeHtml(group.tactic_id)}</span>` : "";
+  const title = `${group.tactic_id ? group.tactic_id + " " : ""}${labelForTactic(group.tactic)}`;
+
+  return `
+    <div class="technique-panel-heading">
+      <div>
+        <span class="technique-panel-title">${tacticId}${escapeHtml(labelForTactic(group.tactic))}</span>
+        <span class="technique-group-count">${escapeHtml(group.count)}件</span>
+      </div>
+      ${group.url ? `<a href="${escapeHtml(group.url)}" target="_blank" rel="noopener noreferrer">ATT&amp;CKで開く</a>` : ""}
+    </div>
+    <ul class="technique-panel-list">${itemList}</ul>
   `;
 }
 
@@ -602,7 +670,10 @@ function renderActor(actor, matchedNames, matchReasons) {
 
   return `
     <article class="card">
-      <h2>${escapeHtml(actor.canonical_name)}</h2>
+      <div class="card-title-row">
+        <h2>${escapeHtml(actor.canonical_name)}</h2>
+        <button class="copy-actor-link" type="button" data-actor-id="${escapeHtml(actor.actor_id)}">リンクをコピー</button>
+      </div>
 
       ${renderMatchedSummary(actor, matchedNames, matchReasons)}
 
@@ -631,10 +702,44 @@ function renderActor(actor, matchedNames, matchReasons) {
   `;
 }
 
-function render() {
+function render(options = {}) {
   const query = queryEl.value.trim();
   state.query = query;
   state.extendedSearch = !!(extendedSearchEl && extendedSearchEl.checked);
+
+  const params = getUrlParams();
+  const actorParam = params.get("actor");
+  state.actorParam = actorParam;
+  state.singleActorMode = !!actorParam;
+
+  if (!options.skipUrlUpdate && !state.singleActorMode) {
+    const nextParams = getUrlParams();
+    if (query) {
+      nextParams.set("q", query);
+    } else {
+      nextParams.delete("q");
+    }
+    if (state.extendedSearch) {
+      nextParams.set("extended", "1");
+    } else {
+      nextParams.delete("extended");
+    }
+    setUrlParams(nextParams, true);
+  }
+
+  if (state.singleActorMode) {
+    const actor = findActorById(actorParam);
+    if (!actor) {
+      statsEl.textContent = `指定されたアクターIDは見つかりませんでした: ${actorParam}`;
+      resultsEl.innerHTML = `<div class="empty">URLの actor パラメータを確認してください。</div>`;
+      return;
+    }
+
+    queryEl.value = "";
+    statsEl.textContent = `個別表示: ${actor.canonical_name}（${actor.actor_id}）`;
+    resultsEl.innerHTML = renderActor(actor, [], [{ reason: "アクターID", value: actorParam, score: 100 }]);
+    return;
+  }
 
   if (!query) {
     const mode = state.extendedSearch ? "拡張検索" : "通常検索";
@@ -671,31 +776,72 @@ async function loadIndex() {
     const response = await fetch("data/search-index.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.index = await response.json();
-    render();
+
+    const params = getUrlParams();
+    const q = params.get("q");
+    const extended = params.get("extended");
+    if (q && !params.get("actor")) {
+      queryEl.value = q;
+    }
+    if (extendedSearchEl && extended === "1") {
+      extendedSearchEl.checked = true;
+    }
+
+    render({ skipUrlUpdate: true });
   } catch (error) {
     statsEl.textContent = `検索インデックスの読み込みに失敗しました: ${error.message}`;
     resultsEl.innerHTML = `<div class="empty">更新スクリプトまたはGitHub Actionsを実行して docs/data/search-index.json を生成してください。</div>`;
   }
 }
 
-document.addEventListener("click", event => {
-  const button = event.target.closest(".tactic-jump");
-  if (!button) return;
+document.addEventListener("click", async event => {
+  const tacticButton = event.target.closest(".tactic-select");
+  if (tacticButton) {
+    const actorId = tacticButton.getAttribute("data-actor-id");
+    const tactic = tacticButton.getAttribute("data-tactic");
+    if (actorId && tactic) {
+      state.activeTechniqueGroups[actorId] = tactic;
+      render({ skipUrlUpdate: true });
+      const panelId = `technique-panel-${normalize(actorId).replace(/\s+/g, "-")}`;
+      const panel = document.getElementById(panelId);
+      if (panel) {
+        panel.classList.add("technique-group-highlight");
+        panel.scrollIntoView({ behavior: "smooth", block: "center" });
+        window.setTimeout(() => panel.classList.remove("technique-group-highlight"), 1000);
+      }
+    }
+    return;
+  }
 
-  const targetId = button.getAttribute("data-target");
-  if (!targetId) return;
+  const copyButton = event.target.closest(".copy-actor-link");
+  if (copyButton) {
+    const actorId = copyButton.getAttribute("data-actor-id");
+    const actor = findActorById(actorId);
+    if (!actor) return;
 
-  const target = document.getElementById(targetId);
-  if (!target) return;
-
-  target.open = true;
-  target.classList.add("technique-group-highlight");
-  target.scrollIntoView({ behavior: "smooth", block: "center" });
-
-  window.setTimeout(() => {
-    target.classList.remove("technique-group-highlight");
-  }, 1600);
+    const ok = await copyText(actorPermalink(actor));
+    copyButton.textContent = ok ? "コピーしました" : "コピー失敗";
+    window.setTimeout(() => {
+      copyButton.textContent = "リンクをコピー";
+    }, 1400);
+  }
 });
 
-queryEl.addEventListener("input", render);
+window.addEventListener("popstate", () => {
+  const params = getUrlParams();
+  const q = params.get("q");
+  const extended = params.get("extended");
+  queryEl.value = q || "";
+  if (extendedSearchEl) {
+    extendedSearchEl.checked = extended === "1";
+  }
+  render({ skipUrlUpdate: true });
+});
+
+queryEl.addEventListener("input", () => {
+  const params = getUrlParams();
+  params.delete("actor");
+  setUrlParams(params, true);
+  render();
+});
 loadIndex();
