@@ -18,7 +18,10 @@ REPORT_DIR = ROOT / "reports"
 def load_json(path: Path) -> Any:
     if not path.exists():
         return []
-    return json.loads(path.read_text(encoding="utf-8"))
+    text = path.read_text(encoding="utf-8").strip()
+    if not text:
+        return []
+    return json.loads(text)
 
 
 def main() -> int:
@@ -27,6 +30,9 @@ def main() -> int:
     references = load_json(NORMALIZED_DIR / "references.json")
     review_candidates = load_json(NORMALIZED_DIR / "review-candidates.json")
     dedup_report = load_json(NORMALIZED_DIR / "dedup-report.json")
+    descriptions = load_json(NORMALIZED_DIR / "descriptions.json")
+    attribution = load_json(NORMALIZED_DIR / "attribution.json")
+    techniques = load_json(NORMALIZED_DIR / "techniques.json")
 
     source_counts = Counter()
     for actor in actors:
@@ -52,6 +58,9 @@ def main() -> int:
         f"- Actors: {len(actors)}",
         f"- Names: {len(names)}",
         f"- References: {len(references)}",
+        f"- Descriptions: {len(descriptions)}",
+        f"- Attribution rows: {len(attribution)}",
+        f"- Technique links: {len(techniques)}",
         f"- Review candidates: {len(review_candidates)}",
         f"- Duplicate canonical groups merged: {len(dedup_report)}",
         "",

@@ -243,19 +243,97 @@ input[type="search"] {
   font-weight: 700;
 }
 
+.overview p {
+  margin: 0;
+  line-height: 1.55;
+}
+
+.section-source,
+.section-note {
+  margin-top: 8px;
+  color: #57606a;
+  font-size: 0.88rem;
+}
+
+.attribution ul,
+.techniques ul,
 .recent-activity ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
+.attribution li,
+.techniques li,
 .activity-item {
   padding: 8px 0;
   border-bottom: 1px solid #eef0f2;
 }
 
+.attribution li:last-child,
+.techniques li:last-child,
 .activity-item:last-child {
   border-bottom: 0;
+}
+
+.attr-type {
+  display: inline-block;
+  min-width: 120px;
+  color: #57606a;
+  font-size: 0.88rem;
+}
+
+.attr-value {
+  font-weight: 600;
+}
+
+.attr-source {
+  margin-left: 8px;
+  color: #57606a;
+  font-size: 0.88rem;
+}
+
+.tactic-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.tactic-badge {
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  border-radius: 999px;
+  background: #fff7ed;
+  color: #9a3412;
+  border: 1px solid #fed7aa;
+  padding: 3px 8px;
+  font-size: 0.82rem;
+}
+
+.tactic-badge span {
+  font-weight: 700;
+}
+
+.technique-name {
+  font-weight: 600;
+}
+
+.technique-tactics {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-left: 8px;
+}
+
+.technique-tactic {
+  display: inline-block;
+  border-radius: 6px;
+  background: #f6f8fa;
+  color: #57606a;
+  padding: 2px 6px;
+  font-size: 0.78rem;
 }
 
 .activity-meta {
@@ -298,5 +376,22 @@ footer a {
 
   .source-badge {
     margin-left: 0;
+  }
+
+  .attr-type {
+    display: block;
+    min-width: 0;
+  }
+
+  .attr-source {
+    display: block;
+    margin-left: 0;
+    margin-top: 2px;
+  }
+
+  .technique-tactics {
+    display: flex;
+    margin-left: 0;
+    margin-top: 4px;
   }
 }

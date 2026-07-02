@@ -4,13 +4,11 @@
 This script performs presentation-layer consolidation so the public UI does not
 show duplicate actor cards or duplicate alias rows.
 
-Rules:
-- Merge actors with the same normalized canonical name into one public card.
-- Prefer MITRE actors as the representative actor ID and metadata.
-- Merge source IDs, naming sources, names, and references.
-- Merge identical names across sources into one row.
-- Canonicalize reference URLs so trailing slash variants are displayed once.
-- Attach review-published recent activity items to each public actor card.
+It also attaches actor profile fields:
+- overview
+- reported attribution
+- observed MITRE ATT&CK techniques
+- review-published recent activity
 """
 
 from __future__ import annotations
@@ -18,7 +16,7 @@ from __future__ import annotations
 import json
 import re
 import shutil
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
@@ -37,6 +35,24 @@ NAME_TYPE_PRIORITY = {
     "former": 2,
     "alias": 3,
     "temporary_cluster": 4,
+}
+
+
+TACTIC_LABELS = {
+    "reconnaissance": "Reconnaissance",
+    "resource-development": "Resource Development",
+    "initial-access": "Initial Access",
+    "execution": "Execution",
+    "persistence": "Persistence",
+    "privilege-escalation": "Privilege Escalation",
+    "defense-evasion": "Defense Evasion",
+    "credential-access": "Credential Access",
+    "discovery": "Discovery",
+    "lateral-movement": "Lateral Movement",
+    "collection": "Collection",
+    "command-and-control": "Command and Control",
+    "exfiltration": "Exfiltration",
+    "impact": "Impact",
 }
 
 
@@ -60,6 +76,14 @@ def normalize_text(value: str) -> str:
     text = re.sub(r"[^a-z0-9\u3040-\u30ff\u3400-\u9fff ]+", "", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
+
+
+def shorten_text(value: str, limit: int = 650) -> str:
+    text = re.sub(r"\s+", " ", str(value or "")).strip()
+    if len(text) <= limit:
+        return text
+    cut = text[:limit].rsplit(" ", 1)[0].strip()
+    return f"{cut}..." if cut else text[:limit] + "..."
 
 
 def canonicalize_url(url: str) -> str:
@@ -175,17 +199,29 @@ def aggregate_names(names: list[dict[str, Any]]) -> list[dict[str, Any]]:
             source_id = item.get("source_id") or org
             source_ids.add(source_id)
 
+            relation = item.get("source_relation")
+            display_org = org
+            if org == "Microsoft" and relation == "current_name":
+                display_org = "Microsoft current"
+            elif org == "Microsoft" and relation == "previous_name":
+                display_org = "Microsoft previous"
+            elif org == "Microsoft" and relation == "other_name":
+                display_org = "Microsoft other"
+
             entry = sources_by_org.setdefault(
-                org,
+                display_org,
                 {
-                    "naming_org": org,
+                    "naming_org": display_org,
                     "source_ids": set(),
                     "name_types": set(),
                     "source_urls": set(),
+                    "source_relations": set(),
                 },
             )
             entry["source_ids"].add(source_id)
             entry["name_types"].add(item.get("name_type") or "alias")
+            if relation:
+                entry["source_relations"].add(relation)
 
             for url in item.get("source_urls", []):
                 canonical_url = canonicalize_url(url)
@@ -200,6 +236,7 @@ def aggregate_names(names: list[dict[str, Any]]) -> list[dict[str, Any]]:
                     "naming_org": org,
                     "source_ids": sorted(source["source_ids"]),
                     "name_types": sorted(source["name_types"], key=lambda value: NAME_TYPE_PRIORITY.get(value, 99)),
+                    "source_relations": sorted(source["source_relations"]),
                     "source_urls": sorted(source["source_urls"]),
                 }
             )
@@ -287,10 +324,149 @@ def build_activity_by_actor(public_actor_by_original_id: dict[str, str]) -> dict
     return activity_by_actor
 
 
+def build_rows_by_public_actor(rows: list[dict[str, Any]], public_actor_by_original_id: dict[str, str]) -> dict[str, list[dict[str, Any]]]:
+    by_actor: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for row in rows:
+        original_actor_id = row.get("actor_id")
+        public_actor_id = public_actor_by_original_id.get(original_actor_id, original_actor_id)
+        if not public_actor_id:
+            continue
+        copied = dict(row)
+        copied["actor_id"] = public_actor_id
+        by_actor[public_actor_id].append(copied)
+    return by_actor
+
+
+def build_overview(descriptions: list[dict[str, Any]], actor: dict[str, Any]) -> dict[str, Any] | None:
+    if not descriptions and not actor.get("description"):
+        return None
+
+    preferred = None
+    for source_id in ["mitre-attack", "misp-galaxy"]:
+        for row in descriptions:
+            if row.get("source_id") == source_id and row.get("text"):
+                preferred = row
+                break
+        if preferred:
+            break
+
+    if preferred:
+        text = preferred.get("text", "")
+        source_rows = descriptions
+    else:
+        text = actor.get("description", "")
+        source_rows = []
+
+    if not text:
+        return None
+
+    sources = []
+    seen = set()
+    for row in source_rows:
+        source_name = row.get("source_name") or row.get("source_id")
+        if not source_name or source_name in seen:
+            continue
+        seen.add(source_name)
+        sources.append(
+            {
+                "source_id": row.get("source_id"),
+                "source_name": source_name,
+                "source_urls": row.get("source_urls", []),
+            }
+        )
+
+    return {
+        "text": shorten_text(text, 700),
+        "sources": sources,
+        "generated": False,
+    }
+
+
+def build_attribution(attribution_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    seen = set()
+    out = []
+
+    for row in attribution_rows:
+        key = (row.get("type"), normalize_text(row.get("value", "")), row.get("source_id"))
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(
+            {
+                "type": row.get("type"),
+                "value": row.get("value"),
+                "source_id": row.get("source_id"),
+                "source_name": row.get("source_name") or row.get("source_id"),
+                "confidence": row.get("confidence", "source-provided"),
+                "source_urls": row.get("source_urls", []),
+            }
+        )
+
+    type_order = {
+        "country": 0,
+        "region": 1,
+        "motivation": 2,
+        "microsoft_origin_or_threat": 3,
+    }
+    out.sort(key=lambda item: (type_order.get(item.get("type"), 99), item.get("value") or ""))
+    return out
+
+
+def build_technique_summary(techniques: list[dict[str, Any]], max_techniques: int = 12) -> dict[str, Any]:
+    if not techniques:
+        return {
+            "items": [],
+            "tactics": [],
+            "total": 0,
+        }
+
+    seen = set()
+    unique = []
+    for technique in techniques:
+        key = (technique.get("technique_id"), technique.get("name"))
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append(technique)
+
+    tactic_counter = Counter()
+    for technique in unique:
+        for tactic in technique.get("tactics", []):
+            tactic_counter[tactic] += 1
+
+    # Prioritize techniques in the most common tactic buckets, then technique ID.
+    sorted_items = sorted(
+        unique,
+        key=lambda item: (
+            -(max([tactic_counter[tactic] for tactic in item.get("tactics", [])] or [0])),
+            item.get("technique_id") or "",
+            item.get("name") or "",
+        ),
+    )
+
+    tactic_summary = [
+        {
+            "tactic": tactic,
+            "label": TACTIC_LABELS.get(tactic, tactic),
+            "count": count,
+        }
+        for tactic, count in tactic_counter.most_common()
+    ]
+
+    return {
+        "items": sorted_items[:max_techniques],
+        "tactics": tactic_summary,
+        "total": len(unique),
+    }
+
+
 def main() -> int:
     actors = load_json(NORMALIZED_DIR / "actors.json")
     names = load_json(NORMALIZED_DIR / "names.json")
     references = load_json(NORMALIZED_DIR / "references.json")
+    descriptions = load_json(NORMALIZED_DIR / "descriptions.json")
+    attribution = load_json(NORMALIZED_DIR / "attribution.json")
+    techniques = load_json(NORMALIZED_DIR / "techniques.json")
 
     actor_by_id = {actor["id"]: actor for actor in actors}
 
@@ -313,6 +489,9 @@ def main() -> int:
         public_actors.append(merged_actor)
 
     activity_by_actor = build_activity_by_actor(public_actor_by_original_id)
+    descriptions_by_actor = build_rows_by_public_actor(descriptions, public_actor_by_original_id)
+    attribution_by_actor = build_rows_by_public_actor(attribution, public_actor_by_original_id)
+    techniques_by_actor = build_rows_by_public_actor(techniques, public_actor_by_original_id)
 
     names_by_public_actor: dict[str, list[dict[str, Any]]] = defaultdict(list)
     refs_by_public_actor: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -337,6 +516,9 @@ def main() -> int:
         actor_id = actor["actor_id"]
         actor_names = aggregate_names(names_by_public_actor.get(actor_id, []))
         actor_refs = dedupe_references(refs_by_public_actor.get(actor_id, []))
+        actor_overview = build_overview(descriptions_by_actor.get(actor_id, []), actor)
+        actor_attribution = build_attribution(attribution_by_actor.get(actor_id, []))
+        actor_techniques = build_technique_summary(techniques_by_actor.get(actor_id, []))
 
         search_names = sorted({item["name"] for item in actor_names if item.get("name")}, key=str.casefold)
         naming_sources = sorted(
@@ -369,6 +551,9 @@ def main() -> int:
                 "source_ids": source_ids,
                 "naming_sources": naming_sources,
                 "search_names": search_names,
+                "overview": actor_overview,
+                "reported_attribution": actor_attribution,
+                "observed_techniques": actor_techniques,
                 "names": actor_names,
                 "references": actor_refs,
                 "recent_activity": activity_by_actor.get(actor_id, [])[:10],
@@ -388,10 +573,14 @@ def main() -> int:
 
     duplicate_group_count = sum(1 for actor in index if len(actor.get("merged_actor_ids", [])) > 1)
     activity_count = sum(len(actor.get("recent_activity", [])) for actor in index)
+    overview_count = sum(1 for actor in index if actor.get("overview"))
+    attribution_count = sum(len(actor.get("reported_attribution", [])) for actor in index)
+    technique_count = sum((actor.get("observed_techniques") or {}).get("total", 0) for actor in index)
     print(
         f"Built search index with {len(index)} actors "
         f"({duplicate_group_count} duplicate canonical groups merged for display, "
-        f"{activity_count} published activity rows attached)"
+        f"{overview_count} overviews, {attribution_count} attribution rows, "
+        f"{technique_count} technique links, {activity_count} published activity rows attached)"
     )
     return 0
 

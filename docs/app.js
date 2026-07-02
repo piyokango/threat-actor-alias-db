@@ -64,13 +64,27 @@ function scoreActor(actor, query) {
   if (!q) return 0;
 
   let score = 0;
+  const techniqueFields = ((actor.observed_techniques || {}).items || []).flatMap(item => [
+    item.technique_id,
+    item.name,
+    ...(item.tactics || [])
+  ]);
+  const attributionFields = (actor.reported_attribution || []).flatMap(item => [
+    item.type,
+    item.value,
+    item.source_name
+  ]);
+
   const fields = [
     actor.canonical_name,
     actor.mitre_id,
     actor.misp_uuid,
+    actor.overview?.text,
     ...(actor.search_names || []),
     ...(actor.naming_sources || []),
     ...(actor.source_ids || []),
+    ...techniqueFields,
+    ...attributionFields,
     ...((actor.recent_activity || []).flatMap(item => [
       item.title,
       item.publisher,
@@ -105,6 +119,16 @@ function labelForNameType(type) {
     temporary_cluster: "暫定クラスタ名"
   };
   return labels[type] || type || "名称";
+}
+
+function labelForAttributionType(type) {
+  const labels = {
+    country: "国・地域",
+    region: "地域",
+    motivation: "動機",
+    microsoft_origin_or_threat: "Microsoft分類"
+  };
+  return labels[type] || type || "分類";
 }
 
 function renderSourceBadges(name) {
@@ -234,6 +258,118 @@ function renderSourceSummary(actor) {
   `;
 }
 
+function renderOverview(actor) {
+  const overview = actor.overview;
+  if (!overview || !overview.text) {
+    return "";
+  }
+
+  const sources = (overview.sources || []).map(source => {
+    const urls = source.source_urls || [];
+    if (urls.length) {
+      return `<a href="${escapeHtml(urls[0])}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.source_name || source.source_id)}</a>`;
+    }
+    return escapeHtml(source.source_name || source.source_id || "Unknown");
+  }).join(", ");
+
+  return `
+    <section class="card-section overview">
+      <h3>Overview</h3>
+      <p>${escapeHtml(overview.text)}</p>
+      ${sources ? `<div class="section-source">Source: ${sources}</div>` : ""}
+    </section>
+  `;
+}
+
+function renderAttribution(actor) {
+  const rows = actor.reported_attribution || [];
+  if (!rows.length) {
+    return "";
+  }
+
+  const items = rows.map(row => {
+    const urls = row.source_urls || [];
+    const source = urls.length
+      ? `<a href="${escapeHtml(urls[0])}" target="_blank" rel="noopener noreferrer">${escapeHtml(row.source_name || row.source_id)}</a>`
+      : escapeHtml(row.source_name || row.source_id || "Unknown");
+
+    return `
+      <li>
+        <span class="attr-type">${escapeHtml(labelForAttributionType(row.type))}</span>
+        <span class="attr-value">${escapeHtml(row.value)}</span>
+        <span class="attr-source">${source}</span>
+      </li>
+    `;
+  }).join("");
+
+  return `
+    <section class="card-section attribution">
+      <h3>Reported attribution</h3>
+      <ul>${items}</ul>
+      <p class="section-note">Source-attributed information only. This database does not independently confirm attribution.</p>
+    </section>
+  `;
+}
+
+function renderObservedTechniques(actor) {
+  const data = actor.observed_techniques || {};
+  const items = data.items || [];
+  if (!items.length) {
+    return "";
+  }
+
+  const tacticSummary = (data.tactics || []).slice(0, 6).map(tactic => {
+    return `<span class="tactic-badge">${escapeHtml(tactic.label || tactic.tactic)} <span>${escapeHtml(tactic.count)}</span></span>`;
+  }).join("");
+
+  const techniqueItems = items.map(item => {
+    const tacticLabels = (item.tactics || []).map(tactic => {
+      const label = {
+        "reconnaissance": "Reconnaissance",
+        "resource-development": "Resource Development",
+        "initial-access": "Initial Access",
+        "execution": "Execution",
+        "persistence": "Persistence",
+        "privilege-escalation": "Privilege Escalation",
+        "defense-evasion": "Defense Evasion",
+        "credential-access": "Credential Access",
+        "discovery": "Discovery",
+        "lateral-movement": "Lateral Movement",
+        "collection": "Collection",
+        "command-and-control": "Command and Control",
+        "exfiltration": "Exfiltration",
+        "impact": "Impact"
+      }[tactic] || tactic;
+      return `<span class="technique-tactic">${escapeHtml(label)}</span>`;
+    }).join("");
+
+    const label = `${item.technique_id || ""} ${item.name || ""}`.trim();
+    const link = item.url
+      ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`
+      : escapeHtml(label);
+
+    return `
+      <li>
+        <span class="technique-name">${link}</span>
+        <span class="technique-tactics">${tacticLabels}</span>
+      </li>
+    `;
+  }).join("");
+
+  const more = data.total && data.total > items.length
+    ? `<div class="section-note">Showing ${items.length} of ${data.total} MITRE ATT&CK technique links.</div>`
+    : "";
+
+  return `
+    <section class="card-section techniques">
+      <h3>Observed ATT&amp;CK techniques</h3>
+      ${tacticSummary ? `<div class="tactic-summary">${tacticSummary}</div>` : ""}
+      <ul>${techniqueItems}</ul>
+      ${more}
+    </section>
+  `;
+}
+
 function renderRecentActivity(actor) {
   const activity = actor.recent_activity || [];
   if (!activity.length) {
@@ -285,7 +421,9 @@ function renderActor(actor, matchedNames) {
       </div>
 
       ${renderSourceSummary(actor)}
-
+      ${renderOverview(actor)}
+      ${renderAttribution(actor)}
+      ${renderObservedTechniques(actor)}
       ${renderRecentActivity(actor)}
 
       <section class="card-section">
@@ -306,7 +444,7 @@ function render() {
   state.query = query;
 
   if (!query) {
-    statsEl.textContent = `${state.index.length} actors loaded. Enter a name, alias, ID, or source organization to search.`;
+    statsEl.textContent = `${state.index.length} actors loaded. Enter a name, alias, ID, source organization, attribution, or technique to search.`;
     resultsEl.innerHTML = `<div class="empty">Enter a search term to begin.</div>`;
     return;
   }

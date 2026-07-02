@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """Normalize MITRE ATT&CK, MISP Galaxy, and Microsoft threat actor naming data.
 
-The merge logic is intentionally conservative:
-- MITRE records become primary actors when available.
-- MISP records are merged into an existing actor on exact normalized canonical name match or a single exact name/alias match.
-- Microsoft records are added as vendor names when exactly one existing actor can be matched.
-- Otherwise, Microsoft records are emitted as review candidates rather than automatically creating same-as mappings.
-- A final narrow de-duplication pass merges records with the same normalized canonical name.
+This version also extracts actor profile information:
+- source descriptions for overview display
+- reported attribution / classification fields
+- MITRE ATT&CK techniques used by each intrusion-set
 """
 
 from __future__ import annotations
@@ -94,11 +92,17 @@ def write_json(path: Path, data: Any) -> None:
 
 
 def normalize_name(name: str) -> str:
-    value = name.casefold().strip()
+    value = str(name or "").casefold().strip()
     value = re.sub(r"[\s_\-./]+", " ", value)
     value = re.sub(r"[^a-z0-9\u3040-\u30ff\u3400-\u9fff ]+", "", value)
     value = re.sub(r"\s+", " ", value).strip()
     return value
+
+
+def strip_markdown_links(text: str) -> str:
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text or "")
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
 
 
 def stable_id(prefix: str, value: str) -> str:
@@ -113,17 +117,31 @@ def external_reference_url(ref: dict[str, Any]) -> str | None:
     return None
 
 
-def get_mitre_group_id(obj: dict[str, Any]) -> str | None:
+def get_mitre_external_id(obj: dict[str, Any], source_name: str) -> str | None:
     for ref in obj.get("external_references", []):
-        if ref.get("source_name") == "mitre-attack" and ref.get("external_id"):
+        if ref.get("source_name") == source_name and ref.get("external_id"):
             return ref["external_id"]
     return None
+
+
+def get_mitre_group_id(obj: dict[str, Any]) -> str | None:
+    return get_mitre_external_id(obj, "mitre-attack")
 
 
 def get_mitre_group_url(group_id: str | None) -> str | None:
     if not group_id:
         return None
     return f"https://attack.mitre.org/groups/{group_id}/"
+
+
+def get_attack_object_url(external_id: str | None) -> str | None:
+    if not external_id:
+        return None
+    if external_id.startswith("T"):
+        return f"https://attack.mitre.org/techniques/{external_id}/"
+    if external_id.startswith("TA"):
+        return f"https://attack.mitre.org/tactics/{external_id}/"
+    return None
 
 
 def split_names(value: Any) -> list[str]:
@@ -163,26 +181,172 @@ def add_name(
     naming_org: str,
     confidence: str,
     source_urls: list[str] | None = None,
+    source_relation: str | None = None,
 ) -> None:
-    clean = name.strip()
+    clean = str(name or "").strip()
     if not clean:
         return
     key = (actor_id, normalize_name(clean), source_id, name_type)
     if key in seen:
         return
     seen.add(key)
-    names.append(
-        {
-            "actor_id": actor_id,
-            "name": clean,
-            "normalized_name": normalize_name(clean),
-            "name_type": name_type,
-            "source_id": source_id,
-            "naming_org": naming_org,
-            "confidence": confidence,
-            "source_urls": sorted(set(source_urls or [])),
-        }
-    )
+
+    item = {
+        "actor_id": actor_id,
+        "name": clean,
+        "normalized_name": normalize_name(clean),
+        "name_type": name_type,
+        "source_id": source_id,
+        "naming_org": naming_org,
+        "confidence": confidence,
+        "source_urls": sorted(set(source_urls or [])),
+    }
+    if source_relation:
+        item["source_relation"] = source_relation
+
+    names.append(item)
+
+
+def add_attribution(
+    attribution_by_actor: dict[str, list[dict[str, Any]]],
+    actor_id: str,
+    attribution_type: str,
+    value: str | None,
+    source_id: str,
+    source_name: str,
+    confidence: str = "source-provided",
+    source_url: str | None = None,
+) -> None:
+    clean = str(value or "").strip()
+    if not clean:
+        return
+
+    item = {
+        "actor_id": actor_id,
+        "type": attribution_type,
+        "value": clean,
+        "source_id": source_id,
+        "source_name": source_name,
+        "confidence": confidence,
+        "source_urls": [source_url] if source_url else [],
+    }
+
+    key = (attribution_type, normalize_name(clean), source_id)
+    existing = {
+        (row.get("type"), normalize_name(row.get("value", "")), row.get("source_id"))
+        for row in attribution_by_actor[actor_id]
+    }
+    if key not in existing:
+        attribution_by_actor[actor_id].append(item)
+
+
+def add_description(
+    descriptions_by_actor: dict[str, list[dict[str, Any]]],
+    actor_id: str,
+    text: str | None,
+    source_id: str,
+    source_name: str,
+    source_url: str | None = None,
+) -> None:
+    clean = strip_markdown_links(str(text or "").strip())
+    if not clean:
+        return
+
+    item = {
+        "actor_id": actor_id,
+        "text": clean,
+        "source_id": source_id,
+        "source_name": source_name,
+        "source_urls": [source_url] if source_url else [],
+    }
+
+    key = (source_id, clean[:120])
+    existing = {(row.get("source_id"), row.get("text", "")[:120]) for row in descriptions_by_actor[actor_id]}
+    if key not in existing:
+        descriptions_by_actor[actor_id].append(item)
+
+
+def build_attack_pattern_maps(mitre_data: dict[str, Any]) -> tuple[dict[str, dict[str, Any]], dict[str, dict[str, Any]]]:
+    attack_patterns: dict[str, dict[str, Any]] = {}
+    tactics: dict[str, dict[str, Any]] = {}
+
+    for obj in mitre_data.get("objects", []):
+        if obj.get("revoked") or obj.get("x_mitre_deprecated"):
+            continue
+
+        obj_type = obj.get("type")
+        if obj_type == "attack-pattern":
+            external_id = get_mitre_external_id(obj, "mitre-attack")
+            phases = []
+            for phase in obj.get("kill_chain_phases", []):
+                phase_name = phase.get("phase_name")
+                if phase_name:
+                    phases.append(phase_name)
+            attack_patterns[obj.get("id")] = {
+                "stix_id": obj.get("id"),
+                "technique_id": external_id,
+                "name": obj.get("name"),
+                "url": get_attack_object_url(external_id),
+                "tactics": sorted(set(phases)),
+            }
+        elif obj_type == "x-mitre-tactic":
+            external_id = get_mitre_external_id(obj, "mitre-attack")
+            shortname = obj.get("x_mitre_shortname")
+            tactics[shortname] = {
+                "tactic_id": external_id,
+                "name": obj.get("name"),
+                "shortname": shortname,
+                "url": get_attack_object_url(external_id),
+            }
+
+    return attack_patterns, tactics
+
+
+def extract_mitre_techniques(mitre_data: dict[str, Any], attack_patterns: dict[str, dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
+    techniques_by_group_stix: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    seen: dict[str, set[tuple[str, str]]] = defaultdict(set)
+
+    for obj in mitre_data.get("objects", []):
+        if obj.get("type") != "relationship":
+            continue
+        if obj.get("revoked") or obj.get("x_mitre_deprecated"):
+            continue
+        if obj.get("relationship_type") != "uses":
+            continue
+
+        source_ref = obj.get("source_ref")
+        target_ref = obj.get("target_ref")
+        if not source_ref or not target_ref:
+            continue
+        if target_ref not in attack_patterns:
+            continue
+
+        technique = attack_patterns[target_ref]
+        key = (technique.get("technique_id") or "", technique.get("name") or "")
+        if key in seen[source_ref]:
+            continue
+        seen[source_ref].add(key)
+
+        references = sorted(
+            {url for ref in obj.get("external_references", []) if (url := external_reference_url(ref))}
+        )
+
+        techniques_by_group_stix[source_ref].append(
+            {
+                "technique_id": technique.get("technique_id"),
+                "name": technique.get("name"),
+                "url": technique.get("url"),
+                "tactics": technique.get("tactics", []),
+                "source_id": "mitre-attack",
+                "source_name": "MITRE ATT&CK",
+                "source_urls": references,
+            }
+        )
+
+    for group_stix_id, rows in techniques_by_group_stix.items():
+        rows.sort(key=lambda item: ((item.get("tactics") or [""])[0], item.get("technique_id") or "", item.get("name") or ""))
+
+    return techniques_by_group_stix
 
 
 def normalize_mitre(
@@ -192,6 +356,10 @@ def normalize_mitre(
     source_links: dict[str, set[str]],
     name_index: dict[str, set[str]],
     seen_names: set[tuple[str, str, str, str]],
+    descriptions_by_actor: dict[str, list[dict[str, Any]]],
+    techniques_by_actor: dict[str, list[dict[str, Any]]],
+    mitre_stix_to_actor_id: dict[str, str],
+    mitre_techniques_by_stix: dict[str, list[dict[str, Any]]],
 ) -> None:
     for obj in mitre_data.get("objects", []):
         if obj.get("type") != "intrusion-set":
@@ -211,11 +379,13 @@ def normalize_mitre(
             references.append(group_url)
             references = sorted(set(references))
 
+        mitre_stix_to_actor_id[obj.get("id")] = actor_id
+
         actors.append(
             {
                 "id": actor_id,
                 "canonical_name": canonical_name,
-                "description": obj.get("description", ""),
+                "description": strip_markdown_links(obj.get("description", "")),
                 "primary_source": "mitre-attack",
                 "mitre_id": group_id,
                 "misp_uuid": None,
@@ -227,9 +397,13 @@ def normalize_mitre(
         )
 
         source_links[actor_id].update(references)
+        add_description(descriptions_by_actor, actor_id, obj.get("description"), "mitre-attack", "MITRE ATT&CK", group_url)
         add_name(names, seen_names, actor_id, canonical_name, "canonical", "mitre-attack", "MITRE ATT&CK", "source-provided", [group_url] if group_url else [])
         for alias in aliases:
             add_name(names, seen_names, actor_id, alias, "alias", "mitre-attack", "MITRE ATT&CK", "source-provided", [group_url] if group_url else [])
+
+        for technique in mitre_techniques_by_stix.get(obj.get("id"), []):
+            techniques_by_actor[actor_id].append(technique)
 
         for value in [canonical_name, *aliases]:
             norm = normalize_name(value)
@@ -270,8 +444,11 @@ def normalize_misp(
     source_links: dict[str, set[str]],
     name_index: dict[str, set[str]],
     seen_names: set[tuple[str, str, str, str]],
+    descriptions_by_actor: dict[str, list[dict[str, Any]]],
+    attribution_by_actor: dict[str, list[dict[str, Any]]],
 ) -> None:
     actor_by_id = {actor["id"]: actor for actor in actors}
+    misp_source_url = "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
 
     for value in misp_data.get("values", []):
         if not isinstance(value, dict):
@@ -284,6 +461,7 @@ def normalize_misp(
         synonyms = [s.strip() for s in meta.get("synonyms", []) if isinstance(s, str) and s.strip()]
         refs = [r.strip() for r in meta.get("refs", []) if isinstance(r, str) and r.strip()]
         country = meta.get("country")
+        motivation = meta.get("motivation")
         uuid = value.get("uuid")
 
         actor_id = choose_existing_actor_for_misp_record(actor_name, synonyms, actors, name_index)
@@ -299,7 +477,7 @@ def normalize_misp(
                 actor = {
                     "id": actor_id,
                     "canonical_name": actor_name,
-                    "description": value.get("description", ""),
+                    "description": strip_markdown_links(value.get("description", "")),
                     "primary_source": "misp-galaxy",
                     "mitre_id": None,
                     "misp_uuid": uuid,
@@ -314,6 +492,22 @@ def normalize_misp(
                 actor_by_id[actor_id] = actor
 
         source_links[actor_id].update(refs)
+        add_description(descriptions_by_actor, actor_id, value.get("description"), "misp-galaxy", "MISP Galaxy", misp_source_url)
+
+        if country:
+            if isinstance(country, list):
+                for row in country:
+                    add_attribution(attribution_by_actor, actor_id, "country", str(row), "misp-galaxy", "MISP Galaxy", source_url=misp_source_url)
+            else:
+                add_attribution(attribution_by_actor, actor_id, "country", str(country), "misp-galaxy", "MISP Galaxy", source_url=misp_source_url)
+
+        if motivation:
+            if isinstance(motivation, list):
+                for row in motivation:
+                    add_attribution(attribution_by_actor, actor_id, "motivation", str(row), "misp-galaxy", "MISP Galaxy", source_url=misp_source_url)
+            else:
+                add_attribution(attribution_by_actor, actor_id, "motivation", str(motivation), "misp-galaxy", "MISP Galaxy", source_url=misp_source_url)
+
         add_name(names, seen_names, actor_id, actor_name, "canonical" if actor_by_id[actor_id]["primary_source"] == "misp-galaxy" else "alias", "misp-galaxy", "MISP Galaxy", "source-provided", refs)
         for synonym in synonyms:
             add_name(names, seen_names, actor_id, synonym, "alias", "misp-galaxy", "MISP Galaxy", "source-provided", refs)
@@ -331,6 +525,7 @@ def normalize_microsoft(
     source_links: dict[str, set[str]],
     name_index: dict[str, set[str]],
     seen_names: set[tuple[str, str, str, str]],
+    attribution_by_actor: dict[str, list[dict[str, Any]]],
 ) -> list[dict[str, Any]]:
     actor_by_id = {actor["id"]: actor for actor in actors}
     review_candidates: list[dict[str, Any]] = []
@@ -369,15 +564,24 @@ def normalize_microsoft(
         actor["source_ids"] = sorted(set(actor.get("source_ids", [])) | {"microsoft-threat-actor-naming"})
         if origin:
             actor.setdefault("microsoft_origin_or_threat", origin)
+            add_attribution(
+                attribution_by_actor,
+                actor_id,
+                "microsoft_origin_or_threat",
+                origin,
+                "microsoft-threat-actor-naming",
+                "Microsoft",
+                source_url=MICROSOFT_MAPPING_URL,
+            )
 
         source_links[actor_id].update(source_urls)
 
         if new_name:
-            add_name(names, seen_names, actor_id, new_name, "vendor_name", "microsoft-threat-actor-naming", "Microsoft", "source-provided", source_urls)
+            add_name(names, seen_names, actor_id, new_name, "vendor_name", "microsoft-threat-actor-naming", "Microsoft", "source-provided", source_urls, "current_name")
         if previous_name:
-            add_name(names, seen_names, actor_id, previous_name, "former", "microsoft-threat-actor-naming", "Microsoft", "source-provided", source_urls)
+            add_name(names, seen_names, actor_id, previous_name, "former", "microsoft-threat-actor-naming", "Microsoft", "source-provided", source_urls, "previous_name")
         for other_name in other_names:
-            add_name(names, seen_names, actor_id, other_name, "alias", "microsoft-threat-actor-naming", "Microsoft", "source-provided", source_urls)
+            add_name(names, seen_names, actor_id, other_name, "alias", "microsoft-threat-actor-naming", "Microsoft", "source-provided", source_urls, "other_name")
 
         for candidate_name in candidate_names:
             norm = normalize_name(candidate_name)
@@ -442,12 +646,38 @@ def deduplicate_names(names: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return list(deduped.values())
 
 
+def remap_actor_ids(rows_by_actor: dict[str, list[dict[str, Any]]], actor_redirect: dict[str, str]) -> dict[str, list[dict[str, Any]]]:
+    new_rows: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for actor_id, rows in rows_by_actor.items():
+        new_actor_id = actor_redirect.get(actor_id, actor_id)
+        for row in rows:
+            copied = dict(row)
+            copied["actor_id"] = new_actor_id
+            new_rows[new_actor_id].append(copied)
+    return new_rows
+
+
+def dedupe_profile_rows(rows: list[dict[str, Any]], key_fields: list[str]) -> list[dict[str, Any]]:
+    seen = set()
+    out = []
+    for row in rows:
+        key = tuple(normalize_name(str(row.get(field, ""))) for field in key_fields)
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(row)
+    return out
+
+
 def consolidate_duplicate_actors(
     actors: list[dict[str, Any]],
     names: list[dict[str, Any]],
     source_links: dict[str, set[str]],
     review_candidates: list[dict[str, Any]],
-) -> tuple[list[dict[str, Any]], list[dict[str, Any]], dict[str, set[str]], list[dict[str, Any]]]:
+    descriptions_by_actor: dict[str, list[dict[str, Any]]],
+    attribution_by_actor: dict[str, list[dict[str, Any]]],
+    techniques_by_actor: dict[str, list[dict[str, Any]]],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], dict[str, set[str]], list[dict[str, Any]], dict[str, list[dict[str, Any]]], dict[str, list[dict[str, Any]]], dict[str, list[dict[str, Any]]]]:
     by_canonical: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for actor in actors:
         canonical_norm = normalize_name(actor.get("canonical_name", ""))
@@ -484,7 +714,7 @@ def consolidate_duplicate_actors(
 
     if not actor_redirect:
         write_json(OUT_DIR / "dedup-report.json", [])
-        return actors, names, source_links, review_candidates
+        return actors, names, source_links, review_candidates, descriptions_by_actor, attribution_by_actor, techniques_by_actor
 
     new_actors = [actor for actor in actors if actor["id"] not in actor_redirect]
 
@@ -501,10 +731,14 @@ def consolidate_duplicate_actors(
         redirected_ids = sorted({actor_redirect.get(actor_id, actor_id) for actor_id in candidate.get("candidate_actor_ids", [])})
         candidate["candidate_actor_ids"] = redirected_ids
 
+    descriptions_by_actor = remap_actor_ids(descriptions_by_actor, actor_redirect)
+    attribution_by_actor = remap_actor_ids(attribution_by_actor, actor_redirect)
+    techniques_by_actor = remap_actor_ids(techniques_by_actor, actor_redirect)
+
     names = deduplicate_names(names)
     write_json(OUT_DIR / "dedup-report.json", duplicate_report)
 
-    return new_actors, names, new_source_links, review_candidates
+    return new_actors, names, new_source_links, review_candidates, descriptions_by_actor, attribution_by_actor, techniques_by_actor
 
 
 def build_references(actors: list[dict[str, Any]], source_links: dict[str, set[str]]) -> list[dict[str, Any]]:
@@ -537,14 +771,41 @@ def main() -> int:
     misp_data = load_json(RAW_DIR / "misp" / "latest.json")
     microsoft_records = load_microsoft_mapping(RAW_DIR / "microsoft" / "latest.json")
 
+    attack_patterns, tactics = build_attack_pattern_maps(mitre_data)
+    mitre_techniques_by_stix = extract_mitre_techniques(mitre_data, attack_patterns)
+
     actors: list[dict[str, Any]] = []
     names: list[dict[str, Any]] = []
     source_links: dict[str, set[str]] = defaultdict(set)
     name_index: dict[str, set[str]] = defaultdict(set)
     seen_names: set[tuple[str, str, str, str]] = set()
+    descriptions_by_actor: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    attribution_by_actor: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    techniques_by_actor: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    mitre_stix_to_actor_id: dict[str, str] = {}
 
-    normalize_mitre(mitre_data, actors, names, source_links, name_index, seen_names)
-    normalize_misp(misp_data, actors, names, source_links, name_index, seen_names)
+    normalize_mitre(
+        mitre_data,
+        actors,
+        names,
+        source_links,
+        name_index,
+        seen_names,
+        descriptions_by_actor,
+        techniques_by_actor,
+        mitre_stix_to_actor_id,
+        mitre_techniques_by_stix,
+    )
+    normalize_misp(
+        misp_data,
+        actors,
+        names,
+        source_links,
+        name_index,
+        seen_names,
+        descriptions_by_actor,
+        attribution_by_actor,
+    )
     microsoft_review_candidates = normalize_microsoft(
         microsoft_records,
         actors,
@@ -552,24 +813,46 @@ def main() -> int:
         source_links,
         name_index,
         seen_names,
+        attribution_by_actor,
     )
 
-    actors, names, source_links, microsoft_review_candidates = consolidate_duplicate_actors(
+    actors, names, source_links, microsoft_review_candidates, descriptions_by_actor, attribution_by_actor, techniques_by_actor = consolidate_duplicate_actors(
         actors,
         names,
         source_links,
         microsoft_review_candidates,
+        descriptions_by_actor,
+        attribution_by_actor,
+        techniques_by_actor,
     )
 
     actors = sorted(actors, key=lambda item: (item["canonical_name"].casefold(), item["id"]))
     names = sorted(names, key=lambda item: (item["normalized_name"], item["actor_id"], item["source_id"], item["name_type"]))
     references = build_references(actors, source_links)
 
+    descriptions = []
+    attribution = []
+    techniques = []
+
+    for actor in actors:
+        actor_id = actor["id"]
+        descriptions.extend(dedupe_profile_rows(descriptions_by_actor.get(actor_id, []), ["source_id", "text"]))
+        attribution.extend(dedupe_profile_rows(attribution_by_actor.get(actor_id, []), ["type", "value", "source_id"]))
+        techniques.extend(dedupe_profile_rows(techniques_by_actor.get(actor_id, []), ["technique_id", "name", "source_id"]))
+
+    descriptions.sort(key=lambda item: (item["actor_id"], item["source_id"]))
+    attribution.sort(key=lambda item: (item["actor_id"], item["type"], item["value"]))
+    techniques.sort(key=lambda item: (item["actor_id"], (item.get("tactics") or [""])[0], item.get("technique_id") or "", item.get("name") or ""))
+
     write_json(OUT_DIR / "actors.json", actors)
     write_json(OUT_DIR / "names.json", names)
     write_json(OUT_DIR / "relations.json", [])
     write_json(OUT_DIR / "references.json", references)
     write_json(OUT_DIR / "review-candidates.json", microsoft_review_candidates)
+    write_json(OUT_DIR / "descriptions.json", descriptions)
+    write_json(OUT_DIR / "attribution.json", attribution)
+    write_json(OUT_DIR / "techniques.json", techniques)
+    write_json(OUT_DIR / "tactics.json", tactics)
 
     dedup_report_path = OUT_DIR / "dedup-report.json"
     dedup_count = 0
@@ -581,6 +864,7 @@ def main() -> int:
 
     print(
         f"Normalized {len(actors)} actors, {len(names)} names, {len(references)} references, "
+        f"{len(descriptions)} descriptions, {len(attribution)} attribution rows, {len(techniques)} technique rows, "
         f"{len(microsoft_review_candidates)} Microsoft review candidates, {dedup_count} duplicate actor groups merged"
     )
     return 0
