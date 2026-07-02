@@ -41,7 +41,7 @@ def fetch_text(url: str) -> str:
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "threat-actor-alias-db/0.2 (+https://github.com/piyokango/threat-actor-alias-db)"
+            "User-Agent": "threat-actor-alias-db/0.4 (+https://github.com/piyokango/threat-actor-alias-db)"
         },
     )
     try:

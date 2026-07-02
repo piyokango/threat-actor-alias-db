@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
 """Build the public static search index.
 
-This script also performs presentation-layer consolidation so the public UI does
-not show duplicate cards when normalized data still contains duplicate actors.
+This script performs presentation-layer consolidation so the public UI does not
+show duplicate actor cards or duplicate alias rows.
 
 Rules:
 - Merge actors with the same normalized canonical name into one public card.
 - Prefer MITRE actors as the representative actor ID and metadata.
 - Merge source IDs, naming sources, names, and references.
-- Canonicalize reference URLs so variants such as
-  https://attack.mitre.org/groups/G0007 and
-  https://attack.mitre.org/groups/G0007/ are displayed once.
+- Merge identical names across sources into one row.
+- Canonicalize reference URLs so trailing slash variants are displayed once.
 """
 
 from __future__ import annotations
@@ -28,6 +27,15 @@ ROOT = Path(__file__).resolve().parents[1]
 NORMALIZED_DIR = ROOT / "data" / "normalized"
 PUBLIC_DIR = ROOT / "data" / "public"
 DOCS_DATA_DIR = ROOT / "docs" / "data"
+
+
+NAME_TYPE_PRIORITY = {
+    "canonical": 0,
+    "vendor_name": 1,
+    "former": 2,
+    "alias": 3,
+    "temporary_cluster": 4,
+}
 
 
 def load_json(path: Path) -> Any:
@@ -50,15 +58,6 @@ def normalize_text(value: str) -> str:
 
 
 def canonicalize_url(url: str) -> str:
-    """Return a display-stable URL for de-duplication.
-
-    The intent is not to rewrite all URLs aggressively. It only removes common
-    presentation duplicates:
-    - lower-case scheme and host
-    - remove fragments
-    - remove tracking query parameters
-    - remove trailing slash from non-root paths
-    """
     raw = str(url or "").strip()
     if not raw:
         return raw
@@ -89,7 +88,7 @@ def canonicalize_url(url: str) -> str:
     return urlunsplit((scheme, netloc, path, query, ""))
 
 
-def actor_preference(actor: dict[str, Any]) -> tuple[int, str]:
+def actor_preference(actor: dict[str, Any]) -> tuple[int, int, str]:
     source = actor.get("primary_source")
     if source == "mitre-attack":
         source_score = 0
@@ -107,7 +106,6 @@ def merge_actor_group(group: list[dict[str, Any]]) -> dict[str, Any]:
     merged = dict(representative)
 
     source_ids = set()
-    naming_sources = set()
     actor_ids = []
 
     for actor in group:
@@ -130,40 +128,97 @@ def merge_actor_group(group: list[dict[str, Any]]) -> dict[str, Any]:
     return merged
 
 
-def dedupe_names(names: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    deduped: dict[tuple[str, str, str, str], dict[str, Any]] = {}
+def choose_display_name(candidates: list[str], normalized_name: str) -> str:
+    cleaned = [str(value).strip() for value in candidates if str(value).strip()]
+    if not cleaned:
+        return normalized_name
+
+    mixed_case = [value for value in cleaned if any(ch.islower() for ch in value)]
+    pool = mixed_case or cleaned
+
+    return sorted(pool, key=lambda value: (len(value), value.casefold(), value))[0]
+
+
+def aggregate_names(names: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
 
     for item in names:
         normalized_name = item.get("normalized_name") or normalize_text(item.get("name", ""))
-        key = (
-            normalized_name,
-            item.get("naming_org") or item.get("source_id") or "",
-            item.get("source_id") or "",
-            item.get("name_type") or "",
+        if not normalized_name:
+            continue
+        copied = dict(item)
+        copied["normalized_name"] = normalized_name
+        grouped[normalized_name].append(copied)
+
+    aggregated: list[dict[str, Any]] = []
+
+    for normalized_name, items in grouped.items():
+        display_name = choose_display_name([item.get("name", "") for item in items], normalized_name)
+
+        name_types = sorted(
+            {item.get("name_type") or "alias" for item in items},
+            key=lambda value: NAME_TYPE_PRIORITY.get(value, 99),
+        )
+        primary_name_type = name_types[0] if name_types else "alias"
+
+        sources_by_org: dict[str, dict[str, Any]] = {}
+        source_urls = set()
+        source_ids = set()
+
+        for item in items:
+            org = item.get("naming_org") or item.get("source_id") or "Unknown"
+            source_id = item.get("source_id") or org
+            source_ids.add(source_id)
+
+            entry = sources_by_org.setdefault(
+                org,
+                {
+                    "naming_org": org,
+                    "source_ids": set(),
+                    "name_types": set(),
+                    "source_urls": set(),
+                },
+            )
+            entry["source_ids"].add(source_id)
+            entry["name_types"].add(item.get("name_type") or "alias")
+
+            for url in item.get("source_urls", []):
+                canonical_url = canonicalize_url(url)
+                if canonical_url:
+                    entry["source_urls"].add(canonical_url)
+                    source_urls.add(canonical_url)
+
+        sources = []
+        for org, source in sources_by_org.items():
+            sources.append(
+                {
+                    "naming_org": org,
+                    "source_ids": sorted(source["source_ids"]),
+                    "name_types": sorted(source["name_types"], key=lambda value: NAME_TYPE_PRIORITY.get(value, 99)),
+                    "source_urls": sorted(source["source_urls"]),
+                }
+            )
+
+        sources = sorted(sources, key=lambda item: item["naming_org"].casefold())
+
+        aggregated.append(
+            {
+                "name": display_name,
+                "normalized_name": normalized_name,
+                "name_type": primary_name_type,
+                "name_types": name_types,
+                "source_id": ",".join(sorted(source_ids)),
+                "naming_org": ", ".join(source["naming_org"] for source in sources),
+                "sources": sources,
+                "confidence": "source-provided",
+                "source_urls": sorted(source_urls),
+            }
         )
 
-        source_urls = [canonicalize_url(url) for url in item.get("source_urls", []) if url]
-        source_urls = sorted({url for url in source_urls if url})
-
-        if key not in deduped:
-            copied = dict(item)
-            copied["normalized_name"] = normalized_name
-            copied["source_urls"] = source_urls
-            deduped[key] = copied
-            continue
-
-        existing = deduped[key]
-        existing["source_urls"] = sorted(set(existing.get("source_urls", [])) | set(source_urls))
-
-        # Prefer shorter/canonical-looking display if duplicate differs only by case/punctuation.
-        if len(str(item.get("name", ""))) < len(str(existing.get("name", ""))):
-            existing["name"] = item.get("name", existing.get("name"))
-
     return sorted(
-        deduped.values(),
+        aggregated,
         key=lambda item: (
-            item.get("naming_org") or "",
-            item.get("name_type") or "",
+            NAME_TYPE_PRIORITY.get(item.get("name_type"), 99),
             normalize_text(item.get("name", "")),
         ),
     )
@@ -180,10 +235,16 @@ def dedupe_references(references: list[dict[str, Any]]) -> list[dict[str, Any]]:
         if canonical_url not in deduped:
             copied = dict(ref)
             copied["url"] = canonical_url
+            copied["source_ids"] = sorted({ref.get("source_id")} if ref.get("source_id") else set())
             deduped[canonical_url] = copied
             continue
 
         existing = deduped[canonical_url]
+        source_ids = set(existing.get("source_ids", []))
+        if ref.get("source_id"):
+            source_ids.add(ref.get("source_id"))
+        existing["source_ids"] = sorted(source_ids)
+
         if existing.get("source_id") == "external-reference" and ref.get("source_id"):
             existing["source_id"] = ref.get("source_id")
 
@@ -236,12 +297,28 @@ def main() -> int:
     index = []
     for actor in public_actors:
         actor_id = actor["actor_id"]
-        actor_names = dedupe_names(names_by_public_actor.get(actor_id, []))
+        actor_names = aggregate_names(names_by_public_actor.get(actor_id, []))
         actor_refs = dedupe_references(refs_by_public_actor.get(actor_id, []))
 
         search_names = sorted({item["name"] for item in actor_names if item.get("name")}, key=str.casefold)
-        naming_sources = sorted({item["naming_org"] for item in actor_names if item.get("naming_org")})
-        source_ids = sorted(set(actor.get("source_ids", [])) | {item.get("source_id") for item in actor_refs if item.get("source_id")})
+        naming_sources = sorted(
+            {
+                source["naming_org"]
+                for item in actor_names
+                for source in item.get("sources", [])
+                if source.get("naming_org")
+            }
+        )
+        source_ids = sorted(
+            set(actor.get("source_ids", []))
+            | {
+                source_id
+                for item in actor_names
+                for source in item.get("sources", [])
+                for source_id in source.get("source_ids", [])
+            }
+            | {source_id for ref in actor_refs for source_id in ref.get("source_ids", [])}
+        )
 
         index.append(
             {

@@ -3,12 +3,10 @@
 
 The merge logic is intentionally conservative:
 - MITRE records become primary actors when available.
-- MISP records are merged into a MITRE actor only on exact normalized name/alias match.
+- MISP records are merged into an existing actor on exact normalized canonical name match or a single exact name/alias match.
 - Microsoft records are added as vendor names when exactly one existing actor can be matched.
 - Otherwise, Microsoft records are emitted as review candidates rather than automatically creating same-as mappings.
-
-A final de-duplication pass merges records with the same normalized canonical name.
-This fixes cases such as "Lazarus Group" appearing as separate MITRE and MISP cards.
+- A final narrow de-duplication pass merges records with the same normalized canonical name.
 """
 
 from __future__ import annotations
@@ -72,7 +70,6 @@ def load_microsoft_mapping(path: Path) -> list[dict[str, Any]]:
         try:
             obj, end = decoder.raw_decode(text, idx)
         except json.JSONDecodeError:
-            # Fall back to line-oriented parsing for malformed fragments.
             for line in text.splitlines():
                 line = line.strip()
                 if not line:
@@ -146,7 +143,6 @@ def split_names(value: Any) -> list[str]:
             if cleaned:
                 names.append(cleaned)
 
-    # Preserve order while removing duplicates.
     seen = set()
     output = []
     for name in names:
@@ -247,13 +243,6 @@ def choose_existing_actor_for_misp_record(
     actors: list[dict[str, Any]],
     name_index: dict[str, set[str]],
 ) -> str | None:
-    """Choose an existing actor for a MISP record.
-
-    Priority:
-    1. Exact normalized canonical name match.
-    2. Single exact name/alias match across all candidate names.
-    3. Otherwise None, so a separate MISP actor is created and later de-dup can still merge exact canonical duplicates.
-    """
     norm_actor_name = normalize_name(actor_name)
 
     canonical_matches = [
@@ -398,8 +387,7 @@ def normalize_microsoft(
     return review_candidates
 
 
-def actor_preference(actor: dict[str, Any]) -> tuple[int, str]:
-    """Lower score is preferred as the surviving actor."""
+def actor_preference(actor: dict[str, Any]) -> tuple[int, int, str]:
     source = actor.get("primary_source")
     if source == "mitre-attack":
         source_score = 0
@@ -409,7 +397,7 @@ def actor_preference(actor: dict[str, Any]) -> tuple[int, str]:
         source_score = 2
 
     mitre_bonus = 0 if actor.get("mitre_id") else 1
-    return (source_score + mitre_bonus, actor.get("id", ""))
+    return (source_score, mitre_bonus, actor.get("id", ""))
 
 
 def merge_actor_metadata(target: dict[str, Any], duplicate: dict[str, Any]) -> None:
@@ -460,12 +448,6 @@ def consolidate_duplicate_actors(
     source_links: dict[str, set[str]],
     review_candidates: list[dict[str, Any]],
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], dict[str, set[str]], list[dict[str, Any]]]:
-    """Merge actors with the same normalized canonical name.
-
-    This is intentionally narrow. It does not merge arbitrary alias overlaps.
-    It only merges records whose canonical names normalize to the same value.
-    MITRE records are preferred as the surviving actor when present.
-    """
     by_canonical: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for actor in actors:
         canonical_norm = normalize_name(actor.get("canonical_name", ""))
@@ -501,6 +483,7 @@ def consolidate_duplicate_actors(
         )
 
     if not actor_redirect:
+        write_json(OUT_DIR / "dedup-report.json", [])
         return actors, names, source_links, review_candidates
 
     new_actors = [actor for actor in actors if actor["id"] not in actor_redirect]
