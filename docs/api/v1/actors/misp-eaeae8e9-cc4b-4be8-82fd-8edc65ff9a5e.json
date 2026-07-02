@@ -1,0 +1,137 @@
+{
+  "actor": {
+    "actor_id": "misp-eaeae8e9-cc4b-4be8-82fd-8edc65ff9a5e",
+    "canonical_name": "Yanbian Gang",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-eaeae8e9-cc4b-4be8-82fd-8edc65ff9a5e"
+    ],
+    "misp_uuid": "eaeae8e9-cc4b-4be8-82fd-8edc65ff9a5e",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "yanbiangang",
+        "confidence": "source-provided",
+        "display_group_key": "yanbiangang",
+        "name": "Yanbian Gang",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "yanbian gang",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/mobile-malware-gang-steals-millions-from-south-korean-users",
+          "https://www.riskiq.com/blog/external-threat-management/yanbian-gang-malware-distribution",
+          "https://www.trendmicro.com/en_us/research/18/d/xloader-android-spyware-and-banking-trojan-distributed-via-dns-spoofing.html",
+          "https://www.trendmicro.com/en_us/research/18/f/fakespy-android-information-stealing-malware-targets-japanese-and-korean-speaking-users.html",
+          "https://www.trendmicro.com/en_us/research/18/k/a-look-into-the-connection-between-xloader-and-fakespy-and-their-possible-ties-with-the-yanbian-gang.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/mobile-malware-gang-steals-millions-from-south-korean-users",
+              "https://www.riskiq.com/blog/external-threat-management/yanbian-gang-malware-distribution",
+              "https://www.trendmicro.com/en_us/research/18/d/xloader-android-spyware-and-banking-trojan-distributed-via-dns-spoofing.html",
+              "https://www.trendmicro.com/en_us/research/18/f/fakespy-android-information-stealing-malware-targets-japanese-and-korean-speaking-users.html",
+              "https://www.trendmicro.com/en_us/research/18/k/a-look-into-the-connection-between-xloader-and-fakespy-and-their-possible-ties-with-the-yanbian-gang.html"
+            ]
+          }
+        ],
+        "variants": [
+          "Yanbian Gang"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "RiskIQ characterizes the Yanbian Gang as a group that targeted South Korean Android mobile banking customers since 2013 with malicious Android apps purporting to be from major banks, namely Shinhan Savings Bank, Saemaul Geumgo, Shinhan Finance, KB Kookmin Bank, and NH Savings Bank."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-eaeae8e9-cc4b-4be8-82fd-8edc65ff9a5e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/mobile-malware-gang-steals-millions-from-south-korean-users"
+      },
+      {
+        "actor_id": "misp-eaeae8e9-cc4b-4be8-82fd-8edc65ff9a5e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.riskiq.com/blog/external-threat-management/yanbian-gang-malware-distribution"
+      },
+      {
+        "actor_id": "misp-eaeae8e9-cc4b-4be8-82fd-8edc65ff9a5e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/18/d/xloader-android-spyware-and-banking-trojan-distributed-via-dns-spoofing.html"
+      },
+      {
+        "actor_id": "misp-eaeae8e9-cc4b-4be8-82fd-8edc65ff9a5e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/18/f/fakespy-android-information-stealing-malware-targets-japanese-and-korean-speaking-users.html"
+      },
+      {
+        "actor_id": "misp-eaeae8e9-cc4b-4be8-82fd-8edc65ff9a5e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/18/k/a-look-into-the-connection-between-xloader-and-fakespy-and-their-possible-ties-with-the-yanbian-gang.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Yanbian Gang"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

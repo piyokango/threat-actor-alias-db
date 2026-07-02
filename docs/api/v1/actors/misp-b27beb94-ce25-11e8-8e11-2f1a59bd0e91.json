@@ -1,0 +1,132 @@
+{
+  "actor": {
+    "actor_id": "misp-b27beb94-ce25-11e8-8e11-2f1a59bd0e91",
+    "canonical_name": "Roaming Mantis",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-b27beb94-ce25-11e8-8e11-2f1a59bd0e91"
+    ],
+    "misp_uuid": "b27beb94-ce25-11e8-8e11-2f1a59bd0e91",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "roamingmantis",
+        "confidence": "source-provided",
+        "display_group_key": "roamingmantis",
+        "name": "Roaming Mantis",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "roaming mantis",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/roaming-mantis-group-testing-coinhive-miner-redirects-on-iphones"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.bleepingcomputer.com/news/security/roaming-mantis-group-testing-coinhive-miner-redirects-on-iphones"
+            ]
+          }
+        ],
+        "variants": [
+          "Roaming Mantis"
+        ]
+      },
+      {
+        "compact_normalized_name": "roamingmantisgroup",
+        "confidence": "source-provided",
+        "display_group_key": "roamingmantisgroup",
+        "name": "Roaming Mantis Group",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "roaming mantis group",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/roaming-mantis-group-testing-coinhive-miner-redirects-on-iphones"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.bleepingcomputer.com/news/security/roaming-mantis-group-testing-coinhive-miner-redirects-on-iphones"
+            ]
+          }
+        ],
+        "variants": [
+          "Roaming Mantis Group"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "According to new research by Kaspersky's GReAT team, the online criminal activities of the Roaming Mantis Group have continued to evolve since they were first discovered in April 2018. As part of their activities, this group hacks into exploitable routers and changes their DNS configuration. This allows the attackers to redirect the router user's traffic to malicious Android apps disguised as Facebook and Chrome or to Apple phishing pages that were used to steal Apple ID credentials. Recently, Kaspersky has discovered that this group is testing a new monetization scheme by redirecting iOS users to pages that contain the Coinhive in-browser mining script rather than the normal Apple phishing..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-b27beb94-ce25-11e8-8e11-2f1a59bd0e91",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bleepingcomputer.com/news/security/roaming-mantis-group-testing-coinhive-miner-redirects-on-iphones"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Roaming Mantis",
+      "Roaming Mantis Group"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

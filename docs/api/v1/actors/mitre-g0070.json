@@ -1,0 +1,706 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0070",
+    "canonical_name": "Dark Caracal",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0070"
+    ],
+    "misp_uuid": "3d449c83-4426-431a-b06a-cb4f8a0fca94",
+    "mitre_id": "G0070",
+    "names": [
+      {
+        "compact_normalized_name": "darkcaracal",
+        "confidence": "source-provided",
+        "display_group_key": "darkcaracal",
+        "name": "Dark Caracal",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "dark caracal",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0070",
+          "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf",
+          "https://research.checkpoint.com/2020/bandook-signed-delivered"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0070",
+              "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf",
+              "https://research.checkpoint.com/2020/bandook-signed-delivered"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0070"
+            ]
+          }
+        ],
+        "variants": [
+          "Dark Caracal"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0070",
+        "confidence": "source-provided",
+        "display_group_key": "g0070",
+        "name": "G0070",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0070",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0070",
+          "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf",
+          "https://research.checkpoint.com/2020/bandook-signed-delivered"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0070",
+              "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf",
+              "https://research.checkpoint.com/2020/bandook-signed-delivered"
+            ]
+          }
+        ],
+        "variants": [
+          "G0070"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0070",
+          "name": "Software Packing",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.002",
+          "url": "https://attack.mitre.org/techniques/T1027.002/"
+        },
+        {
+          "actor_id": "mitre-g0070",
+          "name": "Encrypted/Encoded File",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.013",
+          "url": "https://attack.mitre.org/techniques/T1027.013/"
+        },
+        {
+          "actor_id": "mitre-g0070",
+          "name": "Compiled HTML File",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1218.001",
+          "url": "https://attack.mitre.org/techniques/T1218.001/"
+        },
+        {
+          "actor_id": "mitre-g0070",
+          "name": "Data from Local System",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+          ],
+          "tactics": [
+            "collection"
+          ],
+          "technique_id": "T1005",
+          "url": "https://attack.mitre.org/techniques/T1005/"
+        },
+        {
+          "actor_id": "mitre-g0070",
+          "name": "Windows Command Shell",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.003",
+          "url": "https://attack.mitre.org/techniques/T1059.003/"
+        },
+        {
+          "actor_id": "mitre-g0070",
+          "name": "Screen Capture",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+          ],
+          "tactics": [
+            "collection"
+          ],
+          "technique_id": "T1113",
+          "url": "https://attack.mitre.org/techniques/T1113/"
+        },
+        {
+          "actor_id": "mitre-g0070",
+          "name": "Drive-by Compromise",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+          ],
+          "tactics": [
+            "initial-access"
+          ],
+          "technique_id": "T1189",
+          "url": "https://attack.mitre.org/techniques/T1189/"
+        },
+        {
+          "actor_id": "mitre-g0070",
+          "name": "Malicious File",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1204.002",
+          "url": "https://attack.mitre.org/techniques/T1204.002/"
+        },
+        {
+          "actor_id": "mitre-g0070",
+          "name": "Spearphishing via Service",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+          ],
+          "tactics": [
+            "initial-access"
+          ],
+          "technique_id": "T1566.003",
+          "url": "https://attack.mitre.org/techniques/T1566.003/"
+        },
+        {
+          "actor_id": "mitre-g0070",
+          "name": "Web Protocols",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1071.001",
+          "url": "https://attack.mitre.org/techniques/T1071.001/"
+        },
+        {
+          "actor_id": "mitre-g0070",
+          "name": "File and Directory Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1083",
+          "url": "https://attack.mitre.org/techniques/T1083/"
+        },
+        {
+          "actor_id": "mitre-g0070",
+          "name": "Registry Run Keys / Startup Folder",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+          ],
+          "tactics": [
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1547.001",
+          "url": "https://attack.mitre.org/techniques/T1547.001/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0070",
+              "name": "Software Packing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.002",
+              "url": "https://attack.mitre.org/techniques/T1027.002/"
+            },
+            {
+              "actor_id": "mitre-g0070",
+              "name": "Encrypted/Encoded File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.013",
+              "url": "https://attack.mitre.org/techniques/T1027.013/"
+            },
+            {
+              "actor_id": "mitre-g0070",
+              "name": "Compiled HTML File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.001",
+              "url": "https://attack.mitre.org/techniques/T1218.001/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0070",
+              "name": "Data from Local System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1005",
+              "url": "https://attack.mitre.org/techniques/T1005/"
+            },
+            {
+              "actor_id": "mitre-g0070",
+              "name": "Screen Capture",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1113",
+              "url": "https://attack.mitre.org/techniques/T1113/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0070",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            },
+            {
+              "actor_id": "mitre-g0070",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0070",
+              "name": "Drive-by Compromise",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1189",
+              "url": "https://attack.mitre.org/techniques/T1189/"
+            },
+            {
+              "actor_id": "mitre-g0070",
+              "name": "Spearphishing via Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.003",
+              "url": "https://attack.mitre.org/techniques/T1566.003/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0070",
+              "name": "Web Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.001",
+              "url": "https://attack.mitre.org/techniques/T1071.001/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0070",
+              "name": "File and Directory Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1083",
+              "url": "https://attack.mitre.org/techniques/T1083/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0070",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0070",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 3,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 2,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 2,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 2,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 1,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 1,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 1,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        }
+      ],
+      "total": 12
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0070/"
+          ]
+        }
+      ],
+      "text": "Dark Caracal is threat group that has been attributed to the Lebanese General Directorate of General Security (GDGS) and has operated since at least 2012. (Citation: Lookout Dark Caracal Jan 2018)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0070",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0070"
+      },
+      {
+        "actor_id": "mitre-g0070",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+      },
+      {
+        "actor_id": "mitre-g0070",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.checkpoint.com/2020/bandook-signed-delivered"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "LB",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "LB"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "LB",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "LB"
+        }
+      ]
+    },
+    "search_names": [
+      "Dark Caracal",
+      "G0070"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

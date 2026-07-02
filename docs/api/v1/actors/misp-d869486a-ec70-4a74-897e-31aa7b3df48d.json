@@ -1,0 +1,195 @@
+{
+  "actor": {
+    "actor_id": "misp-d869486a-ec70-4a74-897e-31aa7b3df48d",
+    "canonical_name": "UAC-0118",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-d869486a-ec70-4a74-897e-31aa7b3df48d"
+    ],
+    "misp_uuid": "d869486a-ec70-4a74-897e-31aa7b3df48d",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "uac0118",
+        "confidence": "source-provided",
+        "display_group_key": "uac0118",
+        "name": "UAC-0118",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uac 0118",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://outpost24.com/blog/ics-attack-classifications",
+          "https://socprime.com/blog/somnia-malware-detection-uac-0118-aka-frwl-launches-cyber-attacks-against-organizations-in-ukraine-using-enhanced-malware-strains",
+          "https://spixnet.at/cybersecurity-blog/2022/11/15/russian-hacktivists-hit-ukrainian-orgs-with-ransomware-but-no-ransom-demands"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://outpost24.com/blog/ics-attack-classifications",
+              "https://socprime.com/blog/somnia-malware-detection-uac-0118-aka-frwl-launches-cyber-attacks-against-organizations-in-ukraine-using-enhanced-malware-strains",
+              "https://spixnet.at/cybersecurity-blog/2022/11/15/russian-hacktivists-hit-ukrainian-orgs-with-ransomware-but-no-ransom-demands"
+            ]
+          }
+        ],
+        "variants": [
+          "UAC-0118"
+        ]
+      },
+      {
+        "compact_normalized_name": "fromrussiawithlove",
+        "confidence": "source-provided",
+        "display_group_key": "fromrussiawithlove",
+        "name": "FromRussiaWithLove",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "fromrussiawithlove",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://outpost24.com/blog/ics-attack-classifications",
+          "https://socprime.com/blog/somnia-malware-detection-uac-0118-aka-frwl-launches-cyber-attacks-against-organizations-in-ukraine-using-enhanced-malware-strains",
+          "https://spixnet.at/cybersecurity-blog/2022/11/15/russian-hacktivists-hit-ukrainian-orgs-with-ransomware-but-no-ransom-demands"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://outpost24.com/blog/ics-attack-classifications",
+              "https://socprime.com/blog/somnia-malware-detection-uac-0118-aka-frwl-launches-cyber-attacks-against-organizations-in-ukraine-using-enhanced-malware-strains",
+              "https://spixnet.at/cybersecurity-blog/2022/11/15/russian-hacktivists-hit-ukrainian-orgs-with-ransomware-but-no-ransom-demands"
+            ]
+          }
+        ],
+        "variants": [
+          "FromRussiaWithLove"
+        ]
+      },
+      {
+        "compact_normalized_name": "frwl",
+        "confidence": "source-provided",
+        "display_group_key": "frwl",
+        "name": "FRwL",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "frwl",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://outpost24.com/blog/ics-attack-classifications",
+          "https://socprime.com/blog/somnia-malware-detection-uac-0118-aka-frwl-launches-cyber-attacks-against-organizations-in-ukraine-using-enhanced-malware-strains",
+          "https://spixnet.at/cybersecurity-blog/2022/11/15/russian-hacktivists-hit-ukrainian-orgs-with-ransomware-but-no-ransom-demands"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://outpost24.com/blog/ics-attack-classifications",
+              "https://socprime.com/blog/somnia-malware-detection-uac-0118-aka-frwl-launches-cyber-attacks-against-organizations-in-ukraine-using-enhanced-malware-strains",
+              "https://spixnet.at/cybersecurity-blog/2022/11/15/russian-hacktivists-hit-ukrainian-orgs-with-ransomware-but-no-ransom-demands"
+            ]
+          }
+        ],
+        "variants": [
+          "FRwL"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "From Russia with Love, is a threat actor group that emerged during the Russia-Ukraine war in 2022. They primarily engage in DDoS attacks and have targeted critical infrastructure, media, energy, and government entities. FRwL has been linked to the use of the Somnia ransomware, which they employ as a wiper rather than for financial gain. While there is no direct evidence linking FRwL to the Russian Main Intelligence Directorate, it is possible that they coordinate activities with state-aligned hacktivist groups."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-d869486a-ec70-4a74-897e-31aa7b3df48d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://outpost24.com/blog/ics-attack-classifications"
+      },
+      {
+        "actor_id": "misp-d869486a-ec70-4a74-897e-31aa7b3df48d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socprime.com/blog/somnia-malware-detection-uac-0118-aka-frwl-launches-cyber-attacks-against-organizations-in-ukraine-using-enhanced-malware-strains"
+      },
+      {
+        "actor_id": "misp-d869486a-ec70-4a74-897e-31aa7b3df48d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://spixnet.at/cybersecurity-blog/2022/11/15/russian-hacktivists-hit-ukrainian-orgs-with-ransomware-but-no-ransom-demands"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "FromRussiaWithLove",
+      "FRwL",
+      "UAC-0118"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

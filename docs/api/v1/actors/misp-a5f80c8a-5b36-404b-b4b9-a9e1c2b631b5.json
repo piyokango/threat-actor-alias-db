@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-a5f80c8a-5b36-404b-b4b9-a9e1c2b631b5",
+    "canonical_name": "UNC6148",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-a5f80c8a-5b36-404b-b4b9-a9e1c2b631b5"
+    ],
+    "misp_uuid": "a5f80c8a-5b36-404b-b4b9-a9e1c2b631b5",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unc6148",
+        "confidence": "source-provided",
+        "display_group_key": "unc6148",
+        "name": "UNC6148",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc6148",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/sonicwall-secure-mobile-access-exploitation-overstep-backdoor"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/sonicwall-secure-mobile-access-exploitation-overstep-backdoor"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC6148"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UNC6148 is a financially motivated threat actor that targets SonicWall Secure Mobile Access 100 series appliances, leveraging stolen credentials and possibly zero-day exploits to deploy a persistent backdoor known as OVERSTEP. They utilize a kernel-level rootkit for stealthy access and have been observed establishing SSL VPN sessions to launch reverse shells and manipulate system files. The actor's operations include credential theft, data exfiltration, and potential ransomware deployment, with evidence suggesting they modify legitimate scripts to maintain persistence. Their activities are characterized by the reuse of OTP seeds and admin credentials, allowing continued access even after..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-a5f80c8a-5b36-404b-b4b9-a9e1c2b631b5",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/sonicwall-secure-mobile-access-exploitation-overstep-backdoor"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "UNC6148"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-4b32ad58-972e-4aa2-be3d-ff875ed06eba",
+    "canonical_name": "Hunt3r Kill3rs",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-4b32ad58-972e-4aa2-be3d-ff875ed06eba"
+    ],
+    "misp_uuid": "4b32ad58-972e-4aa2-be3d-ff875ed06eba",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "hunt3rkill3rs",
+        "confidence": "source-provided",
+        "display_group_key": "hunt3rkill3rs",
+        "name": "Hunt3r Kill3rs",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "hunt3r kill3rs",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://socradar.io/dark-web-profile-hunt3r-kill3rs"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://socradar.io/dark-web-profile-hunt3r-kill3rs"
+            ]
+          }
+        ],
+        "variants": [
+          "Hunt3r Kill3rs"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Hunt3r Kill3rs is a newly emerged threat group claiming expertise in cyber operations, including ICS breaches and web application vulnerabilities exploitation. They have discussed using Java fuzzing in their exploits and have made unverified claims of joint attacks with other threat actors."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-4b32ad58-972e-4aa2-be3d-ff875ed06eba",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/dark-web-profile-hunt3r-kill3rs"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "Hunt3r Kill3rs"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,172 @@
+{
+  "actor": {
+    "actor_id": "misp-bebcafbd-49ec-442f-9184-260c8c327f89",
+    "canonical_name": "Coinbase Cartel",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-bebcafbd-49ec-442f-9184-260c8c327f89"
+    ],
+    "misp_uuid": "bebcafbd-49ec-442f-9184-260c8c327f89",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "coinbasecartel",
+        "confidence": "source-provided",
+        "display_group_key": "coinbasecartel",
+        "name": "Coinbase Cartel",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "coinbase cartel",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "https://businessinsights.bitdefender.com/coinbase-cartel-ransomware-group-extortion-tactics",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://businessinsights.bitdefender.com/coinbase-cartel-ransomware-group-extortion-tactics"
+            ]
+          }
+        ],
+        "variants": [
+          "Coinbase Cartel"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Coinbase Cartel is a ransomware threat actor that emerged in September 2025, focusing on data exfiltration rather than encryption, and has claimed over 60 victims, primarily in the healthcare, technology, and transportation sectors. The group employs TTPs such as social engineering, credential harvesting, and collaboration with Initial Access Brokers to gain initial access. They operate a data leak site where they publish victim names and issue ransom demands, requiring payment via Bitcoin."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-bebcafbd-49ec-442f-9184-260c8c327f89",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://businessinsights.bitdefender.com/coinbase-cartel-ransomware-group-extortion-tactics"
+      },
+      {
+        "actor_id": "misp-bebcafbd-49ec-442f-9184-260c8c327f89",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "misp-bebcafbd-49ec-442f-9184-260c8c327f89",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [
+        {
+          "display_value": "Group in development",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Group in development"
+        }
+      ],
+      "countries": [],
+      "items": [
+        {
+          "display_value": "Group in development",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Group in development"
+        }
+      ]
+    },
+    "search_names": [
+      "Coinbase Cartel"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

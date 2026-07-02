@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-0c78182d-bc4b-404f-aacc-40538252b58c",
+    "canonical_name": "NyxarGroup",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-0c78182d-bc4b-404f-aacc-40538252b58c"
+    ],
+    "misp_uuid": "0c78182d-bc4b-404f-aacc-40538252b58c",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "nyxargroup",
+        "confidence": "source-provided",
+        "display_group_key": "nyxargroup",
+        "name": "NyxarGroup",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "nyxargroup",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://darkwebinformer.com/alleged-breach-of-chiles-ley-del-lobby-platform-exposes-250gb-of-government-lobbying-records-spanning-2018-to-2026",
+          "https://darkwebinformer.com/alleged-breach-of-chiles-servicio-civil-platform-exposes-110k-public-servant-records-with-full-names-and-user-ids"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://darkwebinformer.com/alleged-breach-of-chiles-ley-del-lobby-platform-exposes-250gb-of-government-lobbying-records-spanning-2018-to-2026",
+              "https://darkwebinformer.com/alleged-breach-of-chiles-servicio-civil-platform-exposes-110k-public-servant-records-with-full-names-and-user-ids"
+            ]
+          }
+        ],
+        "variants": [
+          "NyxarGroup"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "NyxarGroup is a threat actor involved in a coordinated data brokerage ecosystem across Latin America, primarily targeting government infrastructure. They have published high volumes of data, including 110,000 records from Chile's Servicio Civil platform and 250GB from the Ley del Lobby platform, which tracks lobbying activities. The data exfiltrated includes limited fields but provides a directory of Chilean government employees, enhancing the visibility of the public sector workforce. NyxarGroup's activities indicate a focus on exploiting government transparency and training systems for data leaks."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-0c78182d-bc4b-404f-aacc-40538252b58c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://darkwebinformer.com/alleged-breach-of-chiles-ley-del-lobby-platform-exposes-250gb-of-government-lobbying-records-spanning-2018-to-2026"
+      },
+      {
+        "actor_id": "misp-0c78182d-bc4b-404f-aacc-40538252b58c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://darkwebinformer.com/alleged-breach-of-chiles-servicio-civil-platform-exposes-110k-public-servant-records-with-full-names-and-user-ids"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "NyxarGroup"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

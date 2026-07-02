@@ -1,0 +1,147 @@
+{
+  "actor": {
+    "actor_id": "misp-2bd6c045-2ec2-438e-af66-0d97a0163290",
+    "canonical_name": "ALTDOS",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-2bd6c045-2ec2-438e-af66-0d97a0163290"
+    ],
+    "misp_uuid": "2bd6c045-2ec2-438e-af66-0d97a0163290",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "altdos",
+        "confidence": "source-provided",
+        "display_group_key": "altdos",
+        "name": "ALTDOS",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "altdos",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.databreaches.net/advisories-are-published-but-are-enough-entities-reading-them-and-taking-precautions",
+          "https://www.databreaches.net/altdos-claims-to-have-hacked-one-of-malaysias-biggest-conglomerates",
+          "https://www.databreaches.net/sg-vhive-alerts-consumers-to-cyberattack",
+          "https://www.databreaches.net/sg-vhive-attackers-escalate-take-control-of-furniture-retailers-email-server",
+          "https://www.databreaches.net/singapore-corporations-making-progress-in-preventing-cyberattacks",
+          "https://www.databreaches.net/singapore-real-estate-firm-breached-by-altdos"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.databreaches.net/advisories-are-published-but-are-enough-entities-reading-them-and-taking-precautions",
+              "https://www.databreaches.net/altdos-claims-to-have-hacked-one-of-malaysias-biggest-conglomerates",
+              "https://www.databreaches.net/sg-vhive-alerts-consumers-to-cyberattack",
+              "https://www.databreaches.net/sg-vhive-attackers-escalate-take-control-of-furniture-retailers-email-server",
+              "https://www.databreaches.net/singapore-corporations-making-progress-in-preventing-cyberattacks",
+              "https://www.databreaches.net/singapore-real-estate-firm-breached-by-altdos"
+            ]
+          }
+        ],
+        "variants": [
+          "ALTDOS"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "ALTDOS is a threat actor group that has targeted entities in Southeast Asia, including Singapore, Thailand, and Malaysia. They have been involved in data breaches of companies in various sectors, such as real estate and retail, compromising sensitive information like customer names, bank account numbers, and transaction details. ALTDOS uses tactics like ransomware attacks, data exfiltration, and dumping data publicly or for sale on underground forums. The group has been known to demand ransom payments from victims, but also leaks data if demands are not met."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-2bd6c045-2ec2-438e-af66-0d97a0163290",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.databreaches.net/advisories-are-published-but-are-enough-entities-reading-them-and-taking-precautions"
+      },
+      {
+        "actor_id": "misp-2bd6c045-2ec2-438e-af66-0d97a0163290",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.databreaches.net/altdos-claims-to-have-hacked-one-of-malaysias-biggest-conglomerates"
+      },
+      {
+        "actor_id": "misp-2bd6c045-2ec2-438e-af66-0d97a0163290",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.databreaches.net/sg-vhive-alerts-consumers-to-cyberattack"
+      },
+      {
+        "actor_id": "misp-2bd6c045-2ec2-438e-af66-0d97a0163290",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.databreaches.net/sg-vhive-attackers-escalate-take-control-of-furniture-retailers-email-server"
+      },
+      {
+        "actor_id": "misp-2bd6c045-2ec2-438e-af66-0d97a0163290",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.databreaches.net/singapore-corporations-making-progress-in-preventing-cyberattacks"
+      },
+      {
+        "actor_id": "misp-2bd6c045-2ec2-438e-af66-0d97a0163290",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.databreaches.net/singapore-real-estate-firm-breached-by-altdos"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "ALTDOS"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

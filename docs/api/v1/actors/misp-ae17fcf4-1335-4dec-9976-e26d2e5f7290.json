@@ -1,0 +1,149 @@
+{
+  "actor": {
+    "actor_id": "misp-ae17fcf4-1335-4dec-9976-e26d2e5f7290",
+    "canonical_name": "Shahid Hemmat",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-ae17fcf4-1335-4dec-9976-e26d2e5f7290"
+    ],
+    "misp_uuid": "ae17fcf4-1335-4dec-9976-e26d2e5f7290",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "shahidhemmat",
+        "confidence": "source-provided",
+        "display_group_key": "shahidhemmat",
+        "name": "Shahid Hemmat",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "shahid hemmat",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securityonline.info/shahid-hemmat-hackers-10m-reward-offered-by-us",
+          "https://www.bitdefender.com/en-us/blog/hotforsecurity/us-offers-10-million-bounty-for-members-of-iranian-hacking-gang"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securityonline.info/shahid-hemmat-hackers-10m-reward-offered-by-us",
+              "https://www.bitdefender.com/en-us/blog/hotforsecurity/us-offers-10-million-bounty-for-members-of-iranian-hacking-gang"
+            ]
+          }
+        ],
+        "variants": [
+          "Shahid Hemmat"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Shahid Hemmat is an IRGC-CEC affiliated hacking group linked to cyberattacks targeting U.S. critical infrastructure, including the defense industry and international transportation sectors. The group has been implicated in the hack of a booster station at the Municipal Water Authority in Aliquippa, Pennsylvania, which disrupted drinking water supply. Key figures within Shahid Hemmat include Manouchehr Akbari, Amir Hossein Hoseini, Mohammad Hossein Moradi, and Mohammad Reza Rafatnejad. The U.S. government is offering a $10 million reward for information on these individuals."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-ae17fcf4-1335-4dec-9976-e26d2e5f7290",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securityonline.info/shahid-hemmat-hackers-10m-reward-offered-by-us"
+      },
+      {
+        "actor_id": "misp-ae17fcf4-1335-4dec-9976-e26d2e5f7290",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/us-offers-10-million-bounty-for-members-of-iranian-hacking-gang"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ]
+    },
+    "search_names": [
+      "Shahid Hemmat"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

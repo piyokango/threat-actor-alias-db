@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-019514dc-c894-751f-8cfd-ff2b932ff451",
+    "canonical_name": "STAC5143",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-019514dc-c894-751f-8cfd-ff2b932ff451"
+    ],
+    "misp_uuid": "019514dc-c894-751f-8cfd-ff2b932ff451",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "stac5143",
+        "confidence": "source-provided",
+        "display_group_key": "stac5143",
+        "name": "STAC5143",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "stac5143",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://news.sophos.com/en-us/2025/01/21/sophos-mdr-tracks-two-ransomware-campaigns-using-email-bombing-microsoft-teams-vishing"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://news.sophos.com/en-us/2025/01/21/sophos-mdr-tracks-two-ransomware-campaigns-using-email-bombing-microsoft-teams-vishing"
+            ]
+          }
+        ],
+        "variants": [
+          "STAC5143"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "STAC5143 is a threat actor group tracked by Sophos, notable for its sophisticated use of Microsoft Office 365's legitimate services to conduct ransomware and data extortion campaigns. Unlike FIN7, which typically targets larger organizations through phishing and malicious Google Ads, STAC5143 focuses on smaller victims across diverse business sectors. Their operations begin with overwhelming targeted individuals with email bombing, followed by Microsoft Teams messages impersonating tech support to initiate a remote screen control session. Utilizing Microsoft's Quick Assist or direct Teams screen sharing, they deploy malware, including Java Archive (JAR) files and Python-based backdoors,..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-019514dc-c894-751f-8cfd-ff2b932ff451",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://news.sophos.com/en-us/2025/01/21/sophos-mdr-tracks-two-ransomware-campaigns-using-email-bombing-microsoft-teams-vishing"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "STAC5143"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

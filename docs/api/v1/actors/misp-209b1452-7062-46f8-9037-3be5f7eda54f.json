@@ -1,0 +1,144 @@
+{
+  "actor": {
+    "actor_id": "misp-209b1452-7062-46f8-9037-3be5f7eda54f",
+    "canonical_name": "Velvet Tempest",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-209b1452-7062-46f8-9037-3be5f7eda54f"
+    ],
+    "misp_uuid": "209b1452-7062-46f8-9037-3be5f7eda54f",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "velvettempest",
+        "confidence": "source-provided",
+        "display_group_key": "velvettempest",
+        "name": "Velvet Tempest",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "velvet tempest",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.microsoft.com/security/blog/2022/06/13/the-many-lives-of-blackcat-ransomware",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.microsoft.com/security/blog/2022/06/13/the-many-lives-of-blackcat-ransomware",
+              "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself"
+            ]
+          }
+        ],
+        "variants": [
+          "Velvet Tempest"
+        ]
+      },
+      {
+        "compact_normalized_name": "dev0504",
+        "confidence": "source-provided",
+        "display_group_key": "dev0504",
+        "name": "DEV-0504",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dev 0504",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.microsoft.com/security/blog/2022/06/13/the-many-lives-of-blackcat-ransomware",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.microsoft.com/security/blog/2022/06/13/the-many-lives-of-blackcat-ransomware",
+              "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself"
+            ]
+          }
+        ],
+        "variants": [
+          "DEV-0504"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Velvet Tempest is a threat actor associated with the BlackCat ransomware group. They have been observed deploying multiple ransomware payloads, including BlackCat, and have targeted various industries such as energy, fashion, tobacco, IT, and manufacturing. Velvet Tempest relies on access brokers to gain network access and utilizes tools like Cobalt Strike Beacons and PsExec for lateral movement and payload staging. They exfiltrate stolen data using a tool called StealBit and frequently disable unprotected antivirus products."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-209b1452-7062-46f8-9037-3be5f7eda54f",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "http://www.microsoft.com/security/blog/2022/06/13/the-many-lives-of-blackcat-ransomware"
+      },
+      {
+        "actor_id": "misp-209b1452-7062-46f8-9037-3be5f7eda54f",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "DEV-0504",
+      "Velvet Tempest"
+    ],
+    "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

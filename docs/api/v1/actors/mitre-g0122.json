@@ -1,0 +1,1216 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0122",
+    "canonical_name": "Silent Librarian",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0122"
+    ],
+    "misp_uuid": "5059b44d-2753-4977-b987-4922f09afe6b",
+    "mitre_id": "G0122",
+    "names": [
+      {
+        "compact_normalized_name": "silentlibrarian",
+        "confidence": "source-provided",
+        "display_group_key": "silentlibrarian",
+        "name": "Silent Librarian",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "silent librarian",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0122",
+          "https://community.riskiq.com/article/44eb0802",
+          "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+          "https://info.phishlabs.com/blog/silent-librarian-university-attacks-continue-unabated-in-days-following-indictment",
+          "https://www.justice.gov/opa/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+          "https://www.justice.gov/usao-sdny/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic",
+          "https://www.proofpoint.com/us/corporate-blog/post/iranian-state-sponsored-and-aligned-attacks-what-you-need-know-and-steps-protect",
+          "https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff",
+          "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+          "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+          "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+          "https://www.secureworks.com/research/threat-profiles/cobalt-dickens"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://community.riskiq.com/article/44eb0802",
+              "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+              "https://info.phishlabs.com/blog/silent-librarian-university-attacks-continue-unabated-in-days-following-indictment",
+              "https://www.justice.gov/opa/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+              "https://www.justice.gov/usao-sdny/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic",
+              "https://www.proofpoint.com/us/corporate-blog/post/iranian-state-sponsored-and-aligned-attacks-what-you-need-know-and-steps-protect",
+              "https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff",
+              "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+              "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+              "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+              "https://www.secureworks.com/research/threat-profiles/cobalt-dickens"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0122"
+            ]
+          }
+        ],
+        "variants": [
+          "Silent Librarian"
+        ]
+      },
+      {
+        "compact_normalized_name": "cobaltdickens",
+        "confidence": "source-provided",
+        "display_group_key": "cobaltdickens",
+        "name": "COBALT DICKENS",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "cobalt dickens",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0122",
+          "https://community.riskiq.com/article/44eb0802",
+          "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+          "https://info.phishlabs.com/blog/silent-librarian-university-attacks-continue-unabated-in-days-following-indictment",
+          "https://www.justice.gov/opa/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+          "https://www.justice.gov/usao-sdny/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic",
+          "https://www.proofpoint.com/us/corporate-blog/post/iranian-state-sponsored-and-aligned-attacks-what-you-need-know-and-steps-protect",
+          "https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff",
+          "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+          "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+          "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+          "https://www.secureworks.com/research/threat-profiles/cobalt-dickens"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://community.riskiq.com/article/44eb0802",
+              "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+              "https://info.phishlabs.com/blog/silent-librarian-university-attacks-continue-unabated-in-days-following-indictment",
+              "https://www.justice.gov/opa/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+              "https://www.justice.gov/usao-sdny/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic",
+              "https://www.proofpoint.com/us/corporate-blog/post/iranian-state-sponsored-and-aligned-attacks-what-you-need-know-and-steps-protect",
+              "https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff",
+              "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+              "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+              "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+              "https://www.secureworks.com/research/threat-profiles/cobalt-dickens"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0122"
+            ]
+          }
+        ],
+        "variants": [
+          "COBALT DICKENS"
+        ]
+      },
+      {
+        "compact_normalized_name": "mabnainstitute",
+        "confidence": "source-provided",
+        "display_group_key": "mabnainstitute",
+        "name": "Mabna Institute",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "mabna institute",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://community.riskiq.com/article/44eb0802",
+          "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+          "https://info.phishlabs.com/blog/silent-librarian-university-attacks-continue-unabated-in-days-following-indictment",
+          "https://www.justice.gov/opa/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+          "https://www.justice.gov/usao-sdny/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic",
+          "https://www.proofpoint.com/us/corporate-blog/post/iranian-state-sponsored-and-aligned-attacks-what-you-need-know-and-steps-protect",
+          "https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff",
+          "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+          "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+          "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+          "https://www.secureworks.com/research/threat-profiles/cobalt-dickens"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://community.riskiq.com/article/44eb0802",
+              "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+              "https://info.phishlabs.com/blog/silent-librarian-university-attacks-continue-unabated-in-days-following-indictment",
+              "https://www.justice.gov/opa/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+              "https://www.justice.gov/usao-sdny/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic",
+              "https://www.proofpoint.com/us/corporate-blog/post/iranian-state-sponsored-and-aligned-attacks-what-you-need-know-and-steps-protect",
+              "https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff",
+              "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+              "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+              "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+              "https://www.secureworks.com/research/threat-profiles/cobalt-dickens"
+            ]
+          }
+        ],
+        "variants": [
+          "Mabna Institute"
+        ]
+      },
+      {
+        "compact_normalized_name": "mabnainstitutegroup",
+        "confidence": "source-provided",
+        "display_group_key": "mabnainstitutegroup",
+        "name": "Mabna Institute Group",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "mabna institute group",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://community.riskiq.com/article/44eb0802",
+          "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+          "https://info.phishlabs.com/blog/silent-librarian-university-attacks-continue-unabated-in-days-following-indictment",
+          "https://www.justice.gov/opa/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+          "https://www.justice.gov/usao-sdny/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic",
+          "https://www.proofpoint.com/us/corporate-blog/post/iranian-state-sponsored-and-aligned-attacks-what-you-need-know-and-steps-protect",
+          "https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff",
+          "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+          "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+          "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+          "https://www.secureworks.com/research/threat-profiles/cobalt-dickens"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://community.riskiq.com/article/44eb0802",
+              "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+              "https://info.phishlabs.com/blog/silent-librarian-university-attacks-continue-unabated-in-days-following-indictment",
+              "https://www.justice.gov/opa/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+              "https://www.justice.gov/usao-sdny/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic",
+              "https://www.proofpoint.com/us/corporate-blog/post/iranian-state-sponsored-and-aligned-attacks-what-you-need-know-and-steps-protect",
+              "https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff",
+              "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+              "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+              "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+              "https://www.secureworks.com/research/threat-profiles/cobalt-dickens"
+            ]
+          }
+        ],
+        "variants": [
+          "Mabna Institute Group"
+        ]
+      },
+      {
+        "compact_normalized_name": "ta407",
+        "confidence": "source-provided",
+        "display_group_key": "ta407",
+        "name": "TA407",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "ta407",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0122",
+          "https://community.riskiq.com/article/44eb0802",
+          "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+          "https://info.phishlabs.com/blog/silent-librarian-university-attacks-continue-unabated-in-days-following-indictment",
+          "https://www.justice.gov/opa/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+          "https://www.justice.gov/usao-sdny/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic",
+          "https://www.proofpoint.com/us/corporate-blog/post/iranian-state-sponsored-and-aligned-attacks-what-you-need-know-and-steps-protect",
+          "https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff",
+          "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+          "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+          "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+          "https://www.secureworks.com/research/threat-profiles/cobalt-dickens"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://community.riskiq.com/article/44eb0802",
+              "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+              "https://info.phishlabs.com/blog/silent-librarian-university-attacks-continue-unabated-in-days-following-indictment",
+              "https://www.justice.gov/opa/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+              "https://www.justice.gov/usao-sdny/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic",
+              "https://www.proofpoint.com/us/corporate-blog/post/iranian-state-sponsored-and-aligned-attacks-what-you-need-know-and-steps-protect",
+              "https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff",
+              "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+              "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+              "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+              "https://www.secureworks.com/research/threat-profiles/cobalt-dickens"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0122"
+            ]
+          }
+        ],
+        "variants": [
+          "TA407"
+        ]
+      },
+      {
+        "compact_normalized_name": "ta4900",
+        "confidence": "source-provided",
+        "display_group_key": "ta4900",
+        "name": "TA4900",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ta4900",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://community.riskiq.com/article/44eb0802",
+          "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+          "https://info.phishlabs.com/blog/silent-librarian-university-attacks-continue-unabated-in-days-following-indictment",
+          "https://www.justice.gov/opa/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+          "https://www.justice.gov/usao-sdny/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic",
+          "https://www.proofpoint.com/us/corporate-blog/post/iranian-state-sponsored-and-aligned-attacks-what-you-need-know-and-steps-protect",
+          "https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff",
+          "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+          "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+          "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+          "https://www.secureworks.com/research/threat-profiles/cobalt-dickens"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://community.riskiq.com/article/44eb0802",
+              "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+              "https://info.phishlabs.com/blog/silent-librarian-university-attacks-continue-unabated-in-days-following-indictment",
+              "https://www.justice.gov/opa/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+              "https://www.justice.gov/usao-sdny/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic",
+              "https://www.proofpoint.com/us/corporate-blog/post/iranian-state-sponsored-and-aligned-attacks-what-you-need-know-and-steps-protect",
+              "https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff",
+              "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+              "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+              "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+              "https://www.secureworks.com/research/threat-profiles/cobalt-dickens"
+            ]
+          }
+        ],
+        "variants": [
+          "TA4900"
+        ]
+      },
+      {
+        "compact_normalized_name": "yellownabu",
+        "confidence": "source-provided",
+        "display_group_key": "yellownabu",
+        "name": "Yellow Nabu",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "yellow nabu",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://community.riskiq.com/article/44eb0802",
+          "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+          "https://info.phishlabs.com/blog/silent-librarian-university-attacks-continue-unabated-in-days-following-indictment",
+          "https://www.justice.gov/opa/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+          "https://www.justice.gov/usao-sdny/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic",
+          "https://www.proofpoint.com/us/corporate-blog/post/iranian-state-sponsored-and-aligned-attacks-what-you-need-know-and-steps-protect",
+          "https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff",
+          "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+          "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+          "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+          "https://www.secureworks.com/research/threat-profiles/cobalt-dickens"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://community.riskiq.com/article/44eb0802",
+              "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+              "https://info.phishlabs.com/blog/silent-librarian-university-attacks-continue-unabated-in-days-following-indictment",
+              "https://www.justice.gov/opa/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+              "https://www.justice.gov/usao-sdny/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic",
+              "https://www.proofpoint.com/us/corporate-blog/post/iranian-state-sponsored-and-aligned-attacks-what-you-need-know-and-steps-protect",
+              "https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff",
+              "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+              "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+              "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again",
+              "https://www.secureworks.com/research/threat-profiles/cobalt-dickens"
+            ]
+          }
+        ],
+        "variants": [
+          "Yellow Nabu"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0122",
+          "name": "Domains",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.malwarebytes.com/malwarebytes-news/2020/10/silent-librarian-apt-phishing-attack/",
+            "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+            "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+            "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+            "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+            "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583.001",
+          "url": "https://attack.mitre.org/techniques/T1583.001/"
+        },
+        {
+          "actor_id": "mitre-g0122",
+          "name": "Email Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1585.002",
+          "url": "https://attack.mitre.org/techniques/T1585.002/"
+        },
+        {
+          "actor_id": "mitre-g0122",
+          "name": "Tool",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+            "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1588.002",
+          "url": "https://attack.mitre.org/techniques/T1588.002/"
+        },
+        {
+          "actor_id": "mitre-g0122",
+          "name": "Digital Certificates",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+            "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1588.004",
+          "url": "https://attack.mitre.org/techniques/T1588.004/"
+        },
+        {
+          "actor_id": "mitre-g0122",
+          "name": "Link Target",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.malwarebytes.com/malwarebytes-news/2020/10/silent-librarian-apt-phishing-attack/",
+            "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+            "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1608.005",
+          "url": "https://attack.mitre.org/techniques/T1608.005/"
+        },
+        {
+          "actor_id": "mitre-g0122",
+          "name": "Email Addresses",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+          ],
+          "tactics": [
+            "reconnaissance"
+          ],
+          "technique_id": "T1589.002",
+          "url": "https://attack.mitre.org/techniques/T1589.002/"
+        },
+        {
+          "actor_id": "mitre-g0122",
+          "name": "Employee Names",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+          ],
+          "tactics": [
+            "reconnaissance"
+          ],
+          "technique_id": "T1589.003",
+          "url": "https://attack.mitre.org/techniques/T1589.003/"
+        },
+        {
+          "actor_id": "mitre-g0122",
+          "name": "Search Victim-Owned Websites",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+            "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+            "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian"
+          ],
+          "tactics": [
+            "reconnaissance"
+          ],
+          "technique_id": "T1594",
+          "url": "https://attack.mitre.org/techniques/T1594/"
+        },
+        {
+          "actor_id": "mitre-g0122",
+          "name": "Spearphishing Link",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.malwarebytes.com/malwarebytes-news/2020/10/silent-librarian-apt-phishing-attack/",
+            "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+            "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+            "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+            "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+            "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again"
+          ],
+          "tactics": [
+            "reconnaissance"
+          ],
+          "technique_id": "T1598.003",
+          "url": "https://attack.mitre.org/techniques/T1598.003/"
+        },
+        {
+          "actor_id": "mitre-g0122",
+          "name": "Email Collection",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+          ],
+          "tactics": [
+            "collection"
+          ],
+          "technique_id": "T1114",
+          "url": "https://attack.mitre.org/techniques/T1114/"
+        },
+        {
+          "actor_id": "mitre-g0122",
+          "name": "Email Forwarding Rule",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+          ],
+          "tactics": [
+            "collection"
+          ],
+          "technique_id": "T1114.003",
+          "url": "https://attack.mitre.org/techniques/T1114.003/"
+        },
+        {
+          "actor_id": "mitre-g0122",
+          "name": "Valid Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/malwarebytes-news/2020/10/silent-librarian-apt-phishing-attack/",
+                "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+                "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+                "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+                "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+                "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Email Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585.002",
+              "url": "https://attack.mitre.org/techniques/T1585.002/"
+            },
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+                "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Digital Certificates",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+                "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.004",
+              "url": "https://attack.mitre.org/techniques/T1588.004/"
+            },
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Link Target",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/malwarebytes-news/2020/10/silent-librarian-apt-phishing-attack/",
+                "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+                "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.005",
+              "url": "https://attack.mitre.org/techniques/T1608.005/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Email Addresses",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1589.002",
+              "url": "https://attack.mitre.org/techniques/T1589.002/"
+            },
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Employee Names",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1589.003",
+              "url": "https://attack.mitre.org/techniques/T1589.003/"
+            },
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Search Victim-Owned Websites",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+                "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+                "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1594",
+              "url": "https://attack.mitre.org/techniques/T1594/"
+            },
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/malwarebytes-news/2020/10/silent-librarian-apt-phishing-attack/",
+                "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment",
+                "https://www.justice.gov/usao-sdny/press-release/file/1045781/download",
+                "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian",
+                "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities",
+                "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1598.003",
+              "url": "https://attack.mitre.org/techniques/T1598.003/"
+            }
+          ],
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Email Collection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1114",
+              "url": "https://attack.mitre.org/techniques/T1114/"
+            },
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Email Forwarding Rule",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1114.003",
+              "url": "https://attack.mitre.org/techniques/T1114.003/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Password Spraying",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1110.003",
+              "url": "https://attack.mitre.org/techniques/T1110.003/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0122",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 5,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 4,
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        },
+        {
+          "count": 2,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 1,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 1,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 1,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        }
+      ],
+      "total": 13
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0122/"
+          ]
+        }
+      ],
+      "text": "Silent Librarian is a group that has targeted research and proprietary data at universities, government agencies, and private sector companies worldwide since at least 2013. Members of Silent Librarian are known to have been affiliated with the Iran-based Mabna Institute which has conducted cyber intrusions at the behest of the government of Iran, specifically the Islamic Revolutionary Guard Corps (IRGC).(Citation: DOJ Iran Indictments March 2018)(Citation: Phish Labs Silent Librarian)(Citation: Malwarebytes Silent Librarian October 2020)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0122",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0122"
+      },
+      {
+        "actor_id": "mitre-g0122",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.malwarebytes.com/malwarebytes-news/2020/10/silent-librarian-apt-phishing-attack"
+      },
+      {
+        "actor_id": "mitre-g0122",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://community.riskiq.com/article/44eb0802"
+      },
+      {
+        "actor_id": "mitre-g0122",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://info.phishlabs.com/blog/silent-librarian-more-to-the-story-of-the-iranian-mabna-institute-indictment"
+      },
+      {
+        "actor_id": "mitre-g0122",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://info.phishlabs.com/blog/silent-librarian-university-attacks-continue-unabated-in-days-following-indictment"
+      },
+      {
+        "actor_id": "mitre-g0122",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/opa/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary"
+      },
+      {
+        "actor_id": "mitre-g0122",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/usao-sdny/pr/nine-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic"
+      },
+      {
+        "actor_id": "mitre-g0122",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/usao-sdny/press-release/file/1045781/download"
+      },
+      {
+        "actor_id": "mitre-g0122",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/corporate-blog/post/iranian-state-sponsored-and-aligned-attacks-what-you-need-know-and-steps-protect"
+      },
+      {
+        "actor_id": "mitre-g0122",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/threat-insight/post/seems-phishy-back-school-lures-target-university-students-and-staff"
+      },
+      {
+        "actor_id": "mitre-g0122",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta407-silent-librarian"
+      },
+      {
+        "actor_id": "mitre-g0122",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/blog/back-to-school-cobalt-dickens-targets-universities"
+      },
+      {
+        "actor_id": "mitre-g0122",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/blog/cobalt-dickens-goes-back-to-school-again"
+      },
+      {
+        "actor_id": "mitre-g0122",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/cobalt-dickens"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ]
+    },
+    "search_names": [
+      "COBALT DICKENS",
+      "Mabna Institute",
+      "Mabna Institute Group",
+      "Silent Librarian",
+      "TA407",
+      "TA4900",
+      "Yellow Nabu"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

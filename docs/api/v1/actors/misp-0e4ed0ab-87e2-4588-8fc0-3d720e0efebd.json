@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-0e4ed0ab-87e2-4588-8fc0-3d720e0efebd",
+    "canonical_name": "GhostR",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-0e4ed0ab-87e2-4588-8fc0-3d720e0efebd"
+    ],
+    "misp_uuid": "0e4ed0ab-87e2-4588-8fc0-3d720e0efebd",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "ghostr",
+        "confidence": "source-provided",
+        "display_group_key": "ghostr",
+        "name": "GhostR",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ghostr",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securityaffairs.com/162136/cyber-crime/hackers-threaten-leak-world-check.html",
+          "https://www.resecurity.com/blog/article/cybercriminals-leaked-massive-volumes-of-stolen-pii-data-from-thailand-in-dark-web"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securityaffairs.com/162136/cyber-crime/hackers-threaten-leak-world-check.html",
+              "https://www.resecurity.com/blog/article/cybercriminals-leaked-massive-volumes-of-stolen-pii-data-from-thailand-in-dark-web"
+            ]
+          }
+        ],
+        "variants": [
+          "GhostR"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Ghostr is a financially motivated threat actor known for stealing a confidential database containing 5.3 million records from the World-Check and leaking about 186GB of data from a stock trading platform. They have been active on Breachforums.is, revealing massive data breaches involving comprehensive details of Thai users, including full names, phone numbers, email addresses, and ID card numbers."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-0e4ed0ab-87e2-4588-8fc0-3d720e0efebd",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securityaffairs.com/162136/cyber-crime/hackers-threaten-leak-world-check.html"
+      },
+      {
+        "actor_id": "misp-0e4ed0ab-87e2-4588-8fc0-3d720e0efebd",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.resecurity.com/blog/article/cybercriminals-leaked-massive-volumes-of-stolen-pii-data-from-thailand-in-dark-web"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "GhostR"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

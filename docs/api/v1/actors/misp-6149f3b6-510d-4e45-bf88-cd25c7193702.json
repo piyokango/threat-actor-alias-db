@@ -1,0 +1,132 @@
+{
+  "actor": {
+    "actor_id": "misp-6149f3b6-510d-4e45-bf88-cd25c7193702",
+    "canonical_name": "Alpha Spider",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-6149f3b6-510d-4e45-bf88-cd25c7193702"
+    ],
+    "misp_uuid": "6149f3b6-510d-4e45-bf88-cd25c7193702",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "alphaspider",
+        "confidence": "source-provided",
+        "display_group_key": "alphaspider",
+        "name": "Alpha Spider",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "alpha spider",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.crowdstrike.com/blog/anatomy-of-alpha-spider-ransomware"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.crowdstrike.com/blog/anatomy-of-alpha-spider-ransomware"
+            ]
+          }
+        ],
+        "variants": [
+          "Alpha Spider"
+        ]
+      },
+      {
+        "compact_normalized_name": "alphvransomwaregroup",
+        "confidence": "source-provided",
+        "display_group_key": "alphvransomwaregroup",
+        "name": "ALPHV Ransomware Group",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "alphv ransomware group",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.crowdstrike.com/blog/anatomy-of-alpha-spider-ransomware"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.crowdstrike.com/blog/anatomy-of-alpha-spider-ransomware"
+            ]
+          }
+        ],
+        "variants": [
+          "ALPHV Ransomware Group"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "ALPHA SPIDER is a threat actor known for developing and operating the Alphv ransomware as a service. They have been observed using novel offensive techniques, such as exploiting software vulnerabilities and leveraging legitimate administration tools for malicious activities. ALPHA SPIDER affiliates have demonstrated persistence in exfiltrating data and have shown the ability to bypass security measures like DNS-based filtering and multifactor authentication. Despite lacking specific operational security measures, defenders have opportunities to detect and respond to ALPHA SPIDER's operations effectively."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-6149f3b6-510d-4e45-bf88-cd25c7193702",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/anatomy-of-alpha-spider-ransomware"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Alpha Spider",
+      "ALPHV Ransomware Group"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

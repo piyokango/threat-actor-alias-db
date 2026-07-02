@@ -1,0 +1,378 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0062",
+    "canonical_name": "TA459",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0062"
+    ],
+    "misp_uuid": "c6472ae1-c6ad-4cf1-8d6e-8c94b94fe314",
+    "mitre_id": "G0062",
+    "names": [
+      {
+        "compact_normalized_name": "ta459",
+        "confidence": "source-provided",
+        "display_group_key": "ta459",
+        "name": "TA459",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "ta459",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0062",
+          "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0062",
+              "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0062"
+            ]
+          }
+        ],
+        "variants": [
+          "TA459"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0062",
+        "confidence": "source-provided",
+        "display_group_key": "g0062",
+        "name": "G0062",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0062",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0062",
+          "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0062",
+              "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+            ]
+          }
+        ],
+        "variants": [
+          "G0062"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0062",
+          "name": "PowerShell",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.001",
+          "url": "https://attack.mitre.org/techniques/T1059.001/"
+        },
+        {
+          "actor_id": "mitre-g0062",
+          "name": "Visual Basic",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.005",
+          "url": "https://attack.mitre.org/techniques/T1059.005/"
+        },
+        {
+          "actor_id": "mitre-g0062",
+          "name": "Exploitation for Client Execution",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1203",
+          "url": "https://attack.mitre.org/techniques/T1203/"
+        },
+        {
+          "actor_id": "mitre-g0062",
+          "name": "Malicious File",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1204.002",
+          "url": "https://attack.mitre.org/techniques/T1204.002/"
+        },
+        {
+          "actor_id": "mitre-g0062",
+          "name": "Spearphishing Attachment",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+          ],
+          "tactics": [
+            "initial-access"
+          ],
+          "technique_id": "T1566.001",
+          "url": "https://attack.mitre.org/techniques/T1566.001/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0062",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g0062",
+              "name": "Visual Basic",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.005",
+              "url": "https://attack.mitre.org/techniques/T1059.005/"
+            },
+            {
+              "actor_id": "mitre-g0062",
+              "name": "Exploitation for Client Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1203",
+              "url": "https://attack.mitre.org/techniques/T1203/"
+            },
+            {
+              "actor_id": "mitre-g0062",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0062",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 4,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 1,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        }
+      ],
+      "total": 5
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0062/"
+          ]
+        }
+      ],
+      "text": "TA459 is a threat group believed to operate out of China that has targeted countries including Russia, Belarus, Mongolia, and others. (Citation: Proofpoint TA459 April 2017)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0062",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0062"
+      },
+      {
+        "actor_id": "mitre-g0062",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "G0062",
+      "TA459"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

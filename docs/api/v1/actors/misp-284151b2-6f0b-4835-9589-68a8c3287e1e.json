@@ -1,0 +1,149 @@
+{
+  "actor": {
+    "actor_id": "misp-284151b2-6f0b-4835-9589-68a8c3287e1e",
+    "canonical_name": "UAT-8099",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-284151b2-6f0b-4835-9589-68a8c3287e1e"
+    ],
+    "misp_uuid": "284151b2-6f0b-4835-9589-68a8c3287e1e",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "uat8099",
+        "confidence": "source-provided",
+        "display_group_key": "uat8099",
+        "name": "UAT-8099",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uat 8099",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.talosintelligence.com/uat-8099-chinese-speaking-cybercrime-group-seo-fraud",
+          "https://blog.talosintelligence.com/uat-8099-new-persistence-mechanisms-and-regional-focus"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/uat-8099-chinese-speaking-cybercrime-group-seo-fraud",
+              "https://blog.talosintelligence.com/uat-8099-new-persistence-mechanisms-and-regional-focus"
+            ]
+          }
+        ],
+        "variants": [
+          "UAT-8099"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UAT-8099 is a Chinese-speaking cybercrime group primarily engaged in SEO fraud and the theft of high-value credentials, configuration files, and certificate data from vulnerable IIS servers. They utilize web shells and PowerShell to deploy the GotoHTTP tool for remote access, while also employing techniques such as DLL sideloading and RDP for persistence. The group has been observed using BadIIS variants for SEO manipulation and executing reconnaissance commands to gather system information. Additionally, they create hidden accounts and utilize VPN tools to maintain long-term access to compromised systems."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-284151b2-6f0b-4835-9589-68a8c3287e1e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/uat-8099-chinese-speaking-cybercrime-group-seo-fraud"
+      },
+      {
+        "actor_id": "misp-284151b2-6f0b-4835-9589-68a8c3287e1e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/uat-8099-new-persistence-mechanisms-and-regional-focus"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "UAT-8099"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

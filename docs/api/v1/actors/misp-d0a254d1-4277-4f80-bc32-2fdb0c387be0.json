@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-d0a254d1-4277-4f80-bc32-2fdb0c387be0",
+    "canonical_name": "DriveSurge",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-d0a254d1-4277-4f80-bc32-2fdb0c387be0"
+    ],
+    "misp_uuid": "d0a254d1-4277-4f80-bc32-2fdb0c387be0",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "drivesurge",
+        "confidence": "source-provided",
+        "display_group_key": "drivesurge",
+        "name": "DriveSurge",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "drivesurge",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://trojan-killer.net/drivesurge-clickfix-fake-browser-updates"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://trojan-killer.net/drivesurge-clickfix-fake-browser-updates"
+            ]
+          }
+        ],
+        "variants": [
+          "DriveSurge"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "DriveSurge compromises legitimate websites to inject scripts that route visitors through zTDS, leading them to fake browser updates and ClickFix-style prompts. This operation resembles an initial-access broker model, where successful infections generate leads for downstream threat actors. The actor employs tactics that avoid detection by site administrators, allowing infections to go unnoticed during routine checks."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-d0a254d1-4277-4f80-bc32-2fdb0c387be0",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://trojan-killer.net/drivesurge-clickfix-fake-browser-updates"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "DriveSurge"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

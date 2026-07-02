@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-8307bd0c-2195-44c3-8316-a607237c5b94",
+    "canonical_name": "UNK_RemoteRogue",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-8307bd0c-2195-44c3-8316-a607237c5b94"
+    ],
+    "misp_uuid": "8307bd0c-2195-44c3-8316-a607237c5b94",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unkremoterogue",
+        "confidence": "source-provided",
+        "display_group_key": "unkremoterogue",
+        "name": "UNK_RemoteRogue",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unk remoterogue",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix"
+            ]
+          }
+        ],
+        "variants": [
+          "UNK_RemoteRogue"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UNK_RemoteRogue is a suspected Russian threat actor that has been observed utilizing ClickFix in its infection chains, although this technique is not revolutionizing their operations but rather replacing existing installation methods. The group has a history of employing compromised intermediate mailservers, with specific infrastructure noted, such as the upstream concentrator at 80.66.66[.]197. Proofpoint recorded their use of ClickFix only once before they reverted to traditional campaigns that share similar characteristics, including targeting and infrastructure. UNK_RemoteRogue has been linked to phishing activities and has shown consistent patterns in its operational tactics."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-8307bd0c-2195-44c3-8316-a607237c5b94",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "UNK_RemoteRogue"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

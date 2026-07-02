@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-fc1c1d9f-1432-417f-a3bf-e730ddd1d139",
+    "canonical_name": "GOLD EVERGREEN",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-fc1c1d9f-1432-417f-a3bf-e730ddd1d139"
+    ],
+    "misp_uuid": "fc1c1d9f-1432-417f-a3bf-e730ddd1d139",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "goldevergreen",
+        "confidence": "source-provided",
+        "display_group_key": "goldevergreen",
+        "name": "GOLD EVERGREEN",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "gold evergreen",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-evergreen",
+          "https://www.secureworks.com/research/evolution-of-the-gold-evergreen-threat-group"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-evergreen",
+              "https://www.secureworks.com/research/evolution-of-the-gold-evergreen-threat-group"
+            ]
+          }
+        ],
+        "variants": [
+          "GOLD EVERGREEN"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "GOLD EVERGREEN was a financially motivated cybercriminal threat group that operated the Gameover Zeus (aka Mapp, P2P Zeus) botnet until June 2014. It encompasses an expansive and long running criminal conspiracy operated by a confederation of individuals calling themselves The Business Club from the mid 2000s until 2014. GOLD EVERGREEN's technical operation was facilitated primarily through botnets using the Zeus, JabberZeus, and eventually Gameover Zeus malware families. These malware families were designed and maintained by a Russian national Evgeniy Bogachev (aka 'slavik') who was indicted by the U.S. DOJ in 2014 and remains a fugitive."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-fc1c1d9f-1432-417f-a3bf-e730ddd1d139",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.secureworks.com/research/threat-profiles/gold-evergreen"
+      },
+      {
+        "actor_id": "misp-fc1c1d9f-1432-417f-a3bf-e730ddd1d139",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/evolution-of-the-gold-evergreen-threat-group"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "GOLD EVERGREEN"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

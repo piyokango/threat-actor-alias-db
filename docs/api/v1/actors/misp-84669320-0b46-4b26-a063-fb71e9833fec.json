@@ -1,0 +1,117 @@
+{
+  "actor": {
+    "actor_id": "misp-84669320-0b46-4b26-a063-fb71e9833fec",
+    "canonical_name": "UNC6040",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-84669320-0b46-4b26-a063-fb71e9833fec"
+    ],
+    "misp_uuid": "84669320-0b46-4b26-a063-fb71e9833fec",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unc6040",
+        "confidence": "source-provided",
+        "display_group_key": "unc6040",
+        "name": "UNC6040",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc6040",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/technical-analysis-vishing-threats",
+          "https://cloud.google.com/blog/topics/threat-intelligence/voice-phishing-data-extortion",
+          "https://www.varonis.com/blog/salesforce-vishing-threat-unc604"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/technical-analysis-vishing-threats",
+              "https://cloud.google.com/blog/topics/threat-intelligence/voice-phishing-data-extortion",
+              "https://www.varonis.com/blog/salesforce-vishing-threat-unc604"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC6040"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UNC6040 is a financially motivated threat cluster that employs vishing to gain access to organizations' Salesforce environments, facilitating large-scale data exfiltration. The group manipulates end users into authorizing malicious connected apps, often masquerading as IT support personnel, to exploit OAuth permissions. Following initial access, UNC6040 leverages harvested credentials to move laterally within victim networks, targeting other cloud platforms like Okta and Microsoft 365. Their operations are characterized by the use of Mullvad VPN IP addresses and a focus on social engineering tactics to bypass security measures."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-84669320-0b46-4b26-a063-fb71e9833fec",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/technical-analysis-vishing-threats"
+      },
+      {
+        "actor_id": "misp-84669320-0b46-4b26-a063-fb71e9833fec",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/voice-phishing-data-extortion"
+      },
+      {
+        "actor_id": "misp-84669320-0b46-4b26-a063-fb71e9833fec",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.varonis.com/blog/salesforce-vishing-threat-unc604"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "UNC6040"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

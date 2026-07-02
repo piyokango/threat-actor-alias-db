@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-2485a9cb-b41c-43bd-8b1c-c64e919c0a4e",
+    "canonical_name": "Storm-1575",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-2485a9cb-b41c-43bd-8b1c-c64e919c0a4e"
+    ],
+    "misp_uuid": "2485a9cb-b41c-43bd-8b1c-c64e919c0a4e",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "storm1575",
+        "confidence": "source-provided",
+        "display_group_key": "storm1575",
+        "name": "Storm-1575",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 1575",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://twitter.com/MsftSecIntel/status/1712936244987019704?lang=en",
+          "https://www.bridewell.com/insights/blogs/detail/analysing-widespread-microsoft365-credential-harvesting-campaign"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://twitter.com/MsftSecIntel/status/1712936244987019704?lang=en",
+              "https://www.bridewell.com/insights/blogs/detail/analysing-widespread-microsoft365-credential-harvesting-campaign"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-1575"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Storm-1575 is a threat actor identified by Microsoft as being involved in phishing campaigns using the Dadsec platform. They utilize hundreds of Domain Generated Algorithm domains to host credential harvesting pages and target global organizations to steal Microsoft 365 credentials."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-2485a9cb-b41c-43bd-8b1c-c64e919c0a4e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://twitter.com/MsftSecIntel/status/1712936244987019704?lang=en"
+      },
+      {
+        "actor_id": "misp-2485a9cb-b41c-43bd-8b1c-c64e919c0a4e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bridewell.com/insights/blogs/detail/analysing-widespread-microsoft365-credential-harvesting-campaign"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Storm-1575"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

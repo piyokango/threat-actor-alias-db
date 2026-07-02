@@ -1,0 +1,149 @@
+{
+  "actor": {
+    "actor_id": "misp-f82b352e-a9f8-11e8-8be8-fbcf6eddd58c",
+    "canonical_name": "Stealth Mango and Tangelo",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-f82b352e-a9f8-11e8-8be8-fbcf6eddd58c"
+    ],
+    "misp_uuid": "f82b352e-a9f8-11e8-8be8-fbcf6eddd58c",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "stealthmangoandtangelo",
+        "confidence": "source-provided",
+        "display_group_key": "stealthmangoandtangelo",
+        "name": "Stealth Mango and Tangelo",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "stealth mango and tangelo",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.cfr.org/interactive/cyber-operations/stealth-mango-and-tangelo",
+          "https://www.lookout.com/blog/stealth-mango"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.cfr.org/interactive/cyber-operations/stealth-mango-and-tangelo",
+              "https://www.lookout.com/blog/stealth-mango"
+            ]
+          }
+        ],
+        "variants": [
+          "Stealth Mango and Tangelo"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "This threat actor targets organizations in the satellite communications, telecommunications, geospatial-imaging, and defense sectors in the United States and Southeast Asia for espionage purposes."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-f82b352e-a9f8-11e8-8be8-fbcf6eddd58c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/stealth-mango-and-tangelo"
+      },
+      {
+        "actor_id": "misp-f82b352e-a9f8-11e8-8be8-fbcf6eddd58c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.lookout.com/blog/stealth-mango"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "PK",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "PK"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "PK",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "PK"
+        }
+      ]
+    },
+    "search_names": [
+      "Stealth Mango and Tangelo"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

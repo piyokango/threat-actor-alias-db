@@ -1,0 +1,4267 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0094",
+    "canonical_name": "Kimsuky",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0094"
+    ],
+    "misp_uuid": "bcaaad6f-0597-4b89-b69b-84a6be2b7bc3",
+    "mitre_id": "G0094",
+    "names": [
+      {
+        "compact_normalized_name": "kimsuky",
+        "confidence": "source-provided",
+        "display_group_key": "kimsuky",
+        "name": "Kimsuky",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "kimsuky",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/57873",
+          "https://asec.ahnlab.com/en/61082",
+          "https://attack.mitre.org/groups/G0086",
+          "https://attack.mitre.org/groups/G0094",
+          "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+          "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+          "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+          "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+          "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+          "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+          "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+          "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+          "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+          "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+          "https://youtu.be/hAsKp43AZmM?t=1027"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/57873",
+              "https://asec.ahnlab.com/en/61082",
+              "https://attack.mitre.org/groups/G0086",
+              "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+              "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+              "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+              "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+              "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+              "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+              "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+              "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+              "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+              "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+              "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+              "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+              "https://youtu.be/hAsKp43AZmM?t=1027"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0094"
+            ]
+          }
+        ],
+        "variants": [
+          "Kimsuky"
+        ]
+      },
+      {
+        "compact_normalized_name": "apt43",
+        "confidence": "source-provided",
+        "display_group_key": "apt43",
+        "name": "APT43",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "apt43",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/57873",
+          "https://asec.ahnlab.com/en/61082",
+          "https://attack.mitre.org/groups/G0086",
+          "https://attack.mitre.org/groups/G0094",
+          "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+          "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+          "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+          "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+          "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+          "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+          "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+          "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+          "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+          "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+          "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+          "https://youtu.be/hAsKp43AZmM?t=1027"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/57873",
+              "https://asec.ahnlab.com/en/61082",
+              "https://attack.mitre.org/groups/G0086",
+              "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+              "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+              "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+              "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+              "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+              "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+              "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+              "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+              "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+              "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+              "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+              "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+              "https://youtu.be/hAsKp43AZmM?t=1027"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0094"
+            ]
+          }
+        ],
+        "variants": [
+          "APT43"
+        ]
+      },
+      {
+        "compact_normalized_name": "blackbanshee",
+        "confidence": "source-provided",
+        "display_group_key": "blackbanshee",
+        "name": "Black Banshee",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "black banshee",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/57873",
+          "https://asec.ahnlab.com/en/61082",
+          "https://attack.mitre.org/groups/G0086",
+          "https://attack.mitre.org/groups/G0094",
+          "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+          "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+          "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+          "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+          "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+          "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+          "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+          "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+          "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+          "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+          "https://youtu.be/hAsKp43AZmM?t=1027"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/57873",
+              "https://asec.ahnlab.com/en/61082",
+              "https://attack.mitre.org/groups/G0086",
+              "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+              "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+              "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+              "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+              "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+              "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+              "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+              "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+              "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+              "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+              "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+              "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+              "https://youtu.be/hAsKp43AZmM?t=1027"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0094"
+            ]
+          }
+        ],
+        "variants": [
+          "Black Banshee"
+        ]
+      },
+      {
+        "compact_normalized_name": "earthkumiho",
+        "confidence": "source-provided",
+        "display_group_key": "earthkumiho",
+        "name": "Earth Kumiho",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "earth kumiho",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0094"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0094"
+            ]
+          }
+        ],
+        "variants": [
+          "Earth Kumiho"
+        ]
+      },
+      {
+        "compact_normalized_name": "emeraldsleet",
+        "confidence": "source-provided",
+        "display_group_key": "emeraldsleet",
+        "name": "Emerald Sleet",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "emerald sleet",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/57873",
+          "https://asec.ahnlab.com/en/61082",
+          "https://attack.mitre.org/groups/G0086",
+          "https://attack.mitre.org/groups/G0094",
+          "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+          "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+          "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+          "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+          "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+          "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+          "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+          "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+          "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+          "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+          "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+          "https://youtu.be/hAsKp43AZmM?t=1027"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/57873",
+              "https://asec.ahnlab.com/en/61082",
+              "https://attack.mitre.org/groups/G0086",
+              "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+              "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+              "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+              "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+              "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+              "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+              "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+              "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+              "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+              "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+              "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+              "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+              "https://youtu.be/hAsKp43AZmM?t=1027"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0094"
+            ]
+          }
+        ],
+        "variants": [
+          "Emerald Sleet"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0086",
+        "confidence": "source-provided",
+        "display_group_key": "g0086",
+        "name": "G0086",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0086",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/57873",
+          "https://asec.ahnlab.com/en/61082",
+          "https://attack.mitre.org/groups/G0086",
+          "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+          "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+          "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+          "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+          "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+          "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+          "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+          "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+          "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+          "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+          "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+          "https://youtu.be/hAsKp43AZmM?t=1027"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/57873",
+              "https://asec.ahnlab.com/en/61082",
+              "https://attack.mitre.org/groups/G0086",
+              "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+              "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+              "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+              "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+              "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+              "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+              "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+              "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+              "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+              "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+              "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+              "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+              "https://youtu.be/hAsKp43AZmM?t=1027"
+            ]
+          }
+        ],
+        "variants": [
+          "G0086"
+        ]
+      },
+      {
+        "compact_normalized_name": "greendinosa",
+        "confidence": "source-provided",
+        "display_group_key": "greendinosa",
+        "name": "Greendinosa",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "greendinosa",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "Greendinosa"
+        ]
+      },
+      {
+        "compact_normalized_name": "operationstolenpencil",
+        "confidence": "source-provided",
+        "display_group_key": "operationstolenpencil",
+        "name": "Operation Stolen Pencil",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "operation stolen pencil",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/57873",
+          "https://asec.ahnlab.com/en/61082",
+          "https://attack.mitre.org/groups/G0086",
+          "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+          "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+          "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+          "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+          "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+          "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+          "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+          "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+          "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+          "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+          "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+          "https://youtu.be/hAsKp43AZmM?t=1027"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/57873",
+              "https://asec.ahnlab.com/en/61082",
+              "https://attack.mitre.org/groups/G0086",
+              "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+              "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+              "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+              "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+              "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+              "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+              "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+              "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+              "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+              "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+              "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+              "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+              "https://youtu.be/hAsKp43AZmM?t=1027"
+            ]
+          }
+        ],
+        "variants": [
+          "Operation Stolen Pencil"
+        ]
+      },
+      {
+        "compact_normalized_name": "patheticslug",
+        "confidence": "source-provided",
+        "display_group_key": "patheticslug",
+        "name": "PatheticSlug",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "patheticslug",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0094"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0094"
+            ]
+          }
+        ],
+        "variants": [
+          "PatheticSlug"
+        ]
+      },
+      {
+        "compact_normalized_name": "rgbd5",
+        "confidence": "source-provided",
+        "display_group_key": "rgbd5",
+        "name": "RGB-D5",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "rgb d5",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "RGB-D5"
+        ]
+      },
+      {
+        "compact_normalized_name": "sparklingpisces",
+        "confidence": "source-provided",
+        "display_group_key": "sparklingpisces",
+        "name": "Sparkling Pisces",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "sparkling pisces",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/57873",
+          "https://asec.ahnlab.com/en/61082",
+          "https://attack.mitre.org/groups/G0086",
+          "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+          "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+          "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+          "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+          "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+          "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+          "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+          "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+          "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+          "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+          "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+          "https://youtu.be/hAsKp43AZmM?t=1027"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/57873",
+              "https://asec.ahnlab.com/en/61082",
+              "https://attack.mitre.org/groups/G0086",
+              "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+              "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+              "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+              "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+              "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+              "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+              "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+              "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+              "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+              "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+              "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+              "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+              "https://youtu.be/hAsKp43AZmM?t=1027"
+            ]
+          }
+        ],
+        "variants": [
+          "Sparkling Pisces"
+        ]
+      },
+      {
+        "compact_normalized_name": "springtail",
+        "confidence": "source-provided",
+        "display_group_key": "springtail",
+        "name": "Springtail",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "springtail",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/57873",
+          "https://asec.ahnlab.com/en/61082",
+          "https://attack.mitre.org/groups/G0086",
+          "https://attack.mitre.org/groups/G0094",
+          "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+          "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+          "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+          "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+          "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+          "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+          "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+          "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+          "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+          "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+          "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+          "https://youtu.be/hAsKp43AZmM?t=1027"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/57873",
+              "https://asec.ahnlab.com/en/61082",
+              "https://attack.mitre.org/groups/G0086",
+              "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+              "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+              "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+              "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+              "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+              "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+              "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+              "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+              "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+              "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+              "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+              "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+              "https://youtu.be/hAsKp43AZmM?t=1027"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0094"
+            ]
+          }
+        ],
+        "variants": [
+          "Springtail"
+        ]
+      },
+      {
+        "compact_normalized_name": "ta427",
+        "confidence": "source-provided",
+        "display_group_key": "ta427",
+        "name": "TA427",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "ta427",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0094"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0094"
+            ]
+          }
+        ],
+        "variants": [
+          "TA427"
+        ]
+      },
+      {
+        "compact_normalized_name": "thallium",
+        "confidence": "source-provided",
+        "display_group_key": "thallium",
+        "name": "Thallium",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "thallium",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/57873",
+          "https://asec.ahnlab.com/en/61082",
+          "https://attack.mitre.org/groups/G0086",
+          "https://attack.mitre.org/groups/G0094",
+          "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+          "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+          "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+          "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+          "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+          "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+          "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+          "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+          "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+          "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+          "https://youtu.be/hAsKp43AZmM?t=1027"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/57873",
+              "https://asec.ahnlab.com/en/61082",
+              "https://attack.mitre.org/groups/G0086",
+              "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+              "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+              "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+              "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+              "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+              "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+              "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+              "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+              "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+              "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+              "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+              "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+              "https://youtu.be/hAsKp43AZmM?t=1027"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0094"
+            ]
+          }
+        ],
+        "variants": [
+          "Thallium",
+          "THALLIUM"
+        ]
+      },
+      {
+        "compact_normalized_name": "velvetchollima",
+        "confidence": "source-provided",
+        "display_group_key": "velvetchollima",
+        "name": "VELVET CHOLLIMA",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "velvet chollima",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/57873",
+          "https://asec.ahnlab.com/en/61082",
+          "https://attack.mitre.org/groups/G0086",
+          "https://attack.mitre.org/groups/G0094",
+          "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+          "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+          "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+          "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+          "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+          "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+          "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+          "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+          "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+          "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+          "https://youtu.be/hAsKp43AZmM?t=1027"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/57873",
+              "https://asec.ahnlab.com/en/61082",
+              "https://attack.mitre.org/groups/G0086",
+              "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b",
+              "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+              "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage",
+              "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant",
+              "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks",
+              "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+              "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+              "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+              "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+              "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+              "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29",
+              "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals",
+              "https://youtu.be/hAsKp43AZmM?t=1027"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0094"
+            ]
+          }
+        ],
+        "variants": [
+          "VELVET CHOLLIMA",
+          "Velvet Chollima"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0094",
+          "name": "Obfuscated Files or Information",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+            "https://threatconnect.com/blog/kimsuky-phishing-operations-putting-in-work/",
+            "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis",
+            "https://www.virusbulletin.com/virusbulletin/2020/03/vb2019-paper-kimsuky-group-tracking-king-spearphishing/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "actor_id": "mitre-g0094",
+          "name": "Binary Padding",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.001",
+          "url": "https://attack.mitre.org/techniques/T1027.001/"
+        },
+        {
+          "actor_id": "mitre-g0094",
+          "name": "Software Packing",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.002",
+          "url": "https://attack.mitre.org/techniques/T1027.002/"
+        },
+        {
+          "actor_id": "mitre-g0094",
+          "name": "Dynamic API Resolution",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.007",
+          "url": "https://attack.mitre.org/techniques/T1027.007/"
+        },
+        {
+          "actor_id": "mitre-g0094",
+          "name": "Command Obfuscation",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.010",
+          "url": "https://attack.mitre.org/techniques/T1027.010/"
+        },
+        {
+          "actor_id": "mitre-g0094",
+          "name": "LNK Icon Smuggling",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+            "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.012",
+          "url": "https://attack.mitre.org/techniques/T1027.012/"
+        },
+        {
+          "actor_id": "mitre-g0094",
+          "name": "Encrypted/Encoded File",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+            "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.013",
+          "url": "https://attack.mitre.org/techniques/T1027.013/"
+        },
+        {
+          "actor_id": "mitre-g0094",
+          "name": "Compression",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.015",
+          "url": "https://attack.mitre.org/techniques/T1027.015/"
+        },
+        {
+          "actor_id": "mitre-g0094",
+          "name": "Junk Code Insertion",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.016",
+          "url": "https://attack.mitre.org/techniques/T1027.016/"
+        },
+        {
+          "actor_id": "mitre-g0094",
+          "name": "Masquerade Task or Service",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+            "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.004",
+          "url": "https://attack.mitre.org/techniques/T1036.004/"
+        },
+        {
+          "actor_id": "mitre-g0094",
+          "name": "Match Legitimate Resource Name or Location",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.enki.co.kr/en/media-center/blog/kimsuky-distributing-malicious-mobile-app-via-qr-code",
+            "https://www.malwarebytes.com/blog/threat-intelligence/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor",
+            "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036.005/"
+        },
+        {
+          "actor_id": "mitre-g0094",
+          "name": "Double File Extension",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.007",
+          "url": "https://attack.mitre.org/techniques/T1036.007/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 31,
+          "items": [
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Obfuscated Files or Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://threatconnect.com/blog/kimsuky-phishing-operations-putting-in-work/",
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis",
+                "https://www.virusbulletin.com/virusbulletin/2020/03/vb2019-paper-kimsuky-group-tracking-king-spearphishing/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027",
+              "url": "https://attack.mitre.org/techniques/T1027/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Binary Padding",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.001",
+              "url": "https://attack.mitre.org/techniques/T1027.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Software Packing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.002",
+              "url": "https://attack.mitre.org/techniques/T1027.002/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Dynamic API Resolution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.007",
+              "url": "https://attack.mitre.org/techniques/T1027.007/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Command Obfuscation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.010",
+              "url": "https://attack.mitre.org/techniques/T1027.010/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "LNK Icon Smuggling",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.012",
+              "url": "https://attack.mitre.org/techniques/T1027.012/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Encrypted/Encoded File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.013",
+              "url": "https://attack.mitre.org/techniques/T1027.013/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Compression",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.015",
+              "url": "https://attack.mitre.org/techniques/T1027.015/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Junk Code Insertion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.016",
+              "url": "https://attack.mitre.org/techniques/T1027.016/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Masquerade Task or Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.004",
+              "url": "https://attack.mitre.org/techniques/T1036.004/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Match Legitimate Resource Name or Location",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.enki.co.kr/en/media-center/blog/kimsuky-distributing-malicious-mobile-app-via-qr-code",
+                "https://www.malwarebytes.com/blog/threat-intelligence/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.005",
+              "url": "https://attack.mitre.org/techniques/T1036.005/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Double File Extension",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.007",
+              "url": "https://attack.mitre.org/techniques/T1036.007/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Process Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055",
+              "url": "https://attack.mitre.org/techniques/T1055/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Dynamic-link Library Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055.001",
+              "url": "https://attack.mitre.org/techniques/T1055.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Process Hollowing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055.012",
+              "url": "https://attack.mitre.org/techniques/T1055.012/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "File Deletion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.004",
+              "url": "https://attack.mitre.org/techniques/T1070.004/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Timestomp",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.006",
+              "url": "https://attack.mitre.org/techniques/T1070.006/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Deobfuscate/Decode Files or Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1140",
+              "url": "https://attack.mitre.org/techniques/T1140/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Traffic Signaling",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/kimsuky-deploys-translatext-target-south-korean-academia#technical-analysis"
+              ],
+              "tactics": [
+                "command-and-control",
+                "persistence",
+                "stealth"
+              ],
+              "technique_id": "T1205",
+              "url": "https://attack.mitre.org/techniques/T1205/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Mshta",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.alyac.co.kr/2234",
+                "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.005",
+              "url": "https://attack.mitre.org/techniques/T1218.005/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Regsvr32",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.010",
+              "url": "https://attack.mitre.org/techniques/T1218.010/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Rundll32",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.011",
+              "url": "https://attack.mitre.org/techniques/T1218.011/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Mutual Exclusion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1480.002",
+              "url": "https://attack.mitre.org/techniques/T1480.002/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "System Checks",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "discovery",
+                "stealth"
+              ],
+              "technique_id": "T1497.001",
+              "url": "https://attack.mitre.org/techniques/T1497.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Hidden Users",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.002",
+              "url": "https://attack.mitre.org/techniques/T1564.002/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Hidden Window",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.003",
+              "url": "https://attack.mitre.org/techniques/T1564.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Ignore Process Interrupts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.011",
+              "url": "https://attack.mitre.org/techniques/T1564.011/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Reflective Code Loading",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt43-report-en.pdf",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1620",
+              "url": "https://attack.mitre.org/techniques/T1620/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Delay Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1678",
+              "url": "https://attack.mitre.org/techniques/T1678/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Impersonation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ic3.gov/CSA/2026/260108.pdf",
+                "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1684.001",
+              "url": "https://attack.mitre.org/techniques/T1684.001/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 15,
+          "items": [
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Acquire Infrastructure",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt43-report-en.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583",
+              "url": "https://attack.mitre.org/techniques/T1583/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/",
+                "https://services.google.com/fh/files/misc/apt43-report-en.pdf",
+                "https://threatconnect.com/blog/kimsuky-phishing-operations-putting-in-work/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+                "https://www.zdnet.com/article/north-korea-has-tried-to-hack-11-officials-of-the-un-security-council/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Server",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.004",
+              "url": "https://attack.mitre.org/techniques/T1583.004/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Web Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.006",
+              "url": "https://attack.mitre.org/techniques/T1583.006/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt43-report-en.pdf",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1584.001",
+              "url": "https://attack.mitre.org/techniques/T1584.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Establish Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt43-report-en.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585",
+              "url": "https://attack.mitre.org/techniques/T1585/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Social Media Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585.001",
+              "url": "https://attack.mitre.org/techniques/T1585.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Email Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt43-report-en.pdf",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.proofpoint.com/us/blog/threat-insight/social-engineering-dmarc-abuse-ta427s-art-information-gathering"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585.002",
+              "url": "https://attack.mitre.org/techniques/T1585.002/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Email Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/",
+                "https://www.virusbulletin.com/virusbulletin/2020/03/vb2019-paper-kimsuky-group-tracking-king-spearphishing/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1586.002",
+              "url": "https://attack.mitre.org/techniques/T1586.002/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Develop Capabilities",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.virusbulletin.com/virusbulletin/2020/03/vb2019-paper-kimsuky-group-tracking-king-spearphishing/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1587",
+              "url": "https://attack.mitre.org/techniques/T1587/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://services.google.com/fh/files/misc/apt43-report-en.pdf",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1587.001",
+              "url": "https://attack.mitre.org/techniques/T1587.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/",
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://services.google.com/fh/files/misc/apt43-report-en.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Code Signing Certificates",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://medium.com/s2wblog/kimsuky-disguised-as-a-korean-company-signed-with-a-valid-certificate-to-distribute-troll-stealer-cfa5d54314e2"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.003",
+              "url": "https://attack.mitre.org/techniques/T1588.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Exploits",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.005",
+              "url": "https://attack.mitre.org/techniques/T1588.005/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Upload Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://services.google.com/fh/files/misc/apt43-report-en.pdf",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.001",
+              "url": "https://attack.mitre.org/techniques/T1608.001/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 13,
+          "items": [
+            {
+              "actor_id": "mitre-g0094",
+              "name": "System Service Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1007",
+              "url": "https://attack.mitre.org/techniques/T1007/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Query Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1012",
+              "url": "https://attack.mitre.org/techniques/T1012/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "System Network Configuration Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://www.proofpoint.com/us/blog/threat-insight/social-engineering-dmarc-abuse-ta427s-art-information-gathering",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1016",
+              "url": "https://attack.mitre.org/techniques/T1016/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "System Owner/User Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1033",
+              "url": "https://attack.mitre.org/techniques/T1033/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Network Sniffing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a"
+              ],
+              "tactics": [
+                "credential-access",
+                "discovery"
+              ],
+              "technique_id": "T1040",
+              "url": "https://attack.mitre.org/techniques/T1040/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Process Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1057",
+              "url": "https://attack.mitre.org/techniques/T1057/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "System Information Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1082",
+              "url": "https://attack.mitre.org/techniques/T1082/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "File and Directory Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1083",
+              "url": "https://attack.mitre.org/techniques/T1083/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "System Time Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1124",
+              "url": "https://attack.mitre.org/techniques/T1124/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Browser Information Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1217",
+              "url": "https://attack.mitre.org/techniques/T1217/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "System Checks",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "discovery",
+                "stealth"
+              ],
+              "technique_id": "T1497.001",
+              "url": "https://attack.mitre.org/techniques/T1497.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Security Software Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1518.001",
+              "url": "https://attack.mitre.org/techniques/T1518.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Local Storage Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1680",
+              "url": "https://attack.mitre.org/techniques/T1680/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 12,
+          "items": [
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Data from Local System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1005",
+              "url": "https://attack.mitre.org/techniques/T1005/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Keylogging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/",
+                "https://blog.alyac.co.kr/2234",
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.001",
+              "url": "https://attack.mitre.org/techniques/T1056.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Web Portal Capture",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ic3.gov/CSA/2026/260108.pdf"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.003",
+              "url": "https://attack.mitre.org/techniques/T1056.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Local Data Staging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1074.001",
+              "url": "https://attack.mitre.org/techniques/T1074.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Screen Capture",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis",
+                "https://www.zscaler.com/blogs/security-research/kimsuky-deploys-translatext-target-south-korean-academia#technical-analysis"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1113",
+              "url": "https://attack.mitre.org/techniques/T1113/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Remote Email Collection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1114.002",
+              "url": "https://attack.mitre.org/techniques/T1114.002/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Email Forwarding Rule",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1114.003",
+              "url": "https://attack.mitre.org/techniques/T1114.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Clipboard Data",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1115",
+              "url": "https://attack.mitre.org/techniques/T1115/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Browser Session Hijacking",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/kimsuky-deploys-translatext-target-south-korean-academia#technical-analysis"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1185",
+              "url": "https://attack.mitre.org/techniques/T1185/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Adversary-in-the-Middle",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1557",
+              "url": "https://attack.mitre.org/techniques/T1557/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Archive via Utility",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1560.001",
+              "url": "https://attack.mitre.org/techniques/T1560.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Archive via Custom Method",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1560.003",
+              "url": "https://attack.mitre.org/techniques/T1560.003/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 12,
+          "items": [
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis",
+                "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Additional Local or Domain Groups",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1098.007",
+              "url": "https://attack.mitre.org/techniques/T1098.007/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Modify Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1112",
+              "url": "https://attack.mitre.org/techniques/T1112/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Local Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1136.001",
+              "url": "https://attack.mitre.org/techniques/T1136.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Browser Extensions",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/",
+                "https://www.zdnet.com/article/cyber-espionage-group-uses-chrome-extension-to-infect-victims/"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1176.001",
+              "url": "https://attack.mitre.org/techniques/T1176.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Traffic Signaling",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/kimsuky-deploys-translatext-target-south-korean-academia#technical-analysis"
+              ],
+              "tactics": [
+                "command-and-control",
+                "persistence",
+                "stealth"
+              ],
+              "technique_id": "T1205",
+              "url": "https://attack.mitre.org/techniques/T1205/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Web Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1505.003",
+              "url": "https://attack.mitre.org/techniques/T1505.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Change Default File Association",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1546.001",
+              "url": "https://attack.mitre.org/techniques/T1546.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 11,
+          "items": [
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis",
+                "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.alyac.co.kr/2234",
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://services.google.com/fh/files/misc/apt43-report-en.pdf",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+                "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis",
+                "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Visual Basic",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+                "https://threatconnect.com/blog/kimsuky-phishing-operations-putting-in-work/",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+                "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix",
+                "https://www.virusbulletin.com/virusbulletin/2020/03/vb2019-paper-kimsuky-group-tracking-king-spearphishing/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.005",
+              "url": "https://attack.mitre.org/techniques/T1059.005/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Python",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.006",
+              "url": "https://attack.mitre.org/techniques/T1059.006/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "JavaScript",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://www.virusbulletin.com/virusbulletin/2020/03/vb2019-paper-kimsuky-group-tracking-king-spearphishing/",
+                "https://www.zscaler.com/blogs/security-research/kimsuky-deploys-translatext-target-south-korean-academia#technical-analysis"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.007",
+              "url": "https://attack.mitre.org/techniques/T1059.007/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Native API",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1106",
+              "url": "https://attack.mitre.org/techniques/T1106/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Malicious Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.001",
+              "url": "https://attack.mitre.org/techniques/T1204.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/",
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://threatconnect.com/blog/kimsuky-phishing-operations-putting-in-work/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis",
+                "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix",
+                "https://www.virusbulletin.com/virusbulletin/2020/03/vb2019-paper-kimsuky-group-tracking-king-spearphishing/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Malicious Copy and Paste",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.004",
+              "url": "https://attack.mitre.org/techniques/T1204.004/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Component Object Model",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1559.001",
+              "url": "https://attack.mitre.org/techniques/T1559.001/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 10,
+          "items": [
+            {
+              "actor_id": "mitre-g0094",
+              "name": "LSASS Memory",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.001",
+              "url": "https://attack.mitre.org/techniques/T1003.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Network Sniffing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a"
+              ],
+              "tactics": [
+                "credential-access",
+                "discovery"
+              ],
+              "technique_id": "T1040",
+              "url": "https://attack.mitre.org/techniques/T1040/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Keylogging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/",
+                "https://blog.alyac.co.kr/2234",
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.001",
+              "url": "https://attack.mitre.org/techniques/T1056.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Web Portal Capture",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ic3.gov/CSA/2026/260108.pdf"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.003",
+              "url": "https://attack.mitre.org/techniques/T1056.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Multi-Factor Authentication Interception",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1111",
+              "url": "https://attack.mitre.org/techniques/T1111/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Steal Web Session Cookie",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://medium.com/s2wblog/kimsuky-disguised-as-a-korean-company-signed-with-a-valid-certificate-to-distribute-troll-stealer-cfa5d54314e2",
+                "https://www.zscaler.com/blogs/security-research/kimsuky-deploys-translatext-target-south-korean-academia#technical-analysis"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1539",
+              "url": "https://attack.mitre.org/techniques/T1539/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Credentials In Files",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1552.001",
+              "url": "https://attack.mitre.org/techniques/T1552.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Private Keys",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1552.004",
+              "url": "https://attack.mitre.org/techniques/T1552.004/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Credentials from Web Browsers",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/",
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://www.zdnet.com/article/cyber-espionage-group-uses-chrome-extension-to-infect-victims/"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1555.003",
+              "url": "https://attack.mitre.org/techniques/T1555.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Adversary-in-the-Middle",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1557",
+              "url": "https://attack.mitre.org/techniques/T1557/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 10,
+          "items": [
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Web Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.001",
+              "url": "https://attack.mitre.org/techniques/T1071.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "File Transfer Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.virusbulletin.com/virusbulletin/2020/03/vb2019-paper-kimsuky-group-tracking-king-spearphishing/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.002",
+              "url": "https://attack.mitre.org/techniques/T1071.002/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Mail Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.003",
+              "url": "https://attack.mitre.org/techniques/T1071.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Dead Drop Resolver",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/kimsuky-deploys-translatext-target-south-korean-academia#technical-analysis"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1102.001",
+              "url": "https://attack.mitre.org/techniques/T1102.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Bidirectional Communication",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/",
+                "https://www.zscaler.com/blogs/security-research/kimsuky-deploys-translatext-target-south-korean-academia#technical-analysis"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1102.002",
+              "url": "https://attack.mitre.org/techniques/T1102.002/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Non-Standard Encoding",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1132.002",
+              "url": "https://attack.mitre.org/techniques/T1132.002/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Traffic Signaling",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/kimsuky-deploys-translatext-target-south-korean-academia#technical-analysis"
+              ],
+              "tactics": [
+                "command-and-control",
+                "persistence",
+                "stealth"
+              ],
+              "technique_id": "T1205",
+              "url": "https://attack.mitre.org/techniques/T1205/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Remote Desktop Software",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1219.002",
+              "url": "https://attack.mitre.org/techniques/T1219.002/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Dynamic Resolution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1568",
+              "url": "https://attack.mitre.org/techniques/T1568/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 10,
+          "items": [
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Email Addresses",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/",
+                "https://services.google.com/fh/files/misc/apt43-report-en.pdf",
+                "https://www.proofpoint.com/us/blog/threat-insight/social-engineering-dmarc-abuse-ta427s-art-information-gathering"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1589.002",
+              "url": "https://attack.mitre.org/techniques/T1589.002/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Employee Names",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1589.003",
+              "url": "https://attack.mitre.org/techniques/T1589.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Gather Victim Org Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.microsoft.com/en-us/security/blog/2024/02/14/staying-ahead-of-threat-actors-in-the-age-of-ai/"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1591",
+              "url": "https://attack.mitre.org/techniques/T1591/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Social Media",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1593.001",
+              "url": "https://attack.mitre.org/techniques/T1593.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Search Engines",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1593.002",
+              "url": "https://attack.mitre.org/techniques/T1593.002/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Search Victim-Owned Websites",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1594",
+              "url": "https://attack.mitre.org/techniques/T1594/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Search Open Technical Databases",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors/",
+                "https://www.microsoft.com/en-us/security/blog/2024/02/14/staying-ahead-of-threat-actors-in-the-age-of-ai/"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1596",
+              "url": "https://attack.mitre.org/techniques/T1596/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Phishing for Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt43-report-en.pdf"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1598",
+              "url": "https://attack.mitre.org/techniques/T1598/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.enki.co.kr/en/media-center/blog/kimsuky-distributing-malicious-mobile-app-via-qr-code",
+                "https://www.ic3.gov/CSA/2026/260108.pdf",
+                "https://www.proofpoint.com/us/blog/threat-insight/social-engineering-dmarc-abuse-ta427s-art-information-gathering",
+                "https://www.virusbulletin.com/virusbulletin/2020/03/vb2019-paper-kimsuky-group-tracking-king-spearphishing/"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1598.003",
+              "url": "https://attack.mitre.org/techniques/T1598.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Query Public AI Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2024/02/14/staying-ahead-of-threat-actors-in-the-age-of-ai/"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1682",
+              "url": "https://attack.mitre.org/techniques/T1682/"
+            }
+          ],
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        },
+        {
+          "count": 9,
+          "items": [
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis",
+                "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Process Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055",
+              "url": "https://attack.mitre.org/techniques/T1055/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Dynamic-link Library Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055.001",
+              "url": "https://attack.mitre.org/techniques/T1055.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Process Hollowing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055.012",
+              "url": "https://attack.mitre.org/techniques/T1055.012/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Additional Local or Domain Groups",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1098.007",
+              "url": "https://attack.mitre.org/techniques/T1098.007/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Change Default File Association",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1546.001",
+              "url": "https://attack.mitre.org/techniques/T1546.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Exploit Public-Facing Application",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1190",
+              "url": "https://attack.mitre.org/techniques/T1190/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Phishing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt43-report-en.pdf",
+                "https://www.microsoft.com/en-us/security/blog/2024/02/14/staying-ahead-of-threat-actors-in-the-age-of-ai/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566",
+              "url": "https://attack.mitre.org/techniques/T1566/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/",
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/",
+                "https://threatconnect.com/blog/kimsuky-phishing-operations-putting-in-work/",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+                "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/",
+                "https://www.virusbulletin.com/virusbulletin/2020/03/vb2019-paper-kimsuky-group-tracking-king-spearphishing/",
+                "https://www.zdnet.com/article/cyber-espionage-group-uses-chrome-extension-to-infect-victims/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/",
+                "https://blog.alyac.co.kr/2234",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.002",
+              "url": "https://attack.mitre.org/techniques/T1566.002/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Modify Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf",
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1112",
+              "url": "https://attack.mitre.org/techniques/T1112/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Code Signing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://medium.com/s2wblog/kimsuky-disguised-as-a-korean-company-signed-with-a-valid-certificate-to-distribute-troll-stealer-cfa5d54314e2",
+                "https://threatconnect.com/blog/kimsuky-phishing-operations-putting-in-work/"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1553.002",
+              "url": "https://attack.mitre.org/techniques/T1553.002/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Disable or Modify Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1685",
+              "url": "https://attack.mitre.org/techniques/T1685/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Disable or Modify System Firewall",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1686",
+              "url": "https://attack.mitre.org/techniques/T1686/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Automated Exfiltration",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1020",
+              "url": "https://attack.mitre.org/techniques/T1020/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Exfiltration Over C2 Channel",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1041",
+              "url": "https://attack.mitre.org/techniques/T1041/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Exfiltration to Cloud Storage",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+                "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1567.002",
+              "url": "https://attack.mitre.org/techniques/T1567.002/"
+            }
+          ],
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Remote Desktop Protocol",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.001",
+              "url": "https://attack.mitre.org/techniques/T1021.001/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Internal Spearphishing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1534",
+              "url": "https://attack.mitre.org/techniques/T1534/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Pass the Hash",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-301a"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1550.002",
+              "url": "https://attack.mitre.org/techniques/T1550.002/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Service Stop",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1489",
+              "url": "https://attack.mitre.org/techniques/T1489/"
+            },
+            {
+              "actor_id": "mitre-g0094",
+              "name": "Financial Theft",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt43-report-en.pdf"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1657",
+              "url": "https://attack.mitre.org/techniques/T1657/"
+            }
+          ],
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 31,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 15,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 13,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 12,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 12,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 11,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 10,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 10,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 10,
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        },
+        {
+          "count": 9,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 6,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 4,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 3,
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 3,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 2,
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        }
+      ],
+      "total": 130
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0094/"
+          ]
+        }
+      ],
+      "text": "Kimsuky is a Democratic People's Republic of Korea (DPRK)-based cyber espionage group that has been active since at least 2012. The group initially targeted South Korean government agencies, think tanks, and subject-matter experts in various fields. Its operations expanded to include the United Nations and organizations in the government, education, business services, and manufacturing sectors across the United States, Japan, Russia, and Europe. Kimsuky has focused collection on foreign policy and national security issues tied to the Korean Peninsula, nuclear policy, and sanctions. Kimsuky operations have overlapped with those of other North Korean state-sponsored cyber espionage actors as..."
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://asec.ahnlab.com/en/57873"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://asec.ahnlab.com/en/61082"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0086"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0094"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.alyac.co.kr/2234"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.alyac.co.kr/attachment/cfile5.uf@99A0CD415CB67E210DCEB3.pdf"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.cloudflare.com/2026-threat-report"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://ctoatncsc.substack.com/p/cto-at-ncsc-summary-week-ending-may-16b"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://global.ahnlab.com/global/upload/download/techreport/%5BAnalysis_Report%5DOperation%20Kabar%20Cobra.pdf"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://services.google.com/fh/files/misc/apt43-report-en.pdf"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/springtail-kimsuky-backdoor-espionage"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://threatconnect.com/blog/kimsuky-phishing-operations-putting-in-work"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-301a"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/kimsuky"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/blog/apt43-north-korea-cybercrime-espionage"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2024/02/14/staying-ahead-of-threat-actors-in-the-age-of-ai"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/blog/threat-insight/social-engineering-dmarc-abuse-ta427s-art-information-gathering"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.rapid7.com/cdn/assets/bltc1ddd6561ab54a26/69ba67de50ca691edcd3f5b7/rapid7-threat-landscape-report-2026.pdf"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-north-korean-apt-kimsuky-aka-black-banshee-active-iocs-29"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.security.com/threat-intelligence/springtail-kimsuky-backdoor-espionage"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.zdnet.com/article/cyber-espionage-group-uses-chrome-extension-to-infect-victims"
+      },
+      {
+        "actor_id": "mitre-g0094",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://youtu.be/hAsKp43AZmM?t=1027"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        },
+        {
+          "country_code": "KP",
+          "display_value": "North Korea",
+          "flag": "🇰🇵",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "North Korea"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        },
+        {
+          "country_code": "KP",
+          "display_value": "North Korea",
+          "flag": "🇰🇵",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "North Korea"
+        }
+      ]
+    },
+    "search_names": [
+      "APT43",
+      "Black Banshee",
+      "Earth Kumiho",
+      "Emerald Sleet",
+      "G0086",
+      "Greendinosa",
+      "Kimsuky",
+      "Operation Stolen Pencil",
+      "PatheticSlug",
+      "RGB-D5",
+      "Sparkling Pisces",
+      "Springtail",
+      "TA427",
+      "Thallium",
+      "THALLIUM",
+      "VELVET CHOLLIMA",
+      "Velvet Chollima"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

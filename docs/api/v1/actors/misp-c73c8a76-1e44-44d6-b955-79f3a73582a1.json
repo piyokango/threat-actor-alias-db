@@ -1,0 +1,234 @@
+{
+  "actor": {
+    "actor_id": "misp-c73c8a76-1e44-44d6-b955-79f3a73582a1",
+    "canonical_name": "Red Nue",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-c73c8a76-1e44-44d6-b955-79f3a73582a1"
+    ],
+    "misp_uuid": "c73c8a76-1e44-44d6-b955-79f3a73582a1",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "rednue",
+        "confidence": "source-provided",
+        "display_group_key": "rednue",
+        "name": "Red Nue",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "red nue",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blogs.blackberry.com/en/2022/06/threat-thursday-china-based-apt-plays-auto-updater-card-to-deliver-windealer-malware",
+          "https://blogs.jpcert.or.jp/en/2021/10/windealer.html",
+          "https://jsac.jpcert.or.jp/archive/2021/pdf/JSAC2021_301_shui-leon_en.pdf",
+          "https://securelist.com/windealer-dealing-on-the-side/105946",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blogs.blackberry.com/en/2022/06/threat-thursday-china-based-apt-plays-auto-updater-card-to-deliver-windealer-malware",
+              "https://blogs.jpcert.or.jp/en/2021/10/windealer.html",
+              "https://jsac.jpcert.or.jp/archive/2021/pdf/JSAC2021_301_shui-leon_en.pdf",
+              "https://securelist.com/windealer-dealing-on-the-side/105946",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Red Nue"
+        ]
+      },
+      {
+        "compact_normalized_name": "luoyu",
+        "confidence": "source-provided",
+        "display_group_key": "luoyu",
+        "name": "LuoYu",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "luoyu",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blogs.blackberry.com/en/2022/06/threat-thursday-china-based-apt-plays-auto-updater-card-to-deliver-windealer-malware",
+          "https://blogs.jpcert.or.jp/en/2021/10/windealer.html",
+          "https://jsac.jpcert.or.jp/archive/2021/pdf/JSAC2021_301_shui-leon_en.pdf",
+          "https://securelist.com/windealer-dealing-on-the-side/105946",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blogs.blackberry.com/en/2022/06/threat-thursday-china-based-apt-plays-auto-updater-card-to-deliver-windealer-malware",
+              "https://blogs.jpcert.or.jp/en/2021/10/windealer.html",
+              "https://jsac.jpcert.or.jp/archive/2021/pdf/JSAC2021_301_shui-leon_en.pdf",
+              "https://securelist.com/windealer-dealing-on-the-side/105946",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "LuoYu"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Red Nue, active since at least 2017, is known for its use of the multi-platform LootRAt backdoor, also known as ReverseWindow. LootRAT has variants for Windows and Macintosh (reported in open source as Demsty), as well as an Android variant known as SpyDealer. Red Nue has also used another Windows backdoor known as WinDealer since at least 2019, when it deployed it to targets as part of a watering hole campaign on a Chinese news website for the Chinese diaspora community. Parts of Asia feature heavily in Red Nue's victimology."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-c73c8a76-1e44-44d6-b955-79f3a73582a1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blogs.blackberry.com/en/2022/06/threat-thursday-china-based-apt-plays-auto-updater-card-to-deliver-windealer-malware"
+      },
+      {
+        "actor_id": "misp-c73c8a76-1e44-44d6-b955-79f3a73582a1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blogs.jpcert.or.jp/en/2021/10/windealer.html"
+      },
+      {
+        "actor_id": "misp-c73c8a76-1e44-44d6-b955-79f3a73582a1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://jsac.jpcert.or.jp/archive/2021/pdf/JSAC2021_301_shui-leon_en.pdf"
+      },
+      {
+        "actor_id": "misp-c73c8a76-1e44-44d6-b955-79f3a73582a1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/windealer-dealing-on-the-side/105946"
+      },
+      {
+        "actor_id": "misp-c73c8a76-1e44-44d6-b955-79f3a73582a1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf"
+      },
+      {
+        "actor_id": "misp-c73c8a76-1e44-44d6-b955-79f3a73582a1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "LuoYu",
+      "Red Nue"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

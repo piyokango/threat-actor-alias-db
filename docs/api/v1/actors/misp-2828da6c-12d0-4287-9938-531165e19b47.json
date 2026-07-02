@@ -1,0 +1,186 @@
+{
+  "actor": {
+    "actor_id": "misp-2828da6c-12d0-4287-9938-531165e19b47",
+    "canonical_name": "Earth Lamia",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-2828da6c-12d0-4287-9938-531165e19b47"
+    ],
+    "misp_uuid": "2828da6c-12d0-4287-9938-531165e19b47",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "earthlamia",
+        "confidence": "source-provided",
+        "display_group_key": "earthlamia",
+        "name": "Earth Lamia",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "earth lamia",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/threat-actors-exploit-react2shell-cve-2025-55182",
+          "https://www.trendmicro.com/en_us/research/25/e/earth-lamia.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/threat-actors-exploit-react2shell-cve-2025-55182",
+              "https://www.trendmicro.com/en_us/research/25/e/earth-lamia.html"
+            ]
+          }
+        ],
+        "variants": [
+          "Earth Lamia"
+        ]
+      },
+      {
+        "compact_normalized_name": "unc5454",
+        "confidence": "source-provided",
+        "display_group_key": "unc5454",
+        "name": "UNC5454",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc5454",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/threat-actors-exploit-react2shell-cve-2025-55182",
+          "https://www.trendmicro.com/en_us/research/25/e/earth-lamia.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/threat-actors-exploit-react2shell-cve-2025-55182",
+              "https://www.trendmicro.com/en_us/research/25/e/earth-lamia.html"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC5454"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Earth Lamia is a China-nexus APT that targets organizations across multiple sectors, including finance, logistics, and government, primarily in Latin America, the Middle East, and Southeast Asia. The actor exploits web application vulnerabilities, such as CVE-2025-55182, and employs techniques like SQL injection, DLL sideloading, and the deployment of custom backdoors like PULSEPACK and BypassBoss. Earth Lamia conducts reconnaissance, file operations, and credential theft, often utilizing tools like Cobalt Strike and VShell."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-2828da6c-12d0-4287-9938-531165e19b47",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/threat-actors-exploit-react2shell-cve-2025-55182"
+      },
+      {
+        "actor_id": "misp-2828da6c-12d0-4287-9938-531165e19b47",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/25/e/earth-lamia.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "Earth Lamia",
+      "UNC5454"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

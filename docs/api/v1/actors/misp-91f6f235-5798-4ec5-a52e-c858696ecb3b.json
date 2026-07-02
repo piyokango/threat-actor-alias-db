@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-91f6f235-5798-4ec5-a52e-c858696ecb3b",
+    "canonical_name": "IronErn440",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-91f6f235-5798-4ec5-a52e-c858696ecb3b"
+    ],
+    "misp_uuid": "91f6f235-5798-4ec5-a52e-c858696ecb3b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "ironern440",
+        "confidence": "source-provided",
+        "display_group_key": "ironern440",
+        "name": "IronErn440",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ironern440",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.oligo.security/blog/shadowray-2-0-attackers-turn-ai-against-itself-in-global-campaign-that-hijacks-ai-into-self-propagating-botnet"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.oligo.security/blog/shadowray-2-0-attackers-turn-ai-against-itself-in-global-campaign-that-hijacks-ai-into-self-propagating-botnet"
+            ]
+          }
+        ],
+        "variants": [
+          "IronErn440"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "IronErn440 is a threat actor tracked by Oligo Security for orchestrating the ShadowRay 2.0 campaign, an evolution of attacks since September 2023 exploiting CVE-2023-48022, a missing authentication flaw in the Ray AI framework's Job Submission API. The actor submits malicious jobs to exposed Ray clusters (port 8265), deploying multi-stage Bash/Python payloads via GitHub/GitLab repositories like \"ironern440-group\" and \"thisisforwork440-ops\" to propagate worm-like, hijack NVIDIA GPUs for XMRig cryptomining, pivot laterally, create reverse shells, kill competing miners, limit CPU to 60%, and persist via cron jobs pulling updates every 15 minutes. Additional capabilities include DDoS via..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-91f6f235-5798-4ec5-a52e-c858696ecb3b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.oligo.security/blog/shadowray-2-0-attackers-turn-ai-against-itself-in-global-campaign-that-hijacks-ai-into-self-propagating-botnet"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "IronErn440"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

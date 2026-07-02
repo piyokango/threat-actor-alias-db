@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-2a105c46-90b1-4cff-9f66-464f8c66c22f",
+    "canonical_name": "Nickel Alley",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-2a105c46-90b1-4cff-9f66-464f8c66c22f"
+    ],
+    "misp_uuid": "2a105c46-90b1-4cff-9f66-464f8c66c22f",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "nickelalley",
+        "confidence": "source-provided",
+        "display_group_key": "nickelalley",
+        "name": "Nickel Alley",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "nickel alley",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.sophos.com/en-us/blog/nickel-alley-strategy-fake-it-til-you-make-it"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.sophos.com/en-us/blog/nickel-alley-strategy-fake-it-til-you-make-it"
+            ]
+          }
+        ],
+        "variants": [
+          "Nickel Alley"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "NICKEL ALLEY is a North Korean threat group that targets technology professionals through fake job opportunities, employing social engineering tactics such as creating fraudulent LinkedIn pages and GitHub repositories for malware delivery. They utilize the ClickFix tactic to deploy the PyLangGhost RAT, which supports file exfiltration and system profiling, particularly focusing on Chrome cryptocurrency wallet data. The group has also leveraged Visual Studio Code tasks to execute commands for malware retrieval based on the victim's operating system. Their operations indicate a dual focus on cryptocurrency theft and potential supply chain compromise or corporate espionage."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-2a105c46-90b1-4cff-9f66-464f8c66c22f",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sophos.com/en-us/blog/nickel-alley-strategy-fake-it-til-you-make-it"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        }
+      ]
+    },
+    "search_names": [
+      "Nickel Alley"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

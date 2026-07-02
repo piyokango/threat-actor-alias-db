@@ -1,0 +1,276 @@
+{
+  "actor": {
+    "actor_id": "misp-c82c904f-b3b4-40a2-bf0d-008912953104",
+    "canonical_name": "APT14",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-c82c904f-b3b4-40a2-bf0d-008912953104"
+    ],
+    "misp_uuid": "c82c904f-b3b4-40a2-bf0d-008912953104",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "apt14",
+        "confidence": "source-provided",
+        "display_group_key": "apt14",
+        "name": "APT14",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "apt14",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.crowdstrike.com/blog/whois-anchor-panda",
+          "https://www.cfr.org/interactive/cyber-operations/anchor-panda",
+          "https://www.mandiant.com/resources/insights/apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.crowdstrike.com/blog/whois-anchor-panda",
+              "https://www.cfr.org/interactive/cyber-operations/anchor-panda",
+              "https://www.mandiant.com/resources/insights/apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "APT14"
+        ]
+      },
+      {
+        "compact_normalized_name": "aluminum",
+        "confidence": "source-provided",
+        "display_group_key": "aluminum",
+        "name": "ALUMINUM",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "aluminum",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.crowdstrike.com/blog/whois-anchor-panda",
+          "https://www.cfr.org/interactive/cyber-operations/anchor-panda",
+          "https://www.mandiant.com/resources/insights/apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.crowdstrike.com/blog/whois-anchor-panda",
+              "https://www.cfr.org/interactive/cyber-operations/anchor-panda",
+              "https://www.mandiant.com/resources/insights/apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "ALUMINUM"
+        ]
+      },
+      {
+        "compact_normalized_name": "anchorpanda",
+        "confidence": "source-provided",
+        "display_group_key": "anchorpanda",
+        "name": "ANCHOR PANDA",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "anchor panda",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.crowdstrike.com/blog/whois-anchor-panda",
+          "https://www.cfr.org/interactive/cyber-operations/anchor-panda",
+          "https://www.mandiant.com/resources/insights/apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.crowdstrike.com/blog/whois-anchor-panda",
+              "https://www.cfr.org/interactive/cyber-operations/anchor-panda",
+              "https://www.mandiant.com/resources/insights/apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "ANCHOR PANDA"
+        ]
+      },
+      {
+        "compact_normalized_name": "qazteam",
+        "confidence": "source-provided",
+        "display_group_key": "qazteam",
+        "name": "QAZTeam",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "qazteam",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.crowdstrike.com/blog/whois-anchor-panda",
+          "https://www.cfr.org/interactive/cyber-operations/anchor-panda",
+          "https://www.mandiant.com/resources/insights/apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.crowdstrike.com/blog/whois-anchor-panda",
+              "https://www.cfr.org/interactive/cyber-operations/anchor-panda",
+              "https://www.mandiant.com/resources/insights/apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "QAZTeam"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "PLA Navy Anchor Panda is an adversary that CrowdStrike has tracked extensively over the last year targeting both civilian and military maritime operations in the green/brown water regions primarily in the area of operations of the South Sea Fleet of the PLA Navy. In addition to maritime operations in this region, Anchor Panda also heavily targeted western companies in the US, Germany, Sweden, the UK, and Australia, and other countries involved in maritime satellite systems, aerospace companies, and defense contractors. Not surprisingly, embassies and diplomatic missions in the region, foreign intelligence services, and foreign governments with space programs were also targeted."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-c82c904f-b3b4-40a2-bf0d-008912953104",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.crowdstrike.com/blog/whois-anchor-panda"
+      },
+      {
+        "actor_id": "misp-c82c904f-b3b4-40a2-bf0d-008912953104",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/anchor-panda"
+      },
+      {
+        "actor_id": "misp-c82c904f-b3b4-40a2-bf0d-008912953104",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/insights/apt-groups"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "ALUMINUM",
+      "ANCHOR PANDA",
+      "APT14",
+      "QAZTeam"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-9f133738-935f-11e9-aa5e-bbf8d91abb46",
+    "canonical_name": "[Vault 7/8]",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-9f133738-935f-11e9-aa5e-bbf8d91abb46"
+    ],
+    "misp_uuid": "9f133738-935f-11e9-aa5e-bbf8d91abb46",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "vault78",
+        "confidence": "source-provided",
+        "display_group_key": "vault78",
+        "name": "[Vault 7/8]",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "vault 7 8",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://wikileaks.org/ciav7p1",
+          "https://www.justice.gov/opa/pr/joshua-adam-schulte-charged-unauthorized-disclosure-classified-information-and-other-offenses"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://wikileaks.org/ciav7p1",
+              "https://www.justice.gov/opa/pr/joshua-adam-schulte-charged-unauthorized-disclosure-classified-information-and-other-offenses"
+            ]
+          }
+        ],
+        "variants": [
+          "[Vault 7/8]"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "An unnamed source leaked almost 10,000 documents describing a large number of 0-day vulnerabilities, methodologies and tools that had been collected by the CIA. This leaking was done through WikiLeaks, since March 2017. In weekly publications, the dumps were said to come from Vault 7 and later Vault 8, until his arrest in 2018. Most of the published vulnerabilities have since been fixed by the respective vendors, by many have been used by other threat actors. This actor turned out to be a former CIA software engineer. (WikiLeaks) Today, Tuesday 7 March 2017, WikiLeaks begins its new series of leaks on the U.S. Central Intelligence Agency. Code-named \"Vault 7\" by WikiLeaks, it is the largest..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-9f133738-935f-11e9-aa5e-bbf8d91abb46",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://wikileaks.org/ciav7p1"
+      },
+      {
+        "actor_id": "misp-9f133738-935f-11e9-aa5e-bbf8d91abb46",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/opa/pr/joshua-adam-schulte-charged-unauthorized-disclosure-classified-information-and-other-offenses"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "[Vault 7/8]"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

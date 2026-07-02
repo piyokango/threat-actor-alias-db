@@ -1,0 +1,944 @@
+{
+  "actor": {
+    "actor_id": "mitre-g1018",
+    "canonical_name": "TA2541",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g1018"
+    ],
+    "misp_uuid": "a57e5bf5-d7f4-43a1-9c15-8a44cdb95079",
+    "mitre_id": "G1018",
+    "names": [
+      {
+        "compact_normalized_name": "ta2541",
+        "confidence": "source-provided",
+        "display_group_key": "ta2541",
+        "name": "TA2541",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "ta2541",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1018",
+          "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1018"
+            ]
+          }
+        ],
+        "variants": [
+          "TA2541"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g1018",
+          "name": "Software Packing",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.002",
+          "url": "https://attack.mitre.org/techniques/T1027.002/"
+        },
+        {
+          "actor_id": "mitre-g1018",
+          "name": "Encrypted/Encoded File",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.013",
+          "url": "https://attack.mitre.org/techniques/T1027.013/"
+        },
+        {
+          "actor_id": "mitre-g1018",
+          "name": "Compression",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.015",
+          "url": "https://attack.mitre.org/techniques/T1027.015/"
+        },
+        {
+          "actor_id": "mitre-g1018",
+          "name": "Match Legitimate Resource Name or Location",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036.005/"
+        },
+        {
+          "actor_id": "mitre-g1018",
+          "name": "Process Injection",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/",
+            "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+          ],
+          "tactics": [
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1055",
+          "url": "https://attack.mitre.org/techniques/T1055/"
+        },
+        {
+          "actor_id": "mitre-g1018",
+          "name": "Process Hollowing",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+          ],
+          "tactics": [
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1055.012",
+          "url": "https://attack.mitre.org/techniques/T1055.012/"
+        },
+        {
+          "actor_id": "mitre-g1018",
+          "name": "Mshta",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1218.005",
+          "url": "https://attack.mitre.org/techniques/T1218.005/"
+        },
+        {
+          "actor_id": "mitre-g1018",
+          "name": "Windows Management Instrumentation",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1047",
+          "url": "https://attack.mitre.org/techniques/T1047/"
+        },
+        {
+          "actor_id": "mitre-g1018",
+          "name": "Scheduled Task",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+          ],
+          "tactics": [
+            "execution",
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1053.005",
+          "url": "https://attack.mitre.org/techniques/T1053.005/"
+        },
+        {
+          "actor_id": "mitre-g1018",
+          "name": "PowerShell",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.001",
+          "url": "https://attack.mitre.org/techniques/T1059.001/"
+        },
+        {
+          "actor_id": "mitre-g1018",
+          "name": "Visual Basic",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/",
+            "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.005",
+          "url": "https://attack.mitre.org/techniques/T1059.005/"
+        },
+        {
+          "actor_id": "mitre-g1018",
+          "name": "Malicious Link",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.mandiant.com/resources/blog/dissecting-netwire-phishing-campaigns-usage-process-hollowing",
+            "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1204.001",
+          "url": "https://attack.mitre.org/techniques/T1204.001/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Software Packing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.002",
+              "url": "https://attack.mitre.org/techniques/T1027.002/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Encrypted/Encoded File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.013",
+              "url": "https://attack.mitre.org/techniques/T1027.013/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Compression",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.015",
+              "url": "https://attack.mitre.org/techniques/T1027.015/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Match Legitimate Resource Name or Location",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.005",
+              "url": "https://attack.mitre.org/techniques/T1036.005/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Process Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/",
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055",
+              "url": "https://attack.mitre.org/techniques/T1055/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Process Hollowing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055.012",
+              "url": "https://attack.mitre.org/techniques/T1055.012/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Mshta",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.005",
+              "url": "https://attack.mitre.org/techniques/T1218.005/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Windows Management Instrumentation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1047",
+              "url": "https://attack.mitre.org/techniques/T1047/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Visual Basic",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/",
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.005",
+              "url": "https://attack.mitre.org/techniques/T1059.005/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Malicious Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/dissecting-netwire-phishing-campaigns-usage-process-hollowing",
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.001",
+              "url": "https://attack.mitre.org/techniques/T1204.001/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/",
+                "https://telefonicatech.com/blog/snip3-investigacion-malware",
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/",
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Web Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.006",
+              "url": "https://attack.mitre.org/techniques/T1583.006/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.001",
+              "url": "https://attack.mitre.org/techniques/T1588.001/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Upload Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/",
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.001",
+              "url": "https://attack.mitre.org/techniques/T1608.001/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Process Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/",
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055",
+              "url": "https://attack.mitre.org/techniques/T1055/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Process Hollowing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055.012",
+              "url": "https://attack.mitre.org/techniques/T1055.012/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Dynamic Resolution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1568",
+              "url": "https://attack.mitre.org/techniques/T1568/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Asymmetric Cryptography",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1573.002",
+              "url": "https://attack.mitre.org/techniques/T1573.002/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Internet Connection Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1016.001",
+              "url": "https://attack.mitre.org/techniques/T1016.001/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "System Information Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1082",
+              "url": "https://attack.mitre.org/techniques/T1082/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Security Software Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1518.001",
+              "url": "https://attack.mitre.org/techniques/T1518.001/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/",
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            },
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://telefonicatech.com/blog/snip3-investigacion-malware",
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.002",
+              "url": "https://attack.mitre.org/techniques/T1566.002/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1018",
+              "name": "Disable or Modify Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1685",
+              "url": "https://attack.mitre.org/techniques/T1685/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 7,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 6,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 5,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 4,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 3,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 3,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 2,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 2,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        }
+      ],
+      "total": 28
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G1018/"
+          ]
+        }
+      ],
+      "text": "TA2541 is a cybercriminal group that has been targeting the aviation, aerospace, transportation, manufacturing, and defense industries since at least 2017. TA2541 campaigns are typically high volume and involve the use of commodity remote access tools obfuscated by crypters and themes related to aviation, transportation, and travel.(Citation: Proofpoint TA2541 February 2022)(Citation: Cisco Operation Layover September 2021)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g1018",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G1018"
+      },
+      {
+        "actor_id": "mitre-g1018",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack"
+      },
+      {
+        "actor_id": "mitre-g1018",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "TA2541"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

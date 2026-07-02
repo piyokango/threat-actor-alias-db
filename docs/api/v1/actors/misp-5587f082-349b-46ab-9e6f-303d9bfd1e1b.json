@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-5587f082-349b-46ab-9e6f-303d9bfd1e1b",
+    "canonical_name": "CostaRicto",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-5587f082-349b-46ab-9e6f-303d9bfd1e1b"
+    ],
+    "misp_uuid": "5587f082-349b-46ab-9e6f-303d9bfd1e1b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "costaricto",
+        "confidence": "source-provided",
+        "display_group_key": "costaricto",
+        "name": "CostaRicto",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "costaricto",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blogs.blackberry.com/en/2020/11/the-costaricto-campaign-cyber-espionage-outsourced",
+          "https://www.cybersecurityintelligence.com/blog/outsourced-cyber-spying-5335.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blogs.blackberry.com/en/2020/11/the-costaricto-campaign-cyber-espionage-outsourced",
+              "https://www.cybersecurityintelligence.com/blog/outsourced-cyber-spying-5335.html"
+            ]
+          }
+        ],
+        "variants": [
+          "CostaRicto"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "CostaRicto is a cyber-espionage threat actor that operates as a mercenary group, offering its services to various clients globally. They use bespoke malware tools and sophisticated techniques like VPN proxy and SSH tunnelling. While their targets are scattered across different regions, there is a concentration in South Asia."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-5587f082-349b-46ab-9e6f-303d9bfd1e1b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blogs.blackberry.com/en/2020/11/the-costaricto-campaign-cyber-espionage-outsourced"
+      },
+      {
+        "actor_id": "misp-5587f082-349b-46ab-9e6f-303d9bfd1e1b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cybersecurityintelligence.com/blog/outsourced-cyber-spying-5335.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "CostaRicto"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

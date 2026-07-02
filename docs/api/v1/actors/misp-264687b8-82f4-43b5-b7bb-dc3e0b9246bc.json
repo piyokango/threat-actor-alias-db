@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-264687b8-82f4-43b5-b7bb-dc3e0b9246bc",
+    "canonical_name": "Blackatom",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-264687b8-82f4-43b5-b7bb-dc3e0b9246bc"
+    ],
+    "misp_uuid": "264687b8-82f4-43b5-b7bb-dc3e0b9246bc",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "blackatom",
+        "confidence": "source-provided",
+        "display_group_key": "blackatom",
+        "name": "Blackatom",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "blackatom",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://services.google.com/fh/files/misc/tool-of-first-resort-israel-hamas-war-cyber.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://services.google.com/fh/files/misc/tool-of-first-resort-israel-hamas-war-cyber.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Blackatom"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Recent campaigns suggest Hamas-linked actors may be advancing their TTPs to include intricate social engineering lures specially crafted to appeal to a niche group of high value targets. In September 2023, a Palestine-based group likely linked to Hamas targeted Israeli software engineers using an elaborate social engineering ruse that ultimately installed malware and stole cookies. The attackers, which Google’s Threat Analysis Group (TAG) tracks as BLACKATOM, posed as employees of legitimate companies and reached out via LinkedIn to invite targets to apply for software development freelance opportunities. Targets included software engineers in the Israeli military, as well as Israel’s..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-264687b8-82f4-43b5-b7bb-dc3e0b9246bc",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://services.google.com/fh/files/misc/tool-of-first-resort-israel-hamas-war-cyber.pdf"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "PS",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "PS"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "PS",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "PS"
+        }
+      ]
+    },
+    "search_names": [
+      "Blackatom"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

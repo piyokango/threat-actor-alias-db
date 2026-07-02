@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-05cf269a-1731-45a6-bcd3-eff1afcca2bb",
+    "canonical_name": "FlowerStorm",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-05cf269a-1731-45a6-bcd3-eff1afcca2bb"
+    ],
+    "misp_uuid": "05cf269a-1731-45a6-bcd3-eff1afcca2bb",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "flowerstorm",
+        "confidence": "source-provided",
+        "display_group_key": "flowerstorm",
+        "name": "FlowerStorm",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "flowerstorm",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://news.sophos.com/en-us/2024/12/19/phishing-platform-rockstar-2fa-trips-and-flowerstorm-picks-up-the-pieces"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://news.sophos.com/en-us/2024/12/19/phishing-platform-rockstar-2fa-trips-and-flowerstorm-picks-up-the-pieces"
+            ]
+          }
+        ],
+        "variants": [
+          "FlowerStorm"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "FlowerStorm is a phishing-as-a-service platform that mimics legitimate services to bypass multi-factor authentication structure. The majority of its targets are located in North America and Europe, with a significant focus on organizations in the United States. FlowerStorm's operational mistakes have led to vulnerabilities that can be exploited for disruption and analysis."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-05cf269a-1731-45a6-bcd3-eff1afcca2bb",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://news.sophos.com/en-us/2024/12/19/phishing-platform-rockstar-2fa-trips-and-flowerstorm-picks-up-the-pieces"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "FlowerStorm"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

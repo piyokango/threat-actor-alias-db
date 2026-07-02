@@ -1,0 +1,2258 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0022",
+    "canonical_name": "APT3",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0022"
+    ],
+    "misp_uuid": "d144c83e-2302-4947-9e24-856fbf7949ae",
+    "mitre_id": "G0022",
+    "names": [
+      {
+        "compact_normalized_name": "apt3",
+        "confidence": "source-provided",
+        "display_group_key": "apt3",
+        "name": "APT3",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "apt3",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0022",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+          "https://www.cfr.org/interactive/cyber-operations/apt-3",
+          "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+              "https://www.cfr.org/interactive/cyber-operations/apt-3",
+              "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0022"
+            ]
+          }
+        ],
+        "variants": [
+          "APT3"
+        ]
+      },
+      {
+        "compact_normalized_name": "boron",
+        "confidence": "source-provided",
+        "display_group_key": "boron",
+        "name": "BORON",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "boron",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+          "https://www.cfr.org/interactive/cyber-operations/apt-3",
+          "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+              "https://www.cfr.org/interactive/cyber-operations/apt-3",
+              "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+            ]
+          }
+        ],
+        "variants": [
+          "BORON"
+        ]
+      },
+      {
+        "compact_normalized_name": "boyusec",
+        "confidence": "source-provided",
+        "display_group_key": "boyusec",
+        "name": "Boyusec",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "boyusec",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+          "https://www.cfr.org/interactive/cyber-operations/apt-3",
+          "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+              "https://www.cfr.org/interactive/cyber-operations/apt-3",
+              "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+            ]
+          }
+        ],
+        "variants": [
+          "Boyusec"
+        ]
+      },
+      {
+        "compact_normalized_name": "brocadetyphoon",
+        "confidence": "source-provided",
+        "display_group_key": "brocadetyphoon",
+        "name": "Brocade Typhoon",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "brocade typhoon",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+          "https://www.cfr.org/interactive/cyber-operations/apt-3",
+          "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+              "https://www.cfr.org/interactive/cyber-operations/apt-3",
+              "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+            ]
+          }
+        ],
+        "variants": [
+          "Brocade Typhoon"
+        ]
+      },
+      {
+        "compact_normalized_name": "bronzemayfair",
+        "confidence": "source-provided",
+        "display_group_key": "bronzemayfair",
+        "name": "BRONZE MAYFAIR",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "bronze mayfair",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+          "https://www.cfr.org/interactive/cyber-operations/apt-3",
+          "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+              "https://www.cfr.org/interactive/cyber-operations/apt-3",
+              "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+            ]
+          }
+        ],
+        "variants": [
+          "BRONZE MAYFAIR"
+        ]
+      },
+      {
+        "compact_normalized_name": "buckeye",
+        "confidence": "source-provided",
+        "display_group_key": "buckeye",
+        "name": "Buckeye",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "buckeye",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0022",
+          "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+          "https://www.cfr.org/interactive/cyber-operations/apt-3",
+          "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+              "https://www.cfr.org/interactive/cyber-operations/apt-3",
+              "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0022"
+            ]
+          }
+        ],
+        "variants": [
+          "Buckeye"
+        ]
+      },
+      {
+        "compact_normalized_name": "cybran",
+        "confidence": "source-provided",
+        "display_group_key": "cybran",
+        "name": "CYBRAN",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "cybran",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "CYBRAN"
+        ]
+      },
+      {
+        "compact_normalized_name": "gothicpanda",
+        "confidence": "source-provided",
+        "display_group_key": "gothicpanda",
+        "name": "GOTHIC PANDA",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "gothic panda",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0022",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+          "https://www.cfr.org/interactive/cyber-operations/apt-3",
+          "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+              "https://www.cfr.org/interactive/cyber-operations/apt-3",
+              "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0022"
+            ]
+          }
+        ],
+        "variants": [
+          "Gothic Panda",
+          "GOTHIC PANDA"
+        ]
+      },
+      {
+        "compact_normalized_name": "group6",
+        "confidence": "source-provided",
+        "display_group_key": "group6",
+        "name": "Group 6",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "group 6",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+          "https://www.cfr.org/interactive/cyber-operations/apt-3",
+          "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+              "https://www.cfr.org/interactive/cyber-operations/apt-3",
+              "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+            ]
+          }
+        ],
+        "variants": [
+          "Group 6"
+        ]
+      },
+      {
+        "compact_normalized_name": "oldcarp",
+        "confidence": "source-provided",
+        "display_group_key": "oldcarp",
+        "name": "OLDCARP",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "oldcarp",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "OLDCARP"
+        ]
+      },
+      {
+        "compact_normalized_name": "pirpi",
+        "confidence": "source-provided",
+        "display_group_key": "pirpi",
+        "name": "Pirpi",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "pirpi",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0022"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0022"
+            ]
+          }
+        ],
+        "variants": [
+          "Pirpi"
+        ]
+      },
+      {
+        "compact_normalized_name": "redsylvan",
+        "confidence": "source-provided",
+        "display_group_key": "redsylvan",
+        "name": "Red Sylvan",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "red sylvan",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+          "https://www.cfr.org/interactive/cyber-operations/apt-3",
+          "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+              "https://www.cfr.org/interactive/cyber-operations/apt-3",
+              "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+            ]
+          }
+        ],
+        "variants": [
+          "Red Sylvan"
+        ]
+      },
+      {
+        "compact_normalized_name": "tg0110",
+        "confidence": "source-provided",
+        "display_group_key": "tg0110",
+        "name": "TG-0110",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "tg 0110",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0022",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+          "https://www.cfr.org/interactive/cyber-operations/apt-3",
+          "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+              "https://www.cfr.org/interactive/cyber-operations/apt-3",
+              "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0022"
+            ]
+          }
+        ],
+        "variants": [
+          "TG-0110"
+        ]
+      },
+      {
+        "compact_normalized_name": "threatgroup0110",
+        "confidence": "source-provided",
+        "display_group_key": "threatgroup0110",
+        "name": "Threat Group-0110",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "threat group 0110",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0022"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0022"
+            ]
+          }
+        ],
+        "variants": [
+          "Threat Group-0110"
+        ]
+      },
+      {
+        "compact_normalized_name": "ups",
+        "confidence": "source-provided",
+        "display_group_key": "ups",
+        "name": "UPS",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "ups",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+          "https://www.cfr.org/interactive/cyber-operations/apt-3",
+          "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+              "https://www.cfr.org/interactive/cyber-operations/apt-3",
+              "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+            ]
+          }
+        ],
+        "variants": [
+          "UPS"
+        ]
+      },
+      {
+        "compact_normalized_name": "upsteam",
+        "confidence": "source-provided",
+        "display_group_key": "upsteam",
+        "name": "UPS Team",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "ups team",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0022"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0022"
+            ]
+          }
+        ],
+        "variants": [
+          "UPS Team"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0022",
+          "name": "System Network Configuration Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution_of_pirpi.pdf",
+            "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1016",
+          "url": "https://attack.mitre.org/techniques/T1016/"
+        },
+        {
+          "actor_id": "mitre-g0022",
+          "name": "Remote System Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+            "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1018",
+          "url": "https://attack.mitre.org/techniques/T1018/"
+        },
+        {
+          "actor_id": "mitre-g0022",
+          "name": "Obfuscated Files or Information",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "actor_id": "mitre-g0022",
+          "name": "Software Packing",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/docs/APT3_Adversary_Emulation_Plan.pdf",
+            "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.002",
+          "url": "https://attack.mitre.org/techniques/T1027.002/"
+        },
+        {
+          "actor_id": "mitre-g0022",
+          "name": "Indicator Removal from Tools",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/docs/APT3_Adversary_Emulation_Plan.pdf"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.005",
+          "url": "https://attack.mitre.org/techniques/T1027.005/"
+        },
+        {
+          "actor_id": "mitre-g0022",
+          "name": "System Owner/User Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1033",
+          "url": "https://attack.mitre.org/techniques/T1033/"
+        },
+        {
+          "actor_id": "mitre-g0022",
+          "name": "Masquerade Account Name",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "http://carnal0wnage.attackresearch.com/2012/09/more-on-aptsim.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.010",
+          "url": "https://attack.mitre.org/techniques/T1036.010/"
+        },
+        {
+          "actor_id": "mitre-g0022",
+          "name": "System Network Connections Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution_of_pirpi.pdf",
+            "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+            "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1049",
+          "url": "https://attack.mitre.org/techniques/T1049/"
+        },
+        {
+          "actor_id": "mitre-g0022",
+          "name": "Process Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution_of_pirpi.pdf",
+            "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1057",
+          "url": "https://attack.mitre.org/techniques/T1057/"
+        },
+        {
+          "actor_id": "mitre-g0022",
+          "name": "Permission Groups Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1069",
+          "url": "https://attack.mitre.org/techniques/T1069/"
+        },
+        {
+          "actor_id": "mitre-g0022",
+          "name": "File Deletion",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1070.004",
+          "url": "https://attack.mitre.org/techniques/T1070.004/"
+        },
+        {
+          "actor_id": "mitre-g0022",
+          "name": "Domain Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078.002",
+          "url": "https://attack.mitre.org/techniques/T1078.002/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 9,
+          "items": [
+            {
+              "actor_id": "mitre-g0022",
+              "name": "System Network Configuration Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution_of_pirpi.pdf",
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1016",
+              "url": "https://attack.mitre.org/techniques/T1016/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Remote System Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+                "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1018",
+              "url": "https://attack.mitre.org/techniques/T1018/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "System Owner/User Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1033",
+              "url": "https://attack.mitre.org/techniques/T1033/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "System Network Connections Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution_of_pirpi.pdf",
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+                "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1049",
+              "url": "https://attack.mitre.org/techniques/T1049/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Process Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution_of_pirpi.pdf",
+                "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1057",
+              "url": "https://attack.mitre.org/techniques/T1057/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Permission Groups Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1069",
+              "url": "https://attack.mitre.org/techniques/T1069/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "System Information Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution_of_pirpi.pdf",
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1082",
+              "url": "https://attack.mitre.org/techniques/T1082/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "File and Directory Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution_of_pirpi.pdf",
+                "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1083",
+              "url": "https://attack.mitre.org/techniques/T1083/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Local Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1087.001",
+              "url": "https://attack.mitre.org/techniques/T1087.001/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 9,
+          "items": [
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Obfuscated Files or Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027",
+              "url": "https://attack.mitre.org/techniques/T1027/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Software Packing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://attack.mitre.org/docs/APT3_Adversary_Emulation_Plan.pdf",
+                "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.002",
+              "url": "https://attack.mitre.org/techniques/T1027.002/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Indicator Removal from Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://attack.mitre.org/docs/APT3_Adversary_Emulation_Plan.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.005",
+              "url": "https://attack.mitre.org/techniques/T1027.005/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Masquerade Account Name",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://carnal0wnage.attackresearch.com/2012/09/more-on-aptsim.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.010",
+              "url": "https://attack.mitre.org/techniques/T1036.010/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "File Deletion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.004",
+              "url": "https://attack.mitre.org/techniques/T1070.004/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Rundll32",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.011",
+              "url": "https://attack.mitre.org/techniques/T1218.011/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Hidden Window",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.003",
+              "url": "https://attack.mitre.org/techniques/T1564.003/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html",
+                "https://www.fireeye.com/blog/threat-research/2014/06/clandestine-fox-part-deux.html"
+              ],
+              "tactics": [
+                "execution",
+                "stealth"
+              ],
+              "technique_id": "T1574.001",
+              "url": "https://attack.mitre.org/techniques/T1574.001/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Additional Local or Domain Groups",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://carnal0wnage.attackresearch.com/2012/09/more-on-aptsim.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1098.007",
+              "url": "https://attack.mitre.org/techniques/T1098.007/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Local Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://carnal0wnage.attackresearch.com/2012/09/more-on-aptsim.html"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1136.001",
+              "url": "https://attack.mitre.org/techniques/T1136.001/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Accessibility Features",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://carnal0wnage.attackresearch.com/2012/09/more-on-aptsim.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1546.008",
+              "url": "https://attack.mitre.org/techniques/T1546.008/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+                "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Exploitation for Client Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html",
+                "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1203",
+              "url": "https://attack.mitre.org/techniques/T1203/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Malicious Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.001",
+              "url": "https://attack.mitre.org/techniques/T1204.001/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html",
+                "https://www.fireeye.com/blog/threat-research/2014/06/clandestine-fox-part-deux.html"
+              ],
+              "tactics": [
+                "execution",
+                "stealth"
+              ],
+              "technique_id": "T1574.001",
+              "url": "https://attack.mitre.org/techniques/T1574.001/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Additional Local or Domain Groups",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://carnal0wnage.attackresearch.com/2012/09/more-on-aptsim.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1098.007",
+              "url": "https://attack.mitre.org/techniques/T1098.007/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Accessibility Features",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://carnal0wnage.attackresearch.com/2012/09/more-on-aptsim.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1546.008",
+              "url": "https://attack.mitre.org/techniques/T1546.008/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0022",
+              "name": "LSASS Memory",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.001",
+              "url": "https://attack.mitre.org/techniques/T1003.001/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Keylogging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.001",
+              "url": "https://attack.mitre.org/techniques/T1056.001/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Password Cracking",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://attack.mitre.org/docs/APT3_Adversary_Emulation_Plan.pdf"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1110.002",
+              "url": "https://attack.mitre.org/techniques/T1110.002/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Credentials In Files",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1552.001",
+              "url": "https://attack.mitre.org/techniques/T1552.001/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Credentials from Web Browsers",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1555.003",
+              "url": "https://attack.mitre.org/techniques/T1555.003/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Data from Local System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://carnal0wnage.attackresearch.com/2012/09/more-on-aptsim.html"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1005",
+              "url": "https://attack.mitre.org/techniques/T1005/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Keylogging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.001",
+              "url": "https://attack.mitre.org/techniques/T1056.001/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Local Data Staging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://carnal0wnage.attackresearch.com/2012/09/more-on-aptsim.html"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1074.001",
+              "url": "https://attack.mitre.org/techniques/T1074.001/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Archive via Utility",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://carnal0wnage.attackresearch.com/2012/09/more-on-aptsim.html"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1560.001",
+              "url": "https://attack.mitre.org/techniques/T1560.001/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0022",
+              "name": "External Proxy",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1090.002",
+              "url": "https://attack.mitre.org/techniques/T1090.002/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Non-Application Layer Protocol",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1095",
+              "url": "https://attack.mitre.org/techniques/T1095/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Multi-Stage Channels",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1104",
+              "url": "https://attack.mitre.org/techniques/T1104/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.002",
+              "url": "https://attack.mitre.org/techniques/T1566.002/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Remote Desktop Protocol",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://carnal0wnage.attackresearch.com/2012/09/more-on-aptsim.html",
+                "https://x.com/cglyer/status/985311489782374400"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.001",
+              "url": "https://attack.mitre.org/techniques/T1021.001/"
+            },
+            {
+              "actor_id": "mitre-g0022",
+              "name": "SMB/Windows Admin Shares",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.002",
+              "url": "https://attack.mitre.org/techniques/T1021.002/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0022",
+              "name": "Exfiltration Over C2 Channel",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1041",
+              "url": "https://attack.mitre.org/techniques/T1041/"
+            }
+          ],
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 9,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 9,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 7,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 6,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 6,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 5,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 4,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 4,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 2,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 2,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 1,
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        }
+      ],
+      "total": 44
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0022/"
+          ]
+        }
+      ],
+      "text": "APT3 is a China-based threat group that researchers have attributed to China's Ministry of State Security.(Citation: FireEye Clandestine Wolf)(Citation: Recorded Future APT3 May 2017) This group is responsible for the campaigns known as Operation Clandestine Fox, Operation Clandestine Wolf, and Operation Double Tap.(Citation: FireEye Clandestine Wolf)(Citation: FireEye Operation Double Tap) As of June 2015, the group appears to have shifted from targeting primarily US victims to primarily political organizations in Hong Kong.(Citation: Symantec Buckeye)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0022",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://pwc.blogs.com/cyber_security_updates/2015/07/pirpi-scanbox.html"
+      },
+      {
+        "actor_id": "mitre-g0022",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0022"
+      },
+      {
+        "actor_id": "mitre-g0022",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g0022",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "mitre-g0022",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20160910124439/http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+      },
+      {
+        "actor_id": "mitre-g0022",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/apt-3"
+      },
+      {
+        "actor_id": "mitre-g0022",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html"
+      },
+      {
+        "actor_id": "mitre-g0022",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html"
+      },
+      {
+        "actor_id": "mitre-g0022",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf"
+      },
+      {
+        "actor_id": "mitre-g0022",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/insights/apt-groups"
+      },
+      {
+        "actor_id": "mitre-g0022",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.recordedfuture.com/research/chinese-mss-behind-apt3"
+      },
+      {
+        "actor_id": "mitre-g0022",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/bronze-mayfair"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "CN",
+          "display_value": "China",
+          "flag": "🇨🇳",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "China"
+        },
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "CN",
+          "display_value": "China",
+          "flag": "🇨🇳",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "China"
+        },
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "APT3",
+      "BORON",
+      "Boyusec",
+      "Brocade Typhoon",
+      "BRONZE MAYFAIR",
+      "Buckeye",
+      "CYBRAN",
+      "GOTHIC PANDA",
+      "Gothic Panda",
+      "Group 6",
+      "OLDCARP",
+      "Pirpi",
+      "Red Sylvan",
+      "TG-0110",
+      "Threat Group-0110",
+      "UPS",
+      "UPS Team"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-439a65b0-c4b4-4a09-a9c9-2c70476574ab",
+    "canonical_name": "SongXY",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-439a65b0-c4b4-4a09-a9c9-2c70476574ab"
+    ],
+    "misp_uuid": "439a65b0-c4b4-4a09-a9c9-2c70476574ab",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "songxy",
+        "confidence": "source-provided",
+        "display_group_key": "songxy",
+        "name": "SongXY",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "songxy",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.ptsecurity.com/upload/corporate/ww-en/analytics/APT-Attacks-eng.pdf",
+          "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.ptsecurity.com/upload/corporate/ww-en/analytics/APT-Attacks-eng.pdf",
+              "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group"
+            ]
+          }
+        ],
+        "variants": [
+          "SongXY"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "SongXY is a Chinese APT group that employs phishing tactics to initiate cyberespionage campaigns. They utilize the Royal Road RTF builder, exploiting the CVE-2018-0798 vulnerability in Microsoft Equation Editor. In one instance, they sent a document containing a link to an attacker-controlled server, which automatically triggered upon opening, allowing them to gather information about the target's system configuration."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-439a65b0-c4b4-4a09-a9c9-2c70476574ab",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.ptsecurity.com/upload/corporate/ww-en/analytics/APT-Attacks-eng.pdf"
+      },
+      {
+        "actor_id": "misp-439a65b0-c4b4-4a09-a9c9-2c70476574ab",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "SongXY"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

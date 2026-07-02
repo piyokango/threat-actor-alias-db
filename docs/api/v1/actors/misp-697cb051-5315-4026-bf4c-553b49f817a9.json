@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-697cb051-5315-4026-bf4c-553b49f817a9",
+    "canonical_name": "UNC2659",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-697cb051-5315-4026-bf4c-553b49f817a9"
+    ],
+    "misp_uuid": "697cb051-5315-4026-bf4c-553b49f817a9",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unc2659",
+        "confidence": "source-provided",
+        "display_group_key": "unc2659",
+        "name": "UNC2659",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc2659",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://internal-www.fireeye.com/blog/threat-research/2021/05/shining-a-light-on-darkside-ransomware-operations.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://internal-www.fireeye.com/blog/threat-research/2021/05/shining-a-light-on-darkside-ransomware-operations.html"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC2659"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UNC2659 has been active since at least January 2021. We have observed the threat actor move through the whole attack lifecycle in under 10 days. UNC2659 is notable given their use of an exploit in the SonicWall SMA100 SSL VPN product, which has since been patched by SonicWall. The threat actor appeared to download several tools used for various phases of the attack lifecycle directly from those tools’ legitimate public websites."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-697cb051-5315-4026-bf4c-553b49f817a9",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://internal-www.fireeye.com/blog/threat-research/2021/05/shining-a-light-on-darkside-ransomware-operations.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "UNC2659"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

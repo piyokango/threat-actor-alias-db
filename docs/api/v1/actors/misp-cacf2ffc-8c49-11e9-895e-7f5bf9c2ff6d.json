@@ -1,0 +1,156 @@
+{
+  "actor": {
+    "actor_id": "misp-cacf2ffc-8c49-11e9-895e-7f5bf9c2ff6d",
+    "canonical_name": "GhostNet",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-cacf2ffc-8c49-11e9-895e-7f5bf9c2ff6d"
+    ],
+    "misp_uuid": "cacf2ffc-8c49-11e9-895e-7f5bf9c2ff6d",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "ghostnet",
+        "confidence": "source-provided",
+        "display_group_key": "ghostnet",
+        "name": "GhostNet",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ghostnet",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.nartv.org/mirror/ghostnet.pdf",
+          "https://en.wikipedia.org/wiki/GhostNet",
+          "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-746.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.nartv.org/mirror/ghostnet.pdf",
+              "https://en.wikipedia.org/wiki/GhostNet",
+              "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-746.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "GhostNet"
+        ]
+      },
+      {
+        "compact_normalized_name": "snoopingdragon",
+        "confidence": "source-provided",
+        "display_group_key": "snoopingdragon",
+        "name": "Snooping Dragon",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "snooping dragon",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.nartv.org/mirror/ghostnet.pdf",
+          "https://en.wikipedia.org/wiki/GhostNet",
+          "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-746.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.nartv.org/mirror/ghostnet.pdf",
+              "https://en.wikipedia.org/wiki/GhostNet",
+              "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-746.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Snooping Dragon"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Cyber espionage is an issue whose time has come. In this second report from the Information Warfare Monitor, we lay out the findings of a 10-month investigation of alleged Chinese cyber spying against Tibetan institutions. The investigation, consisting of fieldwork, technical scouting, and laboratory analysis, discovered a lot more. The investigation ultimately uncovered a network of over 1,295 infected hosts in 103 countries. Up to 30% of the infected hosts are considered high-value targets and include computers located at ministries of foreign affairs, embassies, international organizations, news media, and NGOs. The Tibetan computer systems we manually investigated, and from which our..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-cacf2ffc-8c49-11e9-895e-7f5bf9c2ff6d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.nartv.org/mirror/ghostnet.pdf"
+      },
+      {
+        "actor_id": "misp-cacf2ffc-8c49-11e9-895e-7f5bf9c2ff6d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://en.wikipedia.org/wiki/GhostNet"
+      },
+      {
+        "actor_id": "misp-cacf2ffc-8c49-11e9-895e-7f5bf9c2ff6d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-746.pdf"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "GhostNet",
+      "Snooping Dragon"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

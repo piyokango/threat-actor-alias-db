@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-3a24ac96-4ae4-456f-bacd-29259a21935f",
+    "canonical_name": "UNG0002",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-3a24ac96-4ae4-456f-bacd-29259a21935f"
+    ],
+    "misp_uuid": "3a24ac96-4ae4-456f-bacd-29259a21935f",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "ung0002",
+        "confidence": "source-provided",
+        "display_group_key": "ung0002",
+        "name": "UNG0002",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ung0002",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://rewterz.com/threat-advisory/apt-ung0002-expands-cyber-espionage-campaigns-across-asia-active-iocs",
+          "https://www.seqrite.com/blog/ung0002-espionage-campaigns-south-asia"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://rewterz.com/threat-advisory/apt-ung0002-expands-cyber-espionage-campaigns-across-asia-active-iocs",
+              "https://www.seqrite.com/blog/ung0002-espionage-campaigns-south-asia"
+            ]
+          }
+        ],
+        "variants": [
+          "UNG0002"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UNG0002 is a technically adept APT conducting large-scale cyber espionage campaigns targeting strategic sectors in China, Hong Kong, and Pakistan, including defense, energy infrastructure, and healthcare. The group employs LNK shortcuts, VBScript files, and tools like Cobalt Strike and Metasploit, utilizing phishing emails with deceptive documents to lure victims. Their malware, such as Shadow RAT, leverages DLL Sideloading and supports remote command execution, making detection challenging. Analysts suggest that UNG0002 may originate from South or Southeast Asia, highlighting their resilience and adaptability in cyber operations."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-3a24ac96-4ae4-456f-bacd-29259a21935f",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://rewterz.com/threat-advisory/apt-ung0002-expands-cyber-espionage-campaigns-across-asia-active-iocs"
+      },
+      {
+        "actor_id": "misp-3a24ac96-4ae4-456f-bacd-29259a21935f",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.seqrite.com/blog/ung0002-espionage-campaigns-south-asia"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "UNG0002"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

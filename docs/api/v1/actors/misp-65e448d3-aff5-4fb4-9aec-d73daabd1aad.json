@@ -1,0 +1,132 @@
+{
+  "actor": {
+    "actor_id": "misp-65e448d3-aff5-4fb4-9aec-d73daabd1aad",
+    "canonical_name": "ChainedShark",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-65e448d3-aff5-4fb4-9aec-d73daabd1aad"
+    ],
+    "misp_uuid": "65e448d3-aff5-4fb4-9aec-d73daabd1aad",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "chainedshark",
+        "confidence": "source-provided",
+        "display_group_key": "chainedshark",
+        "name": "ChainedShark",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "chainedshark",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://nsfocusglobal.com/top-security-incidents-of-2025-the-emergence-of-the-chainedshark-apt-group"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://nsfocusglobal.com/top-security-incidents-of-2025-the-emergence-of-the-chainedshark-apt-group"
+            ]
+          }
+        ],
+        "variants": [
+          "ChainedShark"
+        ]
+      },
+      {
+        "compact_normalized_name": "actor240820",
+        "confidence": "source-provided",
+        "display_group_key": "actor240820",
+        "name": "Actor240820",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "actor240820",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://nsfocusglobal.com/top-security-incidents-of-2025-the-emergence-of-the-chainedshark-apt-group"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://nsfocusglobal.com/top-security-incidents-of-2025-the-emergence-of-the-chainedshark-apt-group"
+            ]
+          }
+        ],
+        "variants": [
+          "Actor240820"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "ChainedShark is an APT group targeting China's scientific research sector, particularly professionals in international relations and marine technology, with the intent to steal sensitive data. The group employs advanced techniques, including executable file reconstruction to create fragmented shellcode, and utilizes social engineering tactics to exploit professional scenarios for deceptive attacks. ChainedShark demonstrates a high level of technical sophistication, integrating N-day vulnerability exploits and custom trojans within meticulously designed attack chains. Its operations reflect a mature attack infrastructure and a clear evolutionary trajectory in tactics and execution."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-65e448d3-aff5-4fb4-9aec-d73daabd1aad",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://nsfocusglobal.com/top-security-incidents-of-2025-the-emergence-of-the-chainedshark-apt-group"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Actor240820",
+      "ChainedShark"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

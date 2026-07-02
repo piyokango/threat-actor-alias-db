@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-c95520c1-0a27-42aa-9853-bf5f0f3bc074",
+    "canonical_name": "SmugX",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-c95520c1-0a27-42aa-9853-bf5f0f3bc074"
+    ],
+    "misp_uuid": "c95520c1-0a27-42aa-9853-bf5f0f3bc074",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "smugx",
+        "confidence": "source-provided",
+        "display_group_key": "smugx",
+        "name": "SmugX",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "smugx",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://research.checkpoint.com/2023/chinese-threat-actors-targeting-europe-in-smugx-campaign"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://research.checkpoint.com/2023/chinese-threat-actors-targeting-europe-in-smugx-campaign"
+            ]
+          }
+        ],
+        "variants": [
+          "SmugX"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "The campaign, called SmugX, overlaps with previously reported activity by Chinese APT actors RedDelta and Mustang Panda. Although those two correlate to some extent with Camaro Dragon, there is insufficient evidence to link the SmugX campaign to the Camaro Dragon group. The campaign uses new delivery methods to deploy (most notably – HTML Smuggling) a new variant of PlugX, an implant commonly associated with a wide variety of Chinese threat actors. Although the payload itself remains similar to the one found in older PlugX variants, its delivery methods results in low detection rates, which until recently helped the campaign fly under the radar."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-c95520c1-0a27-42aa-9853-bf5f0f3bc074",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.checkpoint.com/2023/chinese-threat-actors-targeting-europe-in-smugx-campaign"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "SmugX"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

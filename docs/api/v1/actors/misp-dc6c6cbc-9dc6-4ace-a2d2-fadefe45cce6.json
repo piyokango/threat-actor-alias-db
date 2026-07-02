@@ -1,0 +1,186 @@
+{
+  "actor": {
+    "actor_id": "misp-dc6c6cbc-9dc6-4ace-a2d2-fadefe45cce6",
+    "canonical_name": "White Bear",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-dc6c6cbc-9dc6-4ace-a2d2-fadefe45cce6"
+    ],
+    "misp_uuid": "dc6c6cbc-9dc6-4ace-a2d2-fadefe45cce6",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "whitebear",
+        "confidence": "source-provided",
+        "display_group_key": "whitebear",
+        "name": "White Bear",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "white bear",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/introducing-whitebear/81638",
+          "https://www.cfr.org/interactive/cyber-operations/whitebear"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/introducing-whitebear/81638",
+              "https://www.cfr.org/interactive/cyber-operations/whitebear"
+            ]
+          }
+        ],
+        "variants": [
+          "White Bear"
+        ]
+      },
+      {
+        "compact_normalized_name": "skipperturla",
+        "confidence": "source-provided",
+        "display_group_key": "skipperturla",
+        "name": "Skipper Turla",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "skipper turla",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/introducing-whitebear/81638",
+          "https://www.cfr.org/interactive/cyber-operations/whitebear"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/introducing-whitebear/81638",
+              "https://www.cfr.org/interactive/cyber-operations/whitebear"
+            ]
+          }
+        ],
+        "variants": [
+          "Skipper Turla"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "As a part of our Kaspersky APT Intelligence Reporting subscription, customers received an update in mid-February 2017 on some interesting APT activity that we called WhiteBear. Much of the contents of that report are reproduced here. WhiteBear is a parallel project or second stage of the Skipper Turla cluster of activity documented in another private intelligence report “Skipper Turla – the White Atlas framework” from mid-2016. Like previous Turla activity, WhiteBear leverages compromised websites and hijacked satellite connections for command and control (C2) infrastructure. As a matter of fact, WhiteBear infrastructure has overlap with other Turla campaigns, like those deploying..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-dc6c6cbc-9dc6-4ace-a2d2-fadefe45cce6",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/introducing-whitebear/81638"
+      },
+      {
+        "actor_id": "misp-dc6c6cbc-9dc6-4ace-a2d2-fadefe45cce6",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/whitebear"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "Skipper Turla",
+      "White Bear"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

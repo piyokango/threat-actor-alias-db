@@ -1,0 +1,192 @@
+{
+  "actor": {
+    "actor_id": "misp-608a903a-8145-4fd1-84bc-235e278480bf",
+    "canonical_name": "DNSpionage",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-608a903a-8145-4fd1-84bc-235e278480bf"
+    ],
+    "misp_uuid": "608a903a-8145-4fd1-84bc-235e278480bf",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "dnspionage",
+        "confidence": "source-provided",
+        "display_group_key": "dnspionage",
+        "name": "DNSpionage",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dnspionage",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.talosintelligence.com/2018/11/dnspionage-campaign-targets-middle-east.html",
+          "https://blog.talosintelligence.com/2019/04/dnspionage-brings-out-karkoff.html",
+          "https://krebsonsecurity.com/tag/dnspionage",
+          "https://www.crowdstrike.com/blog/widespread-dns-hijacking-activity-targets-multiple-sectors",
+          "https://www.fireeye.com/blog/threat-research/2019/01/global-dns-hijacking-campaign-dns-record-manipulation-at-scale.html",
+          "https://www.secureworks.com/research/threat-profiles/cobalt-edgewater"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/2018/11/dnspionage-campaign-targets-middle-east.html",
+              "https://blog.talosintelligence.com/2019/04/dnspionage-brings-out-karkoff.html",
+              "https://krebsonsecurity.com/tag/dnspionage",
+              "https://www.crowdstrike.com/blog/widespread-dns-hijacking-activity-targets-multiple-sectors",
+              "https://www.fireeye.com/blog/threat-research/2019/01/global-dns-hijacking-campaign-dns-record-manipulation-at-scale.html",
+              "https://www.secureworks.com/research/threat-profiles/cobalt-edgewater"
+            ]
+          }
+        ],
+        "variants": [
+          "DNSpionage"
+        ]
+      },
+      {
+        "compact_normalized_name": "cobaltedgewater",
+        "confidence": "source-provided",
+        "display_group_key": "cobaltedgewater",
+        "name": "COBALT EDGEWATER",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cobalt edgewater",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.talosintelligence.com/2018/11/dnspionage-campaign-targets-middle-east.html",
+          "https://blog.talosintelligence.com/2019/04/dnspionage-brings-out-karkoff.html",
+          "https://krebsonsecurity.com/tag/dnspionage",
+          "https://www.crowdstrike.com/blog/widespread-dns-hijacking-activity-targets-multiple-sectors",
+          "https://www.fireeye.com/blog/threat-research/2019/01/global-dns-hijacking-campaign-dns-record-manipulation-at-scale.html",
+          "https://www.secureworks.com/research/threat-profiles/cobalt-edgewater"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/2018/11/dnspionage-campaign-targets-middle-east.html",
+              "https://blog.talosintelligence.com/2019/04/dnspionage-brings-out-karkoff.html",
+              "https://krebsonsecurity.com/tag/dnspionage",
+              "https://www.crowdstrike.com/blog/widespread-dns-hijacking-activity-targets-multiple-sectors",
+              "https://www.fireeye.com/blog/threat-research/2019/01/global-dns-hijacking-campaign-dns-record-manipulation-at-scale.html",
+              "https://www.secureworks.com/research/threat-profiles/cobalt-edgewater"
+            ]
+          }
+        ],
+        "variants": [
+          "COBALT EDGEWATER"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Cisco Talos recently discovered a new campaign targeting Lebanon and the United Arab Emirates (UAE) affecting .gov domains, as well as a private Lebanese airline company. Based on our research, it's clear that this adversary spent time understanding the victims' network infrastructure in order to remain under the radar and act as inconspicuous as possible during their attacks. Based on this actor's infrastructure and TTPs, we haven't been able to connect them with any other campaign or actor that's been observed recently. This particular campaign utilizes two fake, malicious websites containing job postings that are used to compromise targets via malicious Microsoft Office documents with..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-608a903a-8145-4fd1-84bc-235e278480bf",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/2018/11/dnspionage-campaign-targets-middle-east.html"
+      },
+      {
+        "actor_id": "misp-608a903a-8145-4fd1-84bc-235e278480bf",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/2019/04/dnspionage-brings-out-karkoff.html"
+      },
+      {
+        "actor_id": "misp-608a903a-8145-4fd1-84bc-235e278480bf",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://krebsonsecurity.com/tag/dnspionage"
+      },
+      {
+        "actor_id": "misp-608a903a-8145-4fd1-84bc-235e278480bf",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/widespread-dns-hijacking-activity-targets-multiple-sectors"
+      },
+      {
+        "actor_id": "misp-608a903a-8145-4fd1-84bc-235e278480bf",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2019/01/global-dns-hijacking-campaign-dns-record-manipulation-at-scale.html"
+      },
+      {
+        "actor_id": "misp-608a903a-8145-4fd1-84bc-235e278480bf",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/cobalt-edgewater"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "COBALT EDGEWATER",
+      "DNSpionage"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

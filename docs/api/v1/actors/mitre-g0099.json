@@ -1,0 +1,1352 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0099",
+    "canonical_name": "APT-C-36",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0099"
+    ],
+    "misp_uuid": "ae1c64ff-5a37-4291-97f8-ea402c63efd0",
+    "mitre_id": "G0099",
+    "names": [
+      {
+        "compact_normalized_name": "aptc36",
+        "confidence": "source-provided",
+        "display_group_key": "aptc36",
+        "name": "APT-C-36",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "apt c 36",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0099",
+          "https://blogs.blackberry.com/en/2023/02/blind-eagle-apt-c-36-targets-colombia",
+          "https://lab52.io/blog/apt-c-36-recent-activity-analysis",
+          "https://research.checkpoint.com/2023/blindeagle-targeting-ecuador-with-sharpened-tools",
+          "https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en",
+          "https://www.ecucert.gob.ec/wp-content/uploads/2022/03/alerta-APTs-2022-03-23.pdf",
+          "https://www.trendmicro.com/en_ph/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-ameri.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0099",
+              "https://blogs.blackberry.com/en/2023/02/blind-eagle-apt-c-36-targets-colombia",
+              "https://lab52.io/blog/apt-c-36-recent-activity-analysis",
+              "https://research.checkpoint.com/2023/blindeagle-targeting-ecuador-with-sharpened-tools",
+              "https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en",
+              "https://www.ecucert.gob.ec/wp-content/uploads/2022/03/alerta-APTs-2022-03-23.pdf",
+              "https://www.trendmicro.com/en_ph/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-ameri.html"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0099"
+            ]
+          }
+        ],
+        "variants": [
+          "APT-C-36"
+        ]
+      },
+      {
+        "compact_normalized_name": "aguilaciega",
+        "confidence": "source-provided",
+        "display_group_key": "aguilaciega",
+        "name": "AguilaCiega",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "aguilaciega",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0099"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0099"
+            ]
+          }
+        ],
+        "variants": [
+          "AguilaCiega"
+        ]
+      },
+      {
+        "compact_normalized_name": "aptq98",
+        "confidence": "source-provided",
+        "display_group_key": "aptq98",
+        "name": "APT-Q-98",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "apt q 98",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0099"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0099"
+            ]
+          }
+        ],
+        "variants": [
+          "APT-Q-98"
+        ]
+      },
+      {
+        "compact_normalized_name": "blindeagle",
+        "confidence": "source-provided",
+        "display_group_key": "blindeagle",
+        "name": "Blind Eagle",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "blind eagle",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0099",
+          "https://blogs.blackberry.com/en/2023/02/blind-eagle-apt-c-36-targets-colombia",
+          "https://lab52.io/blog/apt-c-36-recent-activity-analysis",
+          "https://research.checkpoint.com/2023/blindeagle-targeting-ecuador-with-sharpened-tools",
+          "https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en",
+          "https://www.ecucert.gob.ec/wp-content/uploads/2022/03/alerta-APTs-2022-03-23.pdf",
+          "https://www.trendmicro.com/en_ph/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-ameri.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0099",
+              "https://blogs.blackberry.com/en/2023/02/blind-eagle-apt-c-36-targets-colombia",
+              "https://lab52.io/blog/apt-c-36-recent-activity-analysis",
+              "https://research.checkpoint.com/2023/blindeagle-targeting-ecuador-with-sharpened-tools",
+              "https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en",
+              "https://www.ecucert.gob.ec/wp-content/uploads/2022/03/alerta-APTs-2022-03-23.pdf",
+              "https://www.trendmicro.com/en_ph/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-ameri.html"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0099"
+            ]
+          }
+        ],
+        "variants": [
+          "Blind Eagle"
+        ]
+      },
+      {
+        "compact_normalized_name": "tag144",
+        "confidence": "source-provided",
+        "display_group_key": "tag144",
+        "name": "TAG-144",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "tag 144",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0099"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0099"
+            ]
+          }
+        ],
+        "variants": [
+          "TAG-144"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0099",
+          "name": "Domains",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+            "https://research.checkpoint.com/2025/blind-eagle-and-justice-for-all/",
+            "https://securelist.com/blindeagle-apt/113414/",
+            "https://www.levelblue.com/blogs/spiderlabs-blog/tracing-blind-eagle-to-proton66/",
+            "https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-government-agency-caminho-and-dcrat"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583.001",
+          "url": "https://attack.mitre.org/techniques/T1583.001/"
+        },
+        {
+          "actor_id": "mitre-g0099",
+          "name": "Virtual Private Server",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583.003",
+          "url": "https://attack.mitre.org/techniques/T1583.003/"
+        },
+        {
+          "actor_id": "mitre-g0099",
+          "name": "Web Services",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+            "https://research.checkpoint.com/2025/blind-eagle-and-justice-for-all/",
+            "https://securelist.com/blindeagle-apt/113414/",
+            "https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-government-agency-caminho-and-dcrat"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583.006",
+          "url": "https://attack.mitre.org/techniques/T1583.006/"
+        },
+        {
+          "actor_id": "mitre-g0099",
+          "name": "Botnet",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.levelblue.com/blogs/spiderlabs-blog/tracing-blind-eagle-to-proton66/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1584.005",
+          "url": "https://attack.mitre.org/techniques/T1584.005/"
+        },
+        {
+          "actor_id": "mitre-g0099",
+          "name": "Email Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+            "https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-government-agency-caminho-and-dcrat"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1586.002",
+          "url": "https://attack.mitre.org/techniques/T1586.002/"
+        },
+        {
+          "actor_id": "mitre-g0099",
+          "name": "Cloud Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1586.003",
+          "url": "https://attack.mitre.org/techniques/T1586.003/"
+        },
+        {
+          "actor_id": "mitre-g0099",
+          "name": "Malware",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://securelist.com/blindeagle-apt/113414/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1587.001",
+          "url": "https://attack.mitre.org/techniques/T1587.001/"
+        },
+        {
+          "actor_id": "mitre-g0099",
+          "name": "Malware",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+            "https://research.checkpoint.com/2025/blind-eagle-and-justice-for-all/",
+            "https://www.levelblue.com/blogs/spiderlabs-blog/tracing-blind-eagle-to-proton66/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1588.001",
+          "url": "https://attack.mitre.org/techniques/T1588.001/"
+        },
+        {
+          "actor_id": "mitre-g0099",
+          "name": "Tool",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://research.checkpoint.com/2025/blind-eagle-and-justice-for-all/",
+            "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1588.002",
+          "url": "https://attack.mitre.org/techniques/T1588.002/"
+        },
+        {
+          "actor_id": "mitre-g0099",
+          "name": "Upload Malware",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://securelist.com/blindeagle-apt/113414/",
+            "https://www.levelblue.com/blogs/spiderlabs-blog/tracing-blind-eagle-to-proton66/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1608.001",
+          "url": "https://attack.mitre.org/techniques/T1608.001/"
+        },
+        {
+          "actor_id": "mitre-g0099",
+          "name": "Written Content",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://securelist.com/blindeagle-apt/113414/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1683.001",
+          "url": "https://attack.mitre.org/techniques/T1683.001/"
+        },
+        {
+          "actor_id": "mitre-g0099",
+          "name": "Audio-Visual Content",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.levelblue.com/blogs/spiderlabs-blog/tracing-blind-eagle-to-proton66/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1683.002",
+          "url": "https://attack.mitre.org/techniques/T1683.002/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 12,
+          "items": [
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+                "https://research.checkpoint.com/2025/blind-eagle-and-justice-for-all/",
+                "https://securelist.com/blindeagle-apt/113414/",
+                "https://www.levelblue.com/blogs/spiderlabs-blog/tracing-blind-eagle-to-proton66/",
+                "https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-government-agency-caminho-and-dcrat"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Virtual Private Server",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.003",
+              "url": "https://attack.mitre.org/techniques/T1583.003/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Web Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+                "https://research.checkpoint.com/2025/blind-eagle-and-justice-for-all/",
+                "https://securelist.com/blindeagle-apt/113414/",
+                "https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-government-agency-caminho-and-dcrat"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.006",
+              "url": "https://attack.mitre.org/techniques/T1583.006/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Botnet",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.levelblue.com/blogs/spiderlabs-blog/tracing-blind-eagle-to-proton66/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1584.005",
+              "url": "https://attack.mitre.org/techniques/T1584.005/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Email Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+                "https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-government-agency-caminho-and-dcrat"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1586.002",
+              "url": "https://attack.mitre.org/techniques/T1586.002/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Cloud Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1586.003",
+              "url": "https://attack.mitre.org/techniques/T1586.003/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/blindeagle-apt/113414/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1587.001",
+              "url": "https://attack.mitre.org/techniques/T1587.001/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+                "https://research.checkpoint.com/2025/blind-eagle-and-justice-for-all/",
+                "https://www.levelblue.com/blogs/spiderlabs-blog/tracing-blind-eagle-to-proton66/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.001",
+              "url": "https://attack.mitre.org/techniques/T1588.001/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.checkpoint.com/2025/blind-eagle-and-justice-for-all/",
+                "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Upload Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/blindeagle-apt/113414/",
+                "https://www.levelblue.com/blogs/spiderlabs-blog/tracing-blind-eagle-to-proton66/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.001",
+              "url": "https://attack.mitre.org/techniques/T1608.001/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Written Content",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/blindeagle-apt/113414/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1683.001",
+              "url": "https://attack.mitre.org/techniques/T1683.001/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Audio-Visual Content",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.levelblue.com/blogs/spiderlabs-blog/tracing-blind-eagle-to-proton66/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1683.002",
+              "url": "https://attack.mitre.org/techniques/T1683.002/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 11,
+          "items": [
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Obfuscated Files or Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/blindeagle-apt/113414/",
+                "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027",
+              "url": "https://attack.mitre.org/techniques/T1027/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Steganography",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+                "https://securelist.com/blindeagle-apt/113414/",
+                "https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-government-agency-caminho-and-dcrat"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.003",
+              "url": "https://attack.mitre.org/techniques/T1027.003/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Encrypted/Encoded File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/blindeagle-apt/113414/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.013",
+              "url": "https://attack.mitre.org/techniques/T1027.013/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Junk Code Insertion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.016",
+              "url": "https://attack.mitre.org/techniques/T1027.016/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Masquerade Task or Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.004",
+              "url": "https://attack.mitre.org/techniques/T1036.004/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Match Legitimate Resource Name or Location",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/blindeagle-apt/113414/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.005",
+              "url": "https://attack.mitre.org/techniques/T1036.005/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Process Hollowing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/blindeagle-apt/113414/"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055.012",
+              "url": "https://attack.mitre.org/techniques/T1055.012/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Execution Guardrails",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+                "https://securelist.com/blindeagle-apt/113414/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1480",
+              "url": "https://attack.mitre.org/techniques/T1480/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Hidden Window",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-government-agency-caminho-and-dcrat"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.003",
+              "url": "https://attack.mitre.org/techniques/T1564.003/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/blindeagle-apt/113414/"
+              ],
+              "tactics": [
+                "execution",
+                "stealth"
+              ],
+              "technique_id": "T1574.001",
+              "url": "https://attack.mitre.org/techniques/T1574.001/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Impersonation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+                "https://securelist.com/blindeagle-apt/113414/",
+                "https://www.levelblue.com/blogs/spiderlabs-blog/tracing-blind-eagle-to-proton66/",
+                "https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-government-agency-caminho-and-dcrat"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1684.001",
+              "url": "https://attack.mitre.org/techniques/T1684.001/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 8,
+          "items": [
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Windows Management Instrumentation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-government-agency-caminho-and-dcrat"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1047",
+              "url": "https://attack.mitre.org/techniques/T1047/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/blindeagle-apt/113414/",
+                "https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-government-agency-caminho-and-dcrat"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Visual Basic",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/blindeagle-apt/113414/",
+                "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/",
+                "https://www.levelblue.com/blogs/spiderlabs-blog/tracing-blind-eagle-to-proton66/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.005",
+              "url": "https://attack.mitre.org/techniques/T1059.005/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "JavaScript",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-government-agency-caminho-and-dcrat"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.007",
+              "url": "https://attack.mitre.org/techniques/T1059.007/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Malicious Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/blindeagle-apt/113414/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.001",
+              "url": "https://attack.mitre.org/techniques/T1204.001/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+                "https://research.checkpoint.com/2025/blind-eagle-and-justice-for-all/",
+                "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/",
+                "https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-government-agency-caminho-and-dcrat"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/blindeagle-apt/113414/"
+              ],
+              "tactics": [
+                "execution",
+                "stealth"
+              ],
+              "technique_id": "T1574.001",
+              "url": "https://attack.mitre.org/techniques/T1574.001/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Dynamic Resolution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+                "https://research.checkpoint.com/2025/blind-eagle-and-justice-for-all/",
+                "https://securelist.com/blindeagle-apt/113414/",
+                "https://www.levelblue.com/blogs/spiderlabs-blog/tracing-blind-eagle-to-proton66/",
+                "https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-government-agency-caminho-and-dcrat"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1568",
+              "url": "https://attack.mitre.org/techniques/T1568/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Non-Standard Port",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1571",
+              "url": "https://attack.mitre.org/techniques/T1571/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0099",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+                "https://securelist.com/blindeagle-apt/113414/",
+                "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf",
+                "https://research.checkpoint.com/2025/blind-eagle-and-justice-for-all/",
+                "https://securelist.com/blindeagle-apt/113414/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.002",
+              "url": "https://attack.mitre.org/techniques/T1566.002/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Process Hollowing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/blindeagle-apt/113414/"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055.012",
+              "url": "https://attack.mitre.org/techniques/T1055.012/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Internal Spearphishing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-government-agency-caminho-and-dcrat"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1534",
+              "url": "https://attack.mitre.org/techniques/T1534/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0099",
+              "name": "Search Open Websites/Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.levelblue.com/blogs/spiderlabs-blog/tracing-blind-eagle-to-proton66/"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1593",
+              "url": "https://attack.mitre.org/techniques/T1593/"
+            }
+          ],
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 12,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 11,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 8,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 3,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 3,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 2,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 2,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 1,
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        }
+      ],
+      "total": 38
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0099/"
+          ]
+        }
+      ],
+      "text": "APT-C-36 is a suspected South American threat group that has engaged in espionage and financially motivated operations since at least 2018. APT-C-36 has targeted government institutions and entities in the financial, energy, and professional manufacturing sectors across Colombia and other Latin American countries.(Citation: QiAnXin APT-C-36 Feb2019)(Citation: Kaspersky BlindEagle AUG 2024)(Citation: Check Point Blind Eagle MAR 2025)(Citation: Recorded Future TAG-144 AUG 2025)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0099",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0826.pdf"
+      },
+      {
+        "actor_id": "mitre-g0099",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0099"
+      },
+      {
+        "actor_id": "mitre-g0099",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blogs.blackberry.com/en/2023/02/blind-eagle-apt-c-36-targets-colombia"
+      },
+      {
+        "actor_id": "mitre-g0099",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://lab52.io/blog/apt-c-36-recent-activity-analysis"
+      },
+      {
+        "actor_id": "mitre-g0099",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.checkpoint.com/2023/blindeagle-targeting-ecuador-with-sharpened-tools"
+      },
+      {
+        "actor_id": "mitre-g0099",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.checkpoint.com/2025/blind-eagle-and-justice-for-all"
+      },
+      {
+        "actor_id": "mitre-g0099",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/blindeagle-apt/113414"
+      },
+      {
+        "actor_id": "mitre-g0099",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en"
+      },
+      {
+        "actor_id": "mitre-g0099",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en"
+      },
+      {
+        "actor_id": "mitre-g0099",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ecucert.gob.ec/wp-content/uploads/2022/03/alerta-APTs-2022-03-23.pdf"
+      },
+      {
+        "actor_id": "mitre-g0099",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_ph/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-ameri.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "AguilaCiega",
+      "APT-C-36",
+      "APT-Q-98",
+      "Blind Eagle",
+      "TAG-144"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

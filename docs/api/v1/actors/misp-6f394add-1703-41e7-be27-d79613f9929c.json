@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-6f394add-1703-41e7-be27-d79613f9929c",
+    "canonical_name": "Actor240524",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-6f394add-1703-41e7-be27-d79613f9929c"
+    ],
+    "misp_uuid": "6f394add-1703-41e7-be27-d79613f9929c",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "actor240524",
+        "confidence": "source-provided",
+        "display_group_key": "actor240524",
+        "name": "Actor240524",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "actor240524",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://nsfocusglobal.com/new-apt-group-actor240524-a-closer-look-at-its-cyber-tactics-against-azerbaijan-and-israel"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://nsfocusglobal.com/new-apt-group-actor240524-a-closer-look-at-its-cyber-tactics-against-azerbaijan-and-israel"
+            ]
+          }
+        ],
+        "variants": [
+          "Actor240524"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Actor240524 is a newly identified APT group that targeted Azerbaijani and Israeli diplomats through spear-phishing emails to steal sensitive data. The group employs a Trojan program known as ABCloader and ABCsync, demonstrating capabilities to steal secrets and modify file data. Their operations appear to focus on undermining the cooperative relationship between Azerbaijan and Israel. Actor240524 utilizes various countermeasures to obscure their attack tactics and techniques."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-6f394add-1703-41e7-be27-d79613f9929c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://nsfocusglobal.com/new-apt-group-actor240524-a-closer-look-at-its-cyber-tactics-against-azerbaijan-and-israel"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Actor240524"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

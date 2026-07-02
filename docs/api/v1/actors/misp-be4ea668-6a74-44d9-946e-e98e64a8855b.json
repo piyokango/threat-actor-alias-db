@@ -1,0 +1,169 @@
+{
+  "actor": {
+    "actor_id": "misp-be4ea668-6a74-44d9-946e-e98e64a8855b",
+    "canonical_name": "Dalbit",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-be4ea668-6a74-44d9-946e-e98e64a8855b"
+    ],
+    "misp_uuid": "be4ea668-6a74-44d9-946e-e98e64a8855b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "dalbit",
+        "confidence": "source-provided",
+        "display_group_key": "dalbit",
+        "name": "Dalbit",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dalbit",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/47455",
+          "https://asec.ahnlab.com/en/56236",
+          "https://asec.ahnlab.com/en/56941",
+          "https://blog.sekoia.io/my-teas-not-cold-an-overview-of-china-cyber-threat"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/47455",
+              "https://asec.ahnlab.com/en/56236",
+              "https://asec.ahnlab.com/en/56941",
+              "https://blog.sekoia.io/my-teas-not-cold-an-overview-of-china-cyber-threat"
+            ]
+          }
+        ],
+        "variants": [
+          "Dalbit"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "The group usually targets vulnerable servers to breach information including internal data from companies or encrypts files and demands money. Their targets of attack are usually Windows servers that are poorly managed or are not patched to the latest version. Besides these, there are also attack cases that targeted email servers or MS-SQL database servers."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-be4ea668-6a74-44d9-946e-e98e64a8855b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://asec.ahnlab.com/en/47455"
+      },
+      {
+        "actor_id": "misp-be4ea668-6a74-44d9-946e-e98e64a8855b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://asec.ahnlab.com/en/56236"
+      },
+      {
+        "actor_id": "misp-be4ea668-6a74-44d9-946e-e98e64a8855b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://asec.ahnlab.com/en/56941"
+      },
+      {
+        "actor_id": "misp-be4ea668-6a74-44d9-946e-e98e64a8855b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.sekoia.io/my-teas-not-cold-an-overview-of-china-cyber-threat"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "Dalbit"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,117 @@
+{
+  "actor": {
+    "actor_id": "misp-ce793b99-0cf2-4148-831c-ea5f6a9e0a76",
+    "canonical_name": "Carderbee",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-ce793b99-0cf2-4148-831c-ea5f6a9e0a76"
+    ],
+    "misp_uuid": "ce793b99-0cf2-4148-831c-ea5f6a9e0a76",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "carderbee",
+        "confidence": "source-provided",
+        "display_group_key": "carderbee",
+        "name": "Carderbee",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "carderbee",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.eclecticiq.com/chinese-state-sponsored-cyber-espionage-activity-targeting-semiconductor-industry-in-east-asia",
+          "https://blog.polyswarm.io/carderbee-targets-hong-kong-in-supply-chain-attack",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/carderbee-software-supply-chain-certificate-abuse"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.eclecticiq.com/chinese-state-sponsored-cyber-espionage-activity-targeting-semiconductor-industry-in-east-asia",
+              "https://blog.polyswarm.io/carderbee-targets-hong-kong-in-supply-chain-attack",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/carderbee-software-supply-chain-certificate-abuse"
+            ]
+          }
+        ],
+        "variants": [
+          "Carderbee"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Symantec recently reported on activity attributed to a threat actor group dubbed Carderbee. In the campaign, the threat actors target entities in Hong Kong and other regions of Asia via a supply chain attack leveraging the legitimate Cobra DocGuard software. The activity began as early as September 2022."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-ce793b99-0cf2-4148-831c-ea5f6a9e0a76",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.eclecticiq.com/chinese-state-sponsored-cyber-espionage-activity-targeting-semiconductor-industry-in-east-asia"
+      },
+      {
+        "actor_id": "misp-ce793b99-0cf2-4148-831c-ea5f6a9e0a76",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.polyswarm.io/carderbee-targets-hong-kong-in-supply-chain-attack"
+      },
+      {
+        "actor_id": "misp-ce793b99-0cf2-4148-831c-ea5f6a9e0a76",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/carderbee-software-supply-chain-certificate-abuse"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Carderbee"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

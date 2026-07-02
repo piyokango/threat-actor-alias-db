@@ -1,0 +1,3311 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0047",
+    "canonical_name": "Gamaredon Group",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0047"
+    ],
+    "misp_uuid": "1a77e156-76bc-43f5-bdd7-bd67f30fbbbb",
+    "mitre_id": "G0047",
+    "names": [
+      {
+        "compact_normalized_name": "gamaredongroup",
+        "confidence": "source-provided",
+        "display_group_key": "gamaredongroup",
+        "name": "Gamaredon Group",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "gamaredon group",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://attack.mitre.org/groups/G0047",
+          "https://cert.gov.ua/article/1229152",
+          "https://cert.gov.ua/article/18365",
+          "https://cert.gov.ua/article/39086",
+          "https://cert.gov.ua/article/39138",
+          "https://cert.gov.ua/article/39386",
+          "https://cert.gov.ua/article/40240",
+          "https://cert.gov.ua/article/971405",
+          "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+          "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+          "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+          "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+          "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+          "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+          "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://attack.mitre.org/groups/G0047",
+              "https://cert.gov.ua/article/1229152",
+              "https://cert.gov.ua/article/18365",
+              "https://cert.gov.ua/article/39086",
+              "https://cert.gov.ua/article/39138",
+              "https://cert.gov.ua/article/39386",
+              "https://cert.gov.ua/article/40240",
+              "https://cert.gov.ua/article/971405",
+              "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+              "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+              "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+              "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+              "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+              "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+              "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0047"
+            ]
+          }
+        ],
+        "variants": [
+          "Gamaredon Group"
+        ]
+      },
+      {
+        "compact_normalized_name": "actinium",
+        "confidence": "source-provided",
+        "display_group_key": "actinium",
+        "name": "ACTINIUM",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "actinium",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://attack.mitre.org/groups/G0047",
+          "https://cert.gov.ua/article/1229152",
+          "https://cert.gov.ua/article/18365",
+          "https://cert.gov.ua/article/39086",
+          "https://cert.gov.ua/article/39138",
+          "https://cert.gov.ua/article/39386",
+          "https://cert.gov.ua/article/40240",
+          "https://cert.gov.ua/article/971405",
+          "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+          "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+          "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+          "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+          "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+          "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+          "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://attack.mitre.org/groups/G0047",
+              "https://cert.gov.ua/article/1229152",
+              "https://cert.gov.ua/article/18365",
+              "https://cert.gov.ua/article/39086",
+              "https://cert.gov.ua/article/39138",
+              "https://cert.gov.ua/article/39386",
+              "https://cert.gov.ua/article/40240",
+              "https://cert.gov.ua/article/971405",
+              "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+              "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+              "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+              "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+              "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+              "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+              "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0047"
+            ]
+          }
+        ],
+        "variants": [
+          "ACTINIUM"
+        ]
+      },
+      {
+        "compact_normalized_name": "aquablizzard",
+        "confidence": "source-provided",
+        "display_group_key": "aquablizzard",
+        "name": "Aqua Blizzard",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "aqua blizzard",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://attack.mitre.org/groups/G0047",
+          "https://cert.gov.ua/article/1229152",
+          "https://cert.gov.ua/article/18365",
+          "https://cert.gov.ua/article/39086",
+          "https://cert.gov.ua/article/39138",
+          "https://cert.gov.ua/article/39386",
+          "https://cert.gov.ua/article/40240",
+          "https://cert.gov.ua/article/971405",
+          "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+          "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+          "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+          "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+          "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+          "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+          "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://attack.mitre.org/groups/G0047",
+              "https://cert.gov.ua/article/1229152",
+              "https://cert.gov.ua/article/18365",
+              "https://cert.gov.ua/article/39086",
+              "https://cert.gov.ua/article/39138",
+              "https://cert.gov.ua/article/39386",
+              "https://cert.gov.ua/article/40240",
+              "https://cert.gov.ua/article/971405",
+              "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+              "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+              "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+              "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+              "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+              "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+              "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0047"
+            ]
+          }
+        ],
+        "variants": [
+          "Aqua Blizzard"
+        ]
+      },
+      {
+        "compact_normalized_name": "armageddon",
+        "confidence": "source-provided",
+        "display_group_key": "armageddon",
+        "name": "Armageddon",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MITRE ATT&CK",
+        "normalized_name": "armageddon",
+        "source_id": "microsoft-threat-actor-naming,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0047",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0047"
+            ]
+          }
+        ],
+        "variants": [
+          "Armageddon"
+        ]
+      },
+      {
+        "compact_normalized_name": "blueotso",
+        "confidence": "source-provided",
+        "display_group_key": "blueotso",
+        "name": "Blue Otso",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "blue otso",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://attack.mitre.org/groups/G0047",
+          "https://cert.gov.ua/article/1229152",
+          "https://cert.gov.ua/article/18365",
+          "https://cert.gov.ua/article/39086",
+          "https://cert.gov.ua/article/39138",
+          "https://cert.gov.ua/article/39386",
+          "https://cert.gov.ua/article/40240",
+          "https://cert.gov.ua/article/971405",
+          "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+          "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+          "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+          "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+          "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+          "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+          "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://attack.mitre.org/groups/G0047",
+              "https://cert.gov.ua/article/1229152",
+              "https://cert.gov.ua/article/18365",
+              "https://cert.gov.ua/article/39086",
+              "https://cert.gov.ua/article/39138",
+              "https://cert.gov.ua/article/39386",
+              "https://cert.gov.ua/article/40240",
+              "https://cert.gov.ua/article/971405",
+              "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+              "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+              "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+              "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+              "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+              "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+              "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+            ]
+          }
+        ],
+        "variants": [
+          "Blue Otso"
+        ]
+      },
+      {
+        "compact_normalized_name": "bluealpha",
+        "confidence": "source-provided",
+        "display_group_key": "bluealpha",
+        "name": "BlueAlpha",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "bluealpha",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://attack.mitre.org/groups/G0047",
+          "https://cert.gov.ua/article/1229152",
+          "https://cert.gov.ua/article/18365",
+          "https://cert.gov.ua/article/39086",
+          "https://cert.gov.ua/article/39138",
+          "https://cert.gov.ua/article/39386",
+          "https://cert.gov.ua/article/40240",
+          "https://cert.gov.ua/article/971405",
+          "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+          "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+          "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+          "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+          "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+          "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+          "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://attack.mitre.org/groups/G0047",
+              "https://cert.gov.ua/article/1229152",
+              "https://cert.gov.ua/article/18365",
+              "https://cert.gov.ua/article/39086",
+              "https://cert.gov.ua/article/39138",
+              "https://cert.gov.ua/article/39386",
+              "https://cert.gov.ua/article/40240",
+              "https://cert.gov.ua/article/971405",
+              "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+              "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+              "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+              "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+              "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+              "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+              "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+            ]
+          }
+        ],
+        "variants": [
+          "BlueAlpha"
+        ]
+      },
+      {
+        "compact_normalized_name": "dev0157",
+        "confidence": "source-provided",
+        "display_group_key": "dev0157",
+        "name": "DEV-0157",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "dev 0157",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://attack.mitre.org/groups/G0047",
+          "https://cert.gov.ua/article/1229152",
+          "https://cert.gov.ua/article/18365",
+          "https://cert.gov.ua/article/39086",
+          "https://cert.gov.ua/article/39138",
+          "https://cert.gov.ua/article/39386",
+          "https://cert.gov.ua/article/40240",
+          "https://cert.gov.ua/article/971405",
+          "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+          "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+          "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+          "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+          "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+          "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+          "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://attack.mitre.org/groups/G0047",
+              "https://cert.gov.ua/article/1229152",
+              "https://cert.gov.ua/article/18365",
+              "https://cert.gov.ua/article/39086",
+              "https://cert.gov.ua/article/39138",
+              "https://cert.gov.ua/article/39386",
+              "https://cert.gov.ua/article/40240",
+              "https://cert.gov.ua/article/971405",
+              "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+              "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+              "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+              "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+              "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+              "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+              "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0047"
+            ]
+          }
+        ],
+        "variants": [
+          "DEV-0157"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0047",
+        "confidence": "source-provided",
+        "display_group_key": "g0047",
+        "name": "G0047",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0047",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://attack.mitre.org/groups/G0047",
+          "https://cert.gov.ua/article/1229152",
+          "https://cert.gov.ua/article/18365",
+          "https://cert.gov.ua/article/39086",
+          "https://cert.gov.ua/article/39138",
+          "https://cert.gov.ua/article/39386",
+          "https://cert.gov.ua/article/40240",
+          "https://cert.gov.ua/article/971405",
+          "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+          "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+          "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+          "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+          "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+          "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+          "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://attack.mitre.org/groups/G0047",
+              "https://cert.gov.ua/article/1229152",
+              "https://cert.gov.ua/article/18365",
+              "https://cert.gov.ua/article/39086",
+              "https://cert.gov.ua/article/39138",
+              "https://cert.gov.ua/article/39386",
+              "https://cert.gov.ua/article/40240",
+              "https://cert.gov.ua/article/971405",
+              "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+              "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+              "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+              "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+              "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+              "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+              "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+            ]
+          }
+        ],
+        "variants": [
+          "G0047"
+        ]
+      },
+      {
+        "compact_normalized_name": "gamaredon",
+        "confidence": "source-provided",
+        "display_group_key": "gamaredon",
+        "name": "Gamaredon",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "gamaredon",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "Gamaredon"
+        ]
+      },
+      {
+        "compact_normalized_name": "irontilden",
+        "confidence": "source-provided",
+        "display_group_key": "irontilden",
+        "name": "IRON TILDEN",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "iron tilden",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://attack.mitre.org/groups/G0047",
+          "https://cert.gov.ua/article/1229152",
+          "https://cert.gov.ua/article/18365",
+          "https://cert.gov.ua/article/39086",
+          "https://cert.gov.ua/article/39138",
+          "https://cert.gov.ua/article/39386",
+          "https://cert.gov.ua/article/40240",
+          "https://cert.gov.ua/article/971405",
+          "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+          "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+          "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+          "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+          "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+          "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+          "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://attack.mitre.org/groups/G0047",
+              "https://cert.gov.ua/article/1229152",
+              "https://cert.gov.ua/article/18365",
+              "https://cert.gov.ua/article/39086",
+              "https://cert.gov.ua/article/39138",
+              "https://cert.gov.ua/article/39386",
+              "https://cert.gov.ua/article/40240",
+              "https://cert.gov.ua/article/971405",
+              "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+              "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+              "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+              "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+              "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+              "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+              "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0047"
+            ]
+          }
+        ],
+        "variants": [
+          "IRON TILDEN"
+        ]
+      },
+      {
+        "compact_normalized_name": "nastyshrew",
+        "confidence": "source-provided",
+        "display_group_key": "nastyshrew",
+        "name": "NastyShrew",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "nastyshrew",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0047"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0047"
+            ]
+          }
+        ],
+        "variants": [
+          "NastyShrew"
+        ]
+      },
+      {
+        "compact_normalized_name": "primitivebear",
+        "confidence": "source-provided",
+        "display_group_key": "primitivebear",
+        "name": "PRIMITIVE BEAR",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "primitive bear",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://attack.mitre.org/groups/G0047",
+          "https://cert.gov.ua/article/1229152",
+          "https://cert.gov.ua/article/18365",
+          "https://cert.gov.ua/article/39086",
+          "https://cert.gov.ua/article/39138",
+          "https://cert.gov.ua/article/39386",
+          "https://cert.gov.ua/article/40240",
+          "https://cert.gov.ua/article/971405",
+          "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+          "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+          "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+          "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+          "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+          "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+          "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://attack.mitre.org/groups/G0047",
+              "https://cert.gov.ua/article/1229152",
+              "https://cert.gov.ua/article/18365",
+              "https://cert.gov.ua/article/39086",
+              "https://cert.gov.ua/article/39138",
+              "https://cert.gov.ua/article/39386",
+              "https://cert.gov.ua/article/40240",
+              "https://cert.gov.ua/article/971405",
+              "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+              "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+              "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+              "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+              "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+              "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+              "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0047"
+            ]
+          }
+        ],
+        "variants": [
+          "PRIMITIVE BEAR",
+          "Primitive Bear"
+        ]
+      },
+      {
+        "compact_normalized_name": "sectorc08",
+        "confidence": "source-provided",
+        "display_group_key": "sectorc08",
+        "name": "SectorC08",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "sectorc08",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "SectorC08"
+        ]
+      },
+      {
+        "compact_normalized_name": "shuckworm",
+        "confidence": "source-provided",
+        "display_group_key": "shuckworm",
+        "name": "Shuckworm",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "shuckworm",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://attack.mitre.org/groups/G0047",
+          "https://cert.gov.ua/article/1229152",
+          "https://cert.gov.ua/article/18365",
+          "https://cert.gov.ua/article/39086",
+          "https://cert.gov.ua/article/39138",
+          "https://cert.gov.ua/article/39386",
+          "https://cert.gov.ua/article/40240",
+          "https://cert.gov.ua/article/971405",
+          "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+          "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+          "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+          "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+          "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+          "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+          "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://attack.mitre.org/groups/G0047",
+              "https://cert.gov.ua/article/1229152",
+              "https://cert.gov.ua/article/18365",
+              "https://cert.gov.ua/article/39086",
+              "https://cert.gov.ua/article/39138",
+              "https://cert.gov.ua/article/39386",
+              "https://cert.gov.ua/article/40240",
+              "https://cert.gov.ua/article/971405",
+              "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+              "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+              "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+              "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+              "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+              "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+              "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0047"
+            ]
+          }
+        ],
+        "variants": [
+          "shuckworm",
+          "Shuckworm"
+        ]
+      },
+      {
+        "compact_normalized_name": "tridentursa",
+        "confidence": "source-provided",
+        "display_group_key": "tridentursa",
+        "name": "Trident Ursa",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "trident ursa",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://attack.mitre.org/groups/G0047",
+          "https://cert.gov.ua/article/1229152",
+          "https://cert.gov.ua/article/18365",
+          "https://cert.gov.ua/article/39086",
+          "https://cert.gov.ua/article/39138",
+          "https://cert.gov.ua/article/39386",
+          "https://cert.gov.ua/article/40240",
+          "https://cert.gov.ua/article/971405",
+          "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+          "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+          "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+          "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+          "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+          "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+          "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://attack.mitre.org/groups/G0047",
+              "https://cert.gov.ua/article/1229152",
+              "https://cert.gov.ua/article/18365",
+              "https://cert.gov.ua/article/39086",
+              "https://cert.gov.ua/article/39138",
+              "https://cert.gov.ua/article/39386",
+              "https://cert.gov.ua/article/40240",
+              "https://cert.gov.ua/article/971405",
+              "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+              "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+              "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+              "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+              "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+              "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+              "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+            ]
+          }
+        ],
+        "variants": [
+          "Trident Ursa"
+        ]
+      },
+      {
+        "compact_normalized_name": "uac0010",
+        "confidence": "source-provided",
+        "display_group_key": "uac0010",
+        "name": "UAC-0010",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uac 0010",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://attack.mitre.org/groups/G0047",
+          "https://cert.gov.ua/article/1229152",
+          "https://cert.gov.ua/article/18365",
+          "https://cert.gov.ua/article/39086",
+          "https://cert.gov.ua/article/39138",
+          "https://cert.gov.ua/article/39386",
+          "https://cert.gov.ua/article/40240",
+          "https://cert.gov.ua/article/971405",
+          "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+          "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+          "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+          "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+          "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+          "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+          "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://attack.mitre.org/groups/G0047",
+              "https://cert.gov.ua/article/1229152",
+              "https://cert.gov.ua/article/18365",
+              "https://cert.gov.ua/article/39086",
+              "https://cert.gov.ua/article/39138",
+              "https://cert.gov.ua/article/39386",
+              "https://cert.gov.ua/article/40240",
+              "https://cert.gov.ua/article/971405",
+              "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+              "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+              "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+              "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+              "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+              "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+              "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+            ]
+          }
+        ],
+        "variants": [
+          "UAC-0010"
+        ]
+      },
+      {
+        "compact_normalized_name": "unc530",
+        "confidence": "source-provided",
+        "display_group_key": "unc530",
+        "name": "UNC530",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "unc530",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC530"
+        ]
+      },
+      {
+        "compact_normalized_name": "winterflounder",
+        "confidence": "source-provided",
+        "display_group_key": "winterflounder",
+        "name": "Winterflounder",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "winterflounder",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://attack.mitre.org/groups/G0047",
+          "https://cert.gov.ua/article/1229152",
+          "https://cert.gov.ua/article/18365",
+          "https://cert.gov.ua/article/39086",
+          "https://cert.gov.ua/article/39138",
+          "https://cert.gov.ua/article/39386",
+          "https://cert.gov.ua/article/40240",
+          "https://cert.gov.ua/article/971405",
+          "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+          "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+          "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+          "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+          "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+          "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+          "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://attack.mitre.org/groups/G0047",
+              "https://cert.gov.ua/article/1229152",
+              "https://cert.gov.ua/article/18365",
+              "https://cert.gov.ua/article/39086",
+              "https://cert.gov.ua/article/39138",
+              "https://cert.gov.ua/article/39386",
+              "https://cert.gov.ua/article/40240",
+              "https://cert.gov.ua/article/971405",
+              "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+              "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+              "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+              "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+              "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+              "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+              "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+            ]
+          }
+        ],
+        "variants": [
+          "Winterflounder"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0047",
+          "name": "Obfuscated Files or Information",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel",
+            "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "actor_id": "mitre-g0047",
+          "name": "Compile After Delivery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.004",
+          "url": "https://attack.mitre.org/techniques/T1027.004/"
+        },
+        {
+          "actor_id": "mitre-g0047",
+          "name": "Command Obfuscation",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+            "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+            "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel",
+            "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.010",
+          "url": "https://attack.mitre.org/techniques/T1027.010/"
+        },
+        {
+          "actor_id": "mitre-g0047",
+          "name": "LNK Icon Smuggling",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/",
+            "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.012",
+          "url": "https://attack.mitre.org/techniques/T1027.012/"
+        },
+        {
+          "actor_id": "mitre-g0047",
+          "name": "Compression",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.015",
+          "url": "https://attack.mitre.org/techniques/T1027.015/"
+        },
+        {
+          "actor_id": "mitre-g0047",
+          "name": "Junk Code Insertion",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.016",
+          "url": "https://attack.mitre.org/techniques/T1027.016/"
+        },
+        {
+          "actor_id": "mitre-g0047",
+          "name": "Match Legitimate Resource Name or Location",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/",
+            "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036.005/"
+        },
+        {
+          "actor_id": "mitre-g0047",
+          "name": "Process Injection",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/"
+          ],
+          "tactics": [
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1055",
+          "url": "https://attack.mitre.org/techniques/T1055/"
+        },
+        {
+          "actor_id": "mitre-g0047",
+          "name": "File Deletion",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+            "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+            "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+            "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1070.004",
+          "url": "https://attack.mitre.org/techniques/T1070.004/"
+        },
+        {
+          "actor_id": "mitre-g0047",
+          "name": "Deobfuscate/Decode Files or Information",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+            "https://unit42.paloaltonetworks.com/trident-ursa/",
+            "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+            "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1140",
+          "url": "https://attack.mitre.org/techniques/T1140/"
+        },
+        {
+          "actor_id": "mitre-g0047",
+          "name": "Mshta",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+            "https://unit42.paloaltonetworks.com/trident-ursa/",
+            "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+            "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1218.005",
+          "url": "https://attack.mitre.org/techniques/T1218.005/"
+        },
+        {
+          "actor_id": "mitre-g0047",
+          "name": "Rundll32",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1218.011",
+          "url": "https://attack.mitre.org/techniques/T1218.011/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 17,
+          "items": [
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Obfuscated Files or Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027",
+              "url": "https://attack.mitre.org/techniques/T1027/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Compile After Delivery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.004",
+              "url": "https://attack.mitre.org/techniques/T1027.004/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Command Obfuscation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.010",
+              "url": "https://attack.mitre.org/techniques/T1027.010/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "LNK Icon Smuggling",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.012",
+              "url": "https://attack.mitre.org/techniques/T1027.012/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Compression",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.015",
+              "url": "https://attack.mitre.org/techniques/T1027.015/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Junk Code Insertion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.016",
+              "url": "https://attack.mitre.org/techniques/T1027.016/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Match Legitimate Resource Name or Location",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/",
+                "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.005",
+              "url": "https://attack.mitre.org/techniques/T1036.005/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Process Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055",
+              "url": "https://attack.mitre.org/techniques/T1055/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "File Deletion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.004",
+              "url": "https://attack.mitre.org/techniques/T1070.004/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Deobfuscate/Decode Files or Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1140",
+              "url": "https://attack.mitre.org/techniques/T1140/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Mshta",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.005",
+              "url": "https://attack.mitre.org/techniques/T1218.005/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Rundll32",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.011",
+              "url": "https://attack.mitre.org/techniques/T1218.011/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Template Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "https://www.proofpoint.com/us/blog/threat-insight/injection-new-black-novel-rtf-template-inject-technique-poised-widespread",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "https://www.secureworks.com/research/threat-profiles/iron-tilden",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1221",
+              "url": "https://attack.mitre.org/techniques/T1221/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Execution Guardrails",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/",
+                "https://unit42.paloaltonetworks.com/trident-ursa/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1480",
+              "url": "https://attack.mitre.org/techniques/T1480/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "System Checks",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.silentpush.com/blog/from-russia-with-a-71/"
+              ],
+              "tactics": [
+                "discovery",
+                "stealth"
+              ],
+              "technique_id": "T1497.001",
+              "url": "https://attack.mitre.org/techniques/T1497.001/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Hidden Window",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/",
+                "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.003",
+              "url": "https://attack.mitre.org/techniques/T1564.003/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Reflective Code Loading",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1620",
+              "url": "https://attack.mitre.org/techniques/T1620/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 12,
+          "items": [
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Data Obfuscation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/trident-ursa/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1001",
+              "url": "https://attack.mitre.org/techniques/T1001/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Web Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/",
+                "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/",
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.001",
+              "url": "https://attack.mitre.org/techniques/T1071.001/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Proxy",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1090",
+              "url": "https://attack.mitre.org/techniques/T1090/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Multi-hop Proxy",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1090.003",
+              "url": "https://attack.mitre.org/techniques/T1090.003/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Non-Application Layer Protocol",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1095",
+              "url": "https://attack.mitre.org/techniques/T1095/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Web Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1102",
+              "url": "https://attack.mitre.org/techniques/T1102/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Bidirectional Communication",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1102.002",
+              "url": "https://attack.mitre.org/techniques/T1102.002/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "One-Way Communication",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/trident-ursa/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1102.003",
+              "url": "https://attack.mitre.org/techniques/T1102.003/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/",
+                "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/",
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Dynamic Resolution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1568",
+              "url": "https://attack.mitre.org/techniques/T1568/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Fast Flux DNS",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://hunt.io/blog/state-sponsored-activity-gamaredon-shadowpad",
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.silentpush.com/blog/from-russia-with-a-71/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1568.001",
+              "url": "https://attack.mitre.org/techniques/T1568.001/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Non-Standard Port",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1571",
+              "url": "https://attack.mitre.org/techniques/T1571/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 9,
+          "items": [
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Query Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1012",
+              "url": "https://attack.mitre.org/techniques/T1012/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Internet Connection Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1016.001",
+              "url": "https://attack.mitre.org/techniques/T1016.001/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "System Owner/User Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1033",
+              "url": "https://attack.mitre.org/techniques/T1033/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Process Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1057",
+              "url": "https://attack.mitre.org/techniques/T1057/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "System Information Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1082",
+              "url": "https://attack.mitre.org/techniques/T1082/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "File and Directory Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1083",
+              "url": "https://attack.mitre.org/techniques/T1083/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Peripheral Device Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1120",
+              "url": "https://attack.mitre.org/techniques/T1120/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "System Checks",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.silentpush.com/blog/from-russia-with-a-71/"
+              ],
+              "tactics": [
+                "discovery",
+                "stealth"
+              ],
+              "technique_id": "T1497.001",
+              "url": "https://attack.mitre.org/techniques/T1497.001/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Security Software Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1518.001",
+              "url": "https://attack.mitre.org/techniques/T1518.001/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 9,
+          "items": [
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Windows Management Instrumentation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1047",
+              "url": "https://attack.mitre.org/techniques/T1047/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/",
+                "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Visual Basic",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "https://www.secureworks.com/research/threat-profiles/iron-tilden",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.005",
+              "url": "https://attack.mitre.org/techniques/T1059.005/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Native API",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1106",
+              "url": "https://attack.mitre.org/techniques/T1106/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Malicious Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.001",
+              "url": "https://attack.mitre.org/techniques/T1204.001/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/",
+                "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "https://www.secureworks.com/research/threat-profiles/iron-tilden",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Component Object Model",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1559.001",
+              "url": "https://attack.mitre.org/techniques/T1559.001/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Virtual Private Server",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://hunt.io/blog/state-sponsored-activity-gamaredon-shadowpad",
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.003",
+              "url": "https://attack.mitre.org/techniques/T1583.003/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Web Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.006",
+              "url": "https://attack.mitre.org/techniques/T1583.006/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Digital Certificates",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://hunt.io/blog/state-sponsored-activity-gamaredon-shadowpad"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1587.003",
+              "url": "https://attack.mitre.org/techniques/T1587.003/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Upload Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.001",
+              "url": "https://attack.mitre.org/techniques/T1608.001/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Data from Local System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1005",
+              "url": "https://attack.mitre.org/techniques/T1005/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Data from Removable Media",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1025",
+              "url": "https://attack.mitre.org/techniques/T1025/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Data from Network Shared Drive",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1039",
+              "url": "https://attack.mitre.org/techniques/T1039/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Screen Capture",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1113",
+              "url": "https://attack.mitre.org/techniques/T1113/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Automated Collection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1119",
+              "url": "https://attack.mitre.org/techniques/T1119/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Modify Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1112",
+              "url": "https://attack.mitre.org/techniques/T1112/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Office Application Startup",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1137",
+              "url": "https://attack.mitre.org/techniques/T1137/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0047",
+              "name": "VNC",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+                "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.005",
+              "url": "https://attack.mitre.org/techniques/T1021.005/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Taint Shared Content",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1080",
+              "url": "https://attack.mitre.org/techniques/T1080/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Replication Through Removable Media",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "initial-access",
+                "lateral-movement"
+              ],
+              "technique_id": "T1091",
+              "url": "https://attack.mitre.org/techniques/T1091/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Internal Spearphishing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1534",
+              "url": "https://attack.mitre.org/techniques/T1534/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Process Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055",
+              "url": "https://attack.mitre.org/techniques/T1055/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Modify Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1112",
+              "url": "https://attack.mitre.org/techniques/T1112/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Disable or Modify Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1685",
+              "url": "https://attack.mitre.org/techniques/T1685/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Automated Exfiltration",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1020",
+              "url": "https://attack.mitre.org/techniques/T1020/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Exfiltration Over C2 Channel",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1041",
+              "url": "https://attack.mitre.org/techniques/T1041/"
+            }
+          ],
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Internal Defacement",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1491.001",
+              "url": "https://attack.mitre.org/techniques/T1491.001/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Disk Content Wipe",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1561.001",
+              "url": "https://attack.mitre.org/techniques/T1561.001/"
+            }
+          ],
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Replication Through Removable Media",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.security.com/threat-intelligence/shuckworm-ukraine-gammasteel"
+              ],
+              "tactics": [
+                "initial-access",
+                "lateral-movement"
+              ],
+              "technique_id": "T1091",
+              "url": "https://attack.mitre.org/techniques/T1091/"
+            },
+            {
+              "actor_id": "mitre-g0047",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/gamaredon-campaign-distribute-remcos/",
+                "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/",
+                "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+                "https://unit42.paloaltonetworks.com/trident-ursa/",
+                "https://web-assets.esetstatic.com/wls/en/papers/white-papers/cyberespionage-gamaredon-way.pdf",
+                "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+                "https://www.ria.ee/sites/default/files/content-editors/kuberturve/tale_of_gamaredon_infection.pdf",
+                "https://www.secureworks.com/research/threat-profiles/iron-tilden",
+                "https://www.silentpush.com/blog/from-russia-with-a-71/",
+                "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 17,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 12,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 9,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 9,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 6,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 5,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 4,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 4,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 3,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 2,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 2,
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 2,
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        },
+        {
+          "count": 2,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        }
+      ],
+      "total": 70
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0047/"
+          ]
+        }
+      ],
+      "text": "Gamaredon Group is a suspected Russian cyber espionage group that has targeted military, law enforcement, judiciary, non-profit, and non-governmental organizations in Ukraine since at least 2013. The name Gamaredon Group derives from a misspelling of the word \"Armageddon,\" found in early campaigns.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: Symantec Shuckworm January 2022)(Citation: Microsoft Actinium February 2022) In November 2021, the Ukrainian government publicly attributed Gamaredon Group to Russia’s Federal Security Service (FSB) Center 18, an assessment later supported by multiple independent..."
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0047"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.cloudflare.com/2026-threat-report"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cert.gov.ua/article/1229152"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cert.gov.ua/article/18365"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cert.gov.ua/article/39086"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cert.gov.ua/article/39138"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cert.gov.ua/article/39386"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cert.gov.ua/article/40240"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cert.gov.ua/article/971405"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/atoms/tridentursa"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bleepingcomputer.com/news/security/ukraine-links-members-of-gamaredon-hacker-group-to-russian-fsb"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/iron-tilden"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game"
+      },
+      {
+        "actor_id": "mitre-g0047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            },
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            },
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "ACTINIUM",
+      "Aqua Blizzard",
+      "Armageddon",
+      "Blue Otso",
+      "BlueAlpha",
+      "DEV-0157",
+      "G0047",
+      "Gamaredon",
+      "Gamaredon Group",
+      "IRON TILDEN",
+      "NastyShrew",
+      "Primitive Bear",
+      "PRIMITIVE BEAR",
+      "SectorC08",
+      "Shuckworm",
+      "shuckworm",
+      "Trident Ursa",
+      "UAC-0010",
+      "UNC530",
+      "Winterflounder"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

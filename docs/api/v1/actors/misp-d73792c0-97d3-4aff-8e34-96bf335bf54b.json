@@ -1,0 +1,117 @@
+{
+  "actor": {
+    "actor_id": "misp-d73792c0-97d3-4aff-8e34-96bf335bf54b",
+    "canonical_name": "Krybit",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-d73792c0-97d3-4aff-8e34-96bf335bf54b"
+    ],
+    "misp_uuid": "d73792c0-97d3-4aff-8e34-96bf335bf54b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "krybit",
+        "confidence": "source-provided",
+        "display_group_key": "krybit",
+        "name": "Krybit",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "krybit",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.cyberdaily.au/security/13464-exclusive-krybit-hackers-claim-breach-of-new-zealand-it-services-provider",
+          "https://www.redpacketsecurity.com/krybit-ransomware-victim-fraper-com",
+          "https://www.redpacketsecurity.com/krybit-ransomware-victim-hacked-0apt"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.cyberdaily.au/security/13464-exclusive-krybit-hackers-claim-breach-of-new-zealand-it-services-provider",
+              "https://www.redpacketsecurity.com/krybit-ransomware-victim-fraper-com",
+              "https://www.redpacketsecurity.com/krybit-ransomware-victim-hacked-0apt"
+            ]
+          }
+        ],
+        "variants": [
+          "Krybit"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Krybit is a ransomware group that operates as a ransomware-as-a-service provider, offering affiliates 80% of ransom proceeds in exchange for technical support and a malware suite. The group has claimed attacks on various organizations across multiple countries, including asesoriauriel.com in Spain and fraper.com in Spain, without disclosing the volume of data exfiltrated. Krybit is currently engaged in a turf war with another group, 0APT, and has been accused of fabricating victim claims. Their leak site has been used to publish compromised data and to issue threats to rivals and victims alike."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-d73792c0-97d3-4aff-8e34-96bf335bf54b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cyberdaily.au/security/13464-exclusive-krybit-hackers-claim-breach-of-new-zealand-it-services-provider"
+      },
+      {
+        "actor_id": "misp-d73792c0-97d3-4aff-8e34-96bf335bf54b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.redpacketsecurity.com/krybit-ransomware-victim-fraper-com"
+      },
+      {
+        "actor_id": "misp-d73792c0-97d3-4aff-8e34-96bf335bf54b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.redpacketsecurity.com/krybit-ransomware-victim-hacked-0apt"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Krybit"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

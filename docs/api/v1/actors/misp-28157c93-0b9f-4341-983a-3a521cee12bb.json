@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-28157c93-0b9f-4341-983a-3a521cee12bb",
+    "canonical_name": "DragonRank",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-28157c93-0b9f-4341-983a-3a521cee12bb"
+    ],
+    "misp_uuid": "28157c93-0b9f-4341-983a-3a521cee12bb",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "dragonrank",
+        "confidence": "source-provided",
+        "display_group_key": "dragonrank",
+        "name": "DragonRank",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dragonrank",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.talosintelligence.com/dragon-rank-seo-poisoning"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/dragon-rank-seo-poisoning"
+            ]
+          }
+        ],
+        "variants": [
+          "DragonRank"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "DragonRank is a threat actor primarily targeting web application services in Asia and Europe, utilizing TTPs associated with Simplified Chinese-speaking hacking groups. They exploit vulnerabilities in platforms like phpMyAdmin and WordPress to deploy web shells, enabling the installation of PlugX and BadIIS malware for black hat SEO practices. Their operations involve lateral movement within compromised networks to maintain control and elevate privileges, while also engaging in unethical online marketing strategies. DragonRank's activities include manipulating search engine rankings and distributing scam websites through compromised Windows IIS servers."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-28157c93-0b9f-4341-983a-3a521cee12bb",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/dragon-rank-seo-poisoning"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "DragonRank"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,144 @@
+{
+  "actor": {
+    "actor_id": "misp-8146ba06-cef2-4a94-b26e-1a4041e04c7d",
+    "canonical_name": "Karkadann",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-8146ba06-cef2-4a94-b26e-1a4041e04c7d"
+    ],
+    "misp_uuid": "8146ba06-cef2-4a94-b26e-1a4041e04c7d",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "karkadann",
+        "confidence": "source-provided",
+        "display_group_key": "karkadann",
+        "name": "Karkadann",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "karkadann",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/apt-trends-report-q2-2022/106995",
+          "https://www.welivesecurity.com/2021/11/16/strategic-web-compromises-middle-east-pinch-candiru"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/apt-trends-report-q2-2022/106995",
+              "https://www.welivesecurity.com/2021/11/16/strategic-web-compromises-middle-east-pinch-candiru"
+            ]
+          }
+        ],
+        "variants": [
+          "Karkadann"
+        ]
+      },
+      {
+        "compact_normalized_name": "piwiks",
+        "confidence": "source-provided",
+        "display_group_key": "piwiks",
+        "name": "Piwiks",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "piwiks",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/apt-trends-report-q2-2022/106995",
+          "https://www.welivesecurity.com/2021/11/16/strategic-web-compromises-middle-east-pinch-candiru"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/apt-trends-report-q2-2022/106995",
+              "https://www.welivesecurity.com/2021/11/16/strategic-web-compromises-middle-east-pinch-candiru"
+            ]
+          }
+        ],
+        "variants": [
+          "Piwiks"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Karkadann is a threat actor that has been active since at least October 2020, targeting government bodies and news outlets in the Middle East. They have been involved in watering hole attacks, compromising high-profile websites to inject malicious JavaScript code. The group has been linked to another commercial spyware company called Candiru, suggesting they may utilize multiple spyware technologies. There are similarities in the infrastructure and tactics used by Karkadann in their campaigns."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-8146ba06-cef2-4a94-b26e-1a4041e04c7d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/apt-trends-report-q2-2022/106995"
+      },
+      {
+        "actor_id": "misp-8146ba06-cef2-4a94-b26e-1a4041e04c7d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.welivesecurity.com/2021/11/16/strategic-web-compromises-middle-east-pinch-candiru"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Karkadann",
+      "Piwiks"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

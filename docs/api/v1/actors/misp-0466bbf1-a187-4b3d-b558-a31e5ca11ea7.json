@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-0466bbf1-a187-4b3d-b558-a31e5ca11ea7",
+    "canonical_name": "TA516",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-0466bbf1-a187-4b3d-b558-a31e5ca11ea7"
+    ],
+    "misp_uuid": "0466bbf1-a187-4b3d-b558-a31e5ca11ea7",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "ta516",
+        "confidence": "source-provided",
+        "display_group_key": "ta516",
+        "name": "TA516",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ta516",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.thaicert.or.th/downloads/files/Threat_Group_Cards_v2.0.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.thaicert.or.th/downloads/files/Threat_Group_Cards_v2.0.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "TA516"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "This actor typically distributes instances of the SmokeLoader intermediate downloader, which, in turn, downloads additional malware of the actor’s choice -- often banking Trojans. Figure 3 shows a lure document from a November campaign in which TA516 distributed fake resumes with malicious macros that, if enabled, launch a PowerShell script that downloads SmokeLoader. In this instance, we observed SmokeLoader downloading a Monero coinminer. Since the middle of 2017, TA516 has used similar macro-laden documents as well as malicious JavaScript hosted on Google Drive to distribute both Panda Banker and a coinminer executable via SmokeLoader, often in the same campaigns."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-0466bbf1-a187-4b3d-b558-a31e5ca11ea7",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.thaicert.or.th/downloads/files/Threat_Group_Cards_v2.0.pdf"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "TA516"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

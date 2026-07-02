@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-deba565b-3313-425b-aaa3-2c6034257913",
+    "canonical_name": "Scripted Sparrow",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-deba565b-3313-425b-aaa3-2c6034257913"
+    ],
+    "misp_uuid": "deba565b-3313-425b-aaa3-2c6034257913",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "scriptedsparrow",
+        "confidence": "source-provided",
+        "display_group_key": "scriptedsparrow",
+        "name": "Scripted Sparrow",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "scripted sparrow",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.fortra.com/resources/guides/scripted-sparrow-prolific-bec-threat-group",
+          "https://www.helpnetsecurity.com/2025/12/18/tracking-scripted-sparrow-phishing-campaigns"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.fortra.com/resources/guides/scripted-sparrow-prolific-bec-threat-group",
+              "https://www.helpnetsecurity.com/2025/12/18/tracking-scripted-sparrow-phishing-campaigns"
+            ]
+          }
+        ],
+        "variants": [
+          "Scripted Sparrow"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Scripted Sparrow is a prolific Business Email Compromise (BEC) collective that conducts highly targeted phishing campaigns, impersonating professional services firms to deceive finance teams into transferring funds. The group employs a disciplined approach, utilizing consistent language and familiar tones in their communications, while sending between 10,000 and 50,000 emails daily in small batches. They have developed a sophisticated understanding of corporate communication, crafting messages that mimic internal formats and urgency without raising suspicion. Scripted Sparrow relies on a network of US-based mule accounts, with 249 unique bank accounts identified across 42 financial..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-deba565b-3313-425b-aaa3-2c6034257913",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fortra.com/resources/guides/scripted-sparrow-prolific-bec-threat-group"
+      },
+      {
+        "actor_id": "misp-deba565b-3313-425b-aaa3-2c6034257913",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.helpnetsecurity.com/2025/12/18/tracking-scripted-sparrow-phishing-campaigns"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Scripted Sparrow"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

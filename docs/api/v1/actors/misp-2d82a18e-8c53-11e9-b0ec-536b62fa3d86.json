@@ -1,0 +1,145 @@
+{
+  "actor": {
+    "actor_id": "misp-2d82a18e-8c53-11e9-b0ec-536b62fa3d86",
+    "canonical_name": "Honeybee",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-2d82a18e-8c53-11e9-b0ec-536b62fa3d86"
+    ],
+    "misp_uuid": "2d82a18e-8c53-11e9-b0ec-536b62fa3d86",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "honeybee",
+        "confidence": "source-provided",
+        "display_group_key": "honeybee",
+        "name": "Honeybee",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "honeybee",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0072",
+          "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0072",
+              "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "Honeybee"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0072",
+        "confidence": "source-provided",
+        "display_group_key": "g0072",
+        "name": "G0072",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0072",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0072",
+          "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0072",
+              "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "G0072"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "McAfee Advanced Threat Research analysts have discovered a new operation targeting humanitarian aid organizations and using North Korean political topics as bait to lure victims into opening malicious Microsoft Word documents. Our analysts have named this Operation Honeybee, based on the names of the malicious documents used in the attacks. Advanced Threat Research analysts have also discovered malicious documents authored by the same actor that indicate a tactical shift. These documents do not contain the typical lures by this actor, instead using Word compatibility messages to entice victims into opening them. The Advanced Threat Research team also observed a heavy concentration of the..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-2d82a18e-8c53-11e9-b0ec-536b62fa3d86",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0072"
+      },
+      {
+        "actor_id": "misp-2d82a18e-8c53-11e9-b0ec-536b62fa3d86",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "G0072",
+      "Honeybee"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

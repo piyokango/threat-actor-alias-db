@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-a2553b72-e87f-40c6-afe2-04df4cf3e12f",
+    "canonical_name": "Shadow-Earth-053",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-a2553b72-e87f-40c6-afe2-04df4cf3e12f"
+    ],
+    "misp_uuid": "a2553b72-e87f-40c6-afe2-04df4cf3e12f",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "shadowearth053",
+        "confidence": "source-provided",
+        "display_group_key": "shadowearth053",
+        "name": "Shadow-Earth-053",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "shadow earth 053",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.trendmicro.com/en_us/research/26/d/inside-shadow-earth-053.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.trendmicro.com/en_us/research/26/d/inside-shadow-earth-053.html"
+            ]
+          }
+        ],
+        "variants": [
+          "Shadow-Earth-053"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "SHADOW-EARTH-053 is a China-aligned threat group exploiting unpatched Microsoft Exchange Server vulnerabilities, specifically CVE-2021-26855, to conduct cyberespionage against government and defense-linked targets across Asia and Europe. The group primarily deploys ShadowPad malware, utilizing techniques such as credential dumping, tunneling tools, and lateral movement via WMIC. They have also been observed installing web shells for persistence and leveraging a custom ExchangeExport tool to extract high-value mailbox contents. Additionally, low-confidence associations with Noodle RAT and CVE-2025-55182 have been noted in their operations."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-a2553b72-e87f-40c6-afe2-04df4cf3e12f",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/26/d/inside-shadow-earth-053.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "Shadow-Earth-053"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

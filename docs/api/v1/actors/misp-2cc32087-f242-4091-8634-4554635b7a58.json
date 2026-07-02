@@ -1,0 +1,187 @@
+{
+  "actor": {
+    "actor_id": "misp-2cc32087-f242-4091-8634-4554635b7a58",
+    "canonical_name": "Storm-1084",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-2cc32087-f242-4091-8634-4554635b7a58"
+    ],
+    "misp_uuid": "2cc32087-f242-4091-8634-4554635b7a58",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "storm1084",
+        "confidence": "source-provided",
+        "display_group_key": "storm1084",
+        "name": "Storm-1084",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 1084",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://circleid.com/posts/20230824-signs-of-muddywater-developments-found-in-the-dns",
+          "https://www.microsoft.com/en-us/security/blog/2023/04/07/mercury-and-dev-1084-destructive-attack-on-hybrid-environment"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://circleid.com/posts/20230824-signs-of-muddywater-developments-found-in-the-dns",
+              "https://www.microsoft.com/en-us/security/blog/2023/04/07/mercury-and-dev-1084-destructive-attack-on-hybrid-environment"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-1084"
+        ]
+      },
+      {
+        "compact_normalized_name": "dev1084",
+        "confidence": "source-provided",
+        "display_group_key": "dev1084",
+        "name": "DEV-1084",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dev 1084",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://circleid.com/posts/20230824-signs-of-muddywater-developments-found-in-the-dns",
+          "https://www.microsoft.com/en-us/security/blog/2023/04/07/mercury-and-dev-1084-destructive-attack-on-hybrid-environment"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://circleid.com/posts/20230824-signs-of-muddywater-developments-found-in-the-dns",
+              "https://www.microsoft.com/en-us/security/blog/2023/04/07/mercury-and-dev-1084-destructive-attack-on-hybrid-environment"
+            ]
+          }
+        ],
+        "variants": [
+          "DEV-1084"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Storm-1084 is a threat actor that has been observed collaborating with the MuddyWater group. They have used the DarkBit persona to mask their involvement in targeted attacks. Storm-1084 has been linked to destructive actions, including the encryption of on-premise devices and deletion of cloud resources. They have been observed using tools such as Rport, Ligolo, and a customized PowerShell backdoor. The extent of their autonomy or collaboration with other Iranian threat actors is currently unclear."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-2cc32087-f242-4091-8634-4554635b7a58",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://circleid.com/posts/20230824-signs-of-muddywater-developments-found-in-the-dns"
+      },
+      {
+        "actor_id": "misp-2cc32087-f242-4091-8634-4554635b7a58",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2023/04/07/mercury-and-dev-1084-destructive-attack-on-hybrid-environment"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ]
+    },
+    "search_names": [
+      "DEV-1084",
+      "Storm-1084"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,3983 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0016",
+    "canonical_name": "APT29",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0016"
+    ],
+    "misp_uuid": "b2056ff0-00b9-482e-b11c-c771daa5f28a",
+    "mitre_id": "G0016",
+    "names": [
+      {
+        "compact_normalized_name": "apt29",
+        "confidence": "source-provided",
+        "display_group_key": "apt29",
+        "name": "APT29",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "apt29",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016"
+            ]
+          }
+        ],
+        "variants": [
+          "APT29"
+        ]
+      },
+      {
+        "compact_normalized_name": "atk7",
+        "confidence": "source-provided",
+        "display_group_key": "atk7",
+        "name": "ATK7",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "atk7",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "ATK7"
+        ]
+      },
+      {
+        "compact_normalized_name": "bluekitsune",
+        "confidence": "source-provided",
+        "display_group_key": "bluekitsune",
+        "name": "Blue Kitsune",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "blue kitsune",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016"
+            ]
+          }
+        ],
+        "variants": [
+          "Blue Kitsune"
+        ]
+      },
+      {
+        "compact_normalized_name": "bluebravo",
+        "confidence": "source-provided",
+        "display_group_key": "bluebravo",
+        "name": "BlueBravo",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "bluebravo",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "BlueBravo"
+        ]
+      },
+      {
+        "compact_normalized_name": "cloakedursa",
+        "confidence": "source-provided",
+        "display_group_key": "cloakedursa",
+        "name": "Cloaked Ursa",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cloaked ursa",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Cloaked Ursa"
+        ]
+      },
+      {
+        "compact_normalized_name": "cozybear",
+        "confidence": "source-provided",
+        "display_group_key": "cozybear",
+        "name": "COZY BEAR",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "cozy bear",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016"
+            ]
+          }
+        ],
+        "variants": [
+          "Cozy Bear",
+          "COZY BEAR"
+        ]
+      },
+      {
+        "compact_normalized_name": "cozyduke",
+        "confidence": "source-provided",
+        "display_group_key": "cozyduke",
+        "name": "CozyDuke",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "cozyduke",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016"
+            ]
+          }
+        ],
+        "variants": [
+          "CozyDuke"
+        ]
+      },
+      {
+        "compact_normalized_name": "darkhalo",
+        "confidence": "source-provided",
+        "display_group_key": "darkhalo",
+        "name": "Dark Halo",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "dark halo",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://github.com/fireeye/sunburst_countermeasures",
+          "https://medium.com/mitre-attack/identifying-unc2452-related-techniques-9f7b6c7f3714",
+          "https://news.sophos.com/en-us/2020/12/21/how-sunburst-malware-does-defense-evasion",
+          "https://pastebin.com/6EDgCKxd",
+          "https://unit42.paloaltonetworks.com/atoms/solarphoenix",
+          "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html",
+          "https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html",
+          "https://www.microsoft.com/en-us/security/blog/2023/08/02/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams",
+          "https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack",
+          "https://www.microsoft.com/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect",
+          "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://github.com/fireeye/sunburst_countermeasures",
+              "https://medium.com/mitre-attack/identifying-unc2452-related-techniques-9f7b6c7f3714",
+              "https://news.sophos.com/en-us/2020/12/21/how-sunburst-malware-does-defense-evasion",
+              "https://pastebin.com/6EDgCKxd",
+              "https://unit42.paloaltonetworks.com/atoms/solarphoenix",
+              "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html",
+              "https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html",
+              "https://www.microsoft.com/en-us/security/blog/2023/08/02/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams",
+              "https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack",
+              "https://www.microsoft.com/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect",
+              "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016"
+            ]
+          }
+        ],
+        "variants": [
+          "Dark Halo",
+          "DarkHalo"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0016",
+        "confidence": "source-provided",
+        "display_group_key": "g0016",
+        "name": "G0016",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0016",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "G0016"
+        ]
+      },
+      {
+        "compact_normalized_name": "grizzlysteppe",
+        "confidence": "source-provided",
+        "display_group_key": "grizzlysteppe",
+        "name": "Grizzly Steppe",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "grizzly steppe",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Grizzly Steppe"
+        ]
+      },
+      {
+        "compact_normalized_name": "group100",
+        "confidence": "source-provided",
+        "display_group_key": "group100",
+        "name": "Group 100",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "group 100",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Group 100"
+        ]
+      },
+      {
+        "compact_normalized_name": "ironhemlock",
+        "confidence": "source-provided",
+        "display_group_key": "ironhemlock",
+        "name": "IRON HEMLOCK",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "iron hemlock",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016"
+            ]
+          }
+        ],
+        "variants": [
+          "IRON HEMLOCK"
+        ]
+      },
+      {
+        "compact_normalized_name": "ironritual",
+        "confidence": "source-provided",
+        "display_group_key": "ironritual",
+        "name": "IRON RITUAL",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "iron ritual",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016"
+            ]
+          }
+        ],
+        "variants": [
+          "IRON RITUAL"
+        ]
+      },
+      {
+        "compact_normalized_name": "itg11",
+        "confidence": "source-provided",
+        "display_group_key": "itg11",
+        "name": "ITG11",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "itg11",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "ITG11"
+        ]
+      },
+      {
+        "compact_normalized_name": "midnightblizzard",
+        "confidence": "source-provided",
+        "display_group_key": "midnightblizzard",
+        "name": "Midnight Blizzard",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "midnight blizzard",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://github.com/fireeye/sunburst_countermeasures",
+          "https://medium.com/mitre-attack/identifying-unc2452-related-techniques-9f7b6c7f3714",
+          "https://news.sophos.com/en-us/2020/12/21/how-sunburst-malware-does-defense-evasion",
+          "https://pastebin.com/6EDgCKxd",
+          "https://unit42.paloaltonetworks.com/atoms/solarphoenix",
+          "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html",
+          "https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html",
+          "https://www.microsoft.com/en-us/security/blog/2023/08/02/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams",
+          "https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack",
+          "https://www.microsoft.com/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect",
+          "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://github.com/fireeye/sunburst_countermeasures",
+              "https://medium.com/mitre-attack/identifying-unc2452-related-techniques-9f7b6c7f3714",
+              "https://news.sophos.com/en-us/2020/12/21/how-sunburst-malware-does-defense-evasion",
+              "https://pastebin.com/6EDgCKxd",
+              "https://unit42.paloaltonetworks.com/atoms/solarphoenix",
+              "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html",
+              "https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html",
+              "https://www.microsoft.com/en-us/security/blog/2023/08/02/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams",
+              "https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack",
+              "https://www.microsoft.com/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect",
+              "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016"
+            ]
+          }
+        ],
+        "variants": [
+          "Midnight Blizzard"
+        ]
+      },
+      {
+        "compact_normalized_name": "minidionis",
+        "confidence": "source-provided",
+        "display_group_key": "minidionis",
+        "name": "Minidionis",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "minidionis",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Minidionis"
+        ]
+      },
+      {
+        "compact_normalized_name": "nobelium",
+        "confidence": "source-provided",
+        "display_group_key": "nobelium",
+        "name": "Nobelium",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "nobelium",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016"
+            ]
+          }
+        ],
+        "variants": [
+          "NOBELIUM",
+          "Nobelium"
+        ]
+      },
+      {
+        "compact_normalized_name": "noblebaron",
+        "confidence": "source-provided",
+        "display_group_key": "noblebaron",
+        "name": "NobleBaron",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "noblebaron",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016"
+            ]
+          }
+        ],
+        "variants": [
+          "NobleBaron"
+        ]
+      },
+      {
+        "compact_normalized_name": "seaduke",
+        "confidence": "source-provided",
+        "display_group_key": "seaduke",
+        "name": "SeaDuke",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "seaduke",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "SeaDuke"
+        ]
+      },
+      {
+        "compact_normalized_name": "solarphoenix",
+        "confidence": "source-provided",
+        "display_group_key": "solarphoenix",
+        "name": "Solar Phoenix",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "solar phoenix",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://github.com/fireeye/sunburst_countermeasures",
+          "https://medium.com/mitre-attack/identifying-unc2452-related-techniques-9f7b6c7f3714",
+          "https://news.sophos.com/en-us/2020/12/21/how-sunburst-malware-does-defense-evasion",
+          "https://pastebin.com/6EDgCKxd",
+          "https://unit42.paloaltonetworks.com/atoms/solarphoenix",
+          "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html",
+          "https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html",
+          "https://www.microsoft.com/en-us/security/blog/2023/08/02/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams",
+          "https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack",
+          "https://www.microsoft.com/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect",
+          "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://github.com/fireeye/sunburst_countermeasures",
+              "https://medium.com/mitre-attack/identifying-unc2452-related-techniques-9f7b6c7f3714",
+              "https://news.sophos.com/en-us/2020/12/21/how-sunburst-malware-does-defense-evasion",
+              "https://pastebin.com/6EDgCKxd",
+              "https://unit42.paloaltonetworks.com/atoms/solarphoenix",
+              "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html",
+              "https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html",
+              "https://www.microsoft.com/en-us/security/blog/2023/08/02/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams",
+              "https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack",
+              "https://www.microsoft.com/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect",
+              "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware"
+            ]
+          }
+        ],
+        "variants": [
+          "Solar Phoenix"
+        ]
+      },
+      {
+        "compact_normalized_name": "solarstorm",
+        "confidence": "source-provided",
+        "display_group_key": "solarstorm",
+        "name": "SolarStorm",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "solarstorm",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016"
+            ]
+          }
+        ],
+        "variants": [
+          "SolarStorm"
+        ]
+      },
+      {
+        "compact_normalized_name": "stellarparticle",
+        "confidence": "source-provided",
+        "display_group_key": "stellarparticle",
+        "name": "StellarParticle",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "stellarparticle",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://github.com/fireeye/sunburst_countermeasures",
+          "https://medium.com/mitre-attack/identifying-unc2452-related-techniques-9f7b6c7f3714",
+          "https://news.sophos.com/en-us/2020/12/21/how-sunburst-malware-does-defense-evasion",
+          "https://pastebin.com/6EDgCKxd",
+          "https://unit42.paloaltonetworks.com/atoms/solarphoenix",
+          "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html",
+          "https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html",
+          "https://www.microsoft.com/en-us/security/blog/2023/08/02/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams",
+          "https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack",
+          "https://www.microsoft.com/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect",
+          "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://github.com/fireeye/sunburst_countermeasures",
+              "https://medium.com/mitre-attack/identifying-unc2452-related-techniques-9f7b6c7f3714",
+              "https://news.sophos.com/en-us/2020/12/21/how-sunburst-malware-does-defense-evasion",
+              "https://pastebin.com/6EDgCKxd",
+              "https://unit42.paloaltonetworks.com/atoms/solarphoenix",
+              "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html",
+              "https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html",
+              "https://www.microsoft.com/en-us/security/blog/2023/08/02/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams",
+              "https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack",
+              "https://www.microsoft.com/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect",
+              "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware"
+            ]
+          }
+        ],
+        "variants": [
+          "StellarParticle"
+        ]
+      },
+      {
+        "compact_normalized_name": "ta421",
+        "confidence": "source-provided",
+        "display_group_key": "ta421",
+        "name": "TA421",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ta421",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "TA421"
+        ]
+      },
+      {
+        "compact_normalized_name": "thedukes",
+        "confidence": "source-provided",
+        "display_group_key": "thedukes",
+        "name": "The Dukes",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "the dukes",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016"
+            ]
+          }
+        ],
+        "variants": [
+          "The Dukes"
+        ]
+      },
+      {
+        "compact_normalized_name": "uac0029",
+        "confidence": "source-provided",
+        "display_group_key": "uac0029",
+        "name": "UAC-0029",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uac 0029",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "UAC-0029"
+        ]
+      },
+      {
+        "compact_normalized_name": "unc2452",
+        "confidence": "source-provided",
+        "display_group_key": "unc2452",
+        "name": "UNC2452",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "unc2452",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://github.com/fireeye/sunburst_countermeasures",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://medium.com/mitre-attack/identifying-unc2452-related-techniques-9f7b6c7f3714",
+          "https://news.sophos.com/en-us/2020/12/21/how-sunburst-malware-does-defense-evasion",
+          "https://pastebin.com/6EDgCKxd",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://unit42.paloaltonetworks.com/atoms/solarphoenix",
+          "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html",
+          "https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html",
+          "https://www.microsoft.com/en-us/security/blog/2023/08/02/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams",
+          "https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack",
+          "https://www.microsoft.com/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect",
+          "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://github.com/fireeye/sunburst_countermeasures",
+              "https://medium.com/mitre-attack/identifying-unc2452-related-techniques-9f7b6c7f3714",
+              "https://news.sophos.com/en-us/2020/12/21/how-sunburst-malware-does-defense-evasion",
+              "https://pastebin.com/6EDgCKxd",
+              "https://unit42.paloaltonetworks.com/atoms/solarphoenix",
+              "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html",
+              "https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html",
+              "https://www.microsoft.com/en-us/security/blog/2023/08/02/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams",
+              "https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack",
+              "https://www.microsoft.com/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect",
+              "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC2452"
+        ]
+      },
+      {
+        "compact_normalized_name": "unc3524",
+        "confidence": "source-provided",
+        "display_group_key": "unc3524",
+        "name": "UNC3524",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "unc3524",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://www.mandiant.com/resources/unc3524-eye-spy-email"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.mandiant.com/resources/unc3524-eye-spy-email"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC3524"
+        ]
+      },
+      {
+        "compact_normalized_name": "yttrium",
+        "confidence": "source-provided",
+        "display_group_key": "yttrium",
+        "name": "YTTRIUM",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "yttrium",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0016",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+          "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+          "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+          "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+          "https://www.cfr.org/interactive/cyber-operations/dukes",
+          "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+          "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+          "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+          "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf",
+              "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage",
+              "https://pylos.co/2018/11/18/cozybear-in-from-the-cold",
+              "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa",
+              "https://www.cfr.org/interactive/cyber-operations/dukes",
+              "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+              "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0016"
+            ]
+          }
+        ],
+        "variants": [
+          "YTTRIUM"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0016",
+          "name": "Boot or Logon Initialization Scripts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+          ],
+          "tactics": [
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1037",
+          "url": "https://attack.mitre.org/techniques/T1037/"
+        },
+        {
+          "actor_id": "mitre-g0016",
+          "name": "RC Scripts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+          ],
+          "tactics": [
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1037.004",
+          "url": "https://attack.mitre.org/techniques/T1037.004/"
+        },
+        {
+          "actor_id": "mitre-g0016",
+          "name": "Scheduled Task",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+          ],
+          "tactics": [
+            "execution",
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1053.005",
+          "url": "https://attack.mitre.org/techniques/T1053.005/"
+        },
+        {
+          "actor_id": "mitre-g0016",
+          "name": "Valid Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "actor_id": "mitre-g0016",
+          "name": "Local Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.ic3.gov/Media/News/2024/240226.pdf"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078.003",
+          "url": "https://attack.mitre.org/techniques/T1078.003/"
+        },
+        {
+          "actor_id": "mitre-g0016",
+          "name": "Cloud Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft",
+            "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078.004",
+          "url": "https://attack.mitre.org/techniques/T1078.004/"
+        },
+        {
+          "actor_id": "mitre-g0016",
+          "name": "Additional Email Delegate Permissions",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft",
+            "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+          ],
+          "tactics": [
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1098.002",
+          "url": "https://attack.mitre.org/techniques/T1098.002/"
+        },
+        {
+          "actor_id": "mitre-g0016",
+          "name": "Device Registration",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.ic3.gov/Media/News/2024/240226.pdf",
+            "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft"
+          ],
+          "tactics": [
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1098.005",
+          "url": "https://attack.mitre.org/techniques/T1098.005/"
+        },
+        {
+          "actor_id": "mitre-g0016",
+          "name": "External Remote Services",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft",
+            "https://www.ncsc.gov.uk/files/Advisory-APT29-targets-COVID-19-vaccine-development-V1-1.pdf"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence"
+          ],
+          "technique_id": "T1133",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "actor_id": "mitre-g0016",
+          "name": "Cloud Account",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.microsoft.com/security/blog/2021/10/25/nobelium-targeting-delegated-administrative-privileges-to-facilitate-broader-attacks/"
+          ],
+          "tactics": [
+            "persistence"
+          ],
+          "technique_id": "T1136.003",
+          "url": "https://attack.mitre.org/techniques/T1136.003/"
+        },
+        {
+          "actor_id": "mitre-g0016",
+          "name": "Web Shell",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email",
+            "https://www.ncsc.gov.uk/files/Advisory-further-TTPs-associated-with-SVR-cyber-actors.pdf"
+          ],
+          "tactics": [
+            "persistence"
+          ],
+          "technique_id": "T1505.003",
+          "url": "https://attack.mitre.org/techniques/T1505.003/"
+        },
+        {
+          "actor_id": "mitre-g0016",
+          "name": "Windows Management Instrumentation Event Subscription",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+          ],
+          "tactics": [
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1546.003",
+          "url": "https://attack.mitre.org/techniques/T1546.003/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 15,
+          "items": [
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Boot or Logon Initialization Scripts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1037",
+              "url": "https://attack.mitre.org/techniques/T1037/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "RC Scripts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1037.004",
+              "url": "https://attack.mitre.org/techniques/T1037.004/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ic3.gov/Media/News/2024/240226.pdf"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Cloud Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft",
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.004",
+              "url": "https://attack.mitre.org/techniques/T1078.004/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Additional Email Delegate Permissions",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft",
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1098.002",
+              "url": "https://attack.mitre.org/techniques/T1098.002/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Device Registration",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ic3.gov/Media/News/2024/240226.pdf",
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1098.005",
+              "url": "https://attack.mitre.org/techniques/T1098.005/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft",
+                "https://www.ncsc.gov.uk/files/Advisory-APT29-targets-COVID-19-vaccine-development-V1-1.pdf"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Cloud Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/security/blog/2021/10/25/nobelium-targeting-delegated-administrative-privileges-to-facilitate-broader-attacks/"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1136.003",
+              "url": "https://attack.mitre.org/techniques/T1136.003/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Web Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email",
+                "https://www.ncsc.gov.uk/files/Advisory-further-TTPs-associated-with-SVR-cyber-actors.pdf"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1505.003",
+              "url": "https://attack.mitre.org/techniques/T1505.003/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Windows Management Instrumentation Event Subscription",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1546.003",
+              "url": "https://attack.mitre.org/techniques/T1546.003/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Accessibility Features",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/03/apt29_domain_frontin.html",
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1546.008",
+              "url": "https://attack.mitre.org/techniques/T1546.008/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Hybrid Identity",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/security/blog/2022/08/24/magicweb-nobeliums-post-compromise-trick-to-authenticate-as-anyone/"
+              ],
+              "tactics": [
+                "credential-access",
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1556.007",
+              "url": "https://attack.mitre.org/techniques/T1556.007/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 13,
+          "items": [
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Boot or Logon Initialization Scripts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1037",
+              "url": "https://attack.mitre.org/techniques/T1037/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "RC Scripts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1037.004",
+              "url": "https://attack.mitre.org/techniques/T1037.004/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Exploitation for Privilege Escalation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/wp-content/uploads/2022/02/eset_threat_report_t32021.pdf"
+              ],
+              "tactics": [
+                "privilege-escalation"
+              ],
+              "technique_id": "T1068",
+              "url": "https://attack.mitre.org/techniques/T1068/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ic3.gov/Media/News/2024/240226.pdf"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Cloud Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft",
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.004",
+              "url": "https://attack.mitre.org/techniques/T1078.004/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Additional Email Delegate Permissions",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft",
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1098.002",
+              "url": "https://attack.mitre.org/techniques/T1098.002/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Device Registration",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ic3.gov/Media/News/2024/240226.pdf",
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1098.005",
+              "url": "https://attack.mitre.org/techniques/T1098.005/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Windows Management Instrumentation Event Subscription",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1546.003",
+              "url": "https://attack.mitre.org/techniques/T1546.003/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Accessibility Features",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/03/apt29_domain_frontin.html",
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1546.008",
+              "url": "https://attack.mitre.org/techniques/T1546.008/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Bypass User Account Control",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "privilege-escalation"
+              ],
+              "technique_id": "T1548.002",
+              "url": "https://attack.mitre.org/techniques/T1548.002/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 10,
+          "items": [
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Binary Padding",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://labs.sentinelone.com/noblebaron-new-poisoned-installers-could-be-used-in-supply-chain-attacks/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.001",
+              "url": "https://attack.mitre.org/techniques/T1027.001/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Software Packing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.002",
+              "url": "https://attack.mitre.org/techniques/T1027.002/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "HTML Smuggling",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/wp-content/uploads/2022/02/eset_threat_report_t32021.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.006",
+              "url": "https://attack.mitre.org/techniques/T1027.006/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Match Legitimate Resource Name or Location",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://labs.sentinelone.com/noblebaron-new-poisoned-installers-could-be-used-in-supply-chain-attacks/",
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.005",
+              "url": "https://attack.mitre.org/techniques/T1036.005/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "File Deletion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.004",
+              "url": "https://attack.mitre.org/techniques/T1070.004/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Timestomp",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.006",
+              "url": "https://attack.mitre.org/techniques/T1070.006/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ic3.gov/Media/News/2024/240226.pdf"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Cloud Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft",
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.004",
+              "url": "https://attack.mitre.org/techniques/T1078.004/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Mshta",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/wp-content/uploads/2022/02/eset_threat_report_t32021.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.005",
+              "url": "https://attack.mitre.org/techniques/T1218.005/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 9,
+          "items": [
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Windows Management Instrumentation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1047",
+              "url": "https://attack.mitre.org/techniques/T1047/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.secureworks.com/research/threat-profiles/iron-hemlock",
+                "http://www.symantec.com/connect/blogs/forkmeiamfamous-seaduke-latest-weapon-duke-armory",
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908",
+                "https://www.welivesecurity.com/wp-content/uploads/2022/02/eset_threat_report_t32021.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Python",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.symantec.com/connect/blogs/forkmeiamfamous-seaduke-latest-weapon-duke-armory"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.006",
+              "url": "https://attack.mitre.org/techniques/T1059.006/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Cloud API",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/security/blog/2021/05/28/breaking-down-nobeliums-latest-early-stage-toolset/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.009",
+              "url": "https://attack.mitre.org/techniques/T1059.009/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Exploitation for Client Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf",
+                "https://www.microsoft.com/security/blog/2021/05/27/new-sophisticated-email-based-attack-from-nobelium/",
+                "https://www.ncsc.gov.uk/files/Advisory-further-TTPs-associated-with-SVR-cyber-actors.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1203",
+              "url": "https://attack.mitre.org/techniques/T1203/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Malicious Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/security/blog/2021/05/27/new-sophisticated-email-based-attack-from-nobelium/",
+                "https://www.secureworks.com/blog/usaid-themed-phishing-campaign-leverages-us-elections-lure"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.001",
+              "url": "https://attack.mitre.org/techniques/T1204.001/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.secureworks.com/research/threat-profiles/iron-hemlock",
+                "https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf",
+                "https://www.welivesecurity.com/wp-content/uploads/2022/02/eset_threat_report_t32021.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Cloud Administration Command",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/security/blog/2021/10/25/nobelium-targeting-delegated-administrative-privileges-to-facilitate-broader-attacks/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1651",
+              "url": "https://attack.mitre.org/techniques/T1651/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 9,
+          "items": [
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ic3.gov/Media/News/2024/240226.pdf"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Cloud Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft",
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.004",
+              "url": "https://attack.mitre.org/techniques/T1078.004/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft",
+                "https://www.ncsc.gov.uk/files/Advisory-APT29-targets-COVID-19-vaccine-development-V1-1.pdf"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Exploit Public-Facing Application",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ncsc.gov.uk/files/Advisory-APT29-targets-COVID-19-vaccine-development-V1-1.pdf",
+                "https://www.ncsc.gov.uk/files/Advisory-further-TTPs-associated-with-SVR-cyber-actors.pdf"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1190",
+              "url": "https://attack.mitre.org/techniques/T1190/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Trusted Relationship",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/security/blog/2021/10/25/nobelium-targeting-delegated-administrative-privileges-to-facilitate-broader-attacks/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1199",
+              "url": "https://attack.mitre.org/techniques/T1199/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.secureworks.com/research/threat-profiles/iron-hemlock",
+                "https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf",
+                "https://www.microsoft.com/security/blog/2021/05/27/new-sophisticated-email-based-attack-from-nobelium/",
+                "https://www.welivesecurity.com/wp-content/uploads/2022/02/eset_threat_report_t32021.pdf"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/security/blog/2021/05/27/new-sophisticated-email-based-attack-from-nobelium/",
+                "https://www.secureworks.com/blog/usaid-themed-phishing-campaign-leverages-us-elections-lure",
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.002",
+              "url": "https://attack.mitre.org/techniques/T1566.002/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Spearphishing via Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/security/blog/2021/05/27/new-sophisticated-email-based-attack-from-nobelium/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.003",
+              "url": "https://attack.mitre.org/techniques/T1566.003/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 8,
+          "items": [
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Security Account Manager",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.002",
+              "url": "https://attack.mitre.org/techniques/T1003.002/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "LSA Secrets",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.004",
+              "url": "https://attack.mitre.org/techniques/T1003.004/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Password Guessing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1110.001",
+              "url": "https://attack.mitre.org/techniques/T1110.001/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Password Spraying",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://msrc-blog.microsoft.com/2021/06/25/new-nobelium-activity/",
+                "https://www.ic3.gov/Media/News/2024/240226.pdf",
+                "https://www.microsoft.com/security/blog/2021/10/25/nobelium-targeting-delegated-administrative-privileges-to-facilitate-broader-attacks/"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1110.003",
+              "url": "https://attack.mitre.org/techniques/T1110.003/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Steal Application Access Token",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ic3.gov/Media/News/2024/240226.pdf"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1528",
+              "url": "https://attack.mitre.org/techniques/T1528/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Hybrid Identity",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/security/blog/2022/08/24/magicweb-nobeliums-post-compromise-trick-to-authenticate-as-anyone/"
+              ],
+              "tactics": [
+                "credential-access",
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1556.007",
+              "url": "https://attack.mitre.org/techniques/T1556.007/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Multi-Factor Authentication Request Generation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ic3.gov/Media/News/2024/240226.pdf",
+                "https://www.mandiant.com/resources/russian-targeting-gov-business"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1621",
+              "url": "https://attack.mitre.org/techniques/T1621/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Steal or Forge Authentication Certificates",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/tracking-apt29-phishing-campaigns"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1649",
+              "url": "https://attack.mitre.org/techniques/T1649/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0016",
+              "name": "External Proxy",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ic3.gov/Media/News/2024/240226.pdf"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1090.002",
+              "url": "https://attack.mitre.org/techniques/T1090.002/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Multi-hop Proxy",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/security/blog/2021/10/25/nobelium-targeting-delegated-administrative-privileges-to-facilitate-broader-attacks/",
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1090.003",
+              "url": "https://attack.mitre.org/techniques/T1090.003/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Domain Fronting",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1090.004",
+              "url": "https://attack.mitre.org/techniques/T1090.004/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf",
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email",
+                "https://www.pwc.co.uk/issues/cyber-security-services/insights/cleaning-up-after-wellmess.html",
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Dynamic Resolution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1568",
+              "url": "https://attack.mitre.org/techniques/T1568/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Encrypted Channel",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.secureworks.com/research/threat-profiles/iron-hemlock"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1573",
+              "url": "https://attack.mitre.org/techniques/T1573/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Hide Infrastructure",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ic3.gov/Media/News/2024/240226.pdf"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1665",
+              "url": "https://attack.mitre.org/techniques/T1665/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Web Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/rpt-apt29-hammertoss-stealthy-tactics-define-en.pdf",
+                "https://www.microsoft.com/security/blog/2021/05/27/new-sophisticated-email-based-attack-from-nobelium/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.006",
+              "url": "https://attack.mitre.org/techniques/T1583.006/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Email Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2021-CTI-011.pdf",
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1586.002",
+              "url": "https://attack.mitre.org/techniques/T1586.002/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Cloud Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1586.003",
+              "url": "https://attack.mitre.org/techniques/T1586.003/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf",
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email",
+                "https://www.microsoft.com/security/blog/2021/05/28/breaking-down-nobeliums-latest-early-stage-toolset/",
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1587.001",
+              "url": "https://attack.mitre.org/techniques/T1587.001/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Digital Certificates",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.pwc.co.uk/issues/cyber-security-services/insights/cleaning-up-after-wellmess.html",
+                "https://www.pwc.co.uk/issues/cyber-security-services/insights/wellmess-analysis-command-control.html"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1587.003",
+              "url": "https://attack.mitre.org/techniques/T1587.003/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf",
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email",
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Mark-of-the-Web Bypass",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/wp-content/uploads/2022/02/eset_threat_report_t32021.pdf"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1553.005",
+              "url": "https://attack.mitre.org/techniques/T1553.005/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Hybrid Identity",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/security/blog/2022/08/24/magicweb-nobeliums-post-compromise-trick-to-authenticate-as-anyone/"
+              ],
+              "tactics": [
+                "credential-access",
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1556.007",
+              "url": "https://attack.mitre.org/techniques/T1556.007/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Disable or Modify Cloud Log",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1685.002",
+              "url": "https://attack.mitre.org/techniques/T1685.002/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Data from Local System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1005",
+              "url": "https://attack.mitre.org/techniques/T1005/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Remote Email Collection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/apt29-continues-targeting-microsoft",
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1114.002",
+              "url": "https://attack.mitre.org/techniques/T1114.002/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Internet Connection Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1016.001",
+              "url": "https://attack.mitre.org/techniques/T1016.001/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Cloud Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/security/blog/2021/10/25/nobelium-targeting-delegated-administrative-privileges-to-facilitate-broader-attacks/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1087.004",
+              "url": "https://attack.mitre.org/techniques/T1087.004/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Cloud Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/sites/default/files/2022-08/remediation-hardening-strategies-for-m365-defend-against-apt29-white-paper.pdf"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.007",
+              "url": "https://attack.mitre.org/techniques/T1021.007/"
+            },
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Pass the Ticket",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.slideshare.net/slideshow/no-easy-breach-derby-con-2016/66447908"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1550.003",
+              "url": "https://attack.mitre.org/techniques/T1550.003/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0016",
+              "name": "Vulnerability Scanning",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ncsc.gov.uk/files/Advisory-further-TTPs-associated-with-SVR-cyber-actors.pdf"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1595.002",
+              "url": "https://attack.mitre.org/techniques/T1595.002/"
+            }
+          ],
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 15,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 13,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 10,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 9,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 9,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 8,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 7,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 6,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 3,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 2,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 2,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 2,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 1,
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        }
+      ],
+      "total": 66
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0016/"
+          ]
+        }
+      ],
+      "text": "APT29 is threat group that has been attributed to Russia's Foreign Intelligence Service (SVR).(Citation: White House Imposing Costs RU Gov April 2021)(Citation: UK Gov Malign RIS Activity April 2021) They have operated since at least 2008, often targeting government networks in Europe and NATO member countries, research institutes, and think tanks. APT29 reportedly compromised the Democratic National Committee starting in the summer of 2015.(Citation: F-Secure The Dukes)(Citation: GRIZZLY STEPPE JAR)(Citation: Crowdstrike DNC June 2016)(Citation: UK Gov UK Exposes Russia SolarWinds April 2021) In April 2021, the US and UK governments attributed the SolarWinds Compromise to the SVR; public..."
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.secureworks.com/research/threat-profiles/iron-hemlock"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0016"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cip.gov.ua/services/cm/api/attachment/download?id=60068"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://github.com/fireeye/sunburst_countermeasures"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://go.recordedfuture.com/hubfs/reports/cta-2023-0127.pdf"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://labs.sentinelone.com/noblebaron-new-poisoned-installers-could-be-used-in-supply-chain-attacks"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://labsblog.f-secure.com/2015/09/17/the-dukes-7-years-of-russian-cyber-espionage"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://media.defense.gov/2021/Apr/15/2002621240/-1/-1/0/CSA_SVR_TARGETS_US_ALLIES_UOO13234021.PDF/CSA_SVR_TARGETS_US_ALLIES_UOO13234021.PDF"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://medium.com/mitre-attack/identifying-unc2452-related-techniques-9f7b6c7f3714"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://msrc-blog.microsoft.com/2021/06/25/new-nobelium-activity"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://news.sophos.com/en-us/2020/12/21/how-sunburst-malware-does-defense-evasion"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://pastebin.com/6EDgCKxd"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://pylos.co/2018/11/18/cozybear-in-from-the-cold"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/atoms/cloaked-ursa"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/atoms/solarphoenix"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/solarstorm-supply-chain-attack-timeline"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/dukes"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2018/11/not-so-cozy-an-uncomfortable-examination-of-a-suspected-apt29-phishing-campaign.html"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.gov.uk/government/news/russia-uk-and-us-expose-global-campaigns-of-malign-activity-by-russian-intelligence-services"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.gov.uk/government/news/russia-uk-exposes-russian-involvement-in-solarwinds-cyber-compromise"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/blog/unc3524-eye-spy-email"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/unc3524-eye-spy-email"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2023/08/02/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/security/blog/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/security/blog/2021/05/27/new-sophisticated-email-based-attack-from-nobelium"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/security/blog/2021/05/28/breaking-down-nobeliums-latest-early-stage-toolset"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ncsc.gov.uk/files/Advisory-APT29-targets-COVID-19-vaccine-development-V1-1.pdf"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ncsc.gov.uk/files/Advisory-further-TTPs-associated-with-SVR-cyber-actors.pdf"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ncsc.gov.uk/news/uk-and-us-call-out-russia-for-solarwinds-compromise"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.co.uk/issues/cyber-security-services/insights/cleaning-up-after-wellmess.html"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.co.uk/issues/cyber-security-services/insights/wellmess-analysis-command-control.html"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/iron-hemlock"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sophos.com/en-us/threat-profiles/iron-ritual"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.us-cert.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.volexity.com/blog/2020/12/14/dark-halo-leverages-solarwinds-compromise-to-breach-organizations"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.welivesecurity.com/wp-content/uploads/2019/10/ESET_Operation_Ghost_Dukes.pdf"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/15/fact-sheet-imposing-costs-for-harmful-foreign-activities-by-the-russian-government"
+      },
+      {
+        "actor_id": "mitre-g0016",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            },
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            },
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "APT29",
+      "ATK7",
+      "Blue Kitsune",
+      "BlueBravo",
+      "Cloaked Ursa",
+      "COZY BEAR",
+      "Cozy Bear",
+      "CozyDuke",
+      "Dark Halo",
+      "DarkHalo",
+      "G0016",
+      "Grizzly Steppe",
+      "Group 100",
+      "IRON HEMLOCK",
+      "IRON RITUAL",
+      "ITG11",
+      "Midnight Blizzard",
+      "Minidionis",
+      "NOBELIUM",
+      "Nobelium",
+      "NobleBaron",
+      "SeaDuke",
+      "Solar Phoenix",
+      "SolarStorm",
+      "StellarParticle",
+      "TA421",
+      "The Dukes",
+      "UAC-0029",
+      "UNC2452",
+      "UNC3524",
+      "YTTRIUM"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

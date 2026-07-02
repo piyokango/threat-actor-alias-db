@@ -1,0 +1,132 @@
+{
+  "actor": {
+    "actor_id": "misp-169187c5-9fbe-42df-ae92-6e35846db021",
+    "canonical_name": "Nazar",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-169187c5-9fbe-42df-ae92-6e35846db021"
+    ],
+    "misp_uuid": "169187c5-9fbe-42df-ae92-6e35846db021",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "nazar",
+        "confidence": "source-provided",
+        "display_group_key": "nazar",
+        "name": "Nazar",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "nazar",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.epicturla.com/blog/the-lost-nazar"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.epicturla.com/blog/the-lost-nazar"
+            ]
+          }
+        ],
+        "variants": [
+          "Nazar"
+        ]
+      },
+      {
+        "compact_normalized_name": "sig37",
+        "confidence": "source-provided",
+        "display_group_key": "sig37",
+        "name": "SIG37",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "sig37",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.epicturla.com/blog/the-lost-nazar"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.epicturla.com/blog/the-lost-nazar"
+            ]
+          }
+        ],
+        "variants": [
+          "SIG37"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "This actor was identified by Juan Andres Guerrero-Saade from the SIG37 cluster as published in the ShadowBrokers' 'Lost in Translation' leak. Earliest known sighting potentially dates back to as far as 2008 with a confirmed center of activity around 2010-2013. The actor name is derived from a PDB debug string fragment: 'khzer'. Victimology indicates targeting of Iran, assessed with low confidence based on VT file submission locations. Nazar employs a modular toolkit where a main dropper silently registers multiple DLLs as OLE controls in the Windows registry. Functionality includes keylogging, sound and screen grabbing, as well as traffic capture using the MicroOlap Packet Sniffer library."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-169187c5-9fbe-42df-ae92-6e35846db021",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.epicturla.com/blog/the-lost-nazar"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Nazar",
+      "SIG37"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

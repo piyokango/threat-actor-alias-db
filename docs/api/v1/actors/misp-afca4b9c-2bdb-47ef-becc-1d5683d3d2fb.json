@@ -1,0 +1,144 @@
+{
+  "actor": {
+    "actor_id": "misp-afca4b9c-2bdb-47ef-becc-1d5683d3d2fb",
+    "canonical_name": "SkidSec",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-afca4b9c-2bdb-47ef-becc-1d5683d3d2fb"
+    ],
+    "misp_uuid": "afca4b9c-2bdb-47ef-becc-1d5683d3d2fb",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "skidsec",
+        "confidence": "source-provided",
+        "display_group_key": "skidsec",
+        "name": "SkidSec",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "skidsec",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://medium.com/@criminalip/skidsec-hacker-group-announces-plans-to-spread-north-korean-propaganda-through-hacked-printers-in-fdd314178dc4",
+          "https://socradar.io/dark-peep-7-shadows-of-betrayal-and-leadership-in-flux"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://medium.com/@criminalip/skidsec-hacker-group-announces-plans-to-spread-north-korean-propaganda-through-hacked-printers-in-fdd314178dc4",
+              "https://socradar.io/dark-peep-7-shadows-of-betrayal-and-leadership-in-flux"
+            ]
+          }
+        ],
+        "variants": [
+          "SkidSec"
+        ]
+      },
+      {
+        "compact_normalized_name": "skidsecleaks",
+        "confidence": "source-provided",
+        "display_group_key": "skidsecleaks",
+        "name": "SkidSec Leaks",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "skidsec leaks",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://medium.com/@criminalip/skidsec-hacker-group-announces-plans-to-spread-north-korean-propaganda-through-hacked-printers-in-fdd314178dc4",
+          "https://socradar.io/dark-peep-7-shadows-of-betrayal-and-leadership-in-flux"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://medium.com/@criminalip/skidsec-hacker-group-announces-plans-to-spread-north-korean-propaganda-through-hacked-printers-in-fdd314178dc4",
+              "https://socradar.io/dark-peep-7-shadows-of-betrayal-and-leadership-in-flux"
+            ]
+          }
+        ],
+        "variants": [
+          "SkidSec Leaks"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "SkidSec is a threat group that has engaged in operations targeting exposed printers in South Korea to disseminate North Korean propaganda, utilizing techniques such as printer exploitation and social engineering for evidence collection. The group has also experienced a leadership change following the loss of their leader, Govadmin, while continuing to mobilize their followers for various missions. They have humorously solicited financial support for their activities, framing it as a means to support their cause. Additionally, they have been noted for their potential to leak sensitive information from compromised devices."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-afca4b9c-2bdb-47ef-becc-1d5683d3d2fb",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://medium.com/@criminalip/skidsec-hacker-group-announces-plans-to-spread-north-korean-propaganda-through-hacked-printers-in-fdd314178dc4"
+      },
+      {
+        "actor_id": "misp-afca4b9c-2bdb-47ef-becc-1d5683d3d2fb",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/dark-peep-7-shadows-of-betrayal-and-leadership-in-flux"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "SkidSec",
+      "SkidSec Leaks"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,149 @@
+{
+  "actor": {
+    "actor_id": "misp-6f6d828b-b2ac-471c-b2a3-c49d0f49789f",
+    "canonical_name": "Water Saci",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-6f6d828b-b2ac-471c-b2a3-c49d0f49789f"
+    ],
+    "misp_uuid": "6f6d828b-b2ac-471c-b2a3-c49d0f49789f",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "watersaci",
+        "confidence": "source-provided",
+        "display_group_key": "watersaci",
+        "name": "Water Saci",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "water saci",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.trendmicro.com/en_us/research/25/j/active-water-saci-campaign-whatsapp-update.html",
+          "https://www.trendmicro.com/en_us/research/25/l/water-saci.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.trendmicro.com/en_us/research/25/j/active-water-saci-campaign-whatsapp-update.html",
+              "https://www.trendmicro.com/en_us/research/25/l/water-saci.html"
+            ]
+          }
+        ],
+        "variants": [
+          "Water Saci"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Water Saci is a sophisticated cyber threat actor operating in Brazil, utilizing a multi-format attack chain that includes HTA files, ZIP archives, and PDFs to bypass security measures. The campaign employs an email-based C&C infrastructure using IMAP connections to terra.com.br accounts, enhancing its resilience and evasion tactics. It leverages social engineering through WhatsApp to propagate malware, specifically the SORVEPOTEL banking trojan, and incorporates advanced techniques for infection and persistence. The modular architecture of the malware allows for dynamic adaptation and extraction of sensitive credentials, indicating a significant evolution in adversarial capabilities."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-6f6d828b-b2ac-471c-b2a3-c49d0f49789f",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/25/j/active-water-saci-campaign-whatsapp-update.html"
+      },
+      {
+        "actor_id": "misp-6f6d828b-b2ac-471c-b2a3-c49d0f49789f",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/25/l/water-saci.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "BR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "BR"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "BR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "BR"
+        }
+      ]
+    },
+    "search_names": [
+      "Water Saci"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

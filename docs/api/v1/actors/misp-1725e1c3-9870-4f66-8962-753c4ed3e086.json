@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-1725e1c3-9870-4f66-8962-753c4ed3e086",
+    "canonical_name": "TA4903",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-1725e1c3-9870-4f66-8962-753c4ed3e086"
+    ],
+    "misp_uuid": "1725e1c3-9870-4f66-8962-753c4ed3e086",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "ta4903",
+        "confidence": "source-provided",
+        "display_group_key": "ta4903",
+        "name": "TA4903",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ta4903",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.proofpoint.com/us/blog/threat-insight/ta4903-actor-spoofs-us-government-small-businesses-phishing-bec-bids"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.proofpoint.com/us/blog/threat-insight/ta4903-actor-spoofs-us-government-small-businesses-phishing-bec-bids"
+            ]
+          }
+        ],
+        "variants": [
+          "TA4903"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "TA4903 is a financially motivated threat actor known for conducting credential phishing and business email compromise campaigns. They target organizations in the U.S. across various sectors, spoofing government entities and private businesses. The actor has been observed using techniques such as QR codes in phishing campaigns and spoofing supplier domains to prompt victims to provide banking information. TA4903's activities typically involve stealing corporate credentials to facilitate follow-on BEC activities."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-1725e1c3-9870-4f66-8962-753c4ed3e086",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/blog/threat-insight/ta4903-actor-spoofs-us-government-small-businesses-phishing-bec-bids"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "TA4903"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

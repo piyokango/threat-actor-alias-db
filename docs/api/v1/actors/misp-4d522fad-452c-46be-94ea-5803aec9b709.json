@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-4d522fad-452c-46be-94ea-5803aec9b709",
+    "canonical_name": "RansomHouse",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-4d522fad-452c-46be-94ea-5803aec9b709"
+    ],
+    "misp_uuid": "4d522fad-452c-46be-94ea-5803aec9b709",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "ransomhouse",
+        "confidence": "source-provided",
+        "display_group_key": "ransomhouse",
+        "name": "RansomHouse",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ransomhouse",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://webz.io/dwp/new-ransomware-group-ransomhouse-is-it-real-or-fake"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://webz.io/dwp/new-ransomware-group-ransomhouse-is-it-real-or-fake"
+            ]
+          }
+        ],
+        "variants": [
+          "RansomHouse"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "This group started operating during the first quarter of 2022. They published samples of alleged stolen data from companies on their site on Tor. It is unclear if they conducted the attacks themselves, or if they bought leaked databases from third parties."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-4d522fad-452c-46be-94ea-5803aec9b709",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://webz.io/dwp/new-ransomware-group-ransomhouse-is-it-real-or-fake"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "RansomHouse"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

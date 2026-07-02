@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-0558bc64-21d9-43e4-8b12-18172d9b5c7d",
+    "canonical_name": "CiberInteligenciaSV",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-0558bc64-21d9-43e4-8b12-18172d9b5c7d"
+    ],
+    "misp_uuid": "0558bc64-21d9-43e4-8b12-18172d9b5c7d",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "ciberinteligenciasv",
+        "confidence": "source-provided",
+        "display_group_key": "ciberinteligenciasv",
+        "name": "CiberInteligenciaSV",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ciberinteligenciasv",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securityaffairs.com/162790/data-breach/el-salvador-massive-leak-biometric-data.html",
+          "https://www.cysecurity.news/2024/04/cryptocurrency-chaos-el-salvadors.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securityaffairs.com/162790/data-breach/el-salvador-massive-leak-biometric-data.html",
+              "https://www.cysecurity.news/2024/04/cryptocurrency-chaos-el-salvadors.html"
+            ]
+          }
+        ],
+        "variants": [
+          "CiberInteligenciaSV"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "CiberInteligenciaSV is a threat actor that leaked 5.1 million Salvadoran records on Breach Forums. They have also compromised El Salvador's state Bitcoin wallet, Chivo, leaking its source code and VPN credentials. The group aims to obscure their involvement by associating with the Guacamaya group and its proxies."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-0558bc64-21d9-43e4-8b12-18172d9b5c7d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securityaffairs.com/162790/data-breach/el-salvador-massive-leak-biometric-data.html"
+      },
+      {
+        "actor_id": "misp-0558bc64-21d9-43e4-8b12-18172d9b5c7d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cysecurity.news/2024/04/cryptocurrency-chaos-el-salvadors.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "CiberInteligenciaSV"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

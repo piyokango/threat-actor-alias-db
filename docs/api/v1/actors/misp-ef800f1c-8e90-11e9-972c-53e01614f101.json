@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-ef800f1c-8e90-11e9-972c-53e01614f101",
+    "canonical_name": "Shadow Network",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-ef800f1c-8e90-11e9-972c-53e01614f101"
+    ],
+    "misp_uuid": "ef800f1c-8e90-11e9-972c-53e01614f101",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "shadownetwork",
+        "confidence": "source-provided",
+        "display_group_key": "shadownetwork",
+        "name": "Shadow Network",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "shadow network",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://citizenlab.ca/wp-content/uploads/2017/05/shadows-in-the-cloud.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://citizenlab.ca/wp-content/uploads/2017/05/shadows-in-the-cloud.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Shadow Network"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Shadows in the Cloud documents a complex ecosystem of cyber espionage that systematically compromised government, business, academic, and other computer network systems in India, the Offices of the Dalai Lama, the United Nations, and several other countries. The report also contains an analysis of data which were stolen from politically sensitive targets and recovered during the course of the investigation. These include documents from the Offices of the Dalai Lama and agencies of the Indian national security establishment. Data containing sensitive information on citizens of numerous third-party countries, as well as personal, financial, and business information, were also exfiltrated and..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-ef800f1c-8e90-11e9-972c-53e01614f101",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://citizenlab.ca/wp-content/uploads/2017/05/shadows-in-the-cloud.pdf"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Shadow Network"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

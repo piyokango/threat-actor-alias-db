@@ -1,0 +1,198 @@
+{
+  "actor": {
+    "actor_id": "misp-6ee284d9-2742-4468-851c-a61366cc9a20",
+    "canonical_name": "Curious Gorge",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-6ee284d9-2742-4468-851c-a61366cc9a20"
+    ],
+    "misp_uuid": "6ee284d9-2742-4468-851c-a61366cc9a20",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "curiousgorge",
+        "confidence": "source-provided",
+        "display_group_key": "curiousgorge",
+        "name": "Curious Gorge",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "curious gorge",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+          "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+          "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+              "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Curious Gorge"
+        ]
+      },
+      {
+        "compact_normalized_name": "unc3742",
+        "confidence": "source-provided",
+        "display_group_key": "unc3742",
+        "name": "UNC3742",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc3742",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+          "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+          "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+              "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC3742"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Curious Gorge, a group TAG attributes to China's PLA SSF, has conducted campaigns against government and military organizations in Ukraine, Russia, Kazakhstan, and Mongolia. The actor has remained active against government, military, logistics and manufacturing organizations in Ukraine, Russia and Central Asia. In Russia, long running campaigns against multiple government organizations have continued, including the Ministry of Foreign Affairs. Over the past week, TAG identified additional compromises impacting multiple Russian defense contractors and manufacturers and a Russian logistics company."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-6ee284d9-2742-4468-851c-a61366cc9a20",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe"
+      },
+      {
+        "actor_id": "misp-6ee284d9-2742-4468-851c-a61366cc9a20",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe"
+      },
+      {
+        "actor_id": "misp-6ee284d9-2742-4468-851c-a61366cc9a20",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "Curious Gorge",
+      "UNC3742"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

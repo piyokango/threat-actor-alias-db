@@ -1,0 +1,156 @@
+{
+  "actor": {
+    "actor_id": "misp-3570552c-c46f-428e-9472-744a14e6ece7",
+    "canonical_name": "GOLD DUPONT",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-3570552c-c46f-428e-9472-744a14e6ece7"
+    ],
+    "misp_uuid": "3570552c-c46f-428e-9472-744a14e6ece7",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "golddupont",
+        "confidence": "source-provided",
+        "display_group_key": "golddupont",
+        "name": "GOLD DUPONT",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "gold dupont",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.crowdstrike.com/blog/carbon-spider-sprite-spider-target-esxi-servers-with-ransomware",
+          "https://www.secureworks.com/research/threat-profiles/gold-dupont",
+          "https://www.youtube.com/watch?v=qxPXxWMI2i4"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.crowdstrike.com/blog/carbon-spider-sprite-spider-target-esxi-servers-with-ransomware",
+              "https://www.secureworks.com/research/threat-profiles/gold-dupont",
+              "https://www.youtube.com/watch?v=qxPXxWMI2i4"
+            ]
+          }
+        ],
+        "variants": [
+          "GOLD DUPONT"
+        ]
+      },
+      {
+        "compact_normalized_name": "spritespider",
+        "confidence": "source-provided",
+        "display_group_key": "spritespider",
+        "name": "SPRITE SPIDER",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "sprite spider",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.crowdstrike.com/blog/carbon-spider-sprite-spider-target-esxi-servers-with-ransomware",
+          "https://www.secureworks.com/research/threat-profiles/gold-dupont",
+          "https://www.youtube.com/watch?v=qxPXxWMI2i4"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.crowdstrike.com/blog/carbon-spider-sprite-spider-target-esxi-servers-with-ransomware",
+              "https://www.secureworks.com/research/threat-profiles/gold-dupont",
+              "https://www.youtube.com/watch?v=qxPXxWMI2i4"
+            ]
+          }
+        ],
+        "variants": [
+          "SPRITE SPIDER"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "GOLD DUPONT is a financially motivated cybercriminal threat group that specializes in post-intrusion ransomware attacks using 777 (aka Defray777 or RansomExx) malware. Active since November 2018, GOLD DUPONT establishes initial access into victim networks using stolen credentials to remote access services like virtual desktop infrastructure (VDI) or virtual private networks (VPN). From October 2019 to early 2020 the group used GOLD BLACKBURN's TrickBot malware as an initial access vector (IAV) during some intrusions. Since July 2020, the group has also used GOLD SWATHMORE's IcedID (Bokbot) malware as an IAV in some intrusions."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-3570552c-c46f-428e-9472-744a14e6ece7",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/carbon-spider-sprite-spider-target-esxi-servers-with-ransomware"
+      },
+      {
+        "actor_id": "misp-3570552c-c46f-428e-9472-744a14e6ece7",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/gold-dupont"
+      },
+      {
+        "actor_id": "misp-3570552c-c46f-428e-9472-744a14e6ece7",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.youtube.com/watch?v=qxPXxWMI2i4"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "GOLD DUPONT",
+      "SPRITE SPIDER"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

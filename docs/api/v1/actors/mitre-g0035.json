@@ -1,0 +1,3306 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0035",
+    "canonical_name": "Dragonfly",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0035"
+    ],
+    "misp_uuid": "64d6559c-6d5c-4585-bbf9-c17868f763ee",
+    "mitre_id": "G0035",
+    "names": [
+      {
+        "compact_normalized_name": "dragonfly",
+        "confidence": "source-provided",
+        "display_group_key": "dragonfly",
+        "name": "Dragonfly",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "dragonfly",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0035"
+            ]
+          }
+        ],
+        "variants": [
+          "Dragonfly"
+        ]
+      },
+      {
+        "compact_normalized_name": "allanite",
+        "confidence": "source-provided",
+        "display_group_key": "allanite",
+        "name": "ALLANITE",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "allanite",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          }
+        ],
+        "variants": [
+          "ALLANITE"
+        ]
+      },
+      {
+        "compact_normalized_name": "atk6",
+        "confidence": "source-provided",
+        "display_group_key": "atk6",
+        "name": "ATK6",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "atk6",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          }
+        ],
+        "variants": [
+          "ATK6"
+        ]
+      },
+      {
+        "compact_normalized_name": "berserkbear",
+        "confidence": "source-provided",
+        "display_group_key": "berserkbear",
+        "name": "BERSERK BEAR",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "berserk bear",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0035"
+            ]
+          }
+        ],
+        "variants": [
+          "Berserk Bear",
+          "BERSERK BEAR"
+        ]
+      },
+      {
+        "compact_normalized_name": "bluekraken",
+        "confidence": "source-provided",
+        "display_group_key": "bluekraken",
+        "name": "Blue Kraken",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "blue kraken",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          }
+        ],
+        "variants": [
+          "Blue Kraken"
+        ]
+      },
+      {
+        "compact_normalized_name": "bromine",
+        "confidence": "source-provided",
+        "display_group_key": "bromine",
+        "name": "BROMINE",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "bromine",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0035"
+            ]
+          }
+        ],
+        "variants": [
+          "BROMINE"
+        ]
+      },
+      {
+        "compact_normalized_name": "castle",
+        "confidence": "source-provided",
+        "display_group_key": "castle",
+        "name": "CASTLE",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "castle",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          }
+        ],
+        "variants": [
+          "CASTLE"
+        ]
+      },
+      {
+        "compact_normalized_name": "crouchingyeti",
+        "confidence": "source-provided",
+        "display_group_key": "crouchingyeti",
+        "name": "Crouching Yeti",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "crouching yeti",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0035"
+            ]
+          }
+        ],
+        "variants": [
+          "Crouching Yeti"
+        ]
+      },
+      {
+        "compact_normalized_name": "dymalloy",
+        "confidence": "source-provided",
+        "display_group_key": "dymalloy",
+        "name": "DYMALLOY",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "dymalloy",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0035"
+            ]
+          }
+        ],
+        "variants": [
+          "DYMALLOY"
+        ]
+      },
+      {
+        "compact_normalized_name": "energeticbear",
+        "confidence": "source-provided",
+        "display_group_key": "energeticbear",
+        "name": "ENERGETIC BEAR",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "energetic bear",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0035"
+            ]
+          }
+        ],
+        "variants": [
+          "Energetic Bear",
+          "ENERGETIC BEAR"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0035",
+        "confidence": "source-provided",
+        "display_group_key": "g0035",
+        "name": "G0035",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0035",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          }
+        ],
+        "variants": [
+          "G0035"
+        ]
+      },
+      {
+        "compact_normalized_name": "ghostblizzard",
+        "confidence": "source-provided",
+        "display_group_key": "ghostblizzard",
+        "name": "Ghost Blizzard",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "ghost blizzard",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0035"
+            ]
+          }
+        ],
+        "variants": [
+          "Ghost Blizzard"
+        ]
+      },
+      {
+        "compact_normalized_name": "group24",
+        "confidence": "source-provided",
+        "display_group_key": "group24",
+        "name": "Group 24",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "group 24",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          }
+        ],
+        "variants": [
+          "Group 24"
+        ]
+      },
+      {
+        "compact_normalized_name": "havex",
+        "confidence": "source-provided",
+        "display_group_key": "havex",
+        "name": "Havex",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "havex",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          }
+        ],
+        "variants": [
+          "Havex"
+        ]
+      },
+      {
+        "compact_normalized_name": "ironliberty",
+        "confidence": "source-provided",
+        "display_group_key": "ironliberty",
+        "name": "IRON LIBERTY",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "iron liberty",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0035"
+            ]
+          }
+        ],
+        "variants": [
+          "IRON LIBERTY"
+        ]
+      },
+      {
+        "compact_normalized_name": "itg15",
+        "confidence": "source-provided",
+        "display_group_key": "itg15",
+        "name": "ITG15",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "itg15",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          }
+        ],
+        "variants": [
+          "ITG15"
+        ]
+      },
+      {
+        "compact_normalized_name": "koalateam",
+        "confidence": "source-provided",
+        "display_group_key": "koalateam",
+        "name": "Koala Team",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "koala team",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          }
+        ],
+        "variants": [
+          "Koala Team"
+        ]
+      },
+      {
+        "compact_normalized_name": "palmettofusion",
+        "confidence": "source-provided",
+        "display_group_key": "palmettofusion",
+        "name": "Palmetto Fusion",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "palmetto fusion",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/20180510Allanite.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/20180510Allanite.html"
+            ]
+          }
+        ],
+        "variants": [
+          "Palmetto Fusion"
+        ]
+      },
+      {
+        "compact_normalized_name": "tempisotope",
+        "confidence": "source-provided",
+        "display_group_key": "tempisotope",
+        "name": "TEMP.Isotope",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "temp isotope",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0035"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0035"
+            ]
+          }
+        ],
+        "variants": [
+          "TEMP.Isotope"
+        ]
+      },
+      {
+        "compact_normalized_name": "tg4192",
+        "confidence": "source-provided",
+        "display_group_key": "tg4192",
+        "name": "TG-4192",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "tg 4192",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+          "https://attack.mitre.org/groups/G0035",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+          "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+          "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+          "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+          "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+          "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+          "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+          "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+          "https://www.riskiq.com/blog/labs/energetic-bear",
+          "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+          "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans",
+              "https://attack.mitre.org/groups/G0035",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+              "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+              "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772",
+              "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.cfr.org/interactive/cyber-operations/crouching-yeti",
+              "https://www.cfr.org/interactive/cyber-operations/dymalloy",
+              "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet",
+              "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html",
+              "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat",
+              "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA",
+              "https://www.riskiq.com/blog/labs/energetic-bear",
+              "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672",
+              "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0035"
+            ]
+          }
+        ],
+        "variants": [
+          "TG-4192"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0035",
+          "name": "Query Registry",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1012",
+          "url": "https://attack.mitre.org/techniques/T1012/"
+        },
+        {
+          "actor_id": "mitre-g0035",
+          "name": "System Network Configuration Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1016",
+          "url": "https://attack.mitre.org/techniques/T1016/"
+        },
+        {
+          "actor_id": "mitre-g0035",
+          "name": "Remote System Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1018",
+          "url": "https://attack.mitre.org/techniques/T1018/"
+        },
+        {
+          "actor_id": "mitre-g0035",
+          "name": "System Owner/User Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1033",
+          "url": "https://attack.mitre.org/techniques/T1033/"
+        },
+        {
+          "actor_id": "mitre-g0035",
+          "name": "Scheduled Task",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+          ],
+          "tactics": [
+            "execution",
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1053.005",
+          "url": "https://attack.mitre.org/techniques/T1053.005/"
+        },
+        {
+          "actor_id": "mitre-g0035",
+          "name": "Domain Groups",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1069.002",
+          "url": "https://attack.mitre.org/techniques/T1069.002/"
+        },
+        {
+          "actor_id": "mitre-g0035",
+          "name": "Valid Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://vblocalhost.com/uploads/VB2021-Slowik.pdf",
+            "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions",
+            "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "actor_id": "mitre-g0035",
+          "name": "File and Directory Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://vblocalhost.com/uploads/VB2021-Slowik.pdf",
+            "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions",
+            "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1083",
+          "url": "https://attack.mitre.org/techniques/T1083/"
+        },
+        {
+          "actor_id": "mitre-g0035",
+          "name": "Domain Account",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1087.002",
+          "url": "https://attack.mitre.org/techniques/T1087.002/"
+        },
+        {
+          "actor_id": "mitre-g0035",
+          "name": "Additional Local or Domain Groups",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+          ],
+          "tactics": [
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1098.007",
+          "url": "https://attack.mitre.org/techniques/T1098.007/"
+        },
+        {
+          "actor_id": "mitre-g0035",
+          "name": "Modify Registry",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+          ],
+          "tactics": [
+            "defense-impairment",
+            "persistence"
+          ],
+          "technique_id": "T1112",
+          "url": "https://attack.mitre.org/techniques/T1112/"
+        },
+        {
+          "actor_id": "mitre-g0035",
+          "name": "External Remote Services",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions",
+            "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence"
+          ],
+          "technique_id": "T1133",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 8,
+          "items": [
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf",
+                "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions",
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Additional Local or Domain Groups",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1098.007",
+              "url": "https://attack.mitre.org/techniques/T1098.007/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Modify Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1112",
+              "url": "https://attack.mitre.org/techniques/T1112/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions",
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Local Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1136.001",
+              "url": "https://attack.mitre.org/techniques/T1136.001/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Web Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1505.003",
+              "url": "https://attack.mitre.org/techniques/T1505.003/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 8,
+          "items": [
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Query Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1012",
+              "url": "https://attack.mitre.org/techniques/T1012/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "System Network Configuration Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1016",
+              "url": "https://attack.mitre.org/techniques/T1016/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Remote System Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1018",
+              "url": "https://attack.mitre.org/techniques/T1018/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "System Owner/User Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1033",
+              "url": "https://attack.mitre.org/techniques/T1033/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Domain Groups",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1069.002",
+              "url": "https://attack.mitre.org/techniques/T1069.002/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "File and Directory Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf",
+                "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions",
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1083",
+              "url": "https://attack.mitre.org/techniques/T1083/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Domain Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1087.002",
+              "url": "https://attack.mitre.org/techniques/T1087.002/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Network Share Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1135",
+              "url": "https://attack.mitre.org/techniques/T1135/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Command and Scripting Interpreter",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059",
+              "url": "https://attack.mitre.org/techniques/T1059/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://docs.broadcom.com/doc/dragonfly_threat_against_western_energy_suppliers",
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Python",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.006",
+              "url": "https://attack.mitre.org/techniques/T1059.006/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Exploitation for Client Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1203",
+              "url": "https://attack.mitre.org/techniques/T1203/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Security Account Manager",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.002",
+              "url": "https://attack.mitre.org/techniques/T1003.002/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "NTDS",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.coresecurity.com/core-labs/open-source-tools/impacket",
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.003",
+              "url": "https://attack.mitre.org/techniques/T1003.003/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "LSA Secrets",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.coresecurity.com/core-labs/open-source-tools/impacket",
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.004",
+              "url": "https://attack.mitre.org/techniques/T1003.004/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Brute Force",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1110",
+              "url": "https://attack.mitre.org/techniques/T1110/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Password Cracking",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://tools.kali.org/password-attacks/hydra",
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1110.002",
+              "url": "https://attack.mitre.org/techniques/T1110.002/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Forced Authentication",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf",
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1187",
+              "url": "https://attack.mitre.org/techniques/T1187/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf",
+                "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions",
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions",
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Drive-by Compromise",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf",
+                "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector",
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1189",
+              "url": "https://attack.mitre.org/techniques/T1189/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Exploit Public-Facing Application",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1190",
+              "url": "https://attack.mitre.org/techniques/T1190/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Compromise Software Supply Chain",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf",
+                "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1195.002",
+              "url": "https://attack.mitre.org/techniques/T1195.002/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Data from Local System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1005",
+              "url": "https://attack.mitre.org/techniques/T1005/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Local Data Staging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1074.001",
+              "url": "https://attack.mitre.org/techniques/T1074.001/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Screen Capture",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://docs.broadcom.com/doc/dragonfly_threat_against_western_energy_suppliers",
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf",
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1113",
+              "url": "https://attack.mitre.org/techniques/T1113/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Remote Email Collection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1114.002",
+              "url": "https://attack.mitre.org/techniques/T1114.002/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Archive Collected Data",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1560",
+              "url": "https://attack.mitre.org/techniques/T1560/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Masquerade Account Name",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.010",
+              "url": "https://attack.mitre.org/techniques/T1036.010/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "File Deletion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.004",
+              "url": "https://attack.mitre.org/techniques/T1070.004/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf",
+                "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions",
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Template Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1221",
+              "url": "https://attack.mitre.org/techniques/T1221/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Hidden Users",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.002",
+              "url": "https://attack.mitre.org/techniques/T1564.002/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Virtual Private Server",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.003",
+              "url": "https://attack.mitre.org/techniques/T1583.003/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Server",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1584.004",
+              "url": "https://attack.mitre.org/techniques/T1584.004/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Drive-by Target",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.004",
+              "url": "https://attack.mitre.org/techniques/T1608.004/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf",
+                "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions",
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Additional Local or Domain Groups",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1098.007",
+              "url": "https://attack.mitre.org/techniques/T1098.007/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Business Relationships",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://vblocalhost.com/uploads/VB2021-Slowik.pdf"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1591.002",
+              "url": "https://attack.mitre.org/techniques/T1591.002/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Vulnerability Scanning",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1595.002",
+              "url": "https://attack.mitre.org/techniques/T1595.002/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1598.002",
+              "url": "https://attack.mitre.org/techniques/T1598.002/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1598.003",
+              "url": "https://attack.mitre.org/techniques/T1598.003/"
+            }
+          ],
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Modify Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1112",
+              "url": "https://attack.mitre.org/techniques/T1112/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Clear Windows Event Logs",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1685.005",
+              "url": "https://attack.mitre.org/techniques/T1685.005/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Disable or Modify System Firewall",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1686",
+              "url": "https://attack.mitre.org/techniques/T1686/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0035",
+              "name": "File Transfer Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.002",
+              "url": "https://attack.mitre.org/techniques/T1071.002/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Remote Desktop Protocol",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ncas/alerts/TA18-074A"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.001",
+              "url": "https://attack.mitre.org/techniques/T1021.001/"
+            },
+            {
+              "actor_id": "mitre-g0035",
+              "name": "Exploitation of Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1210",
+              "url": "https://attack.mitre.org/techniques/T1210/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 8,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 8,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 7,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 6,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 6,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 5,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 5,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 5,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 4,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 4,
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        },
+        {
+          "count": 3,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 2,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 2,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        }
+      ],
+      "total": 56
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0035/"
+          ]
+        }
+      ],
+      "text": "Dragonfly is a cyber espionage group that has been attributed to Russia's Federal Security Service (FSB) Center 16.(Citation: DOJ Russia Targeting Critical Infrastructure March 2022)(Citation: UK GOV FSB Factsheet April 2022) Active since at least 2010, Dragonfly has targeted defense and aviation companies, government entities, companies related to industrial control systems, and critical infrastructure sectors worldwide through supply chain, spearphishing, and drive-by compromise attacks.(Citation: Symantec Dragonfly)(Citation: Secureworks IRON LIBERTY July 2019)(Citation: Symantec Dragonfly Sept 2017)(Citation: Fortune Dragonfly 2.0 Sept 2017)(Citation: Gigamon Berserk Bear October..."
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://fortune.com/2017/09/06/hack-energy-grid-symantec"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.netresec.com/?page=Blog&month=2014-10&post=Full-Disclosure-of-Havex-Trojans"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0035"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=7382dce7-0260-4782-84cc-890971ed3f17&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://docs.broadcom.com/doc/dragonfly_threat_against_western_energy_suppliers"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://dragos.com/adversaries.html"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://dragos.com/blog/20180510Allanite.html"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://dragos.com/wp-content/uploads/CrashOverride-01.pdf"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://threatpost.com/energy-watering-hole-attack-used-lightsout-exploit-kit/104772"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://vblocalhost.com/uploads/VB2021-Slowik.pdf"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20161020180305/http://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/crouching-yeti"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/dymalloy"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.dragos.com/threat/dymalloy"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.independent.ie/irish-news/statesponsored-hackers-targeted-eirgrid-electricity-network-in-devious-attack-36005921.html"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/opa/pr/four-russian-government-employees-charged-two-historical-hacking-campaigns-targeting-critical"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.kaspersky.com/resource-center/threats/crouching-yeti-energetic-bear-malware-threat"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/ukraine-crisis-cyber-threats"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.reuters.com/article/us-ukraine-cyber-attack-energy-idUSKBN1521BA"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.riskiq.com/blog/labs/energetic-bear"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sans.org/reading-room/whitepapers/ICS/impact-dragonfly-malware-industrial-control-systems-36672"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/mcmd-malware-analysis"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+      },
+      {
+        "actor_id": "mitre-g0035",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/updated-karagany-malware-targets-energy-sector"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            },
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            },
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "ALLANITE",
+      "ATK6",
+      "Berserk Bear",
+      "BERSERK BEAR",
+      "Blue Kraken",
+      "BROMINE",
+      "CASTLE",
+      "Crouching Yeti",
+      "Dragonfly",
+      "DYMALLOY",
+      "ENERGETIC BEAR",
+      "Energetic Bear",
+      "G0035",
+      "Ghost Blizzard",
+      "Group 24",
+      "Havex",
+      "IRON LIBERTY",
+      "ITG15",
+      "Koala Team",
+      "Palmetto Fusion",
+      "TEMP.Isotope",
+      "TG-4192"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

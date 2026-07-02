@@ -1,0 +1,179 @@
+{
+  "actor": {
+    "actor_id": "misp-a9f894c6-70ab-4174-b470-5999fe93d4f3",
+    "canonical_name": "Cyber Partisans",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-a9f894c6-70ab-4174-b470-5999fe93d4f3"
+    ],
+    "misp_uuid": "a9f894c6-70ab-4174-b470-5999fe93d4f3",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "cyberpartisans",
+        "confidence": "source-provided",
+        "display_group_key": "cyberpartisans",
+        "name": "Cyber Partisans",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cyber partisans",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.sekoia.io/the-transportation-sector-cyber-threat-overview",
+          "https://riskybiznews.substack.com/p/risky-biz-news-cyber-partisans-hack",
+          "https://therecord.media/cyber-partisans-belarusian-state-university-attack",
+          "https://therecord.media/pro-ukraine-hackers-leak-russian-data-in-hopes-someone-will-make-sense-of-it",
+          "https://therecord.media/this-app-will-self-destruct-how-belarusian-hackers-created-an-alternative-telegram-for-activists"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.sekoia.io/the-transportation-sector-cyber-threat-overview",
+              "https://riskybiznews.substack.com/p/risky-biz-news-cyber-partisans-hack",
+              "https://therecord.media/cyber-partisans-belarusian-state-university-attack",
+              "https://therecord.media/pro-ukraine-hackers-leak-russian-data-in-hopes-someone-will-make-sense-of-it",
+              "https://therecord.media/this-app-will-self-destruct-how-belarusian-hackers-created-an-alternative-telegram-for-activists"
+            ]
+          }
+        ],
+        "variants": [
+          "Cyber Partisans"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "The Cyber Partisans, a hacktivist group based in Belarus, has been involved in various cyber-attacks targeting organizations and infrastructure in Belarus and Ukraine. They have hacked and wiped the network of the Belarusian Telegraph Agency, targeted the Belarusian Red Cross, and conducted ransomware attacks on the Belarusian Railway and Belarusian State University. The group aims to expose alleged crimes committed by pro-government organizations and disrupt operations supporting the Russian military operation against Ukraine. They have also leaked stolen data to journalists and expressed support for Ukraine."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-a9f894c6-70ab-4174-b470-5999fe93d4f3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.sekoia.io/the-transportation-sector-cyber-threat-overview"
+      },
+      {
+        "actor_id": "misp-a9f894c6-70ab-4174-b470-5999fe93d4f3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://riskybiznews.substack.com/p/risky-biz-news-cyber-partisans-hack"
+      },
+      {
+        "actor_id": "misp-a9f894c6-70ab-4174-b470-5999fe93d4f3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://therecord.media/cyber-partisans-belarusian-state-university-attack"
+      },
+      {
+        "actor_id": "misp-a9f894c6-70ab-4174-b470-5999fe93d4f3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://therecord.media/pro-ukraine-hackers-leak-russian-data-in-hopes-someone-will-make-sense-of-it"
+      },
+      {
+        "actor_id": "misp-a9f894c6-70ab-4174-b470-5999fe93d4f3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://therecord.media/this-app-will-self-destruct-how-belarusian-hackers-created-an-alternative-telegram-for-activists"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "BY",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "BY"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "BY",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "BY"
+        }
+      ]
+    },
+    "search_names": [
+      "Cyber Partisans"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

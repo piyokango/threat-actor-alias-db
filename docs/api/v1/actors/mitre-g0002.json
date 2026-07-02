@@ -1,0 +1,154 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0002",
+    "canonical_name": "Moafee",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0002"
+    ],
+    "misp_uuid": null,
+    "mitre_id": "G0002",
+    "names": [
+      {
+        "compact_normalized_name": "moafee",
+        "confidence": "source-provided",
+        "display_group_key": "moafee",
+        "name": "Moafee",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "moafee",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0002"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0002"
+            ]
+          }
+        ],
+        "variants": [
+          "Moafee"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0002",
+          "name": "Binary Padding",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2014/09/the-path-to-mass-producing-cyber-attacks.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.001",
+          "url": "https://attack.mitre.org/techniques/T1027.001/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0002",
+              "name": "Binary Padding",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2014/09/the-path-to-mass-producing-cyber-attacks.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.001",
+              "url": "https://attack.mitre.org/techniques/T1027.001/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 1,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        }
+      ],
+      "total": 1
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0002/"
+          ]
+        }
+      ],
+      "text": "Moafee is a threat group that appears to operate from the Guandong Province of China. Due to overlapping TTPs, including similar custom tools, Moafee is thought to have a direct or indirect relationship with the threat group DragonOK. (Citation: Haq 2014)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0002",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0002"
+      },
+      {
+        "actor_id": "mitre-g0002",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2014/09/the-path-to-mass-producing-cyber-attacks.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Moafee"
+    ],
+    "source_ids": [
+      "external-reference",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

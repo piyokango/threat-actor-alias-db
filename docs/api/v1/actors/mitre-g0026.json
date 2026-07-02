@@ -1,0 +1,1851 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0026",
+    "canonical_name": "APT18",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0026"
+    ],
+    "misp_uuid": "9a683d9c-8f7d-43df-bba2-ad0ca71e277c",
+    "mitre_id": "G0026",
+    "names": [
+      {
+        "compact_normalized_name": "apt18",
+        "confidence": "source-provided",
+        "display_group_key": "apt18",
+        "name": "APT18",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "apt18",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0026",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+          "https://www.cfr.org/interactive/cyber-operations/apt-18",
+          "https://www.mandiant.com/resources/insights/apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0026",
+              "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+              "https://www.cfr.org/interactive/cyber-operations/apt-18",
+              "https://www.mandiant.com/resources/insights/apt-groups"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0026"
+            ]
+          }
+        ],
+        "variants": [
+          "APT18"
+        ]
+      },
+      {
+        "compact_normalized_name": "apt4",
+        "confidence": "source-provided",
+        "display_group_key": "apt4",
+        "name": "APT4",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "apt4",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "http://blog.trendmicro.com/trendlabs-security-intelligence/sykipot-now-targeting-us-civil-aviation-sector-information",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://www.alienvault.com/open-threat-exchange/blog/new-sykipot-developments",
+          "https://www.cfr.org/interactive/cyber-operations/sykipot",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.sans.org/reading-room/whitepapers/malicious/detailed-analysis-sykipot-smartcard-proxy-variant-33919",
+          "https://www.secureworks.com/research/threat-profiles/bronze-edison"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://blog.trendmicro.com/trendlabs-security-intelligence/sykipot-now-targeting-us-civil-aviation-sector-information",
+              "https://www.alienvault.com/open-threat-exchange/blog/new-sykipot-developments",
+              "https://www.cfr.org/interactive/cyber-operations/sykipot",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.sans.org/reading-room/whitepapers/malicious/detailed-analysis-sykipot-smartcard-proxy-variant-33919",
+              "https://www.secureworks.com/research/threat-profiles/bronze-edison"
+            ]
+          }
+        ],
+        "variants": [
+          "APT4"
+        ]
+      },
+      {
+        "compact_normalized_name": "bronzeedison",
+        "confidence": "source-provided",
+        "display_group_key": "bronzeedison",
+        "name": "BRONZE EDISON",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "bronze edison",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://blog.trendmicro.com/trendlabs-security-intelligence/sykipot-now-targeting-us-civil-aviation-sector-information",
+          "https://www.alienvault.com/open-threat-exchange/blog/new-sykipot-developments",
+          "https://www.cfr.org/interactive/cyber-operations/sykipot",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.sans.org/reading-room/whitepapers/malicious/detailed-analysis-sykipot-smartcard-proxy-variant-33919",
+          "https://www.secureworks.com/research/threat-profiles/bronze-edison"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://blog.trendmicro.com/trendlabs-security-intelligence/sykipot-now-targeting-us-civil-aviation-sector-information",
+              "https://www.alienvault.com/open-threat-exchange/blog/new-sykipot-developments",
+              "https://www.cfr.org/interactive/cyber-operations/sykipot",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.sans.org/reading-room/whitepapers/malicious/detailed-analysis-sykipot-smartcard-proxy-variant-33919",
+              "https://www.secureworks.com/research/threat-profiles/bronze-edison"
+            ]
+          }
+        ],
+        "variants": [
+          "BRONZE EDISON"
+        ]
+      },
+      {
+        "compact_normalized_name": "combine",
+        "confidence": "source-provided",
+        "display_group_key": "combine",
+        "name": "COMBINE",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "combine",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "COMBINE"
+        ]
+      },
+      {
+        "compact_normalized_name": "dynamitepanda",
+        "confidence": "source-provided",
+        "display_group_key": "dynamitepanda",
+        "name": "DYNAMITE PANDA",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "dynamite panda",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0026",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+          "https://www.cfr.org/interactive/cyber-operations/apt-18",
+          "https://www.mandiant.com/resources/insights/apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0026",
+              "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+              "https://www.cfr.org/interactive/cyber-operations/apt-18",
+              "https://www.mandiant.com/resources/insights/apt-groups"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0026"
+            ]
+          }
+        ],
+        "variants": [
+          "DYNAMITE PANDA",
+          "Dynamite Panda"
+        ]
+      },
+      {
+        "compact_normalized_name": "elderwoodgroup",
+        "confidence": "source-provided",
+        "display_group_key": "elderwoodgroup",
+        "name": "Elderwood Group",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "elderwood group",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "Elderwood Group"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0026",
+        "confidence": "source-provided",
+        "display_group_key": "g0026",
+        "name": "G0026",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0026",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0026",
+          "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+          "https://www.cfr.org/interactive/cyber-operations/apt-18",
+          "https://www.mandiant.com/resources/insights/apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0026",
+              "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+              "https://www.cfr.org/interactive/cyber-operations/apt-18",
+              "https://www.mandiant.com/resources/insights/apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "G0026"
+        ]
+      },
+      {
+        "compact_normalized_name": "maverickpanda",
+        "confidence": "source-provided",
+        "display_group_key": "maverickpanda",
+        "name": "MAVERICK PANDA",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "maverick panda",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "http://blog.trendmicro.com/trendlabs-security-intelligence/sykipot-now-targeting-us-civil-aviation-sector-information",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://www.alienvault.com/open-threat-exchange/blog/new-sykipot-developments",
+          "https://www.cfr.org/interactive/cyber-operations/sykipot",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.sans.org/reading-room/whitepapers/malicious/detailed-analysis-sykipot-smartcard-proxy-variant-33919",
+          "https://www.secureworks.com/research/threat-profiles/bronze-edison"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://blog.trendmicro.com/trendlabs-security-intelligence/sykipot-now-targeting-us-civil-aviation-sector-information",
+              "https://www.alienvault.com/open-threat-exchange/blog/new-sykipot-developments",
+              "https://www.cfr.org/interactive/cyber-operations/sykipot",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.sans.org/reading-room/whitepapers/malicious/detailed-analysis-sykipot-smartcard-proxy-variant-33919",
+              "https://www.secureworks.com/research/threat-profiles/bronze-edison"
+            ]
+          }
+        ],
+        "variants": [
+          "MAVERICK PANDA"
+        ]
+      },
+      {
+        "compact_normalized_name": "planavy",
+        "confidence": "source-provided",
+        "display_group_key": "planavy",
+        "name": "PLA Navy",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "pla navy",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0026",
+          "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+          "https://www.cfr.org/interactive/cyber-operations/apt-18",
+          "https://www.mandiant.com/resources/insights/apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0026",
+              "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+              "https://www.cfr.org/interactive/cyber-operations/apt-18",
+              "https://www.mandiant.com/resources/insights/apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "PLA Navy"
+        ]
+      },
+      {
+        "compact_normalized_name": "redwraith",
+        "confidence": "source-provided",
+        "display_group_key": "redwraith",
+        "name": "Red Wraith",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "red wraith",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "Red Wraith"
+        ]
+      },
+      {
+        "compact_normalized_name": "salmontyphoon",
+        "confidence": "source-provided",
+        "display_group_key": "salmontyphoon",
+        "name": "Salmon Typhoon",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "salmon typhoon",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://blog.trendmicro.com/trendlabs-security-intelligence/sykipot-now-targeting-us-civil-aviation-sector-information",
+          "https://www.alienvault.com/open-threat-exchange/blog/new-sykipot-developments",
+          "https://www.cfr.org/interactive/cyber-operations/sykipot",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.sans.org/reading-room/whitepapers/malicious/detailed-analysis-sykipot-smartcard-proxy-variant-33919",
+          "https://www.secureworks.com/research/threat-profiles/bronze-edison"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://blog.trendmicro.com/trendlabs-security-intelligence/sykipot-now-targeting-us-civil-aviation-sector-information",
+              "https://www.alienvault.com/open-threat-exchange/blog/new-sykipot-developments",
+              "https://www.cfr.org/interactive/cyber-operations/sykipot",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.sans.org/reading-room/whitepapers/malicious/detailed-analysis-sykipot-smartcard-proxy-variant-33919",
+              "https://www.secureworks.com/research/threat-profiles/bronze-edison"
+            ]
+          }
+        ],
+        "variants": [
+          "Salmon Typhoon"
+        ]
+      },
+      {
+        "compact_normalized_name": "samuraipanda",
+        "confidence": "source-provided",
+        "display_group_key": "samuraipanda",
+        "name": "SAMURAI PANDA",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "samurai panda",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.crowdstrike.com/blog/whois-samurai-panda"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.crowdstrike.com/blog/whois-samurai-panda"
+            ]
+          }
+        ],
+        "variants": [
+          "SAMURAI PANDA"
+        ]
+      },
+      {
+        "compact_normalized_name": "satintyphoon",
+        "confidence": "source-provided",
+        "display_group_key": "satintyphoon",
+        "name": "Satin Typhoon",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "satin typhoon",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0026",
+          "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+          "https://www.cfr.org/interactive/cyber-operations/apt-18",
+          "https://www.mandiant.com/resources/insights/apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0026",
+              "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+              "https://www.cfr.org/interactive/cyber-operations/apt-18",
+              "https://www.mandiant.com/resources/insights/apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "Satin Typhoon"
+        ]
+      },
+      {
+        "compact_normalized_name": "scandium",
+        "confidence": "source-provided",
+        "display_group_key": "scandium",
+        "name": "SCANDIUM",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "scandium",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0026",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+          "https://www.cfr.org/interactive/cyber-operations/apt-18",
+          "https://www.mandiant.com/resources/insights/apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0026",
+              "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+              "https://www.cfr.org/interactive/cyber-operations/apt-18",
+              "https://www.mandiant.com/resources/insights/apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "SCANDIUM"
+        ]
+      },
+      {
+        "compact_normalized_name": "silverviper",
+        "confidence": "source-provided",
+        "display_group_key": "silverviper",
+        "name": "SILVERVIPER",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "silverviper",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "SILVERVIPER"
+        ]
+      },
+      {
+        "compact_normalized_name": "sodium",
+        "confidence": "source-provided",
+        "display_group_key": "sodium",
+        "name": "SODIUM",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "sodium",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "http://blog.trendmicro.com/trendlabs-security-intelligence/sykipot-now-targeting-us-civil-aviation-sector-information",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://www.alienvault.com/open-threat-exchange/blog/new-sykipot-developments",
+          "https://www.cfr.org/interactive/cyber-operations/sykipot",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.sans.org/reading-room/whitepapers/malicious/detailed-analysis-sykipot-smartcard-proxy-variant-33919",
+          "https://www.secureworks.com/research/threat-profiles/bronze-edison"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://blog.trendmicro.com/trendlabs-security-intelligence/sykipot-now-targeting-us-civil-aviation-sector-information",
+              "https://www.alienvault.com/open-threat-exchange/blog/new-sykipot-developments",
+              "https://www.cfr.org/interactive/cyber-operations/sykipot",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.sans.org/reading-room/whitepapers/malicious/detailed-analysis-sykipot-smartcard-proxy-variant-33919",
+              "https://www.secureworks.com/research/threat-profiles/bronze-edison"
+            ]
+          }
+        ],
+        "variants": [
+          "SODIUM"
+        ]
+      },
+      {
+        "compact_normalized_name": "tg0416",
+        "confidence": "source-provided",
+        "display_group_key": "tg0416",
+        "name": "TG-0416",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "tg 0416",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0026",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+          "https://www.cfr.org/interactive/cyber-operations/apt-18",
+          "https://www.mandiant.com/resources/insights/apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0026",
+              "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+              "https://www.cfr.org/interactive/cyber-operations/apt-18",
+              "https://www.mandiant.com/resources/insights/apt-groups"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0026"
+            ]
+          }
+        ],
+        "variants": [
+          "TG-0416"
+        ]
+      },
+      {
+        "compact_normalized_name": "threatgroup0416",
+        "confidence": "source-provided",
+        "display_group_key": "threatgroup0416",
+        "name": "Threat Group-0416",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "threat group 0416",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0026"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0026"
+            ]
+          }
+        ],
+        "variants": [
+          "Threat Group-0416"
+        ]
+      },
+      {
+        "compact_normalized_name": "wekby",
+        "confidence": "source-provided",
+        "display_group_key": "wekby",
+        "name": "Wekby",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "wekby",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0026",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+          "https://www.cfr.org/interactive/cyber-operations/apt-18",
+          "https://www.mandiant.com/resources/insights/apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0026",
+              "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828",
+              "https://www.cfr.org/interactive/cyber-operations/apt-18",
+              "https://www.mandiant.com/resources/insights/apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "Wekby"
+        ]
+      },
+      {
+        "compact_normalized_name": "wispteam",
+        "confidence": "source-provided",
+        "display_group_key": "wispteam",
+        "name": "Wisp Team",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "wisp team",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.crowdstrike.com/blog/whois-samurai-panda"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.crowdstrike.com/blog/whois-samurai-panda"
+            ]
+          }
+        ],
+        "variants": [
+          "Wisp Team"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0026",
+          "name": "At",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems/"
+          ],
+          "tactics": [
+            "execution",
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1053.002",
+          "url": "https://attack.mitre.org/techniques/T1053.002/"
+        },
+        {
+          "actor_id": "mitre-g0026",
+          "name": "Valid Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20210803040540/https://published-prd.lanyonevents.com/published/rsaus17/sessionsFiles/5009/HTA-F02-Detecting-and-Responding-to-Advanced-Threats-within-Exchange-Environments.pdf"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "actor_id": "mitre-g0026",
+          "name": "External Remote Services",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20210803040540/https://published-prd.lanyonevents.com/published/rsaus17/sessionsFiles/5009/HTA-F02-Detecting-and-Responding-to-Advanced-Threats-within-Exchange-Environments.pdf"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence"
+          ],
+          "technique_id": "T1133",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "actor_id": "mitre-g0026",
+          "name": "Registry Run Keys / Startup Folder",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/",
+            "https://www.anomali.com/blog/evasive-maneuvers-the-wekby-group-attempts-to-evade-analysis-via-custom-rop"
+          ],
+          "tactics": [
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1547.001",
+          "url": "https://attack.mitre.org/techniques/T1547.001/"
+        },
+        {
+          "actor_id": "mitre-g0026",
+          "name": "Encrypted/Encoded File",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.013",
+          "url": "https://attack.mitre.org/techniques/T1027.013/"
+        },
+        {
+          "actor_id": "mitre-g0026",
+          "name": "File Deletion",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1070.004",
+          "url": "https://attack.mitre.org/techniques/T1070.004/"
+        },
+        {
+          "actor_id": "mitre-g0026",
+          "name": "Web Protocols",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1071.001",
+          "url": "https://attack.mitre.org/techniques/T1071.001/"
+        },
+        {
+          "actor_id": "mitre-g0026",
+          "name": "DNS",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1071.004",
+          "url": "https://attack.mitre.org/techniques/T1071.004/"
+        },
+        {
+          "actor_id": "mitre-g0026",
+          "name": "Ingress Tool Transfer",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1105",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "actor_id": "mitre-g0026",
+          "name": "Windows Command Shell",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/",
+            "https://www.anomali.com/blog/evasive-maneuvers-the-wekby-group-attempts-to-evade-analysis-via-custom-rop"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.003",
+          "url": "https://attack.mitre.org/techniques/T1059.003/"
+        },
+        {
+          "actor_id": "mitre-g0026",
+          "name": "System Information Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1082",
+          "url": "https://attack.mitre.org/techniques/T1082/"
+        },
+        {
+          "actor_id": "mitre-g0026",
+          "name": "File and Directory Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1083",
+          "url": "https://attack.mitre.org/techniques/T1083/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0026",
+              "name": "At",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.002",
+              "url": "https://attack.mitre.org/techniques/T1053.002/"
+            },
+            {
+              "actor_id": "mitre-g0026",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20210803040540/https://published-prd.lanyonevents.com/published/rsaus17/sessionsFiles/5009/HTA-F02-Detecting-and-Responding-to-Advanced-Threats-within-Exchange-Environments.pdf"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0026",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20210803040540/https://published-prd.lanyonevents.com/published/rsaus17/sessionsFiles/5009/HTA-F02-Detecting-and-Responding-to-Advanced-Threats-within-Exchange-Environments.pdf"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g0026",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/",
+                "https://www.anomali.com/blog/evasive-maneuvers-the-wekby-group-attempts-to-evade-analysis-via-custom-rop"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0026",
+              "name": "Web Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.001",
+              "url": "https://attack.mitre.org/techniques/T1071.001/"
+            },
+            {
+              "actor_id": "mitre-g0026",
+              "name": "DNS",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.004",
+              "url": "https://attack.mitre.org/techniques/T1071.004/"
+            },
+            {
+              "actor_id": "mitre-g0026",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0026",
+              "name": "At",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.002",
+              "url": "https://attack.mitre.org/techniques/T1053.002/"
+            },
+            {
+              "actor_id": "mitre-g0026",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20210803040540/https://published-prd.lanyonevents.com/published/rsaus17/sessionsFiles/5009/HTA-F02-Detecting-and-Responding-to-Advanced-Threats-within-Exchange-Environments.pdf"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0026",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/",
+                "https://www.anomali.com/blog/evasive-maneuvers-the-wekby-group-attempts-to-evade-analysis-via-custom-rop"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0026",
+              "name": "Encrypted/Encoded File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.013",
+              "url": "https://attack.mitre.org/techniques/T1027.013/"
+            },
+            {
+              "actor_id": "mitre-g0026",
+              "name": "File Deletion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.004",
+              "url": "https://attack.mitre.org/techniques/T1070.004/"
+            },
+            {
+              "actor_id": "mitre-g0026",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20210803040540/https://published-prd.lanyonevents.com/published/rsaus17/sessionsFiles/5009/HTA-F02-Detecting-and-Responding-to-Advanced-Threats-within-Exchange-Environments.pdf"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0026",
+              "name": "System Information Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1082",
+              "url": "https://attack.mitre.org/techniques/T1082/"
+            },
+            {
+              "actor_id": "mitre-g0026",
+              "name": "File and Directory Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1083",
+              "url": "https://attack.mitre.org/techniques/T1083/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0026",
+              "name": "At",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.002",
+              "url": "https://attack.mitre.org/techniques/T1053.002/"
+            },
+            {
+              "actor_id": "mitre-g0026",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/",
+                "https://www.anomali.com/blog/evasive-maneuvers-the-wekby-group-attempts-to-evade-analysis-via-custom-rop"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0026",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20210803040540/https://published-prd.lanyonevents.com/published/rsaus17/sessionsFiles/5009/HTA-F02-Detecting-and-Responding-to-Advanced-Threats-within-Exchange-Environments.pdf"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0026",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20210803040540/https://published-prd.lanyonevents.com/published/rsaus17/sessionsFiles/5009/HTA-F02-Detecting-and-Responding-to-Advanced-Threats-within-Exchange-Environments.pdf"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 4,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 3,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 3,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 3,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 2,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 2,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 2,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        }
+      ],
+      "total": 12
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0026/"
+          ]
+        }
+      ],
+      "text": "APT18 is a threat group that has operated since at least 2009 and has targeted a range of industries, including technology, manufacturing, human rights groups, government, and medical. (Citation: Dell Lateral Movement)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0026",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/sykipot-now-targeting-us-civil-aviation-sector-information"
+      },
+      {
+        "actor_id": "mitre-g0026",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.crowdstrike.com/blog/whois-samurai-panda"
+      },
+      {
+        "actor_id": "mitre-g0026",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems"
+      },
+      {
+        "actor_id": "mitre-g0026",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0026"
+      },
+      {
+        "actor_id": "mitre-g0026",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g0026",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "mitre-g0026",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://threatpost.com/apt-gang-branches-out-to-medical-espionage-in-community-health-breach/107828"
+      },
+      {
+        "actor_id": "mitre-g0026",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.alienvault.com/open-threat-exchange/blog/new-sykipot-developments"
+      },
+      {
+        "actor_id": "mitre-g0026",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.anomali.com/blog/evasive-maneuvers-the-wekby-group-attempts-to-evade-analysis-via-custom-rop"
+      },
+      {
+        "actor_id": "mitre-g0026",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/apt-18"
+      },
+      {
+        "actor_id": "mitre-g0026",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/sykipot"
+      },
+      {
+        "actor_id": "mitre-g0026",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/insights/apt-groups"
+      },
+      {
+        "actor_id": "mitre-g0026",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sans.org/reading-room/whitepapers/malicious/detailed-analysis-sykipot-smartcard-proxy-variant-33919"
+      },
+      {
+        "actor_id": "mitre-g0026",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/bronze-edison"
+      },
+      {
+        "actor_id": "mitre-g0026",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.threatstream.com/blog/evasive-maneuvers-the-wekby-group-attempts-to-evade-analysis-via-custom-rop"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "CN",
+          "display_value": "China",
+          "flag": "🇨🇳",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "China"
+        },
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "CN",
+          "display_value": "China",
+          "flag": "🇨🇳",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "China"
+        },
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "APT18",
+      "APT4",
+      "BRONZE EDISON",
+      "COMBINE",
+      "DYNAMITE PANDA",
+      "Dynamite Panda",
+      "Elderwood Group",
+      "G0026",
+      "MAVERICK PANDA",
+      "PLA Navy",
+      "Red Wraith",
+      "Salmon Typhoon",
+      "SAMURAI PANDA",
+      "Satin Typhoon",
+      "SCANDIUM",
+      "SILVERVIPER",
+      "SODIUM",
+      "TG-0416",
+      "Threat Group-0416",
+      "Wekby",
+      "Wisp Team"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

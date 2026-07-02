@@ -1,0 +1,149 @@
+{
+  "actor": {
+    "actor_id": "misp-f0bb3d3a-c012-4d12-b621-51192977f190",
+    "canonical_name": "TunnelSnake",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-f0bb3d3a-c012-4d12-b621-51192977f190"
+    ],
+    "misp_uuid": "f0bb3d3a-c012-4d12-b621-51192977f190",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "tunnelsnake",
+        "confidence": "source-provided",
+        "display_group_key": "tunnelsnake",
+        "name": "TunnelSnake",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "tunnelsnake",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/operation-tunnelsnake-and-moriya-rootkit/101831",
+          "https://www.redpacketsecurity.com/operation-tunnelsnake"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/operation-tunnelsnake-and-moriya-rootkit/101831",
+              "https://www.redpacketsecurity.com/operation-tunnelsnake"
+            ]
+          }
+        ],
+        "variants": [
+          "TunnelSnake"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "The TunnelSnake campaign demonstrates the activity of a sophisticated actor that invests significant resources in designing an evasive toolset and infiltrating networks of high-profile organizations. By leveraging Windows drivers, covert communications channels and proprietary malware, the group behind it maintains a considerable level of stealth. That said, some of its TTPs, like the usage of a commodity webshell and open-source legacy code for loading unsigned drivers, may get detected and in fact were flagged by Kaspersky's product, giving them visibility into the group’s operation."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-f0bb3d3a-c012-4d12-b621-51192977f190",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/operation-tunnelsnake-and-moriya-rootkit/101831"
+      },
+      {
+        "actor_id": "misp-f0bb3d3a-c012-4d12-b621-51192977f190",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.redpacketsecurity.com/operation-tunnelsnake"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "TunnelSnake"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

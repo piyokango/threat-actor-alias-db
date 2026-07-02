@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-49751cf1-f3b9-4d5b-99d1-7378d1bc2298",
+    "canonical_name": "ELUSIVE COMET",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-49751cf1-f3b9-4d5b-99d1-7378d1bc2298"
+    ],
+    "misp_uuid": "49751cf1-f3b9-4d5b-99d1-7378d1bc2298",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "elusivecomet",
+        "confidence": "source-provided",
+        "display_group_key": "elusivecomet",
+        "name": "ELUSIVE COMET",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "elusive comet",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.trailofbits.com/2025/04/17/mitigating-elusive-comet-zoom-remote-control-attacks"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.trailofbits.com/2025/04/17/mitigating-elusive-comet-zoom-remote-control-attacks"
+            ]
+          }
+        ],
+        "variants": [
+          "ELUSIVE COMET"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "ELUSIVE COMET is a threat actor responsible for significant cryptocurrency theft through sophisticated social engineering attacks, particularly leveraging Zoom's remote control feature. Their attack methodology involves manipulating legitimate workflows and exploiting human-centric vulnerabilities rather than technical flaws. The actor employs tactics such as social proof, time pressure, and interface manipulation to deceive targets. Organizations can mitigate risks by implementing technical controls to disable the remote control feature and deploying email boundary protections like DMARC, SPF, and DKIM."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-49751cf1-f3b9-4d5b-99d1-7378d1bc2298",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.trailofbits.com/2025/04/17/mitigating-elusive-comet-zoom-remote-control-attacks"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        }
+      ]
+    },
+    "search_names": [
+      "ELUSIVE COMET"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

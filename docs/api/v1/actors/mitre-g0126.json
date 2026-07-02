@@ -1,0 +1,986 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0126",
+    "canonical_name": "Higaisa",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0126"
+    ],
+    "misp_uuid": "a9df6cb7-74ff-482f-b23b-ac40e975a31a",
+    "mitre_id": "G0126",
+    "names": [
+      {
+        "compact_normalized_name": "higaisa",
+        "confidence": "source-provided",
+        "display_group_key": "higaisa",
+        "name": "Higaisa",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "higaisa",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0126",
+          "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa",
+          "https://s.tencent.com/research/report/836.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa",
+              "https://s.tencent.com/research/report/836.html"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0126"
+            ]
+          }
+        ],
+        "variants": [
+          "Higaisa"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0126",
+          "name": "Binary Padding",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.001",
+          "url": "https://attack.mitre.org/techniques/T1027.001/"
+        },
+        {
+          "actor_id": "mitre-g0126",
+          "name": "Encrypted/Encoded File",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+            "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.013",
+          "url": "https://attack.mitre.org/techniques/T1027.013/"
+        },
+        {
+          "actor_id": "mitre-g0126",
+          "name": "Compression",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+            "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.015",
+          "url": "https://attack.mitre.org/techniques/T1027.015/"
+        },
+        {
+          "actor_id": "mitre-g0126",
+          "name": "Masquerade Task or Service",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+            "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.004",
+          "url": "https://attack.mitre.org/techniques/T1036.004/"
+        },
+        {
+          "actor_id": "mitre-g0126",
+          "name": "Scheduled Task",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+            "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+          ],
+          "tactics": [
+            "execution",
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1053.005",
+          "url": "https://attack.mitre.org/techniques/T1053.005/"
+        },
+        {
+          "actor_id": "mitre-g0126",
+          "name": "Windows Command Shell",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+            "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/",
+            "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.003",
+          "url": "https://attack.mitre.org/techniques/T1059.003/"
+        },
+        {
+          "actor_id": "mitre-g0126",
+          "name": "Visual Basic",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.005",
+          "url": "https://attack.mitre.org/techniques/T1059.005/"
+        },
+        {
+          "actor_id": "mitre-g0126",
+          "name": "JavaScript",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+            "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/",
+            "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.007",
+          "url": "https://attack.mitre.org/techniques/T1059.007/"
+        },
+        {
+          "actor_id": "mitre-g0126",
+          "name": "Native API",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1106",
+          "url": "https://attack.mitre.org/techniques/T1106/"
+        },
+        {
+          "actor_id": "mitre-g0126",
+          "name": "Deobfuscate/Decode Files or Information",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+            "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1140",
+          "url": "https://attack.mitre.org/techniques/T1140/"
+        },
+        {
+          "actor_id": "mitre-g0126",
+          "name": "Exploitation for Client Execution",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1203",
+          "url": "https://attack.mitre.org/techniques/T1203/"
+        },
+        {
+          "actor_id": "mitre-g0126",
+          "name": "Malicious File",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+            "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1204.002",
+          "url": "https://attack.mitre.org/techniques/T1204.002/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 8,
+          "items": [
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/",
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Visual Basic",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.005",
+              "url": "https://attack.mitre.org/techniques/T1059.005/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "JavaScript",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/",
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.007",
+              "url": "https://attack.mitre.org/techniques/T1059.007/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Native API",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1106",
+              "url": "https://attack.mitre.org/techniques/T1106/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Exploitation for Client Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1203",
+              "url": "https://attack.mitre.org/techniques/T1203/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/"
+              ],
+              "tactics": [
+                "execution",
+                "stealth"
+              ],
+              "technique_id": "T1574.001",
+              "url": "https://attack.mitre.org/techniques/T1574.001/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 8,
+          "items": [
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Binary Padding",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.001",
+              "url": "https://attack.mitre.org/techniques/T1027.001/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Encrypted/Encoded File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.013",
+              "url": "https://attack.mitre.org/techniques/T1027.013/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Compression",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.015",
+              "url": "https://attack.mitre.org/techniques/T1027.015/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Masquerade Task or Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.004",
+              "url": "https://attack.mitre.org/techniques/T1036.004/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Deobfuscate/Decode Files or Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1140",
+              "url": "https://attack.mitre.org/techniques/T1140/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "XSL Script Processing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1220",
+              "url": "https://attack.mitre.org/techniques/T1220/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Hidden Window",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.003",
+              "url": "https://attack.mitre.org/techniques/T1564.003/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/"
+              ],
+              "tactics": [
+                "execution",
+                "stealth"
+              ],
+              "technique_id": "T1574.001",
+              "url": "https://attack.mitre.org/techniques/T1574.001/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0126",
+              "name": "System Network Configuration Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1016",
+              "url": "https://attack.mitre.org/techniques/T1016/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Process Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1057",
+              "url": "https://attack.mitre.org/techniques/T1057/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "System Information Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1082",
+              "url": "https://attack.mitre.org/techniques/T1082/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "System Time Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1124",
+              "url": "https://attack.mitre.org/techniques/T1124/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Local Storage Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1680",
+              "url": "https://attack.mitre.org/techniques/T1680/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Protocol or Service Impersonation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1001.003",
+              "url": "https://attack.mitre.org/techniques/T1001.003/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Web Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.001",
+              "url": "https://attack.mitre.org/techniques/T1071.001/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Internal Proxy",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1090.001",
+              "url": "https://attack.mitre.org/techniques/T1090.001/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Symmetric Cryptography",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1573.001",
+              "url": "https://attack.mitre.org/techniques/T1573.001/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Scheduled Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group/"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1029",
+              "url": "https://attack.mitre.org/techniques/T1029/"
+            },
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Exfiltration Over C2 Channel",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1041",
+              "url": "https://attack.mitre.org/techniques/T1041/"
+            }
+          ],
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0126",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/",
+                "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 8,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 8,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 5,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 4,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 2,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 2,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 2,
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 1,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        }
+      ],
+      "total": 28
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0126/"
+          ]
+        }
+      ],
+      "text": "Higaisa is a threat group suspected to have South Korean origins. Higaisa has targeted government, public, and trade organizations in North Korea; however, they have also carried out attacks in China, Japan, Russia, Poland, and other nations. Higaisa was first disclosed in early 2019 but is assessed to have operated as early as 2009.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020)(Citation: PTSecurity Higaisa 2020)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0126",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0126"
+      },
+      {
+        "actor_id": "mitre-g0126",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa"
+      },
+      {
+        "actor_id": "mitre-g0126",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://s.tencent.com/research/report/836.html"
+      },
+      {
+        "actor_id": "mitre-g0126",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/covid-19-and-new-year-greetings-the-higaisa-group"
+      },
+      {
+        "actor_id": "mitre-g0126",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.zscaler.com/blogs/security-research/return-higaisa-apt"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "KR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KR"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "KR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KR"
+        }
+      ]
+    },
+    "search_names": [
+      "Higaisa"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

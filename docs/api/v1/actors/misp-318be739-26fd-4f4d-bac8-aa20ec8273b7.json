@@ -1,0 +1,237 @@
+{
+  "actor": {
+    "actor_id": "misp-318be739-26fd-4f4d-bac8-aa20ec8273b7",
+    "canonical_name": "UAC-0020",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-318be739-26fd-4f4d-bac8-aa20ec8273b7"
+    ],
+    "misp_uuid": "318be739-26fd-4f4d-bac8-aa20ec8273b7",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "uac0020",
+        "confidence": "source-provided",
+        "display_group_key": "uac0020",
+        "name": "UAC-0020",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uac 0020",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cert.gov.ua/article/6279600",
+          "https://socprime.com/blog/vermin-uac-0020-hacking-collective-hits-ukrainian-government-and-military-with-spectr-malware",
+          "https://therecord.media/russian-vermin-hackers-target-ukraine"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cert.gov.ua/article/6279600",
+              "https://socprime.com/blog/vermin-uac-0020-hacking-collective-hits-ukrainian-government-and-military-with-spectr-malware",
+              "https://therecord.media/russian-vermin-hackers-target-ukraine"
+            ]
+          }
+        ],
+        "variants": [
+          "UAC-0020"
+        ]
+      },
+      {
+        "compact_normalized_name": "sicksync",
+        "confidence": "source-provided",
+        "display_group_key": "sicksync",
+        "name": "SickSync",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "sicksync",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cert.gov.ua/article/6279600",
+          "https://socprime.com/blog/vermin-uac-0020-hacking-collective-hits-ukrainian-government-and-military-with-spectr-malware",
+          "https://therecord.media/russian-vermin-hackers-target-ukraine"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cert.gov.ua/article/6279600",
+              "https://socprime.com/blog/vermin-uac-0020-hacking-collective-hits-ukrainian-government-and-military-with-spectr-malware",
+              "https://therecord.media/russian-vermin-hackers-target-ukraine"
+            ]
+          }
+        ],
+        "variants": [
+          "SickSync"
+        ]
+      },
+      {
+        "compact_normalized_name": "vermin",
+        "confidence": "source-provided",
+        "display_group_key": "vermin",
+        "name": "Vermin",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "vermin",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cert.gov.ua/article/6279600",
+          "https://socprime.com/blog/vermin-uac-0020-hacking-collective-hits-ukrainian-government-and-military-with-spectr-malware",
+          "https://therecord.media/russian-vermin-hackers-target-ukraine"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cert.gov.ua/article/6279600",
+              "https://socprime.com/blog/vermin-uac-0020-hacking-collective-hits-ukrainian-government-and-military-with-spectr-malware",
+              "https://therecord.media/russian-vermin-hackers-target-ukraine"
+            ]
+          }
+        ],
+        "variants": [
+          "Vermin"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Vermin is a threat actor group linked to the Luhansk People’s Republic and believed to be acting on behalf of the Kremlin. They have targeted Ukrainian government infrastructure using malware like Spectr and legitimate tools like SyncThing for data exfiltration. Vermin has been active since at least 2018, using custom-made RATs like Vermin and open-source tools like Quasar for cyber-espionage. The group has resurfaced after periods of inactivity to conduct espionage operations against Ukraine's military and defense sectors."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-318be739-26fd-4f4d-bac8-aa20ec8273b7",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cert.gov.ua/article/6279600"
+      },
+      {
+        "actor_id": "misp-318be739-26fd-4f4d-bac8-aa20ec8273b7",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socprime.com/blog/vermin-uac-0020-hacking-collective-hits-ukrainian-government-and-military-with-spectr-malware"
+      },
+      {
+        "actor_id": "misp-318be739-26fd-4f4d-bac8-aa20ec8273b7",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://therecord.media/russian-vermin-hackers-target-ukraine"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "SickSync",
+      "UAC-0020",
+      "Vermin"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

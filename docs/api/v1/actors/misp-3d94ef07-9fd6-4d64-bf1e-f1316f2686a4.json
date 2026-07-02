@@ -1,0 +1,132 @@
+{
+  "actor": {
+    "actor_id": "misp-3d94ef07-9fd6-4d64-bf1e-f1316f2686a4",
+    "canonical_name": "Storm-1849",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-3d94ef07-9fd6-4d64-bf1e-f1316f2686a4"
+    ],
+    "misp_uuid": "3d94ef07-9fd6-4d64-bf1e-f1316f2686a4",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "storm1849",
+        "confidence": "source-provided",
+        "display_group_key": "storm1849",
+        "name": "Storm-1849",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 1849",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.talosintelligence.com/arcanedoor-new-espionage-focused-campaign-found-targeting-perimeter-network-devices"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/arcanedoor-new-espionage-focused-campaign-found-targeting-perimeter-network-devices"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-1849"
+        ]
+      },
+      {
+        "compact_normalized_name": "uat4356",
+        "confidence": "source-provided",
+        "display_group_key": "uat4356",
+        "name": "UAT4356",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uat4356",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.talosintelligence.com/arcanedoor-new-espionage-focused-campaign-found-targeting-perimeter-network-devices"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/arcanedoor-new-espionage-focused-campaign-found-targeting-perimeter-network-devices"
+            ]
+          }
+        ],
+        "variants": [
+          "UAT4356"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UAT4356 is a state-sponsored threat actor that targeted government networks globally through a campaign named ArcaneDoor. They exploited two zero-day vulnerabilities in Cisco Adaptive Security Appliances to deploy custom malware implants called \"Line Runner\" and \"Line Dancer.\" The actor demonstrated a deep understanding of Cisco systems, utilized anti-forensic measures, and took deliberate steps to evade detection. UAT4356's sophisticated attack chain allowed them to conduct malicious actions such as configuration modification, reconnaissance, network traffic capture/exfiltration, and potentially lateral movement on compromised devices."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-3d94ef07-9fd6-4d64-bf1e-f1316f2686a4",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/arcanedoor-new-espionage-focused-campaign-found-targeting-perimeter-network-devices"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Storm-1849",
+      "UAT4356"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

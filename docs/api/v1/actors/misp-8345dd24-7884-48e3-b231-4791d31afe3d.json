@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-8345dd24-7884-48e3-b231-4791d31afe3d",
+    "canonical_name": "DEV-0928",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-8345dd24-7884-48e3-b231-4791d31afe3d"
+    ],
+    "misp_uuid": "8345dd24-7884-48e3-b231-4791d31afe3d",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "dev0928",
+        "confidence": "source-provided",
+        "display_group_key": "dev0928",
+        "name": "DEV-0928",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dev 0928",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.microsoft.com/en-us/security/blog/2023/03/13/dev-1101-enables-high-volume-aitm-campaigns-with-open-source-phishing-kit"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.microsoft.com/en-us/security/blog/2023/03/13/dev-1101-enables-high-volume-aitm-campaigns-with-open-source-phishing-kit"
+            ]
+          }
+        ],
+        "variants": [
+          "DEV-0928"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "DEV-0928 is a threat actor that has been tracked by Microsoft since September 2022. They are known for their involvement in high-volume phishing campaigns, using tools offered by DEV-1101. DEV-0928 sends phishing emails to targets and has been observed launching campaigns involving millions of emails. They also utilize evasion techniques, such as redirection to benign pages, to avoid detection."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-8345dd24-7884-48e3-b231-4791d31afe3d",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "http://www.microsoft.com/en-us/security/blog/2023/03/13/dev-1101-enables-high-volume-aitm-campaigns-with-open-source-phishing-kit"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "DEV-0928"
+    ],
+    "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

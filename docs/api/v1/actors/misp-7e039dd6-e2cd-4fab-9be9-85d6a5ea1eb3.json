@@ -1,0 +1,117 @@
+{
+  "actor": {
+    "actor_id": "misp-7e039dd6-e2cd-4fab-9be9-85d6a5ea1eb3",
+    "canonical_name": "LulzIntel",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-7e039dd6-e2cd-4fab-9be9-85d6a5ea1eb3"
+    ],
+    "misp_uuid": "7e039dd6-e2cd-4fab-9be9-85d6a5ea1eb3",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "lulzintel",
+        "confidence": "source-provided",
+        "display_group_key": "lulzintel",
+        "name": "LulzIntel",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "lulzintel",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://darkwebinformer.com/almaex-iranian-cryptocurrency-exchange-breach-allegedly-exposes-over-50-000-user-records",
+          "https://darkwebinformer.com/polish-eco-friendly-retailer-vegehome-suffers-data-breach-exposing-100k-customers",
+          "https://darkwebinformer.com/singapore-traditional-chinese-medicine-clinic-kin-teck-tong-allegedly-suffers-data-breach-exposing-150-000-patient-records"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://darkwebinformer.com/almaex-iranian-cryptocurrency-exchange-breach-allegedly-exposes-over-50-000-user-records",
+              "https://darkwebinformer.com/polish-eco-friendly-retailer-vegehome-suffers-data-breach-exposing-100k-customers",
+              "https://darkwebinformer.com/singapore-traditional-chinese-medicine-clinic-kin-teck-tong-allegedly-suffers-data-breach-exposing-150-000-patient-records"
+            ]
+          }
+        ],
+        "variants": [
+          "LulzIntel"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "The threat actor lulzintel has claimed responsibility for multiple data breaches, including those of vegehome.pl, Almaex, Smaregi, and Kin Teck Tong, exposing sensitive information of over 400,000 individuals combined. The breaches involved the release of customer and patient records, including personal details and medical histories.Sample data has been provided to demonstrate the validity of the claims."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-7e039dd6-e2cd-4fab-9be9-85d6a5ea1eb3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://darkwebinformer.com/almaex-iranian-cryptocurrency-exchange-breach-allegedly-exposes-over-50-000-user-records"
+      },
+      {
+        "actor_id": "misp-7e039dd6-e2cd-4fab-9be9-85d6a5ea1eb3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://darkwebinformer.com/polish-eco-friendly-retailer-vegehome-suffers-data-breach-exposing-100k-customers"
+      },
+      {
+        "actor_id": "misp-7e039dd6-e2cd-4fab-9be9-85d6a5ea1eb3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://darkwebinformer.com/singapore-traditional-chinese-medicine-clinic-kin-teck-tong-allegedly-suffers-data-breach-exposing-150-000-patient-records"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "LulzIntel"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

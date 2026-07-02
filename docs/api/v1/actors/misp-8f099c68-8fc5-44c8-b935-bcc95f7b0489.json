@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-8f099c68-8fc5-44c8-b935-bcc95f7b0489",
+    "canonical_name": "Codefinger",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-8f099c68-8fc5-44c8-b935-bcc95f7b0489"
+    ],
+    "misp_uuid": "8f099c68-8fc5-44c8-b935-bcc95f7b0489",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "codefinger",
+        "confidence": "source-provided",
+        "display_group_key": "codefinger",
+        "name": "Codefinger",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "codefinger",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.halcyon.ai/blog/abusing-aws-native-services-ransomware-encrypting-s3-buckets-with-sse-c"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.halcyon.ai/blog/abusing-aws-native-services-ransomware-encrypting-s3-buckets-with-sse-c"
+            ]
+          }
+        ],
+        "variants": [
+          "Codefinger"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Codefinger is a ransomware group that targets Amazon S3 buckets by exploiting AWS’s Server-Side Encryption with Customer Provided Keys to encrypt victim data. They utilize compromised AWS credentials to gain access and demand Bitcoin ransoms for the decryption keys, threatening to delete files if negotiations fail. The group has been observed abusing publicly disclosed AWS keys with permissions to read and write S3 objects, making recovery impossible without their cooperation. Halcyon has documented multiple incidents linked to Codefinger's data extortion campaign against organizations with unsecured infrastructure."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-8f099c68-8fc5-44c8-b935-bcc95f7b0489",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.halcyon.ai/blog/abusing-aws-native-services-ransomware-encrypting-s3-buckets-with-sse-c"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Codefinger"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

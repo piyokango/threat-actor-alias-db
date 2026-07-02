@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-07e1bbc4-19ad-4706-a5fe-cf28f0b67300",
+    "canonical_name": "Storm-2139",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-07e1bbc4-19ad-4706-a5fe-cf28f0b67300"
+    ],
+    "misp_uuid": "07e1bbc4-19ad-4706-a5fe-cf28f0b67300",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "storm2139",
+        "confidence": "source-provided",
+        "display_group_key": "storm2139",
+        "name": "Storm-2139",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 2139",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blogs.microsoft.com/on-the-issues/2025/02/27/disrupting-cybercrime-abusing-gen-ai"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blogs.microsoft.com/on-the-issues/2025/02/27/disrupting-cybercrime-abusing-gen-ai"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-2139"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Storm-2139 is a cybercrime group that exploited stolen API keys from compromised Azure OpenAI Service accounts to generate harmful content, including non-consensual intimate imagery, using the DALL-E model. The group utilized reverse proxy infrastructure and custom software to bypass guardrails in Microsoft’s GenAI services. Microsoft has filed a lawsuit against four individuals associated with Storm-2139, alleging they modified customer systems and resold access to these capabilities. The group systematically harvested authentication tokens from U.S.-based enterprises and is linked to a broader network of illicit AI tool development and distribution."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-07e1bbc4-19ad-4706-a5fe-cf28f0b67300",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://blogs.microsoft.com/on-the-issues/2025/02/27/disrupting-cybercrime-abusing-gen-ai"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Storm-2139"
+    ],
+    "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

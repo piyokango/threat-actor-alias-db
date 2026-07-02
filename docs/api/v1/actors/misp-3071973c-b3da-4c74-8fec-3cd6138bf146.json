@@ -1,0 +1,140 @@
+{
+  "actor": {
+    "actor_id": "misp-3071973c-b3da-4c74-8fec-3cd6138bf146",
+    "canonical_name": "Patched Lightning",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-3071973c-b3da-4c74-8fec-3cd6138bf146"
+    ],
+    "misp_uuid": "3071973c-b3da-4c74-8fec-3cd6138bf146",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "patchedlightning",
+        "confidence": "source-provided",
+        "display_group_key": "patchedlightning",
+        "name": "Patched Lightning",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "patched lightning",
+        "source_id": "misp-galaxy",
+        "source_urls": [],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": []
+          }
+        ],
+        "variants": [
+          "Patched Lightning"
+        ]
+      },
+      {
+        "compact_normalized_name": "storm0113",
+        "confidence": "source-provided",
+        "display_group_key": "storm0113",
+        "name": "Storm-0113",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "storm 0113",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": []
+          }
+        ],
+        "variants": [
+          "Storm-0113"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": null,
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-3071973c-b3da-4c74-8fec-3cd6138bf146",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "misp-3071973c-b3da-4c74-8fec-3cd6138bf146",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Patched Lightning",
+      "Storm-0113"
+    ],
+    "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

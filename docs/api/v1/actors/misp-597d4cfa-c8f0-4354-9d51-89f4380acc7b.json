@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-597d4cfa-c8f0-4354-9d51-89f4380acc7b",
+    "canonical_name": "JINX-0126",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-597d4cfa-c8f0-4354-9d51-89f4380acc7b"
+    ],
+    "misp_uuid": "597d4cfa-c8f0-4354-9d51-89f4380acc7b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "jinx0126",
+        "confidence": "source-provided",
+        "display_group_key": "jinx0126",
+        "name": "JINX-0126",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "jinx 0126",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.aquasec.com/blog/pg_mem-a-malware-hidden-in-the-postgres-processes",
+          "https://www.wiz.io/blog/postgresql-cryptomining"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.aquasec.com/blog/pg_mem-a-malware-hidden-in-the-postgres-processes",
+              "https://www.wiz.io/blog/postgresql-cryptomining"
+            ]
+          }
+        ],
+        "variants": [
+          "JINX-0126"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Wiz Threat Research identified a new variant of an ongoing malicious campaign targeting misconfigured and publicly exposed PostgreSQL servers. In the observed attack, the threat actor (tracked by Wiz as JINX-0126) abuses exposed PostgreSQL instances, configured with weak and guessable login credentials, to gain access and to deploy XMRig-C3 cryptominers. This campaign was first documented by Aqua Security, but the threat actor has since evolved, implementing defense evasion techniques such as deploying binaries with a unique hash per target and executing the miner payload filelessly—likely to evade detection by CWPP solutions that rely solely on file hash reputation."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-597d4cfa-c8f0-4354-9d51-89f4380acc7b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.aquasec.com/blog/pg_mem-a-malware-hidden-in-the-postgres-processes"
+      },
+      {
+        "actor_id": "misp-597d4cfa-c8f0-4354-9d51-89f4380acc7b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.wiz.io/blog/postgresql-cryptomining"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "JINX-0126"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

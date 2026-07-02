@@ -1,0 +1,198 @@
+{
+  "actor": {
+    "actor_id": "misp-a2a7d49f-f517-4eeb-9ec8-b9b74e3fe756",
+    "canonical_name": "UNC1549",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-a2a7d49f-f517-4eeb-9ec8-b9b74e3fe756"
+    ],
+    "misp_uuid": "a2a7d49f-f517-4eeb-9ec8-b9b74e3fe756",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unc1549",
+        "confidence": "source-provided",
+        "display_group_key": "unc1549",
+        "name": "UNC1549",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc1549",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.checkpoint.com/research/iranian-threat-actor-nimbus-manticore-expands-campaigns-into-europe-with-advanced-malware-and-fake-job-lures",
+          "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe",
+          "https://www.mandiant.com/resources/blog/suspected-iranian-unc1549-targets-israel-middle-east"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.checkpoint.com/research/iranian-threat-actor-nimbus-manticore-expands-campaigns-into-europe-with-advanced-malware-and-fake-job-lures",
+              "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe",
+              "https://www.mandiant.com/resources/blog/suspected-iranian-unc1549-targets-israel-middle-east"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC1549"
+        ]
+      },
+      {
+        "compact_normalized_name": "nimbusmanticore",
+        "confidence": "source-provided",
+        "display_group_key": "nimbusmanticore",
+        "name": "Nimbus Manticore",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "nimbus manticore",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.checkpoint.com/research/iranian-threat-actor-nimbus-manticore-expands-campaigns-into-europe-with-advanced-malware-and-fake-job-lures",
+          "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe",
+          "https://www.mandiant.com/resources/blog/suspected-iranian-unc1549-targets-israel-middle-east"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.checkpoint.com/research/iranian-threat-actor-nimbus-manticore-expands-campaigns-into-europe-with-advanced-malware-and-fake-job-lures",
+              "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe",
+              "https://www.mandiant.com/resources/blog/suspected-iranian-unc1549-targets-israel-middle-east"
+            ]
+          }
+        ],
+        "variants": [
+          "Nimbus Manticore"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UNC1549 is an Iranian threat actor linked to Tortoiseshell and potentially the IRGC. They have been active since at least June 2022, targeting entities worldwide with a focus on the Middle East. UNC1549 uses spear-phishing and credential harvesting for initial access, deploying custom malware like MINIBIKE and MINIBUS backdoors. They have also been observed using evasion techniques and a tunneler named LIGHTRAIL in their operations."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-a2a7d49f-f517-4eeb-9ec8-b9b74e3fe756",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.checkpoint.com/research/iranian-threat-actor-nimbus-manticore-expands-campaigns-into-europe-with-advanced-malware-and-fake-job-lures"
+      },
+      {
+        "actor_id": "misp-a2a7d49f-f517-4eeb-9ec8-b9b74e3fe756",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe"
+      },
+      {
+        "actor_id": "misp-a2a7d49f-f517-4eeb-9ec8-b9b74e3fe756",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/blog/suspected-iranian-unc1549-targets-israel-middle-east"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ]
+    },
+    "search_names": [
+      "Nimbus Manticore",
+      "UNC1549"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

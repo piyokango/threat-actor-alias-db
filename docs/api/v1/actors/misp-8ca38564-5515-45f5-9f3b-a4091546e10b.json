@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-8ca38564-5515-45f5-9f3b-a4091546e10b",
+    "canonical_name": "Anonymous Sudan",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-8ca38564-5515-45f5-9f3b-a4091546e10b"
+    ],
+    "misp_uuid": "8ca38564-5515-45f5-9f3b-a4091546e10b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "anonymoussudan",
+        "confidence": "source-provided",
+        "display_group_key": "anonymoussudan",
+        "name": "Anonymous Sudan",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "anonymous sudan",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://files.truesec.com/hubfs/Reports/Anonymous%20Sudan%20-%20Publish%201.2%20-%20a%20Truesec%20Report.pdf",
+          "https://www.truesec.com/hub/blog/what-is-anonymous-sudan"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://files.truesec.com/hubfs/Reports/Anonymous%20Sudan%20-%20Publish%201.2%20-%20a%20Truesec%20Report.pdf",
+              "https://www.truesec.com/hub/blog/what-is-anonymous-sudan"
+            ]
+          }
+        ],
+        "variants": [
+          "Anonymous Sudan"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Since January 23, 2023, a threat actor identifying as \"Anonymous Sudan\" has been conducting denial of service (DDoS) attacks against multiple organizations in Sweden. This group claims to be \"hacktivists,\" politically motivated hackers from Sudan. According to Truesec’s report, the threat actor has nothing to do with the online activists collectively known as Anonymous."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-8ca38564-5515-45f5-9f3b-a4091546e10b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://files.truesec.com/hubfs/Reports/Anonymous%20Sudan%20-%20Publish%201.2%20-%20a%20Truesec%20Report.pdf"
+      },
+      {
+        "actor_id": "misp-8ca38564-5515-45f5-9f3b-a4091546e10b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.truesec.com/hub/blog/what-is-anonymous-sudan"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Anonymous Sudan"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

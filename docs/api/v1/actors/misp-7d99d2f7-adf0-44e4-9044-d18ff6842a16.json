@@ -1,0 +1,167 @@
+{
+  "actor": {
+    "actor_id": "misp-7d99d2f7-adf0-44e4-9044-d18ff6842a16",
+    "canonical_name": "Cold River",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-7d99d2f7-adf0-44e4-9044-d18ff6842a16"
+    ],
+    "misp_uuid": "7d99d2f7-adf0-44e4-9044-d18ff6842a16",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "coldriver",
+        "confidence": "source-provided",
+        "display_group_key": "coldriver",
+        "name": "Cold River",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cold river",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.lastline.com/labsblog/threat-actor-cold-river-network-traffic-analysis-and-a-deep-dive-on-agent-drable"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.lastline.com/labsblog/threat-actor-cold-river-network-traffic-analysis-and-a-deep-dive-on-agent-drable"
+            ]
+          }
+        ],
+        "variants": [
+          "Cold River"
+        ]
+      },
+      {
+        "compact_normalized_name": "nahrelbared",
+        "confidence": "source-provided",
+        "display_group_key": "nahrelbared",
+        "name": "Nahr el bared",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "nahr el bared",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.lastline.com/labsblog/threat-actor-cold-river-network-traffic-analysis-and-a-deep-dive-on-agent-drable"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.lastline.com/labsblog/threat-actor-cold-river-network-traffic-analysis-and-a-deep-dive-on-agent-drable"
+            ]
+          }
+        ],
+        "variants": [
+          "Nahr el bared"
+        ]
+      },
+      {
+        "compact_normalized_name": "nahrelbard",
+        "confidence": "source-provided",
+        "display_group_key": "nahrelbard",
+        "name": "Nahr Elbard",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "nahr elbard",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.lastline.com/labsblog/threat-actor-cold-river-network-traffic-analysis-and-a-deep-dive-on-agent-drable"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.lastline.com/labsblog/threat-actor-cold-river-network-traffic-analysis-and-a-deep-dive-on-agent-drable"
+            ]
+          }
+        ],
+        "variants": [
+          "Nahr Elbard"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "In short, “Cold River” is a sophisticated threat (actor) that utilizes DNS subdomain hijacking, certificate spoofing, and covert tunneled command and control traffic in combination with complex and convincing lure documents and custom implants."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-7d99d2f7-adf0-44e4-9044-d18ff6842a16",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.lastline.com/labsblog/threat-actor-cold-river-network-traffic-analysis-and-a-deep-dive-on-agent-drable"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Cold River",
+      "Nahr el bared",
+      "Nahr Elbard"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

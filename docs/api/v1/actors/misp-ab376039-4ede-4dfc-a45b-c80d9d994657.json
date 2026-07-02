@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-ab376039-4ede-4dfc-a45b-c80d9d994657",
+    "canonical_name": "FusionCore",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-ab376039-4ede-4dfc-a45b-c80d9d994657"
+    ],
+    "misp_uuid": "ab376039-4ede-4dfc-a45b-c80d9d994657",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "fusioncore",
+        "confidence": "source-provided",
+        "display_group_key": "fusioncore",
+        "name": "FusionCore",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "fusioncore",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.cyfirma.com/?post_type=out-of-band&p=17003"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.cyfirma.com/?post_type=out-of-band&p=17003"
+            ]
+          }
+        ],
+        "variants": [
+          "FusionCore"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "The CYFIRMA research team has identified a new up-and-coming European threat actor group known as FusionCore. Running Malware-as-a-service, along with the hacker-for- hire operation, they have a wide variety of tools and services that are being offered on their website, making it a one-stop-shop for threat actors looking to purchase cost- effective yet customizable malware. The operators have started a ransomware affiliate program that equips the attackers with the ransomware and affiliate software to manage victims. FusionCore typically provides sellers with a detailed set of instructions for any service or product being sold, enabling individuals with minimal experience to carry out..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-ab376039-4ede-4dfc-a45b-c80d9d994657",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cyfirma.com/?post_type=out-of-band&p=17003"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "FusionCore"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

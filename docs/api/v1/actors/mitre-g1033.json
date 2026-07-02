@@ -1,0 +1,2251 @@
+{
+  "actor": {
+    "actor_id": "mitre-g1033",
+    "canonical_name": "Star Blizzard",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g1033"
+    ],
+    "misp_uuid": "fbd279ab-c095-48dc-ba48-4bece3dd5b0f",
+    "mitre_id": "G1033",
+    "names": [
+      {
+        "compact_normalized_name": "starblizzard",
+        "confidence": "source-provided",
+        "display_group_key": "starblizzard",
+        "name": "Star Blizzard",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "star blizzard",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1033",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+          "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+          "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+          "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+          "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+          "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+          "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+          "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+          "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+          "https://citizenlab.ca/2024/10/disrupting-coldriver",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+          "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+          "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+          "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+          "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+          "https://www.justice.gov/opa/media/1327601/dl?inline=",
+          "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+          "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+          "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+          "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+          "https://www.noticeofpleadings.com/starblizzard",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+          "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+              "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+              "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+              "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+              "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+              "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+              "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+              "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+              "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+              "https://citizenlab.ca/2024/10/disrupting-coldriver",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+              "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+              "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+              "https://www.justice.gov/opa/media/1327601/dl?inline=",
+              "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+              "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+              "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+              "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+              "https://www.noticeofpleadings.com/starblizzard",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+              "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1033"
+            ]
+          }
+        ],
+        "variants": [
+          "Star Blizzard"
+        ]
+      },
+      {
+        "compact_normalized_name": "bluecallisto",
+        "confidence": "source-provided",
+        "display_group_key": "bluecallisto",
+        "name": "Blue Callisto",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "blue callisto",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+          "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+          "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+          "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+          "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+          "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+          "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+          "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+          "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+          "https://citizenlab.ca/2024/10/disrupting-coldriver",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+          "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+          "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+          "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+          "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+          "https://www.justice.gov/opa/media/1327601/dl?inline=",
+          "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+          "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+          "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+          "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+          "https://www.noticeofpleadings.com/starblizzard",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+          "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+              "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+              "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+              "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+              "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+              "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+              "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+              "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+              "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+              "https://citizenlab.ca/2024/10/disrupting-coldriver",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+              "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+              "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+              "https://www.justice.gov/opa/media/1327601/dl?inline=",
+              "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+              "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+              "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+              "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+              "https://www.noticeofpleadings.com/starblizzard",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+              "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+            ]
+          }
+        ],
+        "variants": [
+          "Blue Callisto"
+        ]
+      },
+      {
+        "compact_normalized_name": "bluecharlie",
+        "confidence": "source-provided",
+        "display_group_key": "bluecharlie",
+        "name": "BlueCharlie",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "bluecharlie",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+          "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+          "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+          "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+          "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+          "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+          "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+          "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+          "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+          "https://citizenlab.ca/2024/10/disrupting-coldriver",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+          "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+          "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+          "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+          "https://www.justice.gov/opa/media/1327601/dl?inline=",
+          "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+          "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+          "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+          "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+          "https://www.noticeofpleadings.com/starblizzard",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+          "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+              "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+              "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+              "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+              "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+              "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+              "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+              "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+              "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+              "https://citizenlab.ca/2024/10/disrupting-coldriver",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+              "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+              "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+              "https://www.justice.gov/opa/media/1327601/dl?inline=",
+              "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+              "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+              "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+              "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+              "https://www.noticeofpleadings.com/starblizzard",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+              "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+            ]
+          }
+        ],
+        "variants": [
+          "BlueCharlie"
+        ]
+      },
+      {
+        "compact_normalized_name": "callisto",
+        "confidence": "source-provided",
+        "display_group_key": "callisto",
+        "name": "Callisto",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "callisto",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+          "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+          "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+          "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+          "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+          "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+          "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+          "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+          "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+          "https://citizenlab.ca/2024/10/disrupting-coldriver",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+          "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+          "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+          "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+          "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+          "https://www.justice.gov/opa/media/1327601/dl?inline=",
+          "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+          "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+          "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+          "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+          "https://www.noticeofpleadings.com/starblizzard",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+          "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+              "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+              "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+              "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+              "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+              "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+              "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+              "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+              "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+              "https://citizenlab.ca/2024/10/disrupting-coldriver",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+              "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+              "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+              "https://www.justice.gov/opa/media/1327601/dl?inline=",
+              "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+              "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+              "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+              "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+              "https://www.noticeofpleadings.com/starblizzard",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+              "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+            ]
+          }
+        ],
+        "variants": [
+          "Callisto"
+        ]
+      },
+      {
+        "compact_normalized_name": "callistogroup",
+        "confidence": "source-provided",
+        "display_group_key": "callistogroup",
+        "name": "Callisto Group",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MITRE ATT&CK",
+        "normalized_name": "callisto group",
+        "source_id": "microsoft-threat-actor-naming,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1033",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1033"
+            ]
+          }
+        ],
+        "variants": [
+          "Callisto Group"
+        ]
+      },
+      {
+        "compact_normalized_name": "coldriver",
+        "confidence": "source-provided",
+        "display_group_key": "coldriver",
+        "name": "COLDRIVER",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "coldriver",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1033",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+          "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+          "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+          "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+          "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+          "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+          "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+          "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+          "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+          "https://citizenlab.ca/2024/10/disrupting-coldriver",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+          "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+          "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+          "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+          "https://www.justice.gov/opa/media/1327601/dl?inline=",
+          "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+          "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+          "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+          "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+          "https://www.noticeofpleadings.com/starblizzard",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+          "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+              "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+              "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+              "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+              "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+              "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+              "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+              "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+              "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+              "https://citizenlab.ca/2024/10/disrupting-coldriver",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+              "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+              "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+              "https://www.justice.gov/opa/media/1327601/dl?inline=",
+              "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+              "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+              "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+              "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+              "https://www.noticeofpleadings.com/starblizzard",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+              "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1033"
+            ]
+          }
+        ],
+        "variants": [
+          "COLDRIVER"
+        ]
+      },
+      {
+        "compact_normalized_name": "gossamerbear",
+        "confidence": "source-provided",
+        "display_group_key": "gossamerbear",
+        "name": "GOSSAMER BEAR",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "gossamer bear",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+          "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+          "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+          "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+          "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+          "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+          "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+          "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+          "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+          "https://citizenlab.ca/2024/10/disrupting-coldriver",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+          "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+          "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+          "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+          "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+          "https://www.justice.gov/opa/media/1327601/dl?inline=",
+          "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+          "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+          "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+          "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+          "https://www.noticeofpleadings.com/starblizzard",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+          "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+              "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+              "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+              "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+              "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+              "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+              "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+              "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+              "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+              "https://citizenlab.ca/2024/10/disrupting-coldriver",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+              "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+              "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+              "https://www.justice.gov/opa/media/1327601/dl?inline=",
+              "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+              "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+              "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+              "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+              "https://www.noticeofpleadings.com/starblizzard",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+              "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+            ]
+          }
+        ],
+        "variants": [
+          "GOSSAMER BEAR"
+        ]
+      },
+      {
+        "compact_normalized_name": "ironfrontier",
+        "confidence": "source-provided",
+        "display_group_key": "ironfrontier",
+        "name": "IRON FRONTIER",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "iron frontier",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+          "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+          "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+          "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+          "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+          "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+          "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+          "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+          "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+          "https://citizenlab.ca/2024/10/disrupting-coldriver",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+          "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+          "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+          "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+          "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+          "https://www.justice.gov/opa/media/1327601/dl?inline=",
+          "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+          "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+          "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+          "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+          "https://www.noticeofpleadings.com/starblizzard",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+          "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+              "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+              "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+              "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+              "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+              "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+              "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+              "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+              "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+              "https://citizenlab.ca/2024/10/disrupting-coldriver",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+              "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+              "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+              "https://www.justice.gov/opa/media/1327601/dl?inline=",
+              "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+              "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+              "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+              "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+              "https://www.noticeofpleadings.com/starblizzard",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+              "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+            ]
+          }
+        ],
+        "variants": [
+          "IRON FRONTIER"
+        ]
+      },
+      {
+        "compact_normalized_name": "seaborgium",
+        "confidence": "source-provided",
+        "display_group_key": "seaborgium",
+        "name": "SEABORGIUM",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "seaborgium",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1033",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+          "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+          "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+          "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+          "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+          "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+          "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+          "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+          "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+          "https://citizenlab.ca/2024/10/disrupting-coldriver",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+          "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+          "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+          "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+          "https://www.justice.gov/opa/media/1327601/dl?inline=",
+          "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+          "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+          "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+          "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+          "https://www.noticeofpleadings.com/starblizzard",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+          "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+              "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+              "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+              "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+              "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+              "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+              "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+              "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+              "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+              "https://citizenlab.ca/2024/10/disrupting-coldriver",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+              "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+              "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+              "https://www.justice.gov/opa/media/1327601/dl?inline=",
+              "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+              "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+              "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+              "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+              "https://www.noticeofpleadings.com/starblizzard",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+              "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1033"
+            ]
+          }
+        ],
+        "variants": [
+          "SEABORGIUM"
+        ]
+      },
+      {
+        "compact_normalized_name": "ta446",
+        "confidence": "source-provided",
+        "display_group_key": "ta446",
+        "name": "TA446",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "ta446",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1033",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+          "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+          "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+          "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+          "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+          "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+          "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+          "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+          "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+          "https://citizenlab.ca/2024/10/disrupting-coldriver",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+          "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+          "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+          "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+          "https://www.justice.gov/opa/media/1327601/dl?inline=",
+          "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+          "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+          "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+          "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+          "https://www.noticeofpleadings.com/starblizzard",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+          "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+              "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+              "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+              "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+              "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+              "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+              "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+              "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+              "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+              "https://citizenlab.ca/2024/10/disrupting-coldriver",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+              "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+              "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+              "https://www.justice.gov/opa/media/1327601/dl?inline=",
+              "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+              "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+              "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+              "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+              "https://www.noticeofpleadings.com/starblizzard",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+              "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1033"
+            ]
+          }
+        ],
+        "variants": [
+          "TA446"
+        ]
+      },
+      {
+        "compact_normalized_name": "tag53",
+        "confidence": "source-provided",
+        "display_group_key": "tag53",
+        "name": "TAG-53",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "tag 53",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+          "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+          "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+          "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+          "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+          "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+          "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+          "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+          "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+          "https://citizenlab.ca/2024/10/disrupting-coldriver",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+          "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+          "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+          "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+          "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+          "https://www.justice.gov/opa/media/1327601/dl?inline=",
+          "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+          "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+          "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+          "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+          "https://www.noticeofpleadings.com/starblizzard",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+          "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+              "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+              "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+              "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+              "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+              "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+              "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+              "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+              "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+              "https://citizenlab.ca/2024/10/disrupting-coldriver",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+              "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+              "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+              "https://www.justice.gov/opa/media/1327601/dl?inline=",
+              "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+              "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+              "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+              "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+              "https://www.noticeofpleadings.com/starblizzard",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+              "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+            ]
+          }
+        ],
+        "variants": [
+          "TAG-53"
+        ]
+      },
+      {
+        "compact_normalized_name": "unc4057",
+        "confidence": "source-provided",
+        "display_group_key": "unc4057",
+        "name": "UNC4057",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc4057",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+          "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+          "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+          "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+          "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+          "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+          "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+          "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+          "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+          "https://citizenlab.ca/2024/10/disrupting-coldriver",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+          "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+          "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+          "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+          "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+          "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+          "https://www.justice.gov/opa/media/1327601/dl?inline=",
+          "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+          "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+          "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+          "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+          "https://www.noticeofpleadings.com/starblizzard",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+          "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware",
+              "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe",
+              "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe",
+              "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign",
+              "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets",
+              "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support",
+              "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war",
+              "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats",
+              "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe",
+              "https://citizenlab.ca/2024/10/disrupting-coldriver",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics",
+              "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections",
+              "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group",
+              "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes",
+              "https://www.justice.gov/opa/media/1327601/dl?inline=",
+              "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts",
+              "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks",
+              "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations",
+              "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf",
+              "https://www.noticeofpleadings.com/starblizzard",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html",
+              "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC4057"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g1033",
+          "name": "Acquire Infrastructure",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583",
+          "url": "https://attack.mitre.org/techniques/T1583/"
+        },
+        {
+          "actor_id": "mitre-g1033",
+          "name": "Domains",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+            "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583.001",
+          "url": "https://attack.mitre.org/techniques/T1583.001/"
+        },
+        {
+          "actor_id": "mitre-g1033",
+          "name": "Social Media Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+            "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1585.001",
+          "url": "https://attack.mitre.org/techniques/T1585.001/"
+        },
+        {
+          "actor_id": "mitre-g1033",
+          "name": "Email Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/",
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+            "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1585.002",
+          "url": "https://attack.mitre.org/techniques/T1585.002/"
+        },
+        {
+          "actor_id": "mitre-g1033",
+          "name": "Email Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1586.002",
+          "url": "https://attack.mitre.org/techniques/T1586.002/"
+        },
+        {
+          "actor_id": "mitre-g1033",
+          "name": "Tool",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+            "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1588.002",
+          "url": "https://attack.mitre.org/techniques/T1588.002/"
+        },
+        {
+          "actor_id": "mitre-g1033",
+          "name": "Upload Malware",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1608.001",
+          "url": "https://attack.mitre.org/techniques/T1608.001/"
+        },
+        {
+          "actor_id": "mitre-g1033",
+          "name": "Gather Victim Identity Information",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a"
+          ],
+          "tactics": [
+            "reconnaissance"
+          ],
+          "technique_id": "T1589",
+          "url": "https://attack.mitre.org/techniques/T1589/"
+        },
+        {
+          "actor_id": "mitre-g1033",
+          "name": "Search Open Websites/Domains",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+            "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/"
+          ],
+          "tactics": [
+            "reconnaissance"
+          ],
+          "technique_id": "T1593",
+          "url": "https://attack.mitre.org/techniques/T1593/"
+        },
+        {
+          "actor_id": "mitre-g1033",
+          "name": "Spearphishing Attachment",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/",
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+            "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/",
+            "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/"
+          ],
+          "tactics": [
+            "reconnaissance"
+          ],
+          "technique_id": "T1598.002",
+          "url": "https://attack.mitre.org/techniques/T1598.002/"
+        },
+        {
+          "actor_id": "mitre-g1033",
+          "name": "Spearphishing Link",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/",
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+            "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/",
+            "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/"
+          ],
+          "tactics": [
+            "reconnaissance"
+          ],
+          "technique_id": "T1598.003",
+          "url": "https://attack.mitre.org/techniques/T1598.003/"
+        },
+        {
+          "actor_id": "mitre-g1033",
+          "name": "JavaScript",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.007",
+          "url": "https://attack.mitre.org/techniques/T1059.007/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Acquire Infrastructure",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583",
+              "url": "https://attack.mitre.org/techniques/T1583/"
+            },
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+                "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Social Media Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+                "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585.001",
+              "url": "https://attack.mitre.org/techniques/T1585.001/"
+            },
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Email Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+                "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585.002",
+              "url": "https://attack.mitre.org/techniques/T1585.002/"
+            },
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Email Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1586.002",
+              "url": "https://attack.mitre.org/techniques/T1586.002/"
+            },
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+                "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Upload Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.001",
+              "url": "https://attack.mitre.org/techniques/T1608.001/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Gather Victim Identity Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1589",
+              "url": "https://attack.mitre.org/techniques/T1589/"
+            },
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Search Open Websites/Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+                "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1593",
+              "url": "https://attack.mitre.org/techniques/T1593/"
+            },
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+                "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/",
+                "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1598.002",
+              "url": "https://attack.mitre.org/techniques/T1598.002/"
+            },
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+                "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/",
+                "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1598.003",
+              "url": "https://attack.mitre.org/techniques/T1598.003/"
+            }
+          ],
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Remote Email Collection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1114.002",
+              "url": "https://attack.mitre.org/techniques/T1114.002/"
+            },
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Email Forwarding Rule",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+                "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1114.003",
+              "url": "https://attack.mitre.org/techniques/T1114.003/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1033",
+              "name": "JavaScript",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.007",
+              "url": "https://attack.mitre.org/techniques/T1059.007/"
+            },
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+                "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+                "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Impersonation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+                "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1684.001",
+              "url": "https://attack.mitre.org/techniques/T1684.001/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Steal Web Session Cookie",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1539",
+              "url": "https://attack.mitre.org/techniques/T1539/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+                "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a",
+                "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1033",
+              "name": "Web Session Cookie",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1550.004",
+              "url": "https://attack.mitre.org/techniques/T1550.004/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 7,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 4,
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        },
+        {
+          "count": 2,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 2,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 2,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 2,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 1,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 1,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 1,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        }
+      ],
+      "total": 20
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G1033/"
+          ]
+        }
+      ],
+      "text": "Star Blizzard is a cyber espionage and influence group originating in Russia that has been active since at least 2019. Star Blizzard campaigns align closely with Russian state interests and have included persistent phishing and credential theft against academic, defense, government, NGO, and think tank organizations in NATO countries, particularly the US and the UK.(Citation: Microsoft Star Blizzard August 2022)(Citation: CISA Star Blizzard Advisory December 2023)(Citation: StarBlizzard)(Citation: Google TAG COLDRIVER January 2024)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G1033"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.google/threat-analysis-group/tracking-cyber-activity-eastern-europe"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.sekoia.io/calisto-continues-its-credential-harvesting-campaign"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.sekoia.io/calisto-doxxing-sekoia-io-findings-concurs-to-reuters-investigation-on-fsb-related-andrey-korinets"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.sekoia.io/calisto-show-interests-into-entities-involved-in-ukraine-war-support"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.sekoia.io/one-year-after-the-cyber-implications-of-the-russo-ukrainian-war"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://blogs.microsoft.com/on-the-issues/2024/10/03/protecting-democratic-institutions-from-cyber-threats"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://citizenlab.ca/2024/08/sophisticated-phishing-targets-russias-perceived-enemies-around-the-globe"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://citizenlab.ca/2024/10/disrupting-coldriver"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-2024-paris-olympics"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/cyber-threats-global-elections"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://edeca.net/post/2024-06-26-an-interesting-callisto-yara-rule"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://go.recordedfuture.com/hubfs/reports/cta-2022-1205.pdf"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20170417102235/https://www.f-secure.com/documents/996508/1030745/callisto-group"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.gov.uk/government/news/uk-exposes-attempted-russian-cyber-interference-in-politics-and-democratic-processes"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/opa/media/1327601/dl?inline="
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/opa/pr/two-russian-nationals-working-russias-federal-security-service-charged-global-computer"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/security/blog/2022/08/15/disrupting-seaborgiums-ongoing-phishing-operations"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ncsc.gov.uk/files/Advisory-Russian-FSB-cyber-actor-star-blizzard-continues-worldwide-spear-sphishing-campaigns.pdf"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.noticeofpleadings.com/starblizzard"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/blue-callisto-orbits-around-us.html"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/coldwastrel-space.html"
+      },
+      {
+        "actor_id": "mitre-g1033",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.recordedfuture.com/research/bluecharlie-previously-tracked-as-tag-53-continues-to-deploy-new-infrastructure-in-2023"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            },
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            },
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "Blue Callisto",
+      "BlueCharlie",
+      "Callisto",
+      "Callisto Group",
+      "COLDRIVER",
+      "GOSSAMER BEAR",
+      "IRON FRONTIER",
+      "SEABORGIUM",
+      "Star Blizzard",
+      "TA446",
+      "TAG-53",
+      "UNC4057"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

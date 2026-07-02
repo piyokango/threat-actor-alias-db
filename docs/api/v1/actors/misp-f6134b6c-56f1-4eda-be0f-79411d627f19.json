@@ -1,0 +1,186 @@
+{
+  "actor": {
+    "actor_id": "misp-f6134b6c-56f1-4eda-be0f-79411d627f19",
+    "canonical_name": "TaskMasters",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-f6134b6c-56f1-4eda-be0f-79411d627f19"
+    ],
+    "misp_uuid": "f6134b6c-56f1-4eda-be0f-79411d627f19",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "taskmasters",
+        "confidence": "source-provided",
+        "display_group_key": "taskmasters",
+        "name": "TaskMasters",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "taskmasters",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://decoded.avast.io/luigicamastra/apt-group-targeting-governmental-agencies-in-east-asia",
+          "https://www.group-ib.com/blog/task"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://decoded.avast.io/luigicamastra/apt-group-targeting-governmental-agencies-in-east-asia",
+              "https://www.group-ib.com/blog/task"
+            ]
+          }
+        ],
+        "variants": [
+          "TaskMasters"
+        ]
+      },
+      {
+        "compact_normalized_name": "bluetraveller",
+        "confidence": "source-provided",
+        "display_group_key": "bluetraveller",
+        "name": "BlueTraveller",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "bluetraveller",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://decoded.avast.io/luigicamastra/apt-group-targeting-governmental-agencies-in-east-asia",
+          "https://www.group-ib.com/blog/task"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://decoded.avast.io/luigicamastra/apt-group-targeting-governmental-agencies-in-east-asia",
+              "https://www.group-ib.com/blog/task"
+            ]
+          }
+        ],
+        "variants": [
+          "BlueTraveller"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "TaskMasters is a state-sponsored Chinese APT that has been active since at least 2010, primarily targeting industrial, energy, and government sectors in Russia and the CIS. The group has been linked to the Webdav-O Trojan, which employs techniques to bypass network defenses by connecting to legitimate services. Investigations suggest that TaskMasters may have been involved in attacks against Russian federal executive authorities in 2020, potentially alongside another Chinese group, TA428. Additionally, the group has been associated with the BackDoor.RemShell.24 malware, indicating a diverse toolkit in their operations."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-f6134b6c-56f1-4eda-be0f-79411d627f19",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://decoded.avast.io/luigicamastra/apt-group-targeting-governmental-agencies-in-east-asia"
+      },
+      {
+        "actor_id": "misp-f6134b6c-56f1-4eda-be0f-79411d627f19",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.group-ib.com/blog/task"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "BlueTraveller",
+      "TaskMasters"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,159 @@
+{
+  "actor": {
+    "actor_id": "misp-3ebf503c-c554-4ac3-aa3e-3ef114ca2345",
+    "canonical_name": "CIRCUS SPIDER",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-3ebf503c-c554-4ac3-aa3e-3ef114ca2345"
+    ],
+    "misp_uuid": "3ebf503c-c554-4ac3-aa3e-3ef114ca2345",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "circusspider",
+        "confidence": "source-provided",
+        "display_group_key": "circusspider",
+        "name": "CIRCUS SPIDER",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "circus spider",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/ReportCSIT-20081e.pdf",
+          "https://www.crowdstrike.com/blog/analysis-of-ecrime-menu-style-toolkits",
+          "https://www.crowdstrike.com/blog/ransomware-preparedness-a-call-to-action"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/ReportCSIT-20081e.pdf",
+              "https://www.crowdstrike.com/blog/analysis-of-ecrime-menu-style-toolkits",
+              "https://www.crowdstrike.com/blog/ransomware-preparedness-a-call-to-action"
+            ]
+          }
+        ],
+        "variants": [
+          "CIRCUS SPIDER"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "According to Crowdstrike, the NetWalker ransomware is being developed and maintained by a Russian-speaking actor designated as CIRCUS SPIDER. Initially discovered in September 2019and havinga compilation timestamp dating back to 28 August 2019, NetWalker has been found to be used in Big Game Hunting (BGH)-style operations while also being distributed via spam. CIRCUS SPIDER is advertising NetWalkeras being a closed-affiliate program,and verifies applicants before they are being accepted as an affiliate. The requirements rangefrom providing proof of previous revenue in similar affiliates programs, experience in the field and what type of industry the applicantis targeting."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-3ebf503c-c554-4ac3-aa3e-3ef114ca2345",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/ReportCSIT-20081e.pdf"
+      },
+      {
+        "actor_id": "misp-3ebf503c-c554-4ac3-aa3e-3ef114ca2345",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/analysis-of-ecrime-menu-style-toolkits"
+      },
+      {
+        "actor_id": "misp-3ebf503c-c554-4ac3-aa3e-3ef114ca2345",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/ransomware-preparedness-a-call-to-action"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "CIRCUS SPIDER"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

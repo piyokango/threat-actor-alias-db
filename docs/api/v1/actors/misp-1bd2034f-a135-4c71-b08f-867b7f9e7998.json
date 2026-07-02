@@ -1,0 +1,117 @@
+{
+  "actor": {
+    "actor_id": "misp-1bd2034f-a135-4c71-b08f-867b7f9e7998",
+    "canonical_name": "SEXi",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-1bd2034f-a135-4c71-b08f-867b7f9e7998"
+    ],
+    "misp_uuid": "1bd2034f-a135-4c71-b08f-867b7f9e7998",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "sexi",
+        "confidence": "source-provided",
+        "display_group_key": "sexi",
+        "name": "SEXi",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "sexi",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://heimdalsecurity.com/blog/powerhosts-esxi-servers-encrypted-with-new-sexi-ransomware",
+          "https://www.cybersecurity-insiders.com/proven-data-restores-powerhosts-vmware-backups-after-sexi-ransomware-attack",
+          "https://www.darkreading.com/threat-intelligence/sexi-ransomware-desires-vmware-hypervisors"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://heimdalsecurity.com/blog/powerhosts-esxi-servers-encrypted-with-new-sexi-ransomware",
+              "https://www.cybersecurity-insiders.com/proven-data-restores-powerhosts-vmware-backups-after-sexi-ransomware-attack",
+              "https://www.darkreading.com/threat-intelligence/sexi-ransomware-desires-vmware-hypervisors"
+            ]
+          }
+        ],
+        "variants": [
+          "SEXi"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "SEXi is a ransomware group that targets VMware ESXi servers, encrypting data and demanding ransom payments. They have been observed encrypting virtual machines and backups, causing significant disruptions to services. The group's name is a play on the word \"ESXi,\" indicating a deliberate focus on these systems. SEXi has been linked to other ransomware variants based on the Babuk source code."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-1bd2034f-a135-4c71-b08f-867b7f9e7998",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://heimdalsecurity.com/blog/powerhosts-esxi-servers-encrypted-with-new-sexi-ransomware"
+      },
+      {
+        "actor_id": "misp-1bd2034f-a135-4c71-b08f-867b7f9e7998",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cybersecurity-insiders.com/proven-data-restores-powerhosts-vmware-backups-after-sexi-ransomware-attack"
+      },
+      {
+        "actor_id": "misp-1bd2034f-a135-4c71-b08f-867b7f9e7998",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.darkreading.com/threat-intelligence/sexi-ransomware-desires-vmware-hypervisors"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "SEXi"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

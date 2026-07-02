@@ -1,0 +1,427 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0028",
+    "canonical_name": "Threat Group-1314",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0028"
+    ],
+    "misp_uuid": null,
+    "mitre_id": "G0028",
+    "names": [
+      {
+        "compact_normalized_name": "threatgroup1314",
+        "confidence": "source-provided",
+        "display_group_key": "threatgroup1314",
+        "name": "Threat Group-1314",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "threat group 1314",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0028"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0028"
+            ]
+          }
+        ],
+        "variants": [
+          "Threat Group-1314"
+        ]
+      },
+      {
+        "compact_normalized_name": "tg1314",
+        "confidence": "source-provided",
+        "display_group_key": "tg1314",
+        "name": "TG-1314",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "tg 1314",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0028"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0028"
+            ]
+          }
+        ],
+        "variants": [
+          "TG-1314"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0028",
+          "name": "SMB/Windows Admin Shares",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/"
+          ],
+          "tactics": [
+            "lateral-movement"
+          ],
+          "technique_id": "T1021.002",
+          "url": "https://attack.mitre.org/techniques/T1021.002/"
+        },
+        {
+          "actor_id": "mitre-g0028",
+          "name": "Windows Command Shell",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.003",
+          "url": "https://attack.mitre.org/techniques/T1059.003/"
+        },
+        {
+          "actor_id": "mitre-g0028",
+          "name": "Software Deployment Tools",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/"
+          ],
+          "tactics": [
+            "execution",
+            "lateral-movement"
+          ],
+          "technique_id": "T1072",
+          "url": "https://attack.mitre.org/techniques/T1072/"
+        },
+        {
+          "actor_id": "mitre-g0028",
+          "name": "Domain Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078.002",
+          "url": "https://attack.mitre.org/techniques/T1078.002/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0028",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            },
+            {
+              "actor_id": "mitre-g0028",
+              "name": "Software Deployment Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/"
+              ],
+              "tactics": [
+                "execution",
+                "lateral-movement"
+              ],
+              "technique_id": "T1072",
+              "url": "https://attack.mitre.org/techniques/T1072/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0028",
+              "name": "SMB/Windows Admin Shares",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.002",
+              "url": "https://attack.mitre.org/techniques/T1021.002/"
+            },
+            {
+              "actor_id": "mitre-g0028",
+              "name": "Software Deployment Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/"
+              ],
+              "tactics": [
+                "execution",
+                "lateral-movement"
+              ],
+              "technique_id": "T1072",
+              "url": "https://attack.mitre.org/techniques/T1072/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0028",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0028",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0028",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0028",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 2,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 2,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 1,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 1,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        }
+      ],
+      "total": 4
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0028/"
+          ]
+        }
+      ],
+      "text": "Threat Group-1314 is an unattributed threat group that has used compromised credentials to log into a victim's remote access infrastructure. (Citation: Dell TG-1314)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0028",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0028"
+      },
+      {
+        "actor_id": "mitre-g0028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20150626073312/http://www.secureworks.com/resources/blog/living-off-the-land"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "TG-1314",
+      "Threat Group-1314"
+    ],
+    "source_ids": [
+      "external-reference",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

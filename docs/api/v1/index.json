@@ -1,0 +1,21 @@
+{
+  "api_version": "v1",
+  "description": "Static REST-like JSON API for Threat Actor Alias DB.",
+  "endpoints": {
+    "actor_detail": "api/v1/actors/<actor_id>.json",
+    "actors": "api/v1/actors.json",
+    "precomputed_name_lookup": "api/v1/names/<name-key>.json",
+    "precomputed_search": "api/v1/search/<query-key>.json",
+    "search_index": "api/v1/search-index.json"
+  },
+  "generated_at": "2026-07-02T05:52:38Z",
+  "limits": {
+    "max_key_length": 100,
+    "max_name_files": 20000,
+    "max_search_files": 20000
+  },
+  "notes": [
+    "This is a static API for GitHub Pages. Dynamic server-side search is not available.",
+    "Use compact normalized query keys. Example: APT 28, APT28, and APT-28 map to apt28."
+  ]
+}

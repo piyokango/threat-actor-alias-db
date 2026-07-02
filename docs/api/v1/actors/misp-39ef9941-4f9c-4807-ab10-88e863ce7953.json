@@ -1,0 +1,127 @@
+{
+  "actor": {
+    "actor_id": "misp-39ef9941-4f9c-4807-ab10-88e863ce7953",
+    "canonical_name": "Keksec",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-39ef9941-4f9c-4807-ab10-88e863ce7953"
+    ],
+    "misp_uuid": "39ef9941-4f9c-4807-ab10-88e863ce7953",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "keksec",
+        "confidence": "source-provided",
+        "display_group_key": "keksec",
+        "name": "Keksec",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "keksec",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.netlab.360.com/gafgtyt_tor-and-necro-are-on-the-move-again",
+          "https://blog.netlab.360.com/necro-upgrades-again-using-tor-dynamic-domain-dga-and-aiming-at-both-windows-linux",
+          "https://www.cybersecurity-insiders.com/rapidly-evolving-iot-malware-enemybot-now-targeting-content-management-system-servers-and-android-devices",
+          "https://www.fortinet.com/blog/threat-research/enemybot-a-look-into-keksecs-latest-ddos-botnet"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.netlab.360.com/gafgtyt_tor-and-necro-are-on-the-move-again",
+              "https://blog.netlab.360.com/necro-upgrades-again-using-tor-dynamic-domain-dga-and-aiming-at-both-windows-linux",
+              "https://www.cybersecurity-insiders.com/rapidly-evolving-iot-malware-enemybot-now-targeting-content-management-system-servers-and-android-devices",
+              "https://www.fortinet.com/blog/threat-research/enemybot-a-look-into-keksecs-latest-ddos-botnet"
+            ]
+          }
+        ],
+        "variants": [
+          "Keksec"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "The threat group behind EnemyBot, Keksec, is well-resourced and has the ability to update and add new capabilities to its arsenal of malware on a daily basis (see below for more detail on Keksec)"
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-39ef9941-4f9c-4807-ab10-88e863ce7953",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.netlab.360.com/gafgtyt_tor-and-necro-are-on-the-move-again"
+      },
+      {
+        "actor_id": "misp-39ef9941-4f9c-4807-ab10-88e863ce7953",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.netlab.360.com/necro-upgrades-again-using-tor-dynamic-domain-dga-and-aiming-at-both-windows-linux"
+      },
+      {
+        "actor_id": "misp-39ef9941-4f9c-4807-ab10-88e863ce7953",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cybersecurity-insiders.com/rapidly-evolving-iot-malware-enemybot-now-targeting-content-management-system-servers-and-android-devices"
+      },
+      {
+        "actor_id": "misp-39ef9941-4f9c-4807-ab10-88e863ce7953",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fortinet.com/blog/threat-research/enemybot-a-look-into-keksecs-latest-ddos-botnet"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Keksec"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

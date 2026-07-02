@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-6e899dd4-f95e-42a0-a5a3-e57249f017cf",
+    "canonical_name": "Flash Kitten",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-6e899dd4-f95e-42a0-a5a3-e57249f017cf"
+    ],
+    "misp_uuid": "6e899dd4-f95e-42a0-a5a3-e57249f017cf",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "flashkitten",
+        "confidence": "source-provided",
+        "display_group_key": "flashkitten",
+        "name": "Flash Kitten",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "flash kitten",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report"
+            ]
+          }
+        ],
+        "variants": [
+          "Flash Kitten"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "This suspected Iran-based adversary conducted long-running SWC campaigns from December 2016 until public disclosure in July 2018. Like other Iran-based actors, the target scope for FLASH KITTEN appears to be focused on the MENA region."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-6e899dd4-f95e-42a0-a5a3-e57249f017cf",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Flash Kitten"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

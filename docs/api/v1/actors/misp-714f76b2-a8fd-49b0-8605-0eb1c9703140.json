@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-714f76b2-a8fd-49b0-8605-0eb1c9703140",
+    "canonical_name": "UAC-0194",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-714f76b2-a8fd-49b0-8605-0eb1c9703140"
+    ],
+    "misp_uuid": "714f76b2-a8fd-49b0-8605-0eb1c9703140",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "uac0194",
+        "confidence": "source-provided",
+        "display_group_key": "uac0194",
+        "name": "UAC-0194",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uac 0194",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.clearskysec.com/0d-vulnerability-exploited-in-the_wild"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.clearskysec.com/0d-vulnerability-exploited-in-the_wild"
+            ]
+          }
+        ],
+        "variants": [
+          "UAC-0194"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UAC-0194 is a Russian threat actor linked to the exploitation of the Windows zero-day CVE-2024-43451, which was used in attacks against Ukrainian organizations. The group delivered phishing emails containing .url files that, when interacted with, exploited the vulnerability to facilitate the installation of additional payloads, including the SparkRAT trojan. They also exploited the Server Message Block protocol for NTLM hash exfiltration. CERT-UA has associated UAC-0194's activities with social engineering tactics to convince victims to execute malicious files."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-714f76b2-a8fd-49b0-8605-0eb1c9703140",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.clearskysec.com/0d-vulnerability-exploited-in-the_wild"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "UAC-0194"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

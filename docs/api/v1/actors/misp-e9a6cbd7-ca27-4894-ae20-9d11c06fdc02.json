@@ -1,0 +1,198 @@
+{
+  "actor": {
+    "actor_id": "misp-e9a6cbd7-ca27-4894-ae20-9d11c06fdc02",
+    "canonical_name": "Unit 8200",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-e9a6cbd7-ca27-4894-ae20-9d11c06fdc02"
+    ],
+    "misp_uuid": "e9a6cbd7-ca27-4894-ae20-9d11c06fdc02",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unit8200",
+        "confidence": "source-provided",
+        "display_group_key": "unit8200",
+        "name": "Unit 8200",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unit 8200",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://archive.org/details/Stuxnet",
+          "https://securelist.com/blog/research/70504/the-mystery-of-duqu-2-0-a-sophisticated-cyberespionage-actor-returns",
+          "https://www.cfr.org/interactive/cyber-operations/duqu",
+          "https://www.cfr.org/interactive/cyber-operations/duqu-20"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://archive.org/details/Stuxnet",
+              "https://securelist.com/blog/research/70504/the-mystery-of-duqu-2-0-a-sophisticated-cyberespionage-actor-returns",
+              "https://www.cfr.org/interactive/cyber-operations/duqu",
+              "https://www.cfr.org/interactive/cyber-operations/duqu-20"
+            ]
+          }
+        ],
+        "variants": [
+          "Unit 8200"
+        ]
+      },
+      {
+        "compact_normalized_name": "duqugroup",
+        "confidence": "source-provided",
+        "display_group_key": "duqugroup",
+        "name": "Duqu Group",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "duqu group",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://archive.org/details/Stuxnet",
+          "https://securelist.com/blog/research/70504/the-mystery-of-duqu-2-0-a-sophisticated-cyberespionage-actor-returns",
+          "https://www.cfr.org/interactive/cyber-operations/duqu",
+          "https://www.cfr.org/interactive/cyber-operations/duqu-20"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://archive.org/details/Stuxnet",
+              "https://securelist.com/blog/research/70504/the-mystery-of-duqu-2-0-a-sophisticated-cyberespionage-actor-returns",
+              "https://www.cfr.org/interactive/cyber-operations/duqu",
+              "https://www.cfr.org/interactive/cyber-operations/duqu-20"
+            ]
+          }
+        ],
+        "variants": [
+          "Duqu Group"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": null,
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-e9a6cbd7-ca27-4894-ae20-9d11c06fdc02",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://archive.org/details/Stuxnet"
+      },
+      {
+        "actor_id": "misp-e9a6cbd7-ca27-4894-ae20-9d11c06fdc02",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/blog/research/70504/the-mystery-of-duqu-2-0-a-sophisticated-cyberespionage-actor-returns"
+      },
+      {
+        "actor_id": "misp-e9a6cbd7-ca27-4894-ae20-9d11c06fdc02",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/duqu"
+      },
+      {
+        "actor_id": "misp-e9a6cbd7-ca27-4894-ae20-9d11c06fdc02",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/duqu-20"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "IL",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IL"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "IL",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IL"
+        }
+      ]
+    },
+    "search_names": [
+      "Duqu Group",
+      "Unit 8200"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-6ccf810e-3021-4974-9b1e-29fb6cdcaedc",
+    "canonical_name": "Earth Alux",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-6ccf810e-3021-4974-9b1e-29fb6cdcaedc"
+    ],
+    "misp_uuid": "6ccf810e-3021-4974-9b1e-29fb6cdcaedc",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "earthalux",
+        "confidence": "source-provided",
+        "display_group_key": "earthalux",
+        "name": "Earth Alux",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "earth alux",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.trendmicro.com/en_us/research/25/c/the-espionage-toolkit-of-earth-alux.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.trendmicro.com/en_us/research/25/c/the-espionage-toolkit-of-earth-alux.html"
+            ]
+          }
+        ],
+        "variants": [
+          "Earth Alux"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Earth Alux is a China-linked APT group known for conducting cyberespionage attacks across various sectors, including government, technology, and telecommunications. They primarily exploit vulnerable services in exposed servers to gain initial access, implanting web shells like GODZILLA and deploying backdoors such as VARGEIT and COBEACON. The group employs tools like RSBINJECT and MASQLOADER for lateral movement and network discovery, while also utilizing RAILSETTER for persistence through mspaint injection. Their operations have predominantly targeted the APAC region and have extended to Latin America, with a focus on exfiltrating sensitive information to attacker-controlled cloud storage."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-6ccf810e-3021-4974-9b1e-29fb6cdcaedc",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/25/c/the-espionage-toolkit-of-earth-alux.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "Earth Alux"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

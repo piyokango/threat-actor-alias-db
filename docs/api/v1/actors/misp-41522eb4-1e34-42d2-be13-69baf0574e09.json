@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-41522eb4-1e34-42d2-be13-69baf0574e09",
+    "canonical_name": "UAC-0226",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-41522eb4-1e34-42d2-be13-69baf0574e09"
+    ],
+    "misp_uuid": "41522eb4-1e34-42d2-be13-69baf0574e09",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "uac0226",
+        "confidence": "source-provided",
+        "display_group_key": "uac0226",
+        "name": "UAC-0226",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uac 0226",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cert.gov.ua/article/6282946",
+          "https://socprime.com/blog/detect-uac-0226-attacks-against-ukraine"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cert.gov.ua/article/6282946",
+              "https://socprime.com/blog/detect-uac-0226-attacks-against-ukraine"
+            ]
+          }
+        ],
+        "variants": [
+          "UAC-0226"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UAC-0226 is a cyber-espionage group targeting Ukrainian military, law enforcement, and local government entities—particularly near the eastern border—since February 2025. Initial access is achieved via phishing emails containing malicious .xlsm documents that decode and execute base64-encoded payloads stored in spreadsheet cells. Two main tools are used: a .NET-based reverse shell leveraging PowerShell code from a public GitHub repository (https://github.com/tihanyin/PSSW100AVB), and GIFTEDCROOK, a C/C++ stealer that extracts browser data (cookies, history, credentials), archives it with PowerShell, and exfiltrates via Telegram. The group often abuses compromised webmail accounts for..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-41522eb4-1e34-42d2-be13-69baf0574e09",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cert.gov.ua/article/6282946"
+      },
+      {
+        "actor_id": "misp-41522eb4-1e34-42d2-be13-69baf0574e09",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socprime.com/blog/detect-uac-0226-attacks-against-ukraine"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "UAC-0226"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-6ec20d92-b194-40dc-a486-af335cf85a78",
+    "canonical_name": "GrayCharlie",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-6ec20d92-b194-40dc-a486-af335cf85a78"
+    ],
+    "misp_uuid": "6ec20d92-b194-40dc-a486-af335cf85a78",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "graycharlie",
+        "confidence": "source-provided",
+        "display_group_key": "graycharlie",
+        "name": "GrayCharlie",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "graycharlie",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.recordedfuture.com/research/graycharlie-hijacks-law-firm-sites-suspected-supply-chain-attack"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.recordedfuture.com/research/graycharlie-hijacks-law-firm-sites-suspected-supply-chain-attack"
+            ]
+          }
+        ],
+        "variants": [
+          "GrayCharlie"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "GrayCharlie is a threat actor that compromises WordPress sites to inject malicious JavaScript, redirecting visitors to NetSupport RAT payloads via fake browser update pages or ClickFix mechanisms. Insikt Group has identified extensive infrastructure linked to GrayCharlie, primarily associated with MivoCloud and HZ Hosting Ltd., including command-and-control servers and staging infrastructure. The group employs two primary attack chains to deliver the NetSupport RAT, utilizing both fake updates and ClickFix techniques. GrayCharlie targets organizations worldwide, with a particular focus on the US, and has shown persistent behavior in its operations since its emergence in 2023."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-6ec20d92-b194-40dc-a486-af335cf85a78",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.recordedfuture.com/research/graycharlie-hijacks-law-firm-sites-suspected-supply-chain-attack"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "GrayCharlie"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,127 @@
+{
+  "actor": {
+    "actor_id": "misp-e06e1bcd-7da2-4732-934a-9fa1efa427ad",
+    "canonical_name": "Blacktail",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-e06e1bcd-7da2-4732-934a-9fa1efa427ad"
+    ],
+    "misp_uuid": "e06e1bcd-7da2-4732-934a-9fa1efa427ad",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "blacktail",
+        "confidence": "source-provided",
+        "display_group_key": "blacktail",
+        "name": "Blacktail",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "blacktail",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://fortiguard.fortinet.com/threat-signal-report/5170",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/buhti-ransomware",
+          "https://www.redpacketsecurity.com/buhti-ransomware-gang-switches-tactics-utilizes-leaked-lockbit-and-babuk-code",
+          "https://www.redpacketsecurity.com/new-buhti-ransomware-gang-uses-leaked-windows-linux-encryptors"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://fortiguard.fortinet.com/threat-signal-report/5170",
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/buhti-ransomware",
+              "https://www.redpacketsecurity.com/buhti-ransomware-gang-switches-tactics-utilizes-leaked-lockbit-and-babuk-code",
+              "https://www.redpacketsecurity.com/new-buhti-ransomware-gang-uses-leaked-windows-linux-encryptors"
+            ]
+          }
+        ],
+        "variants": [
+          "Blacktail"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Blacktail is a cybercrime group that has gained attention for its ransomware campaigns, particularly the Buhti ransomware. They are known for using custom-built data exfiltration tools and have been observed exploiting vulnerabilities in both Windows and Linux systems."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-e06e1bcd-7da2-4732-934a-9fa1efa427ad",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://fortiguard.fortinet.com/threat-signal-report/5170"
+      },
+      {
+        "actor_id": "misp-e06e1bcd-7da2-4732-934a-9fa1efa427ad",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/buhti-ransomware"
+      },
+      {
+        "actor_id": "misp-e06e1bcd-7da2-4732-934a-9fa1efa427ad",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.redpacketsecurity.com/buhti-ransomware-gang-switches-tactics-utilizes-leaked-lockbit-and-babuk-code"
+      },
+      {
+        "actor_id": "misp-e06e1bcd-7da2-4732-934a-9fa1efa427ad",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.redpacketsecurity.com/new-buhti-ransomware-gang-uses-leaked-windows-linux-encryptors"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Blacktail"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

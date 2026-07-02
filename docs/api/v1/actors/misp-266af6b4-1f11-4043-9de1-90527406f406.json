@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-266af6b4-1f11-4043-9de1-90527406f406",
+    "canonical_name": "NetRunnerPR",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-266af6b4-1f11-4043-9de1-90527406f406"
+    ],
+    "misp_uuid": "266af6b4-1f11-4043-9de1-90527406f406",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "netrunnerpr",
+        "confidence": "source-provided",
+        "display_group_key": "netrunnerpr",
+        "name": "NetRunnerPR",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "netrunnerpr",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://botcrawl.com/nippon-medical-school-musashi-kosugi-hospital-data-breach-claimed-by-netrunnerpr"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://botcrawl.com/nippon-medical-school-musashi-kosugi-hospital-data-breach-claimed-by-netrunnerpr"
+            ]
+          }
+        ],
+        "variants": [
+          "NetRunnerPR"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "NetRunnerPR has claimed to breach the networks of Shiraume Hospital and Nippon Medical School Musashi Kosugi Hospital in Japan, exfiltrating patient PII and medical records. The actor announced plans to release a complete database on March 5, 2026, and an additional 20,000 records on February 16, 2026, contingent on undisclosed conditions. The claims were made on a cybercrime forum, accompanied by sample data to validate the breaches. NetRunnerPR's account shows limited activity history and lacks a documented history of major ransomware operations or confirmed breaches, raising questions about the credibility of the claims."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-266af6b4-1f11-4043-9de1-90527406f406",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://botcrawl.com/nippon-medical-school-musashi-kosugi-hospital-data-breach-claimed-by-netrunnerpr"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "NetRunnerPR"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

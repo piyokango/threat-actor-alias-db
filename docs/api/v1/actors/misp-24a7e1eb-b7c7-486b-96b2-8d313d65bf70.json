@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-24a7e1eb-b7c7-486b-96b2-8d313d65bf70",
+    "canonical_name": "ShadowSyndicate",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-24a7e1eb-b7c7-486b-96b2-8d313d65bf70"
+    ],
+    "misp_uuid": "24a7e1eb-b7c7-486b-96b2-8d313d65bf70",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "shadowsyndicate",
+        "confidence": "source-provided",
+        "display_group_key": "shadowsyndicate",
+        "name": "ShadowSyndicate",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "shadowsyndicate",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.group-ib.com/blog/shadowsyndicate-raas"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.group-ib.com/blog/shadowsyndicate-raas"
+            ]
+          }
+        ],
+        "variants": [
+          "ShadowSyndicate"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "ShadowSyndicate is a threat actor associated with various ransomware groups, using a consistent Secure Shell fingerprint across multiple servers. They have been linked to ransomware families such as Quantum, Nokoyawa, and ALPHV. ShadowSyndicate's infrastructure overlaps with that of Cl0p, suggesting potential connections between the two groups. Their activities indicate they may be a Ransomware-as-a-Service affiliate."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-24a7e1eb-b7c7-486b-96b2-8d313d65bf70",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.group-ib.com/blog/shadowsyndicate-raas"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "ShadowSyndicate"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

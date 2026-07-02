@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-102b6626-1576-4034-83bb-bd9d54ae0e5e",
+    "canonical_name": "Storm-0826",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-102b6626-1576-4034-83bb-bd9d54ae0e5e"
+    ],
+    "misp_uuid": "102b6626-1576-4034-83bb-bd9d54ae0e5e",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "storm0826",
+        "confidence": "source-provided",
+        "display_group_key": "storm0826",
+        "name": "Storm-0826",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 0826",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://applied-gai-in-security.ghost.io/security-copilot-promptbook-threat-actor-profile",
+          "https://www.youtube.com/watch?v=U7p0J8aMZhM&t=193s"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://applied-gai-in-security.ghost.io/security-copilot-promptbook-threat-actor-profile",
+              "https://www.youtube.com/watch?v=U7p0J8aMZhM&t=193s"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-0826"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Storm-0826 is a financially motivated cybercriminal group operating as an affiliate within the Black Basta ransomware-as-a-service (RaaS) ecosystem. This actor's primary known method of obtaining initial access is through handoffs from Storm-0464, a known distributor of the Qakbot malware"
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-102b6626-1576-4034-83bb-bd9d54ae0e5e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://applied-gai-in-security.ghost.io/security-copilot-promptbook-threat-actor-profile"
+      },
+      {
+        "actor_id": "misp-102b6626-1576-4034-83bb-bd9d54ae0e5e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.youtube.com/watch?v=U7p0J8aMZhM&t=193s"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Storm-0826"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

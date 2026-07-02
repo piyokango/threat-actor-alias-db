@@ -1,0 +1,198 @@
+{
+  "actor": {
+    "actor_id": "misp-202f5481-7bae-4a0b-b117-0642ea1dbe65",
+    "canonical_name": "Witchetty",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-202f5481-7bae-4a0b-b117-0642ea1dbe65"
+    ],
+    "misp_uuid": "202f5481-7bae-4a0b-b117-0642ea1dbe65",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "witchetty",
+        "confidence": "source-provided",
+        "display_group_key": "witchetty",
+        "name": "Witchetty",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "witchetty",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/witchetty-steganography-espionage",
+          "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-witchetty-apt-group-active-iocs",
+          "https://www.welivesecurity.com/2022/04/27/lookback-ta410-umbrella-cyberespionage-ttps-activity"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/witchetty-steganography-espionage",
+              "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-witchetty-apt-group-active-iocs",
+              "https://www.welivesecurity.com/2022/04/27/lookback-ta410-umbrella-cyberespionage-ttps-activity"
+            ]
+          }
+        ],
+        "variants": [
+          "Witchetty"
+        ]
+      },
+      {
+        "compact_normalized_name": "lookingfrog",
+        "confidence": "source-provided",
+        "display_group_key": "lookingfrog",
+        "name": "LookingFrog",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "lookingfrog",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/witchetty-steganography-espionage",
+          "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-witchetty-apt-group-active-iocs",
+          "https://www.welivesecurity.com/2022/04/27/lookback-ta410-umbrella-cyberespionage-ttps-activity"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/witchetty-steganography-espionage",
+              "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-witchetty-apt-group-active-iocs",
+              "https://www.welivesecurity.com/2022/04/27/lookback-ta410-umbrella-cyberespionage-ttps-activity"
+            ]
+          }
+        ],
+        "variants": [
+          "LookingFrog"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Witchetty was first documented by ESET in April 2022, who concluded that it was one of three sub-groups of TA410, a broad cyber-espionage operation with some links to the Cicada group (aka APT10). Witchetty’s activity was characterized by the use of two pieces of malware, a first-stage backdoor known as X4 and a second-stage payload known as LookBack. ESET reported that the group had targeted governments, diplomatic missions, charities, and industrial/manufacturing organizations."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-202f5481-7bae-4a0b-b117-0642ea1dbe65",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/witchetty-steganography-espionage"
+      },
+      {
+        "actor_id": "misp-202f5481-7bae-4a0b-b117-0642ea1dbe65",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-witchetty-apt-group-active-iocs"
+      },
+      {
+        "actor_id": "misp-202f5481-7bae-4a0b-b117-0642ea1dbe65",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.welivesecurity.com/2022/04/27/lookback-ta410-umbrella-cyberespionage-ttps-activity"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "LookingFrog",
+      "Witchetty"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-df584835-97da-4e27-ab35-bcd3c5bf7815",
+    "canonical_name": "Void Banshee",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-df584835-97da-4e27-ab35-bcd3c5bf7815"
+    ],
+    "misp_uuid": "df584835-97da-4e27-ab35-bcd3c5bf7815",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "voidbanshee",
+        "confidence": "source-provided",
+        "display_group_key": "voidbanshee",
+        "name": "Void Banshee",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "void banshee",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.trendmicro.com/en_us/research/24/g/CVE-2024-38112-void-banshee.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.trendmicro.com/en_us/research/24/g/CVE-2024-38112-void-banshee.html"
+            ]
+          }
+        ],
+        "variants": [
+          "Void Banshee"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Void Banshee is an APT group targeting North America, Europe, and Southeast Asia for information theft and financial gain. They exploit vulnerabilities like CVE-2024-38112 to deliver the Atlantida info-stealer through malicious PDFs disguised as book files. The group uses internet shortcuts with MHTML protocol handlers to access and execute files through disabled Internet Explorer, posing a significant threat to organizations. Void Banshee's TTPs include crafting URL strings to control window sizes in IE and using HTML files to hide malicious downloads from victims."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-df584835-97da-4e27-ab35-bcd3c5bf7815",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/24/g/CVE-2024-38112-void-banshee.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Void Banshee"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

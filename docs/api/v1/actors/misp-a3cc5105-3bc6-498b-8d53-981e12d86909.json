@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-a3cc5105-3bc6-498b-8d53-981e12d86909",
+    "canonical_name": "The Big Bang",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-a3cc5105-3bc6-498b-8d53-981e12d86909"
+    ],
+    "misp_uuid": "a3cc5105-3bc6-498b-8d53-981e12d86909",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "thebigbang",
+        "confidence": "source-provided",
+        "display_group_key": "thebigbang",
+        "name": "The Big Bang",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "the big bang",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.talosintelligence.com/2017/06/palestine-delphi.html",
+          "https://research.checkpoint.com/apt-attack-middle-east-big-bang"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/2017/06/palestine-delphi.html",
+              "https://research.checkpoint.com/apt-attack-middle-east-big-bang"
+            ]
+          }
+        ],
+        "variants": [
+          "The Big Bang"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "While it is not clear exactly what the attacker is looking for, what is clear is that once he finds it, a second stage of the attack awaits, fetching additional modules and/or malware from the Command and Control server. This then is a surveillance attack in progress and has been dubbed ‘Big Bang’ due to the attacker’s fondness for the ‘Big Bang Theory’ TV show, after which some of the malware’s modules are named."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-a3cc5105-3bc6-498b-8d53-981e12d86909",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/2017/06/palestine-delphi.html"
+      },
+      {
+        "actor_id": "misp-a3cc5105-3bc6-498b-8d53-981e12d86909",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.checkpoint.com/apt-attack-middle-east-big-bang"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "The Big Bang"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

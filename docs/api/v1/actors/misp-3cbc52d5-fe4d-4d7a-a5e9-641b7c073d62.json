@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-3cbc52d5-fe4d-4d7a-a5e9-641b7c073d62",
+    "canonical_name": "Dark Basin",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-3cbc52d5-fe4d-4d7a-a5e9-641b7c073d62"
+    ],
+    "misp_uuid": "3cbc52d5-fe4d-4d7a-a5e9-641b7c073d62",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "darkbasin",
+        "confidence": "source-provided",
+        "display_group_key": "darkbasin",
+        "name": "Dark Basin",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dark basin",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation",
+          "https://github.com/citizenlab/malware-indicators/tree/master/202006_DarkBasin"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation",
+              "https://github.com/citizenlab/malware-indicators/tree/master/202006_DarkBasin"
+            ]
+          }
+        ],
+        "variants": [
+          "Dark Basin"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Dark Basin is a hack-for-hire group that has targeted thousands of individuals and hundreds of institutions on six continents. Targets include advocacy groups and journalists, elected and senior government officials, hedge funds, and multiple industries. Dark Basin extensively targeted American nonprofits, including organisations working on a campaign called #ExxonKnew, which asserted that ExxonMobil hid information about climate change for decades. We also identify Dark Basin as the group behind the phishing of organizations working on net neutrality advocacy, previously reported by the Electronic Frontier Foundation. We link Dark Basin with high confidence to an Indian company, BellTroX..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-3cbc52d5-fe4d-4d7a-a5e9-641b7c073d62",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation"
+      },
+      {
+        "actor_id": "misp-3cbc52d5-fe4d-4d7a-a5e9-641b7c073d62",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://github.com/citizenlab/malware-indicators/tree/master/202006_DarkBasin"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Dark Basin"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

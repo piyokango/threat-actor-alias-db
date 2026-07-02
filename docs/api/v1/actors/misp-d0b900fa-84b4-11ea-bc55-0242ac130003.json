@@ -1,0 +1,195 @@
+{
+  "actor": {
+    "actor_id": "misp-d0b900fa-84b4-11ea-bc55-0242ac130003",
+    "canonical_name": "ItaDuke",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-d0b900fa-84b4-11ea-bc55-0242ac130003"
+    ],
+    "misp_uuid": "d0b900fa-84b4-11ea-bc55-0242ac130003",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "itaduke",
+        "confidence": "source-provided",
+        "display_group_key": "itaduke",
+        "name": "ItaDuke",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "itaduke",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/darkuniverse-the-mysterious-apt-framework-27/94897",
+          "https://securelist.com/new-uyghur-and-tibetan-themed-attacks-using-pdf-exploits/35465",
+          "https://www.fireeye.com/blog/threat-research/2013/02/the-number-of-the-beast.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/darkuniverse-the-mysterious-apt-framework-27/94897",
+              "https://securelist.com/new-uyghur-and-tibetan-themed-attacks-using-pdf-exploits/35465",
+              "https://www.fireeye.com/blog/threat-research/2013/02/the-number-of-the-beast.html"
+            ]
+          }
+        ],
+        "variants": [
+          "ItaDuke"
+        ]
+      },
+      {
+        "compact_normalized_name": "darkuniverse",
+        "confidence": "source-provided",
+        "display_group_key": "darkuniverse",
+        "name": "DarkUniverse",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "darkuniverse",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/darkuniverse-the-mysterious-apt-framework-27/94897",
+          "https://securelist.com/new-uyghur-and-tibetan-themed-attacks-using-pdf-exploits/35465",
+          "https://www.fireeye.com/blog/threat-research/2013/02/the-number-of-the-beast.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/darkuniverse-the-mysterious-apt-framework-27/94897",
+              "https://securelist.com/new-uyghur-and-tibetan-themed-attacks-using-pdf-exploits/35465",
+              "https://www.fireeye.com/blog/threat-research/2013/02/the-number-of-the-beast.html"
+            ]
+          }
+        ],
+        "variants": [
+          "DarkUniverse"
+        ]
+      },
+      {
+        "compact_normalized_name": "sig27",
+        "confidence": "source-provided",
+        "display_group_key": "sig27",
+        "name": "SIG27",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "sig27",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/darkuniverse-the-mysterious-apt-framework-27/94897",
+          "https://securelist.com/new-uyghur-and-tibetan-themed-attacks-using-pdf-exploits/35465",
+          "https://www.fireeye.com/blog/threat-research/2013/02/the-number-of-the-beast.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/darkuniverse-the-mysterious-apt-framework-27/94897",
+              "https://securelist.com/new-uyghur-and-tibetan-themed-attacks-using-pdf-exploits/35465",
+              "https://www.fireeye.com/blog/threat-research/2013/02/the-number-of-the-beast.html"
+            ]
+          }
+        ],
+        "variants": [
+          "SIG27"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "ItaDuke is an actor known since 2013. It used PDF exploits for dropping malware and Twitter accounts to store C2 server urls. On 2018, an actor named DarkUniverse, which was active between 2009 to 2017, was attributed to this ItaDuke by Kaspersky."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-d0b900fa-84b4-11ea-bc55-0242ac130003",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/darkuniverse-the-mysterious-apt-framework-27/94897"
+      },
+      {
+        "actor_id": "misp-d0b900fa-84b4-11ea-bc55-0242ac130003",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/new-uyghur-and-tibetan-themed-attacks-using-pdf-exploits/35465"
+      },
+      {
+        "actor_id": "misp-d0b900fa-84b4-11ea-bc55-0242ac130003",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2013/02/the-number-of-the-beast.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "DarkUniverse",
+      "ItaDuke",
+      "SIG27"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

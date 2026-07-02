@@ -1,0 +1,237 @@
+{
+  "actor": {
+    "actor_id": "misp-cff9cc85-6f34-4deb-9239-730e34e639f3",
+    "canonical_name": "GreenSpot",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-cff9cc85-6f34-4deb-9239-730e34e639f3"
+    ],
+    "misp_uuid": "cff9cc85-6f34-4deb-9239-730e34e639f3",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "greenspot",
+        "confidence": "source-provided",
+        "display_group_key": "greenspot",
+        "name": "GreenSpot",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "greenspot",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://hunt.io/blog/greenspot-apt-targets-163com-fake-downloads-spoofing",
+          "https://www.antiy.net/p/greenspotoperations-grow-for-many-years",
+          "https://www.virusbulletin.com/virusbulletin/2019/11/vb2019-paper-vine-climbing-over-great-firewall-longterm-attack-against-china"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://hunt.io/blog/greenspot-apt-targets-163com-fake-downloads-spoofing",
+              "https://www.antiy.net/p/greenspotoperations-grow-for-many-years",
+              "https://www.virusbulletin.com/virusbulletin/2019/11/vb2019-paper-vine-climbing-over-great-firewall-longterm-attack-against-china"
+            ]
+          }
+        ],
+        "variants": [
+          "GreenSpot"
+        ]
+      },
+      {
+        "compact_normalized_name": "aptq20",
+        "confidence": "source-provided",
+        "display_group_key": "aptq20",
+        "name": "APT-Q-20",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "apt q 20",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://hunt.io/blog/greenspot-apt-targets-163com-fake-downloads-spoofing",
+          "https://www.antiy.net/p/greenspotoperations-grow-for-many-years",
+          "https://www.virusbulletin.com/virusbulletin/2019/11/vb2019-paper-vine-climbing-over-great-firewall-longterm-attack-against-china"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://hunt.io/blog/greenspot-apt-targets-163com-fake-downloads-spoofing",
+              "https://www.antiy.net/p/greenspotoperations-grow-for-many-years",
+              "https://www.virusbulletin.com/virusbulletin/2019/11/vb2019-paper-vine-climbing-over-great-firewall-longterm-attack-against-china"
+            ]
+          }
+        ],
+        "variants": [
+          "APT-Q-20"
+        ]
+      },
+      {
+        "compact_normalized_name": "poisonvine",
+        "confidence": "source-provided",
+        "display_group_key": "poisonvine",
+        "name": "PoisonVine",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "poisonvine",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://hunt.io/blog/greenspot-apt-targets-163com-fake-downloads-spoofing",
+          "https://www.antiy.net/p/greenspotoperations-grow-for-many-years",
+          "https://www.virusbulletin.com/virusbulletin/2019/11/vb2019-paper-vine-climbing-over-great-firewall-longterm-attack-against-china"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://hunt.io/blog/greenspot-apt-targets-163com-fake-downloads-spoofing",
+              "https://www.antiy.net/p/greenspotoperations-grow-for-many-years",
+              "https://www.virusbulletin.com/virusbulletin/2019/11/vb2019-paper-vine-climbing-over-great-firewall-longterm-attack-against-china"
+            ]
+          }
+        ],
+        "variants": [
+          "PoisonVine"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "GreenSpot is an APT group believed to operate from Taiwan, active since at least 2007, primarily targeting government, academic, and military entities in China through phishing campaigns. The group frequently targets 163.com, aiming to steal login credentials using deceptive domains, manipulated TLS certificates, and counterfeit interfaces. Their tactics highlight the sophistication of modern credential theft operations, necessitating detection efforts focused on irregular domain registrations and certificate anomalies."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-cff9cc85-6f34-4deb-9239-730e34e639f3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://hunt.io/blog/greenspot-apt-targets-163com-fake-downloads-spoofing"
+      },
+      {
+        "actor_id": "misp-cff9cc85-6f34-4deb-9239-730e34e639f3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.antiy.net/p/greenspotoperations-grow-for-many-years"
+      },
+      {
+        "actor_id": "misp-cff9cc85-6f34-4deb-9239-730e34e639f3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.virusbulletin.com/virusbulletin/2019/11/vb2019-paper-vine-climbing-over-great-firewall-longterm-attack-against-china"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "TW",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "TW"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "TW",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "TW"
+        }
+      ]
+    },
+    "search_names": [
+      "APT-Q-20",
+      "GreenSpot",
+      "PoisonVine"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

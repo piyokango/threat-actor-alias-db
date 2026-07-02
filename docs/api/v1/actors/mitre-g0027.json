@@ -1,0 +1,3320 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0027",
+    "canonical_name": "Threat Group-3390",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0027"
+    ],
+    "misp_uuid": "834e0acd-d92a-4e38-bb14-dc4159d7cb32",
+    "mitre_id": "G0027",
+    "names": [
+      {
+        "compact_normalized_name": "threatgroup3390",
+        "confidence": "source-provided",
+        "display_group_key": "threatgroup3390",
+        "name": "Threat Group-3390",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "threat group 3390",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0027"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0027"
+            ]
+          }
+        ],
+        "variants": [
+          "Threat Group-3390"
+        ]
+      },
+      {
+        "compact_normalized_name": "apt27",
+        "confidence": "source-provided",
+        "display_group_key": "apt27",
+        "name": "APT27",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "apt27",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0027"
+            ]
+          }
+        ],
+        "variants": [
+          "APT27"
+        ]
+      },
+      {
+        "compact_normalized_name": "bronzeunion",
+        "confidence": "source-provided",
+        "display_group_key": "bronzeunion",
+        "name": "BRONZE UNION",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "bronze union",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0027"
+            ]
+          }
+        ],
+        "variants": [
+          "BRONZE UNION"
+        ]
+      },
+      {
+        "compact_normalized_name": "budworm",
+        "confidence": "source-provided",
+        "display_group_key": "budworm",
+        "name": "Budworm",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "budworm",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "Budworm"
+        ]
+      },
+      {
+        "compact_normalized_name": "circletyphoon",
+        "confidence": "source-provided",
+        "display_group_key": "circletyphoon",
+        "name": "Circle Typhoon",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "circle typhoon",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "Circle Typhoon"
+        ]
+      },
+      {
+        "compact_normalized_name": "dev0322",
+        "confidence": "source-provided",
+        "display_group_key": "dev0322",
+        "name": "DEV-0322",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dev 0322",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.fox-it.com/2021/11/08/ta505-exploits-solarwinds-serv-u-vulnerability-cve-2021-35211-for-initial-access",
+          "https://unit42.paloaltonetworks.com/sockdetour",
+          "https://www.microsoft.com/en-us/security/blog/2021/07/13/microsoft-discovers-threat-actor-targeting-solarwinds-serv-u-software-with-0-day-exploit"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.fox-it.com/2021/11/08/ta505-exploits-solarwinds-serv-u-vulnerability-cve-2021-35211-for-initial-access",
+              "https://unit42.paloaltonetworks.com/sockdetour",
+              "https://www.microsoft.com/en-us/security/blog/2021/07/13/microsoft-discovers-threat-actor-targeting-solarwinds-serv-u-software-with-0-day-exploit"
+            ]
+          }
+        ],
+        "variants": [
+          "DEV-0322"
+        ]
+      },
+      {
+        "compact_normalized_name": "earthsmilodon",
+        "confidence": "source-provided",
+        "display_group_key": "earthsmilodon",
+        "name": "Earth Smilodon",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "earth smilodon",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0027"
+            ]
+          }
+        ],
+        "variants": [
+          "Earth Smilodon"
+        ]
+      },
+      {
+        "compact_normalized_name": "emissarypanda",
+        "confidence": "source-provided",
+        "display_group_key": "emissarypanda",
+        "name": "EMISSARY PANDA",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "emissary panda",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0027"
+            ]
+          }
+        ],
+        "variants": [
+          "Emissary Panda",
+          "EMISSARY PANDA"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0027",
+        "confidence": "source-provided",
+        "display_group_key": "g0027",
+        "name": "G0027",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0027",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "G0027"
+        ]
+      },
+      {
+        "compact_normalized_name": "greedytaotie",
+        "confidence": "source-provided",
+        "display_group_key": "greedytaotie",
+        "name": "GreedyTaotie",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "greedytaotie",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "GreedyTaotie"
+        ]
+      },
+      {
+        "compact_normalized_name": "group35",
+        "confidence": "source-provided",
+        "display_group_key": "group35",
+        "name": "Group 35",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "group 35",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "Group 35"
+        ]
+      },
+      {
+        "compact_normalized_name": "irontaurus",
+        "confidence": "source-provided",
+        "display_group_key": "irontaurus",
+        "name": "Iron Taurus",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "iron taurus",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "Iron Taurus"
+        ]
+      },
+      {
+        "compact_normalized_name": "irontiger",
+        "confidence": "source-provided",
+        "display_group_key": "irontiger",
+        "name": "Iron Tiger",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "iron tiger",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0027"
+            ]
+          }
+        ],
+        "variants": [
+          "Iron Tiger"
+        ]
+      },
+      {
+        "compact_normalized_name": "linentyphoon",
+        "confidence": "source-provided",
+        "display_group_key": "linentyphoon",
+        "name": "Linen Typhoon",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "linen typhoon",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0027"
+            ]
+          }
+        ],
+        "variants": [
+          "Linen Typhoon"
+        ]
+      },
+      {
+        "compact_normalized_name": "luckymouse",
+        "confidence": "source-provided",
+        "display_group_key": "luckymouse",
+        "name": "Lucky Mouse",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "lucky mouse",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0027"
+            ]
+          }
+        ],
+        "variants": [
+          "Lucky Mouse",
+          "LuckyMouse"
+        ]
+      },
+      {
+        "compact_normalized_name": "redphoenix",
+        "confidence": "source-provided",
+        "display_group_key": "redphoenix",
+        "name": "Red Phoenix",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "red phoenix",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "Red Phoenix"
+        ]
+      },
+      {
+        "compact_normalized_name": "temphippo",
+        "confidence": "source-provided",
+        "display_group_key": "temphippo",
+        "name": "TEMP.Hippo",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "temp hippo",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "TEMP.Hippo"
+        ]
+      },
+      {
+        "compact_normalized_name": "tg3390",
+        "confidence": "source-provided",
+        "display_group_key": "tg3390",
+        "name": "TG-3390",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "tg 3390",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0027"
+            ]
+          }
+        ],
+        "variants": [
+          "TG-3390"
+        ]
+      },
+      {
+        "compact_normalized_name": "tiltedtemple",
+        "confidence": "source-provided",
+        "display_group_key": "tiltedtemple",
+        "name": "TiltedTemple",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "tiltedtemple",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.fox-it.com/2021/11/08/ta505-exploits-solarwinds-serv-u-vulnerability-cve-2021-35211-for-initial-access",
+          "https://unit42.paloaltonetworks.com/sockdetour",
+          "https://www.microsoft.com/en-us/security/blog/2021/07/13/microsoft-discovers-threat-actor-targeting-solarwinds-serv-u-software-with-0-day-exploit"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.fox-it.com/2021/11/08/ta505-exploits-solarwinds-serv-u-vulnerability-cve-2021-35211-for-initial-access",
+              "https://unit42.paloaltonetworks.com/sockdetour",
+              "https://www.microsoft.com/en-us/security/blog/2021/07/13/microsoft-discovers-threat-actor-targeting-solarwinds-serv-u-software-with-0-day-exploit"
+            ]
+          }
+        ],
+        "variants": [
+          "TiltedTemple"
+        ]
+      },
+      {
+        "compact_normalized_name": "ziptoken",
+        "confidence": "source-provided",
+        "display_group_key": "ziptoken",
+        "name": "ZipToken",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ziptoken",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+          "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+          "https://attack.mitre.org/groups/G0027",
+          "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+          "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+          "https://securelist.com/luckymouse-hits-national-data-center/86083",
+          "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+          "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+          "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+          "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+          "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+          "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/bronze-union",
+          "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+          "https://www.secureworks.com/research/threat-profiles/bronze-union",
+          "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+          "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+          "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states",
+              "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes",
+              "https://attack.mitre.org/groups/G0027",
+              "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf",
+              "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf",
+              "https://securelist.com/luckymouse-hits-national-data-center/86083",
+              "https://securelist.com/luckymouse-ndisproxy-driver/87914",
+              "https://unit42.paloaltonetworks.com/atoms/iron-taurus",
+              "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401",
+              "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf",
+              "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center",
+              "https://www.cfr.org/interactive/cyber-operations/iron-tiger",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/bronze-union",
+              "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+              "https://www.secureworks.com/research/threat-profiles/bronze-union",
+              "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe",
+              "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+              "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+            ]
+          }
+        ],
+        "variants": [
+          "ZipToken"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0027",
+          "name": "Software Packing",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf",
+            "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.002",
+          "url": "https://attack.mitre.org/techniques/T1027.002/"
+        },
+        {
+          "actor_id": "mitre-g0027",
+          "name": "Encrypted/Encoded File",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+            "https://securelist.com/luckymouse-hits-national-data-center/86083/",
+            "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.013",
+          "url": "https://attack.mitre.org/techniques/T1027.013/"
+        },
+        {
+          "actor_id": "mitre-g0027",
+          "name": "Compression",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+            "https://securelist.com/luckymouse-hits-national-data-center/86083/",
+            "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.015",
+          "url": "https://attack.mitre.org/techniques/T1027.015/"
+        },
+        {
+          "actor_id": "mitre-g0027",
+          "name": "Process Hollowing",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+            "https://securelist.com/luckymouse-hits-national-data-center/86083/"
+          ],
+          "tactics": [
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1055.012",
+          "url": "https://attack.mitre.org/techniques/T1055.012/"
+        },
+        {
+          "actor_id": "mitre-g0027",
+          "name": "File Deletion",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf",
+            "https://www.secureworks.com/research/bronze-union"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1070.004",
+          "url": "https://attack.mitre.org/techniques/T1070.004/"
+        },
+        {
+          "actor_id": "mitre-g0027",
+          "name": "Network Share Connection Removal",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.secureworks.com/research/bronze-union"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1070.005",
+          "url": "https://attack.mitre.org/techniques/T1070.005/"
+        },
+        {
+          "actor_id": "mitre-g0027",
+          "name": "Valid Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "actor_id": "mitre-g0027",
+          "name": "Deobfuscate/Decode Files or Information",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://securelist.com/luckymouse-hits-national-data-center/86083/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1140",
+          "url": "https://attack.mitre.org/techniques/T1140/"
+        },
+        {
+          "actor_id": "mitre-g0027",
+          "name": "DLL",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+            "https://securelist.com/luckymouse-hits-national-data-center/86083/",
+            "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/",
+            "https://www.secureworks.com/research/bronze-union",
+            "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+            "https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html"
+          ],
+          "tactics": [
+            "execution",
+            "stealth"
+          ],
+          "technique_id": "T1574.001",
+          "url": "https://attack.mitre.org/techniques/T1574.001/"
+        },
+        {
+          "actor_id": "mitre-g0027",
+          "name": "Query Registry",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1012",
+          "url": "https://attack.mitre.org/techniques/T1012/"
+        },
+        {
+          "actor_id": "mitre-g0027",
+          "name": "System Network Configuration Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1016",
+          "url": "https://attack.mitre.org/techniques/T1016/"
+        },
+        {
+          "actor_id": "mitre-g0027",
+          "name": "Remote System Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1018",
+          "url": "https://attack.mitre.org/techniques/T1018/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 9,
+          "items": [
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Software Packing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf",
+                "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.002",
+              "url": "https://attack.mitre.org/techniques/T1027.002/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Encrypted/Encoded File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+                "https://securelist.com/luckymouse-hits-national-data-center/86083/",
+                "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.013",
+              "url": "https://attack.mitre.org/techniques/T1027.013/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Compression",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+                "https://securelist.com/luckymouse-hits-national-data-center/86083/",
+                "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.015",
+              "url": "https://attack.mitre.org/techniques/T1027.015/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Process Hollowing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+                "https://securelist.com/luckymouse-hits-national-data-center/86083/"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055.012",
+              "url": "https://attack.mitre.org/techniques/T1055.012/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "File Deletion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf",
+                "https://www.secureworks.com/research/bronze-union"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.004",
+              "url": "https://attack.mitre.org/techniques/T1070.004/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Network Share Connection Removal",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/bronze-union"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.005",
+              "url": "https://attack.mitre.org/techniques/T1070.005/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Deobfuscate/Decode Files or Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/luckymouse-hits-national-data-center/86083/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1140",
+              "url": "https://attack.mitre.org/techniques/T1140/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+                "https://securelist.com/luckymouse-hits-national-data-center/86083/",
+                "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/",
+                "https://www.secureworks.com/research/bronze-union",
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+                "https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html"
+              ],
+              "tactics": [
+                "execution",
+                "stealth"
+              ],
+              "technique_id": "T1574.001",
+              "url": "https://attack.mitre.org/techniques/T1574.001/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0027",
+              "name": "At",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.002",
+              "url": "https://attack.mitre.org/techniques/T1053.002/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Modify Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+                "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html"
+              ],
+              "tactics": [
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1112",
+              "url": "https://attack.mitre.org/techniques/T1112/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/bronze-union",
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Web Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1505.003",
+              "url": "https://attack.mitre.org/techniques/T1505.003/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+                "https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+                "https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Query Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1012",
+              "url": "https://attack.mitre.org/techniques/T1012/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "System Network Configuration Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1016",
+              "url": "https://attack.mitre.org/techniques/T1016/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Remote System Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1018",
+              "url": "https://attack.mitre.org/techniques/T1018/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "System Owner/User Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1033",
+              "url": "https://attack.mitre.org/techniques/T1033/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Network Service Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/",
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1046",
+              "url": "https://attack.mitre.org/techniques/T1046/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "System Network Connections Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/bronze-union"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1049",
+              "url": "https://attack.mitre.org/techniques/T1049/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Local Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/bronze-union"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1087.001",
+              "url": "https://attack.mitre.org/techniques/T1087.001/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Windows Management Instrumentation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1047",
+              "url": "https://attack.mitre.org/techniques/T1047/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "At",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.002",
+              "url": "https://attack.mitre.org/techniques/T1053.002/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf",
+                "https://www.secureworks.com/research/bronze-union"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/",
+                "https://www.secureworks.com/research/bronze-union"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Exploitation for Client Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1203",
+              "url": "https://attack.mitre.org/techniques/T1203/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+                "https://securelist.com/luckymouse-hits-national-data-center/86083/",
+                "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/",
+                "https://www.secureworks.com/research/bronze-union",
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+                "https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html"
+              ],
+              "tactics": [
+                "execution",
+                "stealth"
+              ],
+              "technique_id": "T1574.001",
+              "url": "https://attack.mitre.org/techniques/T1574.001/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0027",
+              "name": "At",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.002",
+              "url": "https://attack.mitre.org/techniques/T1053.002/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Process Hollowing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+                "https://securelist.com/luckymouse-hits-national-data-center/86083/"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055.012",
+              "url": "https://attack.mitre.org/techniques/T1055.012/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Exploitation for Privilege Escalation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20210104144857/https://shared-public-reports.s3-eu-west-1.amazonaws.com/APT27+turns+to+ransomware.pdf",
+                "https://www.secureworks.com/research/bronze-union"
+              ],
+              "tactics": [
+                "privilege-escalation"
+              ],
+              "technique_id": "T1068",
+              "url": "https://attack.mitre.org/techniques/T1068/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+                "https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+                "https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Bypass User Account Control",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/"
+              ],
+              "tactics": [
+                "privilege-escalation"
+              ],
+              "technique_id": "T1548.002",
+              "url": "https://attack.mitre.org/techniques/T1548.002/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/bronze-union",
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Drive-by Compromise",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/luckymouse-hits-national-data-center/86083/",
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1189",
+              "url": "https://attack.mitre.org/techniques/T1189/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Exploit Public-Facing Application",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1190",
+              "url": "https://attack.mitre.org/techniques/T1190/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Compromise Software Supply Chain",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1195.002",
+              "url": "https://attack.mitre.org/techniques/T1195.002/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Trusted Relationship",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20210104144857/https://shared-public-reports.s3-eu-west-1.amazonaws.com/APT27+turns+to+ransomware.pdf"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1199",
+              "url": "https://attack.mitre.org/techniques/T1199/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Data from Local System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/bronze-union"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1005",
+              "url": "https://attack.mitre.org/techniques/T1005/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Keylogging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/luckymouse-hits-national-data-center/86083/",
+                "https://thehackernews.com/2018/06/chinese-watering-hole-attack.html",
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.001",
+              "url": "https://attack.mitre.org/techniques/T1056.001/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Local Data Staging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/bronze-union"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1074.001",
+              "url": "https://attack.mitre.org/techniques/T1074.001/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Remote Data Staging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/bronze-union"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1074.002",
+              "url": "https://attack.mitre.org/techniques/T1074.002/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Automated Collection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/bronze-union"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1119",
+              "url": "https://attack.mitre.org/techniques/T1119/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Archive via Library",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/bronze-union"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1560.002",
+              "url": "https://attack.mitre.org/techniques/T1560.002/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/",
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Code Signing Certificates",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.003",
+              "url": "https://attack.mitre.org/techniques/T1588.003/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Upload Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.001",
+              "url": "https://attack.mitre.org/techniques/T1608.001/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Upload Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.002",
+              "url": "https://attack.mitre.org/techniques/T1608.002/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Drive-by Target",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://arstechnica.com/security/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.004",
+              "url": "https://attack.mitre.org/techniques/T1608.004/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0027",
+              "name": "LSASS Memory",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/bronze-union",
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.001",
+              "url": "https://attack.mitre.org/techniques/T1003.001/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Security Account Manager",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/bronze-union",
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.002",
+              "url": "https://attack.mitre.org/techniques/T1003.002/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "LSA Secrets",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/bronze-union",
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.004",
+              "url": "https://attack.mitre.org/techniques/T1003.004/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Keylogging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/luckymouse-hits-national-data-center/86083/",
+                "https://thehackernews.com/2018/06/chinese-watering-hole-attack.html",
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.001",
+              "url": "https://attack.mitre.org/techniques/T1056.001/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Password Managers",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1555.005",
+              "url": "https://attack.mitre.org/techniques/T1555.005/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Web Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/luckymouse-hits-national-data-center/86083/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.001",
+              "url": "https://attack.mitre.org/techniques/T1071.001/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf",
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Modify Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/",
+                "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html"
+              ],
+              "tactics": [
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1112",
+              "url": "https://attack.mitre.org/techniques/T1112/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Disable or Modify Windows Event Log",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/bronze-union"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1685.001",
+              "url": "https://attack.mitre.org/techniques/T1685.001/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Data Transfer Size Limits",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1030",
+              "url": "https://attack.mitre.org/techniques/T1030/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Exfiltration to Cloud Storage",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1567.002",
+              "url": "https://attack.mitre.org/techniques/T1567.002/"
+            }
+          ],
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Windows Remote Management",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/research/bronze-union"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.006",
+              "url": "https://attack.mitre.org/techniques/T1021.006/"
+            },
+            {
+              "actor_id": "mitre-g0027",
+              "name": "Exploitation of Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1210",
+              "url": "https://attack.mitre.org/techniques/T1210/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 9,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 7,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 7,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 7,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 7,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 7,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 6,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 6,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 5,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 2,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 2,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 2,
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 2,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        }
+      ],
+      "total": 57
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0027/"
+          ]
+        }
+      ],
+      "text": "Threat Group-3390 is a Chinese threat group that has extensively used strategic Web compromises to target victims.(Citation: Dell TG-3390) The group has been active since at least 2010 and has targeted organizations in the aerospace, government, defense, technology, energy, manufacturing and gambling/betting sectors.(Citation: SecureWorks BRONZE UNION June 2017)(Citation: Securelist LuckyMouse June 2018)(Citation: Trend Micro DRBControl February 2020)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://arstechnica.com/security/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://newsroom.trendmicro.com/blog/operation-iron-tiger-attackers-shift-east-asia-united-states"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://arstechnica.com/information-technology/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0027"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.fox-it.com/2021/11/08/ta505-exploits-solarwinds-serv-u-vulnerability-cve-2021-35211-for-initial-access"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://i.blackhat.com/Asia-22/Friday-Materials/AS-22-Li-To-Loot-Or-Not-To-Loot-That-Is-Not-a-Question.pdf"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://labs.bitdefender.com/2018/02/operation-pzchao-a-possible-return-of-the-iron-tiger-apt"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops-platform/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.09.17.Operation_Iron_Tiger/Operation%20Iron%20Tiger%20Appendix.pdf"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/luckymouse-hits-national-data-center/86083"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/luckymouse-ndisproxy-driver/87914"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://thehackernews.com/2018/06/chinese-watering-hole-attack.html"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/atoms/iron-taurus"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/sockdetour"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20140129192702/https://www.scmagazineuk.com/iran-and-russia-blamed-for-state-sponsored-espionage/article/330401"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bitdefender.com/files/News/CaseStudies/study/185/Bitdefender-Business-2017-WhitePaper-PZCHAO-crea2452-en-EN-GenericUse.pdf"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bleepingcomputer.com/news/security/chinese-cyber-espionage-group-hacked-government-data-center"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/iron-tiger"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/insights/apt-groups"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2021/07/13/microsoft-discovers-threat-actor-targeting-solarwinds-serv-u-software-with-0-day-exploit"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/april/decoding-network-data-from-a-gh0st-rat-variant"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/bronze-union"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/bronze-union"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.threatconnect.com/blog/threatconnect-discovers-chinese-apt-activity-in-europe"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html"
+      },
+      {
+        "actor_id": "mitre-g0027",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "APT27",
+      "BRONZE UNION",
+      "Budworm",
+      "Circle Typhoon",
+      "DEV-0322",
+      "Earth Smilodon",
+      "Emissary Panda",
+      "EMISSARY PANDA",
+      "G0027",
+      "GreedyTaotie",
+      "Group 35",
+      "Iron Taurus",
+      "Iron Tiger",
+      "Linen Typhoon",
+      "Lucky Mouse",
+      "LuckyMouse",
+      "Red Phoenix",
+      "TEMP.Hippo",
+      "TG-3390",
+      "Threat Group-3390",
+      "TiltedTemple",
+      "ZipToken"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

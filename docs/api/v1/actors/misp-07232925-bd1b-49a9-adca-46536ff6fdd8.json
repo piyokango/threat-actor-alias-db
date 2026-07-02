@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-07232925-bd1b-49a9-adca-46536ff6fdd8",
+    "canonical_name": "Bignosa",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-07232925-bd1b-49a9-adca-46536ff6fdd8"
+    ],
+    "misp_uuid": "07232925-bd1b-49a9-adca-46536ff6fdd8",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "bignosa",
+        "confidence": "source-provided",
+        "display_group_key": "bignosa",
+        "name": "Bignosa",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "bignosa",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://research.checkpoint.com/2024/agent-tesla-targeting-united-states-and-australia"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://research.checkpoint.com/2024/agent-tesla-targeting-united-states-and-australia"
+            ]
+          }
+        ],
+        "variants": [
+          "Bignosa"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Bignosa is a threat actor known for launching malware campaigns targeting Australian and US organizations using phishing emails with disguised Agent Tesla attachments protected by Cassandra Protector. They compromised servers by installing Plesk and RoundCube, connected via SSH and RDP, and used advanced obfuscation methods to evade detection. Bignosa collaborated with another cybercriminal named Gods, who provided advice and assistance in their malicious activities. The actor has been linked to multiple phishing attacks and malware distribution campaigns, showcasing a high level of sophistication in their operations."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-07232925-bd1b-49a9-adca-46536ff6fdd8",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.checkpoint.com/2024/agent-tesla-targeting-united-states-and-australia"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "KE",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KE"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "KE",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KE"
+        }
+      ]
+    },
+    "search_names": [
+      "Bignosa"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

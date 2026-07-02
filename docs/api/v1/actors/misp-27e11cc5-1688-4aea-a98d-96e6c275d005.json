@@ -1,0 +1,149 @@
+{
+  "actor": {
+    "actor_id": "misp-27e11cc5-1688-4aea-a98d-96e6c275d005",
+    "canonical_name": "UNC3890",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-27e11cc5-1688-4aea-a98d-96e6c275d005"
+    ],
+    "misp_uuid": "27e11cc5-1688-4aea-a98d-96e6c275d005",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unc3890",
+        "confidence": "source-provided",
+        "display_group_key": "unc3890",
+        "name": "UNC3890",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc3890",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://ics-cert.kaspersky.com/publications/reports/2023/03/24/apt-attacks-on-industrial-organizations-in-h2-2022",
+          "https://www.mandiant.com/resources/suspected-iranian-actor-targeting-israeli-shipping"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://ics-cert.kaspersky.com/publications/reports/2023/03/24/apt-attacks-on-industrial-organizations-in-h2-2022",
+              "https://www.mandiant.com/resources/suspected-iranian-actor-targeting-israeli-shipping"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC3890"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "A suspected Iranian threat activity cluster has been linked to attacks aimed at Israeli shipping, government, energy, and healthcare organizations, in a campaign stretching back to late 2020. Researchers believe that the data harvested during the campaign could be used to support various activities. UNC3890, the threat actor behind the attacks, deployed two proprietary pieces of malware – a backdoor named “SUGARUSH” and a browser credential stealer called “SUGARDUMP”, which exfiltrates password information to email addresses registered with Gmail, ProtonMail, Yahoo and Yandex email services. The threat actor also employs a network of C&C servers that host fake login pages impersonating..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-27e11cc5-1688-4aea-a98d-96e6c275d005",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://ics-cert.kaspersky.com/publications/reports/2023/03/24/apt-attacks-on-industrial-organizations-in-h2-2022"
+      },
+      {
+        "actor_id": "misp-27e11cc5-1688-4aea-a98d-96e6c275d005",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/suspected-iranian-actor-targeting-israeli-shipping"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ]
+    },
+    "search_names": [
+      "UNC3890"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-a6c7ff17-b98b-469a-97cc-6303ba007e68",
+    "canonical_name": "ScreamedJungle",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-a6c7ff17-b98b-469a-97cc-6303ba007e68"
+    ],
+    "misp_uuid": "a6c7ff17-b98b-469a-97cc-6303ba007e68",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "screamedjungle",
+        "confidence": "source-provided",
+        "display_group_key": "screamedjungle",
+        "name": "ScreamedJungle",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "screamedjungle",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.group-ib.com/blog/fingerprint-heists"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.group-ib.com/blog/fingerprint-heists"
+            ]
+          }
+        ],
+        "variants": [
+          "ScreamedJungle"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "ScreamedJungle is a threat actor that exploits vulnerabilities in outdated Magento e-commerce platforms to inject malicious JavaScript code, specifically Bablosoft JS, into compromised websites. This actor has harvested millions of browser fingerprints by leveraging vulnerabilities such as CVE-2024-34102 and CVE-2024-20720. ScreamedJungle utilizes PerfectCanvas technology to ensure pixel-perfect replication of legitimate user fingerprints. Group-IB analysts estimate that over 115 e-commerce sites have been impacted by this fingerprint theft campaign."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-a6c7ff17-b98b-469a-97cc-6303ba007e68",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.group-ib.com/blog/fingerprint-heists"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "ScreamedJungle"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

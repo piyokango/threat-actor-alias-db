@@ -1,0 +1,3909 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0034",
+    "canonical_name": "Sandworm Team",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0034"
+    ],
+    "misp_uuid": "f512de42-f76b-40d2-9923-59e7dbdfec35",
+    "mitre_id": "G0034",
+    "names": [
+      {
+        "compact_normalized_name": "sandwormteam",
+        "confidence": "source-provided",
+        "display_group_key": "sandwormteam",
+        "name": "Sandworm Team",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "sandworm team",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0034"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0034"
+            ]
+          }
+        ],
+        "variants": [
+          "Sandworm Team"
+        ]
+      },
+      {
+        "compact_normalized_name": "apt44",
+        "confidence": "source-provided",
+        "display_group_key": "apt44",
+        "name": "APT44",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "apt44",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+          "https://attack.mitre.org/groups/G0034",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+          "https://cert.gov.ua/article/405538",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+          "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+          "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+          "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+          "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+          "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+          "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+          "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+          "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+          "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+          "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+              "https://attack.mitre.org/groups/G0034",
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+              "https://cert.gov.ua/article/405538",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+              "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+              "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+              "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+              "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+              "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+              "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+              "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+              "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+              "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+              "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+              "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+              "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+              "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0034"
+            ]
+          }
+        ],
+        "variants": [
+          "APT44"
+        ]
+      },
+      {
+        "compact_normalized_name": "be2",
+        "confidence": "source-provided",
+        "display_group_key": "be2",
+        "name": "BE2",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "be2",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "BE2"
+        ]
+      },
+      {
+        "compact_normalized_name": "blackenergygroup",
+        "confidence": "source-provided",
+        "display_group_key": "blackenergygroup",
+        "name": "BlackEnergy (Group)",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "blackenergy group",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0034"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0034"
+            ]
+          }
+        ],
+        "variants": [
+          "BlackEnergy (Group)"
+        ]
+      },
+      {
+        "compact_normalized_name": "blackenergylite",
+        "confidence": "source-provided",
+        "display_group_key": "blackenergylite",
+        "name": "BlackEnergy Lite",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "blackenergy lite",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "BlackEnergy Lite"
+        ]
+      },
+      {
+        "compact_normalized_name": "blueechidna",
+        "confidence": "source-provided",
+        "display_group_key": "blueechidna",
+        "name": "Blue Echidna",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "blue echidna",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+          "https://attack.mitre.org/groups/G0034",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+          "https://cert.gov.ua/article/405538",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+          "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+          "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+          "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+          "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+          "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+          "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+          "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+          "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+          "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+          "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+              "https://attack.mitre.org/groups/G0034",
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+              "https://cert.gov.ua/article/405538",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+              "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+              "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+              "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+              "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+              "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+              "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+              "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+              "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+              "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+              "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+              "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+              "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+              "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Blue Echidna"
+        ]
+      },
+      {
+        "compact_normalized_name": "electrum",
+        "confidence": "source-provided",
+        "display_group_key": "electrum",
+        "name": "ELECTRUM",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "electrum",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+          "https://attack.mitre.org/groups/G0034",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+          "https://cert.gov.ua/article/405538",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+          "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+          "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+          "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+          "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+          "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+          "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+          "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+          "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+          "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+          "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+          "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+          "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+              "https://attack.mitre.org/groups/G0034",
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+              "https://cert.gov.ua/article/405538",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+              "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+              "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+              "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+              "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+              "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+              "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+              "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+              "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+              "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+              "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+              "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+              "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+              "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0034"
+            ]
+          }
+        ],
+        "variants": [
+          "ELECTRUM"
+        ]
+      },
+      {
+        "compact_normalized_name": "frozenbarents",
+        "confidence": "source-provided",
+        "display_group_key": "frozenbarents",
+        "name": "FROZENBARENTS",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "frozenbarents",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+          "https://attack.mitre.org/groups/G0034",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+          "https://cert.gov.ua/article/405538",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+          "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+          "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+          "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+          "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+          "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+          "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+          "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+          "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+          "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+          "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+          "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+          "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+              "https://attack.mitre.org/groups/G0034",
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+              "https://cert.gov.ua/article/405538",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+              "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+              "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+              "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+              "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+              "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+              "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+              "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+              "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+              "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+              "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+              "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+              "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+              "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0034"
+            ]
+          }
+        ],
+        "variants": [
+          "FROZENBARENTS"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0034",
+        "confidence": "source-provided",
+        "display_group_key": "g0034",
+        "name": "G0034",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0034",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+          "https://attack.mitre.org/groups/G0034",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+          "https://cert.gov.ua/article/405538",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+          "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+          "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+          "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+          "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+          "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+          "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+          "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+          "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+          "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+          "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+          "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+          "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+              "https://attack.mitre.org/groups/G0034",
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+              "https://cert.gov.ua/article/405538",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+              "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+              "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+              "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+              "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+              "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+              "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+              "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+              "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+              "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+              "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+              "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+              "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+              "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "G0034"
+        ]
+      },
+      {
+        "compact_normalized_name": "iridium",
+        "confidence": "source-provided",
+        "display_group_key": "iridium",
+        "name": "IRIDIUM",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "iridium",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+          "https://attack.mitre.org/groups/G0034",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+          "https://cert.gov.ua/article/405538",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+          "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+          "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+          "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+          "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+          "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+          "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+          "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+          "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+          "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+          "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+              "https://attack.mitre.org/groups/G0034",
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+              "https://cert.gov.ua/article/405538",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+              "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+              "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+              "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+              "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+              "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+              "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+              "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+              "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+              "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+              "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+              "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+              "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+              "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0034"
+            ]
+          }
+        ],
+        "variants": [
+          "IRIDIUM"
+        ]
+      },
+      {
+        "compact_normalized_name": "ironviking",
+        "confidence": "source-provided",
+        "display_group_key": "ironviking",
+        "name": "IRON VIKING",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "iron viking",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+          "https://attack.mitre.org/groups/G0034",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+          "https://cert.gov.ua/article/405538",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+          "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+          "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+          "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+          "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+          "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+          "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+          "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+          "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+          "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+          "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+          "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+          "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+              "https://attack.mitre.org/groups/G0034",
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+              "https://cert.gov.ua/article/405538",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+              "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+              "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+              "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+              "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+              "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+              "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+              "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+              "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+              "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+              "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+              "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+              "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+              "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0034"
+            ]
+          }
+        ],
+        "variants": [
+          "IRON VIKING"
+        ]
+      },
+      {
+        "compact_normalized_name": "phantom",
+        "confidence": "source-provided",
+        "display_group_key": "phantom",
+        "name": "PHANTOM",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "phantom",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "PHANTOM"
+        ]
+      },
+      {
+        "compact_normalized_name": "quedagh",
+        "confidence": "source-provided",
+        "display_group_key": "quedagh",
+        "name": "Quedagh",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "quedagh",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+          "https://attack.mitre.org/groups/G0034",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+          "https://cert.gov.ua/article/405538",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+          "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+          "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+          "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+          "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+          "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+          "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+          "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+          "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+          "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+          "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+          "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+          "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+              "https://attack.mitre.org/groups/G0034",
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+              "https://cert.gov.ua/article/405538",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+              "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+              "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+              "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+              "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+              "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+              "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+              "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+              "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+              "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+              "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+              "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+              "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+              "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0034"
+            ]
+          }
+        ],
+        "variants": [
+          "Quedagh"
+        ]
+      },
+      {
+        "compact_normalized_name": "sandworm",
+        "confidence": "source-provided",
+        "display_group_key": "sandworm",
+        "name": "Sandworm",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "sandworm",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+          "https://attack.mitre.org/groups/G0034",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+          "https://cert.gov.ua/article/405538",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+          "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+          "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+          "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+          "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+          "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+          "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+          "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+          "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+          "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+          "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+              "https://attack.mitre.org/groups/G0034",
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+              "https://cert.gov.ua/article/405538",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+              "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+              "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+              "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+              "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+              "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+              "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+              "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+              "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+              "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+              "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+              "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+              "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+              "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Sandworm"
+        ]
+      },
+      {
+        "compact_normalized_name": "seashellblizzard",
+        "confidence": "source-provided",
+        "display_group_key": "seashellblizzard",
+        "name": "Seashell Blizzard",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "seashell blizzard",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+          "https://attack.mitre.org/groups/G0034",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+          "https://cert.gov.ua/article/405538",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+          "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+          "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+          "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+          "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+          "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+          "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+          "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+          "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+          "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+          "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+          "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+          "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+              "https://attack.mitre.org/groups/G0034",
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+              "https://cert.gov.ua/article/405538",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+              "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+              "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+              "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+              "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+              "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+              "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+              "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+              "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+              "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+              "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+              "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+              "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+              "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0034"
+            ]
+          }
+        ],
+        "variants": [
+          "Seashell Blizzard"
+        ]
+      },
+      {
+        "compact_normalized_name": "telebots",
+        "confidence": "source-provided",
+        "display_group_key": "telebots",
+        "name": "TeleBots",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "telebots",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+          "https://attack.mitre.org/groups/G0034",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+          "https://cert.gov.ua/article/405538",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+          "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+          "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+          "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+          "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+          "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+          "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+          "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+          "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+          "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+          "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+          "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+          "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+              "https://attack.mitre.org/groups/G0034",
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+              "https://cert.gov.ua/article/405538",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+              "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+              "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+              "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+              "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+              "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+              "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+              "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+              "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+              "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+              "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+              "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+              "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+              "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0034"
+            ]
+          }
+        ],
+        "variants": [
+          "TeleBots",
+          "Telebots"
+        ]
+      },
+      {
+        "compact_normalized_name": "tempnoble",
+        "confidence": "source-provided",
+        "display_group_key": "tempnoble",
+        "name": "TEMP.Noble",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "temp noble",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+          "https://attack.mitre.org/groups/G0034",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+          "https://cert.gov.ua/article/405538",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+          "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+          "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+          "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+          "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+          "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+          "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+          "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+          "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+          "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+          "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+          "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+          "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+              "https://attack.mitre.org/groups/G0034",
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+              "https://cert.gov.ua/article/405538",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+              "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+              "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+              "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+              "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+              "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+              "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+              "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+              "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+              "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+              "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+              "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+              "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+              "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "TEMP.Noble"
+        ]
+      },
+      {
+        "compact_normalized_name": "uac0082",
+        "confidence": "source-provided",
+        "display_group_key": "uac0082",
+        "name": "UAC-0082",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uac 0082",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+          "https://attack.mitre.org/groups/G0034",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+          "https://cert.gov.ua/article/405538",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+          "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+          "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+          "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+          "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+          "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+          "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+          "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+          "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+          "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+          "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+          "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+          "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+              "https://attack.mitre.org/groups/G0034",
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+              "https://cert.gov.ua/article/405538",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+              "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+              "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+              "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+              "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+              "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+              "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+              "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+              "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+              "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+              "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+              "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+              "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+              "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "UAC-0082"
+        ]
+      },
+      {
+        "compact_normalized_name": "uac0113",
+        "confidence": "source-provided",
+        "display_group_key": "uac0113",
+        "name": "UAC-0113",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "uac 0113",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+          "https://attack.mitre.org/groups/G0034",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+          "https://cert.gov.ua/article/405538",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+          "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+          "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+          "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+          "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+          "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+          "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+          "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+          "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+          "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+          "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+              "https://attack.mitre.org/groups/G0034",
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+              "https://cert.gov.ua/article/405538",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+              "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+              "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+              "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+              "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+              "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+              "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+              "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+              "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+              "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+              "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+              "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+              "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+              "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "UAC-0113"
+        ]
+      },
+      {
+        "compact_normalized_name": "voodoobear",
+        "confidence": "source-provided",
+        "display_group_key": "voodoobear",
+        "name": "VOODOO BEAR",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "voodoo bear",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+          "https://attack.mitre.org/groups/G0034",
+          "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+          "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+          "https://cert.gov.ua/article/405538",
+          "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+          "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+          "https://dragos.com/adversaries.html",
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+          "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+          "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+          "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+          "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+          "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+          "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+          "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+          "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+          "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+          "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+          "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+              "https://attack.mitre.org/groups/G0034",
+              "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+              "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape",
+              "https://cert.gov.ua/article/405538",
+              "https://cip.gov.ua/services/cm/api/attachment/download?id=60068",
+              "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235",
+              "https://dragos.com/adversaries.html",
+              "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+              "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf",
+              "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage",
+              "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid",
+              "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html",
+              "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+              "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks",
+              "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks",
+              "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine",
+              "https://www.us-cert.gov/ncas/alerts/TA17-163A",
+              "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+              "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare",
+              "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine",
+              "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine",
+              "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back",
+              "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0034"
+            ]
+          }
+        ],
+        "variants": [
+          "VOODOO BEAR",
+          "Voodoo Bear"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0034",
+          "name": "Acquire Infrastructure",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583",
+          "url": "https://attack.mitre.org/techniques/T1583/"
+        },
+        {
+          "actor_id": "mitre-g0034",
+          "name": "Domains",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.domaintools.com/resources/blog/centreon-to-exim-and-back-on-the-trail-of-sandworm/",
+            "https://www.justice.gov/opa/press-release/file/1328521/download"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583.001",
+          "url": "https://attack.mitre.org/techniques/T1583.001/"
+        },
+        {
+          "actor_id": "mitre-g0034",
+          "name": "Server",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.justice.gov/opa/press-release/file/1328521/download"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583.004",
+          "url": "https://attack.mitre.org/techniques/T1583.004/"
+        },
+        {
+          "actor_id": "mitre-g0034",
+          "name": "Server",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/",
+            "https://media.defense.gov/2020/May/28/2002306626/-1/-1/0/CSA%20Sandworm%20Actors%20Exploiting%20Vulnerability%20in%20Exim%20Transfer%20Agent%2020200528.pdf"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1584.004",
+          "url": "https://attack.mitre.org/techniques/T1584.004/"
+        },
+        {
+          "actor_id": "mitre-g0034",
+          "name": "Botnet",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.ncsc.gov.uk/files/Cyclops-Blink-Malware-Analysis-Report.pdf"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1584.005",
+          "url": "https://attack.mitre.org/techniques/T1584.005/"
+        },
+        {
+          "actor_id": "mitre-g0034",
+          "name": "Social Media Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.justice.gov/opa/press-release/file/1328521/download"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1585.001",
+          "url": "https://attack.mitre.org/techniques/T1585.001/"
+        },
+        {
+          "actor_id": "mitre-g0034",
+          "name": "Email Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.justice.gov/opa/press-release/file/1328521/download"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1585.002",
+          "url": "https://attack.mitre.org/techniques/T1585.002/"
+        },
+        {
+          "actor_id": "mitre-g0034",
+          "name": "Social Media Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.domaintools.com/resources/blog/centreon-to-exim-and-back-on-the-trail-of-sandworm/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1586.001",
+          "url": "https://attack.mitre.org/techniques/T1586.001/"
+        },
+        {
+          "actor_id": "mitre-g0034",
+          "name": "Malware",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.justice.gov/opa/press-release/file/1328521/download"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1587.001",
+          "url": "https://attack.mitre.org/techniques/T1587.001/"
+        },
+        {
+          "actor_id": "mitre-g0034",
+          "name": "Tool",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+            "https://www.justice.gov/opa/press-release/file/1328521/download",
+            "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1588.002",
+          "url": "https://attack.mitre.org/techniques/T1588.002/"
+        },
+        {
+          "actor_id": "mitre-g0034",
+          "name": "Vulnerabilities",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.justice.gov/opa/press-release/file/1328521/download"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1588.006",
+          "url": "https://attack.mitre.org/techniques/T1588.006/"
+        },
+        {
+          "actor_id": "mitre-g0034",
+          "name": "Upload Malware",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1608.001",
+          "url": "https://attack.mitre.org/techniques/T1608.001/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 12,
+          "items": [
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Acquire Infrastructure",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583",
+              "url": "https://attack.mitre.org/techniques/T1583/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.domaintools.com/resources/blog/centreon-to-exim-and-back-on-the-trail-of-sandworm/",
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Server",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.004",
+              "url": "https://attack.mitre.org/techniques/T1583.004/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Server",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/",
+                "https://media.defense.gov/2020/May/28/2002306626/-1/-1/0/CSA%20Sandworm%20Actors%20Exploiting%20Vulnerability%20in%20Exim%20Transfer%20Agent%2020200528.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1584.004",
+              "url": "https://attack.mitre.org/techniques/T1584.004/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Botnet",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.ncsc.gov.uk/files/Cyclops-Blink-Malware-Analysis-Report.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1584.005",
+              "url": "https://attack.mitre.org/techniques/T1584.005/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Social Media Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585.001",
+              "url": "https://attack.mitre.org/techniques/T1585.001/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Email Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585.002",
+              "url": "https://attack.mitre.org/techniques/T1585.002/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Social Media Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.domaintools.com/resources/blog/centreon-to-exim-and-back-on-the-trail-of-sandworm/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1586.001",
+              "url": "https://attack.mitre.org/techniques/T1586.001/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1587.001",
+              "url": "https://attack.mitre.org/techniques/T1587.001/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+                "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Vulnerabilities",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.006",
+              "url": "https://attack.mitre.org/techniques/T1588.006/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Upload Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.001",
+              "url": "https://attack.mitre.org/techniques/T1608.001/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 9,
+          "items": [
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Windows Management Instrumentation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1047",
+              "url": "https://attack.mitre.org/techniques/T1047/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Visual Basic",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "https://www.welivesecurity.com/2016/01/03/blackenergy-sshbeardoor-details-2015-attacks-ukrainian-news-media-electric-industry/",
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.005",
+              "url": "https://attack.mitre.org/techniques/T1059.005/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Software Deployment Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+              ],
+              "tactics": [
+                "execution",
+                "lateral-movement"
+              ],
+              "technique_id": "T1072",
+              "url": "https://attack.mitre.org/techniques/T1072/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Native API",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1106",
+              "url": "https://attack.mitre.org/techniques/T1106/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Exploitation for Client Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.trendmicro.com/trendlabs-security-intelligence/an-analysis-of-windows-zero-day-vulnerability-cve-2014-4114-aka-sandworm/",
+                "https://web.archive.org/web/20160503234007/https:/www.isightpartners.com/2014/10/cve-2014-4114/",
+                "https://www.mcafee.com/blogs/other-blogs/mcafee-labs-detects-zero-day-exploit-targeting-microsoft-office-2"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1203",
+              "url": "https://attack.mitre.org/techniques/T1203/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Malicious Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.001",
+              "url": "https://attack.mitre.org/techniques/T1204.001/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 9,
+          "items": [
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ics/alerts/IR-ALERT-H-16-056-01"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+                "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2021-CTI-005.pdf",
+                "https://www.welivesecurity.com/2016/01/03/blackenergy-sshbeardoor-details-2015-attacks-ukrainian-news-media-electric-industry/",
+                "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Exploit Public-Facing Application",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/",
+                "https://media.defense.gov/2020/May/28/2002306626/-1/-1/0/CSA%20Sandworm%20Actors%20Exploiting%20Vulnerability%20in%20Exim%20Transfer%20Agent%2020200528.pdf"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1190",
+              "url": "https://attack.mitre.org/techniques/T1190/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Supply Chain Compromise",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1195",
+              "url": "https://attack.mitre.org/techniques/T1195/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Compromise Software Supply Chain",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "https://www.secureworks.com/blog/notpetya-campaign-what-we-know-about-the-latest-global-ransomware-attack",
+                "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1195.002",
+              "url": "https://attack.mitre.org/techniques/T1195.002/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Trusted Relationship",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1199",
+              "url": "https://attack.mitre.org/techniques/T1199/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/government-backed-actors-exploiting-winrar-vulnerability/",
+                "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+                "https://web.archive.org/web/20160503234007/https:/www.isightpartners.com/2014/10/cve-2014-4114/",
+                "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "https://www.us-cert.gov/ics/alerts/IR-ALERT-H-16-056-01",
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.002",
+              "url": "https://attack.mitre.org/techniques/T1566.002/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 9,
+          "items": [
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Obfuscated Files or Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20160503234007/https:/www.isightpartners.com/2014/10/cve-2014-4114/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027",
+              "url": "https://attack.mitre.org/techniques/T1027/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Command Obfuscation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.010",
+              "url": "https://attack.mitre.org/techniques/T1027.010/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Masquerading",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036",
+              "url": "https://attack.mitre.org/techniques/T1036/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Match Legitimate Resource Name or Location",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.005",
+              "url": "https://attack.mitre.org/techniques/T1036.005/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "File Deletion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/blog/sandworm-disrupts-power-ukraine-operational-technology",
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "https://www.welivesecurity.com/2017/07/04/analysis-of-telebots-cunning-backdoor/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.004",
+              "url": "https://attack.mitre.org/techniques/T1070.004/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ics/alerts/IR-ALERT-H-16-056-01"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Deobfuscate/Decode Files or Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "https://www.welivesecurity.com/2017/07/04/analysis-of-telebots-cunning-backdoor/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1140",
+              "url": "https://attack.mitre.org/techniques/T1140/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Rundll32",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2017/07/04/analysis-of-telebots-cunning-backdoor/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.011",
+              "url": "https://attack.mitre.org/techniques/T1218.011/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 9,
+          "items": [
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Email Addresses",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1589.002",
+              "url": "https://attack.mitre.org/techniques/T1589.002/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Employee Names",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1589.003",
+              "url": "https://attack.mitre.org/techniques/T1589.003/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Domain Properties",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1590.001",
+              "url": "https://attack.mitre.org/techniques/T1590.001/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Business Relationships",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1591.002",
+              "url": "https://attack.mitre.org/techniques/T1591.002/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Software",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1592.002",
+              "url": "https://attack.mitre.org/techniques/T1592.002/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Search Open Websites/Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1593",
+              "url": "https://attack.mitre.org/techniques/T1593/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Search Victim-Owned Websites",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1594",
+              "url": "https://attack.mitre.org/techniques/T1594/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Vulnerability Scanning",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1595.002",
+              "url": "https://attack.mitre.org/techniques/T1595.002/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1598.003",
+              "url": "https://attack.mitre.org/techniques/T1598.003/"
+            }
+          ],
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        },
+        {
+          "count": 8,
+          "items": [
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Remote System Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1018",
+              "url": "https://attack.mitre.org/techniques/T1018/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "System Owner/User Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1033",
+              "url": "https://attack.mitre.org/techniques/T1033/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Network Sniffing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "credential-access",
+                "discovery"
+              ],
+              "technique_id": "T1040",
+              "url": "https://attack.mitre.org/techniques/T1040/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "System Network Connections Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1049",
+              "url": "https://attack.mitre.org/techniques/T1049/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "System Information Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "https://www.welivesecurity.com/2017/07/04/analysis-of-telebots-cunning-backdoor/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1082",
+              "url": "https://attack.mitre.org/techniques/T1082/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "File and Directory Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1083",
+              "url": "https://attack.mitre.org/techniques/T1083/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Domain Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1087.002",
+              "url": "https://attack.mitre.org/techniques/T1087.002/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Email Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2017/07/04/analysis-of-telebots-cunning-backdoor/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1087.003",
+              "url": "https://attack.mitre.org/techniques/T1087.003/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Web Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.001",
+              "url": "https://attack.mitre.org/techniques/T1071.001/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Proxy",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1090",
+              "url": "https://attack.mitre.org/techniques/T1090/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Bidirectional Communication",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1102.002",
+              "url": "https://attack.mitre.org/techniques/T1102.002/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Standard Encoding",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1132.001",
+              "url": "https://attack.mitre.org/techniques/T1132.001/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Remote Access Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/",
+                "https://www.us-cert.gov/ics/alerts/IR-ALERT-H-16-056-01"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1219",
+              "url": "https://attack.mitre.org/techniques/T1219/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Non-Standard Port",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2016/01/03/blackenergy-sshbeardoor-details-2015-attacks-ukrainian-news-media-electric-industry/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1571",
+              "url": "https://attack.mitre.org/techniques/T1571/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Data Destruction",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+                "https://www.mandiant.com/resources/blog/sandworm-disrupts-power-ukraine-operational-technology",
+                "https://www.us-cert.gov/ics/alerts/IR-ALERT-H-16-056-01",
+                "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1485",
+              "url": "https://attack.mitre.org/techniques/T1485/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Data Encrypted for Impact",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1486",
+              "url": "https://attack.mitre.org/techniques/T1486/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Service Stop",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1489",
+              "url": "https://attack.mitre.org/techniques/T1489/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Inhibit System Recovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1490",
+              "url": "https://attack.mitre.org/techniques/T1490/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "External Defacement",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.gov.uk/government/news/uk-exposes-series-of-russian-cyber-attacks-against-olympic-and-paralympic-games",
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1491.002",
+              "url": "https://attack.mitre.org/techniques/T1491.002/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Endpoint Denial of Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1499",
+              "url": "https://attack.mitre.org/techniques/T1499/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Disk Structure Wipe",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ics/alerts/IR-ALERT-H-16-056-01",
+                "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1561.002",
+              "url": "https://attack.mitre.org/techniques/T1561.002/"
+            }
+          ],
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g0034",
+              "name": "LSASS Memory",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/",
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+                "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.001",
+              "url": "https://attack.mitre.org/techniques/T1003.001/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "NTDS",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.003",
+              "url": "https://attack.mitre.org/techniques/T1003.003/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Network Sniffing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "credential-access",
+                "discovery"
+              ],
+              "technique_id": "T1040",
+              "url": "https://attack.mitre.org/techniques/T1040/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Keylogging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.001",
+              "url": "https://attack.mitre.org/techniques/T1056.001/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Steal Web Session Cookie",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1539",
+              "url": "https://attack.mitre.org/techniques/T1539/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Credentials from Web Browsers",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1555.003",
+              "url": "https://attack.mitre.org/techniques/T1555.003/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ics/alerts/IR-ALERT-H-16-056-01"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+                "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2021-CTI-005.pdf",
+                "https://www.welivesecurity.com/2016/01/03/blackenergy-sshbeardoor-details-2015-attacks-ukrainian-news-media-electric-industry/",
+                "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Web Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2021-CTI-005.pdf"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1505.003",
+              "url": "https://attack.mitre.org/techniques/T1505.003/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Data from Local System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1005",
+              "url": "https://attack.mitre.org/techniques/T1005/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Keylogging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.001",
+              "url": "https://attack.mitre.org/techniques/T1056.001/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Databases",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1213.006",
+              "url": "https://attack.mitre.org/techniques/T1213.006/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.us-cert.gov/ics/alerts/IR-ALERT-H-16-056-01"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1328521/download",
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0034",
+              "name": "SMB/Windows Admin Shares",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.002",
+              "url": "https://attack.mitre.org/techniques/T1021.002/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Software Deployment Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+              ],
+              "tactics": [
+                "execution",
+                "lateral-movement"
+              ],
+              "technique_id": "T1072",
+              "url": "https://attack.mitre.org/techniques/T1072/"
+            },
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Lateral Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.dragos.com/wp-content/uploads/CRASHOVERRIDE2018.pdf",
+                "https://www.mandiant.com/resources/blog/sandworm-disrupts-power-ukraine-operational-technology",
+                "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1570",
+              "url": "https://attack.mitre.org/techniques/T1570/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0034",
+              "name": "Exfiltration Over C2 Channel",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1041",
+              "url": "https://attack.mitre.org/techniques/T1041/"
+            }
+          ],
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 12,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 9,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 9,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 9,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 9,
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        },
+        {
+          "count": 8,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 7,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 7,
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        },
+        {
+          "count": 6,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 5,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 3,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 3,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 3,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 1,
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        }
+      ],
+      "total": 79
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0034/"
+          ]
+        }
+      ],
+      "text": "Sandworm Team is a destructive threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) Main Center for Special Technologies (GTsST) military unit 74455.(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: UK NCSC Olympic Attacks October 2020) This group has been active since at least 2009.(Citation: iSIGHT Sandworm 2014)(Citation: CrowdStrike VOODOO BEAR)(Citation: USDOJ Sandworm Feb 2020)(Citation: NCSC Sandworm Feb 2020) In October 2020, the US indicted six GRU Unit 74455 officers associated with Sandworm Team for the following cyber operations: the 2015 and 2016 attacks against Ukrainian electrical companies and..."
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://2017-2021.state.gov/the-united-states-condemns-russian-cyber-attack-against-the-country-of-georgia/index.html"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0034"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog-assets.f-secure.com/wp-content/uploads/2019/10/15163408/BlackEnergy_Quedagh.pdf"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cert.gov.ua/article/405538"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cip.gov.ua/services/cm/api/attachment/download?id=60068"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/apt44-unearthing-sandworm?linkId=9627235"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://dragos.com/adversaries.html"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://dragos.com/media/2017-Review-Industrial-Control-System-Threats.pdf"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://hub.packtpub.com/resecurity-reports-iriduim-behind-citrix-data-breach-200-government-agencies-oil-and-gas-companies-and-technology-companies-also-targeted"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://ics.sans.org/blog/2015/12/30/current-reporting-on-the-cyber-attack-in-ukraine-resulting-in-power-outage"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://ics.sans.org/blog/2016/01/09/confirmation-of-a-coordinated-attack-on-the-ukrainian-power-grid"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://packetstormsecurity.com/news/view/35790/Recent-OT-And-Espionage-Attacks-Linked-To-Russias-Sandworm-Now-Named-APT44.html"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://threatpost.com/ranian-apt-6tb-data-citrix/142688"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20141016132823/https://www.symantec.com/connect/blogs/sandworm-windows-zero-day-vulnerability-being-actively-exploited-targeted-attacks"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20141224060545/http://blog.trendmicro.com/trendlabs-security-intelligence/timeline-of-sandworm-attacks"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-january-voodoo-bear"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.dragos.com/resource/electrum"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2016/01/ukraine-and-sandworm-team.html"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.gov.uk/government/news/uk-exposes-series-of-russian-cyber-attacks-against-olympic-and-paralympic-games"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.infosecurity-magazine.com/news/microsoft-zero-day-traced-russian"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/opa/page/file/1098481/download"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/opa/press-release/file/1328521/download"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.nbcnews.com/politics/national-security/iranian-backed-hackers-stole-data-major-u-s-government-contractor-n980986"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ncsc.gov.uk/news/ncsc-supports-sandworm-advisory"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.recordedfuture.com/russia-nexus-uac-0113-emulating-telecommunication-providers-in-ukraine"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/iron-viking"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.us-cert.gov/ncas/alerts/TA17-163A"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.welivesecurity.com/2017/05/23/xdata-ransomware-making-rounds-amid-global-wannacryptor-scare"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.welivesecurity.com/2017/06/27/new-ransomware-attack-hits-ukraine"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.welivesecurity.com/2017/10/24/bad-rabbit-not-petya-back"
+      },
+      {
+        "actor_id": "mitre-g0034",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        },
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            },
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        },
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            },
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "APT44",
+      "BE2",
+      "BlackEnergy (Group)",
+      "BlackEnergy Lite",
+      "Blue Echidna",
+      "ELECTRUM",
+      "FROZENBARENTS",
+      "G0034",
+      "IRIDIUM",
+      "IRON VIKING",
+      "PHANTOM",
+      "Quedagh",
+      "Sandworm",
+      "Sandworm Team",
+      "Seashell Blizzard",
+      "Telebots",
+      "TeleBots",
+      "TEMP.Noble",
+      "UAC-0082",
+      "UAC-0113",
+      "Voodoo Bear",
+      "VOODOO BEAR"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

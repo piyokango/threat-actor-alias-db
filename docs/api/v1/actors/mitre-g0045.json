@@ -1,0 +1,3360 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0045",
+    "canonical_name": "menuPass",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0045"
+    ],
+    "misp_uuid": "56b37b05-72e7-4a89-ba8a-61ce45269a8c",
+    "mitre_id": "G0045",
+    "names": [
+      {
+        "compact_normalized_name": "menupass",
+        "confidence": "source-provided",
+        "display_group_key": "menupass",
+        "name": "MenuPass",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MITRE ATT&CK",
+        "normalized_name": "menupass",
+        "source_id": "microsoft-threat-actor-naming,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0045",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0045"
+            ]
+          }
+        ],
+        "variants": [
+          "menuPass",
+          "MenuPass"
+        ]
+      },
+      {
+        "compact_normalized_name": "aeon",
+        "confidence": "source-provided",
+        "display_group_key": "aeon",
+        "name": "AEON",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "aeon",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "AEON"
+        ]
+      },
+      {
+        "compact_normalized_name": "apt10",
+        "confidence": "source-provided",
+        "display_group_key": "apt10",
+        "name": "APT10",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "apt10",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0045"
+            ]
+          }
+        ],
+        "variants": [
+          "APT10"
+        ]
+      },
+      {
+        "compact_normalized_name": "atk41",
+        "confidence": "source-provided",
+        "display_group_key": "atk41",
+        "name": "ATK41",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "atk41",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "ATK41"
+        ]
+      },
+      {
+        "compact_normalized_name": "bronzeriverside",
+        "confidence": "source-provided",
+        "display_group_key": "bronzeriverside",
+        "name": "BRONZE RIVERSIDE",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "bronze riverside",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0045"
+            ]
+          }
+        ],
+        "variants": [
+          "BRONZE RIVERSIDE"
+        ]
+      },
+      {
+        "compact_normalized_name": "chches",
+        "confidence": "source-provided",
+        "display_group_key": "chches",
+        "name": "ChChes",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "chches",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "ChChes"
+        ]
+      },
+      {
+        "compact_normalized_name": "cicada",
+        "confidence": "source-provided",
+        "display_group_key": "cicada",
+        "name": "Cicada",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "cicada",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0045"
+            ]
+          }
+        ],
+        "variants": [
+          "Cicada"
+        ]
+      },
+      {
+        "compact_normalized_name": "cloudhopper",
+        "confidence": "source-provided",
+        "display_group_key": "cloudhopper",
+        "name": "Cloud Hopper",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cloud hopper",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Cloud Hopper"
+        ]
+      },
+      {
+        "compact_normalized_name": "cvnx",
+        "confidence": "source-provided",
+        "display_group_key": "cvnx",
+        "name": "CVNX",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "cvnx",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0045"
+            ]
+          }
+        ],
+        "variants": [
+          "CVNX"
+        ]
+      },
+      {
+        "compact_normalized_name": "evilgrab",
+        "confidence": "source-provided",
+        "display_group_key": "evilgrab",
+        "name": "Evilgrab",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "evilgrab",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "Evilgrab"
+        ]
+      },
+      {
+        "compact_normalized_name": "foxmail",
+        "confidence": "source-provided",
+        "display_group_key": "foxmail",
+        "name": "Foxmail",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "foxmail",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "Foxmail"
+        ]
+      },
+      {
+        "compact_normalized_name": "foxtrot",
+        "confidence": "source-provided",
+        "display_group_key": "foxtrot",
+        "name": "Foxtrot",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "foxtrot",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "Foxtrot"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0045",
+        "confidence": "source-provided",
+        "display_group_key": "g0045",
+        "name": "G0045",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0045",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "G0045"
+        ]
+      },
+      {
+        "compact_normalized_name": "golem",
+        "confidence": "source-provided",
+        "display_group_key": "golem",
+        "name": "GOLEM",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "golem",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "GOLEM"
+        ]
+      },
+      {
+        "compact_normalized_name": "granitetaurus",
+        "confidence": "source-provided",
+        "display_group_key": "granitetaurus",
+        "name": "Granite Taurus",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "granite taurus",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Granite Taurus"
+        ]
+      },
+      {
+        "compact_normalized_name": "happyyongzi",
+        "confidence": "source-provided",
+        "display_group_key": "happyyongzi",
+        "name": "happyyongzi",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "happyyongzi",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "happyyongzi"
+        ]
+      },
+      {
+        "compact_normalized_name": "haymaker",
+        "confidence": "source-provided",
+        "display_group_key": "haymaker",
+        "name": "Haymaker",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "haymaker",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "Haymaker"
+        ]
+      },
+      {
+        "compact_normalized_name": "hogfish",
+        "confidence": "source-provided",
+        "display_group_key": "hogfish",
+        "name": "HOGFISH",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "hogfish",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0045"
+            ]
+          }
+        ],
+        "variants": [
+          "HOGFISH"
+        ]
+      },
+      {
+        "compact_normalized_name": "livesafe",
+        "confidence": "source-provided",
+        "display_group_key": "livesafe",
+        "name": "LIVESAFE",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "livesafe",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "LIVESAFE"
+        ]
+      },
+      {
+        "compact_normalized_name": "menupassteam",
+        "confidence": "source-provided",
+        "display_group_key": "menupassteam",
+        "name": "Menupass Team",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "menupass team",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Menupass Team"
+        ]
+      },
+      {
+        "compact_normalized_name": "potassium",
+        "confidence": "source-provided",
+        "display_group_key": "potassium",
+        "name": "POTASSIUM",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "potassium",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0045"
+            ]
+          }
+        ],
+        "variants": [
+          "POTASSIUM"
+        ]
+      },
+      {
+        "compact_normalized_name": "purpletyphoon",
+        "confidence": "source-provided",
+        "display_group_key": "purpletyphoon",
+        "name": "Purple Typhoon",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "purple typhoon",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Purple Typhoon"
+        ]
+      },
+      {
+        "compact_normalized_name": "redapollo",
+        "confidence": "source-provided",
+        "display_group_key": "redapollo",
+        "name": "Red Apollo",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "red apollo",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0045"
+            ]
+          }
+        ],
+        "variants": [
+          "Red Apollo"
+        ]
+      },
+      {
+        "compact_normalized_name": "stonepanda",
+        "confidence": "source-provided",
+        "display_group_key": "stonepanda",
+        "name": "STONE PANDA",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "stone panda",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0045"
+            ]
+          }
+        ],
+        "variants": [
+          "STONE PANDA",
+          "Stone Panda"
+        ]
+      },
+      {
+        "compact_normalized_name": "ta429",
+        "confidence": "source-provided",
+        "display_group_key": "ta429",
+        "name": "TA429",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ta429",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+          "https://attack.mitre.org/groups/G0045",
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+          "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+          "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+          "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+          "https://www.cfr.org/interactive/cyber-operations/apt-10",
+          "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+          "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+          "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+          "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+          "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+          "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+          "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+              "https://attack.mitre.org/groups/G0045",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign",
+              "https://unit42.paloaltonetworks.com/atoms/granite-taurus",
+              "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations",
+              "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+              "https://www.cfr.org/interactive/cyber-operations/apt-10",
+              "https://www.crowdstrike.com/blog/two-birds-one-stone-panda",
+              "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret",
+              "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018",
+              "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+              "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+              "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new",
+              "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+              "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "TA429"
+        ]
+      },
+      {
+        "compact_normalized_name": "webmonder",
+        "confidence": "source-provided",
+        "display_group_key": "webmonder",
+        "name": "Webmonder",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "webmonder",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "Webmonder"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0045",
+          "name": "Encrypted/Encoded File",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+            "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+            "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.013",
+          "url": "https://attack.mitre.org/techniques/T1027.013/"
+        },
+        {
+          "actor_id": "mitre-g0045",
+          "name": "Masquerading",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036",
+          "url": "https://attack.mitre.org/techniques/T1036/"
+        },
+        {
+          "actor_id": "mitre-g0045",
+          "name": "Rename Legitimate Utilities",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.003",
+          "url": "https://attack.mitre.org/techniques/T1036.003/"
+        },
+        {
+          "actor_id": "mitre-g0045",
+          "name": "Match Legitimate Resource Name or Location",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.justice.gov/opa/page/file/1122671/download"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036.005/"
+        },
+        {
+          "actor_id": "mitre-g0045",
+          "name": "Process Hollowing",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+          ],
+          "tactics": [
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1055.012",
+          "url": "https://attack.mitre.org/techniques/T1055.012/"
+        },
+        {
+          "actor_id": "mitre-g0045",
+          "name": "Clear Command History",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1070.003",
+          "url": "https://attack.mitre.org/techniques/T1070.003/"
+        },
+        {
+          "actor_id": "mitre-g0045",
+          "name": "File Deletion",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+            "https://www.justice.gov/opa/page/file/1122671/download"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1070.004",
+          "url": "https://attack.mitre.org/techniques/T1070.004/"
+        },
+        {
+          "actor_id": "mitre-g0045",
+          "name": "Valid Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/",
+            "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+            "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+            "https://www.justice.gov/opa/page/file/1122671/download"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "actor_id": "mitre-g0045",
+          "name": "Deobfuscate/Decode Files or Information",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+            "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1140",
+          "url": "https://attack.mitre.org/techniques/T1140/"
+        },
+        {
+          "actor_id": "mitre-g0045",
+          "name": "InstallUtil",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1218.004",
+          "url": "https://attack.mitre.org/techniques/T1218.004/"
+        },
+        {
+          "actor_id": "mitre-g0045",
+          "name": "DLL",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+            "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+            "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+            "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+          ],
+          "tactics": [
+            "execution",
+            "stealth"
+          ],
+          "technique_id": "T1574.001",
+          "url": "https://attack.mitre.org/techniques/T1574.001/"
+        },
+        {
+          "actor_id": "mitre-g0045",
+          "name": "Data from Local System",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+            "https://www.justice.gov/opa/pr/two-chinese-hackers-associated-ministry-state-security-charged-global-computer-intrusion"
+          ],
+          "tactics": [
+            "collection"
+          ],
+          "technique_id": "T1005",
+          "url": "https://attack.mitre.org/techniques/T1005/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 11,
+          "items": [
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Encrypted/Encoded File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.013",
+              "url": "https://attack.mitre.org/techniques/T1027.013/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Masquerading",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036",
+              "url": "https://attack.mitre.org/techniques/T1036/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Rename Legitimate Utilities",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.003",
+              "url": "https://attack.mitre.org/techniques/T1036.003/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Match Legitimate Resource Name or Location",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/page/file/1122671/download"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.005",
+              "url": "https://attack.mitre.org/techniques/T1036.005/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Process Hollowing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055.012",
+              "url": "https://attack.mitre.org/techniques/T1055.012/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Clear Command History",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.003",
+              "url": "https://attack.mitre.org/techniques/T1070.003/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "File Deletion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+                "https://www.justice.gov/opa/page/file/1122671/download"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.004",
+              "url": "https://attack.mitre.org/techniques/T1070.004/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/",
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "https://www.justice.gov/opa/page/file/1122671/download"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Deobfuscate/Decode Files or Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+                "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1140",
+              "url": "https://attack.mitre.org/techniques/T1140/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "InstallUtil",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.004",
+              "url": "https://attack.mitre.org/techniques/T1218.004/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "execution",
+                "stealth"
+              ],
+              "technique_id": "T1574.001",
+              "url": "https://attack.mitre.org/techniques/T1574.001/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 8,
+          "items": [
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Data from Local System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "https://www.justice.gov/opa/pr/two-chinese-hackers-associated-ministry-state-security-charged-global-computer-intrusion"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1005",
+              "url": "https://attack.mitre.org/techniques/T1005/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Data from Network Shared Drive",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1039",
+              "url": "https://attack.mitre.org/techniques/T1039/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Keylogging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/page/file/1122671/download"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.001",
+              "url": "https://attack.mitre.org/techniques/T1056.001/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Local Data Staging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1074.001",
+              "url": "https://attack.mitre.org/techniques/T1074.001/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Remote Data Staging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1074.002",
+              "url": "https://attack.mitre.org/techniques/T1074.002/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Automated Collection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1119",
+              "url": "https://attack.mitre.org/techniques/T1119/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Archive Collected Data",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/page/file/1122671/download",
+                "https://www.justice.gov/opa/pr/two-chinese-hackers-associated-ministry-state-security-charged-global-computer-intrusion"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1560",
+              "url": "https://attack.mitre.org/techniques/T1560/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Archive via Utility",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1560.001",
+              "url": "https://attack.mitre.org/techniques/T1560.001/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Windows Management Instrumentation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://github.com/Twi1ight/AD-Pentest-Script/blob/master/wmiexec.vbs",
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1047",
+              "url": "https://attack.mitre.org/techniques/T1047/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+                "https://github.com/Twi1ight/AD-Pentest-Script/blob/master/wmiexec.vbs",
+                "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Native API",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1106",
+              "url": "https://attack.mitre.org/techniques/T1106/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+                "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+                "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+                "https://www.justice.gov/opa/page/file/1122671/download",
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "execution",
+                "stealth"
+              ],
+              "technique_id": "T1574.001",
+              "url": "https://attack.mitre.org/techniques/T1574.001/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g0045",
+              "name": "System Network Configuration Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1016",
+              "url": "https://attack.mitre.org/techniques/T1016/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Remote System Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1018",
+              "url": "https://attack.mitre.org/techniques/T1018/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Network Service Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1046",
+              "url": "https://attack.mitre.org/techniques/T1046/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "System Network Connections Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1049",
+              "url": "https://attack.mitre.org/techniques/T1049/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "File and Directory Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1083",
+              "url": "https://attack.mitre.org/techniques/T1083/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Domain Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1087.002",
+              "url": "https://attack.mitre.org/techniques/T1087.002/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Security Account Manager",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://github.com/Twi1ight/AD-Pentest-Script/blob/master/wmiexec.vbs",
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.002",
+              "url": "https://attack.mitre.org/techniques/T1003.002/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "NTDS",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.003",
+              "url": "https://attack.mitre.org/techniques/T1003.003/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "LSA Secrets",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://github.com/Twi1ight/AD-Pentest-Script/blob/master/wmiexec.vbs",
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.004",
+              "url": "https://attack.mitre.org/techniques/T1003.004/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Keylogging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/page/file/1122671/download"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.001",
+              "url": "https://attack.mitre.org/techniques/T1056.001/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/",
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "https://www.justice.gov/opa/page/file/1122671/download"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Exploit Public-Facing Application",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1190",
+              "url": "https://attack.mitre.org/techniques/T1190/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Trusted Relationship",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+                "https://www.justice.gov/opa/page/file/1122671/download",
+                "https://www.justice.gov/opa/pr/two-chinese-hackers-associated-ministry-state-security-charged-global-computer-intrusion",
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1199",
+              "url": "https://attack.mitre.org/techniques/T1199/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+                "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+                "https://www.justice.gov/opa/page/file/1122671/download",
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0045",
+              "name": "External Proxy",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+                "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1090.002",
+              "url": "https://attack.mitre.org/techniques/T1090.002/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "https://www.justice.gov/opa/page/file/1122671/download"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Fast Flux DNS",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/page/file/1122671/download"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1568.001",
+              "url": "https://attack.mitre.org/techniques/T1568.001/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Process Hollowing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055.012",
+              "url": "https://attack.mitre.org/techniques/T1055.012/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/",
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "https://www.justice.gov/opa/page/file/1122671/download"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Remote Desktop Protocol",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "https://www.justice.gov/opa/page/file/1122671/download"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.001",
+              "url": "https://attack.mitre.org/techniques/T1021.001/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "SSH",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.004",
+              "url": "https://attack.mitre.org/techniques/T1021.004/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Exploitation of Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1210",
+              "url": "https://attack.mitre.org/techniques/T1210/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/",
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage",
+                "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+                "https://www.justice.gov/opa/page/file/1122671/download"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/page/file/1122671/download",
+                "https://www.justice.gov/opa/pr/two-chinese-hackers-associated-ministry-state-security-charged-global-computer-intrusion"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.pwc.co.uk/cyber-security/pdf/pwc-uk-operation-cloud-hopper-technical-annex-april-2017.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0045",
+              "name": "Code Signing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1553.002",
+              "url": "https://attack.mitre.org/techniques/T1553.002/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 11,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 8,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 7,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 6,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 4,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 4,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 3,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 3,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 3,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 2,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 2,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 1,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        }
+      ],
+      "total": 46
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0045/"
+          ]
+        }
+      ],
+      "text": "menuPass is a threat group that has been active since at least 2006. Individual members of menuPass are known to have acted in association with the Chinese Ministry of State Security's (MSS) Tianjin State Security Bureau and worked for the Huaying Haitai Science and Technology Development Company.(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018) menuPass has targeted healthcare, defense, aerospace, finance, maritime, biotechnology, energy, and government sectors globally, with an emphasis on Japanese organizations. In 2016 and 2017, the group is known to have targeted managed IT service providers (MSPs), manufacturing and mining companies, and a..."
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0045"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/atoms/granite-taurus"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/apt-10"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/two-birds-one-stone-panda"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.eweek.com/security/chinese-nation-state-hackers-target-u.s-in-operation-tradesecret"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fbi.gov/news/stories/chinese-hackers-indicted-122018"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/opa/page/file/1122671/download"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/opa/pr/two-chinese-hackers-associated-ministry-state-security-charged-global-computer-intrusion"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/insights/apt-groups"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-poison-ivy.pdf"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/bronze-starlight-ransomware-operations-use-hui-loader"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/bronze-riverside"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.slideshare.net/slideshow/crowd-casts-monthly-you-have-an-adversary-problem/27262315"
+      },
+      {
+        "actor_id": "mitre-g0045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.us-cert.gov/sites/default/files/publications/IR-ALERT-MED-17-093-01C-Intrusions_Affecting_Multiple_Victims_Across_Multiple_Sectors.pdf"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "CN",
+          "display_value": "China",
+          "flag": "🇨🇳",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "China"
+        },
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "CN",
+          "display_value": "China",
+          "flag": "🇨🇳",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "China"
+        },
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "AEON",
+      "APT10",
+      "ATK41",
+      "BRONZE RIVERSIDE",
+      "ChChes",
+      "Cicada",
+      "Cloud Hopper",
+      "CVNX",
+      "Evilgrab",
+      "Foxmail",
+      "Foxtrot",
+      "G0045",
+      "GOLEM",
+      "Granite Taurus",
+      "happyyongzi",
+      "Haymaker",
+      "HOGFISH",
+      "LIVESAFE",
+      "menuPass",
+      "MenuPass",
+      "Menupass Team",
+      "POTASSIUM",
+      "Purple Typhoon",
+      "Red Apollo",
+      "Stone Panda",
+      "STONE PANDA",
+      "TA429",
+      "Webmonder"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,117 @@
+{
+  "actor": {
+    "actor_id": "misp-2bc5a93f-53f0-4af3-9065-c7cf74da12c7",
+    "canonical_name": "INJ3CTOR3",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-2bc5a93f-53f0-4af3-9065-c7cf74da12c7"
+    ],
+    "misp_uuid": "2bc5a93f-53f0-4af3-9065-c7cf74da12c7",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "inj3ctor3",
+        "confidence": "source-provided",
+        "display_group_key": "inj3ctor3",
+        "name": "INJ3CTOR3",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "inj3ctor3",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://research.checkpoint.com/2020/inj3ctor3-operation-leveraging-asterisk-servers-for-monetization",
+          "https://unit42.paloaltonetworks.com/digium-phones-web-shell",
+          "https://www.fortinet.com/blog/threat-research/unveiling-the-weaponized-web-shell-encystphp"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://research.checkpoint.com/2020/inj3ctor3-operation-leveraging-asterisk-servers-for-monetization",
+              "https://unit42.paloaltonetworks.com/digium-phones-web-shell",
+              "https://www.fortinet.com/blog/threat-research/unveiling-the-weaponized-web-shell-encystphp"
+            ]
+          }
+        ],
+        "variants": [
+          "INJ3CTOR3"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "INJ3CTOR3 is a threat actor first identified in 2020, known for targeting vulnerabilities in VoIP systems, specifically CVE-2019-19006 and CVE-2021-45461. Their operations involve exploiting FreePBX vulnerabilities to deploy PHP web shells for data exfiltration and persistence. The group utilizes tools for SIP server exploitation, including brute-force scripts and authentication bypass techniques. Observations indicate a resurgence of their attack patterns, reflecting historical behaviors while adapting to current vulnerabilities."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-2bc5a93f-53f0-4af3-9065-c7cf74da12c7",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.checkpoint.com/2020/inj3ctor3-operation-leveraging-asterisk-servers-for-monetization"
+      },
+      {
+        "actor_id": "misp-2bc5a93f-53f0-4af3-9065-c7cf74da12c7",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/digium-phones-web-shell"
+      },
+      {
+        "actor_id": "misp-2bc5a93f-53f0-4af3-9065-c7cf74da12c7",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fortinet.com/blog/threat-research/unveiling-the-weaponized-web-shell-encystphp"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "INJ3CTOR3"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

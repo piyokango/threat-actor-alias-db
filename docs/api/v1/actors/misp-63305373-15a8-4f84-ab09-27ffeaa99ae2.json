@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-63305373-15a8-4f84-ab09-27ffeaa99ae2",
+    "canonical_name": "UTA0352",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-63305373-15a8-4f84-ab09-27ffeaa99ae2"
+    ],
+    "misp_uuid": "63305373-15a8-4f84-ab09-27ffeaa99ae2",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "uta0352",
+        "confidence": "source-provided",
+        "display_group_key": "uta0352",
+        "name": "UTA0352",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uta0352",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.volexity.com/blog/2025/04/22/phishing-for-codes-russian-threat-actors-target-microsoft-365-oauth-workflows"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.volexity.com/blog/2025/04/22/phishing-for-codes-russian-threat-actors-target-microsoft-365-oauth-workflows"
+            ]
+          }
+        ],
+        "variants": [
+          "UTA0352"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UTA0352 is a Russian threat actor attributed to phishing campaigns that exploit Microsoft OAuth 2.0 authentication workflows, often impersonating government officials to lure targets into providing sensitive information. The actor has been observed using malicious URLs disguised as legitimate services, such as a Romanian government authentication system. UTA0352 has also targeted Microsoft Teams and employed social engineering tactics via messaging platforms like Signal and WhatsApp. Volexity assesses with medium confidence that UTA0352 is involved in operations themed around Ukraine, targeting individuals and organizations historically associated with Russian threat activities."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-63305373-15a8-4f84-ab09-27ffeaa99ae2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.volexity.com/blog/2025/04/22/phishing-for-codes-russian-threat-actors-target-microsoft-365-oauth-workflows"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "UTA0352"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

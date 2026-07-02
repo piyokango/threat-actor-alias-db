@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-0debc8ab-1449-4915-aa33-f6a54df2b2d7",
+    "canonical_name": "UAC-0215",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-0debc8ab-1449-4915-aa33-f6a54df2b2d7"
+    ],
+    "misp_uuid": "0debc8ab-1449-4915-aa33-f6a54df2b2d7",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "uac0215",
+        "confidence": "source-provided",
+        "display_group_key": "uac0215",
+        "name": "UAC-0215",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uac 0215",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cert.gov.ua/article/6281076",
+          "https://cyble.com/blog/phishing-campaign-targeting-ukraine-uac-0215"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cert.gov.ua/article/6281076",
+              "https://cyble.com/blog/phishing-campaign-targeting-ukraine-uac-0215"
+            ]
+          }
+        ],
+        "variants": [
+          "UAC-0215"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UAC-0215 is an APT group that has orchestrated a phishing campaign targeting public institutions, major industries, and military units in Ukraine, utilizing rogue RDP files to gain unauthorized access. The malicious emails are designed to appear legitimate, enticing recipients to open attachments that connect their systems to the attacker's server, allowing extensive access to local resources. CERT-UA has identified this activity as high-risk and has advised organizations to block RDP files at mail gateways and restrict RDP connection capabilities. The campaign's geographical footprint suggests a potential for broader cyberattacks beyond Ukraine."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-0debc8ab-1449-4915-aa33-f6a54df2b2d7",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cert.gov.ua/article/6281076"
+      },
+      {
+        "actor_id": "misp-0debc8ab-1449-4915-aa33-f6a54df2b2d7",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cyble.com/blog/phishing-campaign-targeting-ukraine-uac-0215"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "UAC-0215"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

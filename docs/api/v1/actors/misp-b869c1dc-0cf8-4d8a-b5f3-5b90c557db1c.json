@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-b869c1dc-0cf8-4d8a-b5f3-5b90c557db1c",
+    "canonical_name": "Anonymous KSA",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-b869c1dc-0cf8-4d8a-b5f3-5b90c557db1c"
+    ],
+    "misp_uuid": "b869c1dc-0cf8-4d8a-b5f3-5b90c557db1c",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "anonymousksa",
+        "confidence": "source-provided",
+        "display_group_key": "anonymousksa",
+        "name": "Anonymous KSA",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "anonymous ksa",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cybershafarat.com/2024/07/22/hacking-group-anonymous-ksa-a-notorious-threat-actor-is-targeting-india-in-a-series-of-cyber-attacks",
+          "https://x.com/DailyDarkWeb/status/1807783849608286296"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cybershafarat.com/2024/07/22/hacking-group-anonymous-ksa-a-notorious-threat-actor-is-targeting-india-in-a-series-of-cyber-attacks",
+              "https://x.com/DailyDarkWeb/status/1807783849608286296"
+            ]
+          }
+        ],
+        "variants": [
+          "Anonymous KSA"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Anonymous KSA is a Saudi hacking group that has executed cyber attacks targeting Indian institutions, including a significant breach of UIDAI's data storage units, leading to access to sensitive information and system disruption. The group claims these actions are in response to India's normalization of ties with Israel and its treatment of Palestinians. They have called for support for the Palestinian cause and accountability for the damage caused by their operations. The group's TTPs include targeting government agencies and leveraging public sentiment to justify their actions."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-b869c1dc-0cf8-4d8a-b5f3-5b90c557db1c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cybershafarat.com/2024/07/22/hacking-group-anonymous-ksa-a-notorious-threat-actor-is-targeting-india-in-a-series-of-cyber-attacks"
+      },
+      {
+        "actor_id": "misp-b869c1dc-0cf8-4d8a-b5f3-5b90c557db1c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://x.com/DailyDarkWeb/status/1807783849608286296"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Anonymous KSA"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

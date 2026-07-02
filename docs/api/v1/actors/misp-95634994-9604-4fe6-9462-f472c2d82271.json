@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-95634994-9604-4fe6-9462-f472c2d82271",
+    "canonical_name": "Mogilevich",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-95634994-9604-4fe6-9462-f472c2d82271"
+    ],
+    "misp_uuid": "95634994-9604-4fe6-9462-f472c2d82271",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "mogilevich",
+        "confidence": "source-provided",
+        "display_group_key": "mogilevich",
+        "name": "Mogilevich",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "mogilevich",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://therecord.media/ireland-dfa-no-evidence-of-cybersecurity-breach",
+          "https://www.bleepingcomputer.com/news/security/epic-games-zero-evidence-we-were-hacked-by-mogilevich-gang"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://therecord.media/ireland-dfa-no-evidence-of-cybersecurity-breach",
+              "https://www.bleepingcomputer.com/news/security/epic-games-zero-evidence-we-were-hacked-by-mogilevich-gang"
+            ]
+          }
+        ],
+        "variants": [
+          "Mogilevich"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Mogilevich is a ransomware group known for claiming to breach organizations like Epic Games and Ireland's Department of Foreign Affairs, offering stolen data for sale without providing proof of the attacks. They operate as an extortion group, targeting high-profile victims and demanding payment for the data they claim to have stolen. Despite their claims, security researchers have noted that Mogilevich's tactics and website design suggest they may not be a sophisticated threat actor."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-95634994-9604-4fe6-9462-f472c2d82271",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://therecord.media/ireland-dfa-no-evidence-of-cybersecurity-breach"
+      },
+      {
+        "actor_id": "misp-95634994-9604-4fe6-9462-f472c2d82271",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bleepingcomputer.com/news/security/epic-games-zero-evidence-we-were-hacked-by-mogilevich-gang"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Mogilevich"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

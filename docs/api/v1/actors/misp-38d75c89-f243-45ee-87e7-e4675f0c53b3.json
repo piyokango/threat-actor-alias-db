@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-38d75c89-f243-45ee-87e7-e4675f0c53b3",
+    "canonical_name": "Copy-Paste",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-38d75c89-f243-45ee-87e7-e4675f0c53b3"
+    ],
+    "misp_uuid": "38d75c89-f243-45ee-87e7-e4675f0c53b3",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "copypaste",
+        "confidence": "source-provided",
+        "display_group_key": "copypaste",
+        "name": "Copy-Paste",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "copy paste",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.cyber.gov.au/acsc/view-all-content/advisories/advisory-2020-008-copy-paste-compromises-tactics-techniques-and-procedures-used-target-multiple-australian-networks",
+          "https://www.cyber.gov.au/acsc/view-all-content/alerts/copy-paste-compromises"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.cyber.gov.au/acsc/view-all-content/advisories/advisory-2020-008-copy-paste-compromises-tactics-techniques-and-procedures-used-target-multiple-australian-networks",
+              "https://www.cyber.gov.au/acsc/view-all-content/alerts/copy-paste-compromises"
+            ]
+          }
+        ],
+        "variants": [
+          "Copy-Paste"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "The title ‘Copy-paste compromises’ is derived from the actor’s heavy use of tools copied almost identically from open source given by The Australian Government."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-38d75c89-f243-45ee-87e7-e4675f0c53b3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cyber.gov.au/acsc/view-all-content/advisories/advisory-2020-008-copy-paste-compromises-tactics-techniques-and-procedures-used-target-multiple-australian-networks"
+      },
+      {
+        "actor_id": "misp-38d75c89-f243-45ee-87e7-e4675f0c53b3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cyber.gov.au/acsc/view-all-content/alerts/copy-paste-compromises"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Copy-Paste"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

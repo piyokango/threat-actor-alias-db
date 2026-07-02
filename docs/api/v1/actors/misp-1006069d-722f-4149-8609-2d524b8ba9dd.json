@@ -1,0 +1,167 @@
+{
+  "actor": {
+    "actor_id": "misp-1006069d-722f-4149-8609-2d524b8ba9dd",
+    "canonical_name": "UNC6619",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-1006069d-722f-4149-8609-2d524b8ba9dd"
+    ],
+    "misp_uuid": "1006069d-722f-4149-8609-2d524b8ba9dd",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unc6619",
+        "confidence": "source-provided",
+        "display_group_key": "unc6619",
+        "name": "UNC6619",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc6619",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://unit42.paloaltonetworks.com/shadow-campaigns-uncovering-global-espionage"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://unit42.paloaltonetworks.com/shadow-campaigns-uncovering-global-espionage"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC6619"
+        ]
+      },
+      {
+        "compact_normalized_name": "shadowcampaigns",
+        "confidence": "source-provided",
+        "display_group_key": "shadowcampaigns",
+        "name": "Shadow Campaigns",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "shadow campaigns",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://unit42.paloaltonetworks.com/shadow-campaigns-uncovering-global-espionage"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://unit42.paloaltonetworks.com/shadow-campaigns-uncovering-global-espionage"
+            ]
+          }
+        ],
+        "variants": [
+          "Shadow Campaigns"
+        ]
+      },
+      {
+        "compact_normalized_name": "tgrsta1030",
+        "confidence": "source-provided",
+        "display_group_key": "tgrsta1030",
+        "name": "TGR-STA-1030",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "tgr sta 1030",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://unit42.paloaltonetworks.com/shadow-campaigns-uncovering-global-espionage"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://unit42.paloaltonetworks.com/shadow-campaigns-uncovering-global-espionage"
+            ]
+          }
+        ],
+        "variants": [
+          "TGR-STA-1030"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "TGR-STA-1030 is a state-aligned cyberespionage group operating out of Asia, known for compromising government and critical infrastructure organizations across 37 countries. The group frequently deploys web shells, such as Behinder, Neo-reGeorg, and Godzilla, on both external and internal web servers to maintain access and enable lateral movement. TGR-STA-1030 has conducted extensive reconnaissance against government infrastructure, particularly focusing on nations in the South China Sea and Gulf of Thailand regions, as well as European countries like Germany. The group primarily targets government ministries and departments for espionage purposes, especially those exploring specific..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-1006069d-722f-4149-8609-2d524b8ba9dd",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/shadow-campaigns-uncovering-global-espionage"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Shadow Campaigns",
+      "TGR-STA-1030",
+      "UNC6619"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

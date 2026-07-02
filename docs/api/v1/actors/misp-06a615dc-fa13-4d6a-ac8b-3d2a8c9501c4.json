@@ -1,0 +1,195 @@
+{
+  "actor": {
+    "actor_id": "misp-06a615dc-fa13-4d6a-ac8b-3d2a8c9501c4",
+    "canonical_name": "BlueHornet",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-06a615dc-fa13-4d6a-ac8b-3d2a8c9501c4"
+    ],
+    "misp_uuid": "06a615dc-fa13-4d6a-ac8b-3d2a8c9501c4",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "bluehornet",
+        "confidence": "source-provided",
+        "display_group_key": "bluehornet",
+        "name": "BlueHornet",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "bluehornet",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cyberint.com/blog/research/bluehornet-one-apt-to-terrorize-them-all",
+          "https://www.csoonline.com/article/3684668/cyberattacks-against-governments-jumped-95-in-last-half-of-2022-cloudsek-says.html",
+          "https://www.mandiant.com/resources/blog/killnet-new-capabilities-older-tactics"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cyberint.com/blog/research/bluehornet-one-apt-to-terrorize-them-all",
+              "https://www.csoonline.com/article/3684668/cyberattacks-against-governments-jumped-95-in-last-half-of-2022-cloudsek-says.html",
+              "https://www.mandiant.com/resources/blog/killnet-new-capabilities-older-tactics"
+            ]
+          }
+        ],
+        "variants": [
+          "BlueHornet"
+        ]
+      },
+      {
+        "compact_normalized_name": "againstthewest",
+        "confidence": "source-provided",
+        "display_group_key": "againstthewest",
+        "name": "AgainstTheWest",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "againstthewest",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cyberint.com/blog/research/bluehornet-one-apt-to-terrorize-them-all",
+          "https://www.csoonline.com/article/3684668/cyberattacks-against-governments-jumped-95-in-last-half-of-2022-cloudsek-says.html",
+          "https://www.mandiant.com/resources/blog/killnet-new-capabilities-older-tactics"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cyberint.com/blog/research/bluehornet-one-apt-to-terrorize-them-all",
+              "https://www.csoonline.com/article/3684668/cyberattacks-against-governments-jumped-95-in-last-half-of-2022-cloudsek-says.html",
+              "https://www.mandiant.com/resources/blog/killnet-new-capabilities-older-tactics"
+            ]
+          }
+        ],
+        "variants": [
+          "AgainstTheWest"
+        ]
+      },
+      {
+        "compact_normalized_name": "apt49",
+        "confidence": "source-provided",
+        "display_group_key": "apt49",
+        "name": "APT49",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "apt49",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cyberint.com/blog/research/bluehornet-one-apt-to-terrorize-them-all",
+          "https://www.csoonline.com/article/3684668/cyberattacks-against-governments-jumped-95-in-last-half-of-2022-cloudsek-says.html",
+          "https://www.mandiant.com/resources/blog/killnet-new-capabilities-older-tactics"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cyberint.com/blog/research/bluehornet-one-apt-to-terrorize-them-all",
+              "https://www.csoonline.com/article/3684668/cyberattacks-against-governments-jumped-95-in-last-half-of-2022-cloudsek-says.html",
+              "https://www.mandiant.com/resources/blog/killnet-new-capabilities-older-tactics"
+            ]
+          }
+        ],
+        "variants": [
+          "APT49"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "BlueHornet is an advanced persistent threat group targeting government organizations in China, North Korea, Iran, and Russia. They have compromised and leaked data from other APT groups like Kryptonite Panda and Lazarus Group. BlueHornet has been involved in campaigns such as Operation Renminbi, Operation Ruble, and Operation EUSec, focusing on exfiltrating region-specific data and selling it on the dark web. They have also been known to collaborate with different threat actors and have recently disclosed a zero-day exploit in NGINX 1.18."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-06a615dc-fa13-4d6a-ac8b-3d2a8c9501c4",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cyberint.com/blog/research/bluehornet-one-apt-to-terrorize-them-all"
+      },
+      {
+        "actor_id": "misp-06a615dc-fa13-4d6a-ac8b-3d2a8c9501c4",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.csoonline.com/article/3684668/cyberattacks-against-governments-jumped-95-in-last-half-of-2022-cloudsek-says.html"
+      },
+      {
+        "actor_id": "misp-06a615dc-fa13-4d6a-ac8b-3d2a8c9501c4",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/blog/killnet-new-capabilities-older-tactics"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "AgainstTheWest",
+      "APT49",
+      "BlueHornet"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,149 @@
+{
+  "actor": {
+    "actor_id": "misp-aad291eb-08d1-4af4-9dd1-e90fe1f2d6c6",
+    "canonical_name": "TA402",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-aad291eb-08d1-4af4-9dd1-e90fe1f2d6c6"
+    ],
+    "misp_uuid": "aad291eb-08d1-4af4-9dd1-e90fe1f2d6c6",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "ta402",
+        "confidence": "source-provided",
+        "display_group_key": "ta402",
+        "name": "TA402",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ta402",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.proofpoint.com/us/blog/threat-insight/ta402-uses-complex-ironwind-infection-chains-target-middle-east-based-government",
+          "https://www.proofpoint.com/us/blog/threat-insight/ugg-boots-4-sale-tale-palestinian-aligned-espionage"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.proofpoint.com/us/blog/threat-insight/ta402-uses-complex-ironwind-infection-chains-target-middle-east-based-government",
+              "https://www.proofpoint.com/us/blog/threat-insight/ugg-boots-4-sale-tale-palestinian-aligned-espionage"
+            ]
+          }
+        ],
+        "variants": [
+          "TA402"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "TA402 is an APT group that has been tracked by Proofpoint since 2020. They primarily target government entities in the Middle East and North Africa, with a focus on intelligence collection. TA402 is known for using sophisticated phishing campaigns and constantly updating their malware implants and delivery methods to evade detection. They have been observed using cloud services like Dropbox and Google Drive for hosting malicious payloads and command-and-control infrastructure."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-aad291eb-08d1-4af4-9dd1-e90fe1f2d6c6",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/blog/threat-insight/ta402-uses-complex-ironwind-infection-chains-target-middle-east-based-government"
+      },
+      {
+        "actor_id": "misp-aad291eb-08d1-4af4-9dd1-e90fe1f2d6c6",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/blog/threat-insight/ugg-boots-4-sale-tale-palestinian-aligned-espionage"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "PS",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "PS"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "PS",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "PS"
+        }
+      ]
+    },
+    "search_names": [
+      "TA402"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

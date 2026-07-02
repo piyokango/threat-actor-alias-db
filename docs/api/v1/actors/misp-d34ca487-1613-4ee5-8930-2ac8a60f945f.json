@@ -1,0 +1,144 @@
+{
+  "actor": {
+    "actor_id": "misp-d34ca487-1613-4ee5-8930-2ac8a60f945f",
+    "canonical_name": "GOLD BURLAP",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-d34ca487-1613-4ee5-8930-2ac8a60f945f"
+    ],
+    "misp_uuid": "d34ca487-1613-4ee5-8930-2ac8a60f945f",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "goldburlap",
+        "confidence": "source-provided",
+        "display_group_key": "goldburlap",
+        "name": "GOLD BURLAP",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "gold burlap",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-burlap",
+          "https://www.hhs.gov/sites/default/files/mespinoza-goldburlap-cyborgspider-analystnote-tlpwhite.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-burlap",
+              "https://www.hhs.gov/sites/default/files/mespinoza-goldburlap-cyborgspider-analystnote-tlpwhite.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "GOLD BURLAP"
+        ]
+      },
+      {
+        "compact_normalized_name": "cyborgspider",
+        "confidence": "source-provided",
+        "display_group_key": "cyborgspider",
+        "name": "CYBORG SPIDER",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cyborg spider",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-burlap",
+          "https://www.hhs.gov/sites/default/files/mespinoza-goldburlap-cyborgspider-analystnote-tlpwhite.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-burlap",
+              "https://www.hhs.gov/sites/default/files/mespinoza-goldburlap-cyborgspider-analystnote-tlpwhite.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "CYBORG SPIDER"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "GOLD BURLAP is a group of financially motivated criminals responsible for the development of the Pysa ransomware, also referred to as Mespinoza. Pysa is a cross-platform ransomware with known versions written in C++ and Python. As of December 2020, approximately 50 organizations had reportedly been targeted in Pysa ransomware attacks. The operators leverage 'name and shame' tactics to apply additional pressure to victims. As of January 2021, CTU researchers had found no Pysa advertisements on underground forums, which likely indicates that it is not operated as ransomware as a service (RaaS)."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-d34ca487-1613-4ee5-8930-2ac8a60f945f",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.secureworks.com/research/threat-profiles/gold-burlap"
+      },
+      {
+        "actor_id": "misp-d34ca487-1613-4ee5-8930-2ac8a60f945f",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.hhs.gov/sites/default/files/mespinoza-goldburlap-cyborgspider-analystnote-tlpwhite.pdf"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "CYBORG SPIDER",
+      "GOLD BURLAP"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

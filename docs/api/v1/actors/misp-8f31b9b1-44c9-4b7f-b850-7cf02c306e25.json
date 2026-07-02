@@ -1,0 +1,127 @@
+{
+  "actor": {
+    "actor_id": "misp-8f31b9b1-44c9-4b7f-b850-7cf02c306e25",
+    "canonical_name": "Threat Actor 888",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-8f31b9b1-44c9-4b7f-b850-7cf02c306e25"
+    ],
+    "misp_uuid": "8f31b9b1-44c9-4b7f-b850-7cf02c306e25",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "threatactor888",
+        "confidence": "source-provided",
+        "display_group_key": "threatactor888",
+        "name": "Threat Actor 888",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "threat actor 888",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cybersecuritynews.com/threats-claimimg-breach",
+          "https://medium.com/@DoingFedTime/80-000-records-exposed-in-shell-data-breach-by-threat-actor-888-64c407dfac94",
+          "https://twitter.com/H4ckManac/status/1810569160180515171",
+          "https://www.cloudways.com/blog/hacker-allegedly-leaks-data-from-shopify-breach-on-breachforums"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cybersecuritynews.com/threats-claimimg-breach",
+              "https://medium.com/@DoingFedTime/80-000-records-exposed-in-shell-data-breach-by-threat-actor-888-64c407dfac94",
+              "https://twitter.com/H4ckManac/status/1810569160180515171",
+              "https://www.cloudways.com/blog/hacker-allegedly-leaks-data-from-shopify-breach-on-breachforums"
+            ]
+          }
+        ],
+        "variants": [
+          "Threat Actor 888"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Threat actor 888 is a hacker active in 2024, targeting companies for data breaches. They've hit Microsoft, BMW (Hong Kong), and others in tech, freight, and oil & gas industries"
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-8f31b9b1-44c9-4b7f-b850-7cf02c306e25",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cybersecuritynews.com/threats-claimimg-breach"
+      },
+      {
+        "actor_id": "misp-8f31b9b1-44c9-4b7f-b850-7cf02c306e25",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://medium.com/@DoingFedTime/80-000-records-exposed-in-shell-data-breach-by-threat-actor-888-64c407dfac94"
+      },
+      {
+        "actor_id": "misp-8f31b9b1-44c9-4b7f-b850-7cf02c306e25",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://twitter.com/H4ckManac/status/1810569160180515171"
+      },
+      {
+        "actor_id": "misp-8f31b9b1-44c9-4b7f-b850-7cf02c306e25",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cloudways.com/blog/hacker-allegedly-leaks-data-from-shopify-breach-on-breachforums"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Threat Actor 888"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,189 @@
+{
+  "actor": {
+    "actor_id": "misp-d5dacda0-12c2-4e80-bdf2-1c5019ec40e2",
+    "canonical_name": "Madi",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-d5dacda0-12c2-4e80-bdf2-1c5019ec40e2"
+    ],
+    "misp_uuid": "d5dacda0-12c2-4e80-bdf2-1c5019ec40e2",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "madi",
+        "confidence": "source-provided",
+        "display_group_key": "madi",
+        "name": "Madi",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "madi",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/the-madi-campaign-part-i-5/33693",
+          "https://securelist.com/the-madi-campaign-part-ii-53/33701",
+          "https://threatpost.com/new-and-improved-madi-spyware-campaign-continues-072512/76849",
+          "https://web.archive.org/web/20120718173322/https://www.symantec.com/connect/blogs/madi-attacks-series-social-engineering-campaigns",
+          "https://www.cfr.org/interactive/cyber-operations/madi",
+          "https://www.kaspersky.com/about/press-releases/2012_kaspersky-lab-and-seculert-announce--madi--a-newly-discovered-cyber-espionage-campaign-in-the-middle-east"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/the-madi-campaign-part-i-5/33693",
+              "https://securelist.com/the-madi-campaign-part-ii-53/33701",
+              "https://threatpost.com/new-and-improved-madi-spyware-campaign-continues-072512/76849",
+              "https://web.archive.org/web/20120718173322/https://www.symantec.com/connect/blogs/madi-attacks-series-social-engineering-campaigns",
+              "https://www.cfr.org/interactive/cyber-operations/madi",
+              "https://www.kaspersky.com/about/press-releases/2012_kaspersky-lab-and-seculert-announce--madi--a-newly-discovered-cyber-espionage-campaign-in-the-middle-east"
+            ]
+          }
+        ],
+        "variants": [
+          "Madi"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Control (C&C) servers to monitor the campaign. Kaspersky Lab and Seculert identified more than 800 victims located in Iran, Israel and select countries across the globe connecting to the C&Cs over the past eight months. Statistics from the sinkhole revealed that the victims were primarily business people working on Iranian and Israeli critical infrastructure projects, Israeli financial institutions, Middle Eastern engineering students, and various government agencies communicating in the Middle East. Common applications and websites that were spied on include accounts on Gmail, Hotmail, Yahoo! Mail, ICQ, Skype,..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-d5dacda0-12c2-4e80-bdf2-1c5019ec40e2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/the-madi-campaign-part-i-5/33693"
+      },
+      {
+        "actor_id": "misp-d5dacda0-12c2-4e80-bdf2-1c5019ec40e2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/the-madi-campaign-part-ii-53/33701"
+      },
+      {
+        "actor_id": "misp-d5dacda0-12c2-4e80-bdf2-1c5019ec40e2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://threatpost.com/new-and-improved-madi-spyware-campaign-continues-072512/76849"
+      },
+      {
+        "actor_id": "misp-d5dacda0-12c2-4e80-bdf2-1c5019ec40e2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20120718173322/https://www.symantec.com/connect/blogs/madi-attacks-series-social-engineering-campaigns"
+      },
+      {
+        "actor_id": "misp-d5dacda0-12c2-4e80-bdf2-1c5019ec40e2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/madi"
+      },
+      {
+        "actor_id": "misp-d5dacda0-12c2-4e80-bdf2-1c5019ec40e2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.kaspersky.com/about/press-releases/2012_kaspersky-lab-and-seculert-announce--madi--a-newly-discovered-cyber-espionage-campaign-in-the-middle-east"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ]
+    },
+    "search_names": [
+      "Madi"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

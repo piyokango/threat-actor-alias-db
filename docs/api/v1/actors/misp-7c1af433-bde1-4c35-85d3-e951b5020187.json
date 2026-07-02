@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-7c1af433-bde1-4c35-85d3-e951b5020187",
+    "canonical_name": "Tstark",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-7c1af433-bde1-4c35-85d3-e951b5020187"
+    ],
+    "misp_uuid": "7c1af433-bde1-4c35-85d3-e951b5020187",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "tstark",
+        "confidence": "source-provided",
+        "display_group_key": "tstark",
+        "name": "Tstark",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "tstark",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://news.sophos.com/en-us/2024/10/31/pacific-rim-timeline"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://news.sophos.com/en-us/2024/10/31/pacific-rim-timeline"
+            ]
+          }
+        ],
+        "variants": [
+          "Tstark"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "TStark is a threat actor identified by X-Ops, associated with a cluster of devices that executed the bookmark buffer overflow exploit targeting CVE-2020-15069 (T1203). The actor exhibited odd telemetry behavior indicative of intermittent VPN usage, switching between IP addresses geolocated to Hong Kong and Chengdu. Analysis revealed malware samples for Mac OS X and iOS, as well as IFRAME injection code exploiting a WebAssembly vulnerability (T1189). Additionally, TStark was linked to the development of libsophos.so and the deployment of malicious payloads across their devices."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-7c1af433-bde1-4c35-85d3-e951b5020187",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://news.sophos.com/en-us/2024/10/31/pacific-rim-timeline"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "Tstark"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,238 @@
+{
+  "actor": {
+    "actor_id": "misp-79a347d9-1938-4550-8836-98e4ed95f77c",
+    "canonical_name": "Denim Tsunami",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-79a347d9-1938-4550-8836-98e4ed95f77c"
+    ],
+    "misp_uuid": "79a347d9-1938-4550-8836-98e4ed95f77c",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "denimtsunami",
+        "confidence": "source-provided",
+        "display_group_key": "denimtsunami",
+        "name": "Denim Tsunami",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "denim tsunami",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://socradar.io/threats-of-commercialized-malware-knotweed",
+          "https://www.microsoft.com/security/blog/2022/07/27/untangling-knotweed-european-private-sector-offensive-actor-using-0-day-exploits",
+          "https://www.thezdi.com/blog/2023/1/23/activation-context-cache-poisoning-exploiting-csrss-for-privilege-escalation"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://socradar.io/threats-of-commercialized-malware-knotweed",
+              "https://www.microsoft.com/security/blog/2022/07/27/untangling-knotweed-european-private-sector-offensive-actor-using-0-day-exploits",
+              "https://www.thezdi.com/blog/2023/1/23/activation-context-cache-poisoning-exploiting-csrss-for-privilege-escalation"
+            ]
+          }
+        ],
+        "variants": [
+          "Denim Tsunami"
+        ]
+      },
+      {
+        "compact_normalized_name": "dsirf",
+        "confidence": "source-provided",
+        "display_group_key": "dsirf",
+        "name": "DSIRF",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dsirf",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://socradar.io/threats-of-commercialized-malware-knotweed",
+          "https://www.microsoft.com/security/blog/2022/07/27/untangling-knotweed-european-private-sector-offensive-actor-using-0-day-exploits",
+          "https://www.thezdi.com/blog/2023/1/23/activation-context-cache-poisoning-exploiting-csrss-for-privilege-escalation"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://socradar.io/threats-of-commercialized-malware-knotweed",
+              "https://www.microsoft.com/security/blog/2022/07/27/untangling-knotweed-european-private-sector-offensive-actor-using-0-day-exploits",
+              "https://www.thezdi.com/blog/2023/1/23/activation-context-cache-poisoning-exploiting-csrss-for-privilege-escalation"
+            ]
+          }
+        ],
+        "variants": [
+          "DSIRF"
+        ]
+      },
+      {
+        "compact_normalized_name": "knotweed",
+        "confidence": "source-provided",
+        "display_group_key": "knotweed",
+        "name": "KNOTWEED",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "knotweed",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://socradar.io/threats-of-commercialized-malware-knotweed",
+          "https://www.microsoft.com/security/blog/2022/07/27/untangling-knotweed-european-private-sector-offensive-actor-using-0-day-exploits",
+          "https://www.thezdi.com/blog/2023/1/23/activation-context-cache-poisoning-exploiting-csrss-for-privilege-escalation"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://socradar.io/threats-of-commercialized-malware-knotweed",
+              "https://www.microsoft.com/security/blog/2022/07/27/untangling-knotweed-european-private-sector-offensive-actor-using-0-day-exploits",
+              "https://www.thezdi.com/blog/2023/1/23/activation-context-cache-poisoning-exploiting-csrss-for-privilege-escalation"
+            ]
+          }
+        ],
+        "variants": [
+          "KNOTWEED"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Denim Tsunami is a threat actor group that has been involved in targeted attacks against European and Central American customers. They have been observed using multiple Windows and Adobe 0-day exploits, including one for CVE-2022-22047, which is a privilege escalation vulnerability. Denim Tsunami developed a custom malware called Subzero, which has capabilities such as keylogging, capturing screenshots, data exfiltration, and running remote shells. They have also been associated with the Austrian spyware distributor DSIRF."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-79a347d9-1938-4550-8836-98e4ed95f77c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/threats-of-commercialized-malware-knotweed"
+      },
+      {
+        "actor_id": "misp-79a347d9-1938-4550-8836-98e4ed95f77c",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/security/blog/2022/07/27/untangling-knotweed-european-private-sector-offensive-actor-using-0-day-exploits"
+      },
+      {
+        "actor_id": "misp-79a347d9-1938-4550-8836-98e4ed95f77c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.thezdi.com/blog/2023/1/23/activation-context-cache-poisoning-exploiting-csrss-for-privilege-escalation"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "AT",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "AT"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "AT",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "AT"
+        }
+      ]
+    },
+    "search_names": [
+      "Denim Tsunami",
+      "DSIRF",
+      "KNOTWEED"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

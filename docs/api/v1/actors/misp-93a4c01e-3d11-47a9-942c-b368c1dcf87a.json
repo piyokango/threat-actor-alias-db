@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-93a4c01e-3d11-47a9-942c-b368c1dcf87a",
+    "canonical_name": "CL-STA-1020",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-93a4c01e-3d11-47a9-942c-b368c1dcf87a"
+    ],
+    "misp_uuid": "93a4c01e-3d11-47a9-942c-b368c1dcf87a",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "clsta1020",
+        "confidence": "source-provided",
+        "display_group_key": "clsta1020",
+        "name": "CL-STA-1020",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cl sta 1020",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.qualys.com/qualys-insights/2026/06/02/hazybeacon-aws-lambda-function-url-command-control-abuse",
+          "https://unit42.paloaltonetworks.com/windows-backdoor-for-novel-c2-communication"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.qualys.com/qualys-insights/2026/06/02/hazybeacon-aws-lambda-function-url-command-control-abuse",
+              "https://unit42.paloaltonetworks.com/windows-backdoor-for-novel-c2-communication"
+            ]
+          }
+        ],
+        "variants": [
+          "CL-STA-1020"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "CL-STA-1020 targets Southeast Asian government networks, employing AWS Lambda Function URLs configured with AuthType: NONE for stealthy command-and-control communication. The actor has been observed collecting sensitive information from governmental entities, including data on tariffs and trade disputes. An investigation revealed a new Windows backdoor named HazyBeacon, which utilizes this novel C2 technique. This activity cluster has demonstrated significant efforts to remain undetected while executing its operations."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-93a4c01e-3d11-47a9-942c-b368c1dcf87a",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.qualys.com/qualys-insights/2026/06/02/hazybeacon-aws-lambda-function-url-command-control-abuse"
+      },
+      {
+        "actor_id": "misp-93a4c01e-3d11-47a9-942c-b368c1dcf87a",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/windows-backdoor-for-novel-c2-communication"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "CL-STA-1020"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

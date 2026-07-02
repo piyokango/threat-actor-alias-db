@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-4d1692ca-8022-4258-9f35-149e3d0564bb",
+    "canonical_name": "TRIPLESTRENGTH",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-4d1692ca-8022-4258-9f35-149e3d0564bb"
+    ],
+    "misp_uuid": "4d1692ca-8022-4258-9f35-149e3d0564bb",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "triplestrength",
+        "confidence": "source-provided",
+        "display_group_key": "triplestrength",
+        "name": "TRIPLESTRENGTH",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "triplestrength",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://services.google.com/fh/files/misc/threat_horizons_report_h1_2025.pdf",
+          "https://www.cyfirma.com/research/tracking-ransomware-january-2025"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://services.google.com/fh/files/misc/threat_horizons_report_h1_2025.pdf",
+              "https://www.cyfirma.com/research/tracking-ransomware-january-2025"
+            ]
+          }
+        ],
+        "variants": [
+          "TRIPLESTRENGTH"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "TRIPLESTRENGTH is a financially motivated threat actor targeting cloud environments and on-premises infrastructures for cryptojacking, ransomware, and extortion. They exploit stolen credentials, cookies, and information stealer logs to gain unauthorized access to platforms like Google Cloud, AWS, and Microsoft Azure, deploying the unMiner application for cryptocurrency mining. Their ransomware operations utilize lockers such as Phobos, LokiLocker, and RCRU64, involving lateral movement and mass encryption. TRIPLESTRENGTH also engages in account hijacking and collaborates with partners for ransomware and blackmail operations, advertising their services in hacking-focused Telegram channels."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-4d1692ca-8022-4258-9f35-149e3d0564bb",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://services.google.com/fh/files/misc/threat_horizons_report_h1_2025.pdf"
+      },
+      {
+        "actor_id": "misp-4d1692ca-8022-4258-9f35-149e3d0564bb",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cyfirma.com/research/tracking-ransomware-january-2025"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "TRIPLESTRENGTH"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

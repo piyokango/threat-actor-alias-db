@@ -1,0 +1,144 @@
+{
+  "actor": {
+    "actor_id": "misp-8456c6f1-bdbb-436e-bd9e-c170b0c510ff",
+    "canonical_name": "DarkPink",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-8456c6f1-bdbb-436e-bd9e-c170b0c510ff"
+    ],
+    "misp_uuid": "8456c6f1-bdbb-436e-bd9e-c170b0c510ff",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "darkpink",
+        "confidence": "source-provided",
+        "display_group_key": "darkpink",
+        "name": "DarkPink",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "darkpink",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.group-ib.com/blog/dark-pink-apt",
+          "https://www.group-ib.com/blog/dark-pink-episode-2"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.group-ib.com/blog/dark-pink-apt",
+              "https://www.group-ib.com/blog/dark-pink-episode-2"
+            ]
+          }
+        ],
+        "variants": [
+          "DarkPink"
+        ]
+      },
+      {
+        "compact_normalized_name": "saaiwc",
+        "confidence": "source-provided",
+        "display_group_key": "saaiwc",
+        "name": "Saaiwc",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "saaiwc",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.group-ib.com/blog/dark-pink-apt",
+          "https://www.group-ib.com/blog/dark-pink-episode-2"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.group-ib.com/blog/dark-pink-apt",
+              "https://www.group-ib.com/blog/dark-pink-episode-2"
+            ]
+          }
+        ],
+        "variants": [
+          "Saaiwc"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "DarkPink is an APT group that has been active since mid-2021, primarily targeting government, military, and non-profit organizations in Southeast Asia and Europe. The group employs spear phishing techniques, utilizing ISO images and malicious PDF files to deliver custom Trojan programs like TelePowerBot and KamiKakaBot for information theft. They have exploited vulnerabilities such as CVE-2023-38831 to enhance their attack processes and maintain persistence through DLL side-loading and scheduled tasks. DarkPink's operations are characterized by stealth and precision, making them a significant threat in the cyber landscape."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-8456c6f1-bdbb-436e-bd9e-c170b0c510ff",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.group-ib.com/blog/dark-pink-apt"
+      },
+      {
+        "actor_id": "misp-8456c6f1-bdbb-436e-bd9e-c170b0c510ff",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.group-ib.com/blog/dark-pink-episode-2"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "DarkPink",
+      "Saaiwc"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

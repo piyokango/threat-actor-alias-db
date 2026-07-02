@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-ee13ddb3-e8c0-4568-b56c-82d82c30f48b",
+    "canonical_name": "StucxTeam",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-ee13ddb3-e8c0-4568-b56c-82d82c30f48b"
+    ],
+    "misp_uuid": "ee13ddb3-e8c0-4568-b56c-82d82c30f48b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "stucxteam",
+        "confidence": "source-provided",
+        "display_group_key": "stucxteam",
+        "name": "StucxTeam",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "stucxteam",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://socradar.io/reflections-of-the-israel-palestine-conflict-on-the-cyber-world",
+          "https://www.darkowl.com/blog-content/2-month-review-of-cyber-activities-in-the-israel-hamas-conflict"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://socradar.io/reflections-of-the-israel-palestine-conflict-on-the-cyber-world",
+              "https://www.darkowl.com/blog-content/2-month-review-of-cyber-activities-in-the-israel-hamas-conflict"
+            ]
+          }
+        ],
+        "variants": [
+          "StucxTeam"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Stucx is a threat actor known for targeting Israeli systems, including SCADA systems and the Red Alert missile protection system. Stucx Team has also developed a mobile application called MyOPECS for coordinating attacks, which includes features like DDoS attacks and is expected to add more capabilities in the future. Additionally, they have been observed using VPNs and proxy software to conceal their activities and have a history of making threats against those who cooperate with Israel."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-ee13ddb3-e8c0-4568-b56c-82d82c30f48b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/reflections-of-the-israel-palestine-conflict-on-the-cyber-world"
+      },
+      {
+        "actor_id": "misp-ee13ddb3-e8c0-4568-b56c-82d82c30f48b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.darkowl.com/blog-content/2-month-review-of-cyber-activities-in-the-israel-hamas-conflict"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "StucxTeam"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

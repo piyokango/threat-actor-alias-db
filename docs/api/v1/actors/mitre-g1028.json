@@ -1,0 +1,908 @@
+{
+  "actor": {
+    "actor_id": "mitre-g1028",
+    "canonical_name": "APT-C-23",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g1028"
+    ],
+    "misp_uuid": "0cfff0f4-868c-40a1-b9b4-0d153c0b33b6",
+    "mitre_id": "G1028",
+    "names": [
+      {
+        "compact_normalized_name": "aptc23",
+        "confidence": "source-provided",
+        "display_group_key": "aptc23",
+        "name": "APT-C-23",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "apt c 23",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://blog.talosintelligence.com/2017/06/palestine-delphi.html",
+          "http://securityaffairs.co/wordpress/33785/cyber-crime/arid-viper-israel-sex-video.html",
+          "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-arid-viper.pdf",
+          "https://attack.mitre.org/groups/G1028",
+          "https://blog.lookout.com/blog/2017/02/16/viperrat-mobile-apt",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064309/The-Desert-Falcons-targeted-attacks.pdf",
+          "https://securelist.com/blog/incidents/77562/breaking-the-weakest-link-of-the-strongest-chain",
+          "https://securelist.com/blog/research/68817/the-desert-falcons-targeted-attacks",
+          "https://www.proofpoint.com/us/threat-insight/post/Operation-Arid-Viper-Slithers-Back-Into-View",
+          "https://www.sentinelone.com/labs/gaza-cybergang-unified-front-targeting-hamas-opposition",
+          "https://www.threatconnect.com/blog/kasperagent-malware-campaign",
+          "https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/sexually-explicit-material-used-as-lures-in-cyber-attacks?linkId=12425812"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://blog.talosintelligence.com/2017/06/palestine-delphi.html",
+              "http://securityaffairs.co/wordpress/33785/cyber-crime/arid-viper-israel-sex-video.html",
+              "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-arid-viper.pdf",
+              "https://blog.lookout.com/blog/2017/02/16/viperrat-mobile-apt",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064309/The-Desert-Falcons-targeted-attacks.pdf",
+              "https://securelist.com/blog/incidents/77562/breaking-the-weakest-link-of-the-strongest-chain",
+              "https://securelist.com/blog/research/68817/the-desert-falcons-targeted-attacks",
+              "https://www.proofpoint.com/us/threat-insight/post/Operation-Arid-Viper-Slithers-Back-Into-View",
+              "https://www.sentinelone.com/labs/gaza-cybergang-unified-front-targeting-hamas-opposition",
+              "https://www.threatconnect.com/blog/kasperagent-malware-campaign",
+              "https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/sexually-explicit-material-used-as-lures-in-cyber-attacks?linkId=12425812"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1028"
+            ]
+          }
+        ],
+        "variants": [
+          "APT-C-23"
+        ]
+      },
+      {
+        "compact_normalized_name": "aridviper",
+        "confidence": "source-provided",
+        "display_group_key": "aridviper",
+        "name": "Arid Viper",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "arid viper",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://blog.talosintelligence.com/2017/06/palestine-delphi.html",
+          "http://securityaffairs.co/wordpress/33785/cyber-crime/arid-viper-israel-sex-video.html",
+          "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-arid-viper.pdf",
+          "https://attack.mitre.org/groups/G1028",
+          "https://blog.lookout.com/blog/2017/02/16/viperrat-mobile-apt",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064309/The-Desert-Falcons-targeted-attacks.pdf",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://securelist.com/blog/incidents/77562/breaking-the-weakest-link-of-the-strongest-chain",
+          "https://securelist.com/blog/research/68817/the-desert-falcons-targeted-attacks",
+          "https://www.proofpoint.com/us/threat-insight/post/Operation-Arid-Viper-Slithers-Back-Into-View",
+          "https://www.sentinelone.com/labs/gaza-cybergang-unified-front-targeting-hamas-opposition",
+          "https://www.threatconnect.com/blog/kasperagent-malware-campaign",
+          "https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/sexually-explicit-material-used-as-lures-in-cyber-attacks?linkId=12425812"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://blog.talosintelligence.com/2017/06/palestine-delphi.html",
+              "http://securityaffairs.co/wordpress/33785/cyber-crime/arid-viper-israel-sex-video.html",
+              "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-arid-viper.pdf",
+              "https://blog.lookout.com/blog/2017/02/16/viperrat-mobile-apt",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064309/The-Desert-Falcons-targeted-attacks.pdf",
+              "https://securelist.com/blog/incidents/77562/breaking-the-weakest-link-of-the-strongest-chain",
+              "https://securelist.com/blog/research/68817/the-desert-falcons-targeted-attacks",
+              "https://www.proofpoint.com/us/threat-insight/post/Operation-Arid-Viper-Slithers-Back-Into-View",
+              "https://www.sentinelone.com/labs/gaza-cybergang-unified-front-targeting-hamas-opposition",
+              "https://www.threatconnect.com/blog/kasperagent-malware-campaign",
+              "https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/sexually-explicit-material-used-as-lures-in-cyber-attacks?linkId=12425812"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1028"
+            ]
+          }
+        ],
+        "variants": [
+          "Arid Viper",
+          "AridViper"
+        ]
+      },
+      {
+        "compact_normalized_name": "beardedbarbie",
+        "confidence": "source-provided",
+        "display_group_key": "beardedbarbie",
+        "name": "Bearded Barbie",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "bearded barbie",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://blog.talosintelligence.com/2017/06/palestine-delphi.html",
+          "http://securityaffairs.co/wordpress/33785/cyber-crime/arid-viper-israel-sex-video.html",
+          "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-arid-viper.pdf",
+          "https://blog.lookout.com/blog/2017/02/16/viperrat-mobile-apt",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064309/The-Desert-Falcons-targeted-attacks.pdf",
+          "https://securelist.com/blog/incidents/77562/breaking-the-weakest-link-of-the-strongest-chain",
+          "https://securelist.com/blog/research/68817/the-desert-falcons-targeted-attacks",
+          "https://www.proofpoint.com/us/threat-insight/post/Operation-Arid-Viper-Slithers-Back-Into-View",
+          "https://www.sentinelone.com/labs/gaza-cybergang-unified-front-targeting-hamas-opposition",
+          "https://www.threatconnect.com/blog/kasperagent-malware-campaign",
+          "https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/sexually-explicit-material-used-as-lures-in-cyber-attacks?linkId=12425812"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://blog.talosintelligence.com/2017/06/palestine-delphi.html",
+              "http://securityaffairs.co/wordpress/33785/cyber-crime/arid-viper-israel-sex-video.html",
+              "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-arid-viper.pdf",
+              "https://blog.lookout.com/blog/2017/02/16/viperrat-mobile-apt",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064309/The-Desert-Falcons-targeted-attacks.pdf",
+              "https://securelist.com/blog/incidents/77562/breaking-the-weakest-link-of-the-strongest-chain",
+              "https://securelist.com/blog/research/68817/the-desert-falcons-targeted-attacks",
+              "https://www.proofpoint.com/us/threat-insight/post/Operation-Arid-Viper-Slithers-Back-Into-View",
+              "https://www.sentinelone.com/labs/gaza-cybergang-unified-front-targeting-hamas-opposition",
+              "https://www.threatconnect.com/blog/kasperagent-malware-campaign",
+              "https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/sexually-explicit-material-used-as-lures-in-cyber-attacks?linkId=12425812"
+            ]
+          }
+        ],
+        "variants": [
+          "Bearded Barbie"
+        ]
+      },
+      {
+        "compact_normalized_name": "bigbangapt",
+        "confidence": "source-provided",
+        "display_group_key": "bigbangapt",
+        "name": "Big Bang APT",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "big bang apt",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1028"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1028"
+            ]
+          }
+        ],
+        "variants": [
+          "Big Bang APT"
+        ]
+      },
+      {
+        "compact_normalized_name": "desertfalcon",
+        "confidence": "source-provided",
+        "display_group_key": "desertfalcon",
+        "name": "Desert Falcon",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "desert falcon",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://blog.talosintelligence.com/2017/06/palestine-delphi.html",
+          "http://securityaffairs.co/wordpress/33785/cyber-crime/arid-viper-israel-sex-video.html",
+          "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-arid-viper.pdf",
+          "https://attack.mitre.org/groups/G1028",
+          "https://blog.lookout.com/blog/2017/02/16/viperrat-mobile-apt",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064309/The-Desert-Falcons-targeted-attacks.pdf",
+          "https://securelist.com/blog/incidents/77562/breaking-the-weakest-link-of-the-strongest-chain",
+          "https://securelist.com/blog/research/68817/the-desert-falcons-targeted-attacks",
+          "https://www.proofpoint.com/us/threat-insight/post/Operation-Arid-Viper-Slithers-Back-Into-View",
+          "https://www.sentinelone.com/labs/gaza-cybergang-unified-front-targeting-hamas-opposition",
+          "https://www.threatconnect.com/blog/kasperagent-malware-campaign",
+          "https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/sexually-explicit-material-used-as-lures-in-cyber-attacks?linkId=12425812"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://blog.talosintelligence.com/2017/06/palestine-delphi.html",
+              "http://securityaffairs.co/wordpress/33785/cyber-crime/arid-viper-israel-sex-video.html",
+              "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-arid-viper.pdf",
+              "https://blog.lookout.com/blog/2017/02/16/viperrat-mobile-apt",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064309/The-Desert-Falcons-targeted-attacks.pdf",
+              "https://securelist.com/blog/incidents/77562/breaking-the-weakest-link-of-the-strongest-chain",
+              "https://securelist.com/blog/research/68817/the-desert-falcons-targeted-attacks",
+              "https://www.proofpoint.com/us/threat-insight/post/Operation-Arid-Viper-Slithers-Back-Into-View",
+              "https://www.sentinelone.com/labs/gaza-cybergang-unified-front-targeting-hamas-opposition",
+              "https://www.threatconnect.com/blog/kasperagent-malware-campaign",
+              "https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/sexually-explicit-material-used-as-lures-in-cyber-attacks?linkId=12425812"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1028"
+            ]
+          }
+        ],
+        "variants": [
+          "Desert Falcon"
+        ]
+      },
+      {
+        "compact_normalized_name": "desertfalcons",
+        "confidence": "source-provided",
+        "display_group_key": "desertfalcons",
+        "name": "Desert Falcons",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "desert falcons",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "Desert Falcons"
+        ]
+      },
+      {
+        "compact_normalized_name": "greykarkadann",
+        "confidence": "source-provided",
+        "display_group_key": "greykarkadann",
+        "name": "Grey Karkadann",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "grey karkadann",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1028"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1028"
+            ]
+          }
+        ],
+        "variants": [
+          "Grey Karkadann"
+        ]
+      },
+      {
+        "compact_normalized_name": "mantis",
+        "confidence": "source-provided",
+        "display_group_key": "mantis",
+        "name": "Mantis",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "mantis",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1028"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1028"
+            ]
+          }
+        ],
+        "variants": [
+          "Mantis"
+        ]
+      },
+      {
+        "compact_normalized_name": "niobium",
+        "confidence": "source-provided",
+        "display_group_key": "niobium",
+        "name": "NIOBIUM",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "niobium",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "NIOBIUM"
+        ]
+      },
+      {
+        "compact_normalized_name": "renegadejackal",
+        "confidence": "source-provided",
+        "display_group_key": "renegadejackal",
+        "name": "RENEGADE JACKAL",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "renegade jackal",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "RENEGADE JACKAL"
+        ]
+      },
+      {
+        "compact_normalized_name": "scimitar",
+        "confidence": "source-provided",
+        "display_group_key": "scimitar",
+        "name": "Scimitar",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "scimitar",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "Scimitar"
+        ]
+      },
+      {
+        "compact_normalized_name": "tag63",
+        "confidence": "source-provided",
+        "display_group_key": "tag63",
+        "name": "TAG-63",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "tag 63",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1028"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1028"
+            ]
+          }
+        ],
+        "variants": [
+          "TAG-63"
+        ]
+      },
+      {
+        "compact_normalized_name": "twotailedscorpion",
+        "confidence": "source-provided",
+        "display_group_key": "twotailedscorpion",
+        "name": "Two-tailed Scorpion",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "two tailed scorpion",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://blog.talosintelligence.com/2017/06/palestine-delphi.html",
+          "http://securityaffairs.co/wordpress/33785/cyber-crime/arid-viper-israel-sex-video.html",
+          "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-arid-viper.pdf",
+          "https://attack.mitre.org/groups/G1028",
+          "https://blog.lookout.com/blog/2017/02/16/viperrat-mobile-apt",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064309/The-Desert-Falcons-targeted-attacks.pdf",
+          "https://securelist.com/blog/incidents/77562/breaking-the-weakest-link-of-the-strongest-chain",
+          "https://securelist.com/blog/research/68817/the-desert-falcons-targeted-attacks",
+          "https://www.proofpoint.com/us/threat-insight/post/Operation-Arid-Viper-Slithers-Back-Into-View",
+          "https://www.sentinelone.com/labs/gaza-cybergang-unified-front-targeting-hamas-opposition",
+          "https://www.threatconnect.com/blog/kasperagent-malware-campaign",
+          "https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/sexually-explicit-material-used-as-lures-in-cyber-attacks?linkId=12425812"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://blog.talosintelligence.com/2017/06/palestine-delphi.html",
+              "http://securityaffairs.co/wordpress/33785/cyber-crime/arid-viper-israel-sex-video.html",
+              "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-arid-viper.pdf",
+              "https://blog.lookout.com/blog/2017/02/16/viperrat-mobile-apt",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064309/The-Desert-Falcons-targeted-attacks.pdf",
+              "https://securelist.com/blog/incidents/77562/breaking-the-weakest-link-of-the-strongest-chain",
+              "https://securelist.com/blog/research/68817/the-desert-falcons-targeted-attacks",
+              "https://www.proofpoint.com/us/threat-insight/post/Operation-Arid-Viper-Slithers-Back-Into-View",
+              "https://www.sentinelone.com/labs/gaza-cybergang-unified-front-targeting-hamas-opposition",
+              "https://www.threatconnect.com/blog/kasperagent-malware-campaign",
+              "https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/sexually-explicit-material-used-as-lures-in-cyber-attacks?linkId=12425812"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1028"
+            ]
+          }
+        ],
+        "variants": [
+          "Two-tailed Scorpion"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G1028/"
+          ]
+        }
+      ],
+      "text": "APT-C-23 is a threat group that has been active since at least 2014.(Citation: symantec_mantis) APT-C-23 has primarily focused its operations on the Middle East, including Israeli military assets. APT-C-23 has developed mobile spyware targeting Android and iOS devices since 2017.(Citation: welivesecurity_apt-c-23)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://blog.talosintelligence.com/2017/06/palestine-delphi.html"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://securityaffairs.co/wordpress/33785/cyber-crime/arid-viper-israel-sex-video.html"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-arid-viper.pdf"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G1028"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.lookout.com/blog/2017/02/16/viperrat-mobile-apt"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064309/The-Desert-Falcons-targeted-attacks.pdf"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/blog/incidents/77562/breaking-the-weakest-link-of-the-strongest-chain"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/blog/research/68817/the-desert-falcons-targeted-attacks"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20201123042131/www.welivesecurity.com/2020/09/30/aptc23-group-evolves-its-android-spyware"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20230604112435/https://research.checkpoint.com/2018/interactive-mapping-of-apt-c-23"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20231126111812/https:/about.fb.com/wp-content/uploads/2021/04/Technical-threat-report-Arid-Viper-April-2021.pdf"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20231227054130/https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/mantis-palestinian-attacks"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20240208234008/www.sentinelone.com/labs/the-israel-hamas-war-cyber-domain-state-sponsored-activity-of-interest"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/threat-insight/post/Operation-Arid-Viper-Slithers-Back-Into-View"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sentinelone.com/labs/gaza-cybergang-unified-front-targeting-hamas-opposition"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.threatconnect.com/blog/kasperagent-malware-campaign"
+      },
+      {
+        "actor_id": "mitre-g1028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/sexually-explicit-material-used-as-lures-in-cyber-attacks?linkId=12425812"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "PS",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "PS"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "PS",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "PS"
+        }
+      ]
+    },
+    "search_names": [
+      "APT-C-23",
+      "Arid Viper",
+      "AridViper",
+      "Bearded Barbie",
+      "Big Bang APT",
+      "Desert Falcon",
+      "Desert Falcons",
+      "Grey Karkadann",
+      "Mantis",
+      "NIOBIUM",
+      "RENEGADE JACKAL",
+      "Scimitar",
+      "TAG-63",
+      "Two-tailed Scorpion"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

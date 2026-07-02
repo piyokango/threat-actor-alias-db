@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-2454eeca-8660-42c6-af7e-efbc8f90a490",
+    "canonical_name": "GreyVibe",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-2454eeca-8660-42c6-af7e-efbc8f90a490"
+    ],
+    "misp_uuid": "2454eeca-8660-42c6-af7e-efbc8f90a490",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "greyvibe",
+        "confidence": "source-provided",
+        "display_group_key": "greyvibe",
+        "name": "GreyVibe",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "greyvibe",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://labs.withsecure.com/publications/greyvibe"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://labs.withsecure.com/publications/greyvibe"
+            ]
+          }
+        ],
+        "variants": [
+          "GreyVibe"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "GREYVIBE is a low-to-moderately sophisticated threat actor associated with Russian state interests, primarily targeting Ukrainian entities. The group employs custom malware like LegionRelay and PhantomRelay, utilizing techniques such as decoy-and-payload execution logic and systematic use of GenAI and LLMs throughout their operations. Their campaigns exhibit operational overlaps with other groups, including shared C2 infrastructure and post-compromise tooling. WithSecure has identified design flaws in their malware that have provided insights into their victimology and operational behavior."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-2454eeca-8660-42c6-af7e-efbc8f90a490",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://labs.withsecure.com/publications/greyvibe"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "GreyVibe"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

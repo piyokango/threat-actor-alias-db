@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-f676fcd1-cde9-4d0a-8958-221f2abb56e9",
+    "canonical_name": "ViceLeaker",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-f676fcd1-cde9-4d0a-8958-221f2abb56e9"
+    ],
+    "misp_uuid": "f676fcd1-cde9-4d0a-8958-221f2abb56e9",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "viceleaker",
+        "confidence": "source-provided",
+        "display_group_key": "viceleaker",
+        "name": "ViceLeaker",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "viceleaker",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/fanning-the-flames-viceleaker-operation/90877"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/fanning-the-flames-viceleaker-operation/90877"
+            ]
+          }
+        ],
+        "variants": [
+          "ViceLeaker"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "In May 2018, we discovered a campaign targeting dozens of mobile Android devices belonging to Israeli citizens. Kaspersky spyware sensors caught the signal of an attack from the device of one of the victims; and a hash of the APK involved (Android application) was tagged in our sample feed for inspection. Once we looked into the file, we quickly found out that the inner-workings of the APK included a malicious payload, embedded in the original code of the application. This was an original spyware program, designed to exfiltrate almost all accessible information. During the course of our research, we noticed that we were not the only ones to have found the operation. Researchers from..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-f676fcd1-cde9-4d0a-8958-221f2abb56e9",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/fanning-the-flames-viceleaker-operation/90877"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "ViceLeaker"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

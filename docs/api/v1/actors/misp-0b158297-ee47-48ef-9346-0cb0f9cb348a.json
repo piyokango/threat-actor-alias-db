@@ -1,0 +1,144 @@
+{
+  "actor": {
+    "actor_id": "misp-0b158297-ee47-48ef-9346-0cb0f9cb348a",
+    "canonical_name": "UNC5174",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-0b158297-ee47-48ef-9346-0cb0f9cb348a"
+    ],
+    "misp_uuid": "0b158297-ee47-48ef-9346-0cb0f9cb348a",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unc5174",
+        "confidence": "source-provided",
+        "display_group_key": "unc5174",
+        "name": "UNC5174",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc5174",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://rhisac.org/threat-intelligence/f5-big-ip-and-screenconnect-cves",
+          "https://www.mandiant.com/resources/blog/initial-access-brokers-exploit-f5-screenconnect"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://rhisac.org/threat-intelligence/f5-big-ip-and-screenconnect-cves",
+              "https://www.mandiant.com/resources/blog/initial-access-brokers-exploit-f5-screenconnect"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC5174"
+        ]
+      },
+      {
+        "compact_normalized_name": "uteus",
+        "confidence": "source-provided",
+        "display_group_key": "uteus",
+        "name": "Uteus",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uteus",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://rhisac.org/threat-intelligence/f5-big-ip-and-screenconnect-cves",
+          "https://www.mandiant.com/resources/blog/initial-access-brokers-exploit-f5-screenconnect"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://rhisac.org/threat-intelligence/f5-big-ip-and-screenconnect-cves",
+              "https://www.mandiant.com/resources/blog/initial-access-brokers-exploit-f5-screenconnect"
+            ]
+          }
+        ],
+        "variants": [
+          "Uteus"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UNC5174, a Chinese state-sponsored threat actor, has been identified by Mandiant for exploiting critical vulnerabilities in F5 BIG-IP and ScreenConnect. They have been linked to targeting research and education institutions, businesses, charities, NGOs, and government organizations in Southeast Asia, the U.S., and the UK. UNC5174 is believed to have connections to China's Ministry of State Security and has been observed using custom tooling and the SUPERSHELL framework in their operations. The actor has shown indications of transitioning from hacktivist collectives to working as a contractor for Chinese intelligence agencies."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-0b158297-ee47-48ef-9346-0cb0f9cb348a",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://rhisac.org/threat-intelligence/f5-big-ip-and-screenconnect-cves"
+      },
+      {
+        "actor_id": "misp-0b158297-ee47-48ef-9346-0cb0f9cb348a",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/blog/initial-access-brokers-exploit-f5-screenconnect"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "UNC5174",
+      "Uteus"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

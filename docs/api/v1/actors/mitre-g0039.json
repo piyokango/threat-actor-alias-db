@@ -1,0 +1,755 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0039",
+    "canonical_name": "Suckfly",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0039"
+    ],
+    "misp_uuid": "5abb12e7-5066-4f84-a109-49a037205c76",
+    "mitre_id": "G0039",
+    "names": [
+      {
+        "compact_normalized_name": "suckfly",
+        "confidence": "source-provided",
+        "display_group_key": "suckfly",
+        "name": "Suckfly",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "suckfly",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.slideshare.net/CTruncer/ever-present-persistence-established-footholds-seen-in-the-wild",
+          "https://attack.mitre.org/groups/G0039",
+          "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=62e325ae-f551-4855-b9cf-28a7d52d1534&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+          "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=7a60af1f-7786-446c-976b-7c71a16e9d3b&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+          "https://exchange.xforce.ibmcloud.com/collection/Suckfly-APT-aa8af56fd12d25c98fc49ca5341160ab",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-olive"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.slideshare.net/CTruncer/ever-present-persistence-established-footholds-seen-in-the-wild",
+              "https://attack.mitre.org/groups/G0039",
+              "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=62e325ae-f551-4855-b9cf-28a7d52d1534&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+              "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=7a60af1f-7786-446c-976b-7c71a16e9d3b&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+              "https://exchange.xforce.ibmcloud.com/collection/Suckfly-APT-aa8af56fd12d25c98fc49ca5341160ab",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-olive"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0039"
+            ]
+          }
+        ],
+        "variants": [
+          "Suckfly"
+        ]
+      },
+      {
+        "compact_normalized_name": "apt22",
+        "confidence": "source-provided",
+        "display_group_key": "apt22",
+        "name": "APT22",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "apt22",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.slideshare.net/CTruncer/ever-present-persistence-established-footholds-seen-in-the-wild",
+          "https://attack.mitre.org/groups/G0039",
+          "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=62e325ae-f551-4855-b9cf-28a7d52d1534&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+          "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=7a60af1f-7786-446c-976b-7c71a16e9d3b&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+          "https://exchange.xforce.ibmcloud.com/collection/Suckfly-APT-aa8af56fd12d25c98fc49ca5341160ab",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-olive"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.slideshare.net/CTruncer/ever-present-persistence-established-footholds-seen-in-the-wild",
+              "https://attack.mitre.org/groups/G0039",
+              "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=62e325ae-f551-4855-b9cf-28a7d52d1534&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+              "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=7a60af1f-7786-446c-976b-7c71a16e9d3b&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+              "https://exchange.xforce.ibmcloud.com/collection/Suckfly-APT-aa8af56fd12d25c98fc49ca5341160ab",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-olive"
+            ]
+          }
+        ],
+        "variants": [
+          "APT22"
+        ]
+      },
+      {
+        "compact_normalized_name": "bronzeolive",
+        "confidence": "source-provided",
+        "display_group_key": "bronzeolive",
+        "name": "BRONZE OLIVE",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "bronze olive",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.slideshare.net/CTruncer/ever-present-persistence-established-footholds-seen-in-the-wild",
+          "https://attack.mitre.org/groups/G0039",
+          "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=62e325ae-f551-4855-b9cf-28a7d52d1534&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+          "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=7a60af1f-7786-446c-976b-7c71a16e9d3b&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+          "https://exchange.xforce.ibmcloud.com/collection/Suckfly-APT-aa8af56fd12d25c98fc49ca5341160ab",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-olive"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.slideshare.net/CTruncer/ever-present-persistence-established-footholds-seen-in-the-wild",
+              "https://attack.mitre.org/groups/G0039",
+              "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=62e325ae-f551-4855-b9cf-28a7d52d1534&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+              "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=7a60af1f-7786-446c-976b-7c71a16e9d3b&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+              "https://exchange.xforce.ibmcloud.com/collection/Suckfly-APT-aa8af56fd12d25c98fc49ca5341160ab",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-olive"
+            ]
+          }
+        ],
+        "variants": [
+          "BRONZE OLIVE"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0039",
+        "confidence": "source-provided",
+        "display_group_key": "g0039",
+        "name": "G0039",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0039",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.slideshare.net/CTruncer/ever-present-persistence-established-footholds-seen-in-the-wild",
+          "https://attack.mitre.org/groups/G0039",
+          "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=62e325ae-f551-4855-b9cf-28a7d52d1534&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+          "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=7a60af1f-7786-446c-976b-7c71a16e9d3b&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+          "https://exchange.xforce.ibmcloud.com/collection/Suckfly-APT-aa8af56fd12d25c98fc49ca5341160ab",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-olive"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.slideshare.net/CTruncer/ever-present-persistence-established-footholds-seen-in-the-wild",
+              "https://attack.mitre.org/groups/G0039",
+              "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=62e325ae-f551-4855-b9cf-28a7d52d1534&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+              "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=7a60af1f-7786-446c-976b-7c71a16e9d3b&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+              "https://exchange.xforce.ibmcloud.com/collection/Suckfly-APT-aa8af56fd12d25c98fc49ca5341160ab",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-olive"
+            ]
+          }
+        ],
+        "variants": [
+          "G0039"
+        ]
+      },
+      {
+        "compact_normalized_name": "group46",
+        "confidence": "source-provided",
+        "display_group_key": "group46",
+        "name": "Group 46",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "group 46",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.slideshare.net/CTruncer/ever-present-persistence-established-footholds-seen-in-the-wild",
+          "https://attack.mitre.org/groups/G0039",
+          "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=62e325ae-f551-4855-b9cf-28a7d52d1534&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+          "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=7a60af1f-7786-446c-976b-7c71a16e9d3b&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+          "https://exchange.xforce.ibmcloud.com/collection/Suckfly-APT-aa8af56fd12d25c98fc49ca5341160ab",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.secureworks.com/research/threat-profiles/bronze-olive"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.slideshare.net/CTruncer/ever-present-persistence-established-footholds-seen-in-the-wild",
+              "https://attack.mitre.org/groups/G0039",
+              "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=62e325ae-f551-4855-b9cf-28a7d52d1534&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+              "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=7a60af1f-7786-446c-976b-7c71a16e9d3b&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+              "https://exchange.xforce.ibmcloud.com/collection/Suckfly-APT-aa8af56fd12d25c98fc49ca5341160ab",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.secureworks.com/research/threat-profiles/bronze-olive"
+            ]
+          }
+        ],
+        "variants": [
+          "Group 46"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0039",
+          "name": "OS Credential Dumping",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks"
+          ],
+          "tactics": [
+            "credential-access"
+          ],
+          "technique_id": "T1003",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "actor_id": "mitre-g0039",
+          "name": "Network Service Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1046",
+          "url": "https://attack.mitre.org/techniques/T1046/"
+        },
+        {
+          "actor_id": "mitre-g0039",
+          "name": "Windows Command Shell",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.003",
+          "url": "https://attack.mitre.org/techniques/T1059.003/"
+        },
+        {
+          "actor_id": "mitre-g0039",
+          "name": "Valid Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "actor_id": "mitre-g0039",
+          "name": "Code Signing",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "http://www.symantec.com/connect/blogs/suckfly-revealing-secret-life-your-code-signing-certificates"
+          ],
+          "tactics": [
+            "defense-impairment"
+          ],
+          "technique_id": "T1553.002",
+          "url": "https://attack.mitre.org/techniques/T1553.002/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0039",
+              "name": "OS Credential Dumping",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003",
+              "url": "https://attack.mitre.org/techniques/T1003/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0039",
+              "name": "Code Signing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.symantec.com/connect/blogs/suckfly-revealing-secret-life-your-code-signing-certificates"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1553.002",
+              "url": "https://attack.mitre.org/techniques/T1553.002/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0039",
+              "name": "Network Service Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1046",
+              "url": "https://attack.mitre.org/techniques/T1046/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0039",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0039",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0039",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0039",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0039",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 1,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 1,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 1,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 1,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 1,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 1,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        }
+      ],
+      "total": 5
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0039/"
+          ]
+        }
+      ],
+      "text": "Suckfly is a China-based threat group that has been active since at least 2014. (Citation: Symantec Suckfly March 2016)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0039",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.slideshare.net/CTruncer/ever-present-persistence-established-footholds-seen-in-the-wild"
+      },
+      {
+        "actor_id": "mitre-g0039",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks"
+      },
+      {
+        "actor_id": "mitre-g0039",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.symantec.com/connect/blogs/suckfly-revealing-secret-life-your-code-signing-certificates"
+      },
+      {
+        "actor_id": "mitre-g0039",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0039"
+      },
+      {
+        "actor_id": "mitre-g0039",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=62e325ae-f551-4855-b9cf-28a7d52d1534&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments"
+      },
+      {
+        "actor_id": "mitre-g0039",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=7a60af1f-7786-446c-976b-7c71a16e9d3b&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments"
+      },
+      {
+        "actor_id": "mitre-g0039",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://exchange.xforce.ibmcloud.com/collection/Suckfly-APT-aa8af56fd12d25c98fc49ca5341160ab"
+      },
+      {
+        "actor_id": "mitre-g0039",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/insights/apt-groups"
+      },
+      {
+        "actor_id": "mitre-g0039",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/bronze-olive"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "APT22",
+      "BRONZE OLIVE",
+      "G0039",
+      "Group 46",
+      "Suckfly"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,144 @@
+{
+  "actor": {
+    "actor_id": "misp-46a67fdf-5376-4d01-8092-6549a20030af",
+    "canonical_name": "Caracal Kitten",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-46a67fdf-5376-4d01-8092-6549a20030af"
+    ],
+    "misp_uuid": "46a67fdf-5376-4d01-8092-6549a20030af",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "caracalkitten",
+        "confidence": "source-provided",
+        "display_group_key": "caracalkitten",
+        "name": "Caracal Kitten",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "caracal kitten",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://deform.co/hacker-group-caracal-kitten-targets-kdp-activists-with-malware",
+          "https://www.ctfiot.com/138538.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://deform.co/hacker-group-caracal-kitten-targets-kdp-activists-with-malware",
+              "https://www.ctfiot.com/138538.html"
+            ]
+          }
+        ],
+        "variants": [
+          "Caracal Kitten"
+        ]
+      },
+      {
+        "compact_normalized_name": "aptq58",
+        "confidence": "source-provided",
+        "display_group_key": "aptq58",
+        "name": "APT-Q-58",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "apt q 58",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://deform.co/hacker-group-caracal-kitten-targets-kdp-activists-with-malware",
+          "https://www.ctfiot.com/138538.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://deform.co/hacker-group-caracal-kitten-targets-kdp-activists-with-malware",
+              "https://www.ctfiot.com/138538.html"
+            ]
+          }
+        ],
+        "variants": [
+          "APT-Q-58"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Caracal Kitten is an APT group that has been targeting activists associated with the Kurdistan Democratic Party. They employ a mobile remote access Trojan to gain unauthorized access to victims' devices. The group disguises their malware as legitimate mobile apps, tricking users into installing them and granting the hackers access to their personal data."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-46a67fdf-5376-4d01-8092-6549a20030af",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://deform.co/hacker-group-caracal-kitten-targets-kdp-activists-with-malware"
+      },
+      {
+        "actor_id": "misp-46a67fdf-5376-4d01-8092-6549a20030af",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ctfiot.com/138538.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "APT-Q-58",
+      "Caracal Kitten"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

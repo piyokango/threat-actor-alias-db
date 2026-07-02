@@ -1,0 +1,284 @@
+{
+  "actor": {
+    "actor_id": "misp-ef0d776a-51de-4965-ba1c-69ed256e0e5d",
+    "canonical_name": "Pearl Sleet",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-ef0d776a-51de-4965-ba1c-69ed256e0e5d"
+    ],
+    "misp_uuid": "ef0d776a-51de-4965-ba1c-69ed256e0e5d",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "pearlsleet",
+        "confidence": "source-provided",
+        "display_group_key": "pearlsleet",
+        "name": "Pearl Sleet",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "pearl sleet",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-december-2023/ba-p/3998431"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-december-2023/ba-p/3998431"
+            ]
+          }
+        ],
+        "variants": [
+          "Pearl Sleet"
+        ]
+      },
+      {
+        "compact_normalized_name": "dev0215",
+        "confidence": "source-provided",
+        "display_group_key": "dev0215",
+        "name": "DEV-0215",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dev 0215",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-december-2023/ba-p/3998431"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-december-2023/ba-p/3998431"
+            ]
+          }
+        ],
+        "variants": [
+          "DEV-0215"
+        ]
+      },
+      {
+        "compact_normalized_name": "lawrencium",
+        "confidence": "source-provided",
+        "display_group_key": "lawrencium",
+        "name": "LAWRENCIUM",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "lawrencium",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-december-2023/ba-p/3998431"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-december-2023/ba-p/3998431"
+            ]
+          }
+        ],
+        "variants": [
+          "LAWRENCIUM"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Pearl Sleet is a nation state activity group based in North Korea that has been active since at least 2012. They primarily target defectors from North Korea, media organizations in carrying out their cyber espionage activities."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-ef0d776a-51de-4965-ba1c-69ed256e0e5d",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "misp-ef0d776a-51de-4965-ba1c-69ed256e0e5d",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "misp-ef0d776a-51de-4965-ba1c-69ed256e0e5d",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-december-2023/ba-p/3998431"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        },
+        {
+          "country_code": "KP",
+          "display_value": "North Korea",
+          "flag": "🇰🇵",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "North Korea"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        },
+        {
+          "country_code": "KP",
+          "display_value": "North Korea",
+          "flag": "🇰🇵",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "North Korea"
+        }
+      ]
+    },
+    "search_names": [
+      "DEV-0215",
+      "LAWRENCIUM",
+      "Pearl Sleet"
+    ],
+    "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,3397 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0046",
+    "canonical_name": "FIN7",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0046"
+    ],
+    "misp_uuid": "00220228-a5a4-4032-a30d-826bb55aa3fb",
+    "mitre_id": "G0046",
+    "names": [
+      {
+        "compact_normalized_name": "fin7",
+        "confidence": "source-provided",
+        "display_group_key": "fin7",
+        "name": "FIN7",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "fin7",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+          "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+          "https://attack.mitre.org/groups/G0008",
+          "https://attack.mitre.org/groups/G0046",
+          "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+          "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+          "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+          "https://en.wikipedia.org/wiki/Carbanak",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+          "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+          "https://threatintel.blog/OPBlueRaven-Part1",
+          "https://threatintel.blog/OPBlueRaven-Part2",
+          "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+          "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+          "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+          "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+          "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+          "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+          "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+          "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+          "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+          "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+          "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+          "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+          "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+          "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+          "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+          "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+          "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+              "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+              "https://attack.mitre.org/groups/G0008",
+              "https://attack.mitre.org/groups/G0046",
+              "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+              "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+              "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+              "https://en.wikipedia.org/wiki/Carbanak",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+              "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+              "https://threatintel.blog/OPBlueRaven-Part1",
+              "https://threatintel.blog/OPBlueRaven-Part2",
+              "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+              "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+              "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+              "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+              "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+              "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+              "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+              "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+              "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+              "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+              "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+              "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+              "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+              "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+              "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+              "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+              "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0046"
+            ]
+          }
+        ],
+        "variants": [
+          "FIN7"
+        ]
+      },
+      {
+        "compact_normalized_name": "atk32",
+        "confidence": "source-provided",
+        "display_group_key": "atk32",
+        "name": "ATK32",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "atk32",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+          "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+          "https://attack.mitre.org/groups/G0008",
+          "https://attack.mitre.org/groups/G0046",
+          "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+          "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+          "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+          "https://en.wikipedia.org/wiki/Carbanak",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+          "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+          "https://threatintel.blog/OPBlueRaven-Part1",
+          "https://threatintel.blog/OPBlueRaven-Part2",
+          "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+          "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+          "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+          "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+          "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+          "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+          "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+          "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+          "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+          "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+          "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+          "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+          "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+          "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+          "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+          "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+          "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+              "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+              "https://attack.mitre.org/groups/G0008",
+              "https://attack.mitre.org/groups/G0046",
+              "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+              "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+              "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+              "https://en.wikipedia.org/wiki/Carbanak",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+              "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+              "https://threatintel.blog/OPBlueRaven-Part1",
+              "https://threatintel.blog/OPBlueRaven-Part2",
+              "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+              "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+              "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+              "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+              "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+              "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+              "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+              "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+              "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+              "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+              "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+              "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+              "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+              "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+              "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+              "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+              "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+            ]
+          }
+        ],
+        "variants": [
+          "ATK32"
+        ]
+      },
+      {
+        "compact_normalized_name": "calcium",
+        "confidence": "source-provided",
+        "display_group_key": "calcium",
+        "name": "Calcium",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "calcium",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+          "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+          "https://attack.mitre.org/groups/G0008",
+          "https://attack.mitre.org/groups/G0046",
+          "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+          "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+          "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+          "https://en.wikipedia.org/wiki/Carbanak",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+          "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+          "https://threatintel.blog/OPBlueRaven-Part1",
+          "https://threatintel.blog/OPBlueRaven-Part2",
+          "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+          "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+          "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+          "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+          "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+          "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+          "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+          "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+          "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+          "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+          "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+          "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+          "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+          "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+          "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+          "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+          "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+              "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+              "https://attack.mitre.org/groups/G0008",
+              "https://attack.mitre.org/groups/G0046",
+              "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+              "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+              "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+              "https://en.wikipedia.org/wiki/Carbanak",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+              "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+              "https://threatintel.blog/OPBlueRaven-Part1",
+              "https://threatintel.blog/OPBlueRaven-Part2",
+              "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+              "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+              "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+              "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+              "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+              "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+              "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+              "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+              "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+              "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+              "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+              "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+              "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+              "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+              "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+              "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+              "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+            ]
+          }
+        ],
+        "variants": [
+          "Calcium"
+        ]
+      },
+      {
+        "compact_normalized_name": "carbanak",
+        "confidence": "source-provided",
+        "display_group_key": "carbanak",
+        "name": "Carbanak",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "carbanak",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+          "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+          "https://attack.mitre.org/groups/G0008",
+          "https://attack.mitre.org/groups/G0046",
+          "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+          "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+          "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+          "https://en.wikipedia.org/wiki/Carbanak",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+          "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+          "https://threatintel.blog/OPBlueRaven-Part1",
+          "https://threatintel.blog/OPBlueRaven-Part2",
+          "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+          "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+          "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+          "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+          "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+          "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+          "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+          "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+          "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+          "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+          "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+          "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+          "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+          "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+          "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+          "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+          "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+              "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+              "https://attack.mitre.org/groups/G0008",
+              "https://attack.mitre.org/groups/G0046",
+              "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+              "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+              "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+              "https://en.wikipedia.org/wiki/Carbanak",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+              "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+              "https://threatintel.blog/OPBlueRaven-Part1",
+              "https://threatintel.blog/OPBlueRaven-Part2",
+              "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+              "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+              "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+              "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+              "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+              "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+              "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+              "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+              "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+              "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+              "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+              "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+              "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+              "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+              "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+              "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+              "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+            ]
+          }
+        ],
+        "variants": [
+          "Carbanak"
+        ]
+      },
+      {
+        "compact_normalized_name": "carbonspider",
+        "confidence": "source-provided",
+        "display_group_key": "carbonspider",
+        "name": "CARBON SPIDER",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "carbon spider",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+          "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+          "https://attack.mitre.org/groups/G0008",
+          "https://attack.mitre.org/groups/G0046",
+          "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+          "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+          "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+          "https://en.wikipedia.org/wiki/Carbanak",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+          "https://threatintel.blog/OPBlueRaven-Part1",
+          "https://threatintel.blog/OPBlueRaven-Part2",
+          "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+          "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+          "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+          "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+          "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+          "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+          "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+          "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+          "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+          "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+          "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+          "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+          "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+          "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+          "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+          "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+          "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+              "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+              "https://attack.mitre.org/groups/G0008",
+              "https://attack.mitre.org/groups/G0046",
+              "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+              "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+              "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+              "https://en.wikipedia.org/wiki/Carbanak",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+              "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+              "https://threatintel.blog/OPBlueRaven-Part1",
+              "https://threatintel.blog/OPBlueRaven-Part2",
+              "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+              "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+              "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+              "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+              "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+              "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+              "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+              "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+              "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+              "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+              "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+              "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+              "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+              "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+              "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+              "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+              "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0046"
+            ]
+          }
+        ],
+        "variants": [
+          "Carbon Spider",
+          "CARBON SPIDER"
+        ]
+      },
+      {
+        "compact_normalized_name": "coreid",
+        "confidence": "source-provided",
+        "display_group_key": "coreid",
+        "name": "Coreid",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "coreid",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+          "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+          "https://attack.mitre.org/groups/G0008",
+          "https://attack.mitre.org/groups/G0046",
+          "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+          "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+          "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+          "https://en.wikipedia.org/wiki/Carbanak",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+          "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+          "https://threatintel.blog/OPBlueRaven-Part1",
+          "https://threatintel.blog/OPBlueRaven-Part2",
+          "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+          "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+          "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+          "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+          "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+          "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+          "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+          "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+          "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+          "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+          "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+          "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+          "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+          "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+          "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+          "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+          "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+              "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+              "https://attack.mitre.org/groups/G0008",
+              "https://attack.mitre.org/groups/G0046",
+              "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+              "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+              "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+              "https://en.wikipedia.org/wiki/Carbanak",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+              "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+              "https://threatintel.blog/OPBlueRaven-Part1",
+              "https://threatintel.blog/OPBlueRaven-Part2",
+              "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+              "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+              "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+              "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+              "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+              "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+              "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+              "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+              "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+              "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+              "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+              "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+              "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+              "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+              "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+              "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+              "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+            ]
+          }
+        ],
+        "variants": [
+          "Coreid"
+        ]
+      },
+      {
+        "compact_normalized_name": "elbrus",
+        "confidence": "source-provided",
+        "display_group_key": "elbrus",
+        "name": "ELBRUS",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "elbrus",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+          "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+          "https://attack.mitre.org/groups/G0008",
+          "https://attack.mitre.org/groups/G0046",
+          "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+          "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+          "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+          "https://en.wikipedia.org/wiki/Carbanak",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+          "https://threatintel.blog/OPBlueRaven-Part1",
+          "https://threatintel.blog/OPBlueRaven-Part2",
+          "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+          "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+          "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+          "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+          "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+          "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+          "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+          "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+          "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+          "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+          "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+          "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+          "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+          "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+          "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+          "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+          "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+              "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+              "https://attack.mitre.org/groups/G0008",
+              "https://attack.mitre.org/groups/G0046",
+              "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+              "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+              "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+              "https://en.wikipedia.org/wiki/Carbanak",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+              "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+              "https://threatintel.blog/OPBlueRaven-Part1",
+              "https://threatintel.blog/OPBlueRaven-Part2",
+              "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+              "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+              "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+              "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+              "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+              "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+              "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+              "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+              "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+              "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+              "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+              "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+              "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+              "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+              "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+              "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+              "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0046"
+            ]
+          }
+        ],
+        "variants": [
+          "ELBRUS"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0008",
+        "confidence": "source-provided",
+        "display_group_key": "g0008",
+        "name": "G0008",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0008",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+          "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+          "https://attack.mitre.org/groups/G0008",
+          "https://attack.mitre.org/groups/G0046",
+          "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+          "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+          "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+          "https://en.wikipedia.org/wiki/Carbanak",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+          "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+          "https://threatintel.blog/OPBlueRaven-Part1",
+          "https://threatintel.blog/OPBlueRaven-Part2",
+          "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+          "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+          "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+          "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+          "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+          "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+          "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+          "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+          "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+          "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+          "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+          "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+          "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+          "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+          "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+          "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+          "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+              "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+              "https://attack.mitre.org/groups/G0008",
+              "https://attack.mitre.org/groups/G0046",
+              "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+              "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+              "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+              "https://en.wikipedia.org/wiki/Carbanak",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+              "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+              "https://threatintel.blog/OPBlueRaven-Part1",
+              "https://threatintel.blog/OPBlueRaven-Part2",
+              "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+              "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+              "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+              "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+              "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+              "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+              "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+              "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+              "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+              "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+              "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+              "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+              "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+              "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+              "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+              "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+              "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+            ]
+          }
+        ],
+        "variants": [
+          "G0008"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0046",
+        "confidence": "source-provided",
+        "display_group_key": "g0046",
+        "name": "G0046",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0046",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+          "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+          "https://attack.mitre.org/groups/G0008",
+          "https://attack.mitre.org/groups/G0046",
+          "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+          "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+          "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+          "https://en.wikipedia.org/wiki/Carbanak",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+          "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+          "https://threatintel.blog/OPBlueRaven-Part1",
+          "https://threatintel.blog/OPBlueRaven-Part2",
+          "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+          "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+          "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+          "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+          "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+          "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+          "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+          "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+          "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+          "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+          "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+          "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+          "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+          "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+          "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+          "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+          "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+              "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+              "https://attack.mitre.org/groups/G0008",
+              "https://attack.mitre.org/groups/G0046",
+              "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+              "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+              "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+              "https://en.wikipedia.org/wiki/Carbanak",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+              "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+              "https://threatintel.blog/OPBlueRaven-Part1",
+              "https://threatintel.blog/OPBlueRaven-Part2",
+              "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+              "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+              "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+              "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+              "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+              "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+              "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+              "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+              "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+              "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+              "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+              "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+              "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+              "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+              "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+              "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+              "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+            ]
+          }
+        ],
+        "variants": [
+          "G0046"
+        ]
+      },
+      {
+        "compact_normalized_name": "goldniagara",
+        "confidence": "source-provided",
+        "display_group_key": "goldniagara",
+        "name": "GOLD NIAGARA",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "gold niagara",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+          "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+          "https://attack.mitre.org/groups/G0008",
+          "https://attack.mitre.org/groups/G0046",
+          "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+          "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+          "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+          "https://en.wikipedia.org/wiki/Carbanak",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+          "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+          "https://threatintel.blog/OPBlueRaven-Part1",
+          "https://threatintel.blog/OPBlueRaven-Part2",
+          "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+          "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+          "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+          "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+          "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+          "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+          "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+          "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+          "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+          "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+          "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+          "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+          "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+          "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+          "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+          "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+          "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+              "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+              "https://attack.mitre.org/groups/G0008",
+              "https://attack.mitre.org/groups/G0046",
+              "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+              "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+              "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+              "https://en.wikipedia.org/wiki/Carbanak",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+              "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+              "https://threatintel.blog/OPBlueRaven-Part1",
+              "https://threatintel.blog/OPBlueRaven-Part2",
+              "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+              "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+              "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+              "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+              "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+              "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+              "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+              "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+              "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+              "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+              "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+              "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+              "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+              "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+              "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+              "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+              "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0046"
+            ]
+          }
+        ],
+        "variants": [
+          "GOLD NIAGARA"
+        ]
+      },
+      {
+        "compact_normalized_name": "itg14",
+        "confidence": "source-provided",
+        "display_group_key": "itg14",
+        "name": "ITG14",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "itg14",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0046"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0046"
+            ]
+          }
+        ],
+        "variants": [
+          "ITG14"
+        ]
+      },
+      {
+        "compact_normalized_name": "jokerstash",
+        "confidence": "source-provided",
+        "display_group_key": "jokerstash",
+        "name": "JokerStash",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "jokerstash",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+          "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+          "https://attack.mitre.org/groups/G0008",
+          "https://attack.mitre.org/groups/G0046",
+          "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+          "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+          "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+          "https://en.wikipedia.org/wiki/Carbanak",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+          "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+          "https://threatintel.blog/OPBlueRaven-Part1",
+          "https://threatintel.blog/OPBlueRaven-Part2",
+          "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+          "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+          "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+          "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+          "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+          "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+          "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+          "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+          "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+          "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+          "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+          "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+          "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+          "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+          "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+          "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+          "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+              "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+              "https://attack.mitre.org/groups/G0008",
+              "https://attack.mitre.org/groups/G0046",
+              "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+              "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+              "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+              "https://en.wikipedia.org/wiki/Carbanak",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+              "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+              "https://threatintel.blog/OPBlueRaven-Part1",
+              "https://threatintel.blog/OPBlueRaven-Part2",
+              "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+              "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+              "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+              "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+              "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+              "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+              "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+              "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+              "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+              "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+              "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+              "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+              "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+              "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+              "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+              "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+              "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+            ]
+          }
+        ],
+        "variants": [
+          "JokerStash"
+        ]
+      },
+      {
+        "compact_normalized_name": "sangriatempest",
+        "confidence": "source-provided",
+        "display_group_key": "sangriatempest",
+        "name": "Sangria Tempest",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "sangria tempest",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+          "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+          "https://attack.mitre.org/groups/G0008",
+          "https://attack.mitre.org/groups/G0046",
+          "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+          "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+          "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+          "https://en.wikipedia.org/wiki/Carbanak",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+          "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+          "https://threatintel.blog/OPBlueRaven-Part1",
+          "https://threatintel.blog/OPBlueRaven-Part2",
+          "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+          "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+          "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+          "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+          "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+          "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+          "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+          "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+          "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+          "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+          "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+          "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+          "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+          "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+          "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+          "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+          "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+          "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf",
+              "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+              "https://attack.mitre.org/groups/G0008",
+              "https://attack.mitre.org/groups/G0046",
+              "https://blog.morphisec.com/fin7-attack-modifications-revealed",
+              "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+              "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign",
+              "https://en.wikipedia.org/wiki/Carbanak",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+              "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703",
+              "https://threatintel.blog/OPBlueRaven-Part1",
+              "https://threatintel.blog/OPBlueRaven-Part2",
+              "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369",
+              "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+              "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested",
+              "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous",
+              "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group",
+              "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+              "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain",
+              "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+              "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+              "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+              "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+              "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware",
+              "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf",
+              "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns",
+              "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer",
+              "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor",
+              "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+              "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0046"
+            ]
+          }
+        ],
+        "variants": [
+          "Sangria Tempest"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0046",
+          "name": "Command Obfuscation",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20170923102302/https://www.fireeye.com/blog/threat-research/2017/06/obfuscation-in-the-wild.html",
+            "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/",
+            "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.010",
+          "url": "https://attack.mitre.org/techniques/T1027.010/"
+        },
+        {
+          "actor_id": "mitre-g0046",
+          "name": "Junk Code Insertion",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.mandiant.com/resources/evolution-of-fin7"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.016",
+          "url": "https://attack.mitre.org/techniques/T1027.016/"
+        },
+        {
+          "actor_id": "mitre-g0046",
+          "name": "Masquerade Task or Service",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "http://blog.morphisec.com/fin7-attacks-restaurant-industry"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.004",
+          "url": "https://attack.mitre.org/techniques/T1036.004/"
+        },
+        {
+          "actor_id": "mitre-g0046",
+          "name": "Match Legitimate Resource Name or Location",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry",
+            "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036.005/"
+        },
+        {
+          "actor_id": "mitre-g0046",
+          "name": "Valid Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "actor_id": "mitre-g0046",
+          "name": "Local Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078.003",
+          "url": "https://attack.mitre.org/techniques/T1078.003/"
+        },
+        {
+          "actor_id": "mitre-g0046",
+          "name": "Deobfuscate/Decode Files or Information",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://geminiadvisory.io/fin7-flash-drives-spread-remote-access-trojan/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1140",
+          "url": "https://attack.mitre.org/techniques/T1140/"
+        },
+        {
+          "actor_id": "mitre-g0046",
+          "name": "Mshta",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1218.005",
+          "url": "https://attack.mitre.org/techniques/T1218.005/"
+        },
+        {
+          "actor_id": "mitre-g0046",
+          "name": "Rundll32",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.mandiant.com/resources/evolution-of-fin7"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1218.011",
+          "url": "https://attack.mitre.org/techniques/T1218.011/"
+        },
+        {
+          "actor_id": "mitre-g0046",
+          "name": "User Activity Based Checks",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html"
+          ],
+          "tactics": [
+            "discovery",
+            "stealth"
+          ],
+          "technique_id": "T1497.002",
+          "url": "https://attack.mitre.org/techniques/T1497.002/"
+        },
+        {
+          "actor_id": "mitre-g0046",
+          "name": "Hidden Files and Directories",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1564.001",
+          "url": "https://attack.mitre.org/techniques/T1564.001/"
+        },
+        {
+          "actor_id": "mitre-g0046",
+          "name": "Hidden Window",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://geminiadvisory.io/fin7-flash-drives-spread-remote-access-trojan/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1564.003",
+          "url": "https://attack.mitre.org/techniques/T1564.003/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 13,
+          "items": [
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Command Obfuscation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20170923102302/https://www.fireeye.com/blog/threat-research/2017/06/obfuscation-in-the-wild.html",
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/",
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.010",
+              "url": "https://attack.mitre.org/techniques/T1027.010/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Junk Code Insertion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/evolution-of-fin7"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.016",
+              "url": "https://attack.mitre.org/techniques/T1027.016/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Masquerade Task or Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://blog.morphisec.com/fin7-attacks-restaurant-industry"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.004",
+              "url": "https://attack.mitre.org/techniques/T1036.004/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Match Legitimate Resource Name or Location",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry",
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.005",
+              "url": "https://attack.mitre.org/techniques/T1036.005/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Deobfuscate/Decode Files or Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://geminiadvisory.io/fin7-flash-drives-spread-remote-access-trojan/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1140",
+              "url": "https://attack.mitre.org/techniques/T1140/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Mshta",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.005",
+              "url": "https://attack.mitre.org/techniques/T1218.005/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Rundll32",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/evolution-of-fin7"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.011",
+              "url": "https://attack.mitre.org/techniques/T1218.011/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "User Activity Based Checks",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html"
+              ],
+              "tactics": [
+                "discovery",
+                "stealth"
+              ],
+              "technique_id": "T1497.002",
+              "url": "https://attack.mitre.org/techniques/T1497.002/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Hidden Files and Directories",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.001",
+              "url": "https://attack.mitre.org/techniques/T1564.001/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Hidden Window",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://geminiadvisory.io/fin7-flash-drives-spread-remote-access-trojan/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.003",
+              "url": "https://attack.mitre.org/techniques/T1564.003/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Reflective Code Loading",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://geminiadvisory.io/fin7-flash-drives-spread-remote-access-trojan/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1620",
+              "url": "https://attack.mitre.org/techniques/T1620/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 12,
+          "items": [
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Windows Management Instrumentation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.esentire.com/security-advisories/notorious-cybercrime-gang-fin7-lands-malware-in-law-firm-using-fake-legal-complaint-against-jack-daniels-owner-brown-forman-inc"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1047",
+              "url": "https://attack.mitre.org/techniques/T1047/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://blog.morphisec.com/fin7-attacks-restaurant-industry",
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry",
+                "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+                "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Command and Scripting Interpreter",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+                "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059",
+              "url": "https://attack.mitre.org/techniques/T1059/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://blog.morphisec.com/fin7-attacks-restaurant-industry",
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry",
+                "https://geminiadvisory.io/fin7-flash-drives-spread-remote-access-trojan/",
+                "https://therecord.media/fbi-fin7-hackers-target-us-companies-with-badusb-devices-to-install-ransomware/",
+                "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+                "https://www.mandiant.com/resources/evolution-of-fin7"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://geminiadvisory.io/fin7-flash-drives-spread-remote-access-trojan/",
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+                "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/",
+                "https://www.mandiant.com/resources/evolution-of-fin7"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Visual Basic",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/",
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+                "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.005",
+              "url": "https://attack.mitre.org/techniques/T1059.005/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "JavaScript",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+                "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.007",
+              "url": "https://attack.mitre.org/techniques/T1059.007/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Malicious Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.001",
+              "url": "https://attack.mitre.org/techniques/T1204.001/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/",
+                "https://www.crowdstrike.com/en-us/blog/carbon-spider-embraces-big-game-hunting-part-2/",
+                "https://www.esentire.com/security-advisories/notorious-cybercrime-gang-fin7-lands-malware-in-law-firm-using-fake-legal-complaint-against-jack-daniels-owner-brown-forman-inc",
+                "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Dynamic Data Exchange",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cyberscoop.com/fin7-dde-morphisec-fileless-malware/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1559.002",
+              "url": "https://attack.mitre.org/techniques/T1559.002/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Service Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1569.002",
+              "url": "https://attack.mitre.org/techniques/T1569.002/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Input Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://geminiadvisory.io/fin7-flash-drives-spread-remote-access-trojan/",
+                "https://therecord.media/fbi-fin7-hackers-target-us-companies-with-badusb-devices-to-install-ransomware/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1674",
+              "url": "https://attack.mitre.org/techniques/T1674/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Fallback Channels",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1008",
+              "url": "https://attack.mitre.org/techniques/T1008/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "DNS",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.004",
+              "url": "https://attack.mitre.org/techniques/T1071.004/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Bidirectional Communication",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1102.002",
+              "url": "https://attack.mitre.org/techniques/T1102.002/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://geminiadvisory.io/fin7-flash-drives-spread-remote-access-trojan/",
+                "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+                "https://www.justice.gov/opa/press-release/file/1084361/download",
+                "https://www.mandiant.com/resources/evolution-of-fin7"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Remote Access Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/evolution-of-fin7"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1219",
+              "url": "https://attack.mitre.org/techniques/T1219/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Non-Standard Port",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry",
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1571",
+              "url": "https://attack.mitre.org/techniques/T1571/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Protocol Tunneling",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1572",
+              "url": "https://attack.mitre.org/techniques/T1572/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0046",
+              "name": "System Owner/User Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/evolution-of-fin7"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1033",
+              "url": "https://attack.mitre.org/techniques/T1033/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Process Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1057",
+              "url": "https://attack.mitre.org/techniques/T1057/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Domain Groups",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry",
+                "https://www.mandiant.com/resources/evolution-of-fin7"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1069.002",
+              "url": "https://attack.mitre.org/techniques/T1069.002/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "System Information Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1082",
+              "url": "https://attack.mitre.org/techniques/T1082/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Domain Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1087.002",
+              "url": "https://attack.mitre.org/techniques/T1087.002/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "System Time Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1124",
+              "url": "https://attack.mitre.org/techniques/T1124/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "User Activity Based Checks",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html"
+              ],
+              "tactics": [
+                "discovery",
+                "stealth"
+              ],
+              "technique_id": "T1497.002",
+              "url": "https://attack.mitre.org/techniques/T1497.002/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Replication Through Removable Media",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://geminiadvisory.io/fin7-flash-drives-spread-remote-access-trojan/",
+                "https://therecord.media/fbi-fin7-hackers-target-us-companies-with-badusb-devices-to-install-ransomware/"
+              ],
+              "tactics": [
+                "initial-access",
+                "lateral-movement"
+              ],
+              "technique_id": "T1091",
+              "url": "https://attack.mitre.org/techniques/T1091/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Exploit Public-Facing Application",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1190",
+              "url": "https://attack.mitre.org/techniques/T1190/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Compromise Software Supply Chain",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/evolution-of-fin7"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1195.002",
+              "url": "https://attack.mitre.org/techniques/T1195.002/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/",
+                "https://www.esentire.com/security-advisories/notorious-cybercrime-gang-fin7-lands-malware-in-law-firm-using-fake-legal-complaint-against-jack-daniels-owner-brown-forman-inc",
+                "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+                "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/",
+                "https://www.justice.gov/opa/press-release/file/1084361/download"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry",
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.002",
+              "url": "https://attack.mitre.org/techniques/T1566.002/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry",
+                "https://www.esentire.com/security-advisories/notorious-cybercrime-gang-fin7-lands-malware-in-law-firm-using-fake-legal-complaint-against-jack-daniels-owner-brown-forman-inc"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Web Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/evolution-of-fin7"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.006",
+              "url": "https://attack.mitre.org/techniques/T1583.006/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://therecord.media/fbi-fin7-hackers-target-us-companies-with-badusb-devices-to-install-ransomware/",
+                "https://www.fireeye.com/blog/threat-research/2019/10/mahalo-fin7-responding-to-new-tools-and-techniques.html"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1587.001",
+              "url": "https://attack.mitre.org/techniques/T1587.001/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/evolution-of-fin7"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Upload Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/evolution-of-fin7",
+                "https://www.sentinelone.com/labs/fin7-reboot-cybercrime-gang-enhances-ops-with-new-edr-bypasses-and-automated-attacks/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.001",
+              "url": "https://attack.mitre.org/techniques/T1608.001/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Drive-by Target",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.mandiant.com/resources/evolution-of-fin7"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.004",
+              "url": "https://attack.mitre.org/techniques/T1608.004/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Link Target",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.005",
+              "url": "https://attack.mitre.org/techniques/T1608.005/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://blog.morphisec.com/fin7-attacks-restaurant-industry",
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry",
+                "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+                "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Application Shimming",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1546.011",
+              "url": "https://attack.mitre.org/techniques/T1546.011/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "http://blog.morphisec.com/fin7-attacks-restaurant-industry",
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry",
+                "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+                "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Application Shimming",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1546.011",
+              "url": "https://attack.mitre.org/techniques/T1546.011/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Remote Desktop Protocol",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.001",
+              "url": "https://attack.mitre.org/techniques/T1021.001/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "SSH",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.004",
+              "url": "https://attack.mitre.org/techniques/T1021.004/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "VNC",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.005",
+              "url": "https://attack.mitre.org/techniques/T1021.005/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Replication Through Removable Media",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://geminiadvisory.io/fin7-flash-drives-spread-remote-access-trojan/",
+                "https://therecord.media/fbi-fin7-hackers-target-us-companies-with-badusb-devices-to-install-ransomware/"
+              ],
+              "tactics": [
+                "initial-access",
+                "lateral-movement"
+              ],
+              "technique_id": "T1091",
+              "url": "https://attack.mitre.org/techniques/T1091/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Exploitation of Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1210",
+              "url": "https://attack.mitre.org/techniques/T1210/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Data from Local System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1005",
+              "url": "https://attack.mitre.org/techniques/T1005/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Screen Capture",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.justice.gov/opa/press-release/file/1084361/download"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1113",
+              "url": "https://attack.mitre.org/techniques/T1113/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Video Capture",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+                "https://www.justice.gov/opa/press-release/file/1084361/download"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1125",
+              "url": "https://attack.mitre.org/techniques/T1125/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Code Signing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html",
+                "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1553.002",
+              "url": "https://attack.mitre.org/techniques/T1553.002/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Disable or Modify System Firewall",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1686",
+              "url": "https://attack.mitre.org/techniques/T1686/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Gather Victim Org Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://bi-zone.medium.com/from-pentest-to-apt-attack-cybercriminal-group-fin7-disguises-its-malware-as-an-ethical-hackers-c23c9a75e319"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1591",
+              "url": "https://attack.mitre.org/techniques/T1591/"
+            },
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Identify Roles",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1591.004",
+              "url": "https://attack.mitre.org/techniques/T1591.004/"
+            }
+          ],
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Kerberoasting",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/",
+                "https://www.mandiant.com/resources/evolution-of-fin7"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1558.003",
+              "url": "https://attack.mitre.org/techniques/T1558.003/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Exfiltration to Cloud Storage",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1567.002",
+              "url": "https://attack.mitre.org/techniques/T1567.002/"
+            }
+          ],
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0046",
+              "name": "Data Encrypted for Impact",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry",
+                "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/",
+                "https://www.mandiant.com/resources/evolution-of-fin7"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1486",
+              "url": "https://attack.mitre.org/techniques/T1486/"
+            }
+          ],
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 13,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 12,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 7,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 7,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 7,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 7,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 6,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 6,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 5,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 3,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 2,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 2,
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        },
+        {
+          "count": 1,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 1,
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 1,
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        }
+      ],
+      "total": 67
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0046/"
+          ]
+        }
+      ],
+      "text": "FIN7 is a financially-motivated threat group that has been active since 2013. FIN7 has targeted the retail, restaurant, hospitality, software, consulting, financial services, medical equipment, cloud services, media, food and beverage, transportation, pharmaceutical, and utilities industries in the United States. A portion of FIN7 was operated out of a front company called Combi Security and often used point-of-sale malware for targeting efforts. Since 2020, FIN7 shifted operations to big game hunting (BGH), including use of REvil ransomware and their own Ransomware-as-a-Service (RaaS), Darkside. FIN7 may be linked to the Carbanak Group, but multiple threat groups have been observed using..."
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://2014.zeronights.ru/assets/files/slides/ivanovb-zeronights.pdf"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://blog.morphisec.com/fin7-attacks-restaurant-industry"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0008"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0046"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://bi-zone.medium.com/from-pentest-to-apt-attack-cybercriminal-group-fin7-disguises-its-malware-as-an-ethical-hackers-c23c9a75e319"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.morphisec.com/fin7-attack-modifications-revealed"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.morphisec.com/fin7-attacks-restaurant-industry"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.morphisec.com/fin7-not-finished-morphisec-spots-new-campaign"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Carbanak"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securityintelligence.com/posts/ransomware-2020-attack-trends-new-techniques-affecting-organizations-worldwide"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://threatintel.blog/OPBlueRaven-Part1"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://threatintel.blog/OPBlueRaven-Part2"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://threatpost.com/fileless-malware-campaigns-tied-to-same-attacker/124369"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20180808125108/https:/www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.computerweekly.com/news/252446153/Three-Carbanak-cyber-heist-gang-members-arrested"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.computerweekly.com/news/252525240/ALPHV-BlackCat-ransomware-family-becoming-more-dangerous"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/arrests-put-new-focus-on-carbon-spider-adversary-group"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.icebrg.io/blog/footprints-of-fin7-tracking-actor-patterns"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/evolution-of-fin7"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2023/12/28/financially-motivated-threat-actors-misusing-app-installer"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/threat-insight/post/fin7carbanak-threat-actor-unleashes-bateleur-jscript-backdoor"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/gold-niagara"
+      },
+      {
+        "actor_id": "mitre-g0046",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.wired.com/story/fin7-carbanak-hacking-group-behind-a-string-of-big-breaches"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        },
+        {
+          "country_code": "UA",
+          "display_value": "Ukraine",
+          "flag": "🇺🇦",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Ukraine"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        },
+        {
+          "country_code": "UA",
+          "display_value": "Ukraine",
+          "flag": "🇺🇦",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Ukraine"
+        }
+      ]
+    },
+    "search_names": [
+      "ATK32",
+      "Calcium",
+      "Carbanak",
+      "Carbon Spider",
+      "CARBON SPIDER",
+      "Coreid",
+      "ELBRUS",
+      "FIN7",
+      "G0008",
+      "G0046",
+      "GOLD NIAGARA",
+      "ITG14",
+      "JokerStash",
+      "Sangria Tempest"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

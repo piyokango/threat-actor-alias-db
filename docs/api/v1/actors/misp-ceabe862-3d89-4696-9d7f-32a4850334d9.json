@@ -1,0 +1,132 @@
+{
+  "actor": {
+    "actor_id": "misp-ceabe862-3d89-4696-9d7f-32a4850334d9",
+    "canonical_name": "Aggressive Inventory Zombies",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-ceabe862-3d89-4696-9d7f-32a4850334d9"
+    ],
+    "misp_uuid": "ceabe862-3d89-4696-9d7f-32a4850334d9",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "aggressiveinventoryzombies",
+        "confidence": "source-provided",
+        "display_group_key": "aggressiveinventoryzombies",
+        "name": "Aggressive Inventory Zombies",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "aggressive inventory zombies",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.silentpush.com/blog/aiz-retail-crypto-phishing"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.silentpush.com/blog/aiz-retail-crypto-phishing"
+            ]
+          }
+        ],
+        "variants": [
+          "Aggressive Inventory Zombies"
+        ]
+      },
+      {
+        "compact_normalized_name": "aiz",
+        "confidence": "source-provided",
+        "display_group_key": "aiz",
+        "name": "AIZ",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "aiz",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.silentpush.com/blog/aiz-retail-crypto-phishing"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.silentpush.com/blog/aiz-retail-crypto-phishing"
+            ]
+          }
+        ],
+        "variants": [
+          "AIZ"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Aggressive Inventory Zombies is a threat actor involved in a large-scale phishing and pig-butchering network targeting retail brands and cryptocurrency users. They create fraudulent sites using a popular website template that scrapes product details from legitimate e-commerce platforms and integrate chat services for phishing. Financial ties to India have been identified, and collaboration with Stark Industries has led to the dismantling of parts of their infrastructure, revealing the network's breadth. AIZ is also linked to Entropy ransomware infections, which were preceded by detections of Cobalt Strike beacons and Dridex malware."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-ceabe862-3d89-4696-9d7f-32a4850334d9",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.silentpush.com/blog/aiz-retail-crypto-phishing"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Aggressive Inventory Zombies",
+      "AIZ"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

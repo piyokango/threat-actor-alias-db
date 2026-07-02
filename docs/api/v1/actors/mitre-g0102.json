@@ -1,0 +1,3316 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0102",
+    "canonical_name": "Wizard Spider",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0102"
+    ],
+    "misp_uuid": "3cf6dbb5-bf9e-47d4-a8d5-b6d76f5a791f",
+    "mitre_id": "G0102",
+    "names": [
+      {
+        "compact_normalized_name": "wizardspider",
+        "confidence": "source-provided",
+        "display_group_key": "wizardspider",
+        "name": "WIZARD SPIDER",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "wizard spider",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+          "https://attack.mitre.org/groups/G0102",
+          "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+          "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+          "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+          "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+          "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+          "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+          "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+          "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+          "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+          "https://www.secureworks.com/research/dyre-banking-trojan",
+          "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+              "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+              "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+              "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+              "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+              "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+              "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+              "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+              "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+              "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+              "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+              "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+              "https://www.secureworks.com/research/dyre-banking-trojan",
+              "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0102"
+            ]
+          }
+        ],
+        "variants": [
+          "Wizard Spider",
+          "WIZARD SPIDER"
+        ]
+      },
+      {
+        "compact_normalized_name": "contiteam1",
+        "confidence": "source-provided",
+        "display_group_key": "contiteam1",
+        "name": "Conti Team 1",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "conti team 1",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "Conti Team 1"
+        ]
+      },
+      {
+        "compact_normalized_name": "dev0193",
+        "confidence": "source-provided",
+        "display_group_key": "dev0193",
+        "name": "DEV-0193",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "dev 0193",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+          "https://attack.mitre.org/groups/G0102",
+          "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+          "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+          "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+          "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+          "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+          "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+          "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+          "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+          "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+          "https://www.secureworks.com/research/dyre-banking-trojan",
+          "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+              "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+              "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+              "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+              "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+              "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+              "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+              "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+              "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+              "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+              "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+              "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+              "https://www.secureworks.com/research/dyre-banking-trojan",
+              "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0102"
+            ]
+          }
+        ],
+        "variants": [
+          "DEV-0193"
+        ]
+      },
+      {
+        "compact_normalized_name": "dev0237",
+        "confidence": "source-provided",
+        "display_group_key": "dev0237",
+        "name": "DEV-0237",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "dev 0237",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+          "https://attack.mitre.org/groups/G0102",
+          "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+          "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+          "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+          "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+          "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+          "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+          "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+          "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+          "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+          "https://www.secureworks.com/research/dyre-banking-trojan",
+          "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+              "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+              "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+              "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+              "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+              "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+              "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+              "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+              "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+              "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+              "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+              "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+              "https://www.secureworks.com/research/dyre-banking-trojan",
+              "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0102"
+            ]
+          }
+        ],
+        "variants": [
+          "DEV-0237"
+        ]
+      },
+      {
+        "compact_normalized_name": "fin12",
+        "confidence": "source-provided",
+        "display_group_key": "fin12",
+        "name": "FIN12",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "fin12",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+          "https://attack.mitre.org/groups/G0102",
+          "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+          "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+          "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+          "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+          "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+          "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+          "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+          "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+          "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+          "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+          "https://www.secureworks.com/research/dyre-banking-trojan",
+          "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+              "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+              "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+              "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+              "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+              "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+              "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+              "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+              "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+              "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+              "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+              "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+              "https://www.secureworks.com/research/dyre-banking-trojan",
+              "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0102"
+            ]
+          }
+        ],
+        "variants": [
+          "FIN12"
+        ]
+      },
+      {
+        "compact_normalized_name": "goldblackburn",
+        "confidence": "source-provided",
+        "display_group_key": "goldblackburn",
+        "name": "GOLD BLACKBURN",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "gold blackburn",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+          "https://attack.mitre.org/groups/G0102",
+          "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+          "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+          "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+          "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+          "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+          "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+          "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+          "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+          "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+          "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+          "https://www.secureworks.com/research/dyre-banking-trojan",
+          "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+              "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+              "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+              "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+              "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+              "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+              "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+              "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+              "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+              "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+              "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+              "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+              "https://www.secureworks.com/research/dyre-banking-trojan",
+              "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0102"
+            ]
+          }
+        ],
+        "variants": [
+          "GOLD BLACKBURN"
+        ]
+      },
+      {
+        "compact_normalized_name": "goldulrick",
+        "confidence": "source-provided",
+        "display_group_key": "goldulrick",
+        "name": "GOLD ULRICK",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "gold ulrick",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+          "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+              "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html"
+            ]
+          }
+        ],
+        "variants": [
+          "GOLD ULRICK"
+        ]
+      },
+      {
+        "compact_normalized_name": "grimspider",
+        "confidence": "source-provided",
+        "display_group_key": "grimspider",
+        "name": "GRIM SPIDER",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "grim spider",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0102",
+          "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+          "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+              "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0102"
+            ]
+          }
+        ],
+        "variants": [
+          "Grim Spider",
+          "GRIM SPIDER"
+        ]
+      },
+      {
+        "compact_normalized_name": "itg23",
+        "confidence": "source-provided",
+        "display_group_key": "itg23",
+        "name": "ITG23",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "itg23",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0102"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0102"
+            ]
+          }
+        ],
+        "variants": [
+          "ITG23"
+        ]
+      },
+      {
+        "compact_normalized_name": "periwinkletempest",
+        "confidence": "source-provided",
+        "display_group_key": "periwinkletempest",
+        "name": "Periwinkle Tempest",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "periwinkle tempest",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+          "https://attack.mitre.org/groups/G0102",
+          "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+          "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+          "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+          "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+          "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+          "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+          "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+          "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+          "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+          "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+          "https://www.secureworks.com/research/dyre-banking-trojan",
+          "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+              "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+              "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+              "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+              "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+              "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+              "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+              "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+              "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+              "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+              "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+              "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+              "https://www.secureworks.com/research/dyre-banking-trojan",
+              "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0102"
+            ]
+          }
+        ],
+        "variants": [
+          "Periwinkle Tempest"
+        ]
+      },
+      {
+        "compact_normalized_name": "pistachiotempest",
+        "confidence": "source-provided",
+        "display_group_key": "pistachiotempest",
+        "name": "Pistachio Tempest",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "pistachio tempest",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+          "https://attack.mitre.org/groups/G0102",
+          "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+          "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+          "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+          "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+          "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+          "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+          "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+          "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+          "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+          "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+          "https://www.secureworks.com/research/dyre-banking-trojan",
+          "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+              "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+              "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+              "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+              "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+              "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+              "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+              "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+              "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+              "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+              "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+              "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+              "https://www.secureworks.com/research/dyre-banking-trojan",
+              "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0102"
+            ]
+          }
+        ],
+        "variants": [
+          "Pistachio Tempest"
+        ]
+      },
+      {
+        "compact_normalized_name": "storm0193",
+        "confidence": "source-provided",
+        "display_group_key": "storm0193",
+        "name": "Storm-0193",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 0193",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+          "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+          "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+          "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+          "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+          "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+          "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+          "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+          "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+          "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+          "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+          "https://www.secureworks.com/research/dyre-banking-trojan",
+          "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+              "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+              "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+              "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+              "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+              "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+              "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+              "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+              "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+              "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+              "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+              "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+              "https://www.secureworks.com/research/dyre-banking-trojan",
+              "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-0193"
+        ]
+      },
+      {
+        "compact_normalized_name": "storm0230",
+        "confidence": "source-provided",
+        "display_group_key": "storm0230",
+        "name": "Storm-0230",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 0230",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+          "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+          "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+          "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+          "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+          "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+          "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+          "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+          "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+          "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+          "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+          "https://www.secureworks.com/research/dyre-banking-trojan",
+          "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+              "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+              "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+              "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+              "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+              "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+              "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+              "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+              "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+              "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+              "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+              "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+              "https://www.secureworks.com/research/dyre-banking-trojan",
+              "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-0230"
+        ]
+      },
+      {
+        "compact_normalized_name": "tempmixmaster",
+        "confidence": "source-provided",
+        "display_group_key": "tempmixmaster",
+        "name": "TEMP.MixMaster",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "temp mixmaster",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+          "https://attack.mitre.org/groups/G0102",
+          "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+          "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+          "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+          "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+          "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+          "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+          "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+          "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+          "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+          "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+          "https://www.secureworks.com/research/dyre-banking-trojan",
+          "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+              "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+              "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+              "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+              "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+              "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+              "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+              "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+              "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+              "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+              "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+              "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+              "https://www.secureworks.com/research/dyre-banking-trojan",
+              "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0102"
+            ]
+          }
+        ],
+        "variants": [
+          "TEMP.MixMaster"
+        ]
+      },
+      {
+        "compact_normalized_name": "trickbotllc",
+        "confidence": "source-provided",
+        "display_group_key": "trickbotllc",
+        "name": "Trickbot LLC",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "trickbot llc",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+          "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+          "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+          "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+          "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+          "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+          "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+          "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+          "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+          "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+          "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+          "https://www.secureworks.com/research/dyre-banking-trojan",
+          "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+              "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+              "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+              "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+              "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+              "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+              "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+              "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+              "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+              "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+              "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+              "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+              "https://www.secureworks.com/research/dyre-banking-trojan",
+              "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+            ]
+          }
+        ],
+        "variants": [
+          "Trickbot LLC"
+        ]
+      },
+      {
+        "compact_normalized_name": "unc1878",
+        "confidence": "source-provided",
+        "display_group_key": "unc1878",
+        "name": "UNC1878",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "unc1878",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0102",
+          "https://gist.github.com/aaronst/6aa7f61246f53a8dd4befea86e832456",
+          "https://twitter.com/anthomsec/status/1321865315513520128",
+          "https://www.fireeye.com/blog/threat-research/2020/03/the-cycle-of-adversary-pursuit.html",
+          "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html",
+          "https://www.youtube.com/watch?v=CgDtm05qApE"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://gist.github.com/aaronst/6aa7f61246f53a8dd4befea86e832456",
+              "https://twitter.com/anthomsec/status/1321865315513520128",
+              "https://www.fireeye.com/blog/threat-research/2020/03/the-cycle-of-adversary-pursuit.html",
+              "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html",
+              "https://www.youtube.com/watch?v=CgDtm05qApE"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0102"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC1878"
+        ]
+      },
+      {
+        "compact_normalized_name": "unc2053",
+        "confidence": "source-provided",
+        "display_group_key": "unc2053",
+        "name": "UNC2053",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc2053",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+          "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+          "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+          "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+          "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+          "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+          "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+          "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+          "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+          "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+          "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+          "https://www.secureworks.com/research/dyre-banking-trojan",
+          "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+              "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets",
+              "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups",
+              "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf",
+              "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware",
+              "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web",
+              "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware",
+              "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module",
+              "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware",
+              "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+              "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+              "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+              "https://www.secureworks.com/research/dyre-banking-trojan",
+              "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC2053"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0102",
+          "name": "Scheduled Task",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+            "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+            "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+            "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/",
+            "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+          ],
+          "tactics": [
+            "execution",
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1053.005",
+          "url": "https://attack.mitre.org/techniques/T1053.005/"
+        },
+        {
+          "actor_id": "mitre-g0102",
+          "name": "Valid Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+            "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "actor_id": "mitre-g0102",
+          "name": "Domain Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078.002",
+          "url": "https://attack.mitre.org/techniques/T1078.002/"
+        },
+        {
+          "actor_id": "mitre-g0102",
+          "name": "Modify Registry",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+            "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+          ],
+          "tactics": [
+            "defense-impairment",
+            "persistence"
+          ],
+          "technique_id": "T1112",
+          "url": "https://attack.mitre.org/techniques/T1112/"
+        },
+        {
+          "actor_id": "mitre-g0102",
+          "name": "External Remote Services",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence"
+          ],
+          "technique_id": "T1133",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "actor_id": "mitre-g0102",
+          "name": "Local Account",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+          ],
+          "tactics": [
+            "persistence"
+          ],
+          "technique_id": "T1136.001",
+          "url": "https://attack.mitre.org/techniques/T1136.001/"
+        },
+        {
+          "actor_id": "mitre-g0102",
+          "name": "Domain Account",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+          ],
+          "tactics": [
+            "persistence"
+          ],
+          "technique_id": "T1136.002",
+          "url": "https://attack.mitre.org/techniques/T1136.002/"
+        },
+        {
+          "actor_id": "mitre-g0102",
+          "name": "BITS Jobs",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+          ],
+          "tactics": [
+            "execution",
+            "persistence",
+            "stealth"
+          ],
+          "technique_id": "T1197",
+          "url": "https://attack.mitre.org/techniques/T1197/"
+        },
+        {
+          "actor_id": "mitre-g0102",
+          "name": "Windows Service",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+            "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+          ],
+          "tactics": [
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1543.003",
+          "url": "https://attack.mitre.org/techniques/T1543.003/"
+        },
+        {
+          "actor_id": "mitre-g0102",
+          "name": "Registry Run Keys / Startup Folder",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+            "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+          ],
+          "tactics": [
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1547.001",
+          "url": "https://attack.mitre.org/techniques/T1547.001/"
+        },
+        {
+          "actor_id": "mitre-g0102",
+          "name": "Winlogon Helper DLL",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+          ],
+          "tactics": [
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1547.004",
+          "url": "https://attack.mitre.org/techniques/T1547.004/"
+        },
+        {
+          "actor_id": "mitre-g0102",
+          "name": "Command Obfuscation",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://thedfirreport.com/2020/10/08/ryuks-return/",
+            "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.010",
+          "url": "https://attack.mitre.org/techniques/T1027.010/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 11,
+          "items": [
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/",
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Modify Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+              ],
+              "tactics": [
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1112",
+              "url": "https://attack.mitre.org/techniques/T1112/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Local Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1136.001",
+              "url": "https://attack.mitre.org/techniques/T1136.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Domain Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1136.002",
+              "url": "https://attack.mitre.org/techniques/T1136.002/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "BITS Jobs",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "stealth"
+              ],
+              "technique_id": "T1197",
+              "url": "https://attack.mitre.org/techniques/T1197/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Winlogon Helper DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.004",
+              "url": "https://attack.mitre.org/techniques/T1547.004/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 9,
+          "items": [
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Command Obfuscation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.010",
+              "url": "https://attack.mitre.org/techniques/T1027.010/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Masquerade Task or Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/",
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.004",
+              "url": "https://attack.mitre.org/techniques/T1036.004/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Process Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055",
+              "url": "https://attack.mitre.org/techniques/T1055/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Dynamic-link Library Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055.001",
+              "url": "https://attack.mitre.org/techniques/T1055.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "File Deletion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.004",
+              "url": "https://attack.mitre.org/techniques/T1070.004/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "BITS Jobs",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "stealth"
+              ],
+              "technique_id": "T1197",
+              "url": "https://attack.mitre.org/techniques/T1197/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Rundll32",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.011",
+              "url": "https://attack.mitre.org/techniques/T1218.011/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 8,
+          "items": [
+            {
+              "actor_id": "mitre-g0102",
+              "name": "System Network Configuration Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://news.sophos.com/en-us/2020/10/14/inside-a-new-ryuk-ransomware-attack/",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1016",
+              "url": "https://attack.mitre.org/techniques/T1016/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Remote System Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://redcanary.com/blog/how-one-hospital-thwarted-a-ryuk-ransomware-outbreak/",
+                "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/",
+                "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1018",
+              "url": "https://attack.mitre.org/techniques/T1018/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "System Owner/User Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://news.sophos.com/en-us/2020/10/14/inside-a-new-ryuk-ransomware-attack/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1033",
+              "url": "https://attack.mitre.org/techniques/T1033/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "System Information Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1082",
+              "url": "https://attack.mitre.org/techniques/T1082/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Domain Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1087.002",
+              "url": "https://attack.mitre.org/techniques/T1087.002/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Network Share Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1135",
+              "url": "https://attack.mitre.org/techniques/T1135/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Security Software Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/10/08/ryuks-return/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1518.001",
+              "url": "https://attack.mitre.org/techniques/T1518.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Backup Software Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1518.002",
+              "url": "https://attack.mitre.org/techniques/T1518.002/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 8,
+          "items": [
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Windows Management Instrumentation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://redcanary.com/blog/how-one-hospital-thwarted-a-ryuk-ransomware-outbreak/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/",
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1047",
+              "url": "https://attack.mitre.org/techniques/T1047/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/",
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://redcanary.com/blog/how-one-hospital-thwarted-a-ryuk-ransomware-outbreak/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/",
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "BITS Jobs",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "stealth"
+              ],
+              "technique_id": "T1197",
+              "url": "https://attack.mitre.org/techniques/T1197/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Malicious Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.001",
+              "url": "https://attack.mitre.org/techniques/T1204.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/",
+                "https://www.crowdstrike.com/blog/wizard-spider-adversary-update/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Service Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "https://thedfirreport.com/2020/10/18/ryuk-in-5-hours/",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1569.002",
+              "url": "https://attack.mitre.org/techniques/T1569.002/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 8,
+          "items": [
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/",
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Process Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055",
+              "url": "https://attack.mitre.org/techniques/T1055/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Dynamic-link Library Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055.001",
+              "url": "https://attack.mitre.org/techniques/T1055.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Winlogon Helper DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.004",
+              "url": "https://attack.mitre.org/techniques/T1547.004/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0102",
+              "name": "LSASS Memory",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.001",
+              "url": "https://attack.mitre.org/techniques/T1003.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Security Account Manager",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.002",
+              "url": "https://attack.mitre.org/techniques/T1003.002/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "NTDS",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.003",
+              "url": "https://attack.mitre.org/techniques/T1003.003/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Group Policy Preferences",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1552.006",
+              "url": "https://attack.mitre.org/techniques/T1552.006/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Windows Credential Manager",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1555.004",
+              "url": "https://attack.mitre.org/techniques/T1555.004/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Name Resolution Poisoning and SMB Relay",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1557.001",
+              "url": "https://attack.mitre.org/techniques/T1557.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Kerberoasting",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1558.003",
+              "url": "https://attack.mitre.org/techniques/T1558.003/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021",
+              "url": "https://attack.mitre.org/techniques/T1021/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Remote Desktop Protocol",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.001",
+              "url": "https://attack.mitre.org/techniques/T1021.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "SMB/Windows Admin Shares",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.002",
+              "url": "https://attack.mitre.org/techniques/T1021.002/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Windows Remote Management",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.006",
+              "url": "https://attack.mitre.org/techniques/T1021.006/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Exploitation of Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "https://thedfirreport.com/2020/10/18/ryuk-in-5-hours/",
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1210",
+              "url": "https://attack.mitre.org/techniques/T1210/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Pass the Hash",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1550.002",
+              "url": "https://attack.mitre.org/techniques/T1550.002/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Lateral Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1570",
+              "url": "https://attack.mitre.org/techniques/T1570/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Data from Local System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1005",
+              "url": "https://attack.mitre.org/techniques/T1005/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Data Staged",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1074",
+              "url": "https://attack.mitre.org/techniques/T1074/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Local Data Staging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1074.001",
+              "url": "https://attack.mitre.org/techniques/T1074.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Name Resolution Poisoning and SMB Relay",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1557.001",
+              "url": "https://attack.mitre.org/techniques/T1557.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Archive via Utility",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1560.001",
+              "url": "https://attack.mitre.org/techniques/T1560.001/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Domain Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.002",
+              "url": "https://attack.mitre.org/techniques/T1078.002/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://redcanary.com/blog/how-one-hospital-thwarted-a-ryuk-ransomware-outbreak/",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.002",
+              "url": "https://attack.mitre.org/techniques/T1566.002/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Modify Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+              ],
+              "tactics": [
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1112",
+              "url": "https://attack.mitre.org/techniques/T1112/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Windows Permissions",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://news.sophos.com/en-us/2020/10/14/inside-a-new-ryuk-ransomware-attack/"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1222.001",
+              "url": "https://attack.mitre.org/techniques/T1222.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Code Signing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1553.002",
+              "url": "https://attack.mitre.org/techniques/T1553.002/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Disable or Modify Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-302a",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1685",
+              "url": "https://attack.mitre.org/techniques/T1685/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Exfiltration Over C2 Channel",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1041",
+              "url": "https://attack.mitre.org/techniques/T1041/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Exfiltration Over Unencrypted Non-C2 Protocol",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/10/08/ryuks-return/",
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1048.003",
+              "url": "https://attack.mitre.org/techniques/T1048.003/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Exfiltration to Cloud Storage",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1567.002",
+              "url": "https://attack.mitre.org/techniques/T1567.002/"
+            }
+          ],
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Email Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585.002",
+              "url": "https://attack.mitre.org/techniques/T1585.002/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf",
+                "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Code Signing Certificates",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/",
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.003",
+              "url": "https://attack.mitre.org/techniques/T1588.003/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Web Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.001",
+              "url": "https://attack.mitre.org/techniques/T1071.001/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Service Stop",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://thedfirreport.com/2020/10/08/ryuks-return/"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1489",
+              "url": "https://attack.mitre.org/techniques/T1489/"
+            },
+            {
+              "actor_id": "mitre-g0102",
+              "name": "Inhibit System Recovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1490",
+              "url": "https://attack.mitre.org/techniques/T1490/"
+            }
+          ],
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 11,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 9,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 8,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 8,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 8,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 7,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 7,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 5,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 5,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 4,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 3,
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 3,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 2,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 2,
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        }
+      ],
+      "total": 64
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0102/"
+          ]
+        }
+      ],
+      "text": "Wizard Spider is a Russia-based financially motivated threat group originally known for the creation and deployment of TrickBot since at least 2016. Wizard Spider possesses a diverse arsenal of tools and has conducted ransomware campaigns against a variety of organizations, ranging from major corporations to hospitals.(Citation: CrowdStrike Ryuk January 2019)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: CrowdStrike Wizard Spider October 2020)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.secureworks.com/research/threat-profiles/gold-blackburn"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0102"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://gist.github.com/aaronst/6aa7f61246f53a8dd4befea86e832456"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securityintelligence.com/posts/itg23-crypters-cooperation-between-cybercriminal-groups"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securityintelligence.com/posts/trickbot-gang-doubles-down-enterprise-infection"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://strapi.eurepoc.eu/uploads/Eu_Repo_C_APT_profile_Conti_Wizard_Spider_dc2a733e18.pdf"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://twitter.com/anthomsec/status/1321865315513520128"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/timelining-grim-spiders-big-game-hunting-tactics"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/wizard-spider-adversary-update"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cybereason.com/blog/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2020/03/the-cycle-of-adversary-pursuit.html"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2020/10/kegtap-and-singlemalt-with-a-ransomware-chaser.html"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/security-insider/threat-landscape/pistachio-tempest"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/dyre-banking-trojan"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/gold-blackburn"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/gold-ulrick"
+      },
+      {
+        "actor_id": "mitre-g0102",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.youtube.com/watch?v=CgDtm05qApE"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [
+        {
+          "display_value": "Financially motivated",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Financially motivated"
+        },
+        {
+          "display_value": "Group in development",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Group in development"
+        }
+      ],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            },
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            },
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        },
+        {
+          "display_value": "Financially motivated",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Financially motivated"
+        },
+        {
+          "display_value": "Group in development",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Group in development"
+        }
+      ]
+    },
+    "search_names": [
+      "Conti Team 1",
+      "DEV-0193",
+      "DEV-0237",
+      "FIN12",
+      "GOLD BLACKBURN",
+      "GOLD ULRICK",
+      "GRIM SPIDER",
+      "Grim Spider",
+      "ITG23",
+      "Periwinkle Tempest",
+      "Pistachio Tempest",
+      "Storm-0193",
+      "Storm-0230",
+      "TEMP.MixMaster",
+      "Trickbot LLC",
+      "UNC1878",
+      "UNC2053",
+      "WIZARD SPIDER",
+      "Wizard Spider"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-20e2be89-a54d-46c7-a837-1f17359f30ba",
+    "canonical_name": "MIMIC SPIDER",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-20e2be89-a54d-46c7-a837-1f17359f30ba"
+    ],
+    "misp_uuid": "20e2be89-a54d-46c7-a837-1f17359f30ba",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "mimicspider",
+        "confidence": "source-provided",
+        "display_group_key": "mimicspider",
+        "name": "MIMIC SPIDER",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "mimic spider",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://conferences.law.stanford.edu/cyberday/wp-content/uploads/sites/10/2016/10/2a_15GlobalThreatReport_Extracted.pdf",
+          "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://conferences.law.stanford.edu/cyberday/wp-content/uploads/sites/10/2016/10/2a_15GlobalThreatReport_Extracted.pdf",
+              "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1"
+            ]
+          }
+        ],
+        "variants": [
+          "MIMIC SPIDER"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "MIMIC SPIDER is mentioned in two summary reports only"
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-20e2be89-a54d-46c7-a837-1f17359f30ba",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://conferences.law.stanford.edu/cyberday/wp-content/uploads/sites/10/2016/10/2a_15GlobalThreatReport_Extracted.pdf"
+      },
+      {
+        "actor_id": "misp-20e2be89-a54d-46c7-a837-1f17359f30ba",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "MIMIC SPIDER"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

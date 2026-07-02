@@ -1,0 +1,117 @@
+{
+  "actor": {
+    "actor_id": "misp-d4fd0a30-15d4-4dfd-bf98-beff5fe34c33",
+    "canonical_name": "ShinyHunters",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-d4fd0a30-15d4-4dfd-bf98-beff5fe34c33"
+    ],
+    "misp_uuid": "d4fd0a30-15d4-4dfd-bf98-beff5fe34c33",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "shinyhunters",
+        "confidence": "source-provided",
+        "display_group_key": "shinyhunters",
+        "name": "ShinyHunters",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "shinyhunters",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cyberwarzone.com/shinyhunters-22-year-old-member-pleads-guilty-to-cyber-extortion-causing-6-million-in-damage",
+          "https://www.bitdefender.com/blog/hotforsecurity/pizza-hut-australia-leaks-one-million-customers-details-claims-shinyhunters-hacking-group",
+          "https://www.justice.gov/usao-wdwa/pr/alleged-french-cybercriminal-appear-seattle-indictment-conspiracy-computer-intrusion"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cyberwarzone.com/shinyhunters-22-year-old-member-pleads-guilty-to-cyber-extortion-causing-6-million-in-damage",
+              "https://www.bitdefender.com/blog/hotforsecurity/pizza-hut-australia-leaks-one-million-customers-details-claims-shinyhunters-hacking-group",
+              "https://www.justice.gov/usao-wdwa/pr/alleged-french-cybercriminal-appear-seattle-indictment-conspiracy-computer-intrusion"
+            ]
+          }
+        ],
+        "variants": [
+          "ShinyHunters"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "ShinyHunters is a cybercriminal group of unknown origin that is motivated by financial gain. The group is known for its sophisticated attacks against a wide range of targets, including businesses, organizations, and government agencies. ShinyHunters typically uses phishing attacks and exploit kits to gain access to victim networks, where they deploy malware to steal sensitive data, such as names, addresses, phone numbers, Social Security numbers, and credit card information."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-d4fd0a30-15d4-4dfd-bf98-beff5fe34c33",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cyberwarzone.com/shinyhunters-22-year-old-member-pleads-guilty-to-cyber-extortion-causing-6-million-in-damage"
+      },
+      {
+        "actor_id": "misp-d4fd0a30-15d4-4dfd-bf98-beff5fe34c33",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bitdefender.com/blog/hotforsecurity/pizza-hut-australia-leaks-one-million-customers-details-claims-shinyhunters-hacking-group"
+      },
+      {
+        "actor_id": "misp-d4fd0a30-15d4-4dfd-bf98-beff5fe34c33",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/usao-wdwa/pr/alleged-french-cybercriminal-appear-seattle-indictment-conspiracy-computer-intrusion"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "ShinyHunters"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

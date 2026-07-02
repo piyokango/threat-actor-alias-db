@@ -1,0 +1,149 @@
+{
+  "actor": {
+    "actor_id": "misp-0a690077-8268-4c06-9615-eabb6b0d0028",
+    "canonical_name": "puNK-003",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-0a690077-8268-4c06-9615-eabb6b0d0028"
+    ],
+    "misp_uuid": "0a690077-8268-4c06-9615-eabb6b0d0028",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "punk003",
+        "confidence": "source-provided",
+        "display_group_key": "punk003",
+        "name": "puNK-003",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "punk 003",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://s2w.inc/en/resource/detail/581",
+          "https://trojan-killer.net/how-to-remove-lilith-rat-complete-removal-guide"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://s2w.inc/en/resource/detail/581",
+              "https://trojan-killer.net/how-to-remove-lilith-rat-complete-removal-guide"
+            ]
+          }
+        ],
+        "variants": [
+          "puNK-003"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "puNK-003 is a North Korean APT group known for deploying the Lilith RAT, a sophisticated C++ remote access trojan, and its AutoIt variant, CURKON, which functions as a downloader. The group primarily distributes malware through targeted phishing attacks using malicious LNK files. Analysis indicates that puNK-003 shares similarities with the KONNI group, particularly in the use of AutoIt scripts and specific coding functions. Key indicators of infection include unusual network activity and system slowdowns, with removal methods involving specialized antivirus software and manual techniques."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-0a690077-8268-4c06-9615-eabb6b0d0028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://s2w.inc/en/resource/detail/581"
+      },
+      {
+        "actor_id": "misp-0a690077-8268-4c06-9615-eabb6b0d0028",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://trojan-killer.net/how-to-remove-lilith-rat-complete-removal-guide"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        }
+      ]
+    },
+    "search_names": [
+      "puNK-003"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

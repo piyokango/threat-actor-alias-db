@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-1f7f4a51-c4a8-4365-ade3-83b222e7cb67",
+    "canonical_name": "Earth Estries",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-1f7f4a51-c4a8-4365-ade3-83b222e7cb67"
+    ],
+    "misp_uuid": "1f7f4a51-c4a8-4365-ade3-83b222e7cb67",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "earthestries",
+        "confidence": "source-provided",
+        "display_group_key": "earthestries",
+        "name": "Earth Estries",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "earth estries",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.sentinelone.com/labs/cyber-soft-power-chinas-continental-takeover",
+          "https://www.trendmicro.com/en_us/research/23/h/earth-estries-targets-government-tech-for-cyberespionage.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.sentinelone.com/labs/cyber-soft-power-chinas-continental-takeover",
+              "https://www.trendmicro.com/en_us/research/23/h/earth-estries-targets-government-tech-for-cyberespionage.html"
+            ]
+          }
+        ],
+        "variants": [
+          "Earth Estries"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Trend Micro found that Earth Estries relies heavily on DLL sideloading to load various tools within its arsenal. Aside from the backdoors previously mentioned, this intrusion set also utilizes commonly used remote control tools like Cobalt Strike, PlugX, or Meterpreter stagers interchangeably in various attack stages. These tools come as encrypted payloads loaded by custom loader DLLs."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-1f7f4a51-c4a8-4365-ade3-83b222e7cb67",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sentinelone.com/labs/cyber-soft-power-chinas-continental-takeover"
+      },
+      {
+        "actor_id": "misp-1f7f4a51-c4a8-4365-ade3-83b222e7cb67",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/23/h/earth-estries-targets-government-tech-for-cyberespionage.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Earth Estries"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

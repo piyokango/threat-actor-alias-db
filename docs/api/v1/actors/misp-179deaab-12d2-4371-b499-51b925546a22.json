@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-179deaab-12d2-4371-b499-51b925546a22",
+    "canonical_name": "Threatsec",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-179deaab-12d2-4371-b499-51b925546a22"
+    ],
+    "misp_uuid": "179deaab-12d2-4371-b499-51b925546a22",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "threatsec",
+        "confidence": "source-provided",
+        "display_group_key": "threatsec",
+        "name": "Threatsec",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "threatsec",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://socradar.io/the-five-families-hacker-collaboration-redefining-the-game",
+          "https://www.resecurity.com/blog/article/ransomedvc-in-the-spotlight-what-we-know-about-the-ransomware-group-targeting-major-japanese-businesses"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://socradar.io/the-five-families-hacker-collaboration-redefining-the-game",
+              "https://www.resecurity.com/blog/article/ransomedvc-in-the-spotlight-what-we-know-about-the-ransomware-group-targeting-major-japanese-businesses"
+            ]
+          }
+        ],
+        "variants": [
+          "Threatsec"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "ThreatSec is a hacktivist group that has targeted various organizations, including internet service providers in Gaza. They claim to fight for the rights and freedom of the oppressed and do not prioritize monetary gain. The group is part of the \"Five Families\" consortium, which includes other hacktivist groups such as GhostSec and Stormous. ThreatSec has been involved in cyberattacks, data breaches, and ransomware activities."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-179deaab-12d2-4371-b499-51b925546a22",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/the-five-families-hacker-collaboration-redefining-the-game"
+      },
+      {
+        "actor_id": "misp-179deaab-12d2-4371-b499-51b925546a22",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.resecurity.com/blog/article/ransomedvc-in-the-spotlight-what-we-know-about-the-ransomware-group-targeting-major-japanese-businesses"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Threatsec"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

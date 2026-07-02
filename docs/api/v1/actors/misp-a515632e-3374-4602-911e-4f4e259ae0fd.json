@@ -1,0 +1,117 @@
+{
+  "actor": {
+    "actor_id": "misp-a515632e-3374-4602-911e-4f4e259ae0fd",
+    "canonical_name": "TRAVELING SPIDER",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-a515632e-3374-4602-911e-4f4e259ae0fd"
+    ],
+    "misp_uuid": "a515632e-3374-4602-911e-4f4e259ae0fd",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "travelingspider",
+        "confidence": "source-provided",
+        "display_group_key": "travelingspider",
+        "name": "TRAVELING SPIDER",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "traveling spider",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeServicesCyberFrontLines.pdf",
+          "https://www.crowdstrike.com/blog/ransomware-preparedness-a-call-to-action",
+          "https://www.cyberscoop.com/coronavirus-hacking-disinformation-ransomware-spearphishing"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeServicesCyberFrontLines.pdf",
+              "https://www.crowdstrike.com/blog/ransomware-preparedness-a-call-to-action",
+              "https://www.cyberscoop.com/coronavirus-hacking-disinformation-ransomware-spearphishing"
+            ]
+          }
+        ],
+        "variants": [
+          "TRAVELING SPIDER"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Crowdstrike Tracks the criminal developer of Nemty ransomware as TRAVELING SPIDER. The actor has been observed to take advantage of single-factor authentication to gain access to victim organizations through Citrix Gateway and send extortion-related emails using the victim’s own Microsoft Office 365 instance."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-a515632e-3374-4602-911e-4f4e259ae0fd",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeServicesCyberFrontLines.pdf"
+      },
+      {
+        "actor_id": "misp-a515632e-3374-4602-911e-4f4e259ae0fd",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/ransomware-preparedness-a-call-to-action"
+      },
+      {
+        "actor_id": "misp-a515632e-3374-4602-911e-4f4e259ae0fd",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cyberscoop.com/coronavirus-hacking-disinformation-ransomware-spearphishing"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "TRAVELING SPIDER"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

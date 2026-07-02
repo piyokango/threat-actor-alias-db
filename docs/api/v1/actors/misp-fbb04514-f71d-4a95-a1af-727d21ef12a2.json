@@ -1,0 +1,127 @@
+{
+  "actor": {
+    "actor_id": "misp-fbb04514-f71d-4a95-a1af-727d21ef12a2",
+    "canonical_name": "TA575",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-fbb04514-f71d-4a95-a1af-727d21ef12a2"
+    ],
+    "misp_uuid": "fbb04514-f71d-4a95-a1af-727d21ef12a2",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "ta575",
+        "confidence": "source-provided",
+        "display_group_key": "ta575",
+        "name": "TA575",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ta575",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blogs.blackberry.com/en/2021/08/blackberry-prevents-threat-actor-group-ta575-and-dridex-malware",
+          "https://www.proofpoint.com/us/blog/threat-insight/first-step-initial-access-leads-ransomware",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta575-uses-squid-game-lures-distribute-dridex-malware",
+          "https://www.zdnet.com/article/ta575-criminal-group-using-squid-game-lures-for-dridex-malware"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blogs.blackberry.com/en/2021/08/blackberry-prevents-threat-actor-group-ta575-and-dridex-malware",
+              "https://www.proofpoint.com/us/blog/threat-insight/first-step-initial-access-leads-ransomware",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta575-uses-squid-game-lures-distribute-dridex-malware",
+              "https://www.zdnet.com/article/ta575-criminal-group-using-squid-game-lures-for-dridex-malware"
+            ]
+          }
+        ],
+        "variants": [
+          "TA575"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "TA575 is a Dridex affiliate tracked by Proofpoint since late 2020. This group distributes malware such as Dridex, Qakbot, and WastedLocker via malicious URLs, Office attachments, and password-protected files. On average, TA575 distributes almost 4,000 messages per campaign impacting hundreds of organizations."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-fbb04514-f71d-4a95-a1af-727d21ef12a2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blogs.blackberry.com/en/2021/08/blackberry-prevents-threat-actor-group-ta575-and-dridex-malware"
+      },
+      {
+        "actor_id": "misp-fbb04514-f71d-4a95-a1af-727d21ef12a2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/blog/threat-insight/first-step-initial-access-leads-ransomware"
+      },
+      {
+        "actor_id": "misp-fbb04514-f71d-4a95-a1af-727d21ef12a2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/blog/threat-insight/ta575-uses-squid-game-lures-distribute-dridex-malware"
+      },
+      {
+        "actor_id": "misp-fbb04514-f71d-4a95-a1af-727d21ef12a2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.zdnet.com/article/ta575-criminal-group-using-squid-game-lures-for-dridex-malware"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "TA575"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,169 @@
+{
+  "actor": {
+    "actor_id": "misp-a5aa9b72-2bfb-427c-97fc-6ec04357233b",
+    "canonical_name": "BlackJack",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-a5aa9b72-2bfb-427c-97fc-6ec04357233b"
+    ],
+    "misp_uuid": "a5aa9b72-2bfb-427c-97fc-6ec04357233b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "blackjack",
+        "confidence": "source-provided",
+        "display_group_key": "blackjack",
+        "name": "BlackJack",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "blackjack",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://claroty.com/team82/research/unpacking-the-blackjack-groups-fuxnet-malware",
+          "https://www.enigmasoftware.com/fuxneticsmalware-removal",
+          "https://www.rewterz.com/rewterz-news/rewterz-threat-update-pro-ukraine-hacktivists-breach-russian-isp-as-revenge-for-kyivstar-attack",
+          "https://www.securityweek.com/destructive-ics-malware-fuxnet-used-by-ukraine-against-russian-infrastructure"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://claroty.com/team82/research/unpacking-the-blackjack-groups-fuxnet-malware",
+              "https://www.enigmasoftware.com/fuxneticsmalware-removal",
+              "https://www.rewterz.com/rewterz-news/rewterz-threat-update-pro-ukraine-hacktivists-breach-russian-isp-as-revenge-for-kyivstar-attack",
+              "https://www.securityweek.com/destructive-ics-malware-fuxnet-used-by-ukraine-against-russian-infrastructure"
+            ]
+          }
+        ],
+        "variants": [
+          "BlackJack"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Blackjack, a threat actor linked to Ukraine's security apparatus, has targeted critical Russian entities such as ISPs, utilities, and military infrastructure. They have claimed responsibility for launching cyberattacks resulting in substantial damage and data exfiltration. The group allegedly used the Fuxnet malware to target sensor gateways connected to internet-connected sensors, impacting infrastructure monitoring systems. Blackjack has also been involved in attacks against companies like Moscollector, causing disruptions and stealing sensitive data."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-a5aa9b72-2bfb-427c-97fc-6ec04357233b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://claroty.com/team82/research/unpacking-the-blackjack-groups-fuxnet-malware"
+      },
+      {
+        "actor_id": "misp-a5aa9b72-2bfb-427c-97fc-6ec04357233b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.enigmasoftware.com/fuxneticsmalware-removal"
+      },
+      {
+        "actor_id": "misp-a5aa9b72-2bfb-427c-97fc-6ec04357233b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.rewterz.com/rewterz-news/rewterz-threat-update-pro-ukraine-hacktivists-breach-russian-isp-as-revenge-for-kyivstar-attack"
+      },
+      {
+        "actor_id": "misp-a5aa9b72-2bfb-427c-97fc-6ec04357233b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.securityweek.com/destructive-ics-malware-fuxnet-used-by-ukraine-against-russian-infrastructure"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "UA",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "UA"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "UA",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "UA"
+        }
+      ]
+    },
+    "search_names": [
+      "BlackJack"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

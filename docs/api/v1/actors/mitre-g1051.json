@@ -1,0 +1,1454 @@
+{
+  "actor": {
+    "actor_id": "mitre-g1051",
+    "canonical_name": "Medusa Group",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g1051"
+    ],
+    "misp_uuid": null,
+    "mitre_id": "G1051",
+    "names": [
+      {
+        "compact_normalized_name": "medusagroup",
+        "confidence": "source-provided",
+        "display_group_key": "medusagroup",
+        "name": "Medusa Group",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "medusa group",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1051"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1051"
+            ]
+          }
+        ],
+        "variants": [
+          "Medusa Group"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g1051",
+          "name": "System Network Configuration Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1016",
+          "url": "https://attack.mitre.org/techniques/T1016/"
+        },
+        {
+          "actor_id": "mitre-g1051",
+          "name": "Remote System Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1018",
+          "url": "https://attack.mitre.org/techniques/T1018/"
+        },
+        {
+          "actor_id": "mitre-g1051",
+          "name": "System Owner/User Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1033",
+          "url": "https://attack.mitre.org/techniques/T1033/"
+        },
+        {
+          "actor_id": "mitre-g1051",
+          "name": "Network Service Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+            "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1046",
+          "url": "https://attack.mitre.org/techniques/T1046/"
+        },
+        {
+          "actor_id": "mitre-g1051",
+          "name": "Process Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1057",
+          "url": "https://attack.mitre.org/techniques/T1057/"
+        },
+        {
+          "actor_id": "mitre-g1051",
+          "name": "Domain Groups",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1069.002",
+          "url": "https://attack.mitre.org/techniques/T1069.002/"
+        },
+        {
+          "actor_id": "mitre-g1051",
+          "name": "System Information Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1082",
+          "url": "https://attack.mitre.org/techniques/T1082/"
+        },
+        {
+          "actor_id": "mitre-g1051",
+          "name": "File and Directory Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://securityscorecard.com/wp-content/uploads/2024/01/deep-dive-into-medusa-ransomware.pdf",
+            "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1083",
+          "url": "https://attack.mitre.org/techniques/T1083/"
+        },
+        {
+          "actor_id": "mitre-g1051",
+          "name": "Local Account",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1087.001",
+          "url": "https://attack.mitre.org/techniques/T1087.001/"
+        },
+        {
+          "actor_id": "mitre-g1051",
+          "name": "Network Share Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1135",
+          "url": "https://attack.mitre.org/techniques/T1135/"
+        },
+        {
+          "actor_id": "mitre-g1051",
+          "name": "Security Software Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1518.001",
+          "url": "https://attack.mitre.org/techniques/T1518.001/"
+        },
+        {
+          "actor_id": "mitre-g1051",
+          "name": "Device Driver Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1652",
+          "url": "https://attack.mitre.org/techniques/T1652/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 12,
+          "items": [
+            {
+              "actor_id": "mitre-g1051",
+              "name": "System Network Configuration Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1016",
+              "url": "https://attack.mitre.org/techniques/T1016/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Remote System Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1018",
+              "url": "https://attack.mitre.org/techniques/T1018/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "System Owner/User Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1033",
+              "url": "https://attack.mitre.org/techniques/T1033/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Network Service Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1046",
+              "url": "https://attack.mitre.org/techniques/T1046/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Process Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1057",
+              "url": "https://attack.mitre.org/techniques/T1057/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Domain Groups",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1069.002",
+              "url": "https://attack.mitre.org/techniques/T1069.002/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "System Information Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1082",
+              "url": "https://attack.mitre.org/techniques/T1082/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "File and Directory Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securityscorecard.com/wp-content/uploads/2024/01/deep-dive-into-medusa-ransomware.pdf",
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1083",
+              "url": "https://attack.mitre.org/techniques/T1083/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Local Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1087.001",
+              "url": "https://attack.mitre.org/techniques/T1087.001/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Network Share Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1135",
+              "url": "https://attack.mitre.org/techniques/T1135/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Security Software Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1518.001",
+              "url": "https://attack.mitre.org/techniques/T1518.001/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Device Driver Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1652",
+              "url": "https://attack.mitre.org/techniques/T1652/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Windows Management Instrumentation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+                "https://www.intel471.com/blog/threat-hunting-case-study-medusa-ransomware"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1047",
+              "url": "https://attack.mitre.org/techniques/T1047/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+                "https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/medusa-ransomware-group/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+                "https://www.intel471.com/blog/threat-hunting-case-study-medusa-ransomware"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Software Deployment Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "execution",
+                "lateral-movement"
+              ],
+              "technique_id": "T1072",
+              "url": "https://attack.mitre.org/techniques/T1072/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Native API",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securityscorecard.com/wp-content/uploads/2024/01/deep-dive-into-medusa-ransomware.pdf"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1106",
+              "url": "https://attack.mitre.org/techniques/T1106/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Component Object Model",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.intel471.com/blog/threat-hunting-case-study-medusa-ransomware"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1559.001",
+              "url": "https://attack.mitre.org/techniques/T1559.001/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Service Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1569.002",
+              "url": "https://attack.mitre.org/techniques/T1569.002/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Software Packing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.002",
+              "url": "https://attack.mitre.org/techniques/T1027.002/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Command Obfuscation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.010",
+              "url": "https://attack.mitre.org/techniques/T1027.010/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Clear Command History",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.003",
+              "url": "https://attack.mitre.org/techniques/T1070.003/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "File Deletion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.004",
+              "url": "https://attack.mitre.org/techniques/T1070.004/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "MMC",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.014",
+              "url": "https://attack.mitre.org/techniques/T1218.014/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Hidden Window",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securityscorecard.com/wp-content/uploads/2024/01/deep-dive-into-medusa-ransomware.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.003",
+              "url": "https://attack.mitre.org/techniques/T1564.003/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Web Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.006",
+              "url": "https://attack.mitre.org/techniques/T1583.006/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Social Media Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+                "https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/medusa-ransomware-group/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585.001",
+              "url": "https://attack.mitre.org/techniques/T1585.001/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Email Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585.002",
+              "url": "https://attack.mitre.org/techniques/T1585.002/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Upload Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.002",
+              "url": "https://attack.mitre.org/techniques/T1608.002/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Acquire Access",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+                "https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/medusa-ransomware-group/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+                "https://www.intel471.com/blog/threat-hunting-case-study-medusa-ransomware"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1650",
+              "url": "https://attack.mitre.org/techniques/T1650/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Web Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.001",
+              "url": "https://attack.mitre.org/techniques/T1071.001/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Multi-hop Proxy",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+                "https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/medusa-ransomware-group/",
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1090.003",
+              "url": "https://attack.mitre.org/techniques/T1090.003/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Remote Access Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securityscorecard.com/wp-content/uploads/2024/01/deep-dive-into-medusa-ransomware.pdf",
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1219",
+              "url": "https://attack.mitre.org/techniques/T1219/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Asymmetric Cryptography",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1573.002",
+              "url": "https://attack.mitre.org/techniques/T1573.002/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Modify Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1112",
+              "url": "https://attack.mitre.org/techniques/T1112/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Code Signing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1553.002",
+              "url": "https://attack.mitre.org/techniques/T1553.002/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Disable or Modify Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1685",
+              "url": "https://attack.mitre.org/techniques/T1685/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Disable or Modify System Firewall",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1686",
+              "url": "https://attack.mitre.org/techniques/T1686/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Prevent Command History Logging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1690",
+              "url": "https://attack.mitre.org/techniques/T1690/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Modify Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1112",
+              "url": "https://attack.mitre.org/techniques/T1112/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Domain Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1136.002",
+              "url": "https://attack.mitre.org/techniques/T1136.002/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Web Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1505.003",
+              "url": "https://attack.mitre.org/techniques/T1505.003/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Data Encrypted for Impact",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securityscorecard.com/wp-content/uploads/2024/01/deep-dive-into-medusa-ransomware.pdf",
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1486",
+              "url": "https://attack.mitre.org/techniques/T1486/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Service Stop",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securityscorecard.com/wp-content/uploads/2024/01/deep-dive-into-medusa-ransomware.pdf",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1489",
+              "url": "https://attack.mitre.org/techniques/T1489/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Inhibit System Recovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securityscorecard.com/wp-content/uploads/2024/01/deep-dive-into-medusa-ransomware.pdf",
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1490",
+              "url": "https://attack.mitre.org/techniques/T1490/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "System Shutdown/Reboot",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1529",
+              "url": "https://attack.mitre.org/techniques/T1529/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Financial Theft",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securityscorecard.com/wp-content/uploads/2024/01/deep-dive-into-medusa-ransomware.pdf",
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+                "https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/medusa-ransomware-group/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+                "https://www.intel471.com/blog/threat-hunting-case-study-medusa-ransomware",
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1657",
+              "url": "https://attack.mitre.org/techniques/T1657/"
+            }
+          ],
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Remote Desktop Protocol",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.001",
+              "url": "https://attack.mitre.org/techniques/T1021.001/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Software Deployment Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "execution",
+                "lateral-movement"
+              ],
+              "technique_id": "T1072",
+              "url": "https://attack.mitre.org/techniques/T1072/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Lateral Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1570",
+              "url": "https://attack.mitre.org/techniques/T1570/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Bypass User Account Control",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.intel471.com/blog/threat-hunting-case-study-medusa-ransomware"
+              ],
+              "tactics": [
+                "privilege-escalation"
+              ],
+              "technique_id": "T1548.002",
+              "url": "https://attack.mitre.org/techniques/T1548.002/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1051",
+              "name": "LSASS Memory",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.001",
+              "url": "https://attack.mitre.org/techniques/T1003.001/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "NTDS",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1003.003",
+              "url": "https://attack.mitre.org/techniques/T1003.003/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Exploit Public-Facing Application",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/medusa-ransomware-escalation-new-leak-site/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1190",
+              "url": "https://attack.mitre.org/techniques/T1190/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1051",
+              "name": "Exfiltration to Cloud Storage",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+                "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1567.002",
+              "url": "https://attack.mitre.org/techniques/T1567.002/"
+            }
+          ],
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 12,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 7,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 7,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 6,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 5,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 5,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 5,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 5,
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        },
+        {
+          "count": 3,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 3,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 2,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 2,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        }
+      ],
+      "total": 57
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G1051/"
+          ]
+        }
+      ],
+      "text": "Medusa Group has been active since at least 2021 and was initially operated as a closed ransomware group before evolving into a Ransomware-as-a-Service (RaaS) operation. Some reporting indicates that certain attacks may still be conducted directly by the ransomware’s core developers. Public sources have also referred to the group as “Spearwing” or “Medusa Actors.” (Citation: CISA Medusa Group Medusa Ransomware March 2025) (Citation: Broadcom Medusa Ransomware Medusa Group March 2025) Medusa Group employs living-off-the-land techniques, frequently leveraging publicly available tools and common remote management software to conduct operations. The group engages in double extortion tactics,..."
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g1051",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G1051"
+      },
+      {
+        "actor_id": "mitre-g1051",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securityscorecard.com/wp-content/uploads/2024/01/deep-dive-into-medusa-ransomware.pdf"
+      },
+      {
+        "actor_id": "mitre-g1051",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a"
+      },
+      {
+        "actor_id": "mitre-g1051",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.intel471.com/blog/threat-hunting-case-study-medusa-ransomware"
+      },
+      {
+        "actor_id": "mitre-g1051",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.security.com/threat-intelligence/medusa-ransomware-attacks"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Medusa Group"
+    ],
+    "source_ids": [
+      "external-reference",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

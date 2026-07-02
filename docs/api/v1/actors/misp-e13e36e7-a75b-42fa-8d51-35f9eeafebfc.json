@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-e13e36e7-a75b-42fa-8d51-35f9eeafebfc",
+    "canonical_name": "UNC5820",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-e13e36e7-a75b-42fa-8d51-35f9eeafebfc"
+    ],
+    "misp_uuid": "e13e36e7-a75b-42fa-8d51-35f9eeafebfc",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unc5820",
+        "confidence": "source-provided",
+        "display_group_key": "unc5820",
+        "name": "UNC5820",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc5820",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/fortimanager-zero-day-exploitation-cve-2024-47575"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/fortimanager-zero-day-exploitation-cve-2024-47575"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC5820"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UNC5820 is a threat actor exploiting the CVE-2024-47575 vulnerability in Fortinet's FortiManager, allowing them to bypass authentication and execute arbitrary commands. They have been observed exfiltrating configuration data, user information, and FortiOS256-hashed passwords from managed FortiGate devices. While the actor has staged and exfiltrated sensitive data, there is currently no evidence of lateral movement or further compromise of additional environments. Mandiant has not determined whether UNC5820 is state-sponsored or identified its geographic location."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-e13e36e7-a75b-42fa-8d51-35f9eeafebfc",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/fortimanager-zero-day-exploitation-cve-2024-47575"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "UNC5820"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

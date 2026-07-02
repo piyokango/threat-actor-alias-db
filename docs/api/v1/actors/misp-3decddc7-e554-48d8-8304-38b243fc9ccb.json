@@ -1,0 +1,179 @@
+{
+  "actor": {
+    "actor_id": "misp-3decddc7-e554-48d8-8304-38b243fc9ccb",
+    "canonical_name": "Cyber Toufan",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-3decddc7-e554-48d8-8304-38b243fc9ccb"
+    ],
+    "misp_uuid": "3decddc7-e554-48d8-8304-38b243fc9ccb",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "cybertoufan",
+        "confidence": "source-provided",
+        "display_group_key": "cybertoufan",
+        "name": "Cyber Toufan",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cyber toufan",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.polyswarm.io/2023-recap-cyber-activity-in-the-gaza-conflict",
+          "https://research.checkpoint.com/2023/11th-december-threat-intelligence-report",
+          "https://socradar.io/dark-web-profile-cyber-toufan-al-aqsa",
+          "https://www.darkreading.com/cyberattacks-data-breaches/-cyber-toufan-hacktivists-leaked-100-plus-israeli-orgs-in-one-month",
+          "https://www.securityweek.com/palestinian-hackers-hit-100-israeli-organizations-in-destructive-attacks"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.polyswarm.io/2023-recap-cyber-activity-in-the-gaza-conflict",
+              "https://research.checkpoint.com/2023/11th-december-threat-intelligence-report",
+              "https://socradar.io/dark-web-profile-cyber-toufan-al-aqsa",
+              "https://www.darkreading.com/cyberattacks-data-breaches/-cyber-toufan-hacktivists-leaked-100-plus-israeli-orgs-in-one-month",
+              "https://www.securityweek.com/palestinian-hackers-hit-100-israeli-organizations-in-destructive-attacks"
+            ]
+          }
+        ],
+        "variants": [
+          "Cyber Toufan"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Cyber Toufan is a threat actor group that has gained prominence for its cyberattacks targeting Israeli organizations. The group's tactics suggest potential nation-state backing, possibly from Iran. They have been involved in hack-and-leak operations, data breaches, and data destruction, impacting over 100 organizations. Cyber Toufan's activities align with geopolitical tensions in the Middle East and their attacks are characterized by a combination of technical breaches and psychological warfare."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-3decddc7-e554-48d8-8304-38b243fc9ccb",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.polyswarm.io/2023-recap-cyber-activity-in-the-gaza-conflict"
+      },
+      {
+        "actor_id": "misp-3decddc7-e554-48d8-8304-38b243fc9ccb",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.checkpoint.com/2023/11th-december-threat-intelligence-report"
+      },
+      {
+        "actor_id": "misp-3decddc7-e554-48d8-8304-38b243fc9ccb",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/dark-web-profile-cyber-toufan-al-aqsa"
+      },
+      {
+        "actor_id": "misp-3decddc7-e554-48d8-8304-38b243fc9ccb",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/-cyber-toufan-hacktivists-leaked-100-plus-israeli-orgs-in-one-month"
+      },
+      {
+        "actor_id": "misp-3decddc7-e554-48d8-8304-38b243fc9ccb",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.securityweek.com/palestinian-hackers-hit-100-israeli-organizations-in-destructive-attacks"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ]
+    },
+    "search_names": [
+      "Cyber Toufan"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

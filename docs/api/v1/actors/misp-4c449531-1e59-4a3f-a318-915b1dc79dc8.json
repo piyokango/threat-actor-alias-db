@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-4c449531-1e59-4a3f-a318-915b1dc79dc8",
+    "canonical_name": "Storm-2949",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-4c449531-1e59-4a3f-a318-915b1dc79dc8"
+    ],
+    "misp_uuid": "4c449531-1e59-4a3f-a318-915b1dc79dc8",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "storm2949",
+        "confidence": "source-provided",
+        "display_group_key": "storm2949",
+        "name": "Storm-2949",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 2949",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.microsoft.com/en-us/security/blog/2026/05/18/storm-2949-turned-compromised-identity-into-cloud-wide-breach"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.microsoft.com/en-us/security/blog/2026/05/18/storm-2949-turned-compromised-identity-into-cloud-wide-breach"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-2949"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Storm-2949 is a sophisticated threat actor that exploited Microsoft’s Self-Service Password Reset process to compromise high-value accounts, primarily targeting IT personnel and senior leadership. They leveraged Azure tools and APIs to conduct reconnaissance, exfiltrate sensitive data from Microsoft 365 applications, and manipulate Azure resources, including Key Vaults and SQL databases. The actor employed social engineering tactics to bypass MFA and utilized custom Python scripts for directory discovery and data exfiltration. Their operations included lateral movement across cloud and endpoint environments while mimicking legitimate administrative behavior."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-4c449531-1e59-4a3f-a318-915b1dc79dc8",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/05/18/storm-2949-turned-compromised-identity-into-cloud-wide-breach"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Storm-2949"
+    ],
+    "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

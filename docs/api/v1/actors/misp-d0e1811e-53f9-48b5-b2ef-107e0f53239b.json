@@ -1,0 +1,169 @@
+{
+  "actor": {
+    "actor_id": "misp-d0e1811e-53f9-48b5-b2ef-107e0f53239b",
+    "canonical_name": "UserSec",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-d0e1811e-53f9-48b5-b2ef-107e0f53239b"
+    ],
+    "misp_uuid": "d0e1811e-53f9-48b5-b2ef-107e0f53239b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "usersec",
+        "confidence": "source-provided",
+        "display_group_key": "usersec",
+        "name": "UserSec",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "usersec",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.cyble.com/2023/05/24/notable-ddos-attack-tools-and-services-supporting-hacktivist-operations-in-2023",
+          "https://socradar.io/cyber-shadows-pact-darknet-parliament-killnet-anonymous-sudan-revil",
+          "https://socradar.io/dark-peep-2-war-and-a-piece-of-hilarity",
+          "https://therecord.media/scandinavian-airlines-cyberattack-anonymous-sudan"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.cyble.com/2023/05/24/notable-ddos-attack-tools-and-services-supporting-hacktivist-operations-in-2023",
+              "https://socradar.io/cyber-shadows-pact-darknet-parliament-killnet-anonymous-sudan-revil",
+              "https://socradar.io/dark-peep-2-war-and-a-piece-of-hilarity",
+              "https://therecord.media/scandinavian-airlines-cyberattack-anonymous-sudan"
+            ]
+          }
+        ],
+        "variants": [
+          "UserSec"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UserSec is a pro-Russian hacking group that has been active since at least 2022. The group is known for its DDoS attacks and has collaborated with other pro-Russian hacking groups. In May 2023, UserSec announced a cyber campaign targeting NATO member states and joined forces with KillNet to launch attacks against NATO."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-d0e1811e-53f9-48b5-b2ef-107e0f53239b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.cyble.com/2023/05/24/notable-ddos-attack-tools-and-services-supporting-hacktivist-operations-in-2023"
+      },
+      {
+        "actor_id": "misp-d0e1811e-53f9-48b5-b2ef-107e0f53239b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/cyber-shadows-pact-darknet-parliament-killnet-anonymous-sudan-revil"
+      },
+      {
+        "actor_id": "misp-d0e1811e-53f9-48b5-b2ef-107e0f53239b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/dark-peep-2-war-and-a-piece-of-hilarity"
+      },
+      {
+        "actor_id": "misp-d0e1811e-53f9-48b5-b2ef-107e0f53239b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://therecord.media/scandinavian-airlines-cyberattack-anonymous-sudan"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "UserSec"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

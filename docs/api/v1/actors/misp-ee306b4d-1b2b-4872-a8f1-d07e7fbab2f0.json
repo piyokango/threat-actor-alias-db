@@ -1,0 +1,198 @@
+{
+  "actor": {
+    "actor_id": "misp-ee306b4d-1b2b-4872-a8f1-d07e7fbab2f0",
+    "canonical_name": "Webworm",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-ee306b4d-1b2b-4872-a8f1-d07e7fbab2f0"
+    ],
+    "misp_uuid": "ee306b4d-1b2b-4872-a8f1-d07e7fbab2f0",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "webworm",
+        "confidence": "source-provided",
+        "display_group_key": "webworm",
+        "name": "Webworm",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "webworm",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/webworm-espionage-rats",
+          "https://blog.polyswarm.io/space-pirates-target-russian-aerospace",
+          "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/space-pirates-a-look-into-the-group-s-unconventional-techniques-new-attack-vectors-and-tools"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/webworm-espionage-rats",
+              "https://blog.polyswarm.io/space-pirates-target-russian-aerospace",
+              "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/space-pirates-a-look-into-the-group-s-unconventional-techniques-new-attack-vectors-and-tools"
+            ]
+          }
+        ],
+        "variants": [
+          "Webworm"
+        ]
+      },
+      {
+        "compact_normalized_name": "spacepirates",
+        "confidence": "source-provided",
+        "display_group_key": "spacepirates",
+        "name": "Space Pirates",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "space pirates",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/webworm-espionage-rats",
+          "https://blog.polyswarm.io/space-pirates-target-russian-aerospace",
+          "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/space-pirates-a-look-into-the-group-s-unconventional-techniques-new-attack-vectors-and-tools"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/webworm-espionage-rats",
+              "https://blog.polyswarm.io/space-pirates-target-russian-aerospace",
+              "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/space-pirates-a-look-into-the-group-s-unconventional-techniques-new-attack-vectors-and-tools"
+            ]
+          }
+        ],
+        "variants": [
+          "Space Pirates"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Space Pirates is a cybercrime group that has been active since at least 2017. They primarily target Russian companies and have been observed using various malware, including Deed RAT and ShadowPad. The group uses a combination of publicly available tools and their own protocols to communicate with their command-and-control servers."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-ee306b4d-1b2b-4872-a8f1-d07e7fbab2f0",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/webworm-espionage-rats"
+      },
+      {
+        "actor_id": "misp-ee306b4d-1b2b-4872-a8f1-d07e7fbab2f0",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.polyswarm.io/space-pirates-target-russian-aerospace"
+      },
+      {
+        "actor_id": "misp-ee306b4d-1b2b-4872-a8f1-d07e7fbab2f0",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/space-pirates-a-look-into-the-group-s-unconventional-techniques-new-attack-vectors-and-tools"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "Space Pirates",
+      "Webworm"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

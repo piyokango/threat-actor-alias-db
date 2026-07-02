@@ -1,0 +1,137 @@
+{
+  "actor": {
+    "actor_id": "misp-ffc02459-3d94-4558-bff0-2e7f0bbf70c6",
+    "canonical_name": "VIKING SPIDER",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-ffc02459-3d94-4558-bff0-2e7f0bbf70c6"
+    ],
+    "misp_uuid": "ffc02459-3d94-4558-bff0-2e7f0bbf70c6",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "vikingspider",
+        "confidence": "source-provided",
+        "display_group_key": "vikingspider",
+        "name": "VIKING SPIDER",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "viking spider",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://analyst1.com/blog/ransom-mafia-analysis-of-the-worlds-first-ransomware-cartel",
+          "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2021GTR.pdf",
+          "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+          "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-2"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://analyst1.com/blog/ransom-mafia-analysis-of-the-worlds-first-ransomware-cartel",
+              "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2021GTR.pdf",
+              "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+              "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-2"
+            ]
+          }
+        ],
+        "variants": [
+          "VIKING SPIDER"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "VIKING SPIDER is the criminal group behind the development and distribution of Ragnar Locker ransomware. While public reporting indicates the group began threatening to leak victim data in February 2020, a DLS was not observed until April 2020. The DLS is hosted on Tor, and similar to other actors, proof of data exfiltration is provided before the stolen data is fully leaked. It was also noted that On Dec. 22, 2020, a new post made to MountLocker ransomware’s Tor-hosted DLS was titled 'Cartel News' and included details of a victim of VIKING SPIDER’s Ragnar Locker"
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-ffc02459-3d94-4558-bff0-2e7f0bbf70c6",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://analyst1.com/blog/ransom-mafia-analysis-of-the-worlds-first-ransomware-cartel"
+      },
+      {
+        "actor_id": "misp-ffc02459-3d94-4558-bff0-2e7f0bbf70c6",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf"
+      },
+      {
+        "actor_id": "misp-ffc02459-3d94-4558-bff0-2e7f0bbf70c6",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2021GTR.pdf"
+      },
+      {
+        "actor_id": "misp-ffc02459-3d94-4558-bff0-2e7f0bbf70c6",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1"
+      },
+      {
+        "actor_id": "misp-ffc02459-3d94-4558-bff0-2e7f0bbf70c6",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-2"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "VIKING SPIDER"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

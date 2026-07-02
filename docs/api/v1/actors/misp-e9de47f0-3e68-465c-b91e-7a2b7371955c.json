@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-e9de47f0-3e68-465c-b91e-7a2b7371955c",
+    "canonical_name": "TA2552",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-e9de47f0-3e68-465c-b91e-7a2b7371955c"
+    ],
+    "misp_uuid": "e9de47f0-3e68-465c-b91e-7a2b7371955c",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "ta2552",
+        "confidence": "source-provided",
+        "display_group_key": "ta2552",
+        "name": "TA2552",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ta2552",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.proofpoint.com/us/blog/threat-insight/ta2552-uses-oauth-access-token-phishing-exploit-read-only-risks"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.proofpoint.com/us/blog/threat-insight/ta2552-uses-oauth-access-token-phishing-exploit-read-only-risks"
+            ]
+          }
+        ],
+        "variants": [
+          "TA2552"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Since January 2020, Proofpoint researchers have tracked an actor abusing Microsoft Office 365 (O365) third-party application (3PA) access, with suspected activity dating back to August 2019. The actor, known as TA2552, uses well-crafted Spanish language lures that leverage a narrow range of themes and brands. The lures entice users to click a link in the message, taking them to the legitimate Microsoft third-party apps consent page. There they are prompted to grant a third-party application read-only user permissions to their O365 account via OAuth2 or other token-based authorization methods. TA2552 seeks access to specific account resources like the user’s contacts and mail. Requesting..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-e9de47f0-3e68-465c-b91e-7a2b7371955c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/blog/threat-insight/ta2552-uses-oauth-access-token-phishing-exploit-read-only-risks"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "TA2552"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

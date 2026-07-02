@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-ffb28c09-16a6-483a-817a-89c89751c9d4",
+    "canonical_name": "UNC5325",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-ffb28c09-16a6-483a-817a-89c89751c9d4"
+    ],
+    "misp_uuid": "ffb28c09-16a6-483a-817a-89c89751c9d4",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unc5325",
+        "confidence": "source-provided",
+        "display_group_key": "unc5325",
+        "name": "UNC5325",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc5325",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.mandiant.com/resources/blog/investigating-ivanti-exploitation-persistence"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.mandiant.com/resources/blog/investigating-ivanti-exploitation-persistence"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC5325"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UNC5325 is a suspected Chinese cyber espionage operator that exploited CVE-2024-21893 to compromise Ivanti Connect Secure appliances. UNC5325 leveraged code from open-source projects, installed custom malware, and modified the appliance's settings in order to evade detection and attempt to maintain persistence. UNC5325 has been observed deploying LITTLELAMB.WOOLTEA, PITSTOP, PITDOG, PITJET, and PITHOOK. Mandiant identified TTPs and malware code overlaps in LITTLELAMB.WOOLTEA and PITHOOK with malware leveraged by UNC3886. Mandiant assesses with moderate confidence that UNC5325 is associated with UNC3886."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-ffb28c09-16a6-483a-817a-89c89751c9d4",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/blog/investigating-ivanti-exploitation-persistence"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "UNC5325"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

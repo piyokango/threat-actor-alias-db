@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-b05a2a56-08dc-4827-9aef-aaade91016a4",
+    "canonical_name": "Storm-1099",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-b05a2a56-08dc-4827-9aef-aaade91016a4"
+    ],
+    "misp_uuid": "b05a2a56-08dc-4827-9aef-aaade91016a4",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "storm1099",
+        "confidence": "source-provided",
+        "display_group_key": "storm1099",
+        "name": "Storm-1099",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 1099",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blogs.microsoft.com/on-the-issues/2023/12/07/russia-ukraine-digital-threat-celebrity-cameo-mtac"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blogs.microsoft.com/on-the-issues/2023/12/07/russia-ukraine-digital-threat-celebrity-cameo-mtac"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-1099"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Storm-1099 is a sophisticated Russia-affiliated influence actor that has been conducting pro-Russia influence operations targeting international supporters of Ukraine since Spring 2022. They are known for their website forgery operation called \"Doppelganger\" and have been actively spreading false information. They have been involved in pushing the claim that Hamas acquired Ukrainian weapons for an attack on Israel. Storm-1099 has also been implicated in amplifying images of graffiti in Paris, suggesting possible Russian involvement and aligning with Russia's Active Measures playbook."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-b05a2a56-08dc-4827-9aef-aaade91016a4",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://blogs.microsoft.com/on-the-issues/2023/12/07/russia-ukraine-digital-threat-celebrity-cameo-mtac"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "Storm-1099"
+    ],
+    "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

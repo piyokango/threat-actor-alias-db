@@ -1,0 +1,156 @@
+{
+  "actor": {
+    "actor_id": "misp-9c102b55-29ea-4d90-9b36-33ba42f65d79",
+    "canonical_name": "DefrayX",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-9c102b55-29ea-4d90-9b36-33ba42f65d79"
+    ],
+    "misp_uuid": "9c102b55-29ea-4d90-9b36-33ba42f65d79",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "defrayx",
+        "confidence": "source-provided",
+        "display_group_key": "defrayx",
+        "name": "DefrayX",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "defrayx",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://research.checkpoint.com/2022/28th-november-threat-intelligence-report",
+          "https://securityaffairs.co/wordpress/138933/malware/ransomexx-ransomware-rust-language.html",
+          "https://securityintelligence.com/posts/ransomexx-upgrades-rust"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://research.checkpoint.com/2022/28th-november-threat-intelligence-report",
+              "https://securityaffairs.co/wordpress/138933/malware/ransomexx-ransomware-rust-language.html",
+              "https://securityintelligence.com/posts/ransomexx-upgrades-rust"
+            ]
+          }
+        ],
+        "variants": [
+          "DefrayX"
+        ]
+      },
+      {
+        "compact_normalized_name": "hive0091",
+        "confidence": "source-provided",
+        "display_group_key": "hive0091",
+        "name": "Hive0091",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "hive0091",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://research.checkpoint.com/2022/28th-november-threat-intelligence-report",
+          "https://securityaffairs.co/wordpress/138933/malware/ransomexx-ransomware-rust-language.html",
+          "https://securityintelligence.com/posts/ransomexx-upgrades-rust"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://research.checkpoint.com/2022/28th-november-threat-intelligence-report",
+              "https://securityaffairs.co/wordpress/138933/malware/ransomexx-ransomware-rust-language.html",
+              "https://securityintelligence.com/posts/ransomexx-upgrades-rust"
+            ]
+          }
+        ],
+        "variants": [
+          "Hive0091"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "DefrayX is a threat actor group known for their RansomExx ransomware operations. They primarily target Linux operating systems, but also release versions for Windows. The group has been active since 2018 and has targeted various sectors, including healthcare and manufacturing. They have also developed other malware strains such as PyXie RAT, Vatet loader, and Defray ransomware."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-9c102b55-29ea-4d90-9b36-33ba42f65d79",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.checkpoint.com/2022/28th-november-threat-intelligence-report"
+      },
+      {
+        "actor_id": "misp-9c102b55-29ea-4d90-9b36-33ba42f65d79",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securityaffairs.co/wordpress/138933/malware/ransomexx-ransomware-rust-language.html"
+      },
+      {
+        "actor_id": "misp-9c102b55-29ea-4d90-9b36-33ba42f65d79",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securityintelligence.com/posts/ransomexx-upgrades-rust"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "DefrayX",
+      "Hive0091"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

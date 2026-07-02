@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-6cce6ecc-e6f5-4ae5-b8c5-cf633b7cf973",
+    "canonical_name": "ModifiedElephant",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-6cce6ecc-e6f5-4ae5-b8c5-cf633b7cf973"
+    ],
+    "misp_uuid": "6cce6ecc-e6f5-4ae5-b8c5-cf633b7cf973",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "modifiedelephant",
+        "confidence": "source-provided",
+        "display_group_key": "modifiedelephant",
+        "name": "ModifiedElephant",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "modifiedelephant",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.sentinelone.com/labs/modifiedelephant-apt-and-a-decade-of-fabricating-evidence"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.sentinelone.com/labs/modifiedelephant-apt-and-a-decade-of-fabricating-evidence"
+            ]
+          }
+        ],
+        "variants": [
+          "ModifiedElephant"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Our research into these intrusions revealed a decade of persistent malicious activity targeting specific groups and individuals that we now attribute to a previously unknown threat actor named ModifiedElephant. This actor has operated for years, evading research attention and detection due to their limited scope of operations, the mundane nature of their tools, and their regionally-specific targeting. ModifiedElephant is still active at the time of writing."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-6cce6ecc-e6f5-4ae5-b8c5-cf633b7cf973",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sentinelone.com/labs/modifiedelephant-apt-and-a-decade-of-fabricating-evidence"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "ModifiedElephant"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

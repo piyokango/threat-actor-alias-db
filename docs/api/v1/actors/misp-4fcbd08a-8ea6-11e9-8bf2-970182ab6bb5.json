@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-4fcbd08a-8ea6-11e9-8bf2-970182ab6bb5",
+    "canonical_name": "Slingshot",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-4fcbd08a-8ea6-11e9-8bf2-970182ab6bb5"
+    ],
+    "misp_uuid": "4fcbd08a-8ea6-11e9-8bf2-970182ab6bb5",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "slingshot",
+        "confidence": "source-provided",
+        "display_group_key": "slingshot",
+        "name": "Slingshot",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "slingshot",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/apt-slingshot/84312"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/apt-slingshot/84312"
+            ]
+          }
+        ],
+        "variants": [
+          "Slingshot"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "While analysing an incident which involved a suspected keylogger, we identified a malicious library able to interact with a virtual file system, which is usually the sign of an advanced APT actor. This turned out to be a malicious loader internally named ‘Slingshot’, part of a new, and highly sophisticated attack platform that rivals Project Sauron and Regin in complexity. While for most victims the infection vector for Slingshot remains unknown, we were able to find several cases where the attackers got access to MikroTik routers and placed a component downloaded by Winbox Loader, a management suite for MikroTik routers. In turn, this infected the administrator of the router. We believe..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-4fcbd08a-8ea6-11e9-8bf2-970182ab6bb5",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/apt-slingshot/84312"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Slingshot"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

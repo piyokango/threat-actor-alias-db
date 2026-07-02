@@ -1,0 +1,117 @@
+{
+  "actor": {
+    "actor_id": "misp-21ad5aad-0a55-457d-b94d-3b4565e82e0a",
+    "canonical_name": "CyberNiggers",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-21ad5aad-0a55-457d-b94d-3b4565e82e0a"
+    ],
+    "misp_uuid": "21ad5aad-0a55-457d-b94d-3b4565e82e0a",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "cyberniggers",
+        "confidence": "source-provided",
+        "display_group_key": "cyberniggers",
+        "name": "CyberNiggers",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cyberniggers",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://socradar.io/acuity-federal-breach-okta-leak-dcrat-exploit",
+          "https://socradar.io/dark-web-profile-cyberniggers",
+          "https://socradar.io/u-s-faces-cyber-onslaught-fico-breach-id-cc-military-data-sale"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://socradar.io/acuity-federal-breach-okta-leak-dcrat-exploit",
+              "https://socradar.io/dark-web-profile-cyberniggers",
+              "https://socradar.io/u-s-faces-cyber-onslaught-fico-breach-id-cc-military-data-sale"
+            ]
+          }
+        ],
+        "variants": [
+          "CyberNiggers"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "CyberNiggers is a threat group known for breaching various organizations, including the US military, federal contractors, and multinational corporations like General Electric. Led by the prominent member IntelBroker, they specialize in selling access to compromised systems and stealing sensitive data, such as military files and personally identifiable information. The group has targeted a diverse portfolio of organizations, showcasing their strategic approach to gathering varied sets of information. Their activities raise concerns about national security, individual privacy, and the need for robust cybersecurity measures to mitigate the impact of cyber adversaries."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-21ad5aad-0a55-457d-b94d-3b4565e82e0a",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/acuity-federal-breach-okta-leak-dcrat-exploit"
+      },
+      {
+        "actor_id": "misp-21ad5aad-0a55-457d-b94d-3b4565e82e0a",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/dark-web-profile-cyberniggers"
+      },
+      {
+        "actor_id": "misp-21ad5aad-0a55-457d-b94d-3b4565e82e0a",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/u-s-faces-cyber-onslaught-fico-breach-id-cc-military-data-sale"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "CyberNiggers"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

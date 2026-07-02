@@ -1,0 +1,167 @@
+{
+  "actor": {
+    "actor_id": "misp-07877f7e-a5ba-487e-8d9c-5cb219343503",
+    "canonical_name": "UNG0901",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-07877f7e-a5ba-487e-8d9c-5cb219343503"
+    ],
+    "misp_uuid": "07877f7e-a5ba-487e-8d9c-5cb219343503",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "ung0901",
+        "confidence": "source-provided",
+        "display_group_key": "ung0901",
+        "name": "UNG0901",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ung0901",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.seqrite.com/blog/operation-cargotalon-ung0901-targets-russian-aerospace-defense-sector-using-eaglet-implant"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.seqrite.com/blog/operation-cargotalon-ung0901-targets-russian-aerospace-defense-sector-using-eaglet-implant"
+            ]
+          }
+        ],
+        "variants": [
+          "UNG0901"
+        ]
+      },
+      {
+        "compact_normalized_name": "operationcargotalon",
+        "confidence": "source-provided",
+        "display_group_key": "operationcargotalon",
+        "name": "Operation CargoTalon",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "operation cargotalon",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.seqrite.com/blog/operation-cargotalon-ung0901-targets-russian-aerospace-defense-sector-using-eaglet-implant"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.seqrite.com/blog/operation-cargotalon-ung0901-targets-russian-aerospace-defense-sector-using-eaglet-implant"
+            ]
+          }
+        ],
+        "variants": [
+          "Operation CargoTalon"
+        ]
+      },
+      {
+        "compact_normalized_name": "unknowngroup901",
+        "confidence": "source-provided",
+        "display_group_key": "unknowngroup901",
+        "name": "Unknown-Group-901",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unknown group 901",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.seqrite.com/blog/operation-cargotalon-ung0901-targets-russian-aerospace-defense-sector-using-eaglet-implant"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.seqrite.com/blog/operation-cargotalon-ung0901-targets-russian-aerospace-defense-sector-using-eaglet-implant"
+            ]
+          }
+        ],
+        "variants": [
+          "Unknown-Group-901"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UNG0901 is a cyber-espionage threat actor targeting Russian entities, particularly in the aerospace and defense sectors, utilizing spear-phishing tactics. They deploy the EAGLET backdoor, which exhibits functionalities similar to the Golang-based PhantomDL used by the Head Mare group, including shell, download, and upload capabilities. Notable overlaps in file-naming conventions and targeting strategies further reinforce the connection between UNG0901 and Head Mare."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-07877f7e-a5ba-487e-8d9c-5cb219343503",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.seqrite.com/blog/operation-cargotalon-ung0901-targets-russian-aerospace-defense-sector-using-eaglet-implant"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Operation CargoTalon",
+      "UNG0901",
+      "Unknown-Group-901"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

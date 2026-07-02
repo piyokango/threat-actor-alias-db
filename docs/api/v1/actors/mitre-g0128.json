@@ -1,0 +1,2297 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0128",
+    "canonical_name": "ZIRCONIUM",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0128"
+    ],
+    "misp_uuid": "6bf7e6b6-5917-45a6-9567-f0baba79768c",
+    "mitre_id": "G0128",
+    "names": [
+      {
+        "compact_normalized_name": "zirconium",
+        "confidence": "source-provided",
+        "display_group_key": "zirconium",
+        "name": "ZIRCONIUM",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "zirconium",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://asec.ahnlab.com/ko/55070",
+          "https://attack.mitre.org/groups/G0128",
+          "https://duo.com/decipher/apt-groups-moving-down-the-supply-chain",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
+          "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis",
+          "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Common-TTPs-of-attacks-against-industrial-organizations-implants-for-remote-access-En.pdf",
+          "https://intrusiontruth.wordpress.com/2023/05/11/article-1-whats-cracking-at-the-kerui-cracking-academy",
+          "https://intrusiontruth.wordpress.com/2023/05/12/the-illustrious-graduates-of-wuhan-kerui",
+          "https://intrusiontruth.wordpress.com/2023/05/13/all-roads-lead-back-to-wuhan-xiaoruizhi-science-and-technology-company",
+          "https://intrusiontruth.wordpress.com/2023/05/15/trouble-in-paradise",
+          "https://intrusiontruth.wordpress.com/2023/05/16/introducing-cheng-feng",
+          "https://intrusiontruth.wordpress.com/2023/05/17/missing-links",
+          "https://intrusiontruth.wordpress.com/2023/07/04/wuhan-xiaoruizhi-class-of-19",
+          "https://intrusiontruth.wordpress.com/2023/07/07/one-man-and-his-lasers",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://poliisi.fi/-/eduskunnan-tietojarjestelmiin-kohdistuneen-tietomurron-tutkinnassa-selvitetaan-yhteytta-apt31-toimijaan",
+          "https://pst.no/alle-artikler/pressemeldinger/etterforskningen-av-datanettverksoperasjonen-mot-fylkesmannsembetene-er-avsluttet",
+          "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://redalert.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists",
+          "https://research.checkpoint.com/2021/the-story-of-jian",
+          "https://supo.fi/-/suojelupoliisi-tunnisti-eduskuntaan-kohdistuneen-kybervakoiluoperaation-apt31-ksi",
+          "https://twitter.com/bkMSFT/status/1201876664667582466",
+          "https://twitter.com/bkMSFT/status/1417823714922610689",
+          "https://www.cert.ssi.gouv.fr/ioc/CERTFR-2021-IOC-003",
+          "https://www.consilium.europa.eu/en/press/press-releases/2021/07/19/declaration-by-the-high-representative-on-behalf-of-the-eu-urging-china-to-take-action-against-malicious-cyber-activities-undertaken-from-its-territory",
+          "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report",
+          "https://www.foreignminister.gov.au/minister/marise-payne/media-release/australia-joins-international-partners-attribution-malicious-cyber-activity-china",
+          "https://www.fortinet.com/blog/psirt-blogs/importance-of-patching-an-analysis-of-the-exploitation-of-n-day-vulnerabilities",
+          "https://www.gov.uk/government/news/uk-and-allies-hold-chinese-state-responsible-for-a-pervasive-pattern-of-hacking",
+          "https://www.gov.uk/government/news/uk-holds-china-state-affiliated-organisations-and-individuals-responsible-for-malicious-cyber-activity",
+          "https://www.justice.gov/opa/media/1345141/dl?inline=",
+          "https://www.justice.gov/opa/pr/seven-hackers-associated-chinese-government-charged-computer-intrusions-targeting-perceived",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005",
+          "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking",
+          "https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601",
+          "https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+          "https://www.secureworks.com/research/bronz-vinewood-uses-hanaloader-to-target-government-supply-chain",
+          "https://www.secureworks.com/research/bronze-vinewood-targets-supply-chains",
+          "https://www.secureworks.com/research/threat-profiles/bronze-vinewood",
+          "https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2023-02-bfv-cyber-brief.pdf?__blob=publicationFile&v=6"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/ko/55070",
+              "https://duo.com/decipher/apt-groups-moving-down-the-supply-chain",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
+              "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis",
+              "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Common-TTPs-of-attacks-against-industrial-organizations-implants-for-remote-access-En.pdf",
+              "https://intrusiontruth.wordpress.com/2023/05/11/article-1-whats-cracking-at-the-kerui-cracking-academy",
+              "https://intrusiontruth.wordpress.com/2023/05/12/the-illustrious-graduates-of-wuhan-kerui",
+              "https://intrusiontruth.wordpress.com/2023/05/13/all-roads-lead-back-to-wuhan-xiaoruizhi-science-and-technology-company",
+              "https://intrusiontruth.wordpress.com/2023/05/15/trouble-in-paradise",
+              "https://intrusiontruth.wordpress.com/2023/05/16/introducing-cheng-feng",
+              "https://intrusiontruth.wordpress.com/2023/05/17/missing-links",
+              "https://intrusiontruth.wordpress.com/2023/07/04/wuhan-xiaoruizhi-class-of-19",
+              "https://intrusiontruth.wordpress.com/2023/07/07/one-man-and-his-lasers",
+              "https://poliisi.fi/-/eduskunnan-tietojarjestelmiin-kohdistuneen-tietomurron-tutkinnassa-selvitetaan-yhteytta-apt31-toimijaan",
+              "https://pst.no/alle-artikler/pressemeldinger/etterforskningen-av-datanettverksoperasjonen-mot-fylkesmannsembetene-er-avsluttet",
+              "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi",
+              "https://redalert.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists",
+              "https://research.checkpoint.com/2021/the-story-of-jian",
+              "https://supo.fi/-/suojelupoliisi-tunnisti-eduskuntaan-kohdistuneen-kybervakoiluoperaation-apt31-ksi",
+              "https://twitter.com/bkMSFT/status/1201876664667582466",
+              "https://twitter.com/bkMSFT/status/1417823714922610689",
+              "https://www.cert.ssi.gouv.fr/ioc/CERTFR-2021-IOC-003",
+              "https://www.consilium.europa.eu/en/press/press-releases/2021/07/19/declaration-by-the-high-representative-on-behalf-of-the-eu-urging-china-to-take-action-against-malicious-cyber-activities-undertaken-from-its-territory",
+              "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report",
+              "https://www.foreignminister.gov.au/minister/marise-payne/media-release/australia-joins-international-partners-attribution-malicious-cyber-activity-china",
+              "https://www.fortinet.com/blog/psirt-blogs/importance-of-patching-an-analysis-of-the-exploitation-of-n-day-vulnerabilities",
+              "https://www.gov.uk/government/news/uk-and-allies-hold-chinese-state-responsible-for-a-pervasive-pattern-of-hacking",
+              "https://www.gov.uk/government/news/uk-holds-china-state-affiliated-organisations-and-individuals-responsible-for-malicious-cyber-activity",
+              "https://www.justice.gov/opa/media/1345141/dl?inline=",
+              "https://www.justice.gov/opa/pr/seven-hackers-associated-chinese-government-charged-computer-intrusions-targeting-perceived",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005",
+              "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking",
+              "https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601",
+              "https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+              "https://www.secureworks.com/research/bronz-vinewood-uses-hanaloader-to-target-government-supply-chain",
+              "https://www.secureworks.com/research/bronze-vinewood-targets-supply-chains",
+              "https://www.secureworks.com/research/threat-profiles/bronze-vinewood",
+              "https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2023-02-bfv-cyber-brief.pdf?__blob=publicationFile&v=6"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0128"
+            ]
+          }
+        ],
+        "variants": [
+          "ZIRCONIUM"
+        ]
+      },
+      {
+        "compact_normalized_name": "apt31",
+        "confidence": "source-provided",
+        "display_group_key": "apt31",
+        "name": "APT31",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "apt31",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://asec.ahnlab.com/ko/55070",
+          "https://attack.mitre.org/groups/G0128",
+          "https://duo.com/decipher/apt-groups-moving-down-the-supply-chain",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
+          "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis",
+          "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Common-TTPs-of-attacks-against-industrial-organizations-implants-for-remote-access-En.pdf",
+          "https://intrusiontruth.wordpress.com/2023/05/11/article-1-whats-cracking-at-the-kerui-cracking-academy",
+          "https://intrusiontruth.wordpress.com/2023/05/12/the-illustrious-graduates-of-wuhan-kerui",
+          "https://intrusiontruth.wordpress.com/2023/05/13/all-roads-lead-back-to-wuhan-xiaoruizhi-science-and-technology-company",
+          "https://intrusiontruth.wordpress.com/2023/05/15/trouble-in-paradise",
+          "https://intrusiontruth.wordpress.com/2023/05/16/introducing-cheng-feng",
+          "https://intrusiontruth.wordpress.com/2023/05/17/missing-links",
+          "https://intrusiontruth.wordpress.com/2023/07/04/wuhan-xiaoruizhi-class-of-19",
+          "https://intrusiontruth.wordpress.com/2023/07/07/one-man-and-his-lasers",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://poliisi.fi/-/eduskunnan-tietojarjestelmiin-kohdistuneen-tietomurron-tutkinnassa-selvitetaan-yhteytta-apt31-toimijaan",
+          "https://pst.no/alle-artikler/pressemeldinger/etterforskningen-av-datanettverksoperasjonen-mot-fylkesmannsembetene-er-avsluttet",
+          "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://redalert.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists",
+          "https://research.checkpoint.com/2021/the-story-of-jian",
+          "https://supo.fi/-/suojelupoliisi-tunnisti-eduskuntaan-kohdistuneen-kybervakoiluoperaation-apt31-ksi",
+          "https://twitter.com/bkMSFT/status/1201876664667582466",
+          "https://twitter.com/bkMSFT/status/1417823714922610689",
+          "https://www.cert.ssi.gouv.fr/ioc/CERTFR-2021-IOC-003",
+          "https://www.consilium.europa.eu/en/press/press-releases/2021/07/19/declaration-by-the-high-representative-on-behalf-of-the-eu-urging-china-to-take-action-against-malicious-cyber-activities-undertaken-from-its-territory",
+          "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report",
+          "https://www.foreignminister.gov.au/minister/marise-payne/media-release/australia-joins-international-partners-attribution-malicious-cyber-activity-china",
+          "https://www.fortinet.com/blog/psirt-blogs/importance-of-patching-an-analysis-of-the-exploitation-of-n-day-vulnerabilities",
+          "https://www.gov.uk/government/news/uk-and-allies-hold-chinese-state-responsible-for-a-pervasive-pattern-of-hacking",
+          "https://www.gov.uk/government/news/uk-holds-china-state-affiliated-organisations-and-individuals-responsible-for-malicious-cyber-activity",
+          "https://www.justice.gov/opa/media/1345141/dl?inline=",
+          "https://www.justice.gov/opa/pr/seven-hackers-associated-chinese-government-charged-computer-intrusions-targeting-perceived",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005",
+          "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking",
+          "https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601",
+          "https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+          "https://www.secureworks.com/research/bronz-vinewood-uses-hanaloader-to-target-government-supply-chain",
+          "https://www.secureworks.com/research/bronze-vinewood-targets-supply-chains",
+          "https://www.secureworks.com/research/threat-profiles/bronze-vinewood",
+          "https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2023-02-bfv-cyber-brief.pdf?__blob=publicationFile&v=6"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/ko/55070",
+              "https://duo.com/decipher/apt-groups-moving-down-the-supply-chain",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
+              "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis",
+              "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Common-TTPs-of-attacks-against-industrial-organizations-implants-for-remote-access-En.pdf",
+              "https://intrusiontruth.wordpress.com/2023/05/11/article-1-whats-cracking-at-the-kerui-cracking-academy",
+              "https://intrusiontruth.wordpress.com/2023/05/12/the-illustrious-graduates-of-wuhan-kerui",
+              "https://intrusiontruth.wordpress.com/2023/05/13/all-roads-lead-back-to-wuhan-xiaoruizhi-science-and-technology-company",
+              "https://intrusiontruth.wordpress.com/2023/05/15/trouble-in-paradise",
+              "https://intrusiontruth.wordpress.com/2023/05/16/introducing-cheng-feng",
+              "https://intrusiontruth.wordpress.com/2023/05/17/missing-links",
+              "https://intrusiontruth.wordpress.com/2023/07/04/wuhan-xiaoruizhi-class-of-19",
+              "https://intrusiontruth.wordpress.com/2023/07/07/one-man-and-his-lasers",
+              "https://poliisi.fi/-/eduskunnan-tietojarjestelmiin-kohdistuneen-tietomurron-tutkinnassa-selvitetaan-yhteytta-apt31-toimijaan",
+              "https://pst.no/alle-artikler/pressemeldinger/etterforskningen-av-datanettverksoperasjonen-mot-fylkesmannsembetene-er-avsluttet",
+              "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi",
+              "https://redalert.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists",
+              "https://research.checkpoint.com/2021/the-story-of-jian",
+              "https://supo.fi/-/suojelupoliisi-tunnisti-eduskuntaan-kohdistuneen-kybervakoiluoperaation-apt31-ksi",
+              "https://twitter.com/bkMSFT/status/1201876664667582466",
+              "https://twitter.com/bkMSFT/status/1417823714922610689",
+              "https://www.cert.ssi.gouv.fr/ioc/CERTFR-2021-IOC-003",
+              "https://www.consilium.europa.eu/en/press/press-releases/2021/07/19/declaration-by-the-high-representative-on-behalf-of-the-eu-urging-china-to-take-action-against-malicious-cyber-activities-undertaken-from-its-territory",
+              "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report",
+              "https://www.foreignminister.gov.au/minister/marise-payne/media-release/australia-joins-international-partners-attribution-malicious-cyber-activity-china",
+              "https://www.fortinet.com/blog/psirt-blogs/importance-of-patching-an-analysis-of-the-exploitation-of-n-day-vulnerabilities",
+              "https://www.gov.uk/government/news/uk-and-allies-hold-chinese-state-responsible-for-a-pervasive-pattern-of-hacking",
+              "https://www.gov.uk/government/news/uk-holds-china-state-affiliated-organisations-and-individuals-responsible-for-malicious-cyber-activity",
+              "https://www.justice.gov/opa/media/1345141/dl?inline=",
+              "https://www.justice.gov/opa/pr/seven-hackers-associated-chinese-government-charged-computer-intrusions-targeting-perceived",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005",
+              "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking",
+              "https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601",
+              "https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+              "https://www.secureworks.com/research/bronz-vinewood-uses-hanaloader-to-target-government-supply-chain",
+              "https://www.secureworks.com/research/bronze-vinewood-targets-supply-chains",
+              "https://www.secureworks.com/research/threat-profiles/bronze-vinewood",
+              "https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2023-02-bfv-cyber-brief.pdf?__blob=publicationFile&v=6"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0128"
+            ]
+          }
+        ],
+        "variants": [
+          "APT31"
+        ]
+      },
+      {
+        "compact_normalized_name": "bronzevinewood",
+        "confidence": "source-provided",
+        "display_group_key": "bronzevinewood",
+        "name": "BRONZE VINEWOOD",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "bronze vinewood",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://asec.ahnlab.com/ko/55070",
+          "https://duo.com/decipher/apt-groups-moving-down-the-supply-chain",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
+          "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis",
+          "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Common-TTPs-of-attacks-against-industrial-organizations-implants-for-remote-access-En.pdf",
+          "https://intrusiontruth.wordpress.com/2023/05/11/article-1-whats-cracking-at-the-kerui-cracking-academy",
+          "https://intrusiontruth.wordpress.com/2023/05/12/the-illustrious-graduates-of-wuhan-kerui",
+          "https://intrusiontruth.wordpress.com/2023/05/13/all-roads-lead-back-to-wuhan-xiaoruizhi-science-and-technology-company",
+          "https://intrusiontruth.wordpress.com/2023/05/15/trouble-in-paradise",
+          "https://intrusiontruth.wordpress.com/2023/05/16/introducing-cheng-feng",
+          "https://intrusiontruth.wordpress.com/2023/05/17/missing-links",
+          "https://intrusiontruth.wordpress.com/2023/07/04/wuhan-xiaoruizhi-class-of-19",
+          "https://intrusiontruth.wordpress.com/2023/07/07/one-man-and-his-lasers",
+          "https://poliisi.fi/-/eduskunnan-tietojarjestelmiin-kohdistuneen-tietomurron-tutkinnassa-selvitetaan-yhteytta-apt31-toimijaan",
+          "https://pst.no/alle-artikler/pressemeldinger/etterforskningen-av-datanettverksoperasjonen-mot-fylkesmannsembetene-er-avsluttet",
+          "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi",
+          "https://redalert.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists",
+          "https://research.checkpoint.com/2021/the-story-of-jian",
+          "https://supo.fi/-/suojelupoliisi-tunnisti-eduskuntaan-kohdistuneen-kybervakoiluoperaation-apt31-ksi",
+          "https://twitter.com/bkMSFT/status/1201876664667582466",
+          "https://twitter.com/bkMSFT/status/1417823714922610689",
+          "https://www.cert.ssi.gouv.fr/ioc/CERTFR-2021-IOC-003",
+          "https://www.consilium.europa.eu/en/press/press-releases/2021/07/19/declaration-by-the-high-representative-on-behalf-of-the-eu-urging-china-to-take-action-against-malicious-cyber-activities-undertaken-from-its-territory",
+          "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report",
+          "https://www.foreignminister.gov.au/minister/marise-payne/media-release/australia-joins-international-partners-attribution-malicious-cyber-activity-china",
+          "https://www.fortinet.com/blog/psirt-blogs/importance-of-patching-an-analysis-of-the-exploitation-of-n-day-vulnerabilities",
+          "https://www.gov.uk/government/news/uk-and-allies-hold-chinese-state-responsible-for-a-pervasive-pattern-of-hacking",
+          "https://www.gov.uk/government/news/uk-holds-china-state-affiliated-organisations-and-individuals-responsible-for-malicious-cyber-activity",
+          "https://www.justice.gov/opa/media/1345141/dl?inline=",
+          "https://www.justice.gov/opa/pr/seven-hackers-associated-chinese-government-charged-computer-intrusions-targeting-perceived",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005",
+          "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking",
+          "https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601",
+          "https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+          "https://www.secureworks.com/research/bronz-vinewood-uses-hanaloader-to-target-government-supply-chain",
+          "https://www.secureworks.com/research/bronze-vinewood-targets-supply-chains",
+          "https://www.secureworks.com/research/threat-profiles/bronze-vinewood",
+          "https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2023-02-bfv-cyber-brief.pdf?__blob=publicationFile&v=6"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/ko/55070",
+              "https://duo.com/decipher/apt-groups-moving-down-the-supply-chain",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
+              "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis",
+              "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Common-TTPs-of-attacks-against-industrial-organizations-implants-for-remote-access-En.pdf",
+              "https://intrusiontruth.wordpress.com/2023/05/11/article-1-whats-cracking-at-the-kerui-cracking-academy",
+              "https://intrusiontruth.wordpress.com/2023/05/12/the-illustrious-graduates-of-wuhan-kerui",
+              "https://intrusiontruth.wordpress.com/2023/05/13/all-roads-lead-back-to-wuhan-xiaoruizhi-science-and-technology-company",
+              "https://intrusiontruth.wordpress.com/2023/05/15/trouble-in-paradise",
+              "https://intrusiontruth.wordpress.com/2023/05/16/introducing-cheng-feng",
+              "https://intrusiontruth.wordpress.com/2023/05/17/missing-links",
+              "https://intrusiontruth.wordpress.com/2023/07/04/wuhan-xiaoruizhi-class-of-19",
+              "https://intrusiontruth.wordpress.com/2023/07/07/one-man-and-his-lasers",
+              "https://poliisi.fi/-/eduskunnan-tietojarjestelmiin-kohdistuneen-tietomurron-tutkinnassa-selvitetaan-yhteytta-apt31-toimijaan",
+              "https://pst.no/alle-artikler/pressemeldinger/etterforskningen-av-datanettverksoperasjonen-mot-fylkesmannsembetene-er-avsluttet",
+              "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi",
+              "https://redalert.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists",
+              "https://research.checkpoint.com/2021/the-story-of-jian",
+              "https://supo.fi/-/suojelupoliisi-tunnisti-eduskuntaan-kohdistuneen-kybervakoiluoperaation-apt31-ksi",
+              "https://twitter.com/bkMSFT/status/1201876664667582466",
+              "https://twitter.com/bkMSFT/status/1417823714922610689",
+              "https://www.cert.ssi.gouv.fr/ioc/CERTFR-2021-IOC-003",
+              "https://www.consilium.europa.eu/en/press/press-releases/2021/07/19/declaration-by-the-high-representative-on-behalf-of-the-eu-urging-china-to-take-action-against-malicious-cyber-activities-undertaken-from-its-territory",
+              "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report",
+              "https://www.foreignminister.gov.au/minister/marise-payne/media-release/australia-joins-international-partners-attribution-malicious-cyber-activity-china",
+              "https://www.fortinet.com/blog/psirt-blogs/importance-of-patching-an-analysis-of-the-exploitation-of-n-day-vulnerabilities",
+              "https://www.gov.uk/government/news/uk-and-allies-hold-chinese-state-responsible-for-a-pervasive-pattern-of-hacking",
+              "https://www.gov.uk/government/news/uk-holds-china-state-affiliated-organisations-and-individuals-responsible-for-malicious-cyber-activity",
+              "https://www.justice.gov/opa/media/1345141/dl?inline=",
+              "https://www.justice.gov/opa/pr/seven-hackers-associated-chinese-government-charged-computer-intrusions-targeting-perceived",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005",
+              "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking",
+              "https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601",
+              "https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+              "https://www.secureworks.com/research/bronz-vinewood-uses-hanaloader-to-target-government-supply-chain",
+              "https://www.secureworks.com/research/bronze-vinewood-targets-supply-chains",
+              "https://www.secureworks.com/research/threat-profiles/bronze-vinewood",
+              "https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2023-02-bfv-cyber-brief.pdf?__blob=publicationFile&v=6"
+            ]
+          }
+        ],
+        "variants": [
+          "BRONZE VINEWOOD"
+        ]
+      },
+      {
+        "compact_normalized_name": "chameleon",
+        "confidence": "source-provided",
+        "display_group_key": "chameleon",
+        "name": "Chameleon",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "chameleon",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "Chameleon"
+        ]
+      },
+      {
+        "compact_normalized_name": "judgmentpanda",
+        "confidence": "source-provided",
+        "display_group_key": "judgmentpanda",
+        "name": "JUDGMENT PANDA",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "judgment panda",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "https://asec.ahnlab.com/ko/55070",
+          "https://duo.com/decipher/apt-groups-moving-down-the-supply-chain",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
+          "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis",
+          "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Common-TTPs-of-attacks-against-industrial-organizations-implants-for-remote-access-En.pdf",
+          "https://intrusiontruth.wordpress.com/2023/05/11/article-1-whats-cracking-at-the-kerui-cracking-academy",
+          "https://intrusiontruth.wordpress.com/2023/05/12/the-illustrious-graduates-of-wuhan-kerui",
+          "https://intrusiontruth.wordpress.com/2023/05/13/all-roads-lead-back-to-wuhan-xiaoruizhi-science-and-technology-company",
+          "https://intrusiontruth.wordpress.com/2023/05/15/trouble-in-paradise",
+          "https://intrusiontruth.wordpress.com/2023/05/16/introducing-cheng-feng",
+          "https://intrusiontruth.wordpress.com/2023/05/17/missing-links",
+          "https://intrusiontruth.wordpress.com/2023/07/04/wuhan-xiaoruizhi-class-of-19",
+          "https://intrusiontruth.wordpress.com/2023/07/07/one-man-and-his-lasers",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://poliisi.fi/-/eduskunnan-tietojarjestelmiin-kohdistuneen-tietomurron-tutkinnassa-selvitetaan-yhteytta-apt31-toimijaan",
+          "https://pst.no/alle-artikler/pressemeldinger/etterforskningen-av-datanettverksoperasjonen-mot-fylkesmannsembetene-er-avsluttet",
+          "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://redalert.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists",
+          "https://research.checkpoint.com/2021/the-story-of-jian",
+          "https://supo.fi/-/suojelupoliisi-tunnisti-eduskuntaan-kohdistuneen-kybervakoiluoperaation-apt31-ksi",
+          "https://twitter.com/bkMSFT/status/1201876664667582466",
+          "https://twitter.com/bkMSFT/status/1417823714922610689",
+          "https://www.cert.ssi.gouv.fr/ioc/CERTFR-2021-IOC-003",
+          "https://www.consilium.europa.eu/en/press/press-releases/2021/07/19/declaration-by-the-high-representative-on-behalf-of-the-eu-urging-china-to-take-action-against-malicious-cyber-activities-undertaken-from-its-territory",
+          "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report",
+          "https://www.foreignminister.gov.au/minister/marise-payne/media-release/australia-joins-international-partners-attribution-malicious-cyber-activity-china",
+          "https://www.fortinet.com/blog/psirt-blogs/importance-of-patching-an-analysis-of-the-exploitation-of-n-day-vulnerabilities",
+          "https://www.gov.uk/government/news/uk-and-allies-hold-chinese-state-responsible-for-a-pervasive-pattern-of-hacking",
+          "https://www.gov.uk/government/news/uk-holds-china-state-affiliated-organisations-and-individuals-responsible-for-malicious-cyber-activity",
+          "https://www.justice.gov/opa/media/1345141/dl?inline=",
+          "https://www.justice.gov/opa/pr/seven-hackers-associated-chinese-government-charged-computer-intrusions-targeting-perceived",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005",
+          "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking",
+          "https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601",
+          "https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+          "https://www.secureworks.com/research/bronz-vinewood-uses-hanaloader-to-target-government-supply-chain",
+          "https://www.secureworks.com/research/bronze-vinewood-targets-supply-chains",
+          "https://www.secureworks.com/research/threat-profiles/bronze-vinewood",
+          "https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2023-02-bfv-cyber-brief.pdf?__blob=publicationFile&v=6"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/ko/55070",
+              "https://duo.com/decipher/apt-groups-moving-down-the-supply-chain",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
+              "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis",
+              "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Common-TTPs-of-attacks-against-industrial-organizations-implants-for-remote-access-En.pdf",
+              "https://intrusiontruth.wordpress.com/2023/05/11/article-1-whats-cracking-at-the-kerui-cracking-academy",
+              "https://intrusiontruth.wordpress.com/2023/05/12/the-illustrious-graduates-of-wuhan-kerui",
+              "https://intrusiontruth.wordpress.com/2023/05/13/all-roads-lead-back-to-wuhan-xiaoruizhi-science-and-technology-company",
+              "https://intrusiontruth.wordpress.com/2023/05/15/trouble-in-paradise",
+              "https://intrusiontruth.wordpress.com/2023/05/16/introducing-cheng-feng",
+              "https://intrusiontruth.wordpress.com/2023/05/17/missing-links",
+              "https://intrusiontruth.wordpress.com/2023/07/04/wuhan-xiaoruizhi-class-of-19",
+              "https://intrusiontruth.wordpress.com/2023/07/07/one-man-and-his-lasers",
+              "https://poliisi.fi/-/eduskunnan-tietojarjestelmiin-kohdistuneen-tietomurron-tutkinnassa-selvitetaan-yhteytta-apt31-toimijaan",
+              "https://pst.no/alle-artikler/pressemeldinger/etterforskningen-av-datanettverksoperasjonen-mot-fylkesmannsembetene-er-avsluttet",
+              "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi",
+              "https://redalert.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists",
+              "https://research.checkpoint.com/2021/the-story-of-jian",
+              "https://supo.fi/-/suojelupoliisi-tunnisti-eduskuntaan-kohdistuneen-kybervakoiluoperaation-apt31-ksi",
+              "https://twitter.com/bkMSFT/status/1201876664667582466",
+              "https://twitter.com/bkMSFT/status/1417823714922610689",
+              "https://www.cert.ssi.gouv.fr/ioc/CERTFR-2021-IOC-003",
+              "https://www.consilium.europa.eu/en/press/press-releases/2021/07/19/declaration-by-the-high-representative-on-behalf-of-the-eu-urging-china-to-take-action-against-malicious-cyber-activities-undertaken-from-its-territory",
+              "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report",
+              "https://www.foreignminister.gov.au/minister/marise-payne/media-release/australia-joins-international-partners-attribution-malicious-cyber-activity-china",
+              "https://www.fortinet.com/blog/psirt-blogs/importance-of-patching-an-analysis-of-the-exploitation-of-n-day-vulnerabilities",
+              "https://www.gov.uk/government/news/uk-and-allies-hold-chinese-state-responsible-for-a-pervasive-pattern-of-hacking",
+              "https://www.gov.uk/government/news/uk-holds-china-state-affiliated-organisations-and-individuals-responsible-for-malicious-cyber-activity",
+              "https://www.justice.gov/opa/media/1345141/dl?inline=",
+              "https://www.justice.gov/opa/pr/seven-hackers-associated-chinese-government-charged-computer-intrusions-targeting-perceived",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005",
+              "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking",
+              "https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601",
+              "https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+              "https://www.secureworks.com/research/bronz-vinewood-uses-hanaloader-to-target-government-supply-chain",
+              "https://www.secureworks.com/research/bronze-vinewood-targets-supply-chains",
+              "https://www.secureworks.com/research/threat-profiles/bronze-vinewood",
+              "https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2023-02-bfv-cyber-brief.pdf?__blob=publicationFile&v=6"
+            ]
+          }
+        ],
+        "variants": [
+          "JUDGMENT PANDA"
+        ]
+      },
+      {
+        "compact_normalized_name": "redkeres",
+        "confidence": "source-provided",
+        "display_group_key": "redkeres",
+        "name": "Red keres",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "red keres",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://asec.ahnlab.com/ko/55070",
+          "https://duo.com/decipher/apt-groups-moving-down-the-supply-chain",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
+          "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis",
+          "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Common-TTPs-of-attacks-against-industrial-organizations-implants-for-remote-access-En.pdf",
+          "https://intrusiontruth.wordpress.com/2023/05/11/article-1-whats-cracking-at-the-kerui-cracking-academy",
+          "https://intrusiontruth.wordpress.com/2023/05/12/the-illustrious-graduates-of-wuhan-kerui",
+          "https://intrusiontruth.wordpress.com/2023/05/13/all-roads-lead-back-to-wuhan-xiaoruizhi-science-and-technology-company",
+          "https://intrusiontruth.wordpress.com/2023/05/15/trouble-in-paradise",
+          "https://intrusiontruth.wordpress.com/2023/05/16/introducing-cheng-feng",
+          "https://intrusiontruth.wordpress.com/2023/05/17/missing-links",
+          "https://intrusiontruth.wordpress.com/2023/07/04/wuhan-xiaoruizhi-class-of-19",
+          "https://intrusiontruth.wordpress.com/2023/07/07/one-man-and-his-lasers",
+          "https://poliisi.fi/-/eduskunnan-tietojarjestelmiin-kohdistuneen-tietomurron-tutkinnassa-selvitetaan-yhteytta-apt31-toimijaan",
+          "https://pst.no/alle-artikler/pressemeldinger/etterforskningen-av-datanettverksoperasjonen-mot-fylkesmannsembetene-er-avsluttet",
+          "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi",
+          "https://redalert.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists",
+          "https://research.checkpoint.com/2021/the-story-of-jian",
+          "https://supo.fi/-/suojelupoliisi-tunnisti-eduskuntaan-kohdistuneen-kybervakoiluoperaation-apt31-ksi",
+          "https://twitter.com/bkMSFT/status/1201876664667582466",
+          "https://twitter.com/bkMSFT/status/1417823714922610689",
+          "https://www.cert.ssi.gouv.fr/ioc/CERTFR-2021-IOC-003",
+          "https://www.consilium.europa.eu/en/press/press-releases/2021/07/19/declaration-by-the-high-representative-on-behalf-of-the-eu-urging-china-to-take-action-against-malicious-cyber-activities-undertaken-from-its-territory",
+          "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report",
+          "https://www.foreignminister.gov.au/minister/marise-payne/media-release/australia-joins-international-partners-attribution-malicious-cyber-activity-china",
+          "https://www.fortinet.com/blog/psirt-blogs/importance-of-patching-an-analysis-of-the-exploitation-of-n-day-vulnerabilities",
+          "https://www.gov.uk/government/news/uk-and-allies-hold-chinese-state-responsible-for-a-pervasive-pattern-of-hacking",
+          "https://www.gov.uk/government/news/uk-holds-china-state-affiliated-organisations-and-individuals-responsible-for-malicious-cyber-activity",
+          "https://www.justice.gov/opa/media/1345141/dl?inline=",
+          "https://www.justice.gov/opa/pr/seven-hackers-associated-chinese-government-charged-computer-intrusions-targeting-perceived",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005",
+          "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking",
+          "https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601",
+          "https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+          "https://www.secureworks.com/research/bronz-vinewood-uses-hanaloader-to-target-government-supply-chain",
+          "https://www.secureworks.com/research/bronze-vinewood-targets-supply-chains",
+          "https://www.secureworks.com/research/threat-profiles/bronze-vinewood",
+          "https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2023-02-bfv-cyber-brief.pdf?__blob=publicationFile&v=6"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/ko/55070",
+              "https://duo.com/decipher/apt-groups-moving-down-the-supply-chain",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
+              "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis",
+              "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Common-TTPs-of-attacks-against-industrial-organizations-implants-for-remote-access-En.pdf",
+              "https://intrusiontruth.wordpress.com/2023/05/11/article-1-whats-cracking-at-the-kerui-cracking-academy",
+              "https://intrusiontruth.wordpress.com/2023/05/12/the-illustrious-graduates-of-wuhan-kerui",
+              "https://intrusiontruth.wordpress.com/2023/05/13/all-roads-lead-back-to-wuhan-xiaoruizhi-science-and-technology-company",
+              "https://intrusiontruth.wordpress.com/2023/05/15/trouble-in-paradise",
+              "https://intrusiontruth.wordpress.com/2023/05/16/introducing-cheng-feng",
+              "https://intrusiontruth.wordpress.com/2023/05/17/missing-links",
+              "https://intrusiontruth.wordpress.com/2023/07/04/wuhan-xiaoruizhi-class-of-19",
+              "https://intrusiontruth.wordpress.com/2023/07/07/one-man-and-his-lasers",
+              "https://poliisi.fi/-/eduskunnan-tietojarjestelmiin-kohdistuneen-tietomurron-tutkinnassa-selvitetaan-yhteytta-apt31-toimijaan",
+              "https://pst.no/alle-artikler/pressemeldinger/etterforskningen-av-datanettverksoperasjonen-mot-fylkesmannsembetene-er-avsluttet",
+              "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi",
+              "https://redalert.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists",
+              "https://research.checkpoint.com/2021/the-story-of-jian",
+              "https://supo.fi/-/suojelupoliisi-tunnisti-eduskuntaan-kohdistuneen-kybervakoiluoperaation-apt31-ksi",
+              "https://twitter.com/bkMSFT/status/1201876664667582466",
+              "https://twitter.com/bkMSFT/status/1417823714922610689",
+              "https://www.cert.ssi.gouv.fr/ioc/CERTFR-2021-IOC-003",
+              "https://www.consilium.europa.eu/en/press/press-releases/2021/07/19/declaration-by-the-high-representative-on-behalf-of-the-eu-urging-china-to-take-action-against-malicious-cyber-activities-undertaken-from-its-territory",
+              "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report",
+              "https://www.foreignminister.gov.au/minister/marise-payne/media-release/australia-joins-international-partners-attribution-malicious-cyber-activity-china",
+              "https://www.fortinet.com/blog/psirt-blogs/importance-of-patching-an-analysis-of-the-exploitation-of-n-day-vulnerabilities",
+              "https://www.gov.uk/government/news/uk-and-allies-hold-chinese-state-responsible-for-a-pervasive-pattern-of-hacking",
+              "https://www.gov.uk/government/news/uk-holds-china-state-affiliated-organisations-and-individuals-responsible-for-malicious-cyber-activity",
+              "https://www.justice.gov/opa/media/1345141/dl?inline=",
+              "https://www.justice.gov/opa/pr/seven-hackers-associated-chinese-government-charged-computer-intrusions-targeting-perceived",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005",
+              "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking",
+              "https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601",
+              "https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+              "https://www.secureworks.com/research/bronz-vinewood-uses-hanaloader-to-target-government-supply-chain",
+              "https://www.secureworks.com/research/bronze-vinewood-targets-supply-chains",
+              "https://www.secureworks.com/research/threat-profiles/bronze-vinewood",
+              "https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2023-02-bfv-cyber-brief.pdf?__blob=publicationFile&v=6"
+            ]
+          }
+        ],
+        "variants": [
+          "Red keres"
+        ]
+      },
+      {
+        "compact_normalized_name": "ta412",
+        "confidence": "source-provided",
+        "display_group_key": "ta412",
+        "name": "TA412",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ta412",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://asec.ahnlab.com/ko/55070",
+          "https://duo.com/decipher/apt-groups-moving-down-the-supply-chain",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
+          "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis",
+          "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Common-TTPs-of-attacks-against-industrial-organizations-implants-for-remote-access-En.pdf",
+          "https://intrusiontruth.wordpress.com/2023/05/11/article-1-whats-cracking-at-the-kerui-cracking-academy",
+          "https://intrusiontruth.wordpress.com/2023/05/12/the-illustrious-graduates-of-wuhan-kerui",
+          "https://intrusiontruth.wordpress.com/2023/05/13/all-roads-lead-back-to-wuhan-xiaoruizhi-science-and-technology-company",
+          "https://intrusiontruth.wordpress.com/2023/05/15/trouble-in-paradise",
+          "https://intrusiontruth.wordpress.com/2023/05/16/introducing-cheng-feng",
+          "https://intrusiontruth.wordpress.com/2023/05/17/missing-links",
+          "https://intrusiontruth.wordpress.com/2023/07/04/wuhan-xiaoruizhi-class-of-19",
+          "https://intrusiontruth.wordpress.com/2023/07/07/one-man-and-his-lasers",
+          "https://poliisi.fi/-/eduskunnan-tietojarjestelmiin-kohdistuneen-tietomurron-tutkinnassa-selvitetaan-yhteytta-apt31-toimijaan",
+          "https://pst.no/alle-artikler/pressemeldinger/etterforskningen-av-datanettverksoperasjonen-mot-fylkesmannsembetene-er-avsluttet",
+          "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi",
+          "https://redalert.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists",
+          "https://research.checkpoint.com/2021/the-story-of-jian",
+          "https://supo.fi/-/suojelupoliisi-tunnisti-eduskuntaan-kohdistuneen-kybervakoiluoperaation-apt31-ksi",
+          "https://twitter.com/bkMSFT/status/1201876664667582466",
+          "https://twitter.com/bkMSFT/status/1417823714922610689",
+          "https://www.cert.ssi.gouv.fr/ioc/CERTFR-2021-IOC-003",
+          "https://www.consilium.europa.eu/en/press/press-releases/2021/07/19/declaration-by-the-high-representative-on-behalf-of-the-eu-urging-china-to-take-action-against-malicious-cyber-activities-undertaken-from-its-territory",
+          "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report",
+          "https://www.foreignminister.gov.au/minister/marise-payne/media-release/australia-joins-international-partners-attribution-malicious-cyber-activity-china",
+          "https://www.fortinet.com/blog/psirt-blogs/importance-of-patching-an-analysis-of-the-exploitation-of-n-day-vulnerabilities",
+          "https://www.gov.uk/government/news/uk-and-allies-hold-chinese-state-responsible-for-a-pervasive-pattern-of-hacking",
+          "https://www.gov.uk/government/news/uk-holds-china-state-affiliated-organisations-and-individuals-responsible-for-malicious-cyber-activity",
+          "https://www.justice.gov/opa/media/1345141/dl?inline=",
+          "https://www.justice.gov/opa/pr/seven-hackers-associated-chinese-government-charged-computer-intrusions-targeting-perceived",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005",
+          "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking",
+          "https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601",
+          "https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+          "https://www.secureworks.com/research/bronz-vinewood-uses-hanaloader-to-target-government-supply-chain",
+          "https://www.secureworks.com/research/bronze-vinewood-targets-supply-chains",
+          "https://www.secureworks.com/research/threat-profiles/bronze-vinewood",
+          "https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2023-02-bfv-cyber-brief.pdf?__blob=publicationFile&v=6"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/ko/55070",
+              "https://duo.com/decipher/apt-groups-moving-down-the-supply-chain",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
+              "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis",
+              "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Common-TTPs-of-attacks-against-industrial-organizations-implants-for-remote-access-En.pdf",
+              "https://intrusiontruth.wordpress.com/2023/05/11/article-1-whats-cracking-at-the-kerui-cracking-academy",
+              "https://intrusiontruth.wordpress.com/2023/05/12/the-illustrious-graduates-of-wuhan-kerui",
+              "https://intrusiontruth.wordpress.com/2023/05/13/all-roads-lead-back-to-wuhan-xiaoruizhi-science-and-technology-company",
+              "https://intrusiontruth.wordpress.com/2023/05/15/trouble-in-paradise",
+              "https://intrusiontruth.wordpress.com/2023/05/16/introducing-cheng-feng",
+              "https://intrusiontruth.wordpress.com/2023/05/17/missing-links",
+              "https://intrusiontruth.wordpress.com/2023/07/04/wuhan-xiaoruizhi-class-of-19",
+              "https://intrusiontruth.wordpress.com/2023/07/07/one-man-and-his-lasers",
+              "https://poliisi.fi/-/eduskunnan-tietojarjestelmiin-kohdistuneen-tietomurron-tutkinnassa-selvitetaan-yhteytta-apt31-toimijaan",
+              "https://pst.no/alle-artikler/pressemeldinger/etterforskningen-av-datanettverksoperasjonen-mot-fylkesmannsembetene-er-avsluttet",
+              "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi",
+              "https://redalert.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists",
+              "https://research.checkpoint.com/2021/the-story-of-jian",
+              "https://supo.fi/-/suojelupoliisi-tunnisti-eduskuntaan-kohdistuneen-kybervakoiluoperaation-apt31-ksi",
+              "https://twitter.com/bkMSFT/status/1201876664667582466",
+              "https://twitter.com/bkMSFT/status/1417823714922610689",
+              "https://www.cert.ssi.gouv.fr/ioc/CERTFR-2021-IOC-003",
+              "https://www.consilium.europa.eu/en/press/press-releases/2021/07/19/declaration-by-the-high-representative-on-behalf-of-the-eu-urging-china-to-take-action-against-malicious-cyber-activities-undertaken-from-its-territory",
+              "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report",
+              "https://www.foreignminister.gov.au/minister/marise-payne/media-release/australia-joins-international-partners-attribution-malicious-cyber-activity-china",
+              "https://www.fortinet.com/blog/psirt-blogs/importance-of-patching-an-analysis-of-the-exploitation-of-n-day-vulnerabilities",
+              "https://www.gov.uk/government/news/uk-and-allies-hold-chinese-state-responsible-for-a-pervasive-pattern-of-hacking",
+              "https://www.gov.uk/government/news/uk-holds-china-state-affiliated-organisations-and-individuals-responsible-for-malicious-cyber-activity",
+              "https://www.justice.gov/opa/media/1345141/dl?inline=",
+              "https://www.justice.gov/opa/pr/seven-hackers-associated-chinese-government-charged-computer-intrusions-targeting-perceived",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005",
+              "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking",
+              "https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601",
+              "https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+              "https://www.secureworks.com/research/bronz-vinewood-uses-hanaloader-to-target-government-supply-chain",
+              "https://www.secureworks.com/research/bronze-vinewood-targets-supply-chains",
+              "https://www.secureworks.com/research/threat-profiles/bronze-vinewood",
+              "https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2023-02-bfv-cyber-brief.pdf?__blob=publicationFile&v=6"
+            ]
+          }
+        ],
+        "variants": [
+          "TA412"
+        ]
+      },
+      {
+        "compact_normalized_name": "violettyphoon",
+        "confidence": "source-provided",
+        "display_group_key": "violettyphoon",
+        "name": "Violet Typhoon",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "violet typhoon",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://asec.ahnlab.com/ko/55070",
+          "https://attack.mitre.org/groups/G0128",
+          "https://duo.com/decipher/apt-groups-moving-down-the-supply-chain",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
+          "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis",
+          "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Common-TTPs-of-attacks-against-industrial-organizations-implants-for-remote-access-En.pdf",
+          "https://intrusiontruth.wordpress.com/2023/05/11/article-1-whats-cracking-at-the-kerui-cracking-academy",
+          "https://intrusiontruth.wordpress.com/2023/05/12/the-illustrious-graduates-of-wuhan-kerui",
+          "https://intrusiontruth.wordpress.com/2023/05/13/all-roads-lead-back-to-wuhan-xiaoruizhi-science-and-technology-company",
+          "https://intrusiontruth.wordpress.com/2023/05/15/trouble-in-paradise",
+          "https://intrusiontruth.wordpress.com/2023/05/16/introducing-cheng-feng",
+          "https://intrusiontruth.wordpress.com/2023/05/17/missing-links",
+          "https://intrusiontruth.wordpress.com/2023/07/04/wuhan-xiaoruizhi-class-of-19",
+          "https://intrusiontruth.wordpress.com/2023/07/07/one-man-and-his-lasers",
+          "https://poliisi.fi/-/eduskunnan-tietojarjestelmiin-kohdistuneen-tietomurron-tutkinnassa-selvitetaan-yhteytta-apt31-toimijaan",
+          "https://pst.no/alle-artikler/pressemeldinger/etterforskningen-av-datanettverksoperasjonen-mot-fylkesmannsembetene-er-avsluttet",
+          "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi",
+          "https://redalert.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists",
+          "https://research.checkpoint.com/2021/the-story-of-jian",
+          "https://supo.fi/-/suojelupoliisi-tunnisti-eduskuntaan-kohdistuneen-kybervakoiluoperaation-apt31-ksi",
+          "https://twitter.com/bkMSFT/status/1201876664667582466",
+          "https://twitter.com/bkMSFT/status/1417823714922610689",
+          "https://www.cert.ssi.gouv.fr/ioc/CERTFR-2021-IOC-003",
+          "https://www.consilium.europa.eu/en/press/press-releases/2021/07/19/declaration-by-the-high-representative-on-behalf-of-the-eu-urging-china-to-take-action-against-malicious-cyber-activities-undertaken-from-its-territory",
+          "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report",
+          "https://www.foreignminister.gov.au/minister/marise-payne/media-release/australia-joins-international-partners-attribution-malicious-cyber-activity-china",
+          "https://www.fortinet.com/blog/psirt-blogs/importance-of-patching-an-analysis-of-the-exploitation-of-n-day-vulnerabilities",
+          "https://www.gov.uk/government/news/uk-and-allies-hold-chinese-state-responsible-for-a-pervasive-pattern-of-hacking",
+          "https://www.gov.uk/government/news/uk-holds-china-state-affiliated-organisations-and-individuals-responsible-for-malicious-cyber-activity",
+          "https://www.justice.gov/opa/media/1345141/dl?inline=",
+          "https://www.justice.gov/opa/pr/seven-hackers-associated-chinese-government-charged-computer-intrusions-targeting-perceived",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005",
+          "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking",
+          "https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601",
+          "https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+          "https://www.secureworks.com/research/bronz-vinewood-uses-hanaloader-to-target-government-supply-chain",
+          "https://www.secureworks.com/research/bronze-vinewood-targets-supply-chains",
+          "https://www.secureworks.com/research/threat-profiles/bronze-vinewood",
+          "https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2023-02-bfv-cyber-brief.pdf?__blob=publicationFile&v=6"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/ko/55070",
+              "https://duo.com/decipher/apt-groups-moving-down-the-supply-chain",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
+              "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis",
+              "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Common-TTPs-of-attacks-against-industrial-organizations-implants-for-remote-access-En.pdf",
+              "https://intrusiontruth.wordpress.com/2023/05/11/article-1-whats-cracking-at-the-kerui-cracking-academy",
+              "https://intrusiontruth.wordpress.com/2023/05/12/the-illustrious-graduates-of-wuhan-kerui",
+              "https://intrusiontruth.wordpress.com/2023/05/13/all-roads-lead-back-to-wuhan-xiaoruizhi-science-and-technology-company",
+              "https://intrusiontruth.wordpress.com/2023/05/15/trouble-in-paradise",
+              "https://intrusiontruth.wordpress.com/2023/05/16/introducing-cheng-feng",
+              "https://intrusiontruth.wordpress.com/2023/05/17/missing-links",
+              "https://intrusiontruth.wordpress.com/2023/07/04/wuhan-xiaoruizhi-class-of-19",
+              "https://intrusiontruth.wordpress.com/2023/07/07/one-man-and-his-lasers",
+              "https://poliisi.fi/-/eduskunnan-tietojarjestelmiin-kohdistuneen-tietomurron-tutkinnassa-selvitetaan-yhteytta-apt31-toimijaan",
+              "https://pst.no/alle-artikler/pressemeldinger/etterforskningen-av-datanettverksoperasjonen-mot-fylkesmannsembetene-er-avsluttet",
+              "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi",
+              "https://redalert.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists",
+              "https://research.checkpoint.com/2021/the-story-of-jian",
+              "https://supo.fi/-/suojelupoliisi-tunnisti-eduskuntaan-kohdistuneen-kybervakoiluoperaation-apt31-ksi",
+              "https://twitter.com/bkMSFT/status/1201876664667582466",
+              "https://twitter.com/bkMSFT/status/1417823714922610689",
+              "https://www.cert.ssi.gouv.fr/ioc/CERTFR-2021-IOC-003",
+              "https://www.consilium.europa.eu/en/press/press-releases/2021/07/19/declaration-by-the-high-representative-on-behalf-of-the-eu-urging-china-to-take-action-against-malicious-cyber-activities-undertaken-from-its-territory",
+              "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report",
+              "https://www.foreignminister.gov.au/minister/marise-payne/media-release/australia-joins-international-partners-attribution-malicious-cyber-activity-china",
+              "https://www.fortinet.com/blog/psirt-blogs/importance-of-patching-an-analysis-of-the-exploitation-of-n-day-vulnerabilities",
+              "https://www.gov.uk/government/news/uk-and-allies-hold-chinese-state-responsible-for-a-pervasive-pattern-of-hacking",
+              "https://www.gov.uk/government/news/uk-holds-china-state-affiliated-organisations-and-individuals-responsible-for-malicious-cyber-activity",
+              "https://www.justice.gov/opa/media/1345141/dl?inline=",
+              "https://www.justice.gov/opa/pr/seven-hackers-associated-chinese-government-charged-computer-intrusions-targeting-perceived",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005",
+              "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking",
+              "https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601",
+              "https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+              "https://www.secureworks.com/research/bronz-vinewood-uses-hanaloader-to-target-government-supply-chain",
+              "https://www.secureworks.com/research/bronze-vinewood-targets-supply-chains",
+              "https://www.secureworks.com/research/threat-profiles/bronze-vinewood",
+              "https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2023-02-bfv-cyber-brief.pdf?__blob=publicationFile&v=6"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0128"
+            ]
+          }
+        ],
+        "variants": [
+          "Violet Typhoon"
+        ]
+      },
+      {
+        "compact_normalized_name": "webfans",
+        "confidence": "source-provided",
+        "display_group_key": "webfans",
+        "name": "WebFans",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "webfans",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "WebFans"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0128",
+          "name": "Query Registry",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1012",
+          "url": "https://attack.mitre.org/techniques/T1012/"
+        },
+        {
+          "actor_id": "mitre-g0128",
+          "name": "System Network Configuration Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1016",
+          "url": "https://attack.mitre.org/techniques/T1016/"
+        },
+        {
+          "actor_id": "mitre-g0128",
+          "name": "Software Packing",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://research.checkpoint.com/2021/the-story-of-jian/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.002",
+          "url": "https://attack.mitre.org/techniques/T1027.002/"
+        },
+        {
+          "actor_id": "mitre-g0128",
+          "name": "System Owner/User Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1033",
+          "url": "https://attack.mitre.org/techniques/T1033/"
+        },
+        {
+          "actor_id": "mitre-g0128",
+          "name": "Masquerading",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.google/threat-analysis-group/how-were-tackling-evolving-online-threats/",
+            "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036",
+          "url": "https://attack.mitre.org/techniques/T1036/"
+        },
+        {
+          "actor_id": "mitre-g0128",
+          "name": "Masquerade Task or Service",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.004",
+          "url": "https://attack.mitre.org/techniques/T1036.004/"
+        },
+        {
+          "actor_id": "mitre-g0128",
+          "name": "System Information Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1082",
+          "url": "https://attack.mitre.org/techniques/T1082/"
+        },
+        {
+          "actor_id": "mitre-g0128",
+          "name": "Multi-hop Proxy",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://cloud.google.com/blog/topics/threat-intelligence/china-nexus-espionage-orb-networks"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1090.003",
+          "url": "https://attack.mitre.org/techniques/T1090.003/"
+        },
+        {
+          "actor_id": "mitre-g0128",
+          "name": "Bidirectional Communication",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.google/threat-analysis-group/how-were-tackling-evolving-online-threats/",
+            "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1102.002",
+          "url": "https://attack.mitre.org/techniques/T1102.002/"
+        },
+        {
+          "actor_id": "mitre-g0128",
+          "name": "Ingress Tool Transfer",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1105",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "actor_id": "mitre-g0128",
+          "name": "System Time Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1124",
+          "url": "https://attack.mitre.org/techniques/T1124/"
+        },
+        {
+          "actor_id": "mitre-g0128",
+          "name": "Deobfuscate/Decode Files or Information",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://research.checkpoint.com/2021/the-story-of-jian/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1140",
+          "url": "https://attack.mitre.org/techniques/T1140/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Multi-hop Proxy",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://cloud.google.com/blog/topics/threat-intelligence/china-nexus-espionage-orb-networks"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1090.003",
+              "url": "https://attack.mitre.org/techniques/T1090.003/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Bidirectional Communication",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/how-were-tackling-evolving-online-threats/",
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1102.002",
+              "url": "https://attack.mitre.org/techniques/T1102.002/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Symmetric Cryptography",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1573.001",
+              "url": "https://attack.mitre.org/techniques/T1573.001/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Hide Infrastructure",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://cloud.google.com/blog/topics/threat-intelligence/china-nexus-espionage-orb-networks"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1665",
+              "url": "https://attack.mitre.org/techniques/T1665/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Query Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1012",
+              "url": "https://attack.mitre.org/techniques/T1012/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "System Network Configuration Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1016",
+              "url": "https://attack.mitre.org/techniques/T1016/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "System Owner/User Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1033",
+              "url": "https://attack.mitre.org/techniques/T1033/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "System Information Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1082",
+              "url": "https://attack.mitre.org/techniques/T1082/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "System Time Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1124",
+              "url": "https://attack.mitre.org/techniques/T1124/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Software Packing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.checkpoint.com/2021/the-story-of-jian/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.002",
+              "url": "https://attack.mitre.org/techniques/T1027.002/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Masquerading",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/how-were-tackling-evolving-online-threats/",
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036",
+              "url": "https://attack.mitre.org/techniques/T1036/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Masquerade Task or Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.004",
+              "url": "https://attack.mitre.org/techniques/T1036.004/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Deobfuscate/Decode Files or Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.checkpoint.com/2021/the-story-of-jian/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1140",
+              "url": "https://attack.mitre.org/techniques/T1140/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Msiexec",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.007",
+              "url": "https://attack.mitre.org/techniques/T1218.007/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Python",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/how-were-tackling-evolving-online-threats/",
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.006",
+              "url": "https://attack.mitre.org/techniques/T1059.006/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Malicious Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/how-were-tackling-evolving-online-threats/",
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.001",
+              "url": "https://attack.mitre.org/techniques/T1204.001/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.microsoft.com/on-the-issues/2020/09/10/cyberattacks-us-elections-trump-biden/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Web Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/how-were-tackling-evolving-online-threats/",
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.006",
+              "url": "https://attack.mitre.org/techniques/T1583.006/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Network Devices",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://cloud.google.com/blog/topics/threat-intelligence/china-nexus-espionage-orb-networks",
+                "https://therecord.media/chinese-hacking-group-apt31-uses-mesh-of-home-routers-to-disguise-attacks"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1584.008",
+              "url": "https://attack.mitre.org/techniques/T1584.008/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Exfiltration Over C2 Channel",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1041",
+              "url": "https://attack.mitre.org/techniques/T1041/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Exfiltration to Cloud Storage",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1567.002",
+              "url": "https://attack.mitre.org/techniques/T1567.002/"
+            }
+          ],
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Exploitation for Privilege Escalation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.checkpoint.com/2021/the-story-of-jian/"
+              ],
+              "tactics": [
+                "privilege-escalation"
+              ],
+              "technique_id": "T1068",
+              "url": "https://attack.mitre.org/techniques/T1068/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Phishing for Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/how-were-tackling-evolving-online-threats/"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1598",
+              "url": "https://attack.mitre.org/techniques/T1598/"
+            },
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blogs.microsoft.com/on-the-issues/2020/09/10/cyberattacks-us-elections-trump-biden/"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1598.003",
+              "url": "https://attack.mitre.org/techniques/T1598.003/"
+            }
+          ],
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Credentials from Web Browsers",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1555.003",
+              "url": "https://attack.mitre.org/techniques/T1555.003/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.google/threat-analysis-group/how-were-tackling-evolving-online-threats/",
+                "https://blogs.microsoft.com/on-the-issues/2020/09/10/cyberattacks-us-elections-trump-biden/",
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.002",
+              "url": "https://attack.mitre.org/techniques/T1566.002/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0128",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.zscaler.com/blogs/security-research/apt-31-leverages-covid-19-vaccine-theme-and-abuses-legitimate-online"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 5,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 5,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 5,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 3,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 3,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 2,
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 2,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 2,
+          "label": "Reconnaissance",
+          "tactic": "reconnaissance",
+          "tactic_id": "TA0043",
+          "url": "https://attack.mitre.org/tactics/TA0043/"
+        },
+        {
+          "count": 1,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 1,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        }
+      ],
+      "total": 29
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0128/"
+          ]
+        }
+      ],
+      "text": "ZIRCONIUM is a threat group operating out of China, active since at least 2017, that has targeted individuals associated with the 2020 US presidential election and prominent leaders in the international affairs community.(Citation: Microsoft Targeting Elections September 2020)(Citation: Check Point APT31 February 2021)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://asec.ahnlab.com/ko/55070"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0128"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://blogs.microsoft.com/on-the-issues/2020/09/10/cyberattacks-us-elections-trump-biden"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://duo.com/decipher/apt-groups-moving-down-the-supply-chain"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Common-TTPs-of-attacks-against-industrial-organizations-implants-for-remote-access-En.pdf"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://intrusiontruth.wordpress.com/2023/05/11/article-1-whats-cracking-at-the-kerui-cracking-academy"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://intrusiontruth.wordpress.com/2023/05/12/the-illustrious-graduates-of-wuhan-kerui"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://intrusiontruth.wordpress.com/2023/05/13/all-roads-lead-back-to-wuhan-xiaoruizhi-science-and-technology-company"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://intrusiontruth.wordpress.com/2023/05/15/trouble-in-paradise"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://intrusiontruth.wordpress.com/2023/05/16/introducing-cheng-feng"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://intrusiontruth.wordpress.com/2023/05/17/missing-links"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://intrusiontruth.wordpress.com/2023/07/04/wuhan-xiaoruizhi-class-of-19"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://intrusiontruth.wordpress.com/2023/07/07/one-man-and-his-lasers"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://poliisi.fi/-/eduskunnan-tietojarjestelmiin-kohdistuneen-tietomurron-tutkinnassa-selvitetaan-yhteytta-apt31-toimijaan"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://pst.no/alle-artikler/pressemeldinger/etterforskningen-av-datanettverksoperasjonen-mot-fylkesmannsembetene-er-avsluttet"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://redalert.nshc.net/2019/12/03/threat-actor-targeting-hong-kong-activists"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.checkpoint.com/2021/the-story-of-jian"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://supo.fi/-/suojelupoliisi-tunnisti-eduskuntaan-kohdistuneen-kybervakoiluoperaation-apt31-ksi"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://twitter.com/bkMSFT/status/1201876664667582466"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://twitter.com/bkMSFT/status/1417823714922610689"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cert.ssi.gouv.fr/ioc/CERTFR-2021-IOC-003"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2021/07/19/declaration-by-the-high-representative-on-behalf-of-the-eu-urging-china-to-take-action-against-malicious-cyber-activities-undertaken-from-its-territory"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.foreignminister.gov.au/minister/marise-payne/media-release/australia-joins-international-partners-attribution-malicious-cyber-activity-china"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fortinet.com/blog/psirt-blogs/importance-of-patching-an-analysis-of-the-exploitation-of-n-day-vulnerabilities"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.gov.uk/government/news/uk-and-allies-hold-chinese-state-responsible-for-a-pervasive-pattern-of-hacking"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.gov.uk/government/news/uk-holds-china-state-affiliated-organisations-and-individuals-responsible-for-malicious-cyber-activity"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/opa/media/1345141/dl?inline="
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/opa/pr/seven-hackers-associated-chinese-government-charged-computer-intrusions-targeting-perceived"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/insights/apt-groups"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/bronz-vinewood-uses-hanaloader-to-target-government-supply-chain"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/bronze-vinewood-targets-supply-chains"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/bronze-vinewood"
+      },
+      {
+        "actor_id": "mitre-g0128",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2023-02-bfv-cyber-brief.pdf?__blob=publicationFile&v=6"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "CN",
+          "display_value": "China",
+          "flag": "🇨🇳",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "China"
+        },
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "CN",
+          "display_value": "China",
+          "flag": "🇨🇳",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "China"
+        },
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "APT31",
+      "BRONZE VINEWOOD",
+      "Chameleon",
+      "JUDGMENT PANDA",
+      "Red keres",
+      "TA412",
+      "Violet Typhoon",
+      "WebFans",
+      "ZIRCONIUM"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

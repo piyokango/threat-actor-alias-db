@@ -1,0 +1,117 @@
+{
+  "actor": {
+    "actor_id": "misp-2adf3d89-8659-4f9c-aa6c-054cad3cc3fd",
+    "canonical_name": "SnowSoul",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-2adf3d89-8659-4f9c-aa6c-054cad3cc3fd"
+    ],
+    "misp_uuid": "2adf3d89-8659-4f9c-aa6c-054cad3cc3fd",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "snowsoul",
+        "confidence": "source-provided",
+        "display_group_key": "snowsoul",
+        "name": "SnowSoul",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "snowsoul",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://dailydarkweb.net/guangdong-caiding-market-group-faces-data-breach-after-extortion",
+          "https://dailydarkweb.net/snowsoul-attack-hits-multiple-chinese-organizations",
+          "https://hacknotice.com/2026/03/16/hualun-new-materials-suffers-massive-data-breach-by-snowsoul"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://dailydarkweb.net/guangdong-caiding-market-group-faces-data-breach-after-extortion",
+              "https://dailydarkweb.net/snowsoul-attack-hits-multiple-chinese-organizations",
+              "https://hacknotice.com/2026/03/16/hualun-new-materials-suffers-massive-data-breach-by-snowsoul"
+            ]
+          }
+        ],
+        "variants": [
+          "SnowSoul"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "SnowSoul is a financially motivated threat actor active since at least early 2026, operating a low-ransom extortion scheme primarily targeting Chinese organizations. The actor sends extortion demands of around $2,000 USD, and when victims refuse to pay, leaks stolen data on hacker forums. Operations are tracked through numbered identifiers (e.g., SnowSoul ID-1265, ID-1270), suggesting a systematic, serial campaign."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-2adf3d89-8659-4f9c-aa6c-054cad3cc3fd",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://dailydarkweb.net/guangdong-caiding-market-group-faces-data-breach-after-extortion"
+      },
+      {
+        "actor_id": "misp-2adf3d89-8659-4f9c-aa6c-054cad3cc3fd",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://dailydarkweb.net/snowsoul-attack-hits-multiple-chinese-organizations"
+      },
+      {
+        "actor_id": "misp-2adf3d89-8659-4f9c-aa6c-054cad3cc3fd",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://hacknotice.com/2026/03/16/hualun-new-materials-suffers-massive-data-breach-by-snowsoul"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "SnowSoul"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

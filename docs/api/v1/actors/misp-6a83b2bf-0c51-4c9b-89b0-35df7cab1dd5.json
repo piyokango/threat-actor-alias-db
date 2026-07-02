@@ -1,0 +1,144 @@
+{
+  "actor": {
+    "actor_id": "misp-6a83b2bf-0c51-4c9b-89b0-35df7cab1dd5",
+    "canonical_name": "APT-C-60",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-6a83b2bf-0c51-4c9b-89b0-35df7cab1dd5"
+    ],
+    "misp_uuid": "6a83b2bf-0c51-4c9b-89b0-35df7cab1dd5",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "aptc60",
+        "confidence": "source-provided",
+        "display_group_key": "aptc60",
+        "name": "APT-C-60",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "apt c 60",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cert.360.cn/report/detail?id=6c9a1b56e4ceb84a8ab9e96044429adc",
+          "https://mp.weixin.qq.com/s/Hzq4_tWmunDpKfHTlZNM-A"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cert.360.cn/report/detail?id=6c9a1b56e4ceb84a8ab9e96044429adc",
+              "https://mp.weixin.qq.com/s/Hzq4_tWmunDpKfHTlZNM-A"
+            ]
+          }
+        ],
+        "variants": [
+          "APT-C-60"
+        ]
+      },
+      {
+        "compact_normalized_name": "aptq12",
+        "confidence": "source-provided",
+        "display_group_key": "aptq12",
+        "name": "APT-Q-12",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "apt q 12",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cert.360.cn/report/detail?id=6c9a1b56e4ceb84a8ab9e96044429adc",
+          "https://mp.weixin.qq.com/s/Hzq4_tWmunDpKfHTlZNM-A"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cert.360.cn/report/detail?id=6c9a1b56e4ceb84a8ab9e96044429adc",
+              "https://mp.weixin.qq.com/s/Hzq4_tWmunDpKfHTlZNM-A"
+            ]
+          }
+        ],
+        "variants": [
+          "APT-Q-12"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "APT-C-60"
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-6a83b2bf-0c51-4c9b-89b0-35df7cab1dd5",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cert.360.cn/report/detail?id=6c9a1b56e4ceb84a8ab9e96044429adc"
+      },
+      {
+        "actor_id": "misp-6a83b2bf-0c51-4c9b-89b0-35df7cab1dd5",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://mp.weixin.qq.com/s/Hzq4_tWmunDpKfHTlZNM-A"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "APT-C-60",
+      "APT-Q-12"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

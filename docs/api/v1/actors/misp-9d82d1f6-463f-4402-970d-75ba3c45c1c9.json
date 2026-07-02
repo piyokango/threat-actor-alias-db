@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-9d82d1f6-463f-4402-970d-75ba3c45c1c9",
+    "canonical_name": "UNK_FistBump",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-9d82d1f6-463f-4402-970d-75ba3c45c1c9"
+    ],
+    "misp_uuid": "9d82d1f6-463f-4402-970d-75ba3c45c1c9",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unkfistbump",
+        "confidence": "source-provided",
+        "display_group_key": "unkfistbump",
+        "name": "UNK_FistBump",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unk fistbump",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.proofpoint.com/us/blog/threat-insight/phish-china-aligned-espionage-actors-ramp-up-taiwan-semiconductor-targeting"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.proofpoint.com/us/blog/threat-insight/phish-china-aligned-espionage-actors-ramp-up-taiwan-semiconductor-targeting"
+            ]
+          }
+        ],
+        "variants": [
+          "UNK_FistBump"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Between March and June 2025, Proofpoint identified multiple China-aligned threat actors specifically targeting Taiwanese organizations within the semiconductor industry. This included a China-aligned threat actor tracked as UNK_FistBump targeting semiconductor design, manufacturing, and supply chain organizations in employment-themed phishing campaigns resulting in the delivery of Cobalt Strike or the custom Voldemort backdoor. Additionally, Proofpoint observed another China-aligned threat actor tracked as UNK_DropPitch targeting individuals in multiple major investment firms who specialize in investment analysis specifically within the Taiwanese semiconductor industry. This UNK_DropPitch..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-9d82d1f6-463f-4402-970d-75ba3c45c1c9",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/blog/threat-insight/phish-china-aligned-espionage-actors-ramp-up-taiwan-semiconductor-targeting"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "UNK_FistBump"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

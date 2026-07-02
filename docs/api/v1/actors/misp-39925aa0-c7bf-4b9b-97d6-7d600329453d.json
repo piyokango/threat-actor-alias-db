@@ -1,0 +1,691 @@
+{
+  "actor": {
+    "actor_id": "misp-39925aa0-c7bf-4b9b-97d6-7d600329453d",
+    "canonical_name": "TA2101",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-39925aa0-c7bf-4b9b-97d6-7d600329453d"
+    ],
+    "misp_uuid": "39925aa0-c7bf-4b9b-97d6-7d600329453d",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "ta2101",
+        "confidence": "source-provided",
+        "display_group_key": "ta2101",
+        "name": "TA2101",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ta2101",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-village",
+          "https://adversary.crowdstrike.com/adversary/twisted-spider",
+          "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+          "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+          "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+          "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+          "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://x.com/MsftSecIntel/status/1730383711437283757",
+          "https://youtu.be/U7p0J8aMZhM?t=193"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-village",
+              "https://adversary.crowdstrike.com/adversary/twisted-spider",
+              "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+              "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+              "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+              "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+              "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://x.com/MsftSecIntel/status/1730383711437283757",
+              "https://youtu.be/U7p0J8aMZhM?t=193"
+            ]
+          }
+        ],
+        "variants": [
+          "TA2101"
+        ]
+      },
+      {
+        "compact_normalized_name": "dev0216",
+        "confidence": "source-provided",
+        "display_group_key": "dev0216",
+        "name": "DEV-0216",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dev 0216",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-village",
+          "https://adversary.crowdstrike.com/adversary/twisted-spider",
+          "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+          "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+          "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+          "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+          "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://x.com/MsftSecIntel/status/1730383711437283757",
+          "https://youtu.be/U7p0J8aMZhM?t=193"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-village",
+              "https://adversary.crowdstrike.com/adversary/twisted-spider",
+              "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+              "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+              "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+              "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+              "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://x.com/MsftSecIntel/status/1730383711437283757",
+              "https://youtu.be/U7p0J8aMZhM?t=193"
+            ]
+          }
+        ],
+        "variants": [
+          "DEV-0216"
+        ]
+      },
+      {
+        "compact_normalized_name": "goldvillage",
+        "confidence": "source-provided",
+        "display_group_key": "goldvillage",
+        "name": "GOLD VILLAGE",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "gold village",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-village",
+          "https://adversary.crowdstrike.com/adversary/twisted-spider",
+          "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+          "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+          "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+          "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+          "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://x.com/MsftSecIntel/status/1730383711437283757",
+          "https://youtu.be/U7p0J8aMZhM?t=193"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-village",
+              "https://adversary.crowdstrike.com/adversary/twisted-spider",
+              "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+              "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+              "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+              "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+              "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://x.com/MsftSecIntel/status/1730383711437283757",
+              "https://youtu.be/U7p0J8aMZhM?t=193"
+            ]
+          }
+        ],
+        "variants": [
+          "GOLD VILLAGE"
+        ]
+      },
+      {
+        "compact_normalized_name": "mazeteam",
+        "confidence": "source-provided",
+        "display_group_key": "mazeteam",
+        "name": "Maze Team",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "maze team",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-village",
+          "https://adversary.crowdstrike.com/adversary/twisted-spider",
+          "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+          "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+          "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+          "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+          "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://x.com/MsftSecIntel/status/1730383711437283757",
+          "https://youtu.be/U7p0J8aMZhM?t=193"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-village",
+              "https://adversary.crowdstrike.com/adversary/twisted-spider",
+              "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+              "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+              "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+              "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+              "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://x.com/MsftSecIntel/status/1730383711437283757",
+              "https://youtu.be/U7p0J8aMZhM?t=193"
+            ]
+          }
+        ],
+        "variants": [
+          "Maze Team"
+        ]
+      },
+      {
+        "compact_normalized_name": "storm0216",
+        "confidence": "source-provided",
+        "display_group_key": "storm0216",
+        "name": "Storm-0216",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 0216",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-village",
+          "https://adversary.crowdstrike.com/adversary/twisted-spider",
+          "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+          "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+          "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+          "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+          "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://x.com/MsftSecIntel/status/1730383711437283757",
+          "https://youtu.be/U7p0J8aMZhM?t=193"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-village",
+              "https://adversary.crowdstrike.com/adversary/twisted-spider",
+              "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+              "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+              "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+              "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+              "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://x.com/MsftSecIntel/status/1730383711437283757",
+              "https://youtu.be/U7p0J8aMZhM?t=193"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-0216"
+        ]
+      },
+      {
+        "compact_normalized_name": "tunnelspider",
+        "confidence": "source-provided",
+        "display_group_key": "tunnelspider",
+        "name": "TUNNEL SPIDER",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "tunnel spider",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-village",
+          "https://adversary.crowdstrike.com/adversary/twisted-spider",
+          "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+          "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+          "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+          "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://x.com/MsftSecIntel/status/1730383711437283757",
+          "https://youtu.be/U7p0J8aMZhM?t=193"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-village",
+              "https://adversary.crowdstrike.com/adversary/twisted-spider",
+              "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+              "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+              "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+              "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+              "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://x.com/MsftSecIntel/status/1730383711437283757",
+              "https://youtu.be/U7p0J8aMZhM?t=193"
+            ]
+          }
+        ],
+        "variants": [
+          "TUNNEL SPIDER"
+        ]
+      },
+      {
+        "compact_normalized_name": "twistedspider",
+        "confidence": "source-provided",
+        "display_group_key": "twistedspider",
+        "name": "TWISTED SPIDER",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "twisted spider",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-village",
+          "https://adversary.crowdstrike.com/adversary/twisted-spider",
+          "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+          "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+          "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+          "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+          "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://x.com/MsftSecIntel/status/1730383711437283757",
+          "https://youtu.be/U7p0J8aMZhM?t=193"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-village",
+              "https://adversary.crowdstrike.com/adversary/twisted-spider",
+              "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+              "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+              "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+              "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+              "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://x.com/MsftSecIntel/status/1730383711437283757",
+              "https://youtu.be/U7p0J8aMZhM?t=193"
+            ]
+          }
+        ],
+        "variants": [
+          "TWISTED SPIDER"
+        ]
+      },
+      {
+        "compact_normalized_name": "unc2198",
+        "confidence": "source-provided",
+        "display_group_key": "unc2198",
+        "name": "UNC2198",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "unc2198",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "http://www.secureworks.com/research/threat-profiles/gold-village",
+          "https://adversary.crowdstrike.com/adversary/twisted-spider",
+          "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+          "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+          "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+          "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+          "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+          "https://x.com/MsftSecIntel/status/1730383711437283757",
+          "https://youtu.be/U7p0J8aMZhM?t=193"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.secureworks.com/research/threat-profiles/gold-village",
+              "https://adversary.crowdstrike.com/adversary/twisted-spider",
+              "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+              "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations",
+              "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1",
+              "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html",
+              "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us",
+              "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic",
+              "https://x.com/MsftSecIntel/status/1730383711437283757",
+              "https://youtu.be/U7p0J8aMZhM?t=193"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC2198"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Proofpoint researchers detected campaigns from a relatively new actor, tracked internally as TA2101, targeting German companies and organizations to deliver and install backdoor malware. The actor initiated their campaigns impersonating the Bundeszentralamt fur Steuern, the German Federal Ministry of Finance, with lookalike domains, verbiage, and stolen branding in the emails. For their campaigns in Germany, the actor chose Cobalt Strike, a commercially licensed software tool that is generally used for penetration testing and emulates the type of backdoor framework used by Metasploit, a similar penetration testing tool. Proofpoint researchers have also observed this actor distributing Maze..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-39925aa0-c7bf-4b9b-97d6-7d600329453d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://www.secureworks.com/research/threat-profiles/gold-village"
+      },
+      {
+        "actor_id": "misp-39925aa0-c7bf-4b9b-97d6-7d600329453d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://adversary.crowdstrike.com/adversary/twisted-spider"
+      },
+      {
+        "actor_id": "misp-39925aa0-c7bf-4b9b-97d6-7d600329453d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf"
+      },
+      {
+        "actor_id": "misp-39925aa0-c7bf-4b9b-97d6-7d600329453d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/melting-unc2198-icedid-to-ransomware-operations"
+      },
+      {
+        "actor_id": "misp-39925aa0-c7bf-4b9b-97d6-7d600329453d",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "misp-39925aa0-c7bf-4b9b-97d6-7d600329453d",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "misp-39925aa0-c7bf-4b9b-97d6-7d600329453d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1"
+      },
+      {
+        "actor_id": "misp-39925aa0-c7bf-4b9b-97d6-7d600329453d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cysecurity.news/2023/12/twisted-spiders-dangerous-cactus.html"
+      },
+      {
+        "actor_id": "misp-39925aa0-c7bf-4b9b-97d6-7d600329453d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/threat-insight/post/ta2101-plays-government-imposter-distribute-malware-german-italian-and-us"
+      },
+      {
+        "actor_id": "misp-39925aa0-c7bf-4b9b-97d6-7d600329453d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/blog/how-cyber-adversaries-are-adapting-to-exploit-the-global-pandemic"
+      },
+      {
+        "actor_id": "misp-39925aa0-c7bf-4b9b-97d6-7d600329453d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://x.com/MsftSecIntel/status/1730383711437283757"
+      },
+      {
+        "actor_id": "misp-39925aa0-c7bf-4b9b-97d6-7d600329453d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://youtu.be/U7p0J8aMZhM?t=193"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [
+        {
+          "display_value": "Financially motivated",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Financially motivated"
+        }
+      ],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        },
+        {
+          "display_value": "Financially motivated",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Financially motivated"
+        }
+      ]
+    },
+    "search_names": [
+      "DEV-0216",
+      "GOLD VILLAGE",
+      "Maze Team",
+      "Storm-0216",
+      "TA2101",
+      "TUNNEL SPIDER",
+      "TWISTED SPIDER",
+      "UNC2198"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

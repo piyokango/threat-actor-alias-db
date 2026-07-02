@@ -1,0 +1,144 @@
+{
+  "actor": {
+    "actor_id": "misp-26c8deca-ac6e-4a56-93bd-5c47d9360b0d",
+    "canonical_name": "Storm-0249",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-26c8deca-ac6e-4a56-93bd-5c47d9360b0d"
+    ],
+    "misp_uuid": "26c8deca-ac6e-4a56-93bd-5c47d9360b0d",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "storm0249",
+        "confidence": "source-provided",
+        "display_group_key": "storm0249",
+        "name": "Storm-0249",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 0249",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-november-2023/ba-p/3970796",
+          "https://www.microsoft.com/en-us/security/blog/2025/04/03/threat-actors-leverage-tax-season-to-deploy-tax-themed-phishing-campaigns"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-november-2023/ba-p/3970796",
+              "https://www.microsoft.com/en-us/security/blog/2025/04/03/threat-actors-leverage-tax-season-to-deploy-tax-themed-phishing-campaigns"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-0249"
+        ]
+      },
+      {
+        "compact_normalized_name": "dev0249",
+        "confidence": "source-provided",
+        "display_group_key": "dev0249",
+        "name": "DEV-0249",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dev 0249",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-november-2023/ba-p/3970796",
+          "https://www.microsoft.com/en-us/security/blog/2025/04/03/threat-actors-leverage-tax-season-to-deploy-tax-themed-phishing-campaigns"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-november-2023/ba-p/3970796",
+              "https://www.microsoft.com/en-us/security/blog/2025/04/03/threat-actors-leverage-tax-season-to-deploy-tax-themed-phishing-campaigns"
+            ]
+          }
+        ],
+        "variants": [
+          "DEV-0249"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Storm-0249 is an access broker active since 2021, known for distributing BazaLoader, IcedID, Bumblebee, and Emotet malware. The actor primarily employs phishing emails to deliver malware payloads, as evidenced by a campaign involving tax-themed emails that aimed to distribute BRc4 and Latrodectus malware. Storm-0249 has facilitated initial access for other threat actors, such as Storm-0501, by leveraging compromised credentials and exploiting known vulnerabilities in public-facing servers. Microsoft has detected malicious PDF attachments associated with Storm-0249's phishing campaigns."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-26c8deca-ac6e-4a56-93bd-5c47d9360b0d",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-november-2023/ba-p/3970796"
+      },
+      {
+        "actor_id": "misp-26c8deca-ac6e-4a56-93bd-5c47d9360b0d",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2025/04/03/threat-actors-leverage-tax-season-to-deploy-tax-themed-phishing-campaigns"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "DEV-0249",
+      "Storm-0249"
+    ],
+    "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

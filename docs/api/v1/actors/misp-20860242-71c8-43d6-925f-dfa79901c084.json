@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-20860242-71c8-43d6-925f-dfa79901c084",
+    "canonical_name": "HollowQuill",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-20860242-71c8-43d6-925f-dfa79901c084"
+    ],
+    "misp_uuid": "20860242-71c8-43d6-925f-dfa79901c084",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "hollowquill",
+        "confidence": "source-provided",
+        "display_group_key": "hollowquill",
+        "name": "HollowQuill",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "hollowquill",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.seqrite.com/blog/operation-hollowquill-russian-rd-networks-malware-pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.seqrite.com/blog/operation-hollowquill-russian-rd-networks-malware-pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "HollowQuill"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "SEQRITE Labs APT-Team has been tracking and has uncovered a campaign targeting the Baltic State Technical University, a well-known institution for various defense, aerospace, and advanced engineering programs that contribute to Russia’s military-industrial complex. Tracked as Operation HollowQuill, the campaign leverages weaponized decoy documents masquerading as official research invitations to infiltrate academic, governmental, and defense-related networks. The threat entity delivers a malicious RAR file which contains a .NET malware dropper, which further drops other Golang based shellcode loader along with legitimate OneDrive application and a decoy-based PDF with a final Cobalt Strike..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-20860242-71c8-43d6-925f-dfa79901c084",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.seqrite.com/blog/operation-hollowquill-russian-rd-networks-malware-pdf"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "HollowQuill"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

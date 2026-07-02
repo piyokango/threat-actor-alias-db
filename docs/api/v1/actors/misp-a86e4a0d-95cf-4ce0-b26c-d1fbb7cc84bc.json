@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-a86e4a0d-95cf-4ce0-b26c-d1fbb7cc84bc",
+    "canonical_name": "Stargazer Goblin",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-a86e4a0d-95cf-4ce0-b26c-d1fbb7cc84bc"
+    ],
+    "misp_uuid": "a86e4a0d-95cf-4ce0-b26c-d1fbb7cc84bc",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "stargazergoblin",
+        "confidence": "source-provided",
+        "display_group_key": "stargazergoblin",
+        "name": "Stargazer Goblin",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "stargazer goblin",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://research.checkpoint.com/2024/stargazers-ghost-network"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://research.checkpoint.com/2024/stargazers-ghost-network"
+            ]
+          }
+        ],
+        "variants": [
+          "Stargazer Goblin"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Stargazer Goblin is a threat actor group that operates the Stargazers Ghost Network on GitHub, distributing malware and malicious links through multiple accounts. They utilize compromised and created accounts to evade detection and quickly replace banned components to continue their operations. The group has been estimated to have earned approximately $100,000 from their malicious activities, offering a Distribution as a Service platform for other threat actors to distribute their malware. Stargazer Goblin has been involved in distributing various malware families, including Atlantida Stealer, Rhadamanthys, RisePro, Lumma Stealer, and RedLine."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-a86e4a0d-95cf-4ce0-b26c-d1fbb7cc84bc",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.checkpoint.com/2024/stargazers-ghost-network"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Stargazer Goblin"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

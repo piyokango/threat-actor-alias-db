@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-8f4eb6bc-3d3d-49e4-82d8-500c7bb0a2ec",
+    "canonical_name": "JuiceLedger",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-8f4eb6bc-3d3d-49e4-82d8-500c7bb0a2ec"
+    ],
+    "misp_uuid": "8f4eb6bc-3d3d-49e4-82d8-500c7bb0a2ec",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "juiceledger",
+        "confidence": "source-provided",
+        "display_group_key": "juiceledger",
+        "name": "JuiceLedger",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "juiceledger",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.sentinelone.com/labs/pypi-phishing-campaign-juiceledger-threat-actor-pivots-from-fake-apps-to-supply-chain-attacks"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.sentinelone.com/labs/pypi-phishing-campaign-juiceledger-threat-actor-pivots-from-fake-apps-to-supply-chain-attacks"
+            ]
+          }
+        ],
+        "variants": [
+          "JuiceLedger"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "JuiceLedger is a threat actor known for infostealing through their JuiceStealer .NET assembly. They have evolved from spreading fraudulent applications to conducting supply chain attacks, targeting PyPI contributors with phishing campaigns and typosquatting. Their malicious packages contain a code snippet that downloads and executes JuiceStealer, which has evolved to support additional browsers and Discord. Victims of JuiceLedger attacks are advised to reset passwords and report any suspicious activity to security@pypi.org."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-8f4eb6bc-3d3d-49e4-82d8-500c7bb0a2ec",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sentinelone.com/labs/pypi-phishing-campaign-juiceledger-threat-actor-pivots-from-fake-apps-to-supply-chain-attacks"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "JuiceLedger"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

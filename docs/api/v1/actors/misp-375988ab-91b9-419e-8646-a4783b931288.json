@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-375988ab-91b9-419e-8646-a4783b931288",
+    "canonical_name": "Storm-1286",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-375988ab-91b9-419e-8646-a4783b931288"
+    ],
+    "misp_uuid": "375988ab-91b9-419e-8646-a4783b931288",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "storm1286",
+        "confidence": "source-provided",
+        "display_group_key": "storm1286",
+        "name": "Storm-1286",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 1286",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.microsoft.com/en-us/security/blog/2023/12/12/threat-actors-misuse-oauth-applications-to-automate-financially-driven-attacks"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.microsoft.com/en-us/security/blog/2023/12/12/threat-actors-misuse-oauth-applications-to-automate-financially-driven-attacks"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-1286"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Storm-1286 is a threat actor that engages in large-scale spamming activities, primarily targeting user accounts without multifactor authentication enabled. They employ password spraying attacks to compromise these accounts and utilize legacy authentication protocols like IMAP and SMTP. In the past, they have attempted to compromise admin accounts and create new LOB applications with high administrative permissions to spread spam. Despite previous actions taken by Microsoft Threat Intelligence, Storm-1286 continues to explore new methods to establish a high-scale spamming platform within victim organizations using non-privileged users."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-375988ab-91b9-419e-8646-a4783b931288",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2023/12/12/threat-actors-misuse-oauth-applications-to-automate-financially-driven-attacks"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Storm-1286"
+    ],
+    "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

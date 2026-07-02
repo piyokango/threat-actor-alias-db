@@ -1,0 +1,186 @@
+{
+  "actor": {
+    "actor_id": "misp-1e3efe43-9006-4ac8-b9ee-f1fbb9794cd9",
+    "canonical_name": "RaHDit",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-1e3efe43-9006-4ac8-b9ee-f1fbb9794cd9"
+    ],
+    "misp_uuid": "1e3efe43-9006-4ac8-b9ee-f1fbb9794cd9",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "rahdit",
+        "confidence": "source-provided",
+        "display_group_key": "rahdit",
+        "name": "RaHDit",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "rahdit",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://flashpoint.io/blog/pro-kremlin-hacktivist-groups",
+          "https://news.risky.biz/risky-biz-news-doppelganger-gets-a-kick-in-the-butt-from-uncle-sam"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://flashpoint.io/blog/pro-kremlin-hacktivist-groups",
+              "https://news.risky.biz/risky-biz-news-doppelganger-gets-a-kick-in-the-butt-from-uncle-sam"
+            ]
+          }
+        ],
+        "variants": [
+          "RaHDit"
+        ]
+      },
+      {
+        "compact_normalized_name": "russianangryhackersdidit",
+        "confidence": "source-provided",
+        "display_group_key": "russianangryhackersdidit",
+        "name": "Russian Angry Hackers Did It",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "russian angry hackers did it",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://flashpoint.io/blog/pro-kremlin-hacktivist-groups",
+          "https://news.risky.biz/risky-biz-news-doppelganger-gets-a-kick-in-the-butt-from-uncle-sam"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://flashpoint.io/blog/pro-kremlin-hacktivist-groups",
+              "https://news.risky.biz/risky-biz-news-doppelganger-gets-a-kick-in-the-butt-from-uncle-sam"
+            ]
+          }
+        ],
+        "variants": [
+          "Russian Angry Hackers Did It"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "RaHDit is a pro-Kremlin hacktivist group known for orchestrating hack-and-leak operations, including the publication of personal information about Ukrainian military intelligence personnel and their associates. The group has been linked to Russian intelligence and has claimed to provide actionable intelligence to the Russian army. RaHDit operates a website called NemeZida, where they disclose sensitive data, and has been involved in disinformation campaigns supporting Russian narratives. Their activities include collaboration with other hacktivist groups and targeting Ukrainian cyberdefense efforts."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-1e3efe43-9006-4ac8-b9ee-f1fbb9794cd9",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://flashpoint.io/blog/pro-kremlin-hacktivist-groups"
+      },
+      {
+        "actor_id": "misp-1e3efe43-9006-4ac8-b9ee-f1fbb9794cd9",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://news.risky.biz/risky-biz-news-doppelganger-gets-a-kick-in-the-butt-from-uncle-sam"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "RaHDit",
+      "Russian Angry Hackers Did It"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

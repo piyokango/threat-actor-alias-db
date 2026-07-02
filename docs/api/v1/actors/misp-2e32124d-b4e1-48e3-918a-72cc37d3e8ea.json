@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-2e32124d-b4e1-48e3-918a-72cc37d3e8ea",
+    "canonical_name": "Femwar02",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-2e32124d-b4e1-48e3-918a-72cc37d3e8ea"
+    ],
+    "misp_uuid": "2e32124d-b4e1-48e3-918a-72cc37d3e8ea",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "femwar02",
+        "confidence": "source-provided",
+        "display_group_key": "femwar02",
+        "name": "Femwar02",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "femwar02",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/italian-university-la-sapienza-goes-offline-after-cyberattack"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.bleepingcomputer.com/news/security/italian-university-la-sapienza-goes-offline-after-cyberattack"
+            ]
+          }
+        ],
+        "variants": [
+          "Femwar02"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Femwar02 is a previously unknown pro-Russian ransomware threat actor that emerged in early 2026, linked to a major cyberattack on Italy's Sapienza University of Rome in February 2026, which caused a full network shutdown and operational disruptions. The group deploys Bablock (also known as Rorschach), a next-generation ransomware strain first identified in 2023 that features fast hybrid encryption (curve25519 and hc-128), partial file encryption for speed, direct system calls to evade detection, and domain-wide propagation via Group Policy on Windows Domain Controllers. Bablock shares code similarities with LockBit 2.0 but incorporates elements from other families like Babuk and DarkSide,..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-2e32124d-b4e1-48e3-918a-72cc37d3e8ea",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bleepingcomputer.com/news/security/italian-university-la-sapienza-goes-offline-after-cyberattack"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "Femwar02"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

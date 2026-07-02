@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-83764206-8012-47c6-9c7a-dc04c99559e7",
+    "canonical_name": "Xcatze",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-83764206-8012-47c6-9c7a-dc04c99559e7"
+    ],
+    "misp_uuid": "83764206-8012-47c6-9c7a-dc04c99559e7",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "xcatze",
+        "confidence": "source-provided",
+        "display_group_key": "xcatze",
+        "name": "Xcatze",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "xcatze",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.lacework.com/blog/androxghost-the-python-malware-exploiting-your-aws-keys"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.lacework.com/blog/androxghost-the-python-malware-exploiting-your-aws-keys"
+            ]
+          }
+        ],
+        "variants": [
+          "Xcatze"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Cloud security company Lacework says it discovered a threat actor group named Xcatze that uses a Python named AndroxGh0st to take over AWS servers and send out massive email spam campaigns. Lacework says the malware operates by scanning web apps written in the Laravel PHP framework for exposed configuration files to identify and steal server credentials. Researchers said AndroxGh0st specifically searches for AWS, SendGrid, and Twilio credentials, which it uses to take control of email servers and accounts and send out the spam campaigns."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-83764206-8012-47c6-9c7a-dc04c99559e7",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.lacework.com/blog/androxghost-the-python-malware-exploiting-your-aws-keys"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Xcatze"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

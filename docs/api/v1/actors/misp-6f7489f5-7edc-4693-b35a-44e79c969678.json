@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-6f7489f5-7edc-4693-b35a-44e79c969678",
+    "canonical_name": "SloppyLemming",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-6f7489f5-7edc-4693-b35a-44e79c969678"
+    ],
+    "misp_uuid": "6f7489f5-7edc-4693-b35a-44e79c969678",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "sloppylemming",
+        "confidence": "source-provided",
+        "display_group_key": "sloppylemming",
+        "name": "SloppyLemming",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "sloppylemming",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.cloudflare.com/unraveling-sloppylemming-operations"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.cloudflare.com/unraveling-sloppylemming-operations"
+            ]
+          }
+        ],
+        "variants": [
+          "SloppyLemming"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "SloppyLemming is an advanced actor that uses multiple cloud service providers to facilitate different aspects of their activities, such as credential harvesting, malware delivery and command and control (C2). This actor conducts extensive operations targeting Pakistani, Sri Lanka, Bangladesh, and China. Industries targeted include government, law enforcement, energy, telecommunications, and technology entitie"
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-6f7489f5-7edc-4693-b35a-44e79c969678",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.cloudflare.com/unraveling-sloppylemming-operations"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "SloppyLemming"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

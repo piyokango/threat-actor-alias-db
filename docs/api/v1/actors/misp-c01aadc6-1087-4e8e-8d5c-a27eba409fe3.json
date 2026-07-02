@@ -1,0 +1,195 @@
+{
+  "actor": {
+    "actor_id": "misp-c01aadc6-1087-4e8e-8d5c-a27eba409fe3",
+    "canonical_name": "FIN11",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-c01aadc6-1087-4e8e-8d5c-a27eba409fe3"
+    ],
+    "misp_uuid": "c01aadc6-1087-4e8e-8d5c-a27eba409fe3",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "fin11",
+        "confidence": "source-provided",
+        "display_group_key": "fin11",
+        "name": "FIN11",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "fin11",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.brighttalk.com/webcast/7451/447347",
+          "https://www.fireeye.com/blog/threat-research/2019/10/shikata-ga-nai-encoder-still-going-strong.html",
+          "https://www.fireeye.com/blog/threat-research/2020/10/fin11-email-campaigns-precursor-for-ransomware-data-theft.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.brighttalk.com/webcast/7451/447347",
+              "https://www.fireeye.com/blog/threat-research/2019/10/shikata-ga-nai-encoder-still-going-strong.html",
+              "https://www.fireeye.com/blog/threat-research/2020/10/fin11-email-campaigns-precursor-for-ransomware-data-theft.html"
+            ]
+          }
+        ],
+        "variants": [
+          "FIN11"
+        ]
+      },
+      {
+        "compact_normalized_name": "tempwarlock",
+        "confidence": "source-provided",
+        "display_group_key": "tempwarlock",
+        "name": "TEMP.Warlock",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "temp warlock",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.brighttalk.com/webcast/7451/447347",
+          "https://www.fireeye.com/blog/threat-research/2019/10/shikata-ga-nai-encoder-still-going-strong.html",
+          "https://www.fireeye.com/blog/threat-research/2020/10/fin11-email-campaigns-precursor-for-ransomware-data-theft.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.brighttalk.com/webcast/7451/447347",
+              "https://www.fireeye.com/blog/threat-research/2019/10/shikata-ga-nai-encoder-still-going-strong.html",
+              "https://www.fireeye.com/blog/threat-research/2020/10/fin11-email-campaigns-precursor-for-ransomware-data-theft.html"
+            ]
+          }
+        ],
+        "variants": [
+          "TEMP.Warlock"
+        ]
+      },
+      {
+        "compact_normalized_name": "unc902",
+        "confidence": "source-provided",
+        "display_group_key": "unc902",
+        "name": "UNC902",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc902",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.brighttalk.com/webcast/7451/447347",
+          "https://www.fireeye.com/blog/threat-research/2019/10/shikata-ga-nai-encoder-still-going-strong.html",
+          "https://www.fireeye.com/blog/threat-research/2020/10/fin11-email-campaigns-precursor-for-ransomware-data-theft.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.brighttalk.com/webcast/7451/447347",
+              "https://www.fireeye.com/blog/threat-research/2019/10/shikata-ga-nai-encoder-still-going-strong.html",
+              "https://www.fireeye.com/blog/threat-research/2020/10/fin11-email-campaigns-precursor-for-ransomware-data-theft.html"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC902"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "FIN11 is a well-established financial crime group that has recently focused its operations on ransomware and extortion. The group has been active since 2017 and has been tracked under UNC902 and later on as TEMP.Warlok. In some ways, FIN11 is reminiscent of APT1; they are notable not for their sophistication, but for their sheer volume of activity.(FireEye) Mandiant has also responded to numerous FIN11 intrusions, but we’ve only observed the group successfully monetize access in few instances. This could suggest that the actors cast a wide net during their phishing operations, then choose which victims to further exploit based on characteristics such as sector, geolocation or perceived..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-c01aadc6-1087-4e8e-8d5c-a27eba409fe3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.brighttalk.com/webcast/7451/447347"
+      },
+      {
+        "actor_id": "misp-c01aadc6-1087-4e8e-8d5c-a27eba409fe3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2019/10/shikata-ga-nai-encoder-still-going-strong.html"
+      },
+      {
+        "actor_id": "misp-c01aadc6-1087-4e8e-8d5c-a27eba409fe3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2020/10/fin11-email-campaigns-precursor-for-ransomware-data-theft.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "FIN11",
+      "TEMP.Warlock",
+      "UNC902"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

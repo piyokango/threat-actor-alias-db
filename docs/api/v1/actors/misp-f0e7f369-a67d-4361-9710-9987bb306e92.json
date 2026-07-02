@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-f0e7f369-a67d-4361-9710-9987bb306e92",
+    "canonical_name": "FishMedley",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-f0e7f369-a67d-4361-9710-9987bb306e92"
+    ],
+    "misp_uuid": "f0e7f369-a67d-4361-9710-9987bb306e92",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "fishmedley",
+        "confidence": "source-provided",
+        "display_group_key": "fishmedley",
+        "name": "FishMedley",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "fishmedley",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.welivesecurity.com/en/eset-research/operation-fishmedley"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.welivesecurity.com/en/eset-research/operation-fishmedley"
+            ]
+          }
+        ],
+        "variants": [
+          "FishMedley"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Verticals targeted during Operation FishMedley include governments, NGOs, and think tanks, across Asia, Europe, and the United States. ; Operators used implants – such as ShadowPad, SodaMaster, and Spyder – that are common or exclusive to China-aligned threat actors. ; We assess with high confidence that Operation FishMedley was conducted by the FishMonger APT group."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-f0e7f369-a67d-4361-9710-9987bb306e92",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.welivesecurity.com/en/eset-research/operation-fishmedley"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "FishMedley"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

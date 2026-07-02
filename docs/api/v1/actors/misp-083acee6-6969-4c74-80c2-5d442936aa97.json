@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-083acee6-6969-4c74-80c2-5d442936aa97",
+    "canonical_name": "RevengeHotels",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-083acee6-6969-4c74-80c2-5d442936aa97"
+    ],
+    "misp_uuid": "083acee6-6969-4c74-80c2-5d442936aa97",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "revengehotels",
+        "confidence": "source-provided",
+        "display_group_key": "revengehotels",
+        "name": "RevengeHotels",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "revengehotels",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/revengehotels/95229"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/revengehotels/95229"
+            ]
+          }
+        ],
+        "variants": [
+          "RevengeHotels"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "RevengeHotels is a targeted cybercrime campaign that has been active since 2015, primarily targeting hotels, hostels, and tourism companies. The threat actor uses remote access Trojan malware to infiltrate hotel front desks and steal credit card data from guests and travelers. The campaign has impacted hotels in multiple countries, including Brazil, Argentina, Chile, and Mexico. The threat actor employs social engineering techniques and sells credentials from infected systems to other cybercriminals for remote access."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-083acee6-6969-4c74-80c2-5d442936aa97",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/revengehotels/95229"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "RevengeHotels"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

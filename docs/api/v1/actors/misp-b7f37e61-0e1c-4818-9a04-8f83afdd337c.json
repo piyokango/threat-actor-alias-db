@@ -1,0 +1,127 @@
+{
+  "actor": {
+    "actor_id": "misp-b7f37e61-0e1c-4818-9a04-8f83afdd337c",
+    "canonical_name": "Adrastea",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-b7f37e61-0e1c-4818-9a04-8f83afdd337c"
+    ],
+    "misp_uuid": "b7f37e61-0e1c-4818-9a04-8f83afdd337c",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "adrastea",
+        "confidence": "source-provided",
+        "display_group_key": "adrastea",
+        "name": "Adrastea",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "adrastea",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cybershafarat.com/2022/07/31/adrastea-hackers-claim-leading-european-designer-and-manufacturer-of-missile-systems-mbda-hacked",
+          "https://securityaffairs.co/wordpress/133881/data-breach/mbda-alleged-data-breach.html",
+          "https://www.cysecurity.news/2022/11/missile-supplier-mbda-breach-disclosed.html",
+          "https://www.itsecurityguru.org/2022/09/14/documents-for-sale-on-the-dark-web"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cybershafarat.com/2022/07/31/adrastea-hackers-claim-leading-european-designer-and-manufacturer-of-missile-systems-mbda-hacked",
+              "https://securityaffairs.co/wordpress/133881/data-breach/mbda-alleged-data-breach.html",
+              "https://www.cysecurity.news/2022/11/missile-supplier-mbda-breach-disclosed.html",
+              "https://www.itsecurityguru.org/2022/09/14/documents-for-sale-on-the-dark-web"
+            ]
+          }
+        ],
+        "variants": [
+          "Adrastea"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Adrastea is a threat actor who has been active on cybercrime forums, claiming to have breached organizations like MBDA and offering stolen data for sale. They describe themselves as a group of independent cybersecurity experts and researchers. Adrastea has been linked to ransomware operations, data leak platforms, and network access groups. The actor has been known to exploit critical vulnerabilities in target organizations' infrastructure to gain access to sensitive data."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-b7f37e61-0e1c-4818-9a04-8f83afdd337c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cybershafarat.com/2022/07/31/adrastea-hackers-claim-leading-european-designer-and-manufacturer-of-missile-systems-mbda-hacked"
+      },
+      {
+        "actor_id": "misp-b7f37e61-0e1c-4818-9a04-8f83afdd337c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securityaffairs.co/wordpress/133881/data-breach/mbda-alleged-data-breach.html"
+      },
+      {
+        "actor_id": "misp-b7f37e61-0e1c-4818-9a04-8f83afdd337c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cysecurity.news/2022/11/missile-supplier-mbda-breach-disclosed.html"
+      },
+      {
+        "actor_id": "misp-b7f37e61-0e1c-4818-9a04-8f83afdd337c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.itsecurityguru.org/2022/09/14/documents-for-sale-on-the-dark-web"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Adrastea"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

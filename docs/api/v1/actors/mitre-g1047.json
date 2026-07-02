@@ -1,0 +1,893 @@
+{
+  "actor": {
+    "actor_id": "mitre-g1047",
+    "canonical_name": "Velvet Ant",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g1047"
+    ],
+    "misp_uuid": null,
+    "mitre_id": "G1047",
+    "names": [
+      {
+        "compact_normalized_name": "velvetant",
+        "confidence": "source-provided",
+        "display_group_key": "velvetant",
+        "name": "Velvet Ant",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "velvet ant",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1047"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1047"
+            ]
+          }
+        ],
+        "variants": [
+          "Velvet Ant"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g1047",
+          "name": "Match Legitimate Resource Name or Location",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036.005/"
+        },
+        {
+          "actor_id": "mitre-g1047",
+          "name": "Process Injection",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+          ],
+          "tactics": [
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1055",
+          "url": "https://attack.mitre.org/techniques/T1055/"
+        },
+        {
+          "actor_id": "mitre-g1047",
+          "name": "Application Layer Protocol",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1071",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        },
+        {
+          "actor_id": "mitre-g1047",
+          "name": "Local Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.sygnia.co/threat-reports-and-advisories/china-nexus-threat-group-velvet-ant-exploits-cisco-0-day/"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078.003",
+          "url": "https://attack.mitre.org/techniques/T1078.003/"
+        },
+        {
+          "actor_id": "mitre-g1047",
+          "name": "Internal Proxy",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1090.001",
+          "url": "https://attack.mitre.org/techniques/T1090.001/"
+        },
+        {
+          "actor_id": "mitre-g1047",
+          "name": "Data Encoding",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1132",
+          "url": "https://attack.mitre.org/techniques/T1132/"
+        },
+        {
+          "actor_id": "mitre-g1047",
+          "name": "Exploitation for Stealth",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.sygnia.co/threat-reports-and-advisories/china-nexus-threat-group-velvet-ant-exploits-cisco-0-day/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1211",
+          "url": "https://attack.mitre.org/techniques/T1211/"
+        },
+        {
+          "actor_id": "mitre-g1047",
+          "name": "Non-Standard Port",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1571",
+          "url": "https://attack.mitre.org/techniques/T1571/"
+        },
+        {
+          "actor_id": "mitre-g1047",
+          "name": "Asymmetric Cryptography",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1573.002",
+          "url": "https://attack.mitre.org/techniques/T1573.002/"
+        },
+        {
+          "actor_id": "mitre-g1047",
+          "name": "DLL",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+          ],
+          "tactics": [
+            "execution",
+            "stealth"
+          ],
+          "technique_id": "T1574.001",
+          "url": "https://attack.mitre.org/techniques/T1574.001/"
+        },
+        {
+          "actor_id": "mitre-g1047",
+          "name": "Windows Management Instrumentation",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1047",
+          "url": "https://attack.mitre.org/techniques/T1047/"
+        },
+        {
+          "actor_id": "mitre-g1047",
+          "name": "Unix Shell",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.004",
+          "url": "https://attack.mitre.org/techniques/T1059.004/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Application Layer Protocol",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071",
+              "url": "https://attack.mitre.org/techniques/T1071/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Internal Proxy",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1090.001",
+              "url": "https://attack.mitre.org/techniques/T1090.001/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Data Encoding",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1132",
+              "url": "https://attack.mitre.org/techniques/T1132/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Non-Standard Port",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1571",
+              "url": "https://attack.mitre.org/techniques/T1571/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Asymmetric Cryptography",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1573.002",
+              "url": "https://attack.mitre.org/techniques/T1573.002/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Match Legitimate Resource Name or Location",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.005",
+              "url": "https://attack.mitre.org/techniques/T1036.005/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Process Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055",
+              "url": "https://attack.mitre.org/techniques/T1055/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/threat-reports-and-advisories/china-nexus-threat-group-velvet-ant-exploits-cisco-0-day/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Exploitation for Stealth",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/threat-reports-and-advisories/china-nexus-threat-group-velvet-ant-exploits-cisco-0-day/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1211",
+              "url": "https://attack.mitre.org/techniques/T1211/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "execution",
+                "stealth"
+              ],
+              "technique_id": "T1574.001",
+              "url": "https://attack.mitre.org/techniques/T1574.001/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Windows Management Instrumentation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1047",
+              "url": "https://attack.mitre.org/techniques/T1047/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Unix Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.004",
+              "url": "https://attack.mitre.org/techniques/T1059.004/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Service Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1569.002",
+              "url": "https://attack.mitre.org/techniques/T1569.002/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "execution",
+                "stealth"
+              ],
+              "technique_id": "T1574.001",
+              "url": "https://attack.mitre.org/techniques/T1574.001/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Network Sniffing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "credential-access",
+                "discovery"
+              ],
+              "technique_id": "T1040",
+              "url": "https://attack.mitre.org/techniques/T1040/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "System Network Connections Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1049",
+              "url": "https://attack.mitre.org/techniques/T1049/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "File and Directory Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1083",
+              "url": "https://attack.mitre.org/techniques/T1083/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g1047",
+              "name": "RC Scripts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1037.004",
+              "url": "https://attack.mitre.org/techniques/T1037.004/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/threat-reports-and-advisories/china-nexus-threat-group-velvet-ant-exploits-cisco-0-day/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g1047",
+              "name": "RC Scripts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1037.004",
+              "url": "https://attack.mitre.org/techniques/T1037.004/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Process Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055",
+              "url": "https://attack.mitre.org/techniques/T1055/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/threat-reports-and-advisories/china-nexus-threat-group-velvet-ant-exploits-cisco-0-day/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Disable or Modify Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1685",
+              "url": "https://attack.mitre.org/techniques/T1685/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Disable or Modify System Firewall",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1686",
+              "url": "https://attack.mitre.org/techniques/T1686/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/threat-reports-and-advisories/china-nexus-threat-group-velvet-ant-exploits-cisco-0-day/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1047",
+              "name": "SMB/Windows Admin Shares",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.002",
+              "url": "https://attack.mitre.org/techniques/T1021.002/"
+            },
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Lateral Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1570",
+              "url": "https://attack.mitre.org/techniques/T1570/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1047",
+              "name": "Network Sniffing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/"
+              ],
+              "tactics": [
+                "credential-access",
+                "discovery"
+              ],
+              "technique_id": "T1040",
+              "url": "https://attack.mitre.org/techniques/T1040/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 5,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 5,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 4,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 3,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 3,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 3,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 2,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 2,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 2,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 1,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        }
+      ],
+      "total": 22
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G1047/"
+          ]
+        }
+      ],
+      "text": "Velvet Ant is a threat actor operating since at least 2021. Velvet Ant is associated with complex persistence mechanisms, the targeting of network devices and appliances during operations, and the use of zero day exploits.(Citation: Sygnia VelvetAnt 2024A)(Citation: Sygnia VelvetAnt 2024B)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g1047",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G1047"
+      },
+      {
+        "actor_id": "mitre-g1047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant"
+      },
+      {
+        "actor_id": "mitre-g1047",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sygnia.co/threat-reports-and-advisories/china-nexus-threat-group-velvet-ant-exploits-cisco-0-day"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Velvet Ant"
+    ],
+    "source_ids": [
+      "external-reference",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

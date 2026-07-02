@@ -1,0 +1,157 @@
+{
+  "actor": {
+    "actor_id": "misp-9e71024e-817f-45b0-92a0-d886c30bc929",
+    "canonical_name": "Dust Storm",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-9e71024e-817f-45b0-92a0-d886c30bc929"
+    ],
+    "misp_uuid": "9e71024e-817f-45b0-92a0-d886c30bc929",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "duststorm",
+        "confidence": "source-provided",
+        "display_group_key": "duststorm",
+        "name": "Dust Storm",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dust storm",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0031",
+          "https://web.archive.org/web/20140816135909/https://www.symantec.com/connect/blogs/inside-back-door-attack",
+          "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0031",
+              "https://web.archive.org/web/20140816135909/https://www.symantec.com/connect/blogs/inside-back-door-attack",
+              "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Dust Storm"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0031",
+        "confidence": "source-provided",
+        "display_group_key": "g0031",
+        "name": "G0031",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0031",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0031",
+          "https://web.archive.org/web/20140816135909/https://www.symantec.com/connect/blogs/inside-back-door-attack",
+          "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0031",
+              "https://web.archive.org/web/20140816135909/https://www.symantec.com/connect/blogs/inside-back-door-attack",
+              "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "G0031"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Threat actors behind the Operation Dust Storm have been active since at least 2010, the hackers targeted several organizations in Japan, South Korea, the US, Europe, and other Asian countries."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-9e71024e-817f-45b0-92a0-d886c30bc929",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0031"
+      },
+      {
+        "actor_id": "misp-9e71024e-817f-45b0-92a0-d886c30bc929",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20140816135909/https://www.symantec.com/connect/blogs/inside-back-door-attack"
+      },
+      {
+        "actor_id": "misp-9e71024e-817f-45b0-92a0-d886c30bc929",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Dust Storm",
+      "G0031"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

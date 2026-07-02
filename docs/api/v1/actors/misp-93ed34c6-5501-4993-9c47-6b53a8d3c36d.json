@@ -1,0 +1,153 @@
+{
+  "actor": {
+    "actor_id": "misp-93ed34c6-5501-4993-9c47-6b53a8d3c36d",
+    "canonical_name": "CL-STA-0048",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-93ed34c6-5501-4993-9c47-6b53a8d3c36d"
+    ],
+    "misp_uuid": "93ed34c6-5501-4993-9c47-6b53a8d3c36d",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "clsta0048",
+        "confidence": "source-provided",
+        "display_group_key": "clsta0048",
+        "name": "CL STA 0048",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cl sta 0048",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.eclecticiq.com/china-nexus-nation-state-actors-exploit-sap-netweaver-cve-2025-31324-to-target-critical-infrastructures",
+          "https://unit42.paloaltonetworks.com/espionage-campaign-targets-south-asian-entities"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.eclecticiq.com/china-nexus-nation-state-actors-exploit-sap-netweaver-cve-2025-31324-to-target-critical-infrastructures",
+              "https://unit42.paloaltonetworks.com/espionage-campaign-targets-south-asian-entities"
+            ]
+          }
+        ],
+        "variants": [
+          "CL STA 0048",
+          "CL-STA-0048"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "CL-STA-0048 is a Chinese state-backed APT that targets strategic sectors in South Asia, particularly government and telecommunications entities, with a focus on espionage. The group has been linked to SAP NetWeaver intrusions and employs techniques such as DNS beaconing using ping commands and exploiting unpatched vulnerabilities in services like IIS, Apache Tomcat, and MSSQL. Analysts have observed its use of reverse shell commands and command-and-control traffic directed to specific IP addresses. The actor adapts its methods to evade detection and maintain persistent access to high-value networks."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-93ed34c6-5501-4993-9c47-6b53a8d3c36d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.eclecticiq.com/china-nexus-nation-state-actors-exploit-sap-netweaver-cve-2025-31324-to-target-critical-infrastructures"
+      },
+      {
+        "actor_id": "misp-93ed34c6-5501-4993-9c47-6b53a8d3c36d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/espionage-campaign-targets-south-asian-entities"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "CL STA 0048",
+      "CL-STA-0048"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

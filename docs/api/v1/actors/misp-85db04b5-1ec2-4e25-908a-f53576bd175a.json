@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-85db04b5-1ec2-4e25-908a-f53576bd175a",
+    "canonical_name": "Smishing Triad",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-85db04b5-1ec2-4e25-908a-f53576bd175a"
+    ],
+    "misp_uuid": "85db04b5-1ec2-4e25-908a-f53576bd175a",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "smishingtriad",
+        "confidence": "source-provided",
+        "display_group_key": "smishingtriad",
+        "name": "Smishing Triad",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "smishing triad",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.resecurity.com/blog/article/Smishing-Triad-Impersonates-Emirates-Post-Target-UAE-Citizens"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.resecurity.com/blog/article/Smishing-Triad-Impersonates-Emirates-Post-Target-UAE-Citizens"
+            ]
+          }
+        ],
+        "variants": [
+          "Smishing Triad"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "The Smishing Triad is a Chinese-speaking threat group known for targeting postal services and their customers globally through smishing campaigns. They leverage compromised Apple iMessage accounts to send fraudulent messages warning of undeliverable packages, aiming to collect personally identifying information and payment credentials. The group offers smishing kits for sale on platforms like Telegram, enabling other cybercriminals to launch independent attacks. \"Smishing Triad\" has expanded its operations to target UAE citizens, using geo-filtering to focus on victims in the Emirates."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-85db04b5-1ec2-4e25-908a-f53576bd175a",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.resecurity.com/blog/article/Smishing-Triad-Impersonates-Emirates-Post-Target-UAE-Citizens"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "Smishing Triad"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

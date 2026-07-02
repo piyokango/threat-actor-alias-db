@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-0f4c942f-9491-4844-b782-4ee65033c7e0",
+    "canonical_name": "SilkSpecter",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-0f4c942f-9491-4844-b782-4ee65033c7e0"
+    ],
+    "misp_uuid": "0f4c942f-9491-4844-b782-4ee65033c7e0",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "silkspecter",
+        "confidence": "source-provided",
+        "display_group_key": "silkspecter",
+        "name": "SilkSpecter",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "silkspecter",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.eclecticiq.com/inside-intelligence-center-financially-motivated-chinese-threat-actor-silkspecter-targeting-black-friday-shoppers"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.eclecticiq.com/inside-intelligence-center-financially-motivated-chinese-threat-actor-silkspecter-targeting-black-friday-shoppers"
+            ]
+          }
+        ],
+        "variants": [
+          "SilkSpecter"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "SilkSpecter is a Chinese financially motivated threat actor that orchestrates phishing campaigns targeting e-commerce shoppers, particularly during peak shopping seasons. They exploit legitimate payment processors like Stripe to exfiltrate Cardholder Data and Personally Identifiable Information through convincing fake e-commerce sites created using the oemapps SaaS platform. Their phishing infrastructure relies on Chinese-hosted CDN servers and utilizes deceptive elements such as the \"trusttollsvg\" icon and a \"/homeapi/collect\" endpoint to track victim interactions. Analysts have linked SilkSpecter to over 89 IP addresses and more than 4,000 domain names associated with phishing activities,..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-0f4c942f-9491-4844-b782-4ee65033c7e0",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.eclecticiq.com/inside-intelligence-center-financially-motivated-chinese-threat-actor-silkspecter-targeting-black-friday-shoppers"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "SilkSpecter"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

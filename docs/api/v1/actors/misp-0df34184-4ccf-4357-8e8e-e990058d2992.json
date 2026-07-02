@@ -1,0 +1,156 @@
+{
+  "actor": {
+    "actor_id": "misp-0df34184-4ccf-4357-8e8e-e990058d2992",
+    "canonical_name": "Fishing Elephant",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-0df34184-4ccf-4357-8e8e-e990058d2992"
+    ],
+    "misp_uuid": "0df34184-4ccf-4357-8e8e-e990058d2992",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "fishingelephant",
+        "confidence": "source-provided",
+        "display_group_key": "fishingelephant",
+        "name": "Fishing Elephant",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "fishing elephant",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/apt-trends-report-q1-2020/96826",
+          "https://securelist.com/apt-trends-report-q1-2022/106351",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/apt-trends-report-q1-2020/96826",
+              "https://securelist.com/apt-trends-report-q1-2022/106351",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html"
+            ]
+          }
+        ],
+        "variants": [
+          "Fishing Elephant"
+        ]
+      },
+      {
+        "compact_normalized_name": "outridertiger",
+        "confidence": "source-provided",
+        "display_group_key": "outridertiger",
+        "name": "Outrider Tiger",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "outrider tiger",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/apt-trends-report-q1-2020/96826",
+          "https://securelist.com/apt-trends-report-q1-2022/106351",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/apt-trends-report-q1-2020/96826",
+              "https://securelist.com/apt-trends-report-q1-2022/106351",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html"
+            ]
+          }
+        ],
+        "variants": [
+          "Outrider Tiger"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Fishing Elephant is a threat actor that primarily targets victims in Bangladesh and Pakistan. They rely on consistent TTPs, including payload and communication patterns, while occasionally incorporating new techniques such as geo-fencing and hiding executables within certificate files. Their tool of choice is AresRAT, which they deliver through platforms like Heroku and Dropbox. Recently, they have shifted their focus to government and diplomatic entities in Turkey, Pakistan, Bangladesh, Ukraine, and China."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-0df34184-4ccf-4357-8e8e-e990058d2992",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/apt-trends-report-q1-2020/96826"
+      },
+      {
+        "actor_id": "misp-0df34184-4ccf-4357-8e8e-e990058d2992",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/apt-trends-report-q1-2022/106351"
+      },
+      {
+        "actor_id": "misp-0df34184-4ccf-4357-8e8e-e990058d2992",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Fishing Elephant",
+      "Outrider Tiger"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

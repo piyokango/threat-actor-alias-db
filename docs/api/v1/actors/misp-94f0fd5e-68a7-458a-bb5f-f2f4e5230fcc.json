@@ -1,0 +1,143 @@
+{
+  "actor": {
+    "actor_id": "misp-94f0fd5e-68a7-458a-bb5f-f2f4e5230fcc",
+    "canonical_name": "Anonymous64",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-94f0fd5e-68a7-458a-bb5f-f2f4e5230fcc"
+    ],
+    "misp_uuid": "94f0fd5e-68a7-458a-bb5f-f2f4e5230fcc",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "anonymous64",
+        "confidence": "source-provided",
+        "display_group_key": "anonymous64",
+        "name": "Anonymous 64",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "anonymous 64",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.theregister.com/2024/09/25/china_anonymous_64_taiwan_accusations"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.theregister.com/2024/09/25/china_anonymous_64_taiwan_accusations"
+            ]
+          }
+        ],
+        "variants": [
+          "Anonymous 64",
+          "Anonymous64"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Anonymous 64 is a group accused by China's national security ministry of attempting to gain control of web portals, outdoor electronic screens, and network television. The Ministry of State Security claims that Anonymous 64 is linked to a cyber unit within Taiwan's defense ministry and identifies three active-duty military personnel as its members. The MSS alleges that the group is involved in an influence operation within China, using hacktivism as a cover. The accusations suggest that Anonymous 64 engages in sabotage activities, prompting authorities to call for public reporting of such actions."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-94f0fd5e-68a7-458a-bb5f-f2f4e5230fcc",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.theregister.com/2024/09/25/china_anonymous_64_taiwan_accusations"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "TW",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "TW"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "TW",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "TW"
+        }
+      ]
+    },
+    "search_names": [
+      "Anonymous 64",
+      "Anonymous64"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

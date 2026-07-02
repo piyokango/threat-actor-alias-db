@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-f7359c2b-c151-4f5c-816e-cdff255db0de",
+    "canonical_name": "TAG-140",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-f7359c2b-c151-4f5c-816e-cdff255db0de"
+    ],
+    "misp_uuid": "f7359c2b-c151-4f5c-816e-cdff255db0de",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "tag140",
+        "confidence": "source-provided",
+        "display_group_key": "tag140",
+        "name": "TAG-140",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "tag 140",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.recordedfuture.com/research/drat-v2-updated-drat-emerges-tag-140s-arsenal"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.recordedfuture.com/research/drat-v2-updated-drat-emerges-tag-140s-arsenal"
+            ]
+          }
+        ],
+        "variants": [
+          "TAG-140"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "TAG-140 is a threat actor group that primarily targets Indian government entities, employing cyber espionage tactics such as phishing and malware campaigns. They have deployed a new variant of the DRAT RAT, known as DRAT V2, which utilizes a ClickFix lure and executes a remote script via mshta.exe to establish persistence and facilitate data exfiltration. Their operations include the use of the BroaderAspect loader and a custom TCP-based C2 protocol, enabling a range of post-exploitation activities. TAG-140's activities reflect a pattern of iterative advancement in their malware arsenal and delivery techniques, complicating detection and attribution efforts."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-f7359c2b-c151-4f5c-816e-cdff255db0de",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.recordedfuture.com/research/drat-v2-updated-drat-emerges-tag-140s-arsenal"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "PK",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "PK"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "PK",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "PK"
+        }
+      ]
+    },
+    "search_names": [
+      "TAG-140"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

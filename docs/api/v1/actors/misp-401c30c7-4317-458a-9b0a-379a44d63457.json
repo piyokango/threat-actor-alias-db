@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-401c30c7-4317-458a-9b0a-379a44d63457",
+    "canonical_name": "Operation ShadowHammer",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-401c30c7-4317-458a-9b0a-379a44d63457"
+    ],
+    "misp_uuid": "401c30c7-4317-458a-9b0a-379a44d63457",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "operationshadowhammer",
+        "confidence": "source-provided",
+        "display_group_key": "operationshadowhammer",
+        "name": "Operation ShadowHammer",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "operation shadowhammer",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/operation-shadowhammer/89992"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/operation-shadowhammer/89992"
+            ]
+          }
+        ],
+        "variants": [
+          "Operation ShadowHammer"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Newly discovered supply chain attack that leveraged ASUS Live Update software. The goal of the attack was to surgically target an unknown pool of users, which were identified by their network adapters’ MAC addresses. To achieve this, the attackers had hardcoded a list of MAC addresses in the trojanized samples and this list was used to identify the actual intended targets of this massive operation. We were able to extract more than 600 unique MAC addresses from over 200 samples used in this attack. Of course, there might be other samples out there with different MAC addresses in their list."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-401c30c7-4317-458a-9b0a-379a44d63457",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/operation-shadowhammer/89992"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Operation ShadowHammer"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

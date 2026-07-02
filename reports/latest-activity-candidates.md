@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-07-02 05:19:38 UTC
+Generated: 2026-07-02 05:52:37 UTC
 
 ## Summary
 
-- Auto candidates: 18
+- Auto candidates: 24
 - Published items: 0
 - Rejected items: 0
 
@@ -45,11 +45,37 @@ Generated: 2026-07-02 05:19:38 UTC
   - Matched names: LEAD
   - Summary: Ever wonder how someone goes from studying human viruses to leading cybersecurity teams? In this Humans of Talos, we’re joined by Martin Lee, EMEA Lead, to talk about his journey into the industry.
 
+- **2026-07-01 / Microsoft Security Blog**
+  - Title: Microsoft named a leader in the Frost Radar for cloud and application runtime security
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/07/01/microsoft-named-a-leader-in-the-frost-radar-for-cloud-and-application-runtime-security
+  - Matched names: LEAD
+  - Summary: Frost &#038; Sullivan names Microsoft a leader as cloud and application security converge into unified, runtime risk reduction. The post Microsoft named a leader in the Frost Radar for cloud and application runtime security appeared first on Microsof
+
 - **2026-07-01 / The Hacker News**
   - Title: Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters
   - URL: https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
   - Matched names: LEAD
   - Summary: Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal network port. Synacktiv, which found
+
+- **2026-06-25 / Microsoft Security Blog**
+  - Title: Microsoft a Leader in The Forrester Wave™ for Endpoint Management Platforms
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/06/25/microsoft-a-leader-in-the-forrester-wave-for-endpoint-management-platforms
+  - Matched names: LEAD
+  - Summary: Microsoft named a Leader in the Forrester Wave™: Endpoint Management Platforms, Q2 2026, with the highest scores in the current offering and strategy categories. The post Microsoft a Leader in The Forrester Wave™ for Endpoint Management Platforms app
+
+- **2026-06-24 / Microsoft Security Blog**
+  - Title: CNAPP evolution: How Microsoft aligns with leading cloud risk management platforms
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/06/24/cnapp-evolution-how-microsoft-aligns-with-leading-cloud-risk-management-platforms
+  - Matched names: LEAD
+  - Summary: Learn how CNAPP platforms are helping organizations prioritize exploitable risks, reduce exposure, and operationalize security across the application lifecycle. The post CNAPP evolution: How Microsoft aligns with leading cloud risk management platfor
+
+### BRONZE BUTLER
+
+- **2026-07-01 / The Hacker News**
+  - Title: 19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges
+  - URL: https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html
+  - Matched names: Nian
+  - Summary: A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice&nbsp;announced&nbsp;on July 1. Peter Stokes, 19, 
 
 ### Cobalt Group
 
@@ -98,8 +124,16 @@ Generated: 2026-07-02 05:19:38 UTC
 - **2026-06-29 / The Hacker News**
   - Title: Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks
   - URL: https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html
-  - Matched names: Mustang Panda
-  - Summary: The China-aligned espionage group Mustang Panda is running two campaigns against the Indian government and hydropower targets, deploying new malware and turning a legitimate cloud service into its command channel. Acronis Threat Research Unit found a
+  - Matched names: MUSTANG PANDA, Mustang Panda
+  - Summary: The China-aligned espionage group&nbsp;Mustang Panda&nbsp;is running two campaigns against the Indian government and hydropower targets, deploying new malware and turning a legitimate cloud service into its command channel. Acronis Threat Research Un
+
+### Play
+
+- **2026-06-30 / The Hacker News**
+  - Title: New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials
+  - URL: https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html
+  - Matched names: Play
+  - Summary: Convince an AI browser that it is playing a game, and it can hand over your login details. That is the finding behind&nbsp;BioShocking, a technique from security firm LayerX that tricked six AI browsers and assistants into copying a user's credential
 
 ### Sandworm Team
 
@@ -107,7 +141,7 @@ Generated: 2026-07-02 05:19:38 UTC
   - Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
   - URL: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
   - Matched names: PHANTOM
-  - Summary: Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' 
+  - Summary: Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks'&
 
 - **2026-07-01 / Palo Alto Unit 42**
   - Title: Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector
@@ -120,13 +154,13 @@ Generated: 2026-07-02 05:19:38 UTC
 - **2026-07-01 / The Hacker News**
   - Title: 19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges
   - URL: https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html
-  - Matched names: Scattered Spider
-  - Summary: A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice announced on July 1. Peter Stokes, 19, a dual U.S
+  - Matched names: Scattered Spider, SCATTERED SPIDER
+  - Summary: A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice&nbsp;announced&nbsp;on July 1. Peter Stokes, 19, 
 
 - **2026-07-01 / The Record**
   - Title: Teen suspect in Scattered Spider hacks is extradited to US
   - URL: https://therecord.media/teen-suspect-in-scattered-spider-hacks-extradited-to-us
-  - Matched names: Scattered Spider
+  - Matched names: Scattered Spider, SCATTERED SPIDER
   - Summary: A complaint unsealed this week accuses a 19-year-old of participating in incidents including a breach of a "luxury-jewelry retailer" in 2025.
 
 ### ShinyHunters
@@ -144,3 +178,11 @@ Generated: 2026-07-02 05:19:38 UTC
   - URL: https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html
   - Matched names: Turla
   - Summary: This week was a reminder that attackers do not always need big tricks. One small mistake, one old access path, one missed patch, and suddenly the door is open. The noise is not all noise, either. Forums are talking, researchers are finding easy crack
+
+### VOID MANTICORE
+
+- **2026-07-01 / The Hacker News**
+  - Title: Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands
+  - URL: https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html
+  - Matched names: DUNE
+  - Summary: Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall for and no approval box to ignore. Cato AI Labs&nbsp

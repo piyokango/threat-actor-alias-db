@@ -1,0 +1,159 @@
+{
+  "actor": {
+    "actor_id": "misp-5a38db83-16b3-477f-a045-66a922868eea",
+    "canonical_name": "TA444",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-5a38db83-16b3-477f-a045-66a922868eea"
+    ],
+    "misp_uuid": "5a38db83-16b3-477f-a045-66a922868eea",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "ta444",
+        "confidence": "source-provided",
+        "display_group_key": "ta444",
+        "name": "TA444",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ta444",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cyberscoop.com/north-korean-cryptocurrency-hackers-education-government",
+          "https://www.darkreading.com/remote-workforce/north-korea-apt-swindled-1b-crypto-investors-2022",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta444-apt-startup-aimed-at-your-funds"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cyberscoop.com/north-korean-cryptocurrency-hackers-education-government",
+              "https://www.darkreading.com/remote-workforce/north-korea-apt-swindled-1b-crypto-investors-2022",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta444-apt-startup-aimed-at-your-funds"
+            ]
+          }
+        ],
+        "variants": [
+          "TA444"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "TA444 is a North Korea state-sponsored threat actor that primarily focuses on financially motivated operations. They have been active since at least 2017 and have recently shifted their attention to targeting cryptocurrencies. TA444 employs various infection methods and has a diverse range of malware and backdoors at their disposal. They have been attributed to stealing hundreds of millions of dollars' worth of cryptocurrency and related assets."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-5a38db83-16b3-477f-a045-66a922868eea",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cyberscoop.com/north-korean-cryptocurrency-hackers-education-government"
+      },
+      {
+        "actor_id": "misp-5a38db83-16b3-477f-a045-66a922868eea",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.darkreading.com/remote-workforce/north-korea-apt-swindled-1b-crypto-investors-2022"
+      },
+      {
+        "actor_id": "misp-5a38db83-16b3-477f-a045-66a922868eea",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/blog/threat-insight/ta444-apt-startup-aimed-at-your-funds"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        }
+      ]
+    },
+    "search_names": [
+      "TA444"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

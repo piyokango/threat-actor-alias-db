@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-532ec08b-4403-406c-96fa-5db040ebd255",
+    "canonical_name": "Reckless Rabbit",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-532ec08b-4403-406c-96fa-5db040ebd255"
+    ],
+    "misp_uuid": "532ec08b-4403-406c-96fa-5db040ebd255",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "recklessrabbit",
+        "confidence": "source-provided",
+        "display_group_key": "recklessrabbit",
+        "name": "Reckless Rabbit",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "reckless rabbit",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blogs.infoblox.com/threat-intelligence/uncovering-actor-ttp-patterns-and-the-role-of-dns-in-investment-scams"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blogs.infoblox.com/threat-intelligence/uncovering-actor-ttp-patterns-and-the-role-of-dns-in-investment-scams"
+            ]
+          }
+        ],
+        "variants": [
+          "Reckless Rabbit"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Reckless Rabbit lures victims into investment scams through malicious Facebook advertisements that lead to fake news articles with embedded web forms for personal information collection. They create domains using RDGA patterns, including random characters and English words, and configure wildcard DNS responses to obscure their active subdomains. The actor employs validation checks to filter out traffic from specific countries, enhancing their operational security. Their investment scam platforms often feature fake endorsements to increase credibility among potential victims."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-532ec08b-4403-406c-96fa-5db040ebd255",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blogs.infoblox.com/threat-intelligence/uncovering-actor-ttp-patterns-and-the-role-of-dns-in-investment-scams"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Reckless Rabbit"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-dae45b1c-f957-4242-aa5b-f36b08994bad",
+    "canonical_name": "ScamClub",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-dae45b1c-f957-4242-aa5b-f36b08994bad"
+    ],
+    "misp_uuid": "dae45b1c-f957-4242-aa5b-f36b08994bad",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "scamclub",
+        "confidence": "source-provided",
+        "display_group_key": "scamclub",
+        "name": "ScamClub",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "scamclub",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.confiant.com/exploring-scamclub-payloads-via-deobfuscation-using-abstract-syntax-trees-65ef7f412537",
+          "https://www.malwarebytes.com/blog/threat-intelligence/2023/11/associated-press-espn-cbs-among-top-sites-serving-fake-virus-alerts"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.confiant.com/exploring-scamclub-payloads-via-deobfuscation-using-abstract-syntax-trees-65ef7f412537",
+              "https://www.malwarebytes.com/blog/threat-intelligence/2023/11/associated-press-espn-cbs-among-top-sites-serving-fake-virus-alerts"
+            ]
+          }
+        ],
+        "variants": [
+          "ScamClub"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "ScamClub is a threat actor involved in malvertising activities since 2018. They target the Mobile Web market segment, particularly on iOS devices, where security software is often lacking. ScamClub utilizes obfuscation techniques and real-time bidding integration with ad exchanges to push malicious JavaScript payloads, leading to forced redirects and various scams such as phishing and gift card scams."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-dae45b1c-f957-4242-aa5b-f36b08994bad",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.confiant.com/exploring-scamclub-payloads-via-deobfuscation-using-abstract-syntax-trees-65ef7f412537"
+      },
+      {
+        "actor_id": "misp-dae45b1c-f957-4242-aa5b-f36b08994bad",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.malwarebytes.com/blog/threat-intelligence/2023/11/associated-press-espn-cbs-among-top-sites-serving-fake-virus-alerts"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "ScamClub"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

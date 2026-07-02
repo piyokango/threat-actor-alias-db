@@ -1,0 +1,160 @@
+{
+  "actor": {
+    "actor_id": "misp-c6e6d7fe-e8c3-4a33-8603-4bf44dec3b75",
+    "canonical_name": "Keymous+",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-c6e6d7fe-e8c3-4a33-8603-4bf44dec3b75"
+    ],
+    "misp_uuid": "c6e6d7fe-e8c3-4a33-8603-4bf44dec3b75",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "keymous",
+        "confidence": "source-provided",
+        "display_group_key": "keymous",
+        "name": "keymous",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "keymous",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://socradar.io/blog/telegram-activity-timeline-iran-israel-us-war",
+          "https://www.cyfirma.com/research/firewalls-and-frontlines-the-india-pakistan-cyber-battlefield-crisis",
+          "https://www.netscout.com/blog/asert/keymous-threat-actor-profile"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://socradar.io/blog/telegram-activity-timeline-iran-israel-us-war",
+              "https://www.cyfirma.com/research/firewalls-and-frontlines-the-india-pakistan-cyber-battlefield-crisis",
+              "https://www.netscout.com/blog/asert/keymous-threat-actor-profile"
+            ]
+          }
+        ],
+        "variants": [
+          "keymous",
+          "Keymous+"
+        ]
+      },
+      {
+        "compact_normalized_name": "keymousplus",
+        "confidence": "source-provided",
+        "display_group_key": "keymousplus",
+        "name": "Keymous Plus",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "keymous plus",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://socradar.io/blog/telegram-activity-timeline-iran-israel-us-war",
+          "https://www.cyfirma.com/research/firewalls-and-frontlines-the-india-pakistan-cyber-battlefield-crisis",
+          "https://www.netscout.com/blog/asert/keymous-threat-actor-profile"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://socradar.io/blog/telegram-activity-timeline-iran-israel-us-war",
+              "https://www.cyfirma.com/research/firewalls-and-frontlines-the-india-pakistan-cyber-battlefield-crisis",
+              "https://www.netscout.com/blog/asert/keymous-threat-actor-profile"
+            ]
+          }
+        ],
+        "variants": [
+          "Keymous Plus"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Keymous is a threat actor known for executing extensive DDoS attacks across multiple Arab countries, targeting government ministries and critical infrastructure. The group has claimed access to sensitive data, including over 300,000 records from Israel's Ministry of Education, and has engaged in reconnaissance activities against various ministries in Bahrain and other nations. Keymous employs diverse infrastructure, including compromised IoT devices and DDoS-for-hire platforms, to amplify attack bandwidth. Their operations have been characterized by a focus on politically motivated cyberattacks, particularly in the context of regional conflicts."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-c6e6d7fe-e8c3-4a33-8603-4bf44dec3b75",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/blog/telegram-activity-timeline-iran-israel-us-war"
+      },
+      {
+        "actor_id": "misp-c6e6d7fe-e8c3-4a33-8603-4bf44dec3b75",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cyfirma.com/research/firewalls-and-frontlines-the-india-pakistan-cyber-battlefield-crisis"
+      },
+      {
+        "actor_id": "misp-c6e6d7fe-e8c3-4a33-8603-4bf44dec3b75",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.netscout.com/blog/asert/keymous-threat-actor-profile"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "keymous",
+      "Keymous Plus",
+      "Keymous+"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

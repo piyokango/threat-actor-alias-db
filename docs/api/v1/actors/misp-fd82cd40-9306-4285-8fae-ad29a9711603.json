@@ -1,0 +1,144 @@
+{
+  "actor": {
+    "actor_id": "misp-fd82cd40-9306-4285-8fae-ad29a9711603",
+    "canonical_name": "Hezb",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-fd82cd40-9306-4285-8fae-ad29a9711603"
+    ],
+    "misp_uuid": "fd82cd40-9306-4285-8fae-ad29a9711603",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "hezb",
+        "confidence": "source-provided",
+        "display_group_key": "hezb",
+        "name": "Hezb",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "hezb",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/60440",
+          "https://www.pwndefend.com/2022/06/04/cve-2022-26134-honeypot-payload-analysis-example"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/60440",
+              "https://www.pwndefend.com/2022/06/04/cve-2022-26134-honeypot-payload-analysis-example"
+            ]
+          }
+        ],
+        "variants": [
+          "Hezb"
+        ]
+      },
+      {
+        "compact_normalized_name": "mimo",
+        "confidence": "source-provided",
+        "display_group_key": "mimo",
+        "name": "Mimo",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "mimo",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/60440",
+          "https://www.pwndefend.com/2022/06/04/cve-2022-26134-honeypot-payload-analysis-example"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/60440",
+              "https://www.pwndefend.com/2022/06/04/cve-2022-26134-honeypot-payload-analysis-example"
+            ]
+          }
+        ],
+        "variants": [
+          "Mimo"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Hezb is a group deploying cryptominers when new exploit are available for public facing vulnerabilities. The name is after the miner process they deploy."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-fd82cd40-9306-4285-8fae-ad29a9711603",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://asec.ahnlab.com/en/60440"
+      },
+      {
+        "actor_id": "misp-fd82cd40-9306-4285-8fae-ad29a9711603",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwndefend.com/2022/06/04/cve-2022-26134-honeypot-payload-analysis-example"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Hezb",
+      "Mimo"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

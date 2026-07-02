@@ -1,0 +1,117 @@
+{
+  "actor": {
+    "actor_id": "misp-0c18304e-e65f-4881-94e1-cc2d621ec563",
+    "canonical_name": "DarkRaaS",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-0c18304e-e65f-4881-94e1-cc2d621ec563"
+    ],
+    "misp_uuid": "0c18304e-e65f-4881-94e1-cc2d621ec563",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "darkraas",
+        "confidence": "source-provided",
+        "display_group_key": "darkraas",
+        "name": "DarkRaaS",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "darkraas",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cyberpress.org/darkraas-ransomware-intelligence-data",
+          "https://cyberpress.org/darkraas-ransomware-oil-gas-company",
+          "https://dailydarkweb.net/darkraas-allegedly-breached-a-major-oil-and-gas-company"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cyberpress.org/darkraas-ransomware-intelligence-data",
+              "https://cyberpress.org/darkraas-ransomware-oil-gas-company",
+              "https://dailydarkweb.net/darkraas-allegedly-breached-a-major-oil-and-gas-company"
+            ]
+          }
+        ],
+        "variants": [
+          "DarkRaaS"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "DarkRaaS is a threat actor specializing in selling unauthorized access to various organizations' systems and networks across multiple countries, with a recent focus on targets in Israel, UAE, Turkey, and South America 4 9 20. The group has been operating for at least six years and typically offers access to sensitive data, internal systems, and infrastructure, with prices ranging up to $25,000 for VPN access 4 9. Their targets span various sectors including government institutions, educational facilities, oil and gas companies, and IT organizations, often claiming to have access to multiple terabytes of sensitive data 7 19."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-0c18304e-e65f-4881-94e1-cc2d621ec563",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cyberpress.org/darkraas-ransomware-intelligence-data"
+      },
+      {
+        "actor_id": "misp-0c18304e-e65f-4881-94e1-cc2d621ec563",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cyberpress.org/darkraas-ransomware-oil-gas-company"
+      },
+      {
+        "actor_id": "misp-0c18304e-e65f-4881-94e1-cc2d621ec563",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://dailydarkweb.net/darkraas-allegedly-breached-a-major-oil-and-gas-company"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "DarkRaaS"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

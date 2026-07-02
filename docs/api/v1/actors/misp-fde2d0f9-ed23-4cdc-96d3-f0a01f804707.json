@@ -1,0 +1,159 @@
+{
+  "actor": {
+    "actor_id": "misp-fde2d0f9-ed23-4cdc-96d3-f0a01f804707",
+    "canonical_name": "Scattered Canary",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-fde2d0f9-ed23-4cdc-96d3-f0a01f804707"
+    ],
+    "misp_uuid": "fde2d0f9-ed23-4cdc-96d3-f0a01f804707",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "scatteredcanary",
+        "confidence": "source-provided",
+        "display_group_key": "scatteredcanary",
+        "name": "Scattered Canary",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "scattered canary",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cofense.com/blog/gift-card-fraud-ecosystem-shifts-what-paxfuls-closing-means-for-business-email-compromise",
+          "https://static.fortra.com/agari/pdfs/guide/ag-scattered-canary-gd.pdf",
+          "https://www.agari.com/blog/covid-19-unemployment-fraud-cares-act?_gl=1%2Ayzg6ns%2A_ga%2AMTkyMzIyOTI4MC4xNjk2MjUyMDA2%2A_ga_NHMHGJWX49%2AMTY5NjI1MjAwNS4xLjAuMTY5NjI1MjAwNS42MC4wLjA."
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cofense.com/blog/gift-card-fraud-ecosystem-shifts-what-paxfuls-closing-means-for-business-email-compromise",
+              "https://static.fortra.com/agari/pdfs/guide/ag-scattered-canary-gd.pdf",
+              "https://www.agari.com/blog/covid-19-unemployment-fraud-cares-act?_gl=1%2Ayzg6ns%2A_ga%2AMTkyMzIyOTI4MC4xNjk2MjUyMDA2%2A_ga_NHMHGJWX49%2AMTY5NjI1MjAwNS4xLjAuMTY5NjI1MjAwNS42MC4wLjA."
+            ]
+          }
+        ],
+        "variants": [
+          "Scattered Canary"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "When the first member of Scattered Canary, who, for the purposes of this report, we call Alpha, began his operations, he was a lone wolf—working mostly Craigslist scams as he learned the tricks of the trade from a mentor. However, within a few years, he had honed his craft enough to expand into romance scams, where he met his first “employee,” Beta. Once they had secured enough mules via their romance scams to launder their stolen money, they shifted from targeting individuals to targeting enterprises, and the group’s BEC operation was born."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-fde2d0f9-ed23-4cdc-96d3-f0a01f804707",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cofense.com/blog/gift-card-fraud-ecosystem-shifts-what-paxfuls-closing-means-for-business-email-compromise"
+      },
+      {
+        "actor_id": "misp-fde2d0f9-ed23-4cdc-96d3-f0a01f804707",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://static.fortra.com/agari/pdfs/guide/ag-scattered-canary-gd.pdf"
+      },
+      {
+        "actor_id": "misp-fde2d0f9-ed23-4cdc-96d3-f0a01f804707",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.agari.com/blog/covid-19-unemployment-fraud-cares-act?_gl=1%2Ayzg6ns%2A_ga%2AMTkyMzIyOTI4MC4xNjk2MjUyMDA2%2A_ga_NHMHGJWX49%2AMTY5NjI1MjAwNS4xLjAuMTY5NjI1MjAwNS42MC4wLjA."
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "NG",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "NG"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "NG",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "NG"
+        }
+      ]
+    },
+    "search_names": [
+      "Scattered Canary"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

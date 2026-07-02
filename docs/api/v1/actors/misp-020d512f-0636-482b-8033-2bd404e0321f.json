@@ -1,0 +1,223 @@
+{
+  "actor": {
+    "actor_id": "misp-020d512f-0636-482b-8033-2bd404e0321f",
+    "canonical_name": "TIDRONE",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-020d512f-0636-482b-8033-2bd404e0321f"
+    ],
+    "misp_uuid": "020d512f-0636-482b-8033-2bd404e0321f",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "tidrone",
+        "confidence": "source-provided",
+        "display_group_key": "tidrone",
+        "name": "TIDRONE",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "tidrone",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.trendmicro.com/en_us/research/24/i/tidrone-targets-military-and-satellite-industries-in-taiwan.html",
+          "https://www.trendmicro.com/en_us/research/25/e/earth-ammit.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.trendmicro.com/en_us/research/24/i/tidrone-targets-military-and-satellite-industries-in-taiwan.html",
+              "https://www.trendmicro.com/en_us/research/25/e/earth-ammit.html"
+            ]
+          }
+        ],
+        "variants": [
+          "TIDRONE"
+        ]
+      },
+      {
+        "compact_normalized_name": "earthammit",
+        "confidence": "source-provided",
+        "display_group_key": "earthammit",
+        "name": "Earth Ammit",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "earth ammit",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.trendmicro.com/en_us/research/24/i/tidrone-targets-military-and-satellite-industries-in-taiwan.html",
+          "https://www.trendmicro.com/en_us/research/25/e/earth-ammit.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.trendmicro.com/en_us/research/24/i/tidrone-targets-military-and-satellite-industries-in-taiwan.html",
+              "https://www.trendmicro.com/en_us/research/25/e/earth-ammit.html"
+            ]
+          }
+        ],
+        "variants": [
+          "Earth Ammit"
+        ]
+      },
+      {
+        "compact_normalized_name": "venom",
+        "confidence": "source-provided",
+        "display_group_key": "venom",
+        "name": "VENOM",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "venom",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.trendmicro.com/en_us/research/24/i/tidrone-targets-military-and-satellite-industries-in-taiwan.html",
+          "https://www.trendmicro.com/en_us/research/25/e/earth-ammit.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.trendmicro.com/en_us/research/24/i/tidrone-targets-military-and-satellite-industries-in-taiwan.html",
+              "https://www.trendmicro.com/en_us/research/25/e/earth-ammit.html"
+            ]
+          }
+        ],
+        "variants": [
+          "VENOM"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "TIDRONE is an unidentified threat actor linked to Chinese-speaking groups, with a focus on military-related industry chains, particularly drone manufacturers in Taiwan. The actor employs advanced malware variants such as CXCLNT and CLNTEND, which are distributed through ERP software or remote desktops. The consistency in file compilation times and operational patterns aligns with other Chinese espionage activities, indicating a likely espionage motive."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-020d512f-0636-482b-8033-2bd404e0321f",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/24/i/tidrone-targets-military-and-satellite-industries-in-taiwan.html"
+      },
+      {
+        "actor_id": "misp-020d512f-0636-482b-8033-2bd404e0321f",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/25/e/earth-ammit.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "Earth Ammit",
+      "TIDRONE",
+      "VENOM"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

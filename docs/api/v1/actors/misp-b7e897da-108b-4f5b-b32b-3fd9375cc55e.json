@@ -1,0 +1,237 @@
+{
+  "actor": {
+    "actor_id": "misp-b7e897da-108b-4f5b-b32b-3fd9375cc55e",
+    "canonical_name": "UNC1069",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-b7e897da-108b-4f5b-b32b-3fd9375cc55e"
+    ],
+    "misp_uuid": "b7e897da-108b-4f5b-b32b-3fd9375cc55e",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unc1069",
+        "confidence": "source-provided",
+        "display_group_key": "unc1069",
+        "name": "UNC1069",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc1069",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+          "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
+          "https://www.spixnet.com/cybersecurity-blog/2023/04/03/newly-exposed-apt43-hacking-group-targeting-us-orgs-since-2018"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+              "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
+              "https://www.spixnet.com/cybersecurity-blog/2023/04/03/newly-exposed-apt43-hacking-group-targeting-us-orgs-since-2018"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC1069"
+        ]
+      },
+      {
+        "compact_normalized_name": "cryptocore",
+        "confidence": "source-provided",
+        "display_group_key": "cryptocore",
+        "name": "CryptoCore",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cryptocore",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+          "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
+          "https://www.spixnet.com/cybersecurity-blog/2023/04/03/newly-exposed-apt43-hacking-group-targeting-us-orgs-since-2018"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+              "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
+              "https://www.spixnet.com/cybersecurity-blog/2023/04/03/newly-exposed-apt43-hacking-group-targeting-us-orgs-since-2018"
+            ]
+          }
+        ],
+        "variants": [
+          "CryptoCore"
+        ]
+      },
+      {
+        "compact_normalized_name": "masan",
+        "confidence": "source-provided",
+        "display_group_key": "masan",
+        "name": "MASAN",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "masan",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+          "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
+          "https://www.spixnet.com/cybersecurity-blog/2023/04/03/newly-exposed-apt43-hacking-group-targeting-us-orgs-since-2018"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+              "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
+              "https://www.spixnet.com/cybersecurity-blog/2023/04/03/newly-exposed-apt43-hacking-group-targeting-us-orgs-since-2018"
+            ]
+          }
+        ],
+        "variants": [
+          "MASAN"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "CryptoCore is a North Korean APT known for targeting cryptocurrency exchanges and financial institutions, employing spear-phishing techniques that lead to LONEJOGGER malware infections. The group has leveraged social engineering tactics, including deepfake technology and hijacked YouTube accounts, to execute sophisticated giveaway scams that deceive victims into sending cryptocurrencies. Their operations have involved the misuse of platforms like Gemini for reconnaissance and the development of fraudulent content. Additionally, CryptoCore has been linked to a variety of campaigns, including Dangerous Password and SnatchCrypto, focusing on financial gain through cryptocurrency theft."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-b7e897da-108b-4f5b-b32b-3fd9375cc55e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools"
+      },
+      {
+        "actor_id": "misp-b7e897da-108b-4f5b-b32b-3fd9375cc55e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023"
+      },
+      {
+        "actor_id": "misp-b7e897da-108b-4f5b-b32b-3fd9375cc55e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.spixnet.com/cybersecurity-blog/2023/04/03/newly-exposed-apt43-hacking-group-targeting-us-orgs-since-2018"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        }
+      ]
+    },
+    "search_names": [
+      "CryptoCore",
+      "MASAN",
+      "UNC1069"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

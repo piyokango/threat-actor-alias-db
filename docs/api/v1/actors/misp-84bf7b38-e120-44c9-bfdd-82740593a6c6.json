@@ -1,0 +1,132 @@
+{
+  "actor": {
+    "actor_id": "misp-84bf7b38-e120-44c9-bfdd-82740593a6c6",
+    "canonical_name": "APT73",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-84bf7b38-e120-44c9-bfdd-82740593a6c6"
+    ],
+    "misp_uuid": "84bf7b38-e120-44c9-bfdd-82740593a6c6",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "apt73",
+        "confidence": "source-provided",
+        "display_group_key": "apt73",
+        "name": "APT73",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "apt73",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://quointelligence.eu/2024/06/analyzing-shift-in-ransomware-dynamics"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://quointelligence.eu/2024/06/analyzing-shift-in-ransomware-dynamics"
+            ]
+          }
+        ],
+        "variants": [
+          "APT73"
+        ]
+      },
+      {
+        "compact_normalized_name": "eraleig",
+        "confidence": "source-provided",
+        "display_group_key": "eraleig",
+        "name": "Eraleig",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "eraleig",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://quointelligence.eu/2024/06/analyzing-shift-in-ransomware-dynamics"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://quointelligence.eu/2024/06/analyzing-shift-in-ransomware-dynamics"
+            ]
+          }
+        ],
+        "variants": [
+          "Eraleig"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "APT73 is a ransomware group that has publicly identified 12 victims and launched its data leak site on April 25th. The DLS bears a striking resemblance to that of LockBit, likely to leverage LockBit's reputation and attract potential affiliates. The rationale for this design mimicry is unclear, but it may be intended to signal operational parity with LockBit to inspire trust among low-level criminals. APT73 was formed by an alleged former LockBit affiliate following law enforcement's \"Operation Cronos\" in February 2024."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-84bf7b38-e120-44c9-bfdd-82740593a6c6",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://quointelligence.eu/2024/06/analyzing-shift-in-ransomware-dynamics"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "APT73",
+      "Eraleig"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

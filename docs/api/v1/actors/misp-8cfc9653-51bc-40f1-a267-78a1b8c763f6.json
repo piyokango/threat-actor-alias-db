@@ -1,0 +1,149 @@
+{
+  "actor": {
+    "actor_id": "misp-8cfc9653-51bc-40f1-a267-78a1b8c763f6",
+    "canonical_name": "Earth Krahang",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-8cfc9653-51bc-40f1-a267-78a1b8c763f6"
+    ],
+    "misp_uuid": "8cfc9653-51bc-40f1-a267-78a1b8c763f6",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "earthkrahang",
+        "confidence": "source-provided",
+        "display_group_key": "earthkrahang",
+        "name": "Earth Krahang",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "earth krahang",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-china-linked-earth-krahang-apt-breached-70-organizations-in-23-nations-active-iocs",
+          "https://www.trendmicro.com/en_us/research/24/c/earth-krahang.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-china-linked-earth-krahang-apt-breached-70-organizations-in-23-nations-active-iocs",
+              "https://www.trendmicro.com/en_us/research/24/c/earth-krahang.html"
+            ]
+          }
+        ],
+        "variants": [
+          "Earth Krahang"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Earth Krahang is an APT group targeting government organizations worldwide. They use spear-phishing emails, weak internet-facing servers, and custom backdoors like Cobalt Strike, RESHELL, and XDealer to conduct cyber espionage. The group creates VPN servers on infected systems, employs brute force attacks on email accounts, and exploits compromised government infrastructure to attack other governments. Earth Krahang has been linked to another China-linked actor, Earth Lusca, and is believed to be part of a specialized task force for cyber espionage against government institutions."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-8cfc9653-51bc-40f1-a267-78a1b8c763f6",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-china-linked-earth-krahang-apt-breached-70-organizations-in-23-nations-active-iocs"
+      },
+      {
+        "actor_id": "misp-8cfc9653-51bc-40f1-a267-78a1b8c763f6",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/24/c/earth-krahang.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "Earth Krahang"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

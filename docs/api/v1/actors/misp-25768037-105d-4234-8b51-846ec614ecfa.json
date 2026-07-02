@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-25768037-105d-4234-8b51-846ec614ecfa",
+    "canonical_name": "UNK_AcademicFlare",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-25768037-105d-4234-8b51-846ec614ecfa"
+    ],
+    "misp_uuid": "25768037-105d-4234-8b51-846ec614ecfa",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unkacademicflare",
+        "confidence": "source-provided",
+        "display_group_key": "unkacademicflare",
+        "name": "UNK_AcademicFlare",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unk academicflare",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.proofpoint.com/us/blog/threat-insight/access-granted-phishing-device-code-authorization-account-takeover"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.proofpoint.com/us/blog/threat-insight/access-granted-phishing-device-code-authorization-account-takeover"
+            ]
+          }
+        ],
+        "variants": [
+          "UNK_AcademicFlare"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UNK_AcademicFlare is a suspected Russia-aligned threat actor that conducts device code phishing campaigns by leveraging compromised email addresses from government and military organizations. The actor engages in rapport building through benign outreach, ultimately leading to a phishing attempt via a Cloudflare Worker URL that spoofs a OneDrive account. Targeted sectors include government, think tanks, higher education, and transportation in the U.S. and Europe, with a focus on Russia and Ukraine-themed content. Their tactics include using compromised accounts for initial contact and employing device code phishing techniques to extract credentials."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-25768037-105d-4234-8b51-846ec614ecfa",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/blog/threat-insight/access-granted-phishing-device-code-authorization-account-takeover"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "UNK_AcademicFlare"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

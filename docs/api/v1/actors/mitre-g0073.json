@@ -1,0 +1,2632 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0073",
+    "canonical_name": "APT19",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0073"
+    ],
+    "misp_uuid": "066d25c1-71bd-4bd4-8ca7-edbba00063f4",
+    "mitre_id": "G0073",
+    "names": [
+      {
+        "compact_normalized_name": "apt19",
+        "confidence": "source-provided",
+        "display_group_key": "apt19",
+        "name": "APT19",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "apt19",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://attack.mitre.org/groups/G0073",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0073"
+            ]
+          }
+        ],
+        "variants": [
+          "APT19"
+        ]
+      },
+      {
+        "compact_normalized_name": "blackvine",
+        "confidence": "source-provided",
+        "display_group_key": "blackvine",
+        "name": "Black Vine",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "black vine",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          }
+        ],
+        "variants": [
+          "Black Vine"
+        ]
+      },
+      {
+        "compact_normalized_name": "bronzefirestone",
+        "confidence": "source-provided",
+        "display_group_key": "bronzefirestone",
+        "name": "BRONZE FIRESTONE",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "bronze firestone",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          }
+        ],
+        "variants": [
+          "BRONZE FIRESTONE"
+        ]
+      },
+      {
+        "compact_normalized_name": "c0d0so0",
+        "confidence": "source-provided",
+        "display_group_key": "c0d0so0",
+        "name": "C0d0so0",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "c0d0so0",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0073"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0073"
+            ]
+          }
+        ],
+        "variants": [
+          "C0d0so0"
+        ]
+      },
+      {
+        "compact_normalized_name": "checkeredtyphoon",
+        "confidence": "source-provided",
+        "display_group_key": "checkeredtyphoon",
+        "name": "Checkered Typhoon",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "checkered typhoon",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          }
+        ],
+        "variants": [
+          "Checkered Typhoon"
+        ]
+      },
+      {
+        "compact_normalized_name": "codoso",
+        "confidence": "source-provided",
+        "display_group_key": "codoso",
+        "name": "Codoso",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "codoso",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://attack.mitre.org/groups/G0073",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0073"
+            ]
+          }
+        ],
+        "variants": [
+          "Codoso"
+        ]
+      },
+      {
+        "compact_normalized_name": "codosoteam",
+        "confidence": "source-provided",
+        "display_group_key": "codosoteam",
+        "name": "Codoso Team",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "codoso team",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0073"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0073"
+            ]
+          }
+        ],
+        "variants": [
+          "Codoso Team"
+        ]
+      },
+      {
+        "compact_normalized_name": "deeppanda",
+        "confidence": "source-provided",
+        "display_group_key": "deeppanda",
+        "name": "DEEP PANDA",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "deep panda",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          }
+        ],
+        "variants": [
+          "DEEP PANDA"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0009",
+        "confidence": "source-provided",
+        "display_group_key": "g0009",
+        "name": "G0009",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0009",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          }
+        ],
+        "variants": [
+          "G0009"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0073",
+        "confidence": "source-provided",
+        "display_group_key": "g0073",
+        "name": "G0073",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0073",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          }
+        ],
+        "variants": [
+          "G0073"
+        ]
+      },
+      {
+        "compact_normalized_name": "group13",
+        "confidence": "source-provided",
+        "display_group_key": "group13",
+        "name": "Group 13",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "group 13",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          }
+        ],
+        "variants": [
+          "Group 13"
+        ]
+      },
+      {
+        "compact_normalized_name": "kungfukittens",
+        "confidence": "source-provided",
+        "display_group_key": "kungfukittens",
+        "name": "KungFu Kittens",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "kungfu kittens",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          }
+        ],
+        "variants": [
+          "KungFu Kittens"
+        ]
+      },
+      {
+        "compact_normalized_name": "pinkpanther",
+        "confidence": "source-provided",
+        "display_group_key": "pinkpanther",
+        "name": "PinkPanther",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "pinkpanther",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          }
+        ],
+        "variants": [
+          "PinkPanther"
+        ]
+      },
+      {
+        "compact_normalized_name": "pupa",
+        "confidence": "source-provided",
+        "display_group_key": "pupa",
+        "name": "Pupa",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "pupa",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          }
+        ],
+        "variants": [
+          "Pupa"
+        ]
+      },
+      {
+        "compact_normalized_name": "shellcrew",
+        "confidence": "source-provided",
+        "display_group_key": "shellcrew",
+        "name": "Shell Crew",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "shell crew",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          }
+        ],
+        "variants": [
+          "Shell Crew"
+        ]
+      },
+      {
+        "compact_normalized_name": "sunshopgroup",
+        "confidence": "source-provided",
+        "display_group_key": "sunshopgroup",
+        "name": "Sunshop Group",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "sunshop group",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://attack.mitre.org/groups/G0073",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0073"
+            ]
+          }
+        ],
+        "variants": [
+          "Sunshop Group"
+        ]
+      },
+      {
+        "compact_normalized_name": "tempavengers",
+        "confidence": "source-provided",
+        "display_group_key": "tempavengers",
+        "name": "TEMP.Avengers",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "temp avengers",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          }
+        ],
+        "variants": [
+          "TEMP.Avengers"
+        ]
+      },
+      {
+        "compact_normalized_name": "webmasters",
+        "confidence": "source-provided",
+        "display_group_key": "webmasters",
+        "name": "WebMasters",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "webmasters",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+          "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+          "https://attack.mitre.org/groups/G0009",
+          "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+          "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+          "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+          "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+          "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+          "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+          "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+          "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+          "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+          "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+          "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+          "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+          "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+          "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+          "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+          "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+          "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+          "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+          "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+          "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+          "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+          "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+          "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+          "https://www.youtube.com/watch?v=FC9ARZIZglI"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf",
+              "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group",
+              "https://attack.mitre.org/groups/G0009",
+              "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group",
+              "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf",
+              "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations",
+              "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more",
+              "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695",
+              "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014",
+              "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m",
+              "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach",
+              "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html",
+              "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442",
+              "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks",
+              "https://www.cfr.org/interactive/cyber-operations/deep-panda",
+              "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks",
+              "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise",
+              "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors",
+              "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national",
+              "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf",
+              "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354",
+              "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html",
+              "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks",
+              "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach",
+              "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+              "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
+              "https://www.youtube.com/watch?v=FC9ARZIZglI"
+            ]
+          }
+        ],
+        "variants": [
+          "WebMasters"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0073",
+          "name": "Command Obfuscation",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.010",
+          "url": "https://attack.mitre.org/techniques/T1027.010/"
+        },
+        {
+          "actor_id": "mitre-g0073",
+          "name": "Encrypted/Encoded File",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.013",
+          "url": "https://attack.mitre.org/techniques/T1027.013/"
+        },
+        {
+          "actor_id": "mitre-g0073",
+          "name": "Deobfuscate/Decode Files or Information",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1140",
+          "url": "https://attack.mitre.org/techniques/T1140/"
+        },
+        {
+          "actor_id": "mitre-g0073",
+          "name": "Regsvr32",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1218.010",
+          "url": "https://attack.mitre.org/techniques/T1218.010/"
+        },
+        {
+          "actor_id": "mitre-g0073",
+          "name": "Rundll32",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1218.011",
+          "url": "https://attack.mitre.org/techniques/T1218.011/"
+        },
+        {
+          "actor_id": "mitre-g0073",
+          "name": "Hidden Window",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1564.003",
+          "url": "https://attack.mitre.org/techniques/T1564.003/"
+        },
+        {
+          "actor_id": "mitre-g0073",
+          "name": "DLL",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+          ],
+          "tactics": [
+            "execution",
+            "stealth"
+          ],
+          "technique_id": "T1574.001",
+          "url": "https://attack.mitre.org/techniques/T1574.001/"
+        },
+        {
+          "actor_id": "mitre-g0073",
+          "name": "Command and Scripting Interpreter",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "actor_id": "mitre-g0073",
+          "name": "PowerShell",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.001",
+          "url": "https://attack.mitre.org/techniques/T1059.001/"
+        },
+        {
+          "actor_id": "mitre-g0073",
+          "name": "Malicious File",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1204.002",
+          "url": "https://attack.mitre.org/techniques/T1204.002/"
+        },
+        {
+          "actor_id": "mitre-g0073",
+          "name": "System Network Configuration Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1016",
+          "url": "https://attack.mitre.org/techniques/T1016/"
+        },
+        {
+          "actor_id": "mitre-g0073",
+          "name": "System Owner/User Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1033",
+          "url": "https://attack.mitre.org/techniques/T1033/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Command Obfuscation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.010",
+              "url": "https://attack.mitre.org/techniques/T1027.010/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Encrypted/Encoded File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.013",
+              "url": "https://attack.mitre.org/techniques/T1027.013/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Deobfuscate/Decode Files or Information",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1140",
+              "url": "https://attack.mitre.org/techniques/T1140/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Regsvr32",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.010",
+              "url": "https://attack.mitre.org/techniques/T1218.010/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Rundll32",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.011",
+              "url": "https://attack.mitre.org/techniques/T1218.011/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Hidden Window",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.003",
+              "url": "https://attack.mitre.org/techniques/T1564.003/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+              ],
+              "tactics": [
+                "execution",
+                "stealth"
+              ],
+              "technique_id": "T1574.001",
+              "url": "https://attack.mitre.org/techniques/T1574.001/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Command and Scripting Interpreter",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059",
+              "url": "https://attack.mitre.org/techniques/T1059/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "DLL",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+              ],
+              "tactics": [
+                "execution",
+                "stealth"
+              ],
+              "technique_id": "T1574.001",
+              "url": "https://attack.mitre.org/techniques/T1574.001/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Modify Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+              ],
+              "tactics": [
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1112",
+              "url": "https://attack.mitre.org/techniques/T1112/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0073",
+              "name": "System Network Configuration Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1016",
+              "url": "https://attack.mitre.org/techniques/T1016/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "System Owner/User Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1033",
+              "url": "https://attack.mitre.org/techniques/T1033/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "System Information Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/",
+                "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1082",
+              "url": "https://attack.mitre.org/techniques/T1082/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Web Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/",
+                "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.001",
+              "url": "https://attack.mitre.org/techniques/T1071.001/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Standard Encoding",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1132.001",
+              "url": "https://attack.mitre.org/techniques/T1132.001/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Drive-by Compromise",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1189",
+              "url": "https://attack.mitre.org/techniques/T1189/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            },
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Modify Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+              ],
+              "tactics": [
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1112",
+              "url": "https://attack.mitre.org/techniques/T1112/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0073",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+                "https://www.ncsc.gov.uk/report/joint-report-on-publicly-available-hacking-tools"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 7,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 4,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 3,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 3,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 2,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 2,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 2,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 1,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        }
+      ],
+      "total": 21
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0073/"
+          ]
+        }
+      ],
+      "text": "APT19 is a Chinese-based threat group that has targeted a variety of industries, including defense, finance, energy, pharmaceutical, telecommunications, high tech, education, manufacturing, and legal services. In 2017, a phishing campaign was used to target seven law and investment firms. (Citation: FireEye APT19) Some analysts track APT19 and Deep Panda as the same group, but it is unclear from open source information if the groups are the same. (Citation: ICIT China's Espionage Jul 2016) (Citation: FireEye APT Groups) (Citation: Unit 42 C0d0so0 Jan 2016)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://cybercampaigns.net/wp-content/uploads/2013/06/Deep-Panda.pdf"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0009"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0073"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://docs.broadcom.com/doc/the-black-vine-cyberespionage-group"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://docs.huihoo.com/rsaconference/usa-2014/anf-t07b-the-art-of-attribution-identifying-and-pursuing-your-cyber-adversaries-final.pdf"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://eromang.zataz.com/2012/12/29/attack-and-ie-0day-informations-used-against-council-on-foreign-relations"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://eromang.zataz.com/2013/01/02/capstone-turbine-corporation-also-targeted-in-the-cfr-watering-hole-attack-and-more"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://gizmodo.com/u-s-indicts-chinese-hacker-spies-in-conspiracy-to-stea-1830111695"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://krebsonsecurity.com/2015/02/anthem-breach-may-have-started-in-april-2014"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://krebsonsecurity.com/2015/05/carefirst-blue-cross-breach-hits-1-1m"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://krebsonsecurity.com/2015/06/catching-up-on-the-opm-breach"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://threatvector.cylance.com/en_us/home/shell-crew-variants-continue-to-fly-under-big-avs-radar.html"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20171017072306/https://icitech.org/icit-brief-chinas-espionage-dynasty-economic-death-by-a-thousand-cuts"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.abc.net.au/news/2014-11-13/g20-china-affliliated-hackers-breaches-australian-media/5889442"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bleepingcomputer.com/news/security/us-arrests-chinese-man-involved-with-sakula-malware-used-in-opm-and-anthem-hacks"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/deep-panda"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/deep-thought-chinese-targeting-national-security-think-tanks"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/department-labor-strategic-web-compromise"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/ironman-deep-panda-uses-sakula-malware-target-organizations-multiple-sectors"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cyberscoop.com/anthem-breach-indictment-chinese-national"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.darkreading.com/attacks-breaches/chinese-hacking-group-codoso-team-uses-forbescom-as-watering-hole-/d/d-id/1319059"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/current-threats/apt-groups.html"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/blog/phished-at-the-request-of-counsel"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/insights/apt-groups"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ncsc.gov.uk/content/files/protected_files/article_files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.nextgov.com/cybersecurity/2015/05/third-party-software-was-entry-point-background-check-system-hack/112354"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.nytimes.com/2016/06/12/technology/the-chinese-hackers-in-the-back-office.html"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.proofpoint.com/us/exploring-bergard-old-malware-new-tricks"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.seattletimes.com/business/local-business/feds-warned-premera-about-security-flaws-before-breach"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/bronze-firestone"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html"
+      },
+      {
+        "actor_id": "mitre-g0073",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.youtube.com/watch?v=FC9ARZIZglI"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "APT19",
+      "Black Vine",
+      "BRONZE FIRESTONE",
+      "C0d0so0",
+      "Checkered Typhoon",
+      "Codoso",
+      "Codoso Team",
+      "DEEP PANDA",
+      "G0009",
+      "G0073",
+      "Group 13",
+      "KungFu Kittens",
+      "PinkPanther",
+      "Pupa",
+      "Shell Crew",
+      "Sunshop Group",
+      "TEMP.Avengers",
+      "WebMasters"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

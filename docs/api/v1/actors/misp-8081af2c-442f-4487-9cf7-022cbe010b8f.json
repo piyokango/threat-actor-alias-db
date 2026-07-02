@@ -1,0 +1,132 @@
+{
+  "actor": {
+    "actor_id": "misp-8081af2c-442f-4487-9cf7-022cbe010b8f",
+    "canonical_name": "Storm-1101",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-8081af2c-442f-4487-9cf7-022cbe010b8f"
+    ],
+    "misp_uuid": "8081af2c-442f-4487-9cf7-022cbe010b8f",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "storm1101",
+        "confidence": "source-provided",
+        "display_group_key": "storm1101",
+        "name": "Storm-1101",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 1101",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.microsoft.com/en-us/security/blog/2023/03/13/dev-1101-enables-high-volume-aitm-campaigns-with-open-source-phishing-kit"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.microsoft.com/en-us/security/blog/2023/03/13/dev-1101-enables-high-volume-aitm-campaigns-with-open-source-phishing-kit"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-1101"
+        ]
+      },
+      {
+        "compact_normalized_name": "dev1101",
+        "confidence": "source-provided",
+        "display_group_key": "dev1101",
+        "name": "DEV-1101",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dev 1101",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "http://www.microsoft.com/en-us/security/blog/2023/03/13/dev-1101-enables-high-volume-aitm-campaigns-with-open-source-phishing-kit"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.microsoft.com/en-us/security/blog/2023/03/13/dev-1101-enables-high-volume-aitm-campaigns-with-open-source-phishing-kit"
+            ]
+          }
+        ],
+        "variants": [
+          "DEV-1101"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "DEV-1101 is a threat actor tracked by Microsoft who is responsible for developing and advertising phishing kits, specifically AiTM phishing kits. These kits are capable of bypassing multifactor authentication and are available for purchase or rent by other cybercriminals. DEV-1101 offers an open-source kit with various enhancements, such as mobile device management and CAPTCHA evasion. Their tool has been used in high-volume phishing campaigns by multiple actors, including DEV-0928, and is sold for $300 with VIP licenses available for $1,000."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-8081af2c-442f-4487-9cf7-022cbe010b8f",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "http://www.microsoft.com/en-us/security/blog/2023/03/13/dev-1101-enables-high-volume-aitm-campaigns-with-open-source-phishing-kit"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "DEV-1101",
+      "Storm-1101"
+    ],
+    "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

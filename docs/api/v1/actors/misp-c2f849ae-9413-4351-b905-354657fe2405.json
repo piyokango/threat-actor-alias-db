@@ -1,0 +1,181 @@
+{
+  "actor": {
+    "actor_id": "misp-c2f849ae-9413-4351-b905-354657fe2405",
+    "canonical_name": "DarkGaboon",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-c2f849ae-9413-4351-b905-354657fe2405"
+    ],
+    "misp_uuid": "c2f849ae-9413-4351-b905-354657fe2405",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "darkgaboon",
+        "confidence": "source-provided",
+        "display_group_key": "darkgaboon",
+        "name": "DarkGaboon",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "darkgaboon",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cybershafarat.com/2025/01/22/darkgaboon-targets-russian-finserv",
+          "https://therecord.media/new-hacker-group-lockbit-target-russia"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cybershafarat.com/2025/01/22/darkgaboon-targets-russian-finserv",
+              "https://therecord.media/new-hacker-group-lockbit-target-russia"
+            ]
+          }
+        ],
+        "variants": [
+          "DarkGaboon"
+        ]
+      },
+      {
+        "compact_normalized_name": "room155",
+        "confidence": "source-provided",
+        "display_group_key": "room155",
+        "name": "room155",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "room155",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cybershafarat.com/2025/01/22/darkgaboon-targets-russian-finserv",
+          "https://therecord.media/new-hacker-group-lockbit-target-russia"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cybershafarat.com/2025/01/22/darkgaboon-targets-russian-finserv",
+              "https://therecord.media/new-hacker-group-lockbit-target-russia"
+            ]
+          }
+        ],
+        "variants": [
+          "room155"
+        ]
+      },
+      {
+        "compact_normalized_name": "vengefulwolf",
+        "confidence": "source-provided",
+        "display_group_key": "vengefulwolf",
+        "name": "Vengeful Wolf",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "vengeful wolf",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cybershafarat.com/2025/01/22/darkgaboon-targets-russian-finserv",
+          "https://therecord.media/new-hacker-group-lockbit-target-russia"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cybershafarat.com/2025/01/22/darkgaboon-targets-russian-finserv",
+              "https://therecord.media/new-hacker-group-lockbit-target-russia"
+            ]
+          }
+        ],
+        "variants": [
+          "Vengeful Wolf"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "DarkGaboon is a financially motivated APT group that has been independently targeting Russian organizations since May 2023, primarily using phishing emails to deliver malware such as Revenge RAT and LockBit 3.0 ransomware. Their operations demonstrate advanced operational security practices, including the use of homoglyphs in file names and decoy documents sourced from legitimate Russian templates to evade detection. The group has shown a disciplined approach to updating their toolkit, with 369 unique files identified, and employs command-and-control infrastructure located outside Russia. DarkGaboon's linguistic proficiency in Russian suggests a deep understanding of the local context,..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-c2f849ae-9413-4351-b905-354657fe2405",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cybershafarat.com/2025/01/22/darkgaboon-targets-russian-finserv"
+      },
+      {
+        "actor_id": "misp-c2f849ae-9413-4351-b905-354657fe2405",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://therecord.media/new-hacker-group-lockbit-target-russia"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "DarkGaboon",
+      "room155",
+      "Vengeful Wolf"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

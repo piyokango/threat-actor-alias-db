@@ -1,0 +1,144 @@
+{
+  "actor": {
+    "actor_id": "misp-4e26b4ac-5530-428b-8694-3dd6d24ee286",
+    "canonical_name": "Asnarök",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-4e26b4ac-5530-428b-8694-3dd6d24ee286"
+    ],
+    "misp_uuid": "4e26b4ac-5530-428b-8694-3dd6d24ee286",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "asnark",
+        "confidence": "source-provided",
+        "display_group_key": "asnark",
+        "name": "Asnarök",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "asnark",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://news.sophos.com/en-us/2024/10/31/pacific-rim-neutralizing-china-based-threat",
+          "https://news.sophos.com/en-us/2024/10/31/pacific-rim-timeline"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://news.sophos.com/en-us/2024/10/31/pacific-rim-neutralizing-china-based-threat",
+              "https://news.sophos.com/en-us/2024/10/31/pacific-rim-timeline"
+            ]
+          }
+        ],
+        "variants": [
+          "Asnarök"
+        ]
+      },
+      {
+        "compact_normalized_name": "personalpanda",
+        "confidence": "source-provided",
+        "display_group_key": "personalpanda",
+        "name": "Personal Panda",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "personal panda",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://news.sophos.com/en-us/2024/10/31/pacific-rim-neutralizing-china-based-threat",
+          "https://news.sophos.com/en-us/2024/10/31/pacific-rim-timeline"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://news.sophos.com/en-us/2024/10/31/pacific-rim-neutralizing-china-based-threat",
+              "https://news.sophos.com/en-us/2024/10/31/pacific-rim-timeline"
+            ]
+          }
+        ],
+        "variants": [
+          "Personal Panda"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Asnarök is a threat actor that exploited CVE-2020-12271 and utilized command injection privilege escalation to gain root access to devices and install the Asnarök Trojan and demonstrated significant changes in TTPs, including the deployment of a web shell that did not reach out to external C2 for commands. X-Ops identified a patient-zero device linked to the attack and observed the use of an IC.sh script that stole local user account data. The actor's activities were linked to a broader pattern of malicious exploit research and targeted vulnerabilities disclosed by bug bounty researchers."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-4e26b4ac-5530-428b-8694-3dd6d24ee286",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://news.sophos.com/en-us/2024/10/31/pacific-rim-neutralizing-china-based-threat"
+      },
+      {
+        "actor_id": "misp-4e26b4ac-5530-428b-8694-3dd6d24ee286",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://news.sophos.com/en-us/2024/10/31/pacific-rim-timeline"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Asnarök",
+      "Personal Panda"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

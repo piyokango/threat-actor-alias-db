@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-8bd29f1a-ea33-49c2-a783-42cd2a193f83",
+    "canonical_name": "OverFlame",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-8bd29f1a-ea33-49c2-a783-42cd2a193f83"
+    ],
+    "misp_uuid": "8bd29f1a-ea33-49c2-a783-42cd2a193f83",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "overflame",
+        "confidence": "source-provided",
+        "display_group_key": "overflame",
+        "name": "OverFlame",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "overflame",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://socradar.io/biggest-education-industry-attacks-in-2024",
+          "https://www.scworld.com/brief/austria-subjected-to-pro-russian-ddos-intrusions"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://socradar.io/biggest-education-industry-attacks-in-2024",
+              "https://www.scworld.com/brief/austria-subjected-to-pro-russian-ddos-intrusions"
+            ]
+          }
+        ],
+        "variants": [
+          "OverFlame"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "OverFlame is a hacktivist group known for executing DDoS attacks and website defacements, primarily targeting government institutions and corporations in Europe and North America. The group has been involved in coordinated attacks alongside other pro-Russian threat actors, such as NoName057and the People’s Cyber Army, often motivated by anti-government and anti-corporate sentiments. OverFlame operates through underground forums and encrypted messaging platforms to coordinate attacks and recruit members. Their activities have included targeting financial services, political parties, and educational institutions, demonstrating a focus on disrupting critical infrastructure."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-8bd29f1a-ea33-49c2-a783-42cd2a193f83",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/biggest-education-industry-attacks-in-2024"
+      },
+      {
+        "actor_id": "misp-8bd29f1a-ea33-49c2-a783-42cd2a193f83",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.scworld.com/brief/austria-subjected-to-pro-russian-ddos-intrusions"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "OverFlame"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-c9ffcc82-f7ac-46ce-9ea2-91e51d14e11b",
+    "canonical_name": "Storm-1283",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-c9ffcc82-f7ac-46ce-9ea2-91e51d14e11b"
+    ],
+    "misp_uuid": "c9ffcc82-f7ac-46ce-9ea2-91e51d14e11b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "storm1283",
+        "confidence": "source-provided",
+        "display_group_key": "storm1283",
+        "name": "Storm-1283",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 1283",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.microsoft.com/en-us/security/blog/2023/12/12/threat-actors-misuse-oauth-applications-to-automate-financially-driven-attacks"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.microsoft.com/en-us/security/blog/2023/12/12/threat-actors-misuse-oauth-applications-to-automate-financially-driven-attacks"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-1283"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Storm-1283 is a threat actor that targeted Microsoft Azure cloud platform. They gained access to user accounts and created OAuth applications using stolen credentials, allowing them to control resources and deploy virtual machines for cryptomining. The targeted organizations incurred significant financial losses ranging from $10,000 to $1.5 million. Storm-1283 utilized compromised accounts and subscriptions to carry out their illicit activities."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-c9ffcc82-f7ac-46ce-9ea2-91e51d14e11b",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2023/12/12/threat-actors-misuse-oauth-applications-to-automate-financially-driven-attacks"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Storm-1283"
+    ],
+    "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

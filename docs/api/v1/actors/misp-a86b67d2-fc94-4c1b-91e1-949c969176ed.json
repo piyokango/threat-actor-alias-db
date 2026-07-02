@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-a86b67d2-fc94-4c1b-91e1-949c969176ed",
+    "canonical_name": "LulzSec Black",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-a86b67d2-fc94-4c1b-91e1-949c969176ed"
+    ],
+    "misp_uuid": "a86b67d2-fc94-4c1b-91e1-949c969176ed",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "lulzsecblack",
+        "confidence": "source-provided",
+        "display_group_key": "lulzsecblack",
+        "name": "LulzSec Black",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "lulzsec black",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://dailydarkweb.net/lulzsec-black-claims-cyberattacks-on-emirati-government-and-other-sector-targets"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://dailydarkweb.net/lulzsec-black-claims-cyberattacks-on-emirati-government-and-other-sector-targets"
+            ]
+          }
+        ],
+        "variants": [
+          "LulzSec Black"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "LulzSec Black is a hacktivist group that has claimed responsibility for coordinated DDoS attacks against Cyprus' government and critical infrastructure in response to the country's support for Israel. They have also announced cyberattacks targeting the UAE, including breaches of a government website and Alfa Electronics, asserting these actions are in support of Palestine. The group has indicated intentions for further attacks and has not provided independently verifiable evidence of their claims. Their operations reflect a focus on disrupting services and compromising data as part of their political agenda."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-a86b67d2-fc94-4c1b-91e1-949c969176ed",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://dailydarkweb.net/lulzsec-black-claims-cyberattacks-on-emirati-government-and-other-sector-targets"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "LulzSec Black"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

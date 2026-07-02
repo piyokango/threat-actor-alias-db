@@ -1,0 +1,574 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0017",
+    "canonical_name": "DragonOK",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0017"
+    ],
+    "misp_uuid": "a9b44750-992c-4743-8922-129880d277ea",
+    "mitre_id": "G0017",
+    "names": [
+      {
+        "compact_normalized_name": "dragonok",
+        "confidence": "source-provided",
+        "display_group_key": "dragonok",
+        "name": "DragonOK",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "dragonok",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0002",
+          "https://attack.mitre.org/groups/G0017",
+          "https://attack.mitre.org/wiki/Groups",
+          "https://github.com/m0n0ph1/APT_CyberCriminal_Campagin_Collections-1/blob/master/2017/2017.02.15.deep-dive-dragonok-rambo-backdoor/Deep%20Dive%20on%20the%20DragonOK%20Rambo%20Backdoor%20_%20Morphick%20Cyber%20Security.pdf",
+          "https://unit42.paloaltonetworks.com/atoms/shallowtaurus",
+          "https://unit42.paloaltonetworks.com/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets",
+          "https://unit42.paloaltonetworks.com/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions",
+          "https://www.cfr.org/interactive/cyber-operations/moafee",
+          "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+          "https://www.forcepoint.com/de/blog/x-labs/trojanized-adobe-installer-used-install-dragonok-s-new-custom-backdoor",
+          "https://www.phnompenhpost.com/national/kingdom-targeted-new-malware",
+          "https://www.secureworks.com/research/threat-profiles/bronze-overbrook"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0002",
+              "https://attack.mitre.org/groups/G0017",
+              "https://attack.mitre.org/wiki/Groups",
+              "https://github.com/m0n0ph1/APT_CyberCriminal_Campagin_Collections-1/blob/master/2017/2017.02.15.deep-dive-dragonok-rambo-backdoor/Deep%20Dive%20on%20the%20DragonOK%20Rambo%20Backdoor%20_%20Morphick%20Cyber%20Security.pdf",
+              "https://unit42.paloaltonetworks.com/atoms/shallowtaurus",
+              "https://unit42.paloaltonetworks.com/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets",
+              "https://unit42.paloaltonetworks.com/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions",
+              "https://www.cfr.org/interactive/cyber-operations/moafee",
+              "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+              "https://www.forcepoint.com/de/blog/x-labs/trojanized-adobe-installer-used-install-dragonok-s-new-custom-backdoor",
+              "https://www.phnompenhpost.com/national/kingdom-targeted-new-malware",
+              "https://www.secureworks.com/research/threat-profiles/bronze-overbrook"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0017"
+            ]
+          }
+        ],
+        "variants": [
+          "DragonOK"
+        ]
+      },
+      {
+        "compact_normalized_name": "bronzeoverbrook",
+        "confidence": "source-provided",
+        "display_group_key": "bronzeoverbrook",
+        "name": "BRONZE OVERBROOK",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "bronze overbrook",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0002",
+          "https://attack.mitre.org/groups/G0017",
+          "https://attack.mitre.org/wiki/Groups",
+          "https://github.com/m0n0ph1/APT_CyberCriminal_Campagin_Collections-1/blob/master/2017/2017.02.15.deep-dive-dragonok-rambo-backdoor/Deep%20Dive%20on%20the%20DragonOK%20Rambo%20Backdoor%20_%20Morphick%20Cyber%20Security.pdf",
+          "https://unit42.paloaltonetworks.com/atoms/shallowtaurus",
+          "https://unit42.paloaltonetworks.com/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets",
+          "https://unit42.paloaltonetworks.com/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions",
+          "https://www.cfr.org/interactive/cyber-operations/moafee",
+          "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+          "https://www.forcepoint.com/de/blog/x-labs/trojanized-adobe-installer-used-install-dragonok-s-new-custom-backdoor",
+          "https://www.phnompenhpost.com/national/kingdom-targeted-new-malware",
+          "https://www.secureworks.com/research/threat-profiles/bronze-overbrook"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0002",
+              "https://attack.mitre.org/groups/G0017",
+              "https://attack.mitre.org/wiki/Groups",
+              "https://github.com/m0n0ph1/APT_CyberCriminal_Campagin_Collections-1/blob/master/2017/2017.02.15.deep-dive-dragonok-rambo-backdoor/Deep%20Dive%20on%20the%20DragonOK%20Rambo%20Backdoor%20_%20Morphick%20Cyber%20Security.pdf",
+              "https://unit42.paloaltonetworks.com/atoms/shallowtaurus",
+              "https://unit42.paloaltonetworks.com/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets",
+              "https://unit42.paloaltonetworks.com/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions",
+              "https://www.cfr.org/interactive/cyber-operations/moafee",
+              "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+              "https://www.forcepoint.com/de/blog/x-labs/trojanized-adobe-installer-used-install-dragonok-s-new-custom-backdoor",
+              "https://www.phnompenhpost.com/national/kingdom-targeted-new-malware",
+              "https://www.secureworks.com/research/threat-profiles/bronze-overbrook"
+            ]
+          }
+        ],
+        "variants": [
+          "BRONZE OVERBROOK"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0002",
+        "confidence": "source-provided",
+        "display_group_key": "g0002",
+        "name": "G0002",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0002",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0002",
+          "https://attack.mitre.org/groups/G0017",
+          "https://attack.mitre.org/wiki/Groups",
+          "https://github.com/m0n0ph1/APT_CyberCriminal_Campagin_Collections-1/blob/master/2017/2017.02.15.deep-dive-dragonok-rambo-backdoor/Deep%20Dive%20on%20the%20DragonOK%20Rambo%20Backdoor%20_%20Morphick%20Cyber%20Security.pdf",
+          "https://unit42.paloaltonetworks.com/atoms/shallowtaurus",
+          "https://unit42.paloaltonetworks.com/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets",
+          "https://unit42.paloaltonetworks.com/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions",
+          "https://www.cfr.org/interactive/cyber-operations/moafee",
+          "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+          "https://www.forcepoint.com/de/blog/x-labs/trojanized-adobe-installer-used-install-dragonok-s-new-custom-backdoor",
+          "https://www.phnompenhpost.com/national/kingdom-targeted-new-malware",
+          "https://www.secureworks.com/research/threat-profiles/bronze-overbrook"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0002",
+              "https://attack.mitre.org/groups/G0017",
+              "https://attack.mitre.org/wiki/Groups",
+              "https://github.com/m0n0ph1/APT_CyberCriminal_Campagin_Collections-1/blob/master/2017/2017.02.15.deep-dive-dragonok-rambo-backdoor/Deep%20Dive%20on%20the%20DragonOK%20Rambo%20Backdoor%20_%20Morphick%20Cyber%20Security.pdf",
+              "https://unit42.paloaltonetworks.com/atoms/shallowtaurus",
+              "https://unit42.paloaltonetworks.com/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets",
+              "https://unit42.paloaltonetworks.com/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions",
+              "https://www.cfr.org/interactive/cyber-operations/moafee",
+              "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+              "https://www.forcepoint.com/de/blog/x-labs/trojanized-adobe-installer-used-install-dragonok-s-new-custom-backdoor",
+              "https://www.phnompenhpost.com/national/kingdom-targeted-new-malware",
+              "https://www.secureworks.com/research/threat-profiles/bronze-overbrook"
+            ]
+          }
+        ],
+        "variants": [
+          "G0002"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0017",
+        "confidence": "source-provided",
+        "display_group_key": "g0017",
+        "name": "G0017",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0017",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0002",
+          "https://attack.mitre.org/groups/G0017",
+          "https://attack.mitre.org/wiki/Groups",
+          "https://github.com/m0n0ph1/APT_CyberCriminal_Campagin_Collections-1/blob/master/2017/2017.02.15.deep-dive-dragonok-rambo-backdoor/Deep%20Dive%20on%20the%20DragonOK%20Rambo%20Backdoor%20_%20Morphick%20Cyber%20Security.pdf",
+          "https://unit42.paloaltonetworks.com/atoms/shallowtaurus",
+          "https://unit42.paloaltonetworks.com/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets",
+          "https://unit42.paloaltonetworks.com/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions",
+          "https://www.cfr.org/interactive/cyber-operations/moafee",
+          "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+          "https://www.forcepoint.com/de/blog/x-labs/trojanized-adobe-installer-used-install-dragonok-s-new-custom-backdoor",
+          "https://www.phnompenhpost.com/national/kingdom-targeted-new-malware",
+          "https://www.secureworks.com/research/threat-profiles/bronze-overbrook"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0002",
+              "https://attack.mitre.org/groups/G0017",
+              "https://attack.mitre.org/wiki/Groups",
+              "https://github.com/m0n0ph1/APT_CyberCriminal_Campagin_Collections-1/blob/master/2017/2017.02.15.deep-dive-dragonok-rambo-backdoor/Deep%20Dive%20on%20the%20DragonOK%20Rambo%20Backdoor%20_%20Morphick%20Cyber%20Security.pdf",
+              "https://unit42.paloaltonetworks.com/atoms/shallowtaurus",
+              "https://unit42.paloaltonetworks.com/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets",
+              "https://unit42.paloaltonetworks.com/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions",
+              "https://www.cfr.org/interactive/cyber-operations/moafee",
+              "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+              "https://www.forcepoint.com/de/blog/x-labs/trojanized-adobe-installer-used-install-dragonok-s-new-custom-backdoor",
+              "https://www.phnompenhpost.com/national/kingdom-targeted-new-malware",
+              "https://www.secureworks.com/research/threat-profiles/bronze-overbrook"
+            ]
+          }
+        ],
+        "variants": [
+          "G0017"
+        ]
+      },
+      {
+        "compact_normalized_name": "moafee",
+        "confidence": "source-provided",
+        "display_group_key": "moafee",
+        "name": "Moafee",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "moafee",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0002",
+          "https://attack.mitre.org/groups/G0017",
+          "https://attack.mitre.org/wiki/Groups",
+          "https://github.com/m0n0ph1/APT_CyberCriminal_Campagin_Collections-1/blob/master/2017/2017.02.15.deep-dive-dragonok-rambo-backdoor/Deep%20Dive%20on%20the%20DragonOK%20Rambo%20Backdoor%20_%20Morphick%20Cyber%20Security.pdf",
+          "https://unit42.paloaltonetworks.com/atoms/shallowtaurus",
+          "https://unit42.paloaltonetworks.com/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets",
+          "https://unit42.paloaltonetworks.com/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions",
+          "https://www.cfr.org/interactive/cyber-operations/moafee",
+          "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+          "https://www.forcepoint.com/de/blog/x-labs/trojanized-adobe-installer-used-install-dragonok-s-new-custom-backdoor",
+          "https://www.phnompenhpost.com/national/kingdom-targeted-new-malware",
+          "https://www.secureworks.com/research/threat-profiles/bronze-overbrook"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0002",
+              "https://attack.mitre.org/groups/G0017",
+              "https://attack.mitre.org/wiki/Groups",
+              "https://github.com/m0n0ph1/APT_CyberCriminal_Campagin_Collections-1/blob/master/2017/2017.02.15.deep-dive-dragonok-rambo-backdoor/Deep%20Dive%20on%20the%20DragonOK%20Rambo%20Backdoor%20_%20Morphick%20Cyber%20Security.pdf",
+              "https://unit42.paloaltonetworks.com/atoms/shallowtaurus",
+              "https://unit42.paloaltonetworks.com/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets",
+              "https://unit42.paloaltonetworks.com/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions",
+              "https://www.cfr.org/interactive/cyber-operations/moafee",
+              "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+              "https://www.forcepoint.com/de/blog/x-labs/trojanized-adobe-installer-used-install-dragonok-s-new-custom-backdoor",
+              "https://www.phnompenhpost.com/national/kingdom-targeted-new-malware",
+              "https://www.secureworks.com/research/threat-profiles/bronze-overbrook"
+            ]
+          }
+        ],
+        "variants": [
+          "Moafee"
+        ]
+      },
+      {
+        "compact_normalized_name": "shallowtaurus",
+        "confidence": "source-provided",
+        "display_group_key": "shallowtaurus",
+        "name": "Shallow Taurus",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "shallow taurus",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0002",
+          "https://attack.mitre.org/groups/G0017",
+          "https://attack.mitre.org/wiki/Groups",
+          "https://github.com/m0n0ph1/APT_CyberCriminal_Campagin_Collections-1/blob/master/2017/2017.02.15.deep-dive-dragonok-rambo-backdoor/Deep%20Dive%20on%20the%20DragonOK%20Rambo%20Backdoor%20_%20Morphick%20Cyber%20Security.pdf",
+          "https://unit42.paloaltonetworks.com/atoms/shallowtaurus",
+          "https://unit42.paloaltonetworks.com/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets",
+          "https://unit42.paloaltonetworks.com/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions",
+          "https://www.cfr.org/interactive/cyber-operations/moafee",
+          "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+          "https://www.forcepoint.com/de/blog/x-labs/trojanized-adobe-installer-used-install-dragonok-s-new-custom-backdoor",
+          "https://www.phnompenhpost.com/national/kingdom-targeted-new-malware",
+          "https://www.secureworks.com/research/threat-profiles/bronze-overbrook"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0002",
+              "https://attack.mitre.org/groups/G0017",
+              "https://attack.mitre.org/wiki/Groups",
+              "https://github.com/m0n0ph1/APT_CyberCriminal_Campagin_Collections-1/blob/master/2017/2017.02.15.deep-dive-dragonok-rambo-backdoor/Deep%20Dive%20on%20the%20DragonOK%20Rambo%20Backdoor%20_%20Morphick%20Cyber%20Security.pdf",
+              "https://unit42.paloaltonetworks.com/atoms/shallowtaurus",
+              "https://unit42.paloaltonetworks.com/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets",
+              "https://unit42.paloaltonetworks.com/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions",
+              "https://www.cfr.org/interactive/cyber-operations/moafee",
+              "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+              "https://www.forcepoint.com/de/blog/x-labs/trojanized-adobe-installer-used-install-dragonok-s-new-custom-backdoor",
+              "https://www.phnompenhpost.com/national/kingdom-targeted-new-malware",
+              "https://www.secureworks.com/research/threat-profiles/bronze-overbrook"
+            ]
+          }
+        ],
+        "variants": [
+          "Shallow Taurus"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0017/"
+          ]
+        }
+      ],
+      "text": "DragonOK is a threat group that has targeted Japanese organizations with phishing emails. Due to overlapping TTPs, including similar custom tools, DragonOK is thought to have a direct or indirect relationship with the threat group Moafee. (Citation: Operation Quantum Entanglement) It is known to use a variety of malware, including Sysget/HelloBridge, PlugX, PoisonIvy, FormerFirstRat, NFlog, and NewCT. (Citation: New DragonOK)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0017",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "http://researchcenter.paloaltonetworks.com/2015/04/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets"
+      },
+      {
+        "actor_id": "mitre-g0017",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0002"
+      },
+      {
+        "actor_id": "mitre-g0017",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0017"
+      },
+      {
+        "actor_id": "mitre-g0017",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/wiki/Groups"
+      },
+      {
+        "actor_id": "mitre-g0017",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://github.com/m0n0ph1/APT_CyberCriminal_Campagin_Collections-1/blob/master/2017/2017.02.15.deep-dive-dragonok-rambo-backdoor/Deep%20Dive%20on%20the%20DragonOK%20Rambo%20Backdoor%20_%20Morphick%20Cyber%20Security.pdf"
+      },
+      {
+        "actor_id": "mitre-g0017",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/atoms/shallowtaurus"
+      },
+      {
+        "actor_id": "mitre-g0017",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets"
+      },
+      {
+        "actor_id": "mitre-g0017",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions"
+      },
+      {
+        "actor_id": "mitre-g0017",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20210920193513/https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf"
+      },
+      {
+        "actor_id": "mitre-g0017",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/moafee"
+      },
+      {
+        "actor_id": "mitre-g0017",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf"
+      },
+      {
+        "actor_id": "mitre-g0017",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.forcepoint.com/de/blog/x-labs/trojanized-adobe-installer-used-install-dragonok-s-new-custom-backdoor"
+      },
+      {
+        "actor_id": "mitre-g0017",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.phnompenhpost.com/national/kingdom-targeted-new-malware"
+      },
+      {
+        "actor_id": "mitre-g0017",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/research/threat-profiles/bronze-overbrook"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "BRONZE OVERBROOK",
+      "DragonOK",
+      "G0002",
+      "G0017",
+      "Moafee",
+      "Shallow Taurus"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

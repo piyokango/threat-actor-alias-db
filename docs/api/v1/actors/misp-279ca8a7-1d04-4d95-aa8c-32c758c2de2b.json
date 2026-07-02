@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-279ca8a7-1d04-4d95-aa8c-32c758c2de2b",
+    "canonical_name": "UTG-Q-010",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-279ca8a7-1d04-4d95-aa8c-32c758c2de2b"
+    ],
+    "misp_uuid": "279ca8a7-1d04-4d95-aa8c-32c758c2de2b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "utgq010",
+        "confidence": "source-provided",
+        "display_group_key": "utgq010",
+        "name": "UTG-Q-010",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "utg q 010",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cyble.com/blog/analysing-the-utg-q-010-campaign"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cyble.com/blog/analysing-the-utg-q-010-campaign"
+            ]
+          }
+        ],
+        "variants": [
+          "UTG-Q-010"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UTG-Q-010 is a financially motivated APT group from East Asia that has been active since late 2022, primarily targeting the pharmaceutical industry and cryptocurrency enthusiasts. They exploit legitimate Windows processes, such as \"WerFault.exe,\" to sideload malicious DLLs like \"faultrep.dll\" and employ sophisticated phishing campaigns to deliver malware disguised as enticing content. Their recent campaigns have involved the use of the Pupy RAT and advanced defense evasion techniques, including in-memory execution and reflective DLL loading. UTG-Q-010's strategic focus on HR departments and the cryptocurrency sector highlights their understanding of target vulnerabilities and their ability..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-279ca8a7-1d04-4d95-aa8c-32c758c2de2b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cyble.com/blog/analysing-the-utg-q-010-campaign"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "UTG-Q-010"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

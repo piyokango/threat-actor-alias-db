@@ -1,0 +1,117 @@
+{
+  "actor": {
+    "actor_id": "misp-d7f0d2a8-9329-11e9-851e-dbfc1c517e4e",
+    "canonical_name": "Hacking Team",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-d7f0d2a8-9329-11e9-851e-dbfc1c517e4e"
+    ],
+    "misp_uuid": "d7f0d2a8-9329-11e9-851e-dbfc1c517e4e",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "hackingteam",
+        "confidence": "source-provided",
+        "display_group_key": "hackingteam",
+        "name": "Hacking Team",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "hacking team",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Hacking_Team",
+          "https://www.vice.com/en_us/article/gvye3m/spy-tech-company-hacking-team-gets-hacked",
+          "https://www.welivesecurity.com/2018/03/09/new-traces-hacking-team-wild"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Hacking_Team",
+              "https://www.vice.com/en_us/article/gvye3m/spy-tech-company-hacking-team-gets-hacked",
+              "https://www.welivesecurity.com/2018/03/09/new-traces-hacking-team-wild"
+            ]
+          }
+        ],
+        "variants": [
+          "Hacking Team"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "The many 0-days that had been collected by Hacking Team and which became publicly available during the breach of their organization in 2015, have been used by several APT groups since. Since being founded in 2003, the Italian spyware vendor Hacking Team gained notoriety for selling surveillance tools to governments and their agencies across the world. The capabilities of its flagship product, the Remote Control System (RCS), include extracting files from a targeted device, intercepting emails and instant messaging, as well as remotely activating a device’s webcam and microphone. The company has been criticized for selling these capabilities to authoritarian governments – an allegation it..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-d7f0d2a8-9329-11e9-851e-dbfc1c517e4e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Hacking_Team"
+      },
+      {
+        "actor_id": "misp-d7f0d2a8-9329-11e9-851e-dbfc1c517e4e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.vice.com/en_us/article/gvye3m/spy-tech-company-hacking-team-gets-hacked"
+      },
+      {
+        "actor_id": "misp-d7f0d2a8-9329-11e9-851e-dbfc1c517e4e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.welivesecurity.com/2018/03/09/new-traces-hacking-team-wild"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Hacking Team"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

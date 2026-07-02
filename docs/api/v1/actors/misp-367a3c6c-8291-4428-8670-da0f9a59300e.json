@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-367a3c6c-8291-4428-8670-da0f9a59300e",
+    "canonical_name": "UAT-10362",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-367a3c6c-8291-4428-8670-da0f9a59300e"
+    ],
+    "misp_uuid": "367a3c6c-8291-4428-8670-da0f9a59300e",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "uat10362",
+        "confidence": "source-provided",
+        "display_group_key": "uat10362",
+        "name": "UAT-10362",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uat 10362",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.talosintelligence.com/new-lua-based-malware-lucidrook"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/new-lua-based-malware-lucidrook"
+            ]
+          }
+        ],
+        "variants": [
+          "UAT-10362"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UAT-10362 is a threat actor identified by Cisco Talos, conducting spear-phishing campaigns targeting Taiwanese NGOs and suspected universities to deploy the malware \"LucidRook.\" The malware features a multi-language modular design, layered anti-analysis capabilities, and stealth-focused payload handling. UAT-10362's operations rely on compromised or public infrastructure, indicating a mature level of operational tradecraft."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-367a3c6c-8291-4428-8670-da0f9a59300e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/new-lua-based-malware-lucidrook"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "UAT-10362"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

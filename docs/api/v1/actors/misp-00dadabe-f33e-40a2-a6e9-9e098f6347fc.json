@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-00dadabe-f33e-40a2-a6e9-9e098f6347fc",
+    "canonical_name": "SHADOW-WATER-063",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-00dadabe-f33e-40a2-a6e9-9e098f6347fc"
+    ],
+    "misp_uuid": "00dadabe-f33e-40a2-a6e9-9e098f6347fc",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "shadowwater063",
+        "confidence": "source-provided",
+        "display_group_key": "shadowwater063",
+        "name": "SHADOW-WATER-063",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "shadow water 063",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.trendmicro.com/en_us/research/26/e/banana-rat.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.trendmicro.com/en_us/research/26/e/banana-rat.html"
+            ]
+          }
+        ],
+        "variants": [
+          "SHADOW-WATER-063"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "SHADOW-WATER-063 is a financially motivated threat actor attributed to the Banana RAT banking trojan, primarily targeting Brazilian financial accounts. Analysis of recovered artifacts, including a Python panel and PowerShell stagers, supports a moderate-confidence attribution assessment. The actor's infrastructure and endpoint telemetry indicate a focus on executing fraudulent transactions. Key evidentiary pillars establish their intent to exploit Brazilian financial systems."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-00dadabe-f33e-40a2-a6e9-9e098f6347fc",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/26/e/banana-rat.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "BR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "BR"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "BR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "BR"
+        }
+      ]
+    },
+    "search_names": [
+      "SHADOW-WATER-063"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

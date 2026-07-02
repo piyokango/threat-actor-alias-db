@@ -1,0 +1,127 @@
+{
+  "actor": {
+    "actor_id": "misp-ae121063-3960-4834-90d7-66aad69c5e8b",
+    "canonical_name": "OUTLAW SPIDER",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-ae121063-3960-4834-90d7-66aad69c5e8b"
+    ],
+    "misp_uuid": "ae121063-3960-4834-90d7-66aad69c5e8b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "outlawspider",
+        "confidence": "source-provided",
+        "display_group_key": "outlawspider",
+        "name": "OUTLAW SPIDER",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "outlaw spider",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeServicesCyberFrontLines.pdf",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2021GTR.pdf",
+          "https://statescoop.com/baltimore-ransomware-crowdstrike-extortion",
+          "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeServicesCyberFrontLines.pdf",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2021GTR.pdf",
+              "https://statescoop.com/baltimore-ransomware-crowdstrike-extortion",
+              "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1"
+            ]
+          }
+        ],
+        "variants": [
+          "OUTLAW SPIDER"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "On May 7, 2019, Mayor Bernard “Jack” Young confirmed that the network for the U.S. City of Baltimore (CoB) was infected with ransomware, which was announced via Twitter1. This infection was later confirmed to be conducted by OUTLAW SPIDER, which is the actor behind the RobbinHood ransomware. The actor demanded to be paid 3 BTC (approximately $17,600 USD at the time) per infected system, or 13 BTC (approximately $76,500 USD at the time) for all infected systems to recover the city’s files."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-ae121063-3960-4834-90d7-66aad69c5e8b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeServicesCyberFrontLines.pdf"
+      },
+      {
+        "actor_id": "misp-ae121063-3960-4834-90d7-66aad69c5e8b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2021GTR.pdf"
+      },
+      {
+        "actor_id": "misp-ae121063-3960-4834-90d7-66aad69c5e8b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://statescoop.com/baltimore-ransomware-crowdstrike-extortion"
+      },
+      {
+        "actor_id": "misp-ae121063-3960-4834-90d7-66aad69c5e8b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "OUTLAW SPIDER"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

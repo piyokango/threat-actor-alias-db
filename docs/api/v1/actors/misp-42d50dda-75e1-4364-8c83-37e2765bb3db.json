@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-42d50dda-75e1-4364-8c83-37e2765bb3db",
+    "canonical_name": "Altoufan Team",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-42d50dda-75e1-4364-8c83-37e2765bb3db"
+    ],
+    "misp_uuid": "42d50dda-75e1-4364-8c83-37e2765bb3db",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "altoufanteam",
+        "confidence": "source-provided",
+        "display_group_key": "altoufanteam",
+        "name": "Altoufan Team",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "altoufan team",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.cyble.com/2023/02/16/altoufan-team-targets-the-middle-east"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.cyble.com/2023/02/16/altoufan-team-targets-the-middle-east"
+            ]
+          }
+        ],
+        "variants": [
+          "Altoufan Team"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "ALTOUFAN TEAM is a politically motivated hacktivist group with anti-Zionism, anti-monarchy, and pro-14-February movement sentiments. They have targeted government agencies and organizations in Bahrain and Israel, claiming to support political causes in the region. The group has employed techniques such as credential theft to compromise systems, as demonstrated by their attack on Bahrain's Social Insurance Organization. ALTOUFAN maintains a presence on social media platforms to disseminate their messages and showcase their activities."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-42d50dda-75e1-4364-8c83-37e2765bb3db",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.cyble.com/2023/02/16/altoufan-team-targets-the-middle-east"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Altoufan Team"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-75714cef-0265-4944-84c6-f66aec01994d",
+    "canonical_name": "HexagonalRodent",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-75714cef-0265-4944-84c6-f66aec01994d"
+    ],
+    "misp_uuid": "75714cef-0265-4944-84c6-f66aec01994d",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "hexagonalrodent",
+        "confidence": "source-provided",
+        "display_group_key": "hexagonalrodent",
+        "name": "HexagonalRodent",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "hexagonalrodent",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://expel.com/blog/inside-lazarus-how-north-korea-uses-ai-to-industrialize-attacks-on-developers"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://expel.com/blog/inside-lazarus-how-north-korea-uses-ai-to-industrialize-attacks-on-developers"
+            ]
+          }
+        ],
+        "variants": [
+          "HexagonalRodent"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "HexagonalRodent targets Web3 developers to steal crypto assets, employing social engineering tactics such as fake job offers. They utilize malware like BeaverTail and OtterCookie, both NodeJS-based toolkits, and InvisibleFerret, a Python-based RAT, to execute their attacks. Their TTPs include backdooring skills assessments via VSCode's tasks.json feature and conducting opportunistic exfiltration of credentials and crypto wallets. The group has also engaged in a supply chain attack, compromising the 'fast-draft' VSX extension to install malware."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-75714cef-0265-4944-84c6-f66aec01994d",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://expel.com/blog/inside-lazarus-how-north-korea-uses-ai-to-industrialize-attacks-on-developers"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "HexagonalRodent"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

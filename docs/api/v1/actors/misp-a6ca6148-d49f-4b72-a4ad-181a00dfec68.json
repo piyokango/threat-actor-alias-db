@@ -1,0 +1,186 @@
+{
+  "actor": {
+    "actor_id": "misp-a6ca6148-d49f-4b72-a4ad-181a00dfec68",
+    "canonical_name": "Angry Likho",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-a6ca6148-d49f-4b72-a4ad-181a00dfec68"
+    ],
+    "misp_uuid": "a6ca6148-d49f-4b72-a4ad-181a00dfec68",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "angrylikho",
+        "confidence": "source-provided",
+        "display_group_key": "angrylikho",
+        "name": "Angry Likho",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "angry likho",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/angry-likho-apt-attacks-with-lumma-stealer/115663",
+          "https://www.morphisec.com/blog/sticky-werewolfs-aviation-attacks"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/angry-likho-apt-attacks-with-lumma-stealer/115663",
+              "https://www.morphisec.com/blog/sticky-werewolfs-aviation-attacks"
+            ]
+          }
+        ],
+        "variants": [
+          "Angry Likho"
+        ]
+      },
+      {
+        "compact_normalized_name": "stickywerewolf",
+        "confidence": "source-provided",
+        "display_group_key": "stickywerewolf",
+        "name": "Sticky Werewolf",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "sticky werewolf",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/angry-likho-apt-attacks-with-lumma-stealer/115663",
+          "https://www.morphisec.com/blog/sticky-werewolfs-aviation-attacks"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/angry-likho-apt-attacks-with-lumma-stealer/115663",
+              "https://www.morphisec.com/blog/sticky-werewolfs-aviation-attacks"
+            ]
+          }
+        ],
+        "variants": [
+          "Sticky Werewolf"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Angry Likho is an APT group that has been active since 2023, primarily targeting large organizations and government agencies in Russia and Belarus. Their attacks typically involve spear-phishing emails with malicious attachments, such as RAR archives, and utilize a known payload, the Lumma stealer, for data exfiltration. The group employs a compact infrastructure and has been linked to espionage activities, particularly in sectors like aviation and pharmaceuticals. Their operations have shown a focus on collecting sensitive information, including cryptowallet files and user credentials."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-a6ca6148-d49f-4b72-a4ad-181a00dfec68",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/angry-likho-apt-attacks-with-lumma-stealer/115663"
+      },
+      {
+        "actor_id": "misp-a6ca6148-d49f-4b72-a4ad-181a00dfec68",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.morphisec.com/blog/sticky-werewolfs-aviation-attacks"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "Angry Likho",
+      "Sticky Werewolf"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

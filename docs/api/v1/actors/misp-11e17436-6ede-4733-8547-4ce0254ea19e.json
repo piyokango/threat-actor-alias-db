@@ -1,0 +1,186 @@
+{
+  "actor": {
+    "actor_id": "misp-11e17436-6ede-4733-8547-4ce0254ea19e",
+    "canonical_name": "Cutting Kitten",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-11e17436-6ede-4733-8547-4ce0254ea19e"
+    ],
+    "misp_uuid": "11e17436-6ede-4733-8547-4ce0254ea19e",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "cuttingkitten",
+        "confidence": "source-provided",
+        "display_group_key": "cuttingkitten",
+        "name": "Cutting Kitten",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cutting kitten",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.cfr.org/interactive/cyber-operations/itsecteam",
+          "https://www.justice.gov/usao-sdny/file/835061/download"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.cfr.org/interactive/cyber-operations/itsecteam",
+              "https://www.justice.gov/usao-sdny/file/835061/download"
+            ]
+          }
+        ],
+        "variants": [
+          "Cutting Kitten"
+        ]
+      },
+      {
+        "compact_normalized_name": "itsecteam",
+        "confidence": "source-provided",
+        "display_group_key": "itsecteam",
+        "name": "ITsecTeam",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "itsecteam",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.cfr.org/interactive/cyber-operations/itsecteam",
+          "https://www.justice.gov/usao-sdny/file/835061/download"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.cfr.org/interactive/cyber-operations/itsecteam",
+              "https://www.justice.gov/usao-sdny/file/835061/download"
+            ]
+          }
+        ],
+        "variants": [
+          "ITsecTeam"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "One of the threat actors responsible for the denial of service attacks against U.S in 2012–2013. Three individuals associated with the group—believed to be have been working on behalf of Iran’s Islamic Revolutionary Guard Corps—were indicted by the Justice Department in 2016."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-11e17436-6ede-4733-8547-4ce0254ea19e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/itsecteam"
+      },
+      {
+        "actor_id": "misp-11e17436-6ede-4733-8547-4ce0254ea19e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.justice.gov/usao-sdny/file/835061/download"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ]
+    },
+    "search_names": [
+      "Cutting Kitten",
+      "ITsecTeam"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

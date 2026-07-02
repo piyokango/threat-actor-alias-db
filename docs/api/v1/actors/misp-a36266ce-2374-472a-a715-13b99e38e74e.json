@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-a36266ce-2374-472a-a715-13b99e38e74e",
+    "canonical_name": "Water Curupira",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-a36266ce-2374-472a-a715-13b99e38e74e"
+    ],
+    "misp_uuid": "a36266ce-2374-472a-a715-13b99e38e74e",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "watercurupira",
+        "confidence": "source-provided",
+        "display_group_key": "watercurupira",
+        "name": "Water Curupira",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "water curupira",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.trendmicro.com/en_us/research/24/a/a-look-into-pikabot-spam-wave-campaign.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.trendmicro.com/en_us/research/24/a/a-look-into-pikabot-spam-wave-campaign.html"
+            ]
+          }
+        ],
+        "variants": [
+          "Water Curupira"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "With its emergence in 2022, Water Curupira has established itself as a persistent threat actor targeting organizations primarily in South America and Europe. Their modus operandi involves a combination of social engineering tactics and a diversified malware arsenal, including ransomware variants like Black Basta and credential stealers like Cobalt Strike. This multifaceted approach enables them to gain unauthorized access to victim systems, steal sensitive data, and ultimately extort victims through ransomware demands. It has been actively using Pikabot, a loader malware with similarities to Qakbot, in spam campaigns throughout 2023."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-a36266ce-2374-472a-a715-13b99e38e74e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/24/a/a-look-into-pikabot-spam-wave-campaign.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Water Curupira"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

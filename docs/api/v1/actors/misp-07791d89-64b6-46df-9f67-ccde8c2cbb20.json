@@ -1,0 +1,159 @@
+{
+  "actor": {
+    "actor_id": "misp-07791d89-64b6-46df-9f67-ccde8c2cbb20",
+    "canonical_name": "ShaggyPanther",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-07791d89-64b6-46df-9f67-ccde8c2cbb20"
+    ],
+    "misp_uuid": "07791d89-64b6-46df-9f67-ccde8c2cbb20",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "shaggypanther",
+        "confidence": "source-provided",
+        "display_group_key": "shaggypanther",
+        "name": "ShaggyPanther",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "shaggypanther",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/apt-review-of-the-year/89117",
+          "https://securelist.com/apt-trends-report-q3-2019/94530",
+          "https://securelist.com/ksb-2019-review-of-the-year/95394"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/apt-review-of-the-year/89117",
+              "https://securelist.com/apt-trends-report-q3-2019/94530",
+              "https://securelist.com/ksb-2019-review-of-the-year/95394"
+            ]
+          }
+        ],
+        "variants": [
+          "ShaggyPanther"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "ShaggyPanther is a threat actor that primarily targets government entities in Taiwan and Malaysia. They have been active since 2008 and utilize hidden encrypted payloads in registry keys. Their activities have been detected in various locations, including Indonesia and Syria."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-07791d89-64b6-46df-9f67-ccde8c2cbb20",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/apt-review-of-the-year/89117"
+      },
+      {
+        "actor_id": "misp-07791d89-64b6-46df-9f67-ccde8c2cbb20",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/apt-trends-report-q3-2019/94530"
+      },
+      {
+        "actor_id": "misp-07791d89-64b6-46df-9f67-ccde8c2cbb20",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/ksb-2019-review-of-the-year/95394"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "ShaggyPanther"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

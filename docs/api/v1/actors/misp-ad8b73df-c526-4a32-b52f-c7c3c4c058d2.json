@@ -1,0 +1,159 @@
+{
+  "actor": {
+    "actor_id": "misp-ad8b73df-c526-4a32-b52f-c7c3c4c058d2",
+    "canonical_name": "OldGremlin",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-ad8b73df-c526-4a32-b52f-c7c3c4c058d2"
+    ],
+    "misp_uuid": "ad8b73df-c526-4a32-b52f-c7c3c4c058d2",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "oldgremlin",
+        "confidence": "source-provided",
+        "display_group_key": "oldgremlin",
+        "name": "OldGremlin",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "oldgremlin",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.group-ib.com/blog/oldgremlin-comeback",
+          "https://www.group-ib.com/media-center/press-releases/oldgremlin",
+          "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-new-ransomware-actor-oldgremlin-hits-multiple-organizations"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.group-ib.com/blog/oldgremlin-comeback",
+              "https://www.group-ib.com/media-center/press-releases/oldgremlin",
+              "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-new-ransomware-actor-oldgremlin-hits-multiple-organizations"
+            ]
+          }
+        ],
+        "variants": [
+          "OldGremlin"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "OldGremlin is a Russian-speaking ransomware group that has been active for several years. They primarily target organizations in Russia, including banks, logistics, industrial, insurance, retail, and IT companies. OldGremlin is known for using phishing emails as an initial infection vector and has developed custom malware for both Windows and Linux systems. They have conducted multiple malicious email campaigns and demand large ransoms from their victims, with some reaching millions of dollars."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-ad8b73df-c526-4a32-b52f-c7c3c4c058d2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.group-ib.com/blog/oldgremlin-comeback"
+      },
+      {
+        "actor_id": "misp-ad8b73df-c526-4a32-b52f-c7c3c4c058d2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.group-ib.com/media-center/press-releases/oldgremlin"
+      },
+      {
+        "actor_id": "misp-ad8b73df-c526-4a32-b52f-c7c3c4c058d2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-new-ransomware-actor-oldgremlin-hits-multiple-organizations"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "OldGremlin"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

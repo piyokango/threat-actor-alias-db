@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-d35a871f-402b-4a0e-a702-04e886abe883",
+    "canonical_name": "GopherWhisper",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-d35a871f-402b-4a0e-a702-04e886abe883"
+    ],
+    "misp_uuid": "d35a871f-402b-4a0e-a702-04e886abe883",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "gopherwhisper",
+        "confidence": "source-provided",
+        "display_group_key": "gopherwhisper",
+        "name": "GopherWhisper",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "gopherwhisper",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://web-assets.esetstatic.com/wls/en/papers/white-papers/gopherwhisper-burrow-full-malware.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://web-assets.esetstatic.com/wls/en/papers/white-papers/gopherwhisper-burrow-full-malware.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "GopherWhisper"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "GopherWhisper is a China-aligned APT that routes C2 traffic through legitimate enterprise platforms like Slack, Discord, and Microsoft 365 Outlook to evade detection. Its toolkit includes the LaxGopher backdoor for Slack, RatGopher for Discord, and CompactGopher for data exfiltration via file.io. The group employs DLL side-loading via JabGopher and uses raw OpenSSL socket C2 on port 443 with the SSLORDoor backdoor. GopherWhisper has targeted Mongolian government entities and is assessed to have additional unidentified victims in Central Asia."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-d35a871f-402b-4a0e-a702-04e886abe883",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web-assets.esetstatic.com/wls/en/papers/white-papers/gopherwhisper-burrow-full-malware.pdf"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "GopherWhisper"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

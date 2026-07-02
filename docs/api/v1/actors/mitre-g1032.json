@@ -1,0 +1,1003 @@
+{
+  "actor": {
+    "actor_id": "mitre-g1032",
+    "canonical_name": "INC Ransom",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g1032"
+    ],
+    "misp_uuid": null,
+    "mitre_id": "G1032",
+    "names": [
+      {
+        "compact_normalized_name": "incransom",
+        "confidence": "source-provided",
+        "display_group_key": "incransom",
+        "name": "INC Ransom",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "inc ransom",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1032"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1032"
+            ]
+          }
+        ],
+        "variants": [
+          "INC Ransom"
+        ]
+      },
+      {
+        "compact_normalized_name": "goldionic",
+        "confidence": "source-provided",
+        "display_group_key": "goldionic",
+        "name": "GOLD IONIC",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "gold ionic",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1032"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1032"
+            ]
+          }
+        ],
+        "variants": [
+          "GOLD IONIC"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g1032",
+          "name": "Network Service Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://socradar.io/dark-web-profile-inc-ransom/",
+            "https://www.sentinelone.com/anthology/inc-ransom/"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1046",
+          "url": "https://attack.mitre.org/techniques/T1046/"
+        },
+        {
+          "actor_id": "mitre-g1032",
+          "name": "System Network Connections Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://socradar.io/dark-web-profile-inc-ransom/"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1049",
+          "url": "https://attack.mitre.org/techniques/T1049/"
+        },
+        {
+          "actor_id": "mitre-g1032",
+          "name": "Domain Groups",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1069.002",
+          "url": "https://attack.mitre.org/techniques/T1069.002/"
+        },
+        {
+          "actor_id": "mitre-g1032",
+          "name": "Domain Account",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://socradar.io/dark-web-profile-inc-ransom/"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1087.002",
+          "url": "https://attack.mitre.org/techniques/T1087.002/"
+        },
+        {
+          "actor_id": "mitre-g1032",
+          "name": "Network Share Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1135",
+          "url": "https://attack.mitre.org/techniques/T1135/"
+        },
+        {
+          "actor_id": "mitre-g1032",
+          "name": "Match Legitimate Resource Name or Location",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://socradar.io/dark-web-profile-inc-ransom/",
+            "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036.005/"
+        },
+        {
+          "actor_id": "mitre-g1032",
+          "name": "Windows Management Instrumentation",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://socradar.io/dark-web-profile-inc-ransom/",
+            "https://www.cybereason.com/hubfs/dam/collateral/reports/threat-alert-inc-ransomware.pdf",
+            "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1047",
+          "url": "https://attack.mitre.org/techniques/T1047/"
+        },
+        {
+          "actor_id": "mitre-g1032",
+          "name": "Windows Command Shell",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.003",
+          "url": "https://attack.mitre.org/techniques/T1059.003/"
+        },
+        {
+          "actor_id": "mitre-g1032",
+          "name": "File Deletion",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.huntress.com/blog/lolbin-to-inc-ransomware"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1070.004",
+          "url": "https://attack.mitre.org/techniques/T1070.004/"
+        },
+        {
+          "actor_id": "mitre-g1032",
+          "name": "Application Layer Protocol",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1071",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        },
+        {
+          "actor_id": "mitre-g1032",
+          "name": "Valid Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://socradar.io/dark-web-profile-inc-ransom/",
+            "https://www.cybereason.com/hubfs/dam/collateral/reports/threat-alert-inc-ransomware.pdf",
+            "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity",
+            "https://www.huntress.com/blog/lolbin-to-inc-ransomware"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "actor_id": "mitre-g1032",
+          "name": "Ingress Tool Transfer",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity",
+            "https://www.huntress.com/blog/lolbin-to-inc-ransomware"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1105",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Network Service Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.sentinelone.com/anthology/inc-ransom/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1046",
+              "url": "https://attack.mitre.org/techniques/T1046/"
+            },
+            {
+              "actor_id": "mitre-g1032",
+              "name": "System Network Connections Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1049",
+              "url": "https://attack.mitre.org/techniques/T1049/"
+            },
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Domain Groups",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1069.002",
+              "url": "https://attack.mitre.org/techniques/T1069.002/"
+            },
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Domain Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1087.002",
+              "url": "https://attack.mitre.org/techniques/T1087.002/"
+            },
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Network Share Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1135",
+              "url": "https://attack.mitre.org/techniques/T1135/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Application Layer Protocol",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071",
+              "url": "https://attack.mitre.org/techniques/T1071/"
+            },
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity",
+                "https://www.huntress.com/blog/lolbin-to-inc-ransomware"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            },
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Remote Access Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity",
+                "https://www.huntress.com/blog/lolbin-to-inc-ransomware",
+                "https://www.sentinelone.com/anthology/inc-ransom/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1219",
+              "url": "https://attack.mitre.org/techniques/T1219/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Windows Management Instrumentation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.cybereason.com/hubfs/dam/collateral/reports/threat-alert-inc-ransomware.pdf",
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1047",
+              "url": "https://attack.mitre.org/techniques/T1047/"
+            },
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Windows Command Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.003",
+              "url": "https://attack.mitre.org/techniques/T1059.003/"
+            },
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Service Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1569.002",
+              "url": "https://attack.mitre.org/techniques/T1569.002/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.cybereason.com/hubfs/dam/collateral/reports/threat-alert-inc-ransomware.pdf",
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity",
+                "https://www.huntress.com/blog/lolbin-to-inc-ransomware"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Exploit Public-Facing Application",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.sentinelone.com/anthology/inc-ransom/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1190",
+              "url": "https://attack.mitre.org/techniques/T1190/"
+            },
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Phishing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.sentinelone.com/anthology/inc-ransom/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566",
+              "url": "https://attack.mitre.org/techniques/T1566/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Match Legitimate Resource Name or Location",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.005",
+              "url": "https://attack.mitre.org/techniques/T1036.005/"
+            },
+            {
+              "actor_id": "mitre-g1032",
+              "name": "File Deletion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntress.com/blog/lolbin-to-inc-ransomware"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.004",
+              "url": "https://attack.mitre.org/techniques/T1070.004/"
+            },
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.cybereason.com/hubfs/dam/collateral/reports/threat-alert-inc-ransomware.pdf",
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity",
+                "https://www.huntress.com/blog/lolbin-to-inc-ransomware"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Data Staged",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1074",
+              "url": "https://attack.mitre.org/techniques/T1074/"
+            },
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Archive via Utility",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity",
+                "https://www.huntress.com/blog/lolbin-to-inc-ransomware",
+                "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1560.001",
+              "url": "https://attack.mitre.org/techniques/T1560.001/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Data Encrypted for Impact",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.bleepingcomputer.com/news/security/inc-ransom-threatens-to-leak-3tb-of-nhs-scotland-stolen-data/",
+                "https://www.cybereason.com/hubfs/dam/collateral/reports/threat-alert-inc-ransomware.pdf",
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity",
+                "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware",
+                "https://www.sentinelone.com/anthology/inc-ransom/"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1486",
+              "url": "https://attack.mitre.org/techniques/T1486/"
+            },
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Financial Theft",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.bleepingcomputer.com/news/security/inc-ransom-threatens-to-leak-3tb-of-nhs-scotland-stolen-data/",
+                "https://www.cybereason.com/hubfs/dam/collateral/reports/threat-alert-inc-ransomware.pdf",
+                "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware",
+                "https://www.sentinelone.com/anthology/inc-ransom/"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1657",
+              "url": "https://attack.mitre.org/techniques/T1657/"
+            }
+          ],
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Remote Desktop Protocol",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.cybereason.com/hubfs/dam/collateral/reports/threat-alert-inc-ransomware.pdf",
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity",
+                "https://www.huntress.com/blog/lolbin-to-inc-ransomware"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.001",
+              "url": "https://attack.mitre.org/techniques/T1021.001/"
+            },
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Lateral Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity",
+                "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1570",
+              "url": "https://attack.mitre.org/techniques/T1570/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Disable or Modify Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntress.com/blog/lolbin-to-inc-ransomware"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1685",
+              "url": "https://attack.mitre.org/techniques/T1685/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Transfer Data to Cloud Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1537",
+              "url": "https://attack.mitre.org/techniques/T1537/"
+            }
+          ],
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.cybereason.com/hubfs/dam/collateral/reports/threat-alert-inc-ransomware.pdf",
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity",
+                "https://www.huntress.com/blog/lolbin-to-inc-ransomware"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.cybereason.com/hubfs/dam/collateral/reports/threat-alert-inc-ransomware.pdf",
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity",
+                "https://www.huntress.com/blog/lolbin-to-inc-ransomware"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1032",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://socradar.io/dark-web-profile-inc-ransom/",
+                "https://www.cybereason.com/hubfs/dam/collateral/reports/threat-alert-inc-ransomware.pdf",
+                "https://www.huntress.com/blog/investigating-new-inc-ransom-group-activity",
+                "https://www.huntress.com/blog/lolbin-to-inc-ransomware",
+                "https://www.sentinelone.com/anthology/inc-ransom/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 5,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 3,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 3,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 3,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 3,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 2,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 2,
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        },
+        {
+          "count": 2,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 1,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 1,
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 1,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 1,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        }
+      ],
+      "total": 25
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G1032/"
+          ]
+        }
+      ],
+      "text": "INC Ransom is a ransomware and data extortion threat group associated with the deployment of INC Ransomware that has been active since at least July 2023. INC Ransom has targeted organizations worldwide most commonly in the industrial, healthcare, and education sectors in the US and Europe.(Citation: Bleeping Computer INC Ransomware March 2024)(Citation: Cybereason INC Ransomware November 2023)(Citation: Secureworks GOLD IONIC April 2024)(Citation: SentinelOne INC Ransomware)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g1032",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G1032"
+      },
+      {
+        "actor_id": "mitre-g1032",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bleepingcomputer.com/news/security/inc-ransom-threatens-to-leak-3tb-of-nhs-scotland-stolen-data"
+      },
+      {
+        "actor_id": "mitre-g1032",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cybereason.com/hubfs/dam/collateral/reports/threat-alert-inc-ransomware.pdf"
+      },
+      {
+        "actor_id": "mitre-g1032",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.secureworks.com/blog/gold-ionic-deploys-inc-ransomware"
+      },
+      {
+        "actor_id": "mitre-g1032",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sentinelone.com/anthology/inc-ransom"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "GOLD IONIC",
+      "INC Ransom"
+    ],
+    "source_ids": [
+      "external-reference",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

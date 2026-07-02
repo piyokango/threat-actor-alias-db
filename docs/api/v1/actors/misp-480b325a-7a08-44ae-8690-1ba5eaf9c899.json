@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-480b325a-7a08-44ae-8690-1ba5eaf9c899",
+    "canonical_name": "Lamashtu",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-480b325a-7a08-44ae-8690-1ba5eaf9c899"
+    ],
+    "misp_uuid": "480b325a-7a08-44ae-8690-1ba5eaf9c899",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "lamashtu",
+        "confidence": "source-provided",
+        "display_group_key": "lamashtu",
+        "name": "Lamashtu",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "lamashtu",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026"
+            ]
+          }
+        ],
+        "variants": [
+          "Lamashtu"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Lamashtu is a financially motivated data-theft and extortion group that emerged in mid-April 2026, operating a Tor-hosted leak site (Lamashtu[.]Blog) with countdown timers, structured Breach Impact Reports, and proof-of-life thumbnails to pressure victims. The group has claimed 17+ victims across France, Romania, Thailand, Malaysia, Egypt, and the UAE within its first weeks of activity, targeting energy, pharmaceutical, retail, hospitality, and film sectors, with confirmed exfiltration totaling 760+ GB."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-480b325a-7a08-44ae-8690-1ba5eaf9c899",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Lamashtu"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

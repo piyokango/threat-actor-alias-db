@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-4defbf2e-4f73-11e8-807f-578d61da7568",
+    "canonical_name": "ZooPark",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-4defbf2e-4f73-11e8-807f-578d61da7568"
+    ],
+    "misp_uuid": "4defbf2e-4f73-11e8-807f-578d61da7568",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "zoopark",
+        "confidence": "source-provided",
+        "display_group_key": "zoopark",
+        "name": "ZooPark",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "zoopark",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securelist.com/whos-who-in-the-zoo/85394"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securelist.com/whos-who-in-the-zoo/85394"
+            ]
+          }
+        ],
+        "variants": [
+          "ZooPark"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "ZooPark is a cyberespionage operation that has been focusing on Middle Eastern targets since at least June 2015. The threat actors behind ZooPark infect Android devices using several generations of malware we label from v1-v4, with v4 being the most recent version deployed in 2017."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-4defbf2e-4f73-11e8-807f-578d61da7568",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/whos-who-in-the-zoo/85394"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "ZooPark"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

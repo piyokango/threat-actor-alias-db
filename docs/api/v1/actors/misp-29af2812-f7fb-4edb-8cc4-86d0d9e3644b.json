@@ -1,0 +1,156 @@
+{
+  "actor": {
+    "actor_id": "misp-29af2812-f7fb-4edb-8cc4-86d0d9e3644b",
+    "canonical_name": "Rebel Jackal",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-29af2812-f7fb-4edb-8cc4-86d0d9e3644b"
+    ],
+    "misp_uuid": "29af2812-f7fb-4edb-8cc4-86d0d9e3644b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "rebeljackal",
+        "confidence": "source-provided",
+        "display_group_key": "rebeljackal",
+        "name": "Rebel Jackal",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "rebel jackal",
+        "source_id": "misp-galaxy",
+        "source_urls": [],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": []
+          }
+        ],
+        "variants": [
+          "Rebel Jackal"
+        ]
+      },
+      {
+        "compact_normalized_name": "fallagateam",
+        "confidence": "source-provided",
+        "display_group_key": "fallagateam",
+        "name": "FallagaTeam",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "fallagateam",
+        "source_id": "misp-galaxy",
+        "source_urls": [],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": []
+          }
+        ],
+        "variants": [
+          "FallagaTeam"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "This is a pro-Islamist organization that generally conducts attacks motivated by real world events in which its members believe that members of the Muslim faith were wronged. Its attacks generally involve website defacements; however, the group did develop a RAT that it refers to as Fallaga RAT, but which appears to simply be a fork of the njRAT malware popular amongst hackers in the Middle East/North Africa region."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "TN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "TN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "TN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "TN"
+        }
+      ]
+    },
+    "search_names": [
+      "FallagaTeam",
+      "Rebel Jackal"
+    ],
+    "source_ids": [
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

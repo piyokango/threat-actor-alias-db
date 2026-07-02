@@ -1,0 +1,186 @@
+{
+  "actor": {
+    "actor_id": "misp-b4ce9385-eedf-4a71-803c-6d53a250d10b",
+    "canonical_name": "BRONZE EDGEWOOD",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-b4ce9385-eedf-4a71-803c-6d53a250d10b"
+    ],
+    "misp_uuid": "b4ce9385-eedf-4a71-803c-6d53a250d10b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "bronzeedgewood",
+        "confidence": "source-provided",
+        "display_group_key": "bronzeedgewood",
+        "name": "BRONZE EDGEWOOD",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "bronze edgewood",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "BRONZE EDGEWOOD"
+        ]
+      },
+      {
+        "compact_normalized_name": "redhariasa",
+        "confidence": "source-provided",
+        "display_group_key": "redhariasa",
+        "name": "Red Hariasa",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "red hariasa",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "Red Hariasa"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "In early 2021 CTU researchers observed BRONZE EDGEWOOD exploiting the Microsoft Exchange Server of an organization in Southeast Asia. The threat group deployed a China Chopper webshell and ran the Nishang Invoke-PowerShellTcp.ps1 script to connect back to C2 infrastructure. The threat group is publicly linked to malware families Chinoxy, PCShare and FunnyDream. CTU researchers have discovered that BRONZE EDGEWOOD also leverages Cobalt Strike in its intrusion activity. BRONZE EDGEWOOD has been active since at least 2018 and targets government and private enterprises across Southeast Asia. CTU researchers assess with moderate confidence that BRONZE EDGEWOOD operates on behalf the Chinese..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-b4ce9385-eedf-4a71-803c-6d53a250d10b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf"
+      },
+      {
+        "actor_id": "misp-b4ce9385-eedf-4a71-803c-6d53a250d10b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "BRONZE EDGEWOOD",
+      "Red Hariasa"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

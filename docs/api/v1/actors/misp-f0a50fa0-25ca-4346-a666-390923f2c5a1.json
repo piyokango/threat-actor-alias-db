@@ -1,0 +1,137 @@
+{
+  "actor": {
+    "actor_id": "misp-f0a50fa0-25ca-4346-a666-390923f2c5a1",
+    "canonical_name": "IRLeaks",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-f0a50fa0-25ca-4346-a666-390923f2c5a1"
+    ],
+    "misp_uuid": "f0a50fa0-25ca-4346-a666-390923f2c5a1",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "irleaks",
+        "confidence": "source-provided",
+        "display_group_key": "irleaks",
+        "name": "IRLeaks",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "irleaks",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cisoseries.com/cyber-security-headlines-google-5b-suit-settled-orbit-chain-loses-80m-fda-cyber-agreement",
+          "https://cybershafarat.com/2024/09/04/major-ir-leaks",
+          "https://www.hackread.com/iranian-food-delivery-snappfood-cyber-attack",
+          "https://www.oodaloop.com/briefs/2024/01/04/pilfered-data-from-iranian-insurance-and-food-delivery-firms-leaked-online",
+          "https://www.scmagazine.com/brief/significant-ransom-payment-by-major-iranian-it-firm-underway"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cisoseries.com/cyber-security-headlines-google-5b-suit-settled-orbit-chain-loses-80m-fda-cyber-agreement",
+              "https://cybershafarat.com/2024/09/04/major-ir-leaks",
+              "https://www.hackread.com/iranian-food-delivery-snappfood-cyber-attack",
+              "https://www.oodaloop.com/briefs/2024/01/04/pilfered-data-from-iranian-insurance-and-food-delivery-firms-leaked-online",
+              "https://www.scmagazine.com/brief/significant-ransom-payment-by-major-iranian-it-firm-underway"
+            ]
+          }
+        ],
+        "variants": [
+          "IRLeaks"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "IRLeaks is a threat actor known for significant cyberattacks targeting Iranian organizations, including a major breach of SnappFood, where they exfiltrated 3TB of sensitive data from 20 million user profiles. They have also compromised data from 23 leading Iranian insurance companies, offering over 160 million records for sale. Their operations involve extortion tactics, as seen in the ransom negotiations with Tosan, and they utilize malware such as StealC for data extraction. IRLeaks communicates primarily in Persian and has been active in selling stolen data on cybercriminal marketplaces."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-f0a50fa0-25ca-4346-a666-390923f2c5a1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cisoseries.com/cyber-security-headlines-google-5b-suit-settled-orbit-chain-loses-80m-fda-cyber-agreement"
+      },
+      {
+        "actor_id": "misp-f0a50fa0-25ca-4346-a666-390923f2c5a1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cybershafarat.com/2024/09/04/major-ir-leaks"
+      },
+      {
+        "actor_id": "misp-f0a50fa0-25ca-4346-a666-390923f2c5a1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.hackread.com/iranian-food-delivery-snappfood-cyber-attack"
+      },
+      {
+        "actor_id": "misp-f0a50fa0-25ca-4346-a666-390923f2c5a1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.oodaloop.com/briefs/2024/01/04/pilfered-data-from-iranian-insurance-and-food-delivery-firms-leaked-online"
+      },
+      {
+        "actor_id": "misp-f0a50fa0-25ca-4346-a666-390923f2c5a1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.scmagazine.com/brief/significant-ransom-payment-by-major-iranian-it-firm-underway"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "IRLeaks"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

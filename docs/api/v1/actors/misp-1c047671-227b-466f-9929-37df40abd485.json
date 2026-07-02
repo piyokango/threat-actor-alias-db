@@ -1,0 +1,127 @@
+{
+  "actor": {
+    "actor_id": "misp-1c047671-227b-466f-9929-37df40abd485",
+    "canonical_name": "The Gentlemen",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-1c047671-227b-466f-9929-37df40abd485"
+    ],
+    "misp_uuid": "1c047671-227b-466f-9929-37df40abd485",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "thegentlemen",
+        "confidence": "source-provided",
+        "display_group_key": "thegentlemen",
+        "name": "The Gentlemen",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "the gentlemen",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://socradar.io/blog/dark-web-profile-the-gentlemen-ransomware",
+          "https://www.cybereason.com/blog/the-gentlemen-ransomware",
+          "https://www.sprocketsecurity.com/blog/tracing-a-threat-actors-footprints-on-tor",
+          "https://www.trendmicro.com/en_us/research/25/i/unmasking-the-gentlemen-ransomware.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://socradar.io/blog/dark-web-profile-the-gentlemen-ransomware",
+              "https://www.cybereason.com/blog/the-gentlemen-ransomware",
+              "https://www.sprocketsecurity.com/blog/tracing-a-threat-actors-footprints-on-tor",
+              "https://www.trendmicro.com/en_us/research/25/i/unmasking-the-gentlemen-ransomware.html"
+            ]
+          }
+        ],
+        "variants": [
+          "The Gentlemen"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "The Gentlemen is a ransomware group that employs a dual-extortion strategy, encrypting sensitive files while exfiltrating critical business data to pressure victims into paying ransoms. Their operations leverage advanced techniques such as abusing legitimate utilities like PowerRun.exe for privilege escalation, using custom-built tools for defense evasion, and employing flexible encryption methods based on file size. The group targets medium to large organizations across various sectors, particularly in the Asia-Pacific region, and has demonstrated a high level of technical maturity and operational discipline. Their activities include systematic compromise of enterprise environments, mass..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-1c047671-227b-466f-9929-37df40abd485",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/blog/dark-web-profile-the-gentlemen-ransomware"
+      },
+      {
+        "actor_id": "misp-1c047671-227b-466f-9929-37df40abd485",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cybereason.com/blog/the-gentlemen-ransomware"
+      },
+      {
+        "actor_id": "misp-1c047671-227b-466f-9929-37df40abd485",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sprocketsecurity.com/blog/tracing-a-threat-actors-footprints-on-tor"
+      },
+      {
+        "actor_id": "misp-1c047671-227b-466f-9929-37df40abd485",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/25/i/unmasking-the-gentlemen-ransomware.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "The Gentlemen"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

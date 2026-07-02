@@ -1,0 +1,274 @@
+{
+  "actor": {
+    "actor_id": "misp-b80be7a7-6d06-4da7-8ae0-302a198e7c73",
+    "canonical_name": "Lilac Typhoon",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-b80be7a7-6d06-4da7-8ae0-302a198e7c73"
+    ],
+    "misp_uuid": "b80be7a7-6d06-4da7-8ae0-302a198e7c73",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "lilactyphoon",
+        "confidence": "source-provided",
+        "display_group_key": "lilactyphoon",
+        "name": "Lilac Typhoon",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "lilac typhoon",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://riskybiznews.substack.com/p/risky-biz-news-google-shuts-down",
+          "https://securityboulevard.com/2022/10/analysis-of-cisa-releases-advisory-on-top-cves-exploited-chinese-state-sponsored-groups",
+          "https://twitter.com/MsftSecIntel/status/1535417776290111489"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://riskybiznews.substack.com/p/risky-biz-news-google-shuts-down",
+              "https://securityboulevard.com/2022/10/analysis-of-cisa-releases-advisory-on-top-cves-exploited-chinese-state-sponsored-groups",
+              "https://twitter.com/MsftSecIntel/status/1535417776290111489"
+            ]
+          }
+        ],
+        "variants": [
+          "Lilac Typhoon"
+        ]
+      },
+      {
+        "compact_normalized_name": "dev0234",
+        "confidence": "source-provided",
+        "display_group_key": "dev0234",
+        "name": "DEV-0234",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "dev 0234",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://riskybiznews.substack.com/p/risky-biz-news-google-shuts-down",
+          "https://securityboulevard.com/2022/10/analysis-of-cisa-releases-advisory-on-top-cves-exploited-chinese-state-sponsored-groups",
+          "https://twitter.com/MsftSecIntel/status/1535417776290111489"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://riskybiznews.substack.com/p/risky-biz-news-google-shuts-down",
+              "https://securityboulevard.com/2022/10/analysis-of-cisa-releases-advisory-on-top-cves-exploited-chinese-state-sponsored-groups",
+              "https://twitter.com/MsftSecIntel/status/1535417776290111489"
+            ]
+          }
+        ],
+        "variants": [
+          "DEV-0234"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Lilac Typhoon is a threat actor attributed to China. They have been identified as exploiting the Atlassian Confluence RCE vulnerability CVE-2022-26134, which allows for remote code execution. This vulnerability has been used in cryptojacking campaigns and is included in commercial exploit frameworks. Lilac Typhoon has also been involved in deploying various payloads such as Cobalt Strike, web shells, botnets, coin miners, and ransomware."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-b80be7a7-6d06-4da7-8ae0-302a198e7c73",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "misp-b80be7a7-6d06-4da7-8ae0-302a198e7c73",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "misp-b80be7a7-6d06-4da7-8ae0-302a198e7c73",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://riskybiznews.substack.com/p/risky-biz-news-google-shuts-down"
+      },
+      {
+        "actor_id": "misp-b80be7a7-6d06-4da7-8ae0-302a198e7c73",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securityboulevard.com/2022/10/analysis-of-cisa-releases-advisory-on-top-cves-exploited-chinese-state-sponsored-groups"
+      },
+      {
+        "actor_id": "misp-b80be7a7-6d06-4da7-8ae0-302a198e7c73",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://twitter.com/MsftSecIntel/status/1535417776290111489"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "CN",
+          "display_value": "China",
+          "flag": "🇨🇳",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "China"
+        },
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "CN",
+          "display_value": "China",
+          "flag": "🇨🇳",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "China"
+        },
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "DEV-0234",
+      "Lilac Typhoon"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

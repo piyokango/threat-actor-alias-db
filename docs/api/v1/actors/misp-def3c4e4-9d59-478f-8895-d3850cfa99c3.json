@@ -1,0 +1,149 @@
+{
+  "actor": {
+    "actor_id": "misp-def3c4e4-9d59-478f-8895-d3850cfa99c3",
+    "canonical_name": "UAC-0094",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-def3c4e4-9d59-478f-8895-d3850cfa99c3"
+    ],
+    "misp_uuid": "def3c4e4-9d59-478f-8895-d3850cfa99c3",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "uac0094",
+        "confidence": "source-provided",
+        "display_group_key": "uac0094",
+        "name": "UAC-0094",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uac 0094",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cert.gov.ua/article/39253",
+          "https://vulners.com/thn/THN:4C1C2CD10F20E08DD74D465450DF3F17"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cert.gov.ua/article/39253",
+              "https://vulners.com/thn/THN:4C1C2CD10F20E08DD74D465450DF3F17"
+            ]
+          }
+        ],
+        "variants": [
+          "UAC-0094"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "State Service of Special Communication and Information Protection of Ukraine spotted a new wave of cyber attacks aimed at gaining access to users’ Telegram accounts. The Ukrainian CERT attributes the hacking campaign to threat actors tracked as UAC-0094. Threat actors are targeting Telegram users by sending Telegram messages with malicious links to the Telegram website in order to gain unauthorized access to the records and transfer a one-time code from SMS."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-def3c4e4-9d59-478f-8895-d3850cfa99c3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cert.gov.ua/article/39253"
+      },
+      {
+        "actor_id": "misp-def3c4e4-9d59-478f-8895-d3850cfa99c3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://vulners.com/thn/THN:4C1C2CD10F20E08DD74D465450DF3F17"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "UAC-0094"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

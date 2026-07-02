@@ -1,0 +1,1544 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0100",
+    "canonical_name": "Inception",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0100"
+    ],
+    "misp_uuid": "71ef51ca-a791-11e8-a026-07980ca910ca",
+    "mitre_id": "G0100",
+    "names": [
+      {
+        "compact_normalized_name": "inception",
+        "confidence": "source-provided",
+        "display_group_key": "inception",
+        "name": "Inception",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "inception",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0100"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0100"
+            ]
+          }
+        ],
+        "variants": [
+          "Inception"
+        ]
+      },
+      {
+        "compact_normalized_name": "atk116",
+        "confidence": "source-provided",
+        "display_group_key": "atk116",
+        "name": "ATK116",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "atk116",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0100",
+          "https://logrhythm.com/blog/catching-the-inception-framework-phishing-attack",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/bcs_wp_InceptionReport_EN_v12914.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/Inception_APT_Analysis_Bluecoat.pdf",
+          "https://securelist.com/an-undocumented-word-feature-abused-by-attackers/81899",
+          "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083",
+          "https://securelist.com/recent-cloud-atlas-activity/92016",
+          "https://securelist.com/red-october-diplomatic-cyber-attacks-investigation/36740",
+          "https://securelist.com/red-october-part-two-the-modules/57645",
+          "https://securelist.com/the-red-october-campaign/57647",
+          "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
+          "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
+          "https://web.archive.org/web/20160710180729/https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-inception-framework%E2%80%9D-very-sophisticated-layered-malware",
+          "https://www.akamai.com/uk/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf",
+          "https://www.cfr.org/cyber-operations/red-october",
+          "https://www.cfr.org/interactive/cyber-operations/cloud-atlas",
+          "https://www.cfr.org/interactive/cyber-operations/inception-framework",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+          "https://www.symantec.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0100",
+              "https://logrhythm.com/blog/catching-the-inception-framework-phishing-attack",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/bcs_wp_InceptionReport_EN_v12914.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/Inception_APT_Analysis_Bluecoat.pdf",
+              "https://securelist.com/an-undocumented-word-feature-abused-by-attackers/81899",
+              "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083",
+              "https://securelist.com/recent-cloud-atlas-activity/92016",
+              "https://securelist.com/red-october-diplomatic-cyber-attacks-investigation/36740",
+              "https://securelist.com/red-october-part-two-the-modules/57645",
+              "https://securelist.com/the-red-october-campaign/57647",
+              "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
+              "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
+              "https://web.archive.org/web/20160710180729/https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-inception-framework%E2%80%9D-very-sophisticated-layered-malware",
+              "https://www.akamai.com/uk/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf",
+              "https://www.cfr.org/cyber-operations/red-october",
+              "https://www.cfr.org/interactive/cyber-operations/cloud-atlas",
+              "https://www.cfr.org/interactive/cyber-operations/inception-framework",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+              "https://www.symantec.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+            ]
+          }
+        ],
+        "variants": [
+          "ATK116"
+        ]
+      },
+      {
+        "compact_normalized_name": "blueodin",
+        "confidence": "source-provided",
+        "display_group_key": "blueodin",
+        "name": "Blue Odin",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "blue odin",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0100",
+          "https://logrhythm.com/blog/catching-the-inception-framework-phishing-attack",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/bcs_wp_InceptionReport_EN_v12914.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/Inception_APT_Analysis_Bluecoat.pdf",
+          "https://securelist.com/an-undocumented-word-feature-abused-by-attackers/81899",
+          "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083",
+          "https://securelist.com/recent-cloud-atlas-activity/92016",
+          "https://securelist.com/red-october-diplomatic-cyber-attacks-investigation/36740",
+          "https://securelist.com/red-october-part-two-the-modules/57645",
+          "https://securelist.com/the-red-october-campaign/57647",
+          "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
+          "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
+          "https://web.archive.org/web/20160710180729/https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-inception-framework%E2%80%9D-very-sophisticated-layered-malware",
+          "https://www.akamai.com/uk/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf",
+          "https://www.cfr.org/cyber-operations/red-october",
+          "https://www.cfr.org/interactive/cyber-operations/cloud-atlas",
+          "https://www.cfr.org/interactive/cyber-operations/inception-framework",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+          "https://www.symantec.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0100",
+              "https://logrhythm.com/blog/catching-the-inception-framework-phishing-attack",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/bcs_wp_InceptionReport_EN_v12914.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/Inception_APT_Analysis_Bluecoat.pdf",
+              "https://securelist.com/an-undocumented-word-feature-abused-by-attackers/81899",
+              "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083",
+              "https://securelist.com/recent-cloud-atlas-activity/92016",
+              "https://securelist.com/red-october-diplomatic-cyber-attacks-investigation/36740",
+              "https://securelist.com/red-october-part-two-the-modules/57645",
+              "https://securelist.com/the-red-october-campaign/57647",
+              "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
+              "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
+              "https://web.archive.org/web/20160710180729/https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-inception-framework%E2%80%9D-very-sophisticated-layered-malware",
+              "https://www.akamai.com/uk/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf",
+              "https://www.cfr.org/cyber-operations/red-october",
+              "https://www.cfr.org/interactive/cyber-operations/cloud-atlas",
+              "https://www.cfr.org/interactive/cyber-operations/inception-framework",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+              "https://www.symantec.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+            ]
+          }
+        ],
+        "variants": [
+          "Blue Odin"
+        ]
+      },
+      {
+        "compact_normalized_name": "cleanursa",
+        "confidence": "source-provided",
+        "display_group_key": "cleanursa",
+        "name": "Clean Ursa",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "clean ursa",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0100",
+          "https://logrhythm.com/blog/catching-the-inception-framework-phishing-attack",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/bcs_wp_InceptionReport_EN_v12914.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/Inception_APT_Analysis_Bluecoat.pdf",
+          "https://securelist.com/an-undocumented-word-feature-abused-by-attackers/81899",
+          "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083",
+          "https://securelist.com/recent-cloud-atlas-activity/92016",
+          "https://securelist.com/red-october-diplomatic-cyber-attacks-investigation/36740",
+          "https://securelist.com/red-october-part-two-the-modules/57645",
+          "https://securelist.com/the-red-october-campaign/57647",
+          "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
+          "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
+          "https://web.archive.org/web/20160710180729/https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-inception-framework%E2%80%9D-very-sophisticated-layered-malware",
+          "https://www.akamai.com/uk/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf",
+          "https://www.cfr.org/cyber-operations/red-october",
+          "https://www.cfr.org/interactive/cyber-operations/cloud-atlas",
+          "https://www.cfr.org/interactive/cyber-operations/inception-framework",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+          "https://www.symantec.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0100",
+              "https://logrhythm.com/blog/catching-the-inception-framework-phishing-attack",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/bcs_wp_InceptionReport_EN_v12914.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/Inception_APT_Analysis_Bluecoat.pdf",
+              "https://securelist.com/an-undocumented-word-feature-abused-by-attackers/81899",
+              "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083",
+              "https://securelist.com/recent-cloud-atlas-activity/92016",
+              "https://securelist.com/red-october-diplomatic-cyber-attacks-investigation/36740",
+              "https://securelist.com/red-october-part-two-the-modules/57645",
+              "https://securelist.com/the-red-october-campaign/57647",
+              "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
+              "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
+              "https://web.archive.org/web/20160710180729/https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-inception-framework%E2%80%9D-very-sophisticated-layered-malware",
+              "https://www.akamai.com/uk/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf",
+              "https://www.cfr.org/cyber-operations/red-october",
+              "https://www.cfr.org/interactive/cyber-operations/cloud-atlas",
+              "https://www.cfr.org/interactive/cyber-operations/inception-framework",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+              "https://www.symantec.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+            ]
+          }
+        ],
+        "variants": [
+          "Clean Ursa"
+        ]
+      },
+      {
+        "compact_normalized_name": "cloudatlas",
+        "confidence": "source-provided",
+        "display_group_key": "cloudatlas",
+        "name": "Cloud Atlas",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "cloud atlas",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0100",
+          "https://logrhythm.com/blog/catching-the-inception-framework-phishing-attack",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/bcs_wp_InceptionReport_EN_v12914.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/Inception_APT_Analysis_Bluecoat.pdf",
+          "https://securelist.com/an-undocumented-word-feature-abused-by-attackers/81899",
+          "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083",
+          "https://securelist.com/recent-cloud-atlas-activity/92016",
+          "https://securelist.com/red-october-diplomatic-cyber-attacks-investigation/36740",
+          "https://securelist.com/red-october-part-two-the-modules/57645",
+          "https://securelist.com/the-red-october-campaign/57647",
+          "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
+          "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
+          "https://web.archive.org/web/20160710180729/https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-inception-framework%E2%80%9D-very-sophisticated-layered-malware",
+          "https://www.akamai.com/uk/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf",
+          "https://www.cfr.org/cyber-operations/red-october",
+          "https://www.cfr.org/interactive/cyber-operations/cloud-atlas",
+          "https://www.cfr.org/interactive/cyber-operations/inception-framework",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+          "https://www.symantec.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0100",
+              "https://logrhythm.com/blog/catching-the-inception-framework-phishing-attack",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/bcs_wp_InceptionReport_EN_v12914.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/Inception_APT_Analysis_Bluecoat.pdf",
+              "https://securelist.com/an-undocumented-word-feature-abused-by-attackers/81899",
+              "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083",
+              "https://securelist.com/recent-cloud-atlas-activity/92016",
+              "https://securelist.com/red-october-diplomatic-cyber-attacks-investigation/36740",
+              "https://securelist.com/red-october-part-two-the-modules/57645",
+              "https://securelist.com/the-red-october-campaign/57647",
+              "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
+              "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
+              "https://web.archive.org/web/20160710180729/https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-inception-framework%E2%80%9D-very-sophisticated-layered-malware",
+              "https://www.akamai.com/uk/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf",
+              "https://www.cfr.org/cyber-operations/red-october",
+              "https://www.cfr.org/interactive/cyber-operations/cloud-atlas",
+              "https://www.cfr.org/interactive/cyber-operations/inception-framework",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+              "https://www.symantec.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0100"
+            ]
+          }
+        ],
+        "variants": [
+          "Cloud Atlas"
+        ]
+      },
+      {
+        "compact_normalized_name": "g0100",
+        "confidence": "source-provided",
+        "display_group_key": "g0100",
+        "name": "G0100",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "g0100",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0100",
+          "https://logrhythm.com/blog/catching-the-inception-framework-phishing-attack",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/bcs_wp_InceptionReport_EN_v12914.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/Inception_APT_Analysis_Bluecoat.pdf",
+          "https://securelist.com/an-undocumented-word-feature-abused-by-attackers/81899",
+          "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083",
+          "https://securelist.com/recent-cloud-atlas-activity/92016",
+          "https://securelist.com/red-october-diplomatic-cyber-attacks-investigation/36740",
+          "https://securelist.com/red-october-part-two-the-modules/57645",
+          "https://securelist.com/the-red-october-campaign/57647",
+          "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
+          "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
+          "https://web.archive.org/web/20160710180729/https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-inception-framework%E2%80%9D-very-sophisticated-layered-malware",
+          "https://www.akamai.com/uk/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf",
+          "https://www.cfr.org/cyber-operations/red-october",
+          "https://www.cfr.org/interactive/cyber-operations/cloud-atlas",
+          "https://www.cfr.org/interactive/cyber-operations/inception-framework",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+          "https://www.symantec.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0100",
+              "https://logrhythm.com/blog/catching-the-inception-framework-phishing-attack",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/bcs_wp_InceptionReport_EN_v12914.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/Inception_APT_Analysis_Bluecoat.pdf",
+              "https://securelist.com/an-undocumented-word-feature-abused-by-attackers/81899",
+              "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083",
+              "https://securelist.com/recent-cloud-atlas-activity/92016",
+              "https://securelist.com/red-october-diplomatic-cyber-attacks-investigation/36740",
+              "https://securelist.com/red-october-part-two-the-modules/57645",
+              "https://securelist.com/the-red-october-campaign/57647",
+              "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
+              "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
+              "https://web.archive.org/web/20160710180729/https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-inception-framework%E2%80%9D-very-sophisticated-layered-malware",
+              "https://www.akamai.com/uk/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf",
+              "https://www.cfr.org/cyber-operations/red-october",
+              "https://www.cfr.org/interactive/cyber-operations/cloud-atlas",
+              "https://www.cfr.org/interactive/cyber-operations/inception-framework",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+              "https://www.symantec.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+            ]
+          }
+        ],
+        "variants": [
+          "G0100"
+        ]
+      },
+      {
+        "compact_normalized_name": "inceptionframework",
+        "confidence": "source-provided",
+        "display_group_key": "inceptionframework",
+        "name": "Inception Framework",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "inception framework",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0100",
+          "https://logrhythm.com/blog/catching-the-inception-framework-phishing-attack",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/bcs_wp_InceptionReport_EN_v12914.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/Inception_APT_Analysis_Bluecoat.pdf",
+          "https://securelist.com/an-undocumented-word-feature-abused-by-attackers/81899",
+          "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083",
+          "https://securelist.com/recent-cloud-atlas-activity/92016",
+          "https://securelist.com/red-october-diplomatic-cyber-attacks-investigation/36740",
+          "https://securelist.com/red-october-part-two-the-modules/57645",
+          "https://securelist.com/the-red-october-campaign/57647",
+          "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
+          "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
+          "https://web.archive.org/web/20160710180729/https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-inception-framework%E2%80%9D-very-sophisticated-layered-malware",
+          "https://www.akamai.com/uk/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf",
+          "https://www.cfr.org/cyber-operations/red-october",
+          "https://www.cfr.org/interactive/cyber-operations/cloud-atlas",
+          "https://www.cfr.org/interactive/cyber-operations/inception-framework",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+          "https://www.symantec.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0100",
+              "https://logrhythm.com/blog/catching-the-inception-framework-phishing-attack",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/bcs_wp_InceptionReport_EN_v12914.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/Inception_APT_Analysis_Bluecoat.pdf",
+              "https://securelist.com/an-undocumented-word-feature-abused-by-attackers/81899",
+              "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083",
+              "https://securelist.com/recent-cloud-atlas-activity/92016",
+              "https://securelist.com/red-october-diplomatic-cyber-attacks-investigation/36740",
+              "https://securelist.com/red-october-part-two-the-modules/57645",
+              "https://securelist.com/the-red-october-campaign/57647",
+              "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
+              "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
+              "https://web.archive.org/web/20160710180729/https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-inception-framework%E2%80%9D-very-sophisticated-layered-malware",
+              "https://www.akamai.com/uk/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf",
+              "https://www.cfr.org/cyber-operations/red-october",
+              "https://www.cfr.org/interactive/cyber-operations/cloud-atlas",
+              "https://www.cfr.org/interactive/cyber-operations/inception-framework",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+              "https://www.symantec.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0100"
+            ]
+          }
+        ],
+        "variants": [
+          "Inception Framework"
+        ]
+      },
+      {
+        "compact_normalized_name": "oxygen",
+        "confidence": "source-provided",
+        "display_group_key": "oxygen",
+        "name": "OXYGEN",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "oxygen",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0100",
+          "https://logrhythm.com/blog/catching-the-inception-framework-phishing-attack",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/bcs_wp_InceptionReport_EN_v12914.pdf",
+          "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/Inception_APT_Analysis_Bluecoat.pdf",
+          "https://securelist.com/an-undocumented-word-feature-abused-by-attackers/81899",
+          "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083",
+          "https://securelist.com/recent-cloud-atlas-activity/92016",
+          "https://securelist.com/red-october-diplomatic-cyber-attacks-investigation/36740",
+          "https://securelist.com/red-october-part-two-the-modules/57645",
+          "https://securelist.com/the-red-october-campaign/57647",
+          "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
+          "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
+          "https://web.archive.org/web/20160710180729/https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-inception-framework%E2%80%9D-very-sophisticated-layered-malware",
+          "https://www.akamai.com/uk/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf",
+          "https://www.cfr.org/cyber-operations/red-october",
+          "https://www.cfr.org/interactive/cyber-operations/cloud-atlas",
+          "https://www.cfr.org/interactive/cyber-operations/inception-framework",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+          "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+          "https://www.symantec.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0100",
+              "https://logrhythm.com/blog/catching-the-inception-framework-phishing-attack",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/bcs_wp_InceptionReport_EN_v12914.pdf",
+              "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/Inception_APT_Analysis_Bluecoat.pdf",
+              "https://securelist.com/an-undocumented-word-feature-abused-by-attackers/81899",
+              "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083",
+              "https://securelist.com/recent-cloud-atlas-activity/92016",
+              "https://securelist.com/red-october-diplomatic-cyber-attacks-investigation/36740",
+              "https://securelist.com/red-october-part-two-the-modules/57645",
+              "https://securelist.com/the-red-october-campaign/57647",
+              "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
+              "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
+              "https://web.archive.org/web/20160710180729/https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-inception-framework%E2%80%9D-very-sophisticated-layered-malware",
+              "https://www.akamai.com/uk/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf",
+              "https://www.cfr.org/cyber-operations/red-october",
+              "https://www.cfr.org/interactive/cyber-operations/cloud-atlas",
+              "https://www.cfr.org/interactive/cyber-operations/inception-framework",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+              "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf",
+              "https://www.symantec.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+            ]
+          }
+        ],
+        "variants": [
+          "OXYGEN"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0100",
+          "name": "Process Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1057",
+          "url": "https://attack.mitre.org/techniques/T1057/"
+        },
+        {
+          "actor_id": "mitre-g0100",
+          "name": "Domain Groups",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1069.002",
+          "url": "https://attack.mitre.org/techniques/T1069.002/"
+        },
+        {
+          "actor_id": "mitre-g0100",
+          "name": "System Information Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1082",
+          "url": "https://attack.mitre.org/techniques/T1082/"
+        },
+        {
+          "actor_id": "mitre-g0100",
+          "name": "File and Directory Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1083",
+          "url": "https://attack.mitre.org/techniques/T1083/"
+        },
+        {
+          "actor_id": "mitre-g0100",
+          "name": "Software Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1518",
+          "url": "https://attack.mitre.org/techniques/T1518/"
+        },
+        {
+          "actor_id": "mitre-g0100",
+          "name": "Encrypted/Encoded File",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.013",
+          "url": "https://attack.mitre.org/techniques/T1027.013/"
+        },
+        {
+          "actor_id": "mitre-g0100",
+          "name": "PowerShell",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+            "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.001",
+          "url": "https://attack.mitre.org/techniques/T1059.001/"
+        },
+        {
+          "actor_id": "mitre-g0100",
+          "name": "Visual Basic",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+            "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.005",
+          "url": "https://attack.mitre.org/techniques/T1059.005/"
+        },
+        {
+          "actor_id": "mitre-g0100",
+          "name": "Web Protocols",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+            "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1071.001",
+          "url": "https://attack.mitre.org/techniques/T1071.001/"
+        },
+        {
+          "actor_id": "mitre-g0100",
+          "name": "Multi-hop Proxy",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1090.003",
+          "url": "https://attack.mitre.org/techniques/T1090.003/"
+        },
+        {
+          "actor_id": "mitre-g0100",
+          "name": "Web Service",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+            "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+          ],
+          "tactics": [
+            "command-and-control"
+          ],
+          "technique_id": "T1102",
+          "url": "https://attack.mitre.org/techniques/T1102/"
+        },
+        {
+          "actor_id": "mitre-g0100",
+          "name": "Exploitation for Client Execution",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+            "https://securelist.com/recent-cloud-atlas-activity/92016/",
+            "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies",
+            "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1203",
+          "url": "https://attack.mitre.org/techniques/T1203/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Process Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1057",
+              "url": "https://attack.mitre.org/techniques/T1057/"
+            },
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Domain Groups",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1069.002",
+              "url": "https://attack.mitre.org/techniques/T1069.002/"
+            },
+            {
+              "actor_id": "mitre-g0100",
+              "name": "System Information Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1082",
+              "url": "https://attack.mitre.org/techniques/T1082/"
+            },
+            {
+              "actor_id": "mitre-g0100",
+              "name": "File and Directory Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1083",
+              "url": "https://attack.mitre.org/techniques/T1083/"
+            },
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Software Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1518",
+              "url": "https://attack.mitre.org/techniques/T1518/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Web Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.001",
+              "url": "https://attack.mitre.org/techniques/T1071.001/"
+            },
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Multi-hop Proxy",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1090.003",
+              "url": "https://attack.mitre.org/techniques/T1090.003/"
+            },
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Web Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1102",
+              "url": "https://attack.mitre.org/techniques/T1102/"
+            },
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Symmetric Cryptography",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1573.001",
+              "url": "https://attack.mitre.org/techniques/T1573.001/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0100",
+              "name": "PowerShell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.001",
+              "url": "https://attack.mitre.org/techniques/T1059.001/"
+            },
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Visual Basic",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.005",
+              "url": "https://attack.mitre.org/techniques/T1059.005/"
+            },
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Exploitation for Client Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "https://securelist.com/recent-cloud-atlas-activity/92016/",
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies",
+                "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1203",
+              "url": "https://attack.mitre.org/techniques/T1203/"
+            },
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Malicious File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "https://securelist.com/recent-cloud-atlas-activity/92016/",
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies",
+                "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1204.002",
+              "url": "https://attack.mitre.org/techniques/T1204.002/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Encrypted/Encoded File",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.013",
+              "url": "https://attack.mitre.org/techniques/T1027.013/"
+            },
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Mshta",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/recent-cloud-atlas-activity/92016/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.005",
+              "url": "https://attack.mitre.org/techniques/T1218.005/"
+            },
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Regsvr32",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1218.010",
+              "url": "https://attack.mitre.org/techniques/T1218.010/"
+            },
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Template Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1221",
+              "url": "https://attack.mitre.org/techniques/T1221/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Data from Local System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/recent-cloud-atlas-activity/92016/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1005",
+              "url": "https://attack.mitre.org/techniques/T1005/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Credentials from Web Browsers",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1555.003",
+              "url": "https://attack.mitre.org/techniques/T1555.003/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Spearphishing Attachment",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/",
+                "https://securelist.com/recent-cloud-atlas-activity/92016/",
+                "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies",
+                "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.001",
+              "url": "https://attack.mitre.org/techniques/T1566.001/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0100",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/recent-cloud-atlas-activity/92016/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 5,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 4,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 4,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 4,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 1,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 1,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 1,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 1,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 1,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        }
+      ],
+      "total": 22
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0100/"
+          ]
+        }
+      ],
+      "text": "Inception is a cyber espionage group active since at least 2014. The group has targeted multiple industries and governmental entities primarily in Russia, but has also been active in the United States and throughout Europe, Asia, Africa, and the Middle East.(Citation: Unit 42 Inception November 2018)(Citation: Symantec Inception Framework March 2018)(Citation: Kaspersky Cloud Atlas December 2014)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0100"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://logrhythm.com/blog/catching-the-inception-framework-phishing-attack"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/bcs_wp_InceptionReport_EN_v12914.pdf"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/Inception_APT_Analysis_Bluecoat.pdf"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/an-undocumented-word-feature-abused-by-attackers/81899"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/cloud-atlas-redoctober-apt-is-back-in-style/68083"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/recent-cloud-atlas-activity/92016"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/red-october-diplomatic-cyber-attacks-investigation/36740"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/red-october-part-two-the-modules/57645"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securelist.com/the-red-october-campaign/57647"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/atoms/clean-ursa"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://web.archive.org/web/20160710180729/https://www.bluecoat.com/security-blog/2014-12-09/blue-coat-exposes-%E2%80%9C-inception-framework%E2%80%9D-very-sophisticated-layered-malware"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.akamai.com/uk/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/cyber-operations/red-october"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/cloud-atlas"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cfr.org/interactive/cyber-operations/inception-framework"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf"
+      },
+      {
+        "actor_id": "mitre-g0100",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.symantec.com/blogs/threat-intelligence/inception-framework-hiding-behind-proxies"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "ATK116",
+      "Blue Odin",
+      "Clean Ursa",
+      "Cloud Atlas",
+      "G0100",
+      "Inception",
+      "Inception Framework",
+      "OXYGEN"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

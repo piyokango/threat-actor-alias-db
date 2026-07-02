@@ -1,0 +1,289 @@
+{
+  "actor": {
+    "actor_id": "mitre-g0020",
+    "canonical_name": "Equation",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g0020"
+    ],
+    "misp_uuid": null,
+    "mitre_id": "G0020",
+    "names": [
+      {
+        "compact_normalized_name": "equation",
+        "confidence": "source-provided",
+        "display_group_key": "equation",
+        "name": "Equation",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "equation",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0020"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0020"
+            ]
+          }
+        ],
+        "variants": [
+          "Equation"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g0020",
+          "name": "Environmental Keying",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf",
+            "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/20134940/kaspersky-lab-gauss.pdf"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1480.001",
+          "url": "https://attack.mitre.org/techniques/T1480.001/"
+        },
+        {
+          "actor_id": "mitre-g0020",
+          "name": "Component Firmware",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf"
+          ],
+          "tactics": [
+            "persistence",
+            "stealth"
+          ],
+          "technique_id": "T1542.002",
+          "url": "https://attack.mitre.org/techniques/T1542.002/"
+        },
+        {
+          "actor_id": "mitre-g0020",
+          "name": "Hidden File System",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1564.005",
+          "url": "https://attack.mitre.org/techniques/T1564.005/"
+        },
+        {
+          "actor_id": "mitre-g0020",
+          "name": "Peripheral Device Discovery",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf"
+          ],
+          "tactics": [
+            "discovery"
+          ],
+          "technique_id": "T1120",
+          "url": "https://attack.mitre.org/techniques/T1120/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0020",
+              "name": "Environmental Keying",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf",
+                "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/20134940/kaspersky-lab-gauss.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1480.001",
+              "url": "https://attack.mitre.org/techniques/T1480.001/"
+            },
+            {
+              "actor_id": "mitre-g0020",
+              "name": "Component Firmware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf"
+              ],
+              "tactics": [
+                "persistence",
+                "stealth"
+              ],
+              "technique_id": "T1542.002",
+              "url": "https://attack.mitre.org/techniques/T1542.002/"
+            },
+            {
+              "actor_id": "mitre-g0020",
+              "name": "Hidden File System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.005",
+              "url": "https://attack.mitre.org/techniques/T1564.005/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0020",
+              "name": "Peripheral Device Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1120",
+              "url": "https://attack.mitre.org/techniques/T1120/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g0020",
+              "name": "Component Firmware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf"
+              ],
+              "tactics": [
+                "persistence",
+                "stealth"
+              ],
+              "technique_id": "T1542.002",
+              "url": "https://attack.mitre.org/techniques/T1542.002/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 3,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 1,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 1,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        }
+      ],
+      "total": 4
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G0020/"
+          ]
+        }
+      ],
+      "text": "Equation is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. (Citation: Kaspersky Equation QA)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g0020",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G0020"
+      },
+      {
+        "actor_id": "mitre-g0020",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Equation"
+    ],
+    "source_ids": [
+      "external-reference",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,149 @@
+{
+  "actor": {
+    "actor_id": "misp-fba00660-d18c-4af7-831c-25757e495907",
+    "canonical_name": "Wassonite",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-fba00660-d18c-4af7-831c-25757e495907"
+    ],
+    "misp_uuid": "fba00660-d18c-4af7-831c-25757e495907",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "wassonite",
+        "confidence": "source-provided",
+        "display_group_key": "wassonite",
+        "name": "Wassonite",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "wassonite",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.dragos.com/blog/2022-ics-ot-threat-landscape-recap-what-to-watch-for-this-year",
+          "https://www.dragos.com/threat/wassonite"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.dragos.com/blog/2022-ics-ot-threat-landscape-recap-what-to-watch-for-this-year",
+              "https://www.dragos.com/threat/wassonite"
+            ]
+          }
+        ],
+        "variants": [
+          "Wassonite"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "WASSONITE is a North Korea-linked APT that has targeted industrial sectors, including electric generation, nuclear energy, manufacturing, and research entities in India, South Korea, and Japan since at least 2018. The group employs DTrack RAT for remote access, Mimikatz for credential capture, and various system tools for lateral movement and file transfers. WASSONITE has been observed using nuclear energy-themed spear phishing lures to deploy the AppleSeed backdoor, which can take screenshots, log keystrokes, and execute commands from a C2 server. Their operations focus on initial access, reconnaissance, and data collection without demonstrating disruptive capabilities."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-fba00660-d18c-4af7-831c-25757e495907",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.dragos.com/blog/2022-ics-ot-threat-landscape-recap-what-to-watch-for-this-year"
+      },
+      {
+        "actor_id": "misp-fba00660-d18c-4af7-831c-25757e495907",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.dragos.com/threat/wassonite"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        }
+      ]
+    },
+    "search_names": [
+      "Wassonite"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

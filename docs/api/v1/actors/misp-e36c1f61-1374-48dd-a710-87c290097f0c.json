@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-e36c1f61-1374-48dd-a710-87c290097f0c",
+    "canonical_name": "WhiteCobra",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-e36c1f61-1374-48dd-a710-87c290097f0c"
+    ],
+    "misp_uuid": "e36c1f61-1374-48dd-a710-87c290097f0c",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "whitecobra",
+        "confidence": "source-provided",
+        "display_group_key": "whitecobra",
+        "name": "WhiteCobra",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "whitecobra",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.koi.ai/blog/whitecobra-vscode-cursor-extensions-malware"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.koi.ai/blog/whitecobra-vscode-cursor-extensions-malware"
+            ]
+          }
+        ],
+        "variants": [
+          "WhiteCobra"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "WhiteCobra is a threat actor that has infiltrated the Visual Studio Code marketplace and Open VSX registry, deploying 24 malicious extensions targeting cryptocurrency development tools, particularly Solidity. The group employs social engineering tactics, manipulates download counts and reviews, and uses fake branding to establish credibility for their extensions, which deliver LummaStealer on Windows and unknown malware on macOS. WhiteCobra has been linked to a $500,000 cryptocurrency theft in July 2025 and maintains detailed playbooks with revenue targets, showcasing their organized and persistent operations. Despite ongoing efforts by security researchers to remove their malicious..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-e36c1f61-1374-48dd-a710-87c290097f0c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.koi.ai/blog/whitecobra-vscode-cursor-extensions-malware"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "WhiteCobra"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

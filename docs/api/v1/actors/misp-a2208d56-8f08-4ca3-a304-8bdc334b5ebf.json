@@ -1,0 +1,117 @@
+{
+  "actor": {
+    "actor_id": "misp-a2208d56-8f08-4ca3-a304-8bdc334b5ebf",
+    "canonical_name": "PhantomControl",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-a2208d56-8f08-4ca3-a304-8bdc334b5ebf"
+    ],
+    "misp_uuid": "a2208d56-8f08-4ca3-a304-8bdc334b5ebf",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "phantomcontrol",
+        "confidence": "source-provided",
+        "display_group_key": "phantomcontrol",
+        "name": "PhantomControl",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "phantomcontrol",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://securityonline.info/esentire-vs-phantom-unveiling-the-cyber-spooks-dance-of-darkness",
+          "https://www.esentire.com/blog/operation-phantomcontrol",
+          "https://www.esentire.com/blog/phantomcontrol-returns-with-ande-loader-and-swaetrat"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://securityonline.info/esentire-vs-phantom-unveiling-the-cyber-spooks-dance-of-darkness",
+              "https://www.esentire.com/blog/operation-phantomcontrol",
+              "https://www.esentire.com/blog/phantomcontrol-returns-with-ande-loader-and-swaetrat"
+            ]
+          }
+        ],
+        "variants": [
+          "PhantomControl"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "PhantomControl is a sophisticated threat actor that emerged in November 2023. They utilize phishing emails as their initial infection vector and employ a ScreenConnect client to establish a connection for their malicious activities. Their arsenal includes a VBS script that hides its true intentions and reveals a complex mechanism involving PowerShell scripts and image-based data retrieval. PhantomControl has been associated with the Blind Eagle threat actors, showcasing their versatility and reach."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-a2208d56-8f08-4ca3-a304-8bdc334b5ebf",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securityonline.info/esentire-vs-phantom-unveiling-the-cyber-spooks-dance-of-darkness"
+      },
+      {
+        "actor_id": "misp-a2208d56-8f08-4ca3-a304-8bdc334b5ebf",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.esentire.com/blog/operation-phantomcontrol"
+      },
+      {
+        "actor_id": "misp-a2208d56-8f08-4ca3-a304-8bdc334b5ebf",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.esentire.com/blog/phantomcontrol-returns-with-ande-loader-and-swaetrat"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "PhantomControl"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

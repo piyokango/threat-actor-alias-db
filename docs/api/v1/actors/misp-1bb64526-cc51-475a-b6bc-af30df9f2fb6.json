@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-1bb64526-cc51-475a-b6bc-af30df9f2fb6",
+    "canonical_name": "DangerousSavanna",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-1bb64526-cc51-475a-b6bc-af30df9f2fb6"
+    ],
+    "misp_uuid": "1bb64526-cc51-475a-b6bc-af30df9f2fb6",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "dangeroussavanna",
+        "confidence": "source-provided",
+        "display_group_key": "dangeroussavanna",
+        "name": "DangerousSavanna",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dangeroussavanna",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://research.checkpoint.com/2022/dangeroussavanna-two-year-long-campaign-targets-financial-institutions-in-french-speaking-africa"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://research.checkpoint.com/2022/dangeroussavanna-two-year-long-campaign-targets-financial-institutions-in-french-speaking-africa"
+            ]
+          }
+        ],
+        "variants": [
+          "DangerousSavanna"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Malicious campaign called DangerousSavanna has been targeting multiple major financial service groups in French-speaking Africa for the last two years. The threat actors behind this campaign use spear-phishing as a means of initial infection, sending emails with malicious attachments to the employees of financial institutions in at least five different French-speaking countries: Ivory Coast, Morocco, Cameroon, Senegal, and Togo. DangerousSavanna tends to install relatively unsophisticated software tools in the infected environments. These tools are both self-written and based on open-source projects such as Metasploit, PoshC2, DWservice, and AsyncRAT. The threat actors’ creativity is on..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-1bb64526-cc51-475a-b6bc-af30df9f2fb6",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.checkpoint.com/2022/dangeroussavanna-two-year-long-campaign-targets-financial-institutions-in-french-speaking-africa"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "DangerousSavanna"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

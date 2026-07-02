@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-99d188cf-31e5-440d-a114-297cb2242d73",
+    "canonical_name": "Red-Lili",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-99d188cf-31e5-440d-a114-297cb2242d73"
+    ],
+    "misp_uuid": "99d188cf-31e5-440d-a114-297cb2242d73",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "redlili",
+        "confidence": "source-provided",
+        "display_group_key": "redlili",
+        "name": "Red-Lili",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "red lili",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://checkmarx.com/blog/a-beautiful-factory-for-malicious-packages"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://checkmarx.com/blog/a-beautiful-factory-for-malicious-packages"
+            ]
+          }
+        ],
+        "variants": [
+          "Red-Lili"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "RED-LILI is an active threat actor that has been identified by Checkmarx SCS research team. They have been publishing malicious packages on NPM and PyPi platforms, and have recently automated the process of creating NPM users for package publication. The Checkmarx team has detected around 1500 malicious packages associated with RED-LILI and has continuously disclosed their findings to the respective security teams."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-99d188cf-31e5-440d-a114-297cb2242d73",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://checkmarx.com/blog/a-beautiful-factory-for-malicious-packages"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Red-Lili"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

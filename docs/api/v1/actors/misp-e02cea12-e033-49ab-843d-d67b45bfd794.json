@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-e02cea12-e033-49ab-843d-d67b45bfd794",
+    "canonical_name": "Storm-1977",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-e02cea12-e033-49ab-843d-d67b45bfd794"
+    ],
+    "misp_uuid": "e02cea12-e033-49ab-843d-d67b45bfd794",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "storm1977",
+        "confidence": "source-provided",
+        "display_group_key": "storm1977",
+        "name": "Storm-1977",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 1977",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.microsoft.com/en-us/security/blog/2025/04/23/understanding-the-threat-landscape-for-kubernetes-and-containerized-assets"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.microsoft.com/en-us/security/blog/2025/04/23/understanding-the-threat-landscape-for-kubernetes-and-containerized-assets"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-1977"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Storm-1977 is a sophisticated threat actor that conducts password-spraying attacks targeting cloud tenants, particularly in the education sector, utilizing the AzureChecker.exe CLI tool as their primary infection vector. They have successfully compromised over 200 containers, repurposing them for cryptocurrency mining operations by leveraging guest accounts to create new resource groups within compromised subscriptions. Microsoft Threat Intelligence researchers have identified unique operational patterns that distinguish Storm-1977 from other cryptomining threat actors. The group exploits compromised accounts as a primary attack surface in their operations."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-e02cea12-e033-49ab-843d-d67b45bfd794",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2025/04/23/understanding-the-threat-landscape-for-kubernetes-and-containerized-assets"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Storm-1977"
+    ],
+    "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

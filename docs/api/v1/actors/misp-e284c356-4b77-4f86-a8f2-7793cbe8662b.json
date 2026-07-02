@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-e284c356-4b77-4f86-a8f2-7793cbe8662b",
+    "canonical_name": "AppMilad",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-e284c356-4b77-4f86-a8f2-7793cbe8662b"
+    ],
+    "misp_uuid": "e284c356-4b77-4f86-a8f2-7793cbe8662b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "appmilad",
+        "confidence": "source-provided",
+        "display_group_key": "appmilad",
+        "name": "AppMilad",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "appmilad",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://zimpstage.wpengine.com/blog/we-smell-a-ratmilad-mobile-spyware"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://zimpstage.wpengine.com/blog/we-smell-a-ratmilad-mobile-spyware"
+            ]
+          }
+        ],
+        "variants": [
+          "AppMilad"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "AppMilad is an Iranian hacking group that has been identified as the source of a spyware campaign called RatMilad. This spyware is designed to silently infiltrate victims' devices and gather personal and corporate information, including private communications and photos. The group has been distributing the spyware through fake apps and targeting primarily Middle Eastern enterprises."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-e284c356-4b77-4f86-a8f2-7793cbe8662b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://zimpstage.wpengine.com/blog/we-smell-a-ratmilad-mobile-spyware"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ]
+    },
+    "search_names": [
+      "AppMilad"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

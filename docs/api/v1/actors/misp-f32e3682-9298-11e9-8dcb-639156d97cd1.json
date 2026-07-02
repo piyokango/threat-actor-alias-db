@@ -1,0 +1,137 @@
+{
+  "actor": {
+    "actor_id": "misp-f32e3682-9298-11e9-8dcb-639156d97cd1",
+    "canonical_name": "Gnosticplayers",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-f32e3682-9298-11e9-8dcb-639156d97cd1"
+    ],
+    "misp_uuid": "f32e3682-9298-11e9-8dcb-639156d97cd1",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "gnosticplayers",
+        "confidence": "source-provided",
+        "display_group_key": "gnosticplayers",
+        "name": "Gnosticplayers",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "gnosticplayers",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.theregister.co.uk/2019/02/11/620_million_hacked_accounts_dark_web",
+          "https://www.zdnet.com/article/127-million-user-records-from-8-companies-put-up-for-sale-on-the-dark-web",
+          "https://www.zdnet.com/article/a-hacker-has-dumped-nearly-one-billion-user-records-over-the-past-two-months",
+          "https://www.zdnet.com/article/hacker-puts-up-for-sale-third-round-of-hacked-databases-on-the-dark-web",
+          "https://www.zdnet.com/article/round-4-hacker-returns-and-puts-26mil-user-records-for-sale-on-the-dark-web"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.theregister.co.uk/2019/02/11/620_million_hacked_accounts_dark_web",
+              "https://www.zdnet.com/article/127-million-user-records-from-8-companies-put-up-for-sale-on-the-dark-web",
+              "https://www.zdnet.com/article/a-hacker-has-dumped-nearly-one-billion-user-records-over-the-past-two-months",
+              "https://www.zdnet.com/article/hacker-puts-up-for-sale-third-round-of-hacked-databases-on-the-dark-web",
+              "https://www.zdnet.com/article/round-4-hacker-returns-and-puts-26mil-user-records-for-sale-on-the-dark-web"
+            ]
+          }
+        ],
+        "variants": [
+          "Gnosticplayers"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "The hacker said that he put up the data for sale mainly because these companies had failed to protect passwords with strong encryption algorithms like bcrypt. Most of the hashed passwords the hacker put up for sale today can cracked with various levels of difficulty --but they can be cracked. \"I got upset because I feel no one is learning,\" the hacker told ZDNet in an online chat earlier today. \"I just felt upset at this particular moment, because seeing this lack of security in 2019 is making me angry.\" In a conversation with ZDNet last month, the hacker told us he wanted to hack and put up for sale more than one billion records and then retire and disappear with the money. But in a..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-f32e3682-9298-11e9-8dcb-639156d97cd1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.theregister.co.uk/2019/02/11/620_million_hacked_accounts_dark_web"
+      },
+      {
+        "actor_id": "misp-f32e3682-9298-11e9-8dcb-639156d97cd1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.zdnet.com/article/127-million-user-records-from-8-companies-put-up-for-sale-on-the-dark-web"
+      },
+      {
+        "actor_id": "misp-f32e3682-9298-11e9-8dcb-639156d97cd1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.zdnet.com/article/a-hacker-has-dumped-nearly-one-billion-user-records-over-the-past-two-months"
+      },
+      {
+        "actor_id": "misp-f32e3682-9298-11e9-8dcb-639156d97cd1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.zdnet.com/article/hacker-puts-up-for-sale-third-round-of-hacked-databases-on-the-dark-web"
+      },
+      {
+        "actor_id": "misp-f32e3682-9298-11e9-8dcb-639156d97cd1",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.zdnet.com/article/round-4-hacker-returns-and-puts-26mil-user-records-for-sale-on-the-dark-web"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Gnosticplayers"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

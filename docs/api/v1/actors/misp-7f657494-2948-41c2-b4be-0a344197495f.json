@@ -1,0 +1,174 @@
+{
+  "actor": {
+    "actor_id": "misp-7f657494-2948-41c2-b4be-0a344197495f",
+    "canonical_name": "Jabaroot",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-7f657494-2948-41c2-b4be-0a344197495f"
+    ],
+    "misp_uuid": "7f657494-2948-41c2-b4be-0a344197495f",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "jabaroot",
+        "confidence": "source-provided",
+        "display_group_key": "jabaroot",
+        "name": "Jabaroot",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "jabaroot",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.resecurity.com/blog/article/cybercriminals-attacked-national-social-security-fund-of-morocco-millions-of-digital-identities-at-risk-of-data-breach"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.resecurity.com/blog/article/cybercriminals-attacked-national-social-security-fund-of-morocco-millions-of-digital-identities-at-risk-of-data-breach"
+            ]
+          }
+        ],
+        "variants": [
+          "Jabaroot"
+        ]
+      },
+      {
+        "compact_normalized_name": "jabarootdz",
+        "confidence": "source-provided",
+        "display_group_key": "jabarootdz",
+        "name": "Jabaroot DZ",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "jabaroot dz",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.resecurity.com/blog/article/cybercriminals-attacked-national-social-security-fund-of-morocco-millions-of-digital-identities-at-risk-of-data-breach"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.resecurity.com/blog/article/cybercriminals-attacked-national-social-security-fund-of-morocco-millions-of-digital-identities-at-risk-of-data-breach"
+            ]
+          }
+        ],
+        "variants": [
+          "Jabaroot DZ"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "JabaRoot is an Algerian hacker group that has targeted Moroccan government systems, successfully exfiltrating sensitive data from the Ministry of Economic Inclusion and the National Social Security Fund (CNSS). The group has claimed responsibility for the breach, which has raised concerns among cybersecurity experts regarding its scale and impact on citizens' privacy. The motives behind the attack remain unclear, but it has been noted as one of Morocco's most significant cyber-attacks affecting multiple victims. Resecurity has identified the group's activities as part of a broader trend of APT targeting government entities in the region."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-7f657494-2948-41c2-b4be-0a344197495f",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.resecurity.com/blog/article/cybercriminals-attacked-national-social-security-fund-of-morocco-millions-of-digital-identities-at-risk-of-data-breach"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "DZ",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "DZ"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "DZ",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "DZ"
+        }
+      ]
+    },
+    "search_names": [
+      "Jabaroot",
+      "Jabaroot DZ"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

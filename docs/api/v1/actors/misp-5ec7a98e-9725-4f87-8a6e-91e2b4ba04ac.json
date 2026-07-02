@@ -1,0 +1,132 @@
+{
+  "actor": {
+    "actor_id": "misp-5ec7a98e-9725-4f87-8a6e-91e2b4ba04ac",
+    "canonical_name": "Storm-1044",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-5ec7a98e-9725-4f87-8a6e-91e2b4ba04ac"
+    ],
+    "misp_uuid": "5ec7a98e-9725-4f87-8a6e-91e2b4ba04ac",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "storm1044",
+        "confidence": "source-provided",
+        "display_group_key": "storm1044",
+        "name": "Storm-1044",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 1044",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://twitter.com/MsftSecIntel/status/1730383711437283757"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://twitter.com/MsftSecIntel/status/1730383711437283757"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-1044"
+        ]
+      },
+      {
+        "compact_normalized_name": "dev1044",
+        "confidence": "source-provided",
+        "display_group_key": "dev1044",
+        "name": "DEV-1044",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "dev 1044",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://twitter.com/MsftSecIntel/status/1730383711437283757"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://twitter.com/MsftSecIntel/status/1730383711437283757"
+            ]
+          }
+        ],
+        "variants": [
+          "DEV-1044"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Storm-1044 has been identified as part of a cyber campaign in collaboration with Twisted Spider. They employ a strategic approach, targeting specific endpoints using an initial access trojan called DanaBot. Once they gain access, Storm-1044 initiates lateral movement through Remote Desktop Protocol sign-in attempts, passing control to Twisted Spider. Twisted Spider then compromises the endpoints by introducing the CACTUS ransomware. Microsoft has detected ongoing malvertising attacks involving Storm-1044, leading to the deployment of CACTUS ransomware."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-5ec7a98e-9725-4f87-8a6e-91e2b4ba04ac",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://twitter.com/MsftSecIntel/status/1730383711437283757"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "DEV-1044",
+      "Storm-1044"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

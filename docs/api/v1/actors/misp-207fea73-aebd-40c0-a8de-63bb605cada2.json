@@ -1,0 +1,149 @@
+{
+  "actor": {
+    "actor_id": "misp-207fea73-aebd-40c0-a8de-63bb605cada2",
+    "canonical_name": "APTIran",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-207fea73-aebd-40c0-a8de-63bb605cada2"
+    ],
+    "misp_uuid": "207fea73-aebd-40c0-a8de-63bb605cada2",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "aptiran",
+        "confidence": "source-provided",
+        "display_group_key": "aptiran",
+        "name": "APTIran",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "aptiran",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.talosintelligence.com/talos-developing-situation-in-the-middle-east",
+          "https://www.sophos.com/en-us/blog/hacktivist-campaigns-increase-as-united-states-iran-and-israel-conflict-intensifies"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/talos-developing-situation-in-the-middle-east",
+              "https://www.sophos.com/en-us/blog/hacktivist-campaigns-increase-as-united-states-iran-and-israel-conflict-intensifies"
+            ]
+          }
+        ],
+        "variants": [
+          "APTIran"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "APTIran has claimed responsibility for a large-scale campaign targeting Israeli critical infrastructure, asserting infiltration of government ministries, hospitals, universities, and financial institutions as retaliation for Israeli military operations. The group has leaked over 350,000 Israeli government login credentials and approximately 300 internal databases, while also threatening to create a 'zombie' network from infected devices. They have reportedly deployed ransomware strains such as ALPHV and LockBit as part of their offensive toolkit. Additionally, APTIran has made unverified claims of compromising Israeli water control systems and the state-owned food security agency Jordan..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-207fea73-aebd-40c0-a8de-63bb605cada2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/talos-developing-situation-in-the-middle-east"
+      },
+      {
+        "actor_id": "misp-207fea73-aebd-40c0-a8de-63bb605cada2",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sophos.com/en-us/blog/hacktivist-campaigns-increase-as-united-states-iran-and-israel-conflict-intensifies"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ]
+    },
+    "search_names": [
+      "APTIran"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

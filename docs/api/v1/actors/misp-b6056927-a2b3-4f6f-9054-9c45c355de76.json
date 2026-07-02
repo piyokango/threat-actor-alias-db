@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-b6056927-a2b3-4f6f-9054-9c45c355de76",
+    "canonical_name": "UNC6032",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-b6056927-a2b3-4f6f-9054-9c45c355de76"
+    ],
+    "misp_uuid": "b6056927-a2b3-4f6f-9054-9c45c355de76",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unc6032",
+        "confidence": "source-provided",
+        "display_group_key": "unc6032",
+        "name": "UNC6032",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc6032",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/cybercriminals-weaponize-fake-ai-websites"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/cybercriminals-weaponize-fake-ai-websites"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC6032"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UNC6032 is a threat actor that weaponizes interest in AI tools, specifically targeting users with fake \"AI video generator\" websites to distribute malware, including Python-based infostealers and backdoors. Victims are typically directed to these sites through malicious social media ads that impersonate legitimate tools. Compromises have led to the exfiltration of sensitive data, including login credentials and credit card information, via the Telegram API. Google Threat Intelligence Group assesses UNC6032 to have a Vietnam nexus."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-b6056927-a2b3-4f6f-9054-9c45c355de76",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/cybercriminals-weaponize-fake-ai-websites"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "VN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "VN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "VN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "VN"
+        }
+      ]
+    },
+    "search_names": [
+      "UNC6032"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

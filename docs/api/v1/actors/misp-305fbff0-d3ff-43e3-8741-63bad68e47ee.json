@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-305fbff0-d3ff-43e3-8741-63bad68e47ee",
+    "canonical_name": "BrazenBamboo",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-305fbff0-d3ff-43e3-8741-63bad68e47ee"
+    ],
+    "misp_uuid": "305fbff0-d3ff-43e3-8741-63bad68e47ee",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "brazenbamboo",
+        "confidence": "source-provided",
+        "display_group_key": "brazenbamboo",
+        "name": "BrazenBamboo",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "brazenbamboo",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.volexity.com/blog/2024/11/15/brazenbamboo-weaponizes-forticlient-vulnerability-to-steal-vpn-credentials-via-deepdata"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.volexity.com/blog/2024/11/15/brazenbamboo-weaponizes-forticlient-vulnerability-to-steal-vpn-credentials-via-deepdata"
+            ]
+          }
+        ],
+        "variants": [
+          "BrazenBamboo"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "BrazenBamboo is a Chinese state-affiliated threat actor known for developing the LIGHTSPY, DEEPDATA, and DEEPPOST malware families. Their infrastructure includes capabilities for zero-day exploitation, specifically targeting vulnerabilities like FortiClient, and employs a command-and-control architecture that supports multi-platform operations. Volexity's analysis indicates that BrazenBamboo is a well-resourced entity with a focus on domestic targets, utilizing custom analyst software to manage data collected from their malware. The ongoing development of their malware families is evidenced by the timestamps associated with their latest payloads."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-305fbff0-d3ff-43e3-8741-63bad68e47ee",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.volexity.com/blog/2024/11/15/brazenbamboo-weaponizes-forticlient-vulnerability-to-steal-vpn-credentials-via-deepdata"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "BrazenBamboo"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

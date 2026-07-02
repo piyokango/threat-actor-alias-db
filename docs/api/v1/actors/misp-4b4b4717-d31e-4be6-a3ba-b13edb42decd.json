@@ -1,0 +1,132 @@
+{
+  "actor": {
+    "actor_id": "misp-4b4b4717-d31e-4be6-a3ba-b13edb42decd",
+    "canonical_name": "Watchdog",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-4b4b4717-d31e-4be6-a3ba-b13edb42decd"
+    ],
+    "misp_uuid": "4b4b4717-d31e-4be6-a3ba-b13edb42decd",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "watchdog",
+        "confidence": "source-provided",
+        "display_group_key": "watchdog",
+        "name": "Watchdog",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "watchdog",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://unit42.paloaltonetworks.com/atoms/thieflibra"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://unit42.paloaltonetworks.com/atoms/thieflibra"
+            ]
+          }
+        ],
+        "variants": [
+          "Watchdog"
+        ]
+      },
+      {
+        "compact_normalized_name": "thieflibra",
+        "confidence": "source-provided",
+        "display_group_key": "thieflibra",
+        "name": "Thief Libra",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "thief libra",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://unit42.paloaltonetworks.com/atoms/thieflibra"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://unit42.paloaltonetworks.com/atoms/thieflibra"
+            ]
+          }
+        ],
+        "variants": [
+          "Thief Libra"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Thief Libra is a cloud-focused threat group that has a history of cryptojacking operations as well as cloud service platform credential scraping. They were first known to operate on January 27, 2019. They use a variety of custom build Go Scripts as well as repurposed cryptojacking scripts from other groups including TeamTNT. They are currently considered to be an opportunistic threat group that targets exposed cloud instances and applications."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-4b4b4717-d31e-4be6-a3ba-b13edb42decd",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/atoms/thieflibra"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Thief Libra",
+      "Watchdog"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

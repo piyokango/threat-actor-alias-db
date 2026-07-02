@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-89a05f9f-a6dc-4426-8c15-a8d5ef6d8524",
+    "canonical_name": "TINY SPIDER",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-89a05f9f-a6dc-4426-8c15-a8d5ef6d8524"
+    ],
+    "misp_uuid": "89a05f9f-a6dc-4426-8c15-a8d5ef6d8524",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "tinyspider",
+        "confidence": "source-provided",
+        "display_group_key": "tinyspider",
+        "name": "TINY SPIDER",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "tiny spider",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report"
+            ]
+          }
+        ],
+        "variants": [
+          "TINY SPIDER"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "According to CrowdStrike, this actor is using TinyLoader and TinyPOS, potentially buying access through Dridex infections."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-89a05f9f-a6dc-4426-8c15-a8d5ef6d8524",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "TINY SPIDER"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

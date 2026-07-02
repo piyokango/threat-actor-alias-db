@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-3714b184-50ea-4251-acd8-4ad1e2b0a4d7",
+    "canonical_name": "JINX-0164",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-3714b184-50ea-4251-acd8-4ad1e2b0a4d7"
+    ],
+    "misp_uuid": "3714b184-50ea-4251-acd8-4ad1e2b0a4d7",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "jinx0164",
+        "confidence": "source-provided",
+        "display_group_key": "jinx0164",
+        "name": "JINX-0164",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "jinx 0164",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.wiz.io/blog/threat-actors-target-crypto-orgs"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.wiz.io/blog/threat-actors-target-crypto-orgs"
+            ]
+          }
+        ],
+        "variants": [
+          "JINX-0164"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "JINX-0164 is a financially motivated threat actor active since mid-2025, primarily targeting software developers through recruitment-themed social engineering to steal cryptocurrencies and conduct supply chain attacks. Their operations have focused on macOS devices, utilizing malware such as AUDIOFIX and MINIRAT, with a notable supply chain compromise involving the trojanization of an npm package. The actor employs a shell script for initial system profiling and payload delivery, often spoofing legitimate services like Microsoft Teams and cryptocurrency companies. JINX-0164's infrastructure includes numerous lookalike domains and utilizes VPN exit nodes for accessing victim systems."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-3714b184-50ea-4251-acd8-4ad1e2b0a4d7",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.wiz.io/blog/threat-actors-target-crypto-orgs"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "KP",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "KP"
+        }
+      ]
+    },
+    "search_names": [
+      "JINX-0164"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

@@ -1,0 +1,101 @@
+{
+  "actor": {
+    "actor_id": "misp-d1416b15-4f3d-41c9-80c4-c9764d83b327",
+    "canonical_name": "HIVE-0145",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-d1416b15-4f3d-41c9-80c4-c9764d83b327"
+    ],
+    "misp_uuid": "d1416b15-4f3d-41c9-80c4-c9764d83b327",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "hive0145",
+        "confidence": "source-provided",
+        "display_group_key": "hive0145",
+        "name": "HIVE-0145",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "hive 0145",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.ibm.com/think/x-force/strela-stealer-todays-invoice-tomorrows-phish"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.ibm.com/think/x-force/strela-stealer-todays-invoice-tomorrows-phish"
+            ]
+          }
+        ],
+        "variants": [
+          "HIVE-0145",
+          "Hive0145"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Hive0145 is a financially motivated initial access broker that has been active since late 2022, primarily utilizing Strela Stealer malware to target email credentials. The group has evolved its tactics from generic phishing emails to using stolen legitimate emails with real invoice attachments, focusing on victims in Spain, Germany, and Ukraine. Strela Stealer is configured to extract data from Microsoft Outlook and Mozilla Thunderbird, and the group's operations have shown increased complexity and automation. Threat intelligence indicates that Hive0145's campaigns are characterized by credential theft and espionage-driven activities."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-d1416b15-4f3d-41c9-80c4-c9764d83b327",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ibm.com/think/x-force/strela-stealer-todays-invoice-tomorrows-phish"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "HIVE-0145",
+      "Hive0145"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

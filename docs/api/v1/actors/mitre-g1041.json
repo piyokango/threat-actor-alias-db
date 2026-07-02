@@ -1,0 +1,1709 @@
+{
+  "actor": {
+    "actor_id": "mitre-g1041",
+    "canonical_name": "Sea Turtle",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g1041"
+    ],
+    "misp_uuid": "ce7bba52-5ae8-44ea-9979-68502d832ab7",
+    "mitre_id": "G1041",
+    "names": [
+      {
+        "compact_normalized_name": "seaturtle",
+        "confidence": "source-provided",
+        "display_group_key": "seaturtle",
+        "name": "Sea Turtle",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "sea turtle",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1041",
+          "https://blog.talosintelligence.com/2019/04/seaturtle.html",
+          "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming",
+          "https://community.icann.org/download/attachments/109483867/Cybersecurity%20and%20the%20ICANN%20Ecosystem.pdf",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2022GTR.pdf",
+          "https://icann.zoom.us/recording/play/AhQB4AQyjCuEJGz2wQQans0Xqkz3su8swGLQoORJhdECw9ttz0TbuyzBlue85gIY",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi?id=101738",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://threatintel.eu/2020/02/25/on-sea-turtle-campaign-targeting-greek-governmental-organisations-timeline",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.domaintools.com/resources/blog/finding-additional-indicators-with-passive-dns-within-domaintools-iris",
+          "https://www.mandiant.com/resources/blog/global-dns-hijacking-campaign-dns-record-manipulation-at-scale",
+          "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.reuters.com/article/us-cyber-attack-hijack-exclusive/exclusive-hackers-acting-in-turkeys-interests-believed-to-be-behind-recent-cyberattacks-sources-idUSKBN1ZQ10X",
+          "https://www.virusbulletin.com/uploads/pdf/magazine/2019/VB2019-Mercer-Rascagneres.pdf",
+          "https://www.youtube.com/watch?v=ws1k44ZhJ3g"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/2019/04/seaturtle.html",
+              "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming",
+              "https://community.icann.org/download/attachments/109483867/Cybersecurity%20and%20the%20ICANN%20Ecosystem.pdf",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2022GTR.pdf",
+              "https://icann.zoom.us/recording/play/AhQB4AQyjCuEJGz2wQQans0Xqkz3su8swGLQoORJhdECw9ttz0TbuyzBlue85gIY",
+              "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi?id=101738",
+              "https://threatintel.eu/2020/02/25/on-sea-turtle-campaign-targeting-greek-governmental-organisations-timeline",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.domaintools.com/resources/blog/finding-additional-indicators-with-passive-dns-within-domaintools-iris",
+              "https://www.mandiant.com/resources/blog/global-dns-hijacking-campaign-dns-record-manipulation-at-scale",
+              "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.reuters.com/article/us-cyber-attack-hijack-exclusive/exclusive-hackers-acting-in-turkeys-interests-believed-to-be-behind-recent-cyberattacks-sources-idUSKBN1ZQ10X",
+              "https://www.virusbulletin.com/uploads/pdf/magazine/2019/VB2019-Mercer-Rascagneres.pdf",
+              "https://www.youtube.com/watch?v=ws1k44ZhJ3g"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1041"
+            ]
+          }
+        ],
+        "variants": [
+          "Sea Turtle"
+        ]
+      },
+      {
+        "compact_normalized_name": "cosmicwolf",
+        "confidence": "source-provided",
+        "display_group_key": "cosmicwolf",
+        "name": "COSMIC WOLF",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "cosmic wolf",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1041",
+          "https://blog.talosintelligence.com/2019/04/seaturtle.html",
+          "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming",
+          "https://community.icann.org/download/attachments/109483867/Cybersecurity%20and%20the%20ICANN%20Ecosystem.pdf",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2022GTR.pdf",
+          "https://icann.zoom.us/recording/play/AhQB4AQyjCuEJGz2wQQans0Xqkz3su8swGLQoORJhdECw9ttz0TbuyzBlue85gIY",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi?id=101738",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://threatintel.eu/2020/02/25/on-sea-turtle-campaign-targeting-greek-governmental-organisations-timeline",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.domaintools.com/resources/blog/finding-additional-indicators-with-passive-dns-within-domaintools-iris",
+          "https://www.mandiant.com/resources/blog/global-dns-hijacking-campaign-dns-record-manipulation-at-scale",
+          "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.reuters.com/article/us-cyber-attack-hijack-exclusive/exclusive-hackers-acting-in-turkeys-interests-believed-to-be-behind-recent-cyberattacks-sources-idUSKBN1ZQ10X",
+          "https://www.virusbulletin.com/uploads/pdf/magazine/2019/VB2019-Mercer-Rascagneres.pdf",
+          "https://www.youtube.com/watch?v=ws1k44ZhJ3g"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/2019/04/seaturtle.html",
+              "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming",
+              "https://community.icann.org/download/attachments/109483867/Cybersecurity%20and%20the%20ICANN%20Ecosystem.pdf",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2022GTR.pdf",
+              "https://icann.zoom.us/recording/play/AhQB4AQyjCuEJGz2wQQans0Xqkz3su8swGLQoORJhdECw9ttz0TbuyzBlue85gIY",
+              "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi?id=101738",
+              "https://threatintel.eu/2020/02/25/on-sea-turtle-campaign-targeting-greek-governmental-organisations-timeline",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.domaintools.com/resources/blog/finding-additional-indicators-with-passive-dns-within-domaintools-iris",
+              "https://www.mandiant.com/resources/blog/global-dns-hijacking-campaign-dns-record-manipulation-at-scale",
+              "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.reuters.com/article/us-cyber-attack-hijack-exclusive/exclusive-hackers-acting-in-turkeys-interests-believed-to-be-behind-recent-cyberattacks-sources-idUSKBN1ZQ10X",
+              "https://www.virusbulletin.com/uploads/pdf/magazine/2019/VB2019-Mercer-Rascagneres.pdf",
+              "https://www.youtube.com/watch?v=ws1k44ZhJ3g"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1041"
+            ]
+          }
+        ],
+        "variants": [
+          "COSMIC WOLF",
+          "Cosmic Wolf"
+        ]
+      },
+      {
+        "compact_normalized_name": "marbleddust",
+        "confidence": "source-provided",
+        "display_group_key": "marbleddust",
+        "name": "Marbled Dust",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "marbled dust",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1041",
+          "https://blog.talosintelligence.com/2019/04/seaturtle.html",
+          "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming",
+          "https://community.icann.org/download/attachments/109483867/Cybersecurity%20and%20the%20ICANN%20Ecosystem.pdf",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2022GTR.pdf",
+          "https://icann.zoom.us/recording/play/AhQB4AQyjCuEJGz2wQQans0Xqkz3su8swGLQoORJhdECw9ttz0TbuyzBlue85gIY",
+          "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi?id=101738",
+          "https://threatintel.eu/2020/02/25/on-sea-turtle-campaign-targeting-greek-governmental-organisations-timeline",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.domaintools.com/resources/blog/finding-additional-indicators-with-passive-dns-within-domaintools-iris",
+          "https://www.mandiant.com/resources/blog/global-dns-hijacking-campaign-dns-record-manipulation-at-scale",
+          "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.reuters.com/article/us-cyber-attack-hijack-exclusive/exclusive-hackers-acting-in-turkeys-interests-believed-to-be-behind-recent-cyberattacks-sources-idUSKBN1ZQ10X",
+          "https://www.virusbulletin.com/uploads/pdf/magazine/2019/VB2019-Mercer-Rascagneres.pdf",
+          "https://www.youtube.com/watch?v=ws1k44ZhJ3g"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/2019/04/seaturtle.html",
+              "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming",
+              "https://community.icann.org/download/attachments/109483867/Cybersecurity%20and%20the%20ICANN%20Ecosystem.pdf",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2022GTR.pdf",
+              "https://icann.zoom.us/recording/play/AhQB4AQyjCuEJGz2wQQans0Xqkz3su8swGLQoORJhdECw9ttz0TbuyzBlue85gIY",
+              "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi?id=101738",
+              "https://threatintel.eu/2020/02/25/on-sea-turtle-campaign-targeting-greek-governmental-organisations-timeline",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.domaintools.com/resources/blog/finding-additional-indicators-with-passive-dns-within-domaintools-iris",
+              "https://www.mandiant.com/resources/blog/global-dns-hijacking-campaign-dns-record-manipulation-at-scale",
+              "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.reuters.com/article/us-cyber-attack-hijack-exclusive/exclusive-hackers-acting-in-turkeys-interests-believed-to-be-behind-recent-cyberattacks-sources-idUSKBN1ZQ10X",
+              "https://www.virusbulletin.com/uploads/pdf/magazine/2019/VB2019-Mercer-Rascagneres.pdf",
+              "https://www.youtube.com/watch?v=ws1k44ZhJ3g"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1041"
+            ]
+          }
+        ],
+        "variants": [
+          "Marbled Dust"
+        ]
+      },
+      {
+        "compact_normalized_name": "silicon",
+        "confidence": "source-provided",
+        "display_group_key": "silicon",
+        "name": "SILICON",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "silicon",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1041",
+          "https://blog.talosintelligence.com/2019/04/seaturtle.html",
+          "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming",
+          "https://community.icann.org/download/attachments/109483867/Cybersecurity%20and%20the%20ICANN%20Ecosystem.pdf",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2022GTR.pdf",
+          "https://icann.zoom.us/recording/play/AhQB4AQyjCuEJGz2wQQans0Xqkz3su8swGLQoORJhdECw9ttz0TbuyzBlue85gIY",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi?id=101738",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://threatintel.eu/2020/02/25/on-sea-turtle-campaign-targeting-greek-governmental-organisations-timeline",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.domaintools.com/resources/blog/finding-additional-indicators-with-passive-dns-within-domaintools-iris",
+          "https://www.mandiant.com/resources/blog/global-dns-hijacking-campaign-dns-record-manipulation-at-scale",
+          "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.reuters.com/article/us-cyber-attack-hijack-exclusive/exclusive-hackers-acting-in-turkeys-interests-believed-to-be-behind-recent-cyberattacks-sources-idUSKBN1ZQ10X",
+          "https://www.virusbulletin.com/uploads/pdf/magazine/2019/VB2019-Mercer-Rascagneres.pdf",
+          "https://www.youtube.com/watch?v=ws1k44ZhJ3g"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/2019/04/seaturtle.html",
+              "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming",
+              "https://community.icann.org/download/attachments/109483867/Cybersecurity%20and%20the%20ICANN%20Ecosystem.pdf",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2022GTR.pdf",
+              "https://icann.zoom.us/recording/play/AhQB4AQyjCuEJGz2wQQans0Xqkz3su8swGLQoORJhdECw9ttz0TbuyzBlue85gIY",
+              "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi?id=101738",
+              "https://threatintel.eu/2020/02/25/on-sea-turtle-campaign-targeting-greek-governmental-organisations-timeline",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.domaintools.com/resources/blog/finding-additional-indicators-with-passive-dns-within-domaintools-iris",
+              "https://www.mandiant.com/resources/blog/global-dns-hijacking-campaign-dns-record-manipulation-at-scale",
+              "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.reuters.com/article/us-cyber-attack-hijack-exclusive/exclusive-hackers-acting-in-turkeys-interests-believed-to-be-behind-recent-cyberattacks-sources-idUSKBN1ZQ10X",
+              "https://www.virusbulletin.com/uploads/pdf/magazine/2019/VB2019-Mercer-Rascagneres.pdf",
+              "https://www.youtube.com/watch?v=ws1k44ZhJ3g"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1041"
+            ]
+          }
+        ],
+        "variants": [
+          "SILICON"
+        ]
+      },
+      {
+        "compact_normalized_name": "tealkurma",
+        "confidence": "source-provided",
+        "display_group_key": "tealkurma",
+        "name": "Teal Kurma",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "teal kurma",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1041",
+          "https://blog.talosintelligence.com/2019/04/seaturtle.html",
+          "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming",
+          "https://community.icann.org/download/attachments/109483867/Cybersecurity%20and%20the%20ICANN%20Ecosystem.pdf",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2022GTR.pdf",
+          "https://icann.zoom.us/recording/play/AhQB4AQyjCuEJGz2wQQans0Xqkz3su8swGLQoORJhdECw9ttz0TbuyzBlue85gIY",
+          "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi?id=101738",
+          "https://threatintel.eu/2020/02/25/on-sea-turtle-campaign-targeting-greek-governmental-organisations-timeline",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.domaintools.com/resources/blog/finding-additional-indicators-with-passive-dns-within-domaintools-iris",
+          "https://www.mandiant.com/resources/blog/global-dns-hijacking-campaign-dns-record-manipulation-at-scale",
+          "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.reuters.com/article/us-cyber-attack-hijack-exclusive/exclusive-hackers-acting-in-turkeys-interests-believed-to-be-behind-recent-cyberattacks-sources-idUSKBN1ZQ10X",
+          "https://www.virusbulletin.com/uploads/pdf/magazine/2019/VB2019-Mercer-Rascagneres.pdf",
+          "https://www.youtube.com/watch?v=ws1k44ZhJ3g"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/2019/04/seaturtle.html",
+              "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming",
+              "https://community.icann.org/download/attachments/109483867/Cybersecurity%20and%20the%20ICANN%20Ecosystem.pdf",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2022GTR.pdf",
+              "https://icann.zoom.us/recording/play/AhQB4AQyjCuEJGz2wQQans0Xqkz3su8swGLQoORJhdECw9ttz0TbuyzBlue85gIY",
+              "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi?id=101738",
+              "https://threatintel.eu/2020/02/25/on-sea-turtle-campaign-targeting-greek-governmental-organisations-timeline",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.domaintools.com/resources/blog/finding-additional-indicators-with-passive-dns-within-domaintools-iris",
+              "https://www.mandiant.com/resources/blog/global-dns-hijacking-campaign-dns-record-manipulation-at-scale",
+              "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.reuters.com/article/us-cyber-attack-hijack-exclusive/exclusive-hackers-acting-in-turkeys-interests-believed-to-be-behind-recent-cyberattacks-sources-idUSKBN1ZQ10X",
+              "https://www.virusbulletin.com/uploads/pdf/magazine/2019/VB2019-Mercer-Rascagneres.pdf",
+              "https://www.youtube.com/watch?v=ws1k44ZhJ3g"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1041"
+            ]
+          }
+        ],
+        "variants": [
+          "Teal Kurma"
+        ]
+      },
+      {
+        "compact_normalized_name": "unc1326",
+        "confidence": "source-provided",
+        "display_group_key": "unc1326",
+        "name": "UNC1326",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "unc1326",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "https://blog.talosintelligence.com/2019/04/seaturtle.html",
+          "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming",
+          "https://community.icann.org/download/attachments/109483867/Cybersecurity%20and%20the%20ICANN%20Ecosystem.pdf",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2022GTR.pdf",
+          "https://icann.zoom.us/recording/play/AhQB4AQyjCuEJGz2wQQans0Xqkz3su8swGLQoORJhdECw9ttz0TbuyzBlue85gIY",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi?id=101738",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://threatintel.eu/2020/02/25/on-sea-turtle-campaign-targeting-greek-governmental-organisations-timeline",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.domaintools.com/resources/blog/finding-additional-indicators-with-passive-dns-within-domaintools-iris",
+          "https://www.mandiant.com/resources/blog/global-dns-hijacking-campaign-dns-record-manipulation-at-scale",
+          "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.reuters.com/article/us-cyber-attack-hijack-exclusive/exclusive-hackers-acting-in-turkeys-interests-believed-to-be-behind-recent-cyberattacks-sources-idUSKBN1ZQ10X",
+          "https://www.virusbulletin.com/uploads/pdf/magazine/2019/VB2019-Mercer-Rascagneres.pdf",
+          "https://www.youtube.com/watch?v=ws1k44ZhJ3g"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/2019/04/seaturtle.html",
+              "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming",
+              "https://community.icann.org/download/attachments/109483867/Cybersecurity%20and%20the%20ICANN%20Ecosystem.pdf",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2022GTR.pdf",
+              "https://icann.zoom.us/recording/play/AhQB4AQyjCuEJGz2wQQans0Xqkz3su8swGLQoORJhdECw9ttz0TbuyzBlue85gIY",
+              "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi?id=101738",
+              "https://threatintel.eu/2020/02/25/on-sea-turtle-campaign-targeting-greek-governmental-organisations-timeline",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.domaintools.com/resources/blog/finding-additional-indicators-with-passive-dns-within-domaintools-iris",
+              "https://www.mandiant.com/resources/blog/global-dns-hijacking-campaign-dns-record-manipulation-at-scale",
+              "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.reuters.com/article/us-cyber-attack-hijack-exclusive/exclusive-hackers-acting-in-turkeys-interests-believed-to-be-behind-recent-cyberattacks-sources-idUSKBN1ZQ10X",
+              "https://www.virusbulletin.com/uploads/pdf/magazine/2019/VB2019-Mercer-Rascagneres.pdf",
+              "https://www.youtube.com/watch?v=ws1k44ZhJ3g"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC1326"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g1041",
+          "name": "Acquire Infrastructure",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583",
+          "url": "https://attack.mitre.org/techniques/T1583/"
+        },
+        {
+          "actor_id": "mitre-g1041",
+          "name": "Domains",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming/",
+            "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583.001",
+          "url": "https://attack.mitre.org/techniques/T1583.001/"
+        },
+        {
+          "actor_id": "mitre-g1041",
+          "name": "DNS Server",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming/",
+            "https://blog.talosintelligence.com/seaturtle/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583.002",
+          "url": "https://attack.mitre.org/techniques/T1583.002/"
+        },
+        {
+          "actor_id": "mitre-g1041",
+          "name": "Virtual Private Server",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/seaturtle/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583.003",
+          "url": "https://attack.mitre.org/techniques/T1583.003/"
+        },
+        {
+          "actor_id": "mitre-g1041",
+          "name": "DNS Server",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming/",
+            "https://blog.talosintelligence.com/seaturtle/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1584.002",
+          "url": "https://attack.mitre.org/techniques/T1584.002/"
+        },
+        {
+          "actor_id": "mitre-g1041",
+          "name": "Tool",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1588.002",
+          "url": "https://attack.mitre.org/techniques/T1588.002/"
+        },
+        {
+          "actor_id": "mitre-g1041",
+          "name": "Digital Certificates",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming/",
+            "https://blog.talosintelligence.com/seaturtle/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1588.004",
+          "url": "https://attack.mitre.org/techniques/T1588.004/"
+        },
+        {
+          "actor_id": "mitre-g1041",
+          "name": "Install Digital Certificate",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/seaturtle/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1608.003",
+          "url": "https://attack.mitre.org/techniques/T1608.003/"
+        },
+        {
+          "actor_id": "mitre-g1041",
+          "name": "Valid Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/seaturtle/"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "actor_id": "mitre-g1041",
+          "name": "Local Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078.003",
+          "url": "https://attack.mitre.org/techniques/T1078.003/"
+        },
+        {
+          "actor_id": "mitre-g1041",
+          "name": "External Remote Services",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence"
+          ],
+          "technique_id": "T1133",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "actor_id": "mitre-g1041",
+          "name": "Exploit Public-Facing Application",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://blog.talosintelligence.com/seaturtle/",
+            "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/tortoise-and-malwahare.html"
+          ],
+          "tactics": [
+            "initial-access"
+          ],
+          "technique_id": "T1190",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 8,
+          "items": [
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Acquire Infrastructure",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583",
+              "url": "https://attack.mitre.org/techniques/T1583/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming/",
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "DNS Server",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming/",
+                "https://blog.talosintelligence.com/seaturtle/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.002",
+              "url": "https://attack.mitre.org/techniques/T1583.002/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Virtual Private Server",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/seaturtle/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.003",
+              "url": "https://attack.mitre.org/techniques/T1583.003/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "DNS Server",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming/",
+                "https://blog.talosintelligence.com/seaturtle/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1584.002",
+              "url": "https://attack.mitre.org/techniques/T1584.002/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Digital Certificates",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming/",
+                "https://blog.talosintelligence.com/seaturtle/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.004",
+              "url": "https://attack.mitre.org/techniques/T1588.004/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Install Digital Certificate",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/seaturtle/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.003",
+              "url": "https://attack.mitre.org/techniques/T1608.003/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/seaturtle/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Exploit Public-Facing Application",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/seaturtle/",
+                "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/tortoise-and-malwahare.html"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1190",
+              "url": "https://attack.mitre.org/techniques/T1190/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Trusted Relationship",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/seaturtle/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1199",
+              "url": "https://attack.mitre.org/techniques/T1199/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Phishing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/seaturtle/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566",
+              "url": "https://attack.mitre.org/techniques/T1566/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Remote Data Staging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1074.002",
+              "url": "https://attack.mitre.org/techniques/T1074.002/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Local Email Collection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1114.001",
+              "url": "https://attack.mitre.org/techniques/T1114.001/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Databases",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1213.006",
+              "url": "https://attack.mitre.org/techniques/T1213.006/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Adversary-in-the-Middle",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming/",
+                "https://blog.talosintelligence.com/seaturtle/"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1557",
+              "url": "https://attack.mitre.org/techniques/T1557/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Archive via Utility",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1560.001",
+              "url": "https://attack.mitre.org/techniques/T1560.001/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/seaturtle/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "External Remote Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence"
+              ],
+              "technique_id": "T1133",
+              "url": "https://attack.mitre.org/techniques/T1133/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Web Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns",
+                "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/tortoise-and-malwahare.html"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1505.003",
+              "url": "https://attack.mitre.org/techniques/T1505.003/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Compile After Delivery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.004",
+              "url": "https://attack.mitre.org/techniques/T1027.004/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/seaturtle/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Ignore Process Interrupts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.011",
+              "url": "https://attack.mitre.org/techniques/T1564.011/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Clear Linux or Mac System Logs",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1685.006",
+              "url": "https://attack.mitre.org/techniques/T1685.006/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Prevent Command History Logging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1690",
+              "url": "https://attack.mitre.org/techniques/T1690/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Unix Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns",
+                "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/tortoise-and-malwahare.html"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.004",
+              "url": "https://attack.mitre.org/techniques/T1059.004/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Exploitation for Client Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/tortoise-and-malwahare.html"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1203",
+              "url": "https://attack.mitre.org/techniques/T1203/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/seaturtle/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Adversary-in-the-Middle",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming/",
+                "https://blog.talosintelligence.com/seaturtle/"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1557",
+              "url": "https://attack.mitre.org/techniques/T1557/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1041",
+              "name": "Web Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.001",
+              "url": "https://attack.mitre.org/techniques/T1071.001/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 8,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 6,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 5,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 4,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 4,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 2,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 2,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 2,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 1,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        }
+      ],
+      "total": 27
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G1041/"
+          ]
+        }
+      ],
+      "text": "Sea Turtle is a Türkiye-linked threat actor active since at least 2017 performing espionage and service provider compromise operations against victims in Asia, Europe, and North America. Sea Turtle is notable for targeting registrars managing ccTLDs and complex DNS-based intrusions where the threat actor compromised DNS providers to hijack DNS resolution for ultimate victims, enabling Sea Turtle to spoof log in portals and other applications for credential collection.(Citation: Talos Sea Turtle 2019)(Citation: Talos Sea Turtle 2019_2)(Citation: PWC Sea Turtle 2023)(Citation: Hunt Sea Turtle 2024)"
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G1041"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/2019/04/seaturtle.html"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/sea-turtle-keeps-on-swimming"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/seaturtle"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://community.icann.org/download/attachments/109483867/Cybersecurity%20and%20the%20ICANN%20Ecosystem.pdf"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2022GTR.pdf"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://icann.zoom.us/recording/play/AhQB4AQyjCuEJGz2wQQans0Xqkz3su8swGLQoORJhdECw9ttz0TbuyzBlue85gIY"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWMFIi?id=101738"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://threatintel.eu/2020/02/25/on-sea-turtle-campaign-targeting-greek-governmental-organisations-timeline"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.domaintools.com/resources/blog/finding-additional-indicators-with-passive-dns-within-domaintools-iris"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.huntandhackett.com/blog/turkish-espionage-campaigns"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.mandiant.com/resources/blog/global-dns-hijacking-campaign-dns-record-manipulation-at-scale"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/tortoise-and-malwahare.html"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.reuters.com/article/us-cyber-attack-hijack-exclusive/exclusive-hackers-acting-in-turkeys-interests-believed-to-be-behind-recent-cyberattacks-sources-idUSKBN1ZQ10X"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.virusbulletin.com/uploads/pdf/magazine/2019/VB2019-Mercer-Rascagneres.pdf"
+      },
+      {
+        "actor_id": "mitre-g1041",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.youtube.com/watch?v=ws1k44ZhJ3g"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "TR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "TR"
+        },
+        {
+          "country_code": "TR",
+          "display_value": "Turkey",
+          "flag": "🇹🇷",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Turkey"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "TR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "TR"
+        },
+        {
+          "country_code": "TR",
+          "display_value": "Turkey",
+          "flag": "🇹🇷",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Turkey"
+        }
+      ]
+    },
+    "search_names": [
+      "COSMIC WOLF",
+      "Cosmic Wolf",
+      "Marbled Dust",
+      "Sea Turtle",
+      "SILICON",
+      "Teal Kurma",
+      "UNC1326"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}

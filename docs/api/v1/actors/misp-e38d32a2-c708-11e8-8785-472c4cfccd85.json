@@ -1,0 +1,83 @@
+{
+  "actor": {
+    "actor_id": "misp-e38d32a2-c708-11e8-8785-472c4cfccd85",
+    "canonical_name": "FASTCash",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-e38d32a2-c708-11e8-8785-472c4cfccd85"
+    ],
+    "misp_uuid": "e38d32a2-c708-11e8-8785-472c4cfccd85",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "fastcash",
+        "confidence": "source-provided",
+        "display_group_key": "fastcash",
+        "name": "FASTCash",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "fastcash",
+        "source_id": "misp-galaxy",
+        "source_urls": [],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": []
+          }
+        ],
+        "variants": [
+          "FASTCash"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Treasury has identified a sophisticated cyber-enabled ATM cash out campaign we are calling FASTCash. FASTCash has been active since late 2016 targeting banks in Africa and Asia to remotely compromise payment switch application servers within banks to facilitate fraudulent transactions, primarily involving ATMs, to steal cash equivalent to tens of millions of dollars. FBI has attributed malware used in this campaign to the North Korean government. We expect FASTCash to continue targeting retail payment systems vulnerable to remote exploitation."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "FASTCash"
+    ],
+    "source_ids": [
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-07-02"
+  },
+  "generated_at": "2026-07-02T05:52:38Z"
+}
