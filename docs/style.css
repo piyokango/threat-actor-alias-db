@@ -896,3 +896,41 @@ select {
     text-align: center;
   }
 }
+
+
+.flag-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 18px;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(27, 31, 36, 0.15);
+  background: #f6f8fa;
+  flex: 0 0 auto;
+}
+
+.flag-icon img {
+  display: block;
+  width: 24px;
+  height: 18px;
+  object-fit: cover;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.attr-flag {
+  min-width: 24px;
+  text-align: center;
+}

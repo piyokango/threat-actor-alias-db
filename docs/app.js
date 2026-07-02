@@ -173,6 +173,7 @@ function collectExtendedSearchFields(actor) {
     ...((attributionData.countries || []).flatMap(item => [
       { value: item.value, reason: "推定帰属" },
       { value: item.display_value, reason: "推定帰属" },
+      { value: countryNameJa(item), reason: "推定帰属" },
       { value: item.country_code, reason: "推定帰属" },
       ...((item.sources || []).map(source => ({ value: source.source_name || source.source_id, reason: "推定帰属の出典" })))
     ])),
@@ -335,6 +336,70 @@ function fallbackCountryFlag(value) {
     "uk": "🇬🇧"
   };
   return map[normalized] || "";
+}
+
+function countryNameJa(item) {
+  const code = String(item.country_code || "").toUpperCase();
+  const value = normalize(item.display_value || item.value);
+
+  const byCode = {
+    RU: "ロシア",
+    CN: "中国",
+    KP: "北朝鮮",
+    IR: "イラン",
+    VN: "ベトナム",
+    IN: "インド",
+    PK: "パキスタン",
+    TR: "トルコ",
+    IL: "イスラエル",
+    LB: "レバノン",
+    SY: "シリア",
+    BY: "ベラルーシ",
+    UA: "ウクライナ",
+    US: "米国",
+    GB: "英国"
+  };
+
+  const byName = {
+    "russia": "ロシア",
+    "russian federation": "ロシア",
+    "china": "中国",
+    "north korea": "北朝鮮",
+    "dprk": "北朝鮮",
+    "iran": "イラン",
+    "vietnam": "ベトナム",
+    "india": "インド",
+    "pakistan": "パキスタン",
+    "turkey": "トルコ",
+    "israel": "イスラエル",
+    "lebanon": "レバノン",
+    "syria": "シリア",
+    "belarus": "ベラルーシ",
+    "ukraine": "ウクライナ",
+    "united states": "米国",
+    "usa": "米国",
+    "united kingdom": "英国",
+    "uk": "英国"
+  };
+
+  return byCode[code] || byName[value] || item.display_value || item.value || "不明";
+}
+
+function renderFlagIcon(item) {
+  const code = String(item.country_code || "").toUpperCase();
+
+  if (/^[A-Z]{2}$/.test(code)) {
+    const lower = code.toLowerCase();
+    const alt = countryNameJa(item);
+    return `<span class="flag-icon" aria-hidden="true"><img src="https://flagcdn.com/24x18/${escapeHtml(lower)}.png" srcset="https://flagcdn.com/48x36/${escapeHtml(lower)}.png 2x" alt=""></span><span class="sr-only">${escapeHtml(alt)}の国旗</span>`;
+  }
+
+  const fallback = fallbackCountryFlag(item.display_value || item.value);
+  if (fallback) {
+    return `<span class="attr-flag">${escapeHtml(fallback)}</span>`;
+  }
+
+  return "";
 }
 
 function renderSourceBadges(name) {
@@ -530,12 +595,12 @@ function renderAttribution(actor) {
   }
 
   const countryItems = countries.map(item => {
-    const resolvedFlag = item.flag || flagFromCountryCode(item.country_code) || fallbackCountryFlag(item.display_value || item.value);
-    const flag = resolvedFlag ? `<span class="attr-flag">${escapeHtml(resolvedFlag)}</span>` : "";
+    const flag = renderFlagIcon(item);
+    const countryName = countryNameJa(item);
     const code = item.country_code ? `<span class="attr-code">${escapeHtml(item.country_code)}</span>` : "";
     return `
       <li class="country-row">
-        <span class="attr-country">${flag}<span class="attr-value">${escapeHtml(item.display_value || item.value)}</span>${code}</span>
+        <span class="attr-country">${flag}<span class="attr-value">${escapeHtml(countryName)}</span>${code}</span>
         <span class="attr-source">${renderSourceList(item.sources)}</span>
       </li>
     `;
