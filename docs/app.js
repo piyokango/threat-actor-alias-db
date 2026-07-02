@@ -131,6 +131,35 @@ function labelForAttributionType(type) {
   return labels[type] || type || "分類";
 }
 
+function labelForTactic(tactic) {
+  const labels = {
+    "reconnaissance": "偵察",
+    "resource-development": "リソース開発",
+    "initial-access": "初期アクセス",
+    "execution": "実行",
+    "persistence": "永続化",
+    "privilege-escalation": "権限昇格",
+    "defense-evasion": "防御回避",
+    "credential-access": "認証情報アクセス",
+    "discovery": "探索",
+    "lateral-movement": "横展開",
+    "collection": "収集",
+    "command-and-control": "C2",
+    "exfiltration": "持ち出し",
+    "impact": "影響"
+  };
+  return labels[tactic] || tactic || "不明";
+}
+
+function labelForSourceOrg(sourceName) {
+  const labels = {
+    "Microsoft current": "Microsoft現行名",
+    "Microsoft previous": "Microsoft旧称",
+    "Microsoft other": "Microsoft掲載名"
+  };
+  return labels[sourceName] || sourceName || "不明";
+}
+
 function renderSourceBadges(name) {
   const sources = Array.isArray(name.sources) && name.sources.length
     ? name.sources
@@ -152,7 +181,7 @@ function renderSourceBadges(name) {
     }
 
     const title = titleParts.length ? ` title="${escapeHtml(titleParts.join("\n"))}"` : "";
-    return `<span class="source-badge"${title}>${escapeHtml(source.naming_org || "Unknown")}</span>`;
+    return `<span class="source-badge"${title}>${escapeHtml(labelForSourceOrg(source.naming_org))}</span>`;
   }).join("");
 }
 
@@ -220,7 +249,7 @@ function sortNamesForDisplay(names, matchedNames) {
 
 function renderNames(names, matchedNames) {
   if (!names || !names.length) {
-    return "<p class=\"muted\">No names available.</p>";
+    return "<p class=\"muted\">名称情報はありません。</p>";
   }
 
   const sortedNames = sortNamesForDisplay(names, matchedNames);
@@ -253,7 +282,7 @@ function renderSourceSummary(actor) {
   return `
     <div class="source-summary">
       <strong>呼称確認元:</strong>
-      ${sources.map(source => `<span class="badge badge-source">${escapeHtml(source)}</span>`).join("")}
+      ${sources.map(source => `<span class="badge badge-source">${escapeHtml(labelForSourceOrg(source))}</span>`).join("")}
     </div>
   `;
 }
@@ -269,14 +298,14 @@ function renderOverview(actor) {
     if (urls.length) {
       return `<a href="${escapeHtml(urls[0])}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.source_name || source.source_id)}</a>`;
     }
-    return escapeHtml(source.source_name || source.source_id || "Unknown");
+    return escapeHtml(source.source_name || source.source_id || "不明");
   }).join(", ");
 
   return `
     <section class="card-section overview">
-      <h3>Overview</h3>
+      <h3>概要</h3>
       <p>${escapeHtml(overview.text)}</p>
-      ${sources ? `<div class="section-source">Source: ${sources}</div>` : ""}
+      ${sources ? `<div class="section-source">出典: ${sources}</div>` : ""}
     </section>
   `;
 }
@@ -291,7 +320,7 @@ function renderAttribution(actor) {
     const urls = row.source_urls || [];
     const source = urls.length
       ? `<a href="${escapeHtml(urls[0])}" target="_blank" rel="noopener noreferrer">${escapeHtml(row.source_name || row.source_id)}</a>`
-      : escapeHtml(row.source_name || row.source_id || "Unknown");
+      : escapeHtml(row.source_name || row.source_id || "不明");
 
     return `
       <li>
@@ -304,9 +333,9 @@ function renderAttribution(actor) {
 
   return `
     <section class="card-section attribution">
-      <h3>Reported attribution</h3>
+      <h3>推定帰属</h3>
       <ul>${items}</ul>
-      <p class="section-note">Source-attributed information only. This database does not independently confirm attribution.</p>
+      <p class="section-note">出典に記載された情報を表示しています。本DBは帰属を独自に断定しません。</p>
     </section>
   `;
 }
@@ -319,28 +348,12 @@ function renderObservedTechniques(actor) {
   }
 
   const tacticSummary = (data.tactics || []).slice(0, 6).map(tactic => {
-    return `<span class="tactic-badge">${escapeHtml(tactic.label || tactic.tactic)} <span>${escapeHtml(tactic.count)}</span></span>`;
+    return `<span class="tactic-badge">${escapeHtml(labelForTactic(tactic.tactic))} <span>${escapeHtml(tactic.count)}</span></span>`;
   }).join("");
 
   const techniqueItems = items.map(item => {
     const tacticLabels = (item.tactics || []).map(tactic => {
-      const label = {
-        "reconnaissance": "Reconnaissance",
-        "resource-development": "Resource Development",
-        "initial-access": "Initial Access",
-        "execution": "Execution",
-        "persistence": "Persistence",
-        "privilege-escalation": "Privilege Escalation",
-        "defense-evasion": "Defense Evasion",
-        "credential-access": "Credential Access",
-        "discovery": "Discovery",
-        "lateral-movement": "Lateral Movement",
-        "collection": "Collection",
-        "command-and-control": "Command and Control",
-        "exfiltration": "Exfiltration",
-        "impact": "Impact"
-      }[tactic] || tactic;
-      return `<span class="technique-tactic">${escapeHtml(label)}</span>`;
+      return `<span class="technique-tactic">${escapeHtml(labelForTactic(tactic))}</span>`;
     }).join("");
 
     const label = `${item.technique_id || ""} ${item.name || ""}`.trim();
@@ -357,12 +370,12 @@ function renderObservedTechniques(actor) {
   }).join("");
 
   const more = data.total && data.total > items.length
-    ? `<div class="section-note">Showing ${items.length} of ${data.total} MITRE ATT&CK technique links.</div>`
+    ? `<div class="section-note">MITRE ATT&amp;CKにおける関連Technique ${data.total}件のうち、${items.length}件を表示しています。</div>`
     : "";
 
   return `
     <section class="card-section techniques">
-      <h3>Observed ATT&amp;CK techniques</h3>
+      <h3>観測された主な攻撃手法</h3>
       ${tacticSummary ? `<div class="tactic-summary">${tacticSummary}</div>` : ""}
       <ul>${techniqueItems}</ul>
       ${more}
@@ -378,8 +391,8 @@ function renderRecentActivity(actor) {
 
   const items = activity.slice(0, 5).map(item => {
     const matched = (item.matched_names || []).map(name => `<span class="activity-match">${escapeHtml(name)}</span>`).join("");
-    const date = item.published_date || "date unknown";
-    const publisher = item.publisher || "publisher unknown";
+    const date = item.published_date || "日付不明";
+    const publisher = item.publisher || "発行元不明";
 
     return `
       <li class="activity-item">
@@ -392,7 +405,7 @@ function renderRecentActivity(actor) {
 
   return `
     <section class="card-section recent-activity">
-      <h3>Recent activity</h3>
+      <h3>最近の動向</h3>
       <ul>${items}</ul>
     </section>
   `;
@@ -405,7 +418,7 @@ function renderActor(actor, matchedNames) {
     .join("");
 
   const moreRefs = (actor.references || []).length > 8
-    ? `<li class="name-source">...and ${(actor.references || []).length - 8} more references in the JSON data</li>`
+    ? `<li class="name-source">...ほか ${(actor.references || []).length - 8} 件の参照情報がJSONデータに含まれています</li>`
     : "";
 
   return `
@@ -417,7 +430,7 @@ function renderActor(actor, matchedNames) {
       <div class="meta">
         ${actor.mitre_id ? `<span class="badge">MITRE ${escapeHtml(actor.mitre_id)}</span>` : ""}
         ${actor.misp_uuid ? `<span class="badge">MISP Galaxy</span>` : ""}
-        <span class="badge">${escapeHtml(actor.confidence || "unknown")}</span>
+        <span class="badge">${escapeHtml(actor.confidence || "不明")}</span>
       </div>
 
       ${renderSourceSummary(actor)}
@@ -427,13 +440,13 @@ function renderActor(actor, matchedNames) {
       ${renderRecentActivity(actor)}
 
       <section class="card-section">
-        <h3>Names and aliases</h3>
+        <h3>名称・別称</h3>
         ${renderNames(actor.names || [], matchedNames)}
       </section>
 
       <section class="card-section references">
-        <h3>References</h3>
-        <ul>${refs || "<li>No references available</li>"}${moreRefs}</ul>
+        <h3>参照情報</h3>
+        <ul>${refs || "<li>参照情報はありません</li>"}${moreRefs}</ul>
       </section>
     </article>
   `;
@@ -444,8 +457,8 @@ function render() {
   state.query = query;
 
   if (!query) {
-    statsEl.textContent = `${state.index.length} actors loaded. Enter a name, alias, ID, source organization, attribution, or technique to search.`;
-    resultsEl.innerHTML = `<div class="empty">Enter a search term to begin.</div>`;
+    statsEl.textContent = `${state.index.length}件のアクター情報を読み込みました。名称、別称、ID、出典組織、帰属情報、攻撃手法で検索できます。`;
+    resultsEl.innerHTML = `<div class="empty">検索語を入力してください。</div>`;
     return;
   }
 
@@ -455,10 +468,10 @@ function render() {
     .sort((a, b) => b.score - a.score || a.actor.canonical_name.localeCompare(b.actor.canonical_name))
     .slice(0, 50);
 
-  statsEl.textContent = `${matches.length} result(s) for "${query}"`;
+  statsEl.textContent = `「${query}」の検索結果: ${matches.length}件`;
 
   if (!matches.length) {
-    resultsEl.innerHTML = `<div class="empty">No matching actors found.</div>`;
+    resultsEl.innerHTML = `<div class="empty">一致するアクターは見つかりませんでした。</div>`;
     return;
   }
 
@@ -472,8 +485,8 @@ async function loadIndex() {
     state.index = await response.json();
     render();
   } catch (error) {
-    statsEl.textContent = `Failed to load search index: ${error.message}`;
-    resultsEl.innerHTML = `<div class="empty">Run the update scripts or GitHub Actions to generate docs/data/search-index.json.</div>`;
+    statsEl.textContent = `検索インデックスの読み込みに失敗しました: ${error.message}`;
+    resultsEl.innerHTML = `<div class="empty">更新スクリプトまたはGitHub Actionsを実行して docs/data/search-index.json を生成してください。</div>`;
   }
 }
 
