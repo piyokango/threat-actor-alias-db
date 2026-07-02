@@ -590,15 +590,15 @@ function renderObservedTechniques(actor) {
     `;
   }).join("");
 
-  const activePanel = activeGroup ? renderTechniquePanel(activeGroup, actorKey) : "";
+  const activePanel = activeGroup
+    ? `<div id="technique-panel-${escapeHtml(actorDomKey)}" class="technique-selected-panel">${renderTechniquePanel(activeGroup, actorKey)}</div>`
+    : "";
 
   return `
     <section class="card-section techniques">
       <h3>観測された主な攻撃手法</h3>
       ${tacticSummary ? `<div class="tactic-summary tactic-summary-compact">${tacticSummary}</div>` : ""}
-      <div id="technique-panel-${escapeHtml(actorDomKey)}" class="technique-selected-panel">
-        ${activePanel}
-      </div>
+      ${activePanel}
       ${data.total ? `<div class="section-note">MITRE ATT&amp;CKにおける関連Technique ${data.total}件をTactic別に整理しています。</div>` : ""}
     </section>
   `;
