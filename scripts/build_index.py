@@ -56,6 +56,24 @@ TACTIC_LABELS = {
 }
 
 
+TACTIC_IDS = {
+    "reconnaissance": "TA0043",
+    "resource-development": "TA0042",
+    "initial-access": "TA0001",
+    "execution": "TA0002",
+    "persistence": "TA0003",
+    "privilege-escalation": "TA0004",
+    "defense-evasion": "TA0005",
+    "credential-access": "TA0006",
+    "discovery": "TA0007",
+    "lateral-movement": "TA0008",
+    "collection": "TA0009",
+    "command-and-control": "TA0011",
+    "exfiltration": "TA0010",
+    "impact": "TA0040",
+}
+
+
 def load_json(path: Path) -> Any:
     if not path.exists():
         return []
@@ -400,6 +418,8 @@ def build_overview(descriptions: list[dict[str, Any]], actor: dict[str, Any]) ->
 COUNTRY_ALIASES = {
     "russia": ("Russia", "RU", "🇷🇺"),
     "russian federation": ("Russia", "RU", "🇷🇺"),
+    "russian-federation": ("Russia", "RU", "🇷🇺"),
+    "russian": ("Russia", "RU", "🇷🇺"),
     "ru": ("Russia", "RU", "🇷🇺"),
     "china": ("China", "CN", "🇨🇳"),
     "prc": ("China", "CN", "🇨🇳"),
@@ -435,25 +455,32 @@ def normalize_country_value(value: str) -> dict[str, Any] | None:
         return None
 
     key = normalize_text(raw)
-    if key in COUNTRY_ALIASES:
-        display, code, flag = COUNTRY_ALIASES[key]
-        return {
-            "display_value": display,
-            "country_code": code,
-            "flag": flag,
-            "normalized_country": normalize_text(display),
-        }
+    candidates = [
+        key,
+        key.replace(" the ", " "),
+        key.replace("-", " "),
+        key.replace("_", " "),
+    ]
 
-    # Microsoft Origin/Threat sometimes contains simple country names with punctuation variants.
-    compact = key.replace(" the ", " ")
-    if compact in COUNTRY_ALIASES:
-        display, code, flag = COUNTRY_ALIASES[compact]
-        return {
-            "display_value": display,
-            "country_code": code,
-            "flag": flag,
-            "normalized_country": normalize_text(display),
-        }
+    # Some sources use values like "Russia (suspected)" or "Russian Federation / Russia".
+    for alias_key, country_tuple in COUNTRY_ALIASES.items():
+        normalized_alias = normalize_text(alias_key)
+        if normalized_alias in candidates or any(candidate == normalized_alias for candidate in candidates):
+            display, code, flag = country_tuple
+            return {
+                "display_value": display,
+                "country_code": code,
+                "flag": flag,
+                "normalized_country": normalize_text(display),
+            }
+        if re.search(rf"(^| ){re.escape(normalized_alias)}( |$)", key):
+            display, code, flag = country_tuple
+            return {
+                "display_value": display,
+                "country_code": code,
+                "flag": flag,
+                "normalized_country": normalize_text(display),
+            }
 
     return None
 
@@ -600,7 +627,9 @@ def build_technique_summary(techniques: list[dict[str, Any]], max_techniques: in
     tactic_summary = [
         {
             "tactic": tactic,
+            "tactic_id": TACTIC_IDS.get(tactic),
             "label": TACTIC_LABELS.get(tactic, tactic),
+            "url": f"https://attack.mitre.org/tactics/{TACTIC_IDS[tactic]}/" if tactic in TACTIC_IDS else None,
             "count": count,
         }
         for tactic, count in tactic_counter.most_common()
@@ -615,7 +644,9 @@ def build_technique_summary(techniques: list[dict[str, Any]], max_techniques: in
         tactic_groups.append(
             {
                 "tactic": tactic,
+                "tactic_id": TACTIC_IDS.get(tactic),
                 "label": TACTIC_LABELS.get(tactic, tactic),
+                "url": f"https://attack.mitre.org/tactics/{TACTIC_IDS[tactic]}/" if tactic in TACTIC_IDS else None,
                 "count": count,
                 "items": items,
             }

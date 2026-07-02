@@ -245,6 +245,39 @@ function labelForSourceOrg(sourceName) {
   return labels[sourceName] || sourceName || "不明";
 }
 
+
+function flagFromCountryCode(countryCode) {
+  const code = String(countryCode || "").toUpperCase();
+  if (!/^[A-Z]{2}$/.test(code)) return "";
+  return Array.from(code).map(char => String.fromCodePoint(127397 + char.charCodeAt(0))).join("");
+}
+
+function fallbackCountryFlag(value) {
+  const normalized = normalize(value);
+  const map = {
+    "russia": "🇷🇺",
+    "russian federation": "🇷🇺",
+    "china": "🇨🇳",
+    "north korea": "🇰🇵",
+    "dprk": "🇰🇵",
+    "iran": "🇮🇷",
+    "vietnam": "🇻🇳",
+    "india": "🇮🇳",
+    "pakistan": "🇵🇰",
+    "turkey": "🇹🇷",
+    "israel": "🇮🇱",
+    "lebanon": "🇱🇧",
+    "syria": "🇸🇾",
+    "belarus": "🇧🇾",
+    "ukraine": "🇺🇦",
+    "united states": "🇺🇸",
+    "usa": "🇺🇸",
+    "united kingdom": "🇬🇧",
+    "uk": "🇬🇧"
+  };
+  return map[normalized] || "";
+}
+
 function renderSourceBadges(name) {
   const sources = Array.isArray(name.sources) && name.sources.length
     ? name.sources
@@ -299,7 +332,13 @@ function renderMatchedSummary(actor, matchedNames, matchReasons) {
     `;
   }).join("");
 
-  const reasonBadges = (matchReasons || []).map(reason => {
+  const suppressReasons = new Set(["代表名", "名称・別称"]);
+  const filteredReasons = (matchReasons || []).filter(reason => {
+    if (!matchedNames.length) return true;
+    return !suppressReasons.has(reason.reason);
+  });
+
+  const reasonBadges = filteredReasons.map(reason => {
     return `
       <span class="match-reason-badge">
         ${escapeHtml(reason.reason)}: ${escapeHtml(reason.value)}
@@ -310,6 +349,10 @@ function renderMatchedSummary(actor, matchedNames, matchReasons) {
   const canonicalNote = displayMatches.length && normalize(actor.canonical_name) !== normalize(displayMatches[0]?.name)
     ? `<div class="matched-note">この検索語は代表名ではなく、このアクターの別称として登録されています。</div>`
     : "";
+
+  if (!matchBadges && !reasonBadges) {
+    return "";
+  }
 
   return `
     <div class="matched-summary">
@@ -428,7 +471,8 @@ function renderAttribution(actor) {
   }
 
   const countryItems = countries.map(item => {
-    const flag = item.flag ? `<span class="attr-flag">${escapeHtml(item.flag)}</span>` : "";
+    const resolvedFlag = item.flag || flagFromCountryCode(item.country_code) || fallbackCountryFlag(item.display_value || item.value);
+    const flag = resolvedFlag ? `<span class="attr-flag">${escapeHtml(resolvedFlag)}</span>` : "";
     const code = item.country_code ? `<span class="attr-code">${escapeHtml(item.country_code)}</span>` : "";
     return `
       <li class="country-row">
@@ -467,11 +511,23 @@ function renderObservedTechniques(actor) {
     return "";
   }
 
+  const actorKey = normalize(actor.actor_id || actor.canonical_name).replace(/\s+/g, "-");
+
   const tacticSummary = summary.slice(0, 8).map(tactic => {
-    return `<span class="tactic-badge">${escapeHtml(labelForTactic(tactic.tactic))} <span>${escapeHtml(tactic.count)}</span></span>`;
+    const groupId = `technique-group-${actorKey}-${normalize(tactic.tactic).replace(/\s+/g, "-")}`;
+    const tacticLabel = labelForTactic(tactic.tactic);
+    const tacticId = tactic.tactic_id ? `<span class="tactic-id">${escapeHtml(tactic.tactic_id)}</span>` : "";
+    return `
+      <button class="tactic-badge tactic-jump" type="button" data-target="${escapeHtml(groupId)}">
+        ${tacticId}
+        <span>${escapeHtml(tacticLabel)}</span>
+        <strong>${escapeHtml(tactic.count)}</strong>
+      </button>
+    `;
   }).join("");
 
   const groupItems = groups.map((group, index) => {
+    const groupId = `technique-group-${actorKey}-${normalize(group.tactic).replace(/\s+/g, "-")}`;
     const itemList = (group.items || []).map(item => {
       const label = `${item.technique_id || ""} ${item.name || ""}`.trim();
       const link = item.url
@@ -481,12 +537,16 @@ function renderObservedTechniques(actor) {
     }).join("");
 
     const openAttr = index === 0 ? " open" : "";
+    const tacticId = group.tactic_id ? `<span class="technique-group-id">${escapeHtml(group.tactic_id)}</span>` : "";
+    const title = `${group.tactic_id ? group.tactic_id + " " : ""}${labelForTactic(group.tactic)}`;
+
     return `
-      <details class="technique-group"${openAttr}>
+      <details id="${escapeHtml(groupId)}" class="technique-group"${openAttr}>
         <summary>
-          <span class="technique-group-title">${escapeHtml(labelForTactic(group.tactic))}</span>
+          <span class="technique-group-title">${tacticId}${escapeHtml(labelForTactic(group.tactic))}</span>
           <span class="technique-group-count">${escapeHtml(group.count)}件</span>
         </summary>
+        ${group.url ? `<div class="technique-group-link"><a href="${escapeHtml(group.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)} をATT&CKで開く</a></div>` : ""}
         <ul>${itemList}</ul>
       </details>
     `;
@@ -497,7 +557,7 @@ function renderObservedTechniques(actor) {
       <h3>観測された主な攻撃手法</h3>
       ${tacticSummary ? `<div class="tactic-summary">${tacticSummary}</div>` : ""}
       <div class="technique-groups">${groupItems}</div>
-      ${data.total ? `<div class="section-note">MITRE ATT&amp;CKにおける関連Technique ${data.total}件をTactic別に表示しています。</div>` : ""}
+      ${data.total ? `<div class="section-note">MITRE ATT&amp;CKにおける関連Technique ${data.total}件をTactic別に表示しています。上部のラベルをクリックすると該当Tacticへ移動します。</div>` : ""}
     </section>
   `;
 }
@@ -617,6 +677,25 @@ async function loadIndex() {
     resultsEl.innerHTML = `<div class="empty">更新スクリプトまたはGitHub Actionsを実行して docs/data/search-index.json を生成してください。</div>`;
   }
 }
+
+document.addEventListener("click", event => {
+  const button = event.target.closest(".tactic-jump");
+  if (!button) return;
+
+  const targetId = button.getAttribute("data-target");
+  if (!targetId) return;
+
+  const target = document.getElementById(targetId);
+  if (!target) return;
+
+  target.open = true;
+  target.classList.add("technique-group-highlight");
+  target.scrollIntoView({ behavior: "smooth", block: "center" });
+
+  window.setTimeout(() => {
+    target.classList.remove("technique-group-highlight");
+  }, 1600);
+});
 
 queryEl.addEventListener("input", render);
 loadIndex();

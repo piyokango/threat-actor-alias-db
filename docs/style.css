@@ -527,3 +527,53 @@ footer a {
   padding: 3px 8px;
   font-size: 0.82rem;
 }
+
+
+.tactic-summary {
+  align-items: center;
+}
+
+.tactic-badge {
+  border: 1px solid #fed7aa;
+  cursor: default;
+}
+
+.tactic-jump {
+  cursor: pointer;
+  font: inherit;
+}
+
+.tactic-jump:hover {
+  background: #ffedd5;
+}
+
+.tactic-id,
+.technique-group-id {
+  display: inline-block;
+  border-radius: 6px;
+  background: #ffffff;
+  border: 1px solid #fed7aa;
+  color: #9a3412;
+  padding: 1px 5px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.technique-group-id {
+  background: #fff7ed;
+}
+
+.technique-group-link {
+  padding: 8px 12px 0;
+  font-size: 0.85rem;
+}
+
+.technique-group-highlight {
+  outline: 3px solid #93c5fd;
+  outline-offset: 2px;
+}
+
+.matched-summary:empty {
+  display: none;
+}
