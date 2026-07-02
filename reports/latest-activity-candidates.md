@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-07-02 04:07:25 UTC
+Generated: 2026-07-02 04:37:03 UTC
 
 ## Summary
 
-- Auto candidates: 17
+- Auto candidates: 18
 - Published items: 0
 - Rejected items: 0
 
@@ -128,6 +128,14 @@ Generated: 2026-07-02 04:07:25 UTC
   - URL: https://therecord.media/teen-suspect-in-scattered-spider-hacks-extradited-to-us
   - Matched names: Scattered Spider
   - Summary: A complaint unsealed this week accuses a 19-year-old of participating in incidents including a breach of a "luxury-jewelry retailer" in 2025.
+
+### ShinyHunters
+
+- **2026-07-02 / BleepingComputer**
+  - Title: Medtronic notifies customers impacted by ShinyHunters data breach
+  - URL: https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach
+  - Matched names: ShinyHunters
+  - Summary: Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. [...]
 
 ### Turla
 
