@@ -1,0 +1,143 @@
+#!/usr/bin/env python3
+"""Validate generated public output before committing it.
+
+This script is intentionally strict because public data is generated from
+external sources and then served by GitHub Pages.
+"""
+
+from __future__ import annotations
+
+import json
+import os
+import sys
+from pathlib import Path
+from typing import Any
+from urllib.parse import urlsplit
+
+
+ROOT = Path(__file__).resolve().parents[1]
+DOCS = ROOT / "docs"
+SEARCH_INDEX = DOCS / "data" / "search-index.json"
+API_ROOT = DOCS / "api" / "v1"
+
+MAX_STRING_LENGTH = 20000
+MAX_ACTORS = 20000
+MAX_NAMES_PER_ACTOR = 2000
+MAX_REFERENCES_PER_ACTOR = 5000
+MAX_API_JSON_FILES = 50000
+ALLOWED_URL_SCHEMES = {"http", "https"}
+
+
+def fail(message: str) -> None:
+    print(f"[ERROR] {message}", file=sys.stderr)
+    raise SystemExit(1)
+
+
+def warn(message: str) -> None:
+    print(f"[WARN] {message}")
+
+
+def load_json(path: Path) -> Any:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        fail(f"Failed to parse JSON {path}: {exc}")
+
+
+def is_safe_url(url: str) -> bool:
+    try:
+        parsed = urlsplit(str(url or ""))
+    except ValueError:
+        return False
+    return parsed.scheme in ALLOWED_URL_SCHEMES and bool(parsed.netloc)
+
+
+def walk_json(value: Any, path: str = "$") -> None:
+    if isinstance(value, dict):
+        for key, item in value.items():
+            child_path = f"{path}.{key}"
+            if key == "url" and isinstance(item, str) and item and not is_safe_url(item):
+                fail(f"Unsafe URL at {child_path}: {item}")
+            if key == "source_urls" and isinstance(item, list):
+                for idx, url in enumerate(item):
+                    if isinstance(url, str) and url and not is_safe_url(url):
+                        fail(f"Unsafe source URL at {child_path}[{idx}]: {url}")
+            walk_json(item, child_path)
+    elif isinstance(value, list):
+        for idx, item in enumerate(value):
+            walk_json(item, f"{path}[{idx}]")
+    elif isinstance(value, str):
+        if len(value) > MAX_STRING_LENGTH:
+            fail(f"String too long at {path}: {len(value)} > {MAX_STRING_LENGTH}")
+
+
+def validate_search_index() -> None:
+    if not SEARCH_INDEX.exists():
+        fail(f"Missing {SEARCH_INDEX}")
+
+    index = load_json(SEARCH_INDEX)
+    if not isinstance(index, list):
+        fail("search-index.json must be a list")
+    if len(index) > MAX_ACTORS:
+        fail(f"Too many actors: {len(index)} > {MAX_ACTORS}")
+
+    actor_ids = set()
+    for actor in index:
+        if not isinstance(actor, dict):
+            fail("Actor row must be object")
+        actor_id = actor.get("actor_id")
+        if not actor_id:
+            fail("Actor missing actor_id")
+        if actor_id in actor_ids:
+            fail(f"Duplicate actor_id: {actor_id}")
+        actor_ids.add(actor_id)
+
+        if len(actor.get("names", [])) > MAX_NAMES_PER_ACTOR:
+            fail(f"Too many names for {actor_id}")
+        if len(actor.get("references", [])) > MAX_REFERENCES_PER_ACTOR:
+            fail(f"Too many references for {actor_id}")
+
+    walk_json(index)
+    print(f"[OK] search-index.json: {len(index)} actors")
+
+
+def validate_api_files() -> None:
+    if not API_ROOT.exists():
+        fail(f"Missing API root: {API_ROOT}")
+
+    json_files = list(API_ROOT.rglob("*.json"))
+    if len(json_files) > MAX_API_JSON_FILES:
+        fail(f"Too many API JSON files: {len(json_files)} > {MAX_API_JSON_FILES}")
+
+    for path in json_files:
+        rel = path.relative_to(API_ROOT)
+        if len(path.name) > 160:
+            fail(f"API file name too long: {rel}")
+        data = load_json(path)
+        walk_json(data, f"api/{rel}")
+
+    print(f"[OK] API JSON files: {len(json_files)}")
+
+
+def validate_csp() -> None:
+    index_html = DOCS / "index.html"
+    if not index_html.exists():
+        fail("Missing docs/index.html")
+    text = index_html.read_text(encoding="utf-8")
+    if "Content-Security-Policy" not in text:
+        fail("docs/index.html is missing Content-Security-Policy")
+    if "flagcdn.com" in text:
+        fail("docs/index.html still references flagcdn.com")
+    print("[OK] CSP present")
+
+
+def main() -> int:
+    validate_search_index()
+    validate_api_files()
+    validate_csp()
+    print("[OK] generated output validation passed")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

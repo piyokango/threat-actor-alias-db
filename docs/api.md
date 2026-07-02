@@ -135,3 +135,17 @@ This is stricter than `search/` and is intended for name/alias lookup.
 - It does not independently confirm attribution.
 - Actor names and aliases are derived from public sources.
 - For dynamic search, consume `/api/v1/search-index.json` client-side and filter locally.
+
+
+## Security notes
+
+The API is generated as static JSON and validated before publishing.
+
+Implemented safeguards:
+
+- only `http` and `https` URLs are emitted for link fields
+- long API lookup keys are replaced with stable hash-based file names
+- generated API file counts are capped
+- generated public JSON is validated before commit in GitHub Actions
+- the web UI applies a Content Security Policy
+- flag images are served locally from `docs/assets/flags/`

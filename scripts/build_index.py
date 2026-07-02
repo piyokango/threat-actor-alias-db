@@ -142,17 +142,25 @@ def shorten_text(value: str, limit: int = 650) -> str:
 def canonicalize_url(url: str) -> str:
     raw = str(url or "").strip()
     if not raw:
-        return raw
+        return ""
 
     try:
         parsed = urlsplit(raw)
     except ValueError:
-        return raw.rstrip("/")
+        return ""
 
-    scheme = parsed.scheme.lower() or "https"
+    scheme = parsed.scheme.lower()
+    if not scheme:
+        scheme = "https"
+
+    if scheme not in {"http", "https"}:
+        return ""
+
     netloc = parsed.netloc.lower()
-    path = parsed.path or ""
+    if not netloc:
+        return ""
 
+    path = parsed.path or ""
     if path != "/":
         path = path.rstrip("/")
 
@@ -166,7 +174,6 @@ def canonicalize_url(url: str) -> str:
         query_items.append((key, value))
 
     query = urlencode(query_items, doseq=True)
-
     return urlunsplit((scheme, netloc, path, query, ""))
 
 
@@ -216,11 +223,11 @@ def choose_display_name(candidates: list[str], normalized_name: str) -> str:
         return normalized_name
 
     mixed_case = [value for value in cleaned if any(ch.islower() for ch in value)]
-    spaced = [value for value in cleaned if re.search(r"[\\s_\\-./]", value)]
+    spaced = [value for value in cleaned if re.search(r"[\s_./-]", value)]
     pool = spaced or mixed_case or cleaned
 
     # Prefer readable separated forms when variants exist, then shorter mixed-case forms.
-    return sorted(pool, key=lambda value: (0 if re.search(r"[\\s_\\-./]", value) else 1, len(value), value.casefold(), value))[0]
+    return sorted(pool, key=lambda value: (0 if re.search(r"[\s_./-]", value) else 1, len(value), value.casefold(), value))[0]
 
 
 def aggregate_names(names: list[dict[str, Any]]) -> list[dict[str, Any]]:

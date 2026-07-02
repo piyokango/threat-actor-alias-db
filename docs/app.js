@@ -259,6 +259,38 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
+function safeUrl(value) {
+  try {
+    const url = new URL(String(value || ""), window.location.href);
+    if (url.protocol !== "http:" && url.protocol !== "https:") {
+      return "";
+    }
+    return url.href;
+  } catch {
+    return "";
+  }
+}
+
+function safeRelativeAssetPath(value) {
+  const path = String(value || "");
+  if (!/^[a-z0-9_./-]+$/i.test(path)) {
+    return "";
+  }
+  if (path.includes("..")) {
+    return "";
+  }
+  return path;
+}
+
+function renderSafeLink(urlValue, labelValue, extraAttributes = "") {
+  const url = safeUrl(urlValue);
+  const label = escapeHtml(labelValue || urlValue || "");
+  if (!url) {
+    return label;
+  }
+  return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer"${extraAttributes}>${label}</a>`;
+}
+
 function labelForNameType(type) {
   const labels = {
     canonical: "代表名",
@@ -397,7 +429,11 @@ function renderFlagIcon(item) {
   if (/^[A-Z]{2}$/.test(code)) {
     const lower = code.toLowerCase();
     const alt = countryNameJa(item);
-    return `<span class="flag-icon" aria-hidden="true"><img src="https://flagcdn.com/24x18/${escapeHtml(lower)}.png" srcset="https://flagcdn.com/48x36/${escapeHtml(lower)}.png 2x" alt=""></span><span class="sr-only">${escapeHtml(alt)}の国旗</span>`;
+    const flagPath = safeRelativeAssetPath(`assets/flags/${lower}.svg`);
+    if (flagPath) {
+      return `<span class="flag-icon" aria-hidden="true"><img src="${escapeHtml(flagPath)}" alt=""></span><span class="sr-only">${escapeHtml(alt)}の国旗</span>`;
+    }
+    return "";
   }
 
   const fallback = fallbackCountryFlag(item.display_value || item.value);
@@ -578,7 +614,7 @@ function renderOverview(actor) {
   const sources = (overview.sources || []).map(source => {
     const urls = source.source_urls || [];
     if (urls.length) {
-      return `<a href="${escapeHtml(urls[0])}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.source_name || source.source_id)}</a>`;
+      return renderSafeLink(urls[0], source.source_name || source.source_id);
     }
     return escapeHtml(source.source_name || source.source_id || "不明");
   }).join(", ");
@@ -606,7 +642,7 @@ function renderAttribution(actor) {
       const urls = source.source_urls || [];
       const name = source.source_name || source.source_id || "不明";
       if (urls.length) {
-        return `<a href="${escapeHtml(urls[0])}" target="_blank" rel="noopener noreferrer">${escapeHtml(name)}</a>`;
+        return renderSafeLink(urls[0], name);
       }
       return escapeHtml(name);
     }).join(" / ");
@@ -706,7 +742,7 @@ function renderTechniquePanel(group, actorKey) {
         <span class="technique-group-count">${escapeHtml(group.count)}件</span>
       </div>
       <div class="technique-panel-actions">
-        ${group.url ? `<a href="${escapeHtml(group.url)}" target="_blank" rel="noopener noreferrer">ATT&amp;CKで開く</a>` : ""}
+        ${group.url ? renderSafeLink(group.url, "ATT&CKで開く") : ""}
         <button class="technique-panel-close" type="button" data-actor-id="${escapeHtml(actorKey)}">閉じる</button>
       </div>
     </div>
@@ -728,7 +764,7 @@ function renderRecentActivity(actor) {
     return `
       <li class="activity-item">
         <div class="activity-meta">${escapeHtml(date)} / ${escapeHtml(publisher)}</div>
-        <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
+        ${renderSafeLink(item.url, item.title)}
         ${matched ? `<div class="activity-matches">一致名: ${matched}</div>` : ""}
       </li>
     `;
@@ -745,7 +781,7 @@ function renderRecentActivity(actor) {
 function renderActor(actor, matchedNames, matchReasons) {
   const refs = (actor.references || [])
     .slice(0, 8)
-    .map(ref => `<li><a href="${escapeHtml(ref.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(ref.url)}</a></li>`)
+    .map(ref => `<li>${renderSafeLink(ref.url, ref.url)}</li>`)
     .join("");
 
   const moreRefs = (actor.references || []).length > 8

@@ -11,6 +11,7 @@ permissions:
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
       - name: Checkout
@@ -41,6 +42,9 @@ jobs:
 
       - name: Generate static API
         run: python scripts/generate_api.py
+
+      - name: Validate generated public output
+        run: python scripts/validate_output.py
 
       - name: Generate update report
         run: python scripts/generate_report.py
