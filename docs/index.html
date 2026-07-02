@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Threat Actor Alias DB</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <h1>Threat Actor Alias DB</h1>
+      <p>Search threat actor names, aliases, naming sources, MITRE IDs, and source references.</p>
+      <p class="notice">Mappings are for research and reference only. They do not imply definitive attribution.</p>
+    </header>
+
+    <section class="search-panel">
+      <label for="query">Search</label>
+      <input id="query" type="search" placeholder="APT28, Fancy Bear, Forest Blizzard, G0007..." autocomplete="off">
+      <div id="stats" class="stats">Loading index...</div>
+    </section>
+
+    <section id="results" class="results" aria-live="polite"></section>
+  </main>
+
+  <footer>
+    <a href="license-notice.md">License and source notices</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

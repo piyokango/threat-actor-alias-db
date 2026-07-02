@@ -1,0 +1,40 @@
+name: Update threat actor data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch source data
+        run: python scripts/fetch_sources.py
+
+      - name: Normalize data
+        run: python scripts/normalize.py
+
+      - name: Build public search index
+        run: python scripts/build_index.py
+
+      - name: Generate update report
+        run: python scripts/generate_report.py
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update threat actor alias data"
+          file_pattern: "data/raw/** data/normalized/** data/public/** docs/data/** reports/**"
