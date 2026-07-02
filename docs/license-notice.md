@@ -16,6 +16,14 @@ This project includes information derived from MISP Galaxy threat actor clusters
 
 MISP Galaxy JSON files are published under CC0 1.0 Universal or BSD 2-Clause, according to the MISP Galaxy repository notices.
 
+## Microsoft Threat Actor Naming
+
+This project may include minimal factual naming mappings derived from Microsoft public threat actor naming resources, including the Microsoft Learn threat actor naming page and the public MicrosoftMapping.json feed referenced from that page.
+
+Microsoft names, previous names, and other names are used only as source-attributed factual reference data. This project is not affiliated with, endorsed by, or sponsored by Microsoft.
+
+Avoid copying Microsoft page text, tables, screenshots, logos, or proprietary product data into this repository.
+
 ## Other sources
 
 Future source integrations may include additional vendor naming references. Those sources should be handled conservatively: use minimal factual metadata, source URLs, and attribution; avoid copying long descriptions, tables, proprietary data, or vendor logos.
