@@ -112,32 +112,38 @@ function getMatchedNames(actor, query) {
   const seen = new Set();
 
   for (const name of actor.names || []) {
-    const normalizedName = normalize(name.name);
-    if (!normalizedName) continue;
+    const candidates = [name.name, ...(name.variants || [])].filter(Boolean);
 
-    let matchType = null;
-    if (normalizedName === q) {
-      matchType = "exact";
-    } else if (normalizedName.startsWith(q)) {
-      matchType = "prefix";
-    } else if (normalizedName.includes(q)) {
-      matchType = "partial";
+    for (const candidate of candidates) {
+      const normalizedName = normalize(candidate);
+      if (!normalizedName) continue;
+
+      let matchType = null;
+      if (normalizedName === q) {
+        matchType = "exact";
+      } else if (normalizedName.startsWith(q)) {
+        matchType = "prefix";
+      } else if (normalizedName.includes(q)) {
+        matchType = "partial";
+      }
+
+      if (!matchType) continue;
+
+      const key = normalize(name.name);
+      if (seen.has(key)) continue;
+      seen.add(key);
+
+      matches.push({
+        name: name.name,
+        matched_value: candidate,
+        normalized_name: key,
+        name_type: name.name_type,
+        name_types: name.name_types || [name.name_type].filter(Boolean),
+        sources: name.sources || [],
+        match_type: matchType
+      });
+      break;
     }
-
-    if (!matchType) continue;
-
-    const key = normalizedName;
-    if (seen.has(key)) continue;
-    seen.add(key);
-
-    matches.push({
-      name: name.name,
-      normalized_name: normalizedName,
-      name_type: name.name_type,
-      name_types: name.name_types || [name.name_type].filter(Boolean),
-      sources: name.sources || [],
-      match_type: matchType
-    });
   }
 
   return matches.sort((a, b) => {
@@ -511,6 +517,15 @@ function sortNamesForDisplay(names, matchedNames) {
   });
 }
 
+function renderNameVariants(name) {
+  const variants = (name.variants || []).filter(value => normalize(value) !== normalize(name.name));
+  if (!variants.length) {
+    return "";
+  }
+
+  return `<span class="name-variants">表記ゆれ: ${variants.map(escapeHtml).join(" / ")}</span>`;
+}
+
 function renderNames(names, matchedNames) {
   if (!names || !names.length) {
     return "<p class=\"muted\">名称情報はありません。</p>";
@@ -526,7 +541,10 @@ function renderNames(names, matchedNames) {
 
     return `
       <li class="name-row${matched ? " name-row-match" : ""}">
-        <span class="alias-name">${escapeHtml(name.name)}${matched ? `<span class="inline-match-label">検索一致</span>` : ""}</span>
+        <span class="alias-name">
+          ${escapeHtml(name.name)}${matched ? `<span class="inline-match-label">検索一致</span>` : ""}
+          ${renderNameVariants(name)}
+        </span>
         <span class="name-type">${escapeHtml(typeLabels)}</span>
         <span class="source-badges">${renderSourceBadges(name)}</span>
       </li>

@@ -100,6 +100,37 @@ def normalize_text(value: str) -> str:
     return text
 
 
+def compact_normalize_name(value: str) -> str:
+    """Return a stronger display-only grouping key for name variants.
+
+    This removes separators so names such as:
+    - Black Shadow / BlackShadow
+    - APT 28 / APT28
+    - TA-505 / TA505
+    can be displayed as one alias row inside the same actor card.
+
+    This must only be used within a single actor's display aggregation.
+    It is intentionally not used to merge different actors.
+    """
+    text = normalize_text(value)
+    return re.sub(r"[\s_\-./]+", "", text)
+
+
+def display_group_key_for_name(value: str) -> str:
+    normalized = normalize_text(value)
+    compact = compact_normalize_name(value)
+
+    if not normalized:
+        return ""
+
+    # Avoid over-aggressive grouping for very short ambiguous names.
+    # Examples like "AB" should not be broadly merged with "A B".
+    if len(compact) < 4:
+        return normalized
+
+    return compact
+
+
 def shorten_text(value: str, limit: int = 650) -> str:
     text = re.sub(r"\s+", " ", str(value or "")).strip()
     if len(text) <= limit:
@@ -185,9 +216,11 @@ def choose_display_name(candidates: list[str], normalized_name: str) -> str:
         return normalized_name
 
     mixed_case = [value for value in cleaned if any(ch.islower() for ch in value)]
-    pool = mixed_case or cleaned
+    spaced = [value for value in cleaned if re.search(r"[\\s_\\-./]", value)]
+    pool = spaced or mixed_case or cleaned
 
-    return sorted(pool, key=lambda value: (len(value), value.casefold(), value))[0]
+    # Prefer readable separated forms when variants exist, then shorter mixed-case forms.
+    return sorted(pool, key=lambda value: (0 if re.search(r"[\\s_\\-./]", value) else 1, len(value), value.casefold(), value))[0]
 
 
 def aggregate_names(names: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -197,14 +230,19 @@ def aggregate_names(names: list[dict[str, Any]]) -> list[dict[str, Any]]:
         normalized_name = item.get("normalized_name") or normalize_text(item.get("name", ""))
         if not normalized_name:
             continue
+        display_group_key = display_group_key_for_name(item.get("name", ""))
+        if not display_group_key:
+            display_group_key = normalized_name
         copied = dict(item)
         copied["normalized_name"] = normalized_name
-        grouped[normalized_name].append(copied)
+        copied["display_group_key"] = display_group_key
+        grouped[display_group_key].append(copied)
 
     aggregated: list[dict[str, Any]] = []
 
     for normalized_name, items in grouped.items():
-        display_name = choose_display_name([item.get("name", "") for item in items], normalized_name)
+        variants = sorted({str(item.get("name", "")).strip() for item in items if str(item.get("name", "")).strip()}, key=str.casefold)
+        display_name = choose_display_name(variants, normalized_name)
 
         name_types = sorted(
             {item.get("name_type") or "alias" for item in items},
@@ -283,7 +321,10 @@ def aggregate_names(names: list[dict[str, Any]]) -> list[dict[str, Any]]:
         aggregated.append(
             {
                 "name": display_name,
-                "normalized_name": normalized_name,
+                "normalized_name": normalize_text(display_name),
+                "display_group_key": normalized_name,
+                "compact_normalized_name": compact_normalize_name(display_name),
+                "variants": variants,
                 "name_type": primary_name_type,
                 "name_types": name_types,
                 "source_id": ",".join(sorted(source_ids)),
@@ -724,7 +765,15 @@ def main() -> int:
         actor_attribution = build_attribution(attribution_by_actor.get(actor_id, []))
         actor_techniques = build_technique_summary(techniques_by_actor.get(actor_id, []))
 
-        search_names = sorted({item["name"] for item in actor_names if item.get("name")}, key=str.casefold)
+        search_names = sorted(
+            {
+                value
+                for item in actor_names
+                for value in [item.get("name"), *(item.get("variants") or [])]
+                if value
+            },
+            key=str.casefold,
+        )
         naming_sources = sorted(
             {
                 source["naming_org"]

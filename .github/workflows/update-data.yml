@@ -1,4 +1,4 @@
-name: Update threat actor data
+name: Update data
 
 on:
   workflow_dispatch:
@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v5
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.x"
 
       - name: Fetch source data
         run: python scripts/fetch_sources.py
@@ -39,11 +39,16 @@ jobs:
       - name: Rebuild public search index with published activity
         run: python scripts/build_index.py
 
+      - name: Generate static API
+        run: python scripts/generate_api.py
+
       - name: Generate update report
         run: python scripts/generate_report.py
 
       - name: Commit updated data
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update threat actor alias data"
-          file_pattern: "data/raw/** data/normalized/** data/public/** data/activity/** docs/data/** reports/**"
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw/** data/normalized/** data/public/** data/activity/** docs/data/** docs/api/** reports/**
+          git diff --cached --quiet || git commit -m "Update threat actor alias DB data"
+          git push
