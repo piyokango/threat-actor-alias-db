@@ -403,7 +403,9 @@ def normalize_mitre(
             add_name(names, seen_names, actor_id, alias, "alias", "mitre-attack", "MITRE ATT&CK", "source-provided", [group_url] if group_url else [])
 
         for technique in mitre_techniques_by_stix.get(obj.get("id"), []):
-            techniques_by_actor[actor_id].append(technique)
+            copied_technique = dict(technique)
+            copied_technique["actor_id"] = actor_id
+            techniques_by_actor[actor_id].append(copied_technique)
 
         for value in [canonical_name, *aliases]:
             norm = normalize_name(value)
