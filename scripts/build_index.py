@@ -10,6 +10,7 @@ Rules:
 - Merge source IDs, naming sources, names, and references.
 - Merge identical names across sources into one row.
 - Canonicalize reference URLs so trailing slash variants are displayed once.
+- Attach review-published recent activity items to each public actor card.
 """
 
 from __future__ import annotations
@@ -27,6 +28,7 @@ ROOT = Path(__file__).resolve().parents[1]
 NORMALIZED_DIR = ROOT / "data" / "normalized"
 PUBLIC_DIR = ROOT / "data" / "public"
 DOCS_DATA_DIR = ROOT / "docs" / "data"
+ACTIVITY_DIR = ROOT / "data" / "activity"
 
 
 NAME_TYPE_PRIORITY = {
@@ -41,7 +43,10 @@ NAME_TYPE_PRIORITY = {
 def load_json(path: Path) -> Any:
     if not path.exists():
         return []
-    return json.loads(path.read_text(encoding="utf-8"))
+    text = path.read_text(encoding="utf-8").strip()
+    if not text:
+        return []
+    return json.loads(text)
 
 
 def write_json(path: Path, data: Any) -> None:
@@ -251,6 +256,37 @@ def dedupe_references(references: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return sorted(deduped.values(), key=lambda item: item.get("url", ""))
 
 
+def build_activity_by_actor(public_actor_by_original_id: dict[str, str]) -> dict[str, list[dict[str, Any]]]:
+    published = load_json(ACTIVITY_DIR / "published.json")
+    activity_by_actor: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    seen: set[tuple[str, str]] = set()
+
+    for item in published:
+        if item.get("review_status") not in {None, "", "published"}:
+            continue
+
+        original_actor_id = item.get("actor_id")
+        actor_id = public_actor_by_original_id.get(original_actor_id, original_actor_id)
+        url = canonicalize_url(item.get("url", ""))
+        if not actor_id or not url:
+            continue
+
+        key = (actor_id, url)
+        if key in seen:
+            continue
+        seen.add(key)
+
+        copied = dict(item)
+        copied["actor_id"] = actor_id
+        copied["url"] = url
+        activity_by_actor[actor_id].append(copied)
+
+    for actor_id, items in activity_by_actor.items():
+        items.sort(key=lambda row: row.get("published_date") or "", reverse=True)
+
+    return activity_by_actor
+
+
 def main() -> int:
     actors = load_json(NORMALIZED_DIR / "actors.json")
     names = load_json(NORMALIZED_DIR / "names.json")
@@ -275,6 +311,8 @@ def main() -> int:
         for actor_id in actor_ids:
             public_actor_by_original_id[actor_id] = public_actor_id
         public_actors.append(merged_actor)
+
+    activity_by_actor = build_activity_by_actor(public_actor_by_original_id)
 
     names_by_public_actor: dict[str, list[dict[str, Any]]] = defaultdict(list)
     refs_by_public_actor: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -333,6 +371,7 @@ def main() -> int:
                 "search_names": search_names,
                 "names": actor_names,
                 "references": actor_refs,
+                "recent_activity": activity_by_actor.get(actor_id, [])[:10],
                 "status": actor.get("status", "active"),
                 "confidence": actor.get("confidence", "unknown"),
                 "updated_at": actor.get("updated_at"),
@@ -348,7 +387,12 @@ def main() -> int:
     shutil.copyfile(output_path, docs_path)
 
     duplicate_group_count = sum(1 for actor in index if len(actor.get("merged_actor_ids", [])) > 1)
-    print(f"Built search index with {len(index)} actors ({duplicate_group_count} duplicate canonical groups merged for display)")
+    activity_count = sum(len(actor.get("recent_activity", [])) for actor in index)
+    print(
+        f"Built search index with {len(index)} actors "
+        f"({duplicate_group_count} duplicate canonical groups merged for display, "
+        f"{activity_count} published activity rows attached)"
+    )
     return 0
 
 

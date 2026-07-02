@@ -30,6 +30,15 @@ jobs:
       - name: Build public search index
         run: python scripts/build_index.py
 
+      - name: Fetch recent activity candidates
+        run: python scripts/fetch_activity.py
+
+      - name: Generate activity candidate report
+        run: python scripts/generate_activity_report.py
+
+      - name: Rebuild public search index with published activity
+        run: python scripts/build_index.py
+
       - name: Generate update report
         run: python scripts/generate_report.py
 
@@ -37,4 +46,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update threat actor alias data"
-          file_pattern: "data/raw/** data/normalized/** data/public/** docs/data/** reports/**"
+          file_pattern: "data/raw/** data/normalized/** data/public/** data/activity/** docs/data/** reports/**"

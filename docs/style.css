@@ -243,6 +243,43 @@ input[type="search"] {
   font-weight: 700;
 }
 
+.recent-activity ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activity-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #eef0f2;
+}
+
+.activity-item:last-child {
+  border-bottom: 0;
+}
+
+.activity-meta {
+  color: #57606a;
+  font-size: 0.85rem;
+  margin-bottom: 2px;
+}
+
+.activity-matches {
+  margin-top: 4px;
+  color: #57606a;
+  font-size: 0.85rem;
+}
+
+.activity-match {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: #f6f8fa;
+  border: 1px solid #d0d7de;
+  color: #374151;
+}
+
 footer {
   text-align: center;
   padding: 32px 20px;

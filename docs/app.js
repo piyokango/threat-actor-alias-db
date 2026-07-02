@@ -70,7 +70,12 @@ function scoreActor(actor, query) {
     actor.misp_uuid,
     ...(actor.search_names || []),
     ...(actor.naming_sources || []),
-    ...(actor.source_ids || [])
+    ...(actor.source_ids || []),
+    ...((actor.recent_activity || []).flatMap(item => [
+      item.title,
+      item.publisher,
+      ...(item.matched_names || [])
+    ]))
   ].filter(Boolean);
 
   for (const field of fields) {
@@ -229,6 +234,34 @@ function renderSourceSummary(actor) {
   `;
 }
 
+function renderRecentActivity(actor) {
+  const activity = actor.recent_activity || [];
+  if (!activity.length) {
+    return "";
+  }
+
+  const items = activity.slice(0, 5).map(item => {
+    const matched = (item.matched_names || []).map(name => `<span class="activity-match">${escapeHtml(name)}</span>`).join("");
+    const date = item.published_date || "date unknown";
+    const publisher = item.publisher || "publisher unknown";
+
+    return `
+      <li class="activity-item">
+        <div class="activity-meta">${escapeHtml(date)} / ${escapeHtml(publisher)}</div>
+        <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
+        ${matched ? `<div class="activity-matches">一致名: ${matched}</div>` : ""}
+      </li>
+    `;
+  }).join("");
+
+  return `
+    <section class="card-section recent-activity">
+      <h3>Recent activity</h3>
+      <ul>${items}</ul>
+    </section>
+  `;
+}
+
 function renderActor(actor, matchedNames) {
   const refs = (actor.references || [])
     .slice(0, 8)
@@ -252,6 +285,8 @@ function renderActor(actor, matchedNames) {
       </div>
 
       ${renderSourceSummary(actor)}
+
+      ${renderRecentActivity(actor)}
 
       <section class="card-section">
         <h3>Names and aliases</h3>
