@@ -181,10 +181,12 @@
     "confidence": "source-provided",
     "description": "[Akira](https://attack.mitre.org/groups/G1024) is a ransomware variant and ransomware deployment entity active since at least March 2023.(Citation: Arctic Wolf Akira 2023) [Akira](https://attack.mitre.org/groups/G1024) uses compromised credentials to access single-factor external access mechanisms such as VPNs for initial access, then various publicly-available tools and techniques for lateral movement.(Citation: Arctic Wolf Akira 2023)(Citation: Secureworks GOLD SAHARA) [Akira](https://attack.mitre.org/groups/G1024) operations are associated with \"double extortion\" ransomware activity, where data is exfiltrated from victim environments prior to encryption, with threats to publish files if a ransom is not paid. Technical analysis of [Akira](https://attack.mitre.org/software/S1129) ransomware indicates variants capable of targeting Windows or VMWare ESXi hypervisors and multiple overlaps with [Conti](https://attack.mitre.org/software/S0575) ransomware.(Citation: BushidoToken Akira 2023)(Citation: CISA Akira Ransomware APR 2024)(Citation: Cisco Akira Ransomware OCT 2024)",
     "id": "mitre-g1024",
+    "microsoft_origin_or_threat": "Financially motivated",
     "misp_uuid": "3a912680-6f38-4fe7-9941-744f0e2280b3",
     "mitre_id": "G1024",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -450,6 +452,7 @@
     "mitre_id": "G1028",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -551,10 +554,12 @@
     "confidence": "source-provided",
     "description": "[APT12](https://attack.mitre.org/groups/G0005) is a threat group that has been attributed to China. The group has targeted a variety of victims including but not limited to media outlets, high-tech companies, and multiple governments.(Citation: Meyers Numbered Panda)",
     "id": "mitre-g0005",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "48146604-6693-4db1-bd94-159744726514",
     "mitre_id": "G0005",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -596,30 +601,19 @@
   {
     "canonical_name": "APT17",
     "confidence": "source-provided",
-    "description": "FireEye described APT17 in a 2015 report as: 'APT17, also known as DeputyDog, is a China based threat group that FireEye Intelligence has observed conducting network intrusions against U.S. government entities, the defense industry, law firms, information technology companies, mining companies, and non-government organizations.'",
-    "id": "misp-99e30d89-9361-4b73-a999-9e5ff9320bcb",
-    "misp_uuid": "99e30d89-9361-4b73-a999-9e5ff9320bcb",
-    "mitre_id": null,
-    "primary_source": "misp-galaxy",
-    "source_ids": [
-      "misp-galaxy"
-    ],
-    "status": "active",
-    "suspected_country": "CN",
-    "updated_at": "2026-07-02"
-  },
-  {
-    "canonical_name": "APT17",
-    "confidence": "source-provided",
     "description": "[APT17](https://attack.mitre.org/groups/G0025) is a China-based threat group that has conducted network intrusions against U.S. government entities, the defense industry, law firms, information technology companies, mining companies, and non-government organizations. (Citation: FireEye APT17)",
     "id": "mitre-g0025",
-    "misp_uuid": null,
+    "microsoft_origin_or_threat": "China",
+    "misp_uuid": "99e30d89-9361-4b73-a999-9e5ff9320bcb",
     "mitre_id": "G0025",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
       "mitre-attack"
     ],
     "status": "active",
+    "suspected_country": "CN",
     "updated_at": "2026-07-02"
   },
   {
@@ -627,10 +621,12 @@
     "confidence": "source-provided",
     "description": "[APT18](https://attack.mitre.org/groups/G0026) is a threat group that has operated since at least 2009 and has targeted a range of industries, including technology, manufacturing, human rights groups, government, and medical. (Citation: Dell Lateral Movement)",
     "id": "mitre-g0026",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "9a683d9c-8f7d-43df-bba2-ad0ca71e277c",
     "mitre_id": "G0026",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -641,30 +637,17 @@
   {
     "canonical_name": "APT19",
     "confidence": "source-provided",
-    "description": "Adversary group targeting financial, technology, non-profit organisations.",
-    "id": "misp-066d25c1-71bd-4bd4-8ca7-edbba00063f4",
-    "misp_uuid": "066d25c1-71bd-4bd4-8ca7-edbba00063f4",
-    "mitre_id": null,
-    "primary_source": "misp-galaxy",
-    "source_ids": [
-      "misp-galaxy"
-    ],
-    "status": "active",
-    "suspected_country": "CN",
-    "updated_at": "2026-07-02"
-  },
-  {
-    "canonical_name": "APT19",
-    "confidence": "source-provided",
     "description": "[APT19](https://attack.mitre.org/groups/G0073) is a Chinese-based threat group that has targeted a variety of industries, including defense, finance, energy, pharmaceutical, telecommunications, high tech, education, manufacturing, and legal services. In 2017, a phishing campaign was used to target seven law and investment firms. (Citation: FireEye APT19) Some analysts track [APT19](https://attack.mitre.org/groups/G0073) and [Deep Panda](https://attack.mitre.org/groups/G0009) as the same group, but it is unclear from open source information if the groups are the same. (Citation: ICIT China's Espionage Jul 2016) (Citation: FireEye APT Groups) (Citation: Unit 42 C0d0so0 Jan 2016)",
     "id": "mitre-g0073",
-    "misp_uuid": null,
+    "misp_uuid": "066d25c1-71bd-4bd4-8ca7-edbba00063f4",
     "mitre_id": "G0073",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "misp-galaxy",
       "mitre-attack"
     ],
     "status": "active",
+    "suspected_country": "CN",
     "updated_at": "2026-07-02"
   },
   {
@@ -717,10 +700,12 @@
     "confidence": "source-provided",
     "description": "",
     "id": "misp-c097471c-2405-4393-b6d7-afbcb5f0cd11",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "c097471c-2405-4393-b6d7-afbcb5f0cd11",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -732,27 +717,14 @@
     "confidence": "source-provided",
     "description": "[APT28](https://attack.mitre.org/groups/G0007) is a threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS) military unit 26165.(Citation: NSA/FBI Drovorub August 2020)(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021) This group has been active since at least 2004.(Citation: DOJ GRU Indictment Jul 2018)(Citation: Ars Technica GRU indictment Jul 2018)(Citation: Crowdstrike DNC June 2016)(Citation: FireEye APT28)(Citation: SecureWorks TG-4127)(Citation: FireEye APT28 January 2017)(Citation: GRIZZLY STEPPE JAR)(Citation: Sofacy DealersChoice)(Citation: Palo Alto Sofacy 06-2018)(Citation: Symantec APT28 Oct 2018)(Citation: ESET Zebrocy May 2019)\n\n[APT28](https://attack.mitre.org/groups/G0007) reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election.(Citation: Crowdstrike DNC June 2016) In 2018, the US indicted five GRU Unit 26165 officers associated with [APT28](https://attack.mitre.org/groups/G0007) for cyber operations (including close-access operations) conducted between 2014 and 2018 against the World Anti-Doping Agency (WADA), the US Anti-Doping Agency, a US nuclear facility, the Organization for the Prohibition of Chemical Weapons (OPCW), the Spiez Swiss Chemicals Laboratory, and other organizations.(Citation: US District Court Indictment GRU Oct 2018) Some of these were conducted with the assistance of GRU Unit 74455, which is also referred to as [Sandworm Team](https://attack.mitre.org/groups/G0034). ",
     "id": "mitre-g0007",
+    "microsoft_origin_or_threat": "Russia",
     "misp_uuid": "5b4ee3ea-eee3-4c8e-8323-85ae32658754",
     "mitre_id": "G0007",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
-    ],
-    "status": "active",
-    "suspected_country": "RU",
-    "updated_at": "2026-07-02"
-  },
-  {
-    "canonical_name": "APT29",
-    "confidence": "source-provided",
-    "description": "A 2015 report by F-Secure describe APT29 as: 'The Dukes are a well-resourced, highly dedicated and organized cyberespionage group that we believe has been working for the Russian Federation since at least 2008 to collect intelligence in support of foreign and security policy decision-making. The Dukes show unusual confidence in their ability to continue successfully compromising their targets, as well as in their ability to operate with impunity. The Dukes primarily target Western governments and related organizations, such as government ministries and agencies, political think tanks, and governmental subcontractors. Their targets have also included the governments of members of the Commonwealth of Independent States;Asian, African, and Middle Eastern governments;organizations associated with Chechen extremism;and Russian speakers engaged in the illicit trade of controlled substances and drugs. The Dukes are known to employ a vast arsenal of malware toolsets, which we identify as MiniDuke, CosmicDuke, OnionDuke, CozyDuke, CloudDuke, SeaDuke, HammerDuke, PinchDuke, and GeminiDuke. In recent years, the Dukes have engaged in apparently biannual large - scale spear - phishing campaigns against hundreds or even thousands of recipients associated with governmental institutions and affiliated organizations. These campaigns utilize a smash - and - grab approach involving a fast but noisy breakin followed by the rapid collection and exfiltration of as much data as possible.If the compromised target is discovered to be of value, the Dukes will quickly switch the toolset used and move to using stealthier tactics focused on persistent compromise and long - term intelligence gathering. This threat actor targets government ministries and agencies in the West, Central Asia, East Africa, and the Middle East; Chechen extremist groups; Russian organized crime; and think tanks. It is suspected to be behind the 2015 compromise of unclassified networks at the White House, Department of State, Pentagon, and the Joint Chiefs of Staff. The threat actor includes all of the Dukes tool sets, including MiniDuke, CosmicDuke, OnionDuke, CozyDuke, SeaDuke, CloudDuke (aka MiniDionis), and HammerDuke (aka Hammertoss). '",
-    "id": "misp-b2056ff0-00b9-482e-b11c-c771daa5f28a",
-    "misp_uuid": "b2056ff0-00b9-482e-b11c-c771daa5f28a",
-    "mitre_id": null,
-    "primary_source": "misp-galaxy",
-    "source_ids": [
-      "misp-galaxy"
     ],
     "status": "active",
     "suspected_country": "RU",
@@ -763,14 +735,17 @@
     "confidence": "source-provided",
     "description": "[APT29](https://attack.mitre.org/groups/G0016) is threat group that has been attributed to Russia's Foreign Intelligence Service (SVR).(Citation: White House Imposing Costs RU Gov April 2021)(Citation: UK Gov Malign RIS Activity April 2021) They have operated since at least 2008, often targeting government networks in Europe and NATO member countries, research institutes, and think tanks. [APT29](https://attack.mitre.org/groups/G0016) reportedly compromised the Democratic National Committee starting in the summer of 2015.(Citation: F-Secure The Dukes)(Citation: GRIZZLY STEPPE JAR)(Citation: Crowdstrike DNC June 2016)(Citation: UK Gov UK Exposes Russia SolarWinds April 2021)\n\nIn April 2021, the US and UK governments attributed the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024) to the SVR; public statements included citations to [APT29](https://attack.mitre.org/groups/G0016), Cozy Bear, and The Dukes.(Citation: NSA Joint Advisory SVR SolarWinds April 2021)(Citation: UK NSCS Russia SolarWinds April 2021) Industry reporting also referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm.(Citation: FireEye SUNBURST Backdoor December 2020)(Citation: MSTIC NOBELIUM Mar 2021)(Citation: CrowdStrike SUNSPOT Implant January 2021)(Citation: Volexity SolarWinds)(Citation: Cybersecurity Advisory SVR TTP May 2021)(Citation: Unit 42 SolarStorm December 2020)",
     "id": "mitre-g0016",
-    "misp_uuid": "bee8b09c-07e5-4c12-94d6-266ebcb1ec24",
+    "microsoft_origin_or_threat": "Russia",
+    "misp_uuid": "b2056ff0-00b9-482e-b11c-c771daa5f28a",
     "mitre_id": "G0016",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
     "status": "active",
+    "suspected_country": "RU",
     "updated_at": "2026-07-02"
   },
   {
@@ -778,27 +753,14 @@
     "confidence": "source-provided",
     "description": "[APT3](https://attack.mitre.org/groups/G0022) is a China-based threat group that researchers have attributed to China's Ministry of State Security.(Citation: FireEye Clandestine Wolf)(Citation: Recorded Future APT3 May 2017) This group is responsible for the campaigns known as Operation Clandestine Fox, Operation Clandestine Wolf, and Operation Double Tap.(Citation: FireEye Clandestine Wolf)(Citation: FireEye Operation Double Tap) As of June 2015, the group appears to have shifted from targeting primarily US victims to primarily political organizations in Hong Kong.(Citation: Symantec Buckeye)",
     "id": "mitre-g0022",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "d144c83e-2302-4947-9e24-856fbf7949ae",
     "mitre_id": "G0022",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
-    ],
-    "status": "active",
-    "suspected_country": "CN",
-    "updated_at": "2026-07-02"
-  },
-  {
-    "canonical_name": "APT30",
-    "confidence": "source-provided",
-    "description": "APT30 is a threat group suspected to be associated with the Chinese government. While Naikon shares some characteristics with APT30, the two groups do not appear to be exact matches",
-    "id": "misp-d3881afe-f781-4c53-9f68-33487a119a59",
-    "misp_uuid": "d3881afe-f781-4c53-9f68-33487a119a59",
-    "mitre_id": null,
-    "primary_source": "misp-galaxy",
-    "source_ids": [
-      "misp-galaxy"
     ],
     "status": "active",
     "suspected_country": "CN",
@@ -809,13 +771,15 @@
     "confidence": "source-provided",
     "description": "[APT30](https://attack.mitre.org/groups/G0013) is a threat group suspected to be associated with the Chinese government. While [Naikon](https://attack.mitre.org/groups/G0019) shares some characteristics with [APT30](https://attack.mitre.org/groups/G0013), the two groups do not appear to be exact matches.(Citation: FireEye APT30)(Citation: Baumgartner Golovkin Naikon 2015)",
     "id": "mitre-g0013",
-    "misp_uuid": null,
+    "misp_uuid": "d3881afe-f781-4c53-9f68-33487a119a59",
     "mitre_id": "G0013",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "misp-galaxy",
       "mitre-attack"
     ],
     "status": "active",
+    "suspected_country": "CN",
     "updated_at": "2026-07-02"
   },
   {
@@ -823,10 +787,12 @@
     "confidence": "source-provided",
     "description": "[APT32](https://attack.mitre.org/groups/G0050) is a suspected Vietnam-based threat group that has been active since at least 2014. The group has targeted multiple private sector industries as well as foreign governments, dissidents, and journalists with a strong focus on Southeast Asian countries like Vietnam, the Philippines, Laos, and Cambodia. They have extensively used strategic web compromises to compromise victims.(Citation: FireEye APT32 May 2017)(Citation: Volexity OceanLotus Nov 2017)(Citation: ESET OceanLotus)",
     "id": "mitre-g0050",
+    "microsoft_origin_or_threat": "Vietnam",
     "misp_uuid": "aa29ae56-e54b-47a2-ad16-d3ab0242d5d7",
     "mitre_id": "G0050",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -839,10 +805,12 @@
     "confidence": "source-provided",
     "description": "[APT33](https://attack.mitre.org/groups/G0064) is a suspected Iranian threat group that has carried out operations since at least 2013. The group has targeted organizations across multiple industries in the United States, Saudi Arabia, and South Korea, with a particular interest in the aviation and energy sectors.(Citation: FireEye APT33 Sept 2017)(Citation: FireEye APT33 Webinar Sept 2017)",
     "id": "mitre-g0064",
+    "microsoft_origin_or_threat": "Iran",
     "misp_uuid": "4f69ec6d-cb6b-42af-b8e2-920a2aa4be10",
     "mitre_id": "G0064",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -899,30 +867,19 @@
   {
     "canonical_name": "APT41",
     "confidence": "source-provided",
-    "description": "APT41 is a prolific cyber threat group that carries out Chinese state-sponsored espionage activity in addition to financially motivated activity potentially outside of state control.",
-    "id": "misp-9c124874-042d-48cd-b72b-ccdc51ecbbd6",
-    "misp_uuid": "9c124874-042d-48cd-b72b-ccdc51ecbbd6",
-    "mitre_id": null,
-    "primary_source": "misp-galaxy",
-    "source_ids": [
-      "misp-galaxy"
-    ],
-    "status": "active",
-    "suspected_country": "CN",
-    "updated_at": "2026-07-02"
-  },
-  {
-    "canonical_name": "APT41",
-    "confidence": "source-provided",
     "description": "[APT41](https://attack.mitre.org/groups/G0096) is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations. Active since at least 2012, [APT41](https://attack.mitre.org/groups/G0096) has been observed targeting various industries, including but not limited to healthcare, telecom, technology, finance, education, retail and video game industries in 14 countries.(Citation: apt41_mandiant) Notable behaviors include using a wide range of malware and tools to complete mission objectives. [APT41](https://attack.mitre.org/groups/G0096) overlaps at least partially with public reporting on groups including BARIUM and [Winnti Group](https://attack.mitre.org/groups/G0044).(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)\n",
     "id": "mitre-g0096",
-    "misp_uuid": null,
+    "microsoft_origin_or_threat": "China",
+    "misp_uuid": "9c124874-042d-48cd-b72b-ccdc51ecbbd6",
     "mitre_id": "G0096",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
       "mitre-attack"
     ],
     "status": "active",
+    "suspected_country": "CN",
     "updated_at": "2026-07-02"
   },
   {
@@ -1733,10 +1690,12 @@
     "confidence": "source-provided",
     "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) is a cyber espionage group with likely Chinese origins that has been active since at least 2008. The group primarily targets Japanese organizations, particularly those in government, biotechnology, electronics manufacturing, and industrial chemistry.(Citation: Trend Micro Daserf Nov 2017)(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Trend Micro Tick November 2019)",
     "id": "mitre-g0060",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "add6554a-815a-4ac3-9b22-9337b9661ab8",
     "mitre_id": "G0060",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -2141,10 +2100,12 @@
     "confidence": "source-provided",
     "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) is a China-based threat group that has been active since at least 2021 deploying multiple strains of ransomware based on the leaked [Babuk](https://attack.mitre.org/software/S0638) source code. [Cinnamon Tempest](https://attack.mitre.org/groups/G1021) does not operate their ransomware on an affiliate model or purchase access but appears to act independently in all stages of the attack lifecycle. Based on victimology, the short lifespan of each ransomware variant, and use of malware attributed to government-sponsored threat groups, [Cinnamon Tempest](https://attack.mitre.org/groups/G1021) may be motivated by intellectual property theft or cyberespionage rather than financial gain.(Citation: Microsoft Ransomware as a Service)(Citation: Microsoft Threat Actor Naming July 2023)(Citation: Trend Micro Cheerscrypt May 2022)(Citation: SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022)",
     "id": "mitre-g1021",
+    "microsoft_origin_or_threat": "China, Financially motivated",
     "misp_uuid": "737c0207-1a1a-4480-86e7-b6a5066e1ee5",
     "mitre_id": "G1021",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -2257,30 +2218,17 @@
   {
     "canonical_name": "Cleaver",
     "confidence": "source-provided",
-    "description": "A group of cyber actors utilizing infrastructure located in Iran have been conducting computer network exploitation activity against public and private U.S. organizations, including Cleared Defense Contractors (CDCs), academic institutions, and energy sector companies. This threat actor targets entities in the government, energy, and technology sectors that are located in or do business with Saudi Arabia.",
-    "id": "misp-86724806-7ec9-4a48-a0a7-ecbde3bf4810",
-    "misp_uuid": "86724806-7ec9-4a48-a0a7-ecbde3bf4810",
-    "mitre_id": null,
-    "primary_source": "misp-galaxy",
-    "source_ids": [
-      "misp-galaxy"
-    ],
-    "status": "active",
-    "suspected_country": "IR",
-    "updated_at": "2026-07-02"
-  },
-  {
-    "canonical_name": "Cleaver",
-    "confidence": "source-provided",
     "description": "[Cleaver](https://attack.mitre.org/groups/G0003) is a threat group that has been attributed to Iranian actors and is responsible for activity tracked as Operation Cleaver. (Citation: Cylance Cleaver) Strong circumstantial evidence suggests Cleaver is linked to Threat Group 2889 (TG-2889). (Citation: Dell Threat Group 2889)",
     "id": "mitre-g0003",
-    "misp_uuid": null,
+    "misp_uuid": "86724806-7ec9-4a48-a0a7-ecbde3bf4810",
     "mitre_id": "G0003",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "misp-galaxy",
       "mitre-attack"
     ],
     "status": "active",
+    "suspected_country": "IR",
     "updated_at": "2026-07-02"
   },
   {
@@ -2388,10 +2336,12 @@
     "confidence": "source-provided",
     "description": "Coinbase Cartel is a ransomware threat actor that emerged in September 2025, focusing on data exfiltration rather than encryption, and has claimed over 60 victims, primarily in the healthcare, technology, and transportation sectors. The group employs TTPs such as social engineering, credential harvesting, and collaboration with Initial Access Brokers to gain initial access. They operate a data leak site where they publish victim names and issue ransom demands, requiring payment via Bitcoin.",
     "id": "misp-bebcafbd-49ec-442f-9184-260c8c327f89",
+    "microsoft_origin_or_threat": "Group in development",
     "misp_uuid": "bebcafbd-49ec-442f-9184-260c8c327f89",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -2487,10 +2437,12 @@
     "confidence": "source-provided",
     "description": "[Contagious Interview](https://attack.mitre.org/groups/G1052) is a North Korea–aligned threat group active since 2023. The group conducts both cyberespionage and financially motivated operations, including the theft of cryptocurrency and user credentials. [Contagious Interview](https://attack.mitre.org/groups/G1052) targets Windows, Linux, and macOS systems, with a particular focus on individuals engaged in software development and cryptocurrency-related activities. (Citation: Validin Contagious Interview North Korea ClickFix January 2025)(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: Datadog Contagious Interview Tenacious Pungsan October 2024)(Citation: Recorded Future Contagious Inteview BeaverTail InvisibleFerret OtterCookie February 2025)(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)(Citation: PaloAlto Unit42 ContagiousInterview BeaverTail InvisibileFerret October 2024)",
     "id": "mitre-g1052",
+    "microsoft_origin_or_threat": "North Korea",
     "misp_uuid": "09aa3edb-e956-43f0-9fcb-a3154b47d202",
     "mitre_id": "G1052",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -2605,10 +2557,12 @@
     "confidence": "source-provided",
     "description": "Cotton Sandstorm is an Iranian threat actor involved in hack-and-leak operations. They have targeted various organizations, including the French satirical magazine Charlie Hebdo, where they obtained and leaked personal information of over 200,000 customers. The group has been linked to the Iranian government and has been sanctioned by the US Treasury",
     "id": "misp-bbb389f2-344f-4ca8-a9c9-902061f88deb",
+    "microsoft_origin_or_threat": "Iran",
     "misp_uuid": "bbb389f2-344f-4ca8-a9c9-902061f88deb",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -2691,10 +2645,12 @@
     "confidence": "source-provided",
     "description": "[CURIUM](https://attack.mitre.org/groups/G1012) is an Iranian threat group, first reported in September 2019 and active since at least July 2018, targeting IT service providers in the Middle East.(Citation: Symantec Tortoiseshell 2019) [CURIUM](https://attack.mitre.org/groups/G1012) has since invested in building relationships with potential targets via social media over a period of months to establish trust and confidence before sending malware. Security researchers note [CURIUM](https://attack.mitre.org/groups/G1012) has demonstrated great patience and persistence by chatting with potential targets daily and sending benign files to help lower their security consciousness.(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
     "id": "mitre-g1012",
+    "microsoft_origin_or_threat": "Iran",
     "misp_uuid": "5f108484-db7f-11e9-aaa4-fb0176425734",
     "mitre_id": "G1012",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -3307,10 +3263,12 @@
     "confidence": "source-provided",
     "description": "Lace Tempest, also known as DEV-0950, is a threat actor that exploited vulnerabilities in software such as SysAid and PaperCut to gain unauthorized access to systems. Lace Tempest is known for deploying the Clop ransomware and exfiltrating data from compromised networks.",
     "id": "misp-4581f930-348e-4054-a71c-863871de66ee",
+    "microsoft_origin_or_threat": "Financially motivated",
     "misp_uuid": "4581f930-348e-4054-a71c-863871de66ee",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -3449,10 +3407,12 @@
     "confidence": "source-provided",
     "description": "DRAGONBRIDGE is a Chinese state-sponsored threat actor known for engaging in information operations to promote the political interests of the People's Republic of China. They have been observed using AI-generated images and videos to spread propaganda on social media platforms. The group has targeted various countries and regions, including the US, Taiwan, and Japan, with narratives promoting pro-PRC viewpoints. DRAGONBRIDGE has been linked to campaigns discrediting the US political system, sowing division between allies, and criticizing specific companies and individuals.",
     "id": "misp-a4d55f94-d842-400a-acb6-dfee1c446257",
+    "microsoft_origin_or_threat": "China, Influence operations",
     "misp_uuid": "a4d55f94-d842-400a-acb6-dfee1c446257",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -3464,10 +3424,12 @@
     "confidence": "source-provided",
     "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) is a cyber espionage group that has been attributed to Russia's Federal Security Service (FSB) Center 16.(Citation: DOJ Russia Targeting Critical Infrastructure March 2022)(Citation: UK GOV FSB Factsheet April 2022) Active since at least 2010, [Dragonfly](https://attack.mitre.org/groups/G0035) has targeted defense and aviation companies, government entities, companies related to industrial control systems, and critical infrastructure sectors worldwide through supply chain, spearphishing, and drive-by compromise attacks.(Citation: Symantec Dragonfly)(Citation: Secureworks IRON LIBERTY July 2019)(Citation: Symantec Dragonfly Sept 2017)(Citation: Fortune Dragonfly 2.0 Sept 2017)(Citation: Gigamon Berserk Bear October 2021)(Citation: CISA AA20-296A Berserk Bear December 2020)(Citation: Symantec Dragonfly 2.0 October 2017)",
     "id": "mitre-g0035",
+    "microsoft_origin_or_threat": "Russia",
     "misp_uuid": "64d6559c-6d5c-4585-bbf9-c17868f763ee",
     "mitre_id": "G0035",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -3493,30 +3455,17 @@
   {
     "canonical_name": "DragonOK",
     "confidence": "source-provided",
-    "description": "Threat group that has targeted Japanese organizations with phishing emails. Due to overlapping TTPs, including similar custom tools, DragonOK is thought to have a direct or indirect relationship with the threat group Moafee. 2223 It is known to use a variety of malware, including Sysget/HelloBridge, PlugX, PoisonIvy, FormerFirstRat, NFlog, and NewCT.",
-    "id": "misp-a9b44750-992c-4743-8922-129880d277ea",
-    "misp_uuid": "a9b44750-992c-4743-8922-129880d277ea",
-    "mitre_id": null,
-    "primary_source": "misp-galaxy",
-    "source_ids": [
-      "misp-galaxy"
-    ],
-    "status": "active",
-    "suspected_country": "CN",
-    "updated_at": "2026-07-02"
-  },
-  {
-    "canonical_name": "DragonOK",
-    "confidence": "source-provided",
     "description": "[DragonOK](https://attack.mitre.org/groups/G0017) is a threat group that has targeted Japanese organizations with phishing emails. Due to overlapping TTPs, including similar custom tools, [DragonOK](https://attack.mitre.org/groups/G0017) is thought to have a direct or indirect relationship with the threat group [Moafee](https://attack.mitre.org/groups/G0002). (Citation: Operation Quantum Entanglement) It is known to use a variety of malware, including Sysget/HelloBridge, PlugX, PoisonIvy, FormerFirstRat, NFlog, and NewCT. (Citation: New DragonOK)",
     "id": "mitre-g0017",
-    "misp_uuid": null,
+    "misp_uuid": "a9b44750-992c-4743-8922-129880d277ea",
     "mitre_id": "G0017",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "misp-galaxy",
       "mitre-attack"
     ],
     "status": "active",
+    "suspected_country": "CN",
     "updated_at": "2026-07-02"
   },
   {
@@ -3754,30 +3703,17 @@
   {
     "canonical_name": "Earth Lusca",
     "confidence": "source-provided",
-    "description": "Earth Lusca is a threat actor from China that targets organizations of interest to the Chinese government, including academic institutions, telecommunication companies, religious organizations, and other civil society groups. Earth Lusca's tools closely resemble those used by Winnti Umbrella, but the group appears to operate separately from Winnti. Earth Lusca has also been observed targeting cryptocurrency payment platforms and cryptocurrency exchanges in what are likely financially motivated attacks.",
-    "id": "misp-39150b30-61af-4d9c-9682-1595e145f3c1",
-    "misp_uuid": "39150b30-61af-4d9c-9682-1595e145f3c1",
-    "mitre_id": null,
-    "primary_source": "misp-galaxy",
-    "source_ids": [
-      "misp-galaxy"
-    ],
-    "status": "active",
-    "suspected_country": "CN",
-    "updated_at": "2026-07-02"
-  },
-  {
-    "canonical_name": "Earth Lusca",
-    "confidence": "source-provided",
     "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) is a suspected China-based cyber espionage group that has been active since at least April 2019. [Earth Lusca](https://attack.mitre.org/groups/G1006) has targeted organizations in Australia, China, Hong Kong, Mongolia, Nepal, the Philippines, Taiwan, Thailand, Vietnam, the United Arab Emirates, Nigeria, Germany, France, and the United States. Targets included government institutions, news media outlets, gambling companies, educational institutions, COVID-19 research organizations, telecommunications companies, religious movements banned in China, and cryptocurrency trading platforms; security researchers assess some [Earth Lusca](https://attack.mitre.org/groups/G1006) operations may be financially motivated.(Citation: TrendMicro EarthLusca 2022)\n\n[Earth Lusca](https://attack.mitre.org/groups/G1006) has used malware commonly used by other Chinese threat groups, including [APT41](https://attack.mitre.org/groups/G0096) and the [Winnti Group](https://attack.mitre.org/groups/G0044) cluster, however security researchers assess [Earth Lusca](https://attack.mitre.org/groups/G1006)'s techniques and infrastructure are separate.(Citation: TrendMicro EarthLusca 2022)",
     "id": "mitre-g1006",
-    "misp_uuid": null,
+    "misp_uuid": "39150b30-61af-4d9c-9682-1595e145f3c1",
     "mitre_id": "G1006",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "misp-galaxy",
       "mitre-attack"
     ],
     "status": "active",
+    "suspected_country": "CN",
     "updated_at": "2026-07-02"
   },
   {
@@ -4228,10 +4164,12 @@
     "confidence": "source-provided",
     "description": "[FIN6](https://attack.mitre.org/groups/G0037) is a cyber crime group that has stolen payment card data and sold it for profit on underground marketplaces. This group has aggressively targeted and compromised point of sale (PoS) systems in the hospitality and retail sectors.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)",
     "id": "mitre-g0037",
+    "microsoft_origin_or_threat": "Group in development",
     "misp_uuid": "647894f6-1723-4cba-aba4-0ef0966d5302",
     "mitre_id": "G0037",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -4241,30 +4179,19 @@
   {
     "canonical_name": "FIN7",
     "confidence": "source-provided",
-    "description": "Groups targeting financial organizations or people with significant financial assets.",
-    "id": "misp-00220228-a5a4-4032-a30d-826bb55aa3fb",
-    "misp_uuid": "00220228-a5a4-4032-a30d-826bb55aa3fb",
-    "mitre_id": null,
-    "primary_source": "misp-galaxy",
-    "source_ids": [
-      "misp-galaxy"
-    ],
-    "status": "active",
-    "suspected_country": "RU",
-    "updated_at": "2026-07-02"
-  },
-  {
-    "canonical_name": "FIN7",
-    "confidence": "source-provided",
     "description": "[FIN7](https://attack.mitre.org/groups/G0046) is a financially-motivated threat group that has been active since 2013. [FIN7](https://attack.mitre.org/groups/G0046) has targeted the retail, restaurant, hospitality, software, consulting, financial services, medical equipment, cloud services, media, food and beverage, transportation, pharmaceutical, and utilities industries in the United States. A portion of [FIN7](https://attack.mitre.org/groups/G0046) was operated out of a front company called Combi Security and often used point-of-sale malware for targeting efforts. Since 2020, [FIN7](https://attack.mitre.org/groups/G0046) shifted operations to big game hunting (BGH), including use of [REvil](https://attack.mitre.org/software/S0496) ransomware and their own Ransomware-as-a-Service (RaaS), Darkside. FIN7 may be linked to the [Carbanak](https://attack.mitre.org/groups/G0008) Group, but multiple threat groups have been observed using [Carbanak](https://attack.mitre.org/software/S0030), leading these groups to be tracked separately.(Citation: FireEye FIN7 March 2017)(Citation: FireEye FIN7 April 2017)(Citation: FireEye CARBANAK June 2017)(Citation: FireEye FIN7 Aug 2018)(Citation: CrowdStrike Carbon Spider August 2021)(Citation: Mandiant FIN7 Apr 2022)(Citation: BiZone Lizar May 2021)",
     "id": "mitre-g0046",
-    "misp_uuid": null,
+    "microsoft_origin_or_threat": "Ukraine, Financially motivated",
+    "misp_uuid": "00220228-a5a4-4032-a30d-826bb55aa3fb",
     "mitre_id": "G0046",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
       "mitre-attack"
     ],
     "status": "active",
+    "suspected_country": "RU",
     "updated_at": "2026-07-02"
   },
   {
@@ -4272,10 +4199,12 @@
     "confidence": "source-provided",
     "description": "[FIN8](https://attack.mitre.org/groups/G0061) is a financially motivated threat group that has been active since at least January 2016, and known for targeting organizations in the hospitality, retail, entertainment, insurance, technology, chemical, and financial sectors. In June 2021, security researchers detected [FIN8](https://attack.mitre.org/groups/G0061) switching from targeting point-of-sale (POS) devices to distributing a number of ransomware variants.(Citation: FireEye Obfuscation June 2017)(Citation: FireEye Fin8 May 2016)(Citation: Bitdefender Sardonic Aug 2021)(Citation: Symantec FIN8 Jul 2023)",
     "id": "mitre-g0061",
+    "microsoft_origin_or_threat": "Group in development",
     "misp_uuid": "a78ae9fe-71cd-4563-9213-7b6260bd9a73",
     "mitre_id": "G0061",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -4329,10 +4258,12 @@
     "confidence": "source-provided",
     "description": "Flax Typhoon is a Chinese state-sponsored threat actor that primarily targets organizations in Taiwan. They conduct espionage campaigns and focus on gaining and maintaining long-term access to networks using minimal malware. Flax Typhoon relies on tools built into the operating system and legitimate software to remain undetected. They exploit vulnerabilities in public-facing servers, use living-off-the-land techniques, and deploy a VPN connection to maintain persistence and move laterally within compromised networks.",
     "id": "misp-50ee2b1b-979e-4507-8747-8597a95938f6",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "50ee2b1b-979e-4507-8747-8597a95938f6",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -4373,10 +4304,12 @@
     "confidence": "source-provided",
     "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) is threat actor with a suspected nexus to the Iranian government that has been active since at least 2017 against entities in the Middle East, North Africa, Europe, Australia, and North America. [Fox Kitten](https://attack.mitre.org/groups/G0117) has targeted multiple industrial verticals including oil and gas, technology, government, defense, healthcare, manufacturing, and engineering.(Citation: ClearkSky Fox Kitten February 2020)(Citation: CrowdStrike PIONEER KITTEN August 2020)(Citation: Dragos PARISITE )(Citation: ClearSky Pay2Kitten December 2020)",
     "id": "mitre-g0117",
+    "microsoft_origin_or_threat": "Iran",
     "misp_uuid": "bfb0bc20-5bdf-47ff-b07f-dbd9a3cb9772",
     "mitre_id": "G0117",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -4475,10 +4408,12 @@
     "confidence": "source-provided",
     "description": "[GALLIUM](https://attack.mitre.org/groups/G0093) is a cyberespionage group that has been active since at least 2012, primarily targeting telecommunications companies, financial institutions, and government entities in Afghanistan, Australia, Belgium, Cambodia, Malaysia, Mozambique, the Philippines, Russia, and Vietnam. This group is particularly known for launching Operation Soft Cell, a long-term campaign targeting telecommunications providers.(Citation: Cybereason Soft Cell June 2019) Security researchers have identified [GALLIUM](https://attack.mitre.org/groups/G0093) as a likely Chinese state-sponsored group, based in part on tools used and TTPs commonly associated with Chinese threat actors.(Citation: Cybereason Soft Cell June 2019)(Citation: Microsoft GALLIUM December 2019)(Citation: Unit 42 PingPull Jun 2022)",
     "id": "mitre-g0093",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "e400b6c5-77cf-453d-ba0f-44575583ac6c",
     "mitre_id": "G0093",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -4520,10 +4455,12 @@
     "confidence": "source-provided",
     "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) is a suspected Russian cyber espionage group that has targeted military, law enforcement, judiciary, non-profit, and non-governmental organizations in Ukraine since at least 2013. The name [Gamaredon Group](https://attack.mitre.org/groups/G0047) derives from a misspelling of the word \"Armageddon,\" found in early campaigns.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: Symantec Shuckworm January 2022)(Citation: Microsoft Actinium February 2022)\n\nIn November 2021, the Ukrainian government publicly attributed [Gamaredon Group](https://attack.mitre.org/groups/G0047) to Russia’s Federal Security Service (FSB) Center 18, an assessment later supported by multiple independent cybersecurity researchers. (Citation: Bleepingcomputer Gamardeon FSB November 2021)(Citation: Microsoft Actinium February 2022)",
     "id": "mitre-g0047",
+    "microsoft_origin_or_threat": "Russia",
     "misp_uuid": "1a77e156-76bc-43f5-bdd7-bd67f30fbbbb",
     "mitre_id": "G0047",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -5079,10 +5016,12 @@
     "confidence": "source-provided",
     "description": "Gray Sandstorm is an Iran-linked threat actor that has been active since at least 2012. They have targeted defense technology companies, maritime transportation companies, and Persian Gulf ports of entry. Their primary method of attack is password spraying, and they have been observed using tools like o365spray. They have a specific focus on US and Israeli targets and are likely operating in support of Iranian interests.",
     "id": "misp-6ea73b7f-b2e5-4e6d-a1ff-705f91175613",
+    "microsoft_origin_or_threat": "Iran",
     "misp_uuid": "6ea73b7f-b2e5-4e6d-a1ff-705f91175613",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -5312,10 +5251,12 @@
     "confidence": "source-provided",
     "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) is a likely state-sponsored cyber espionage group operating out of China that has been active since at least January 2021. [HAFNIUM](https://attack.mitre.org/groups/G0125) primarily targets entities in the US across a number of industry sectors, including infectious disease researchers, law firms, higher education institutions, defense contractors, policy think tanks, and NGOs. [HAFNIUM](https://attack.mitre.org/groups/G0125) has targeted remote management tools and cloud software for intial access and has demonstrated an ability to quickly operationalize exploits for identified vulnerabilities in edge devices.(Citation: Microsoft HAFNIUM March 2020)(Citation: Volexity Exchange Marauder March 2021)(Citation: Microsoft Silk Typhoon MAR 2025)",
     "id": "mitre-g0125",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "4f05d6c1-3fc1-4567-91cd-dd4637cc38b5",
     "mitre_id": "G0125",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -5429,10 +5370,12 @@
     "confidence": "source-provided",
     "description": "[HEXANE](https://attack.mitre.org/groups/G1001) is a cyber espionage threat group that has targeted oil & gas, telecommunications, aviation, and internet service provider organizations since at least 2017. Targeted companies have been located in the Middle East and Africa, including Israel, Saudi Arabia, Kuwait, Morocco, and Tunisia. [HEXANE](https://attack.mitre.org/groups/G1001)'s TTPs appear similar to [APT33](https://attack.mitre.org/groups/G0064) and [OilRig](https://attack.mitre.org/groups/G0049) but due to differences in victims and tools it is tracked as a separate entity.(Citation: Dragos Hexane)(Citation: Kaspersky Lyceum October 2021)(Citation: ClearSky Siamesekitten August 2021)(Citation: Accenture Lyceum Targets November 2021)",
     "id": "mitre-g1001",
+    "microsoft_origin_or_threat": "Iran",
     "misp_uuid": "e1b95185-8db6-4f3c-9ffd-1749087d934a",
     "mitre_id": "G1001",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -5767,10 +5710,12 @@
     "confidence": "source-provided",
     "description": "[Indrik Spider](https://attack.mitre.org/groups/G0119) is a Russia-based cybercriminal group that has been active since at least 2014. [Indrik Spider](https://attack.mitre.org/groups/G0119) initially started with the [Dridex](https://attack.mitre.org/software/S0384) banking Trojan, and then by 2017 they began running ransomware operations using [BitPaymer](https://attack.mitre.org/software/S0570), [WastedLocker](https://attack.mitre.org/software/S0612), and Hades ransomware. Following U.S. sanctions and an indictment in 2019, [Indrik Spider](https://attack.mitre.org/groups/G0119) changed their tactics and diversified their toolset.(Citation: Crowdstrike Indrik November 2018)(Citation: Crowdstrike EvilCorp March 2021)(Citation: Treasury EvilCorp Dec 2019)",
     "id": "mitre-g0119",
+    "microsoft_origin_or_threat": "Russia",
     "misp_uuid": "658314bc-3bb8-48d2-913a-c528607b75c8",
     "mitre_id": "G0119",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -5855,10 +5800,12 @@
     "confidence": "source-provided",
     "description": "Adversary group targeting diplomatic missions, governmental and military organisations, mainly in Ukraine.",
     "id": "misp-87af83a4-ced4-4e7c-96a6-86612dc095b1",
+    "microsoft_origin_or_threat": "Russia",
     "misp_uuid": "87af83a4-ced4-4e7c-96a6-86612dc095b1",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -6097,10 +6044,12 @@
     "confidence": "source-provided",
     "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) is a threat group attributed to actors operating out of China. [Ke3chang](https://attack.mitre.org/groups/G0004) has targeted oil, government, diplomatic, military, and NGOs in Central and South America, the Caribbean, Europe, and North America since at least 2010.(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)(Citation: APT15 Intezer June 2018)(Citation: Microsoft NICKEL December 2021)",
     "id": "mitre-g0004",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "3501fbf2-098f-47e7-be6a-6b0ff5742ce8",
     "mitre_id": "G0004",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -6170,10 +6119,12 @@
     "confidence": "source-provided",
     "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) is a Democratic People's Republic of Korea (DPRK)-based cyber espionage group that has been active since at least 2012. The group initially targeted South Korean government agencies, think tanks, and subject-matter experts in various fields. Its operations expanded to include the United Nations and organizations in the government, education, business services, and manufacturing sectors across the United States, Japan, Russia, and Europe. [Kimsuky](https://attack.mitre.org/groups/G0094) has focused collection on foreign policy and national security issues tied to the Korean Peninsula, nuclear policy, and sanctions. [Kimsuky](https://attack.mitre.org/groups/G0094) operations have overlapped with those of other North Korean state-sponsored cyber espionage actors as a result of ad hoc collaborations or other limited resource sharing.(Citation: EST Kimsuky April 2019)(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)(Citation: CISA AA20-301A Kimsuky)(Citation: Mandiant APT43 March 2024)(Citation: Proofpoint TA427 April 2024) \n\n[Kimsuky](https://attack.mitre.org/groups/G0094) was assessed to be responsible for the 2014 Korea Hydro & Nuclear Power Co. compromise; other notable campaigns include Operation STOLEN PENCIL (2018), Operation Kabar Cobra (2019), and Operation Smoke Screen (2019).(Citation: Netscout Stolen Pencil Dec 2018)(Citation: EST Kimsuky SmokeScreen April 2019)(Citation: AhnLab Kimsuky Kabar Cobra Feb 2019) In 2023, [Kimsuky](https://attack.mitre.org/groups/G0094) was observed using commercial large language models (LLMs) to assist with vulnerability research, scripting, social engineering and reconnaissance.(Citation: MSFT-AI)\n\nDPRK threat actor cluster boundaries overlap in open source reporting, with some security researchers consolidating all attributed North Korean state-sponsored cyber activity under [Lazarus Group](https://attack.mitre.org/groups/G0032), rather than tracking operationally distinct subgroups.",
     "id": "mitre-g0094",
+    "microsoft_origin_or_threat": "North Korea",
     "misp_uuid": "bcaaad6f-0597-4b89-b69b-84a6be2b7bc3",
     "mitre_id": "G0094",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -6284,10 +6235,12 @@
     "confidence": "source-provided",
     "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) is cyber criminal threat group that has been active since at least mid-2021. [LAPSUS$](https://attack.mitre.org/groups/G1004) specializes in large-scale social engineering and extortion operations, including destructive attacks without the use of ransomware. The group has targeted organizations globally, including in the government, manufacturing, higher education, energy, healthcare, technology, telecommunications, and media sectors.(Citation: BBC LAPSUS Apr 2022)(Citation: MSTIC DEV-0537 Mar 2022)(Citation: UNIT 42 LAPSUS Mar 2022)",
     "id": "mitre-g1004",
+    "microsoft_origin_or_threat": "Financially motivated",
     "misp_uuid": "d9e5be22-1a04-4956-af6c-37af02330980",
     "mitre_id": "G1004",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -6368,30 +6321,19 @@
   {
     "canonical_name": "Lazarus Group",
     "confidence": "source-provided",
-    "description": "Since 2009, HIDDEN COBRA actors have leveraged their capabilities to target and compromise a range of victims; some intrusions have resulted in the exfiltration of data while others have been disruptive in nature. Commercial reporting has referred to this activity as Lazarus Group and Guardians of Peace. Tools and capabilities used by HIDDEN COBRA actors include DDoS botnets, keyloggers, remote access tools (RATs), and wiper malware. Variants of malware and tools used by HIDDEN COBRA actors include Destover, Duuzer, and Hangman.",
-    "id": "misp-68391641-859f-4a9a-9a1e-3e5cf71ec376",
-    "misp_uuid": "68391641-859f-4a9a-9a1e-3e5cf71ec376",
-    "mitre_id": null,
-    "primary_source": "misp-galaxy",
-    "source_ids": [
-      "misp-galaxy"
-    ],
-    "status": "active",
-    "suspected_country": "KP",
-    "updated_at": "2026-07-02"
-  },
-  {
-    "canonical_name": "Lazarus Group",
-    "confidence": "source-provided",
     "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) is a North Korean state-sponsored cyber threat group attributed to the Reconnaissance General Bureau (RGB). (Citation: US-CERT HIDDEN COBRA June 2017) (Citation: Treasury North Korean Cyber Groups September 2019) [Lazarus Group](https://attack.mitre.org/groups/G0032) has been active since at least 2009 and is reportedly responsible for the November 2014 destructive wiper attack on Sony Pictures Entertainment, identified by Novetta as part of Operation Blockbuster. Malware used by [Lazarus Group](https://attack.mitre.org/groups/G0032) correlates to other reported campaigns, including Operation Flame, Operation 1Mission, Operation Troy, DarkSeoul, and Ten Days of Rain.(Citation: Novetta Blockbuster)\n\nNorth Korea’s cyber operations have shown a consistent pattern of adaptation, forming and reorganizing units as national priorities shift. These units frequently share personnel, infrastructure, malware, and tradecraft, making it difficult to attribute specific operations with high confidence. Public reporting often uses “Lazarus Group” as an umbrella term for multiple North Korean cyber operators conducting espionage, destructive attacks, and financially motivated campaigns.(Citation: Mandiant DPRK Laz Org Breakdown 2022)(Citation: Mandiant DPRK Groups 2023)(Citation: JPCert Blog Laz Subgroups 2025)\n\n",
     "id": "mitre-g0032",
-    "misp_uuid": null,
+    "microsoft_origin_or_threat": "North Korea",
+    "misp_uuid": "68391641-859f-4a9a-9a1e-3e5cf71ec376",
     "mitre_id": "G0032",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
       "mitre-attack"
     ],
     "status": "active",
+    "suspected_country": "KP",
     "updated_at": "2026-07-02"
   },
   {
@@ -6428,10 +6370,12 @@
     "confidence": "source-provided",
     "description": "[Leviathan](https://attack.mitre.org/groups/G0065) is a Chinese state-sponsored cyber espionage group that has been attributed to the Ministry of State Security's (MSS) Hainan State Security Department and an affiliated front company.(Citation: CISA AA21-200A APT40 July 2021) Active since at least 2009, [Leviathan](https://attack.mitre.org/groups/G0065) has targeted the following sectors: academia, aerospace/aviation, biomedical, defense industrial base, government, healthcare, manufacturing, maritime, and transportation across the US, Canada, Australia, Europe, the Middle East, and Southeast Asia.(Citation: CISA AA21-200A APT40 July 2021)(Citation: Proofpoint Leviathan Oct 2017)(Citation: FireEye Periscope March 2018)(Citation: CISA Leviathan 2024)",
     "id": "mitre-g0065",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "5b4b6980-3bc7-11e8-84d6-879aaac37dd9",
     "mitre_id": "G0065",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -6487,10 +6431,12 @@
     "confidence": "source-provided",
     "description": "Lilac Typhoon is a threat actor attributed to China. They have been identified as exploiting the Atlassian Confluence RCE vulnerability CVE-2022-26134, which allows for remote code execution. This vulnerability has been used in cryptojacking campaigns and is included in commercial exploit frameworks. Lilac Typhoon has also been involved in deploying various payloads such as Cobalt Strike, web shells, botnets, coin miners, and ransomware.",
     "id": "misp-b80be7a7-6d06-4da7-8ae0-302a198e7c73",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "b80be7a7-6d06-4da7-8ae0-302a198e7c73",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -6516,10 +6462,12 @@
     "confidence": "source-provided",
     "description": "LIMINAL PANDA is a China-nexus APT that targets telecommunications entities, employing custom malware and publicly available tools for covert access, C2, and data exfiltration. The adversary demonstrates extensive knowledge of telecom networks, utilizing GSM protocols to retrieve mobile subscriber information and call metadata. LIMINAL PANDA exploits trust relationships and security gaps between providers to access core infrastructure, indicating a focus on SIGINT collection rather than financial gain. Their intrusion activity has primarily affected telecom providers in southern Asia and Africa, with potential for broader targeting based on network configurations.",
     "id": "misp-e7a64fd7-5d30-47ec-b9f6-8c555e5f319f",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "e7a64fd7-5d30-47ec-b9f6-8c555e5f319f",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -6747,10 +6695,12 @@
     "confidence": "source-provided",
     "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) is an Iranian-sponsored threat group that conducts long term, resource-intensive cyber espionage operations, likely on behalf of the Islamic Revolutionary Guard Corps. They have targeted European, U.S., and Middle Eastern government and military personnel, academics, journalists, and organizations such as the World Health Organization (WHO), via complex social engineering campaigns since at least 2014.(Citation: FireEye APT35 2018)(Citation: ClearSky Kittens Back 3 August 2020)(Citation: Certfa Charming Kitten January 2021)(Citation: Secureworks COBALT ILLUSION Threat Profile)(Citation: Proofpoint TA453 July2021)",
     "id": "mitre-g0059",
+    "microsoft_origin_or_threat": "Iran",
     "misp_uuid": "f98bac6b-12fd-4cad-be84-c84666932232",
     "mitre_id": "G0059",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -6908,10 +6858,12 @@
     "confidence": "source-provided",
     "description": "[menuPass](https://attack.mitre.org/groups/G0045) is a threat group that has been active since at least 2006. Individual members of [menuPass](https://attack.mitre.org/groups/G0045) are known to have acted in association with the Chinese Ministry of State Security's (MSS) Tianjin State Security Bureau and worked for the Huaying Haitai Science and Technology Development Company.(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)\n\n[menuPass](https://attack.mitre.org/groups/G0045) has targeted healthcare, defense, aerospace, finance, maritime, biotechnology, energy, and government sectors globally, with an emphasis on Japanese organizations. In 2016 and 2017, the group is known to have targeted managed IT service providers (MSPs), manufacturing and mining companies, and a university.(Citation: Palo Alto menuPass Feb 2017)(Citation: Crowdstrike CrowdCast Oct 2013)(Citation: FireEye Poison Ivy)(Citation: PWC Cloud Hopper April 2017)(Citation: FireEye APT10 April 2017)(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)",
     "id": "mitre-g0045",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "56b37b05-72e7-4a89-ba8a-61ce45269a8c",
     "mitre_id": "G0045",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -7143,10 +7095,12 @@
     "confidence": "source-provided",
     "description": "[Moses Staff](https://attack.mitre.org/groups/G1009) is a suspected Iranian threat group that has primarily targeted Israeli companies since at least September 2021. [Moses Staff](https://attack.mitre.org/groups/G1009) openly stated their motivation in attacking Israeli companies is to cause damage by leaking stolen sensitive data and encrypting the victim's networks without a ransom demand.(Citation: Checkpoint MosesStaff Nov 2021) \n\nSecurity researchers assess [Moses Staff](https://attack.mitre.org/groups/G1009) is politically motivated, and has targeted government, finance, travel, energy, manufacturing, and utility companies outside of Israel as well, including those in Italy, India, Germany, Chile, Turkey, the UAE, and the US.(Citation: Cybereason StrifeWater Feb 2022)",
     "id": "mitre-g1009",
+    "microsoft_origin_or_threat": "Iran",
     "misp_uuid": "d45dd940-b38d-4b2c-9f2f-3e4a0eac841c",
     "mitre_id": "G1009",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -7188,10 +7142,12 @@
     "confidence": "source-provided",
     "description": "[MoustachedBouncer](https://attack.mitre.org/groups/G1019) is a cyberespionage group that has been active since at least 2014 targeting foreign embassies in Belarus.(Citation: MoustachedBouncer ESET August 2023)",
     "id": "mitre-g1019",
+    "microsoft_origin_or_threat": "Belarus",
     "misp_uuid": "01ac8b25-492e-444b-891b-968f2694e7b2",
     "mitre_id": "G1019",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -7218,10 +7174,12 @@
     "confidence": "source-provided",
     "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) is a cyber espionage group assessed to be a subordinate element within Iran's Ministry of Intelligence and Security (MOIS).(Citation: CYBERCOM Iranian Intel Cyber January 2022) Since at least 2017, [MuddyWater](https://attack.mitre.org/groups/G0069) has targeted a range of government and private organizations across sectors, including telecommunications, local government, finance, defense, and oil and natural gas organizations, in the Middle East (specifically the UAE and Saudi Arabia), Asia, Africa, Europe, and North America. [MuddyWater](https://attack.mitre.org/groups/G0069) has reused domains dating back to October 2025, and has a preference for NameCheap and Hosterdaddy Private Limited (AS136557). In late 2025 and early 2026, [MuddyWater](https://attack.mitre.org/groups/G0069) used commercial satellite internet (i.e., Starlink) for command and control (C2) communication. (Citation: FalconFeeds_Iran_Mar2026)(Citation: Huntio_IranInfra_Mar2026)(Citation: Unit 42 MuddyWater Nov 2017)(Citation: Symantec MuddyWater Dec 2018)(Citation: ClearSky MuddyWater Nov 2018)(Citation: ClearSky MuddyWater June 2019)(Citation: Reaqta MuddyWater November 2017)(Citation: DHS CISA AA22-055A MuddyWater February 2022)(Citation: Talos MuddyWater Jan 2022)(Citation: NaumaanProofpoint_GlobalClickFix_April2025)(Citation: ESET_MuddyWater_Dec2025)(Citation: SymantecCarbonBlack_Seedworm_Mar2026)   ",
     "id": "mitre-g0069",
+    "microsoft_origin_or_threat": "Iran",
     "misp_uuid": "a29af069-03c3-4534-b78b-7d1a77ea085b",
     "mitre_id": "G0069",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -7258,26 +7216,11 @@
     "updated_at": "2026-07-02"
   },
   {
-    "canonical_name": "MUSTANG PANDA",
-    "confidence": "source-provided",
-    "description": "This threat actor targets nongovernmental organizations using Mongolian-themed lures for espionage purposes.\nIn April 2017, CrowdStrike Falcon Intelligence observed a previously unattributed actor group with a Chinese nexus targeting a U.S.-based think tank. Further analysis revealed a wider campaign with unique tactics, techniques, and procedures (TTPs). This adversary targets non-governmental organizations (NGOs) in general, but uses Mongolian language decoys and themes, suggesting this actor has a specific focus on gathering intelligence on Mongolia. These campaigns involve the use of shared malware like Poison Ivy or PlugX.\nRecently, Falcon Intelligence observed new activity from MUSTANG PANDA, using a unique infection chain to target likely Mongolia-based victims. This newly observed activity uses a series of redirections and fileless, malicious implementations of legitimate tools to gain access to the targeted systems. Additionally, MUSTANG PANDA actors reused previously-observed legitimate domains to host files.",
-    "id": "misp-78bf726c-a9e6-11e8-9e43-77249a2f7339",
-    "misp_uuid": "78bf726c-a9e6-11e8-9e43-77249a2f7339",
-    "mitre_id": null,
-    "primary_source": "misp-galaxy",
-    "source_ids": [
-      "misp-galaxy"
-    ],
-    "status": "active",
-    "suspected_country": "CN",
-    "updated_at": "2026-07-02"
-  },
-  {
     "canonical_name": "Mustang Panda",
     "confidence": "source-provided",
     "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) is a China-based cyber espionage threat actor that has been conducting operations since at least 2012. [Mustang Panda](https://attack.mitre.org/groups/G0129) has been known to use tailored phishing lures and decoy documents to deliver malicious payloads.  [Mustang Panda](https://attack.mitre.org/groups/G0129) has targeted government, diplomatic, and non-governmental organizations, including think tanks, religious institutions, and research entities, across the United States, Europe, and Asia, with notable activity in Russia, Mongolia, Myanmar, Pakistan, and Vietnam. (Citation: BlackBerry MUSTANG PANDA October 2022)(Citation: Eset PlugX Korplug Mustang Panda March 2022)(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022)(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: DOJ Affidavit Search and Seizure PlugX December 2024)(Citation: EclecticIQ Mustang Panda PlugX)(Citation: ATTACKIQ MUSTANG PANDA TONESHELL March 2023)(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: Palo Alto Networks, Unit 42)(Citation: Sophos PlugX September 2022)(Citation: Sophos Mustang Panda PLUGX)(Citation: Zscaler)",
     "id": "mitre-g0129",
-    "misp_uuid": "fceed509-938e-4f9e-acd4-76e6c28dc6f1",
+    "misp_uuid": "78bf726c-a9e6-11e8-9e43-77249a2f7339",
     "mitre_id": "G0129",
     "primary_source": "mitre-attack",
     "source_ids": [
@@ -7381,10 +7324,12 @@
     "confidence": "source-provided",
     "description": "NARWHAL SPIDER’s operation of Cutwail v2 was limited to country-specific spam campaigns, although late in 2019 there appeared to be an effort to expand by bringing in INDRIK SPIDER as a customer.",
     "id": "misp-fda9cdea-0017-495e-879d-0f348db2aa07",
+    "microsoft_origin_or_threat": "Group in development",
     "misp_uuid": "fda9cdea-0017-495e-879d-0f348db2aa07",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -7666,30 +7611,17 @@
   {
     "canonical_name": "OilRig",
     "confidence": "source-provided",
-    "description": "OilRig is an Iranian threat group operating primarily in the Middle East by targeting organizations in this region that are in a variety of different industries; however, this group has occasionally targeted organizations outside of the Middle East as well. It also appears OilRig carries out supply chain attacks, where the threat group leverages the trust relationship between organizations to attack their primary targets. \r\n\r\nOilRig is an active and organized threat group, which is evident based on their systematic targeting of specific organizations that appear to be carefully chosen for strategic purposes. Attacks attributed to this group primarily rely on social engineering to exploit the human rather than software vulnerabilities; however, on occasion this group has used recently patched vulnerabilities in the delivery phase of their attacks. The lack of software vulnerability exploitation does not necessarily suggest a lack of sophistication, as OilRig has shown maturity in other aspects of their operations. Such maturities involve:\r\n\r\n-Organized evasion testing used the during development of their tools.\r\n-Use of custom DNS Tunneling protocols for command and control (C2) and data exfiltration.\r\n-Custom web-shells and backdoors used to persistently access servers.\r\n\r\nOilRig relies on stolen account credentials for lateral movement. After OilRig gains access to a system, they use credential dumping tools, such as Mimikatz, to steal credentials to accounts logged into the compromised system. The group uses these credentials to access and to move laterally to other systems on the network. After obtaining credentials from a system, operators in this group prefer to use tools other than their backdoors to access the compromised systems, such as remote desktop and putty. OilRig also uses phishing sites to harvest credentials to individuals at targeted organizations to gain access to internet accessible resources, such as Outlook Web Access.\n\n\n\nSince at least 2014, an Iranian threat group tracked by FireEye as APT34 has conducted reconnaissance aligned with the strategic interests of Iran. The group conducts operations primarily in the Middle East, targeting financial, government, energy, chemical, telecommunications and other industries. Repeated targeting of Middle Eastern financial, energy and government organizations leads FireEye to assess that those sectors are a primary concern of APT34. The use of infrastructure tied to Iranian operations, timing and alignment with the national interests of Iran also lead FireEye to assess that APT34 acts on behalf of the Iranian government.",
-    "id": "misp-42be2a84-5a5c-4c6d-9864-3f09d75bb0ba",
-    "misp_uuid": "42be2a84-5a5c-4c6d-9864-3f09d75bb0ba",
-    "mitre_id": null,
-    "primary_source": "misp-galaxy",
-    "source_ids": [
-      "misp-galaxy"
-    ],
-    "status": "active",
-    "suspected_country": "IR",
-    "updated_at": "2026-07-02"
-  },
-  {
-    "canonical_name": "OilRig",
-    "confidence": "source-provided",
     "description": "[OilRig](https://attack.mitre.org/groups/G0049) is a suspected Iranian threat group that has targeted Middle Eastern and international victims since at least 2014. The group has targeted a variety of sectors, including financial, government, energy, chemical, and telecommunications. It appears the group carries out supply chain attacks, leveraging the trust relationship between organizations to attack their primary targets. The group works on behalf of the Iranian government based on infrastructure details that contain references to Iran, use of Iranian infrastructure, and targeting that aligns with nation-state interests.(Citation: FireEye APT34 Dec 2017)(Citation: Palo Alto OilRig April 2017)(Citation: ClearSky OilRig Jan 2017)(Citation: Palo Alto OilRig May 2016)(Citation: Palo Alto OilRig Oct 2016)(Citation: Unit42 OilRig Playbook 2023)(Citation: Unit 42 QUADAGENT July 2018)",
     "id": "mitre-g0049",
-    "misp_uuid": null,
+    "misp_uuid": "42be2a84-5a5c-4c6d-9864-3f09d75bb0ba",
     "mitre_id": "G0049",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "misp-galaxy",
       "mitre-attack"
     ],
     "status": "active",
+    "suspected_country": "IR",
     "updated_at": "2026-07-02"
   },
   {
@@ -8146,6 +8078,7 @@
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -8186,10 +8119,12 @@
     "confidence": "source-provided",
     "description": "Pearl Sleet is a nation state activity group based in North Korea that has been active since at least 2012. They primarily target defectors from North Korea, media organizations in carrying out their cyber espionage activities.",
     "id": "misp-ef0d776a-51de-4965-ba1c-69ed256e0e5d",
+    "microsoft_origin_or_threat": "North Korea",
     "misp_uuid": "ef0d776a-51de-4965-ba1c-69ed256e0e5d",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -8244,10 +8179,12 @@
     "confidence": "source-provided",
     "description": "Phlox Tempest is a threat actor responsible for a large-scale click fraud campaign targeting users through YouTube comments and malicious ads. They use ChromeLoader to infect victims' computers with malware, often delivered as ISO image files that victims are tricked into downloading. The attackers aim to profit from clicks generated by malicious browser extensions or node-WebKit installed on the victim's device. Microsoft and other cybersecurity organizations have issued warnings about this ongoing and prevalent campaign.",
     "id": "misp-dd012c50-4f4f-4485-ac52-294a341f03e5",
+    "microsoft_origin_or_threat": "Israel, Financially motivated",
     "misp_uuid": "dd012c50-4f4f-4485-ac52-294a341f03e5",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -8301,10 +8238,12 @@
     "confidence": "source-provided",
     "description": "[PLATINUM](https://attack.mitre.org/groups/G0068) is an activity group that has targeted victims since at least 2009. The group has focused on targets associated with governments and related organizations in South and Southeast Asia. (Citation: Microsoft PLATINUM April 2016)",
     "id": "mitre-g0068",
+    "microsoft_origin_or_threat": "Singapore",
     "misp_uuid": "1fc5671f-5757-43bf-8d6d-a9a93b03713a",
     "mitre_id": "G0068",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -8388,10 +8327,12 @@
     "confidence": "source-provided",
     "description": "[POLONIUM](https://attack.mitre.org/groups/G1005) is a Lebanon-based group that has primarily targeted Israeli organizations, including critical manufacturing, information technology, and defense industry companies, since at least February 2022. Security researchers assess [POLONIUM](https://attack.mitre.org/groups/G1005) has coordinated their operations with multiple actors affiliated with Iran’s Ministry of Intelligence and Security (MOIS), based on victim overlap as well as common techniques and tooling.(Citation: Microsoft POLONIUM June 2022)",
     "id": "mitre-g1005",
+    "microsoft_origin_or_threat": "Lebanon",
     "misp_uuid": "3c5129ea-8f18-4bcf-a33b-b5aab0720494",
     "mitre_id": "G1005",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -8491,10 +8432,12 @@
     "confidence": "source-provided",
     "description": "[PROMETHIUM](https://attack.mitre.org/groups/G0056) is an activity group focused on espionage that has been active since at least 2012. The group has conducted operations globally with a heavy emphasis on Turkish targets. [PROMETHIUM](https://attack.mitre.org/groups/G0056) has demonstrated similarity to another activity group called [NEODYMIUM](https://attack.mitre.org/groups/G0055) due to overlapping victim and campaign characteristics.(Citation: Microsoft NEODYMIUM Dec 2016)(Citation: Microsoft SIR Vol 21)(Citation: Talos Promethium June 2020)",
     "id": "mitre-g0056",
+    "microsoft_origin_or_threat": "Türkiye",
     "misp_uuid": "43894e2a-174e-4931-94a8-2296afe8f650",
     "mitre_id": "G0056",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -9074,10 +9017,12 @@
     "confidence": "source-provided",
     "description": "ROMCOM is an evolving and sophisticated threat actor group that has been using the malware tool ROMCOM for espionage and financially motivated attacks. They have targeted organizations in Ukraine and NATO countries, including military personnel, government agencies, and political leaders. The ROMCOM backdoor is capable of stealing sensitive information and deploying other malware, showcasing the group's adaptability and growing sophistication.",
     "id": "misp-ba9e1ed2-e142-48d0-a593-f73ac6d59ccd",
+    "microsoft_origin_or_threat": "Russia",
     "misp_uuid": "ba9e1ed2-e142-48d0-a593-f73ac6d59ccd",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -9222,10 +9167,12 @@
     "confidence": "source-provided",
     "description": "[Salt Typhoon](https://attack.mitre.org/groups/G1045) is a People's Republic of China (PRC) state-backed actor that has been active since at least 2019 and responsible for numerous compromises of network infrastructure at major U.S. telecommunication and internet service providers (ISP).(Citation: US Dept. of Treasury Salt Typhoon JAN 2025)(Citation: Cisco Salt Typhoon FEB 2025)\n",
     "id": "mitre-g1045",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "3c3ca8f3-c6ab-4c5d-9bd0-be6677d6cdeb",
     "mitre_id": "G1045",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -9310,10 +9257,12 @@
     "confidence": "source-provided",
     "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) is a destructive threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) Main Center for Special Technologies (GTsST) military unit 74455.(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: UK NCSC Olympic Attacks October 2020) This group has been active since at least 2009.(Citation: iSIGHT Sandworm 2014)(Citation: CrowdStrike VOODOO BEAR)(Citation: USDOJ Sandworm Feb 2020)(Citation: NCSC Sandworm Feb 2020)\n\nIn October 2020, the US indicted six GRU Unit 74455 officers associated with [Sandworm Team](https://attack.mitre.org/groups/G0034) for the following cyber operations: the 2015 and 2016 attacks against Ukrainian electrical companies and government organizations, the 2017 worldwide [NotPetya](https://attack.mitre.org/software/S0368) attack, targeting of the 2017 French presidential campaign, the 2018 [Olympic Destroyer](https://attack.mitre.org/software/S0365) attack against the Winter Olympic Games, the 2018 operation against the Organisation for the Prohibition of Chemical Weapons, and attacks against the country of Georgia in 2018 and 2019.(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: UK NCSC Olympic Attacks October 2020) Some of these were conducted with the assistance of GRU Unit 26165, which is also referred to as [APT28](https://attack.mitre.org/groups/G0007).(Citation: US District Court Indictment GRU Oct 2018)",
     "id": "mitre-g0034",
+    "microsoft_origin_or_threat": "Russia",
     "misp_uuid": "f512de42-f76b-40d2-9923-59e7dbdfec35",
     "mitre_id": "G0034",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -9430,10 +9379,12 @@
     "confidence": "source-provided",
     "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) is a native English-speaking cybercriminal group active since at least 2022. (Citation: CrowdStrike Scattered Spider Profile) (Citation: MSTIC Octo Tempest Operations October 2023) The group initially targeted customer relationship management (CRM) providers, business process outsourcing (BPO) firms, and telecommunications and technology companies before expanding in 2023 to gaming, hospitality, retail, managed service provider (MSP), manufacturing, and financial sectors. (Citation: MSTIC Octo Tempest Operations October 2023)\n[Scattered Spider](https://attack.mitre.org/groups/G1015) relies heavily on social engineering, including impersonating IT and help-desk staff, to gain initial access, bypass multi-factor authentication (MFA), and compromise enterprise networks. The group has adapted its tooling to evade endpoint detection and response (EDR) defenses and used ransomware for financial gain. (Citation: CISA Scattered Spider Advisory November 2023) (Citation: CrowdStrike Scattered Spider BYOVD January 2023) (Citation: Crowdstrike TELCO BPO Campaign December 2022)\n[Scattered Spider](https://attack.mitre.org/groups/G1015) had expanded into hybrid cloud and identity environments, using help-desk impersonation and MFA bypass to obtain administrator access in Okta, AWS, and Office 365. (Citation: Mandiant UNC3944 May 2025)",
     "id": "mitre-g1015",
+    "microsoft_origin_or_threat": "Financially motivated",
     "misp_uuid": "3b238f3a-c67a-4a9e-b474-dc3897e00129",
     "mitre_id": "G1015",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -9487,10 +9438,12 @@
     "confidence": "source-provided",
     "description": "[Sea Turtle](https://attack.mitre.org/groups/G1041) is a Türkiye-linked threat actor active since at least 2017 performing espionage and service provider compromise operations against victims in Asia, Europe, and North America. [Sea Turtle](https://attack.mitre.org/groups/G1041) is notable for targeting registrars managing ccTLDs and complex DNS-based intrusions where the threat actor compromised DNS providers to hijack DNS resolution for ultimate victims, enabling [Sea Turtle](https://attack.mitre.org/groups/G1041) to spoof log in portals and other applications for credential collection.(Citation: Talos Sea Turtle 2019)(Citation: Talos Sea Turtle 2019_2)(Citation: PWC Sea Turtle 2023)(Citation: Hunt Sea Turtle 2024)",
     "id": "mitre-g1041",
+    "microsoft_origin_or_threat": "Türkiye",
     "misp_uuid": "ce7bba52-5ae8-44ea-9979-68502d832ab7",
     "mitre_id": "G1041",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -10272,10 +10225,12 @@
     "confidence": "source-provided",
     "description": "[Star Blizzard](https://attack.mitre.org/groups/G1033) is a cyber espionage and influence group originating in Russia that has been active since at least 2019. [Star Blizzard](https://attack.mitre.org/groups/G1033) campaigns align closely with Russian state interests and have included persistent phishing and credential theft against academic, defense, government, NGO, and think tank organizations in NATO countries, particularly the US and the UK.(Citation: Microsoft Star Blizzard August 2022)(Citation: CISA Star Blizzard Advisory December 2023)(Citation: StarBlizzard)(Citation: Google TAG COLDRIVER January 2024)\n",
     "id": "mitre-g1033",
+    "microsoft_origin_or_threat": "Russia",
     "misp_uuid": "fbd279ab-c095-48dc-ba48-4bece3dd5b0f",
     "mitre_id": "G1033",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -10330,10 +10285,12 @@
     "confidence": "source-provided",
     "description": "[Stealth Falcon](https://attack.mitre.org/groups/G0038) is a threat group that has conducted targeted spyware attacks against Emirati journalists, activists, and dissidents since at least 2012. Circumstantial evidence suggests there could be a link between this group and the United Arab Emirates (UAE) government, but that has not been confirmed. (Citation: Citizen Lab Stealth Falcon May 2016)",
     "id": "mitre-g0038",
+    "microsoft_origin_or_threat": "United Arab Emirates",
     "misp_uuid": "dab75e38-6969-4e78-9304-dc269c3cbcf0",
     "mitre_id": "G0038",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -10376,10 +10333,12 @@
     "confidence": "source-provided",
     "description": "The cyberattack campaign that Microsoft uncovered was launched by a China-linked hacking group called Storm-0062. According to the company, the group is launching cyberattacks by exploiting a vulnerability in the Data Center and Server editions of Confluence. Those are versions of the application that companies run on-premises.",
     "id": "misp-d1fe4546-616a-409c-8d2c-f7a7e0a183f8",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "d1fe4546-616a-409c-8d2c-f7a7e0a183f8",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -10521,10 +10480,12 @@
     "confidence": "source-provided",
     "description": "Storm-0558 is a China-based threat actor with espionage objectives. While there are some minimal overlaps with other Chinese groups such as Violet Typhoon (ZIRCONIUM, APT31), Microsoft maintain high confidence that Storm-0558 operates as its own distinct group",
     "id": "misp-5b30bcb8-4923-45cc-bc89-29651ca5d54e",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "5b30bcb8-4923-45cc-bc89-29651ca5d54e",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -10593,10 +10554,12 @@
     "confidence": "source-provided",
     "description": "Storm-0940 is a Chinese threat actor active since at least 2021, known for gaining initial access through password spray and brute-force attacks, as well as exploiting network edge applications. Microsoft has observed Storm-0940 utilizing valid credentials obtained from CovertNetwork-1658's password spray operations, indicating a close operational relationship between the two. Once inside a victim environment, Storm-0940 has been seen leveraging compromised credentials for further malicious activities. Additionally, Storm-0940 has employed botnets, such as Quad7, to facilitate password spraying attacks.",
     "id": "misp-301ffea9-edd5-4d89-a65f-8add8e34e95d",
+    "microsoft_origin_or_threat": "Covert network",
     "misp_uuid": "301ffea9-edd5-4d89-a65f-8add8e34e95d",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -10666,10 +10629,12 @@
     "confidence": "source-provided",
     "description": "Storm-1113 is a threat actor that acts both as an access broker focused on malware distribution through search advertisements and as an “as-a-service” entity providing malicious installers and landing page frameworks. In Storm-1113 malware distribution campaigns, users are directed to landing pages mimicking well-known software that host installers, often MSI files, that lead to the installation of malicious payloads. Storm-1113 is also the developer of EugenLoader, a commodity malware first observed around November 2022.",
     "id": "misp-993e81e8-63f4-4666-9538-4053a69287ba",
+    "microsoft_origin_or_threat": "Financially motivated",
     "misp_uuid": "993e81e8-63f4-4666-9538-4053a69287ba",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -10782,10 +10747,12 @@
     "confidence": "source-provided",
     "description": "CopyCop is a Russian covert influence network that has established over 300 fictional media websites targeting the US, France, Canada, and other countries, primarily to disseminate pro-Russian and anti-Ukrainian narratives. The network employs TTPs such as deepfakes, fake interviews, and self-hosted LLMs for content generation, while also impersonating local media outlets and fact-checking organizations. Its operations are supported by the Moscow-based Center for Geopolitical Expertise and the GRU, aiming to undermine support for Ukraine and exacerbate political fragmentation in Western nations. CopyCop's influence content is amplified by a network of pro-Russian social media influencers and other Russian influence networks.",
     "id": "misp-f37e5920-d780-4568-81dc-ae4e12052697",
+    "microsoft_origin_or_threat": "Russia, Influence operations",
     "misp_uuid": "f37e5920-d780-4568-81dc-ae4e12052697",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -10825,10 +10792,12 @@
     "confidence": "source-provided",
     "description": "Storm-1679 is a Russian disinformation group believed to be a spinoff of the Internet Research Agency, actively engaged in influence operations targeting the International Olympic Committee and the 2024 Olympic Games. The group has employed AI-generated content, including deepfake videos and fabricated narratives about violence, to discredit the IOC and instill fear among potential attendees. Their campaigns have been identified across multiple languages and platforms, utilizing techniques such as impersonation of media outlets and the creation of disinformation websites. Microsoft attributes significant disinformation activities related to the Olympics to Storm-1679, highlighting their focus on spreading falsehoods and promoting anti-Olympics messaging.",
     "id": "misp-10582c97-90de-4f2b-8e4d-21513c3971fc",
+    "microsoft_origin_or_threat": "Russia, Influence operations",
     "misp_uuid": "10582c97-90de-4f2b-8e4d-21513c3971fc",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -10854,10 +10823,12 @@
     "confidence": "source-provided",
     "description": "[Storm-1811](https://attack.mitre.org/groups/G1046) is a financially-motivated entity linked to [Black Basta](https://attack.mitre.org/software/S1070) ransomware deployment. [Storm-1811](https://attack.mitre.org/groups/G1046) is notable for unique phishing and social engineering mechanisms for initial access, such as overloading victim email inboxes with non-malicious spam to prompt a fake \"help desk\" interaction leading to the deployment of adversary tools and capabilities.(Citation: Microsoft Storm-1811 2024)(Citation: rapid7-email-bombing)(Citation: RedCanary Storm-1811 2024)(Citation: RedCanary June Insights 2024)",
     "id": "mitre-g1046",
+    "microsoft_origin_or_threat": "Financially motivated",
     "misp_uuid": "8191e28a-fb2d-4d50-b992-b877807a2f37",
     "mitre_id": "G1046",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -10897,10 +10868,12 @@
     "confidence": "source-provided",
     "description": "TAG-100 is a cyber-espionage APT that targets government and private sector organizations globally, exploiting vulnerabilities in internet-facing devices such as Citrix NetScaler and F5 BIG-IP for initial access. The group employs open-source tools like Pantegana and SparkRAT for persistence and post-exploitation activities, including credential theft and email data exfiltration. TAG-100 has compromised entities in at least ten countries, including two Asia-Pacific intergovernmental organizations, and focuses on sectors like education, finance, and local government. Their operations highlight the challenges of attribution due to the use of off-the-shelf tools and techniques that overlap with other state-sponsored groups.",
     "id": "misp-e6afdfb4-a5ac-4be1-9cd0-c1801a7f7083",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "e6afdfb4-a5ac-4be1-9cd0-c1801a7f7083",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -11062,6 +11035,7 @@
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -11115,10 +11089,12 @@
     "confidence": "source-provided",
     "description": "Proofpoint researchers detected campaigns from a relatively new actor, tracked internally as TA2101, targeting German companies and organizations to deliver and install backdoor malware. The actor initiated their campaigns impersonating the Bundeszentralamt fur Steuern, the German Federal Ministry of Finance, with lookalike domains, verbiage, and stolen branding in the emails. For their campaigns in Germany, the actor chose Cobalt Strike, a commercially licensed software tool that is generally used for penetration testing and emulates the type of backdoor framework used by Metasploit, a similar penetration testing tool. Proofpoint researchers have also observed this actor distributing Maze ransomware, employing similar social engineering techniques to those it uses for Cobalt Strike, while also targeting organizations in Italy and impersonating the Agenzia Delle Entrate, the Italian Revenue Agency. We have also recently observed the actor targeting organizations in the United States using the IcedID banking Trojan while impersonating the United States Postal Service (USPS).",
     "id": "misp-39925aa0-c7bf-4b9b-97d6-7d600329453d",
+    "microsoft_origin_or_threat": "Financially motivated",
     "misp_uuid": "39925aa0-c7bf-4b9b-97d6-7d600329453d",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -11393,10 +11369,12 @@
     "confidence": "source-provided",
     "description": "[TA505](https://attack.mitre.org/groups/G0092) is a cyber criminal group that has been active since at least 2014. [TA505](https://attack.mitre.org/groups/G0092) is known for frequently changing malware, driving global trends in criminal malware distribution, and ransomware campaigns involving [Clop](https://attack.mitre.org/software/S0611).(Citation: Proofpoint TA505 Sep 2017)(Citation: Proofpoint TA505 June 2018)(Citation: Proofpoint TA505 Jan 2019)(Citation: NCC Group TA505)(Citation: Korean FSI TA505 2020)",
     "id": "mitre-g0092",
+    "microsoft_origin_or_threat": "Financially motivated",
     "misp_uuid": "03c80674-35f8-4fe0-be2b-226ed0fcd69f",
     "mitre_id": "G0092",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -11785,10 +11763,12 @@
     "confidence": "source-provided",
     "description": "TeamPCP is a threat actor that has executed a coordinated series of supply chain attacks, compromising widely-used open source tools such as Trivy, KICS, and LiteLLM to deploy credential-stealing malware. They employed techniques like credential harvesting, lateral movement within Kubernetes environments, and audio steganography to evade detection. The group has demonstrated the ability to leverage stolen credentials to propagate attacks across multiple ecosystems, including npm and PyPI, using a self-propagating worm known as CanisterWorm. Their operations have included the use of AES-256 encryption and RSA-4096 for exfiltration of sensitive data.",
     "id": "misp-d3682137-2845-424f-be8a-9112d23f4f58",
+    "microsoft_origin_or_threat": "Group in development",
     "misp_uuid": "d3682137-2845-424f-be8a-9112d23f4f58",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -12101,26 +12081,13 @@
   {
     "canonical_name": "Thrip",
     "confidence": "source-provided",
-    "description": "This threat actor targets organizations in the satellite communications, telecommunications, geospatial-imaging, and defense sectors in the United States and Southeast Asia for espionage purposes.",
-    "id": "misp-98be4300-a9ef-11e8-9a95-bb9221083cfc",
-    "misp_uuid": "98be4300-a9ef-11e8-9a95-bb9221083cfc",
-    "mitre_id": null,
-    "primary_source": "misp-galaxy",
-    "source_ids": [
-      "misp-galaxy"
-    ],
-    "status": "active",
-    "updated_at": "2026-07-02"
-  },
-  {
-    "canonical_name": "Thrip",
-    "confidence": "source-provided",
     "description": "[Thrip](https://attack.mitre.org/groups/G0076) is an espionage group that has targeted satellite communications, telecoms, and defense contractor companies in the U.S. and Southeast Asia. The group uses custom malware as well as \"living off the land\" techniques. (Citation: Symantec Thrip June 2018)",
     "id": "mitre-g0076",
-    "misp_uuid": null,
+    "misp_uuid": "98be4300-a9ef-11e8-9a95-bb9221083cfc",
     "mitre_id": "G0076",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "misp-galaxy",
       "mitre-attack"
     ],
     "status": "active",
@@ -12175,10 +12142,12 @@
     "confidence": "source-provided",
     "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) is a sophisticated threat group that has been active since at least 2020 using custom loaders and malware in multi-stage infection chains against government and military targets across Europe and Asia.(Citation: Kaspersky ToddyCat June 2022)(Citation: Kaspersky ToddyCat Check Logs October 2023)",
     "id": "mitre-g1022",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "091a0b69-74de-44b6-bb12-16b7a8fd078b",
     "mitre_id": "G1022",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -12190,10 +12159,12 @@
     "confidence": "source-provided",
     "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) is a suspected Chinese state-sponsored cyber espionage threat group that has primarily targeted South Korea, Japan, Taiwan, and the United States since at least 2009; by 2020 they expanded operations to include other Asian as well as Eastern European countries. [Tonto Team](https://attack.mitre.org/groups/G0131) has targeted government, military, energy, mining, financial, education, healthcare, and technology organizations, including through the Heartbeat Campaign (2009-2012) and Operation Bitter Biscuit (2017).(Citation: Kaspersky CactusPete Aug 2020)(Citation: ESET Exchange Mar 2021)(Citation: FireEye Chinese Espionage October 2019)(Citation: ARS Technica China Hack SK April 2017)(Citation: Trend Micro HeartBeat Campaign January 2013)(Citation: Talos Bisonal 10 Years March 2020)",
     "id": "mitre-g0131",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "0ab7c8de-fc23-4793-99aa-7ee336199e26",
     "mitre_id": "G0131",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -12384,10 +12355,12 @@
     "confidence": "source-provided",
     "description": "[Turla](https://attack.mitre.org/groups/G0010) is a cyber espionage threat group that has been attributed to Russia's Federal Security Service (FSB).  They have compromised victims in over 50 countries since at least 2004, spanning a range of industries including government, embassies, military, education, research and pharmaceutical companies. [Turla](https://attack.mitre.org/groups/G0010) is known for conducting watering hole and spearphishing campaigns, and leveraging in-house tools and malware, such as [Uroburos](https://attack.mitre.org/software/S0022).(Citation: Kaspersky Turla)(Citation: ESET Gazer Aug 2017)(Citation: CrowdStrike VENOMOUS BEAR)(Citation: ESET Turla Mosquito Jan 2018)(Citation: Joint Cybersecurity Advisory AA23-129A Snake Malware May 2023)",
     "id": "mitre-g0010",
+    "microsoft_origin_or_threat": "Russia",
     "misp_uuid": "fa80877c-f509-4daf-8b62-20aba1635f68",
     "mitre_id": "G0010",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -12971,21 +12944,6 @@
       "misp-galaxy"
     ],
     "status": "active",
-    "updated_at": "2026-07-02"
-  },
-  {
-    "canonical_name": "UNC2452",
-    "confidence": "source-provided",
-    "description": "Reporting regarding activity related to the SolarWinds supply chain injection has grown quickly since initial disclosure on 13 December 2020. A significant amount of press reporting has focused on the identification of the actor(s) involved, victim organizations, possible campaign timeline, and potential impact. The US Government and cyber community have also provided detailed information on how the campaign was likely conducted and some of the malware used.  MITRE’s ATT&CK team — with the assistance of contributors — has been mapping techniques used by the actor group, referred to as UNC2452/Dark Halo by FireEye and Volexity respectively, as well as SUNBURST and TEARDROP malware.",
-    "id": "misp-2ee5ed7a-c4d0-40be-a837-20817474a15b",
-    "misp_uuid": "2ee5ed7a-c4d0-40be-a837-20817474a15b",
-    "mitre_id": null,
-    "primary_source": "misp-galaxy",
-    "source_ids": [
-      "misp-galaxy"
-    ],
-    "status": "active",
-    "suspected_country": "RU",
     "updated_at": "2026-07-02"
   },
   {
@@ -14093,10 +14051,12 @@
     "confidence": "source-provided",
     "description": "Void Blizzard’s cyberespionage operations tend to be highly targeted at specific organizations of interest to the Russian government, including in government, defense, transportation, media, non-governmental organizations (NGOs), and healthcare sectors primarily in Europe and North America. The threat actor uses stolen credentials—which are likely procured from commodity infostealer ecosystems—and collects a high volume of email and files from compromised organizations.",
     "id": "misp-b495419f-e327-4bbe-aba5-0c281dc2605b",
+    "microsoft_origin_or_threat": "Russia",
     "misp_uuid": "b495419f-e327-4bbe-aba5-0c281dc2605b",
     "mitre_id": null,
     "primary_source": "misp-galaxy",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
@@ -14108,10 +14068,12 @@
     "confidence": "source-provided",
     "description": "[VOID MANTICORE](https://attack.mitre.org/groups/G1055) is a threat group assessed to operate on behalf of Iran’s Ministry of Intelligence and Security (MOIS).(Citation: Check Point VOID MANTICORE Handala Hack March 2026) Active since at least mid-2022, VOID MANTICORE has targeted government entities, critical infrastructure, and private sector organizations across Albania, Israel, and the United States.(Citation: Check Point VOID MANTICORE Handala Hack March 2026)(Citation: Palo Alto VOID MANTICORE Iran Cyber Threats March 2026) [VOID MANTICORE](https://attack.mitre.org/groups/G1055) conducts destructive cyber operations, combining wiper attacks with hack-and-leak campaigns. The group has operated under multiple public-facing personas, including [HomeLand Justice](https://attack.mitre.org/campaigns/C0038) in operations against Albania, Karma and Karma Below in campaigns targeting Israeli organizations, and Handala Hack, its current primary persona, which has claimed activity against Israeli and U.S. entities, including a March 2026 attack against Stryker Corporation.(Citation: Check Point VOID MANTICORE Handala Hack March 2026)(Citation: DOJ FBI Handala Hack March 2026)  [VOID MANTICORE](https://attack.mitre.org/groups/G1055) has been observed collaborating with Scarred Manticore, which has been linked to initial access operations preceding VOID MANTICORE’s activity.(Citation: Domain Tools Handala Hack Karma Homeland Justice MOIS April 2026) ",
     "id": "mitre-g1055",
+    "microsoft_origin_or_threat": "Iran",
     "misp_uuid": "bfc538e1-9205-420a-8641-6292023ecd08",
     "mitre_id": "G1055",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -14138,10 +14100,12 @@
     "confidence": "source-provided",
     "description": "[Volatile Cedar](https://attack.mitre.org/groups/G0123) is a Lebanese threat group that has targeted individuals, companies, and institutions worldwide. [Volatile Cedar](https://attack.mitre.org/groups/G0123) has been operating since 2012 and is motivated by political and ideological interests.(Citation: CheckPoint Volatile Cedar March 2015)(Citation: ClearSky Lebanese Cedar Jan 2021)",
     "id": "mitre-g0123",
+    "microsoft_origin_or_threat": "Lebanon",
     "misp_uuid": "cf421ce6-ddfe-419a-bc65-6a9fc953232a",
     "mitre_id": "G0123",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -14154,10 +14118,12 @@
     "confidence": "source-provided",
     "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) is a People's Republic of China (PRC) state-sponsored actor that has been active since at least 2021, primarily targeting critical infrastructure organizations in the US and its territories including Guam. [Volt Typhoon](https://attack.mitre.org/groups/G1017)'s targeting and pattern of behavior have been assessed as pre-positioning to enable lateral movement to operational technology (OT) assets for potential destructive or disruptive attacks. [Volt Typhoon](https://attack.mitre.org/groups/G1017) has emphasized stealth in operations using web shells, living-off-the-land (LOTL) binaries, hands on keyboard activities, and stolen credentials.(Citation: CISA AA24-038A PRC Critical Infrastructure February 2024)(Citation: Microsoft Volt Typhoon May 2023)(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023). The group has leveraged compromised SOHO routers to proxy command and control traffic and obscure its infrastructure, activity associated with the KV botnet.(Citation: DOJ KVBotnet 2024). \n\nReporting indicates a separate initial access cluster, SYLVANITE, has been observed exploiting internet-facing edge devices and transferring access to [Volt Typhoon](https://attack.mitre.org/groups/G1017), also tracked as VOLTZITE, for follow-on operations. (Citation: Dragos 2025 Year in Review)",
     "id": "mitre-g1017",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "f02679fa-5e85-4050-8eb5-c2677d93306f",
     "mitre_id": "G1017",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -14636,10 +14602,12 @@
     "confidence": "source-provided",
     "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) is a Russia-based financially motivated threat group originally known for the creation and deployment of [TrickBot](https://attack.mitre.org/software/S0266) since at least 2016. [Wizard Spider](https://attack.mitre.org/groups/G0102) possesses a diverse arsenal of tools and has conducted ransomware campaigns against a variety of organizations, ranging from major corporations to hospitals.(Citation: CrowdStrike Ryuk January 2019)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: CrowdStrike Wizard Spider October 2020)",
     "id": "mitre-g0102",
+    "microsoft_origin_or_threat": "Russia",
     "misp_uuid": "3cf6dbb5-bf9e-47d4-a8d5-b6d76f5a791f",
     "mitre_id": "G0102",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
@@ -14827,10 +14795,12 @@
     "confidence": "source-provided",
     "description": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) is a threat group operating out of China, active since at least 2017, that has targeted individuals associated with the 2020 US presidential election and prominent leaders in the international affairs community.(Citation: Microsoft Targeting Elections September 2020)(Citation: Check Point APT31 February 2021)",
     "id": "mitre-g0128",
+    "microsoft_origin_or_threat": "China",
     "misp_uuid": "6bf7e6b6-5917-45a6-9567-f0baba79768c",
     "mitre_id": "G0128",
     "primary_source": "mitre-attack",
     "source_ids": [
+      "microsoft-threat-actor-naming",
       "misp-galaxy",
       "mitre-attack"
     ],
