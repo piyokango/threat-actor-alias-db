@@ -282,6 +282,8 @@ function labelForTactic(tactic) {
     "persistence": "永続化",
     "privilege-escalation": "権限昇格",
     "defense-evasion": "防御回避",
+    "stealth": "ステルス",
+    "defense-impairment": "防御機能阻害",
     "credential-access": "認証情報アクセス",
     "discovery": "探索",
     "lateral-movement": "横展開",
@@ -588,11 +590,7 @@ function renderObservedTechniques(actor) {
     `;
   }).join("");
 
-  const activePanel = activeGroup ? renderTechniquePanel(activeGroup) : `
-    <div class="technique-empty-panel">
-      上のATT&amp;CKラベルをクリックすると、該当するTechnique一覧を表示します。
-    </div>
-  `;
+  const activePanel = activeGroup ? renderTechniquePanel(activeGroup, actorKey) : "";
 
   return `
     <section class="card-section techniques">
@@ -601,12 +599,12 @@ function renderObservedTechniques(actor) {
       <div id="technique-panel-${escapeHtml(actorDomKey)}" class="technique-selected-panel">
         ${activePanel}
       </div>
-      ${data.total ? `<div class="section-note">MITRE ATT&amp;CKにおける関連Technique ${data.total}件をTactic別に整理しています。初期表示では一覧を出さず、ラベル選択時のみ表示します。</div>` : ""}
+      ${data.total ? `<div class="section-note">MITRE ATT&amp;CKにおける関連Technique ${data.total}件をTactic別に整理しています。</div>` : ""}
     </section>
   `;
 }
 
-function renderTechniquePanel(group) {
+function renderTechniquePanel(group, actorKey) {
   const itemList = (group.items || []).map(item => {
     const label = `${item.technique_id || ""} ${item.name || ""}`.trim();
     const link = item.url
@@ -624,7 +622,10 @@ function renderTechniquePanel(group) {
         <span class="technique-panel-title">${tacticId}${escapeHtml(labelForTactic(group.tactic))}</span>
         <span class="technique-group-count">${escapeHtml(group.count)}件</span>
       </div>
-      ${group.url ? `<a href="${escapeHtml(group.url)}" target="_blank" rel="noopener noreferrer">ATT&amp;CKで開く</a>` : ""}
+      <div class="technique-panel-actions">
+        ${group.url ? `<a href="${escapeHtml(group.url)}" target="_blank" rel="noopener noreferrer">ATT&amp;CKで開く</a>` : ""}
+        <button class="technique-panel-close" type="button" data-actor-id="${escapeHtml(actorKey)}">閉じる</button>
+      </div>
     </div>
     <ul class="technique-panel-list">${itemList}</ul>
   `;
@@ -800,15 +801,29 @@ document.addEventListener("click", async event => {
     const actorId = tacticButton.getAttribute("data-actor-id");
     const tactic = tacticButton.getAttribute("data-tactic");
     if (actorId && tactic) {
-      state.activeTechniqueGroups[actorId] = tactic;
+      if (state.activeTechniqueGroups[actorId] === tactic) {
+        delete state.activeTechniqueGroups[actorId];
+      } else {
+        state.activeTechniqueGroups[actorId] = tactic;
+      }
       render({ skipUrlUpdate: true });
       const panelId = `technique-panel-${normalize(actorId).replace(/\s+/g, "-")}`;
       const panel = document.getElementById(panelId);
-      if (panel) {
+      if (panel && state.activeTechniqueGroups[actorId]) {
         panel.classList.add("technique-group-highlight");
         panel.scrollIntoView({ behavior: "smooth", block: "center" });
         window.setTimeout(() => panel.classList.remove("technique-group-highlight"), 1000);
       }
+    }
+    return;
+  }
+
+  const closeButton = event.target.closest(".technique-panel-close");
+  if (closeButton) {
+    const actorId = closeButton.getAttribute("data-actor-id");
+    if (actorId) {
+      delete state.activeTechniqueGroups[actorId];
+      render({ skipUrlUpdate: true });
     }
     return;
   }
