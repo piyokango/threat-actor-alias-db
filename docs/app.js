@@ -1,11 +1,14 @@
 const state = {
   index: [],
-  query: ""
+  query: "",
+  extendedSearch: false
 };
 
 const queryEl = document.getElementById("query");
 const resultsEl = document.getElementById("results");
 const statsEl = document.getElementById("stats");
+
+let extendedSearchEl = null;
 
 function normalize(value) {
   return String(value || "")
@@ -14,6 +17,34 @@ function normalize(value) {
     .replace(/[^\p{L}\p{N} ]+/gu, "")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function makeExtendedSearchControl() {
+  const panel = queryEl.closest(".search-panel") || queryEl.parentElement;
+  if (!panel || document.getElementById("extended-search")) {
+    extendedSearchEl = document.getElementById("extended-search");
+    return;
+  }
+
+  const wrapper = document.createElement("label");
+  wrapper.className = "extended-search-control";
+  wrapper.innerHTML = `
+    <input id="extended-search" type="checkbox">
+    <span>概要・帰属・ATT&amp;CK・最近の動向も検索対象にする</span>
+  `;
+
+  const statsNode = document.getElementById("stats");
+  if (statsNode && statsNode.parentNode === panel) {
+    panel.insertBefore(wrapper, statsNode);
+  } else {
+    panel.appendChild(wrapper);
+  }
+
+  extendedSearchEl = document.getElementById("extended-search");
+  extendedSearchEl.addEventListener("change", () => {
+    state.extendedSearch = extendedSearchEl.checked;
+    render();
+  });
 }
 
 function getMatchedNames(actor, query) {
@@ -59,54 +90,98 @@ function getMatchedNames(actor, query) {
   });
 }
 
-function scoreActor(actor, query) {
+function fieldMatchScore(value, query) {
   const q = normalize(query);
-  if (!q) return 0;
+  const n = normalize(value);
+  if (!q || !n) return 0;
+  if (n === q) return 100;
+  if (n.startsWith(q)) return 80;
+  if (n.includes(q)) return 50;
+  return 0;
+}
 
-  let score = 0;
-  const techniqueFields = ((actor.observed_techniques || {}).items || []).flatMap(item => [
-    item.technique_id,
-    item.name,
-    ...(item.tactics || [])
-  ]);
+function collectBasicSearchFields(actor) {
+  return [
+    { value: actor.canonical_name, reason: "代表名" },
+    { value: actor.mitre_id, reason: "MITRE ID" },
+    { value: actor.misp_uuid, reason: "MISP UUID" },
+    ...((actor.search_names || []).map(value => ({ value, reason: "名称・別称" }))),
+    ...((actor.source_ids || []).map(value => ({ value, reason: "データソースID" })))
+  ].filter(item => item.value);
+}
+
+function collectExtendedSearchFields(actor) {
   const attributionData = actor.reported_attribution || {};
   const attributionFields = [
     ...((attributionData.countries || []).flatMap(item => [
-      item.value,
-      item.display_value,
-      item.country_code,
-      ...((item.sources || []).map(source => source.source_name || source.source_id))
+      { value: item.value, reason: "推定帰属" },
+      { value: item.display_value, reason: "推定帰属" },
+      { value: item.country_code, reason: "推定帰属" },
+      ...((item.sources || []).map(source => ({ value: source.source_name || source.source_id, reason: "推定帰属の出典" })))
     ])),
     ...((attributionData.classifications || []).flatMap(item => [
-      item.type,
-      item.value,
-      item.display_value,
-      ...((item.sources || []).map(source => source.source_name || source.source_id))
+      { value: item.type, reason: "分類・動機" },
+      { value: item.value, reason: "分類・動機" },
+      { value: item.display_value, reason: "分類・動機" },
+      ...((item.sources || []).map(source => ({ value: source.source_name || source.source_id, reason: "分類・動機の出典" })))
     ]))
   ];
 
-  const fields = [
-    actor.canonical_name,
-    actor.mitre_id,
-    actor.misp_uuid,
-    actor.overview?.text,
-    ...(actor.search_names || []),
-    ...(actor.naming_sources || []),
-    ...(actor.source_ids || []),
-    ...techniqueFields,
-    ...attributionFields,
-    ...((actor.recent_activity || []).flatMap(item => [
-      item.title,
-      item.publisher,
-      ...(item.matched_names || [])
-    ]))
-  ].filter(Boolean);
+  const techniqueFields = [
+    ...(((actor.observed_techniques || {}).items || []).flatMap(item => [
+      { value: item.technique_id, reason: "ATT&CK Technique" },
+      { value: item.name, reason: "ATT&CK Technique" },
+      ...((item.tactics || []).map(tactic => ({ value: tactic, reason: "ATT&CK Tactic" })))
+    ])),
+    ...(((actor.observed_techniques || {}).tactic_groups || []).map(group => ({ value: labelForTactic(group.tactic), reason: "ATT&CK Tactic" })))
+  ];
 
+  const activityFields = (actor.recent_activity || []).flatMap(item => [
+    { value: item.title, reason: "最近の動向" },
+    { value: item.publisher, reason: "最近の動向の発行元" },
+    ...((item.matched_names || []).map(value => ({ value, reason: "最近の動向の一致名" })))
+  ]);
+
+  return [
+    { value: actor.overview?.text, reason: "概要" },
+    ...((actor.naming_sources || []).map(value => ({ value, reason: "呼称確認元" }))),
+    ...attributionFields,
+    ...techniqueFields,
+    ...activityFields
+  ].filter(item => item.value);
+}
+
+function getMatchReasons(actor, query, includeExtended) {
+  const seen = new Set();
+  const reasons = [];
+
+  const basicFields = collectBasicSearchFields(actor);
+  const extendedFields = includeExtended ? collectExtendedSearchFields(actor) : [];
+
+  for (const field of [...basicFields, ...extendedFields]) {
+    const score = fieldMatchScore(field.value, query);
+    if (!score) continue;
+    const key = `${field.reason}:${normalize(field.value)}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    reasons.push({
+      reason: field.reason,
+      value: field.value,
+      score
+    });
+  }
+
+  return reasons.sort((a, b) => b.score - a.score || a.reason.localeCompare(b.reason)).slice(0, 5);
+}
+
+function scoreActor(actor, query, includeExtended) {
+  const fields = includeExtended
+    ? [...collectBasicSearchFields(actor), ...collectExtendedSearchFields(actor)]
+    : collectBasicSearchFields(actor);
+
+  let score = 0;
   for (const field of fields) {
-    const n = normalize(field);
-    if (n === q) score = Math.max(score, 100);
-    else if (n.startsWith(q)) score = Math.max(score, 80);
-    else if (n.includes(q)) score = Math.max(score, 50);
+    score = Math.max(score, fieldMatchScore(field.value, query));
   }
 
   return score;
@@ -186,12 +261,15 @@ function renderSourceBadges(name) {
     if (source.name_types && source.name_types.length) {
       titleParts.push(source.name_types.map(labelForNameType).join(", "));
     }
+    if (source.source_relations && source.source_relations.length) {
+      titleParts.push(source.source_relations.join(", "));
+    }
     if (sourceUrls.length) {
       titleParts.push(sourceUrls.slice(0, 3).join("\n"));
     }
 
     const title = titleParts.length ? ` title="${escapeHtml(titleParts.join("\n"))}"` : "";
-    return `<span class="source-badge"${title}>${escapeHtml(labelForSourceOrg(source.naming_org))}</span>`;
+    return `<span class="source-badge"${title}>${escapeHtml(labelForSourceOrg(source.naming_org || "Unknown"))}</span>`;
   }).join("");
 }
 
@@ -200,8 +278,8 @@ function isMatchedName(name, matchedNames) {
   return matchedNames.some(match => match.normalized_name === normalizedName);
 }
 
-function renderMatchedSummary(actor, matchedNames) {
-  if (!state.query || !matchedNames.length) {
+function renderMatchedSummary(actor, matchedNames, matchReasons) {
+  if (!state.query) {
     return "";
   }
 
@@ -221,14 +299,23 @@ function renderMatchedSummary(actor, matchedNames) {
     `;
   }).join("");
 
-  const canonicalNote = normalize(actor.canonical_name) === normalize(displayMatches[0]?.name)
-    ? ""
-    : `<div class="matched-note">この検索語は代表名ではなく、このアクターの別称として登録されています。</div>`;
+  const reasonBadges = (matchReasons || []).map(reason => {
+    return `
+      <span class="match-reason-badge">
+        ${escapeHtml(reason.reason)}: ${escapeHtml(reason.value)}
+      </span>
+    `;
+  }).join("");
+
+  const canonicalNote = displayMatches.length && normalize(actor.canonical_name) !== normalize(displayMatches[0]?.name)
+    ? `<div class="matched-note">この検索語は代表名ではなく、このアクターの別称として登録されています。</div>`
+    : "";
 
   return `
     <div class="matched-summary">
       <div class="matched-label">検索一致</div>
-      <div class="matched-values">${matchBadges}</div>
+      ${matchBadges ? `<div class="matched-values">${matchBadges}</div>` : ""}
+      ${reasonBadges ? `<div class="match-reasons">${reasonBadges}</div>` : ""}
       ${canonicalNote}
     </div>
   `;
@@ -443,7 +530,7 @@ function renderRecentActivity(actor) {
   `;
 }
 
-function renderActor(actor, matchedNames) {
+function renderActor(actor, matchedNames, matchReasons) {
   const refs = (actor.references || [])
     .slice(0, 8)
     .map(ref => `<li><a href="${escapeHtml(ref.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(ref.url)}</a></li>`)
@@ -457,7 +544,7 @@ function renderActor(actor, matchedNames) {
     <article class="card">
       <h2>${escapeHtml(actor.canonical_name)}</h2>
 
-      ${renderMatchedSummary(actor, matchedNames)}
+      ${renderMatchedSummary(actor, matchedNames, matchReasons)}
 
       <div class="meta">
         ${actor.mitre_id ? `<span class="badge">MITRE ${escapeHtml(actor.mitre_id)}</span>` : ""}
@@ -487,31 +574,40 @@ function renderActor(actor, matchedNames) {
 function render() {
   const query = queryEl.value.trim();
   state.query = query;
+  state.extendedSearch = !!(extendedSearchEl && extendedSearchEl.checked);
 
   if (!query) {
-    statsEl.textContent = `${state.index.length}件のアクター情報を読み込みました。名称、別称、ID、出典組織、帰属情報、攻撃手法で検索できます。`;
+    const mode = state.extendedSearch ? "拡張検索" : "通常検索";
+    statsEl.textContent = `${state.index.length}件のアクター情報を読み込みました。${mode}では${state.extendedSearch ? "概要、帰属、ATT&CK、最近の動向も検索対象です。" : "名称、別称、IDを検索対象にします。"}`;
     resultsEl.innerHTML = `<div class="empty">検索語を入力してください。</div>`;
     return;
   }
 
   const matches = state.index
-    .map(actor => ({ actor, score: scoreActor(actor, query), matchedNames: getMatchedNames(actor, query) }))
+    .map(actor => ({
+      actor,
+      score: scoreActor(actor, query, state.extendedSearch),
+      matchedNames: getMatchedNames(actor, query),
+      matchReasons: getMatchReasons(actor, query, state.extendedSearch)
+    }))
     .filter(item => item.score > 0)
     .sort((a, b) => b.score - a.score || a.actor.canonical_name.localeCompare(b.actor.canonical_name))
     .slice(0, 50);
 
-  statsEl.textContent = `「${query}」の検索結果: ${matches.length}件`;
+  const modeLabel = state.extendedSearch ? "拡張検索" : "通常検索";
+  statsEl.textContent = `「${query}」の検索結果: ${matches.length}件（${modeLabel}）`;
 
   if (!matches.length) {
     resultsEl.innerHTML = `<div class="empty">一致するアクターは見つかりませんでした。</div>`;
     return;
   }
 
-  resultsEl.innerHTML = matches.map(item => renderActor(item.actor, item.matchedNames)).join("");
+  resultsEl.innerHTML = matches.map(item => renderActor(item.actor, item.matchedNames, item.matchReasons)).join("");
 }
 
 async function loadIndex() {
   try {
+    makeExtendedSearchControl();
     const response = await fetch("data/search-index.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.index = await response.json();

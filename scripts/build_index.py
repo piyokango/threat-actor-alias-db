@@ -200,6 +200,21 @@ def aggregate_names(names: list[dict[str, Any]]) -> list[dict[str, Any]]:
             source_ids.add(source_id)
 
             relation = item.get("source_relation")
+
+            # Backward-compatible Microsoft relation inference.
+            # Newer normalize.py writes source_relation explicitly:
+            #   current_name / previous_name / other_name
+            # Older generated data may only have name_type. In that case infer
+            # enough to display Forest Blizzard as Microsoft current rather than
+            # a generic Microsoft source.
+            if org == "Microsoft" and not relation:
+                if item.get("name_type") == "vendor_name":
+                    relation = "current_name"
+                elif item.get("name_type") == "former":
+                    relation = "previous_name"
+                elif item.get("name_type") == "alias":
+                    relation = "other_name"
+
             display_org = org
             if org == "Microsoft" and relation == "current_name":
                 display_org = "Microsoft current"
