@@ -1,12 +1,15 @@
 # Threat Actor Alias DB update report
 
-Generated: 2026-07-02 03:42:04 UTC
+Generated: 2026-07-02 03:53:49 UTC
 
 ## Summary
 
 - Actors: 1006
 - Names: 3359
 - References: 4270
+- Descriptions: 1129
+- Attribution rows: 528
+- Technique links: 4546
 - Review candidates: 77
 - Duplicate canonical groups merged: 0
 
