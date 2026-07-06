@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-07-02 05:52:37 UTC
+Generated: 2026-07-06 07:00:54 UTC
 
 ## Summary
 
-- Auto candidates: 24
+- Auto candidates: 38
 - Published items: 0
 - Rejected items: 0
 
@@ -17,6 +17,20 @@ Generated: 2026-07-02 05:52:37 UTC
 
 ## Candidates by actor
 
+### APT18
+
+- **2026-07-03 / SecurityWeek**
+  - Title: Agentic AI Used to Conduct Ransomware Attack via Langflow
+  - URL: https://www.securityweek.com/agentic-ai-used-to-conduct-ransomware-attack-via-langflow
+  - Matched names: COMBINE
+  - Summary: Attack demonstrates how LLM agents can combine known exploitation techniques with real-time reasoning to automate complex, multi-stage intrusions. The post Agentic AI Used to Conduct Ransomware Attack via Langflow appeared first on SecurityWeek .
+
+- **2026-07-03 / The Hacker News**
+  - Title: New Avalon Malware Framework Packs CrownX Ransomware Capabilities
+  - URL: https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html
+  - Matched names: COMBINE
+  - Summary: Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing traditional security controls. Avalon combines credential 
+
 ### APT32
 
 - **2026-06-11 / ESET WeLiveSecurity**
@@ -26,6 +40,18 @@ Generated: 2026-07-02 05:52:37 UTC
   - Summary: A shift in operational pattern of the infamous Vietnam-aligned APT group
 
 ### APT41
+
+- **2026-07-03 / SecurityWeek**
+  - Title: Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution
+  - URL: https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution
+  - Matched names: LEAD
+  - Summary: The DuneSlide vulnerabilities enable zero-click prompt injection attacks that escape Cursor's sandbox and execute arbitrary code on the underlying operating system. The post Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Exec
+
+- **2026-07-02 / The Record**
+  - Title: Launch of UK's National Cyber Action Plan delayed amid Labour leadership crisis
+  - URL: https://therecord.media/launch-of-uk-national-cyber-action-plan-delayed
+  - Matched names: LEAD
+  - Summary: The plan had been due for publication on Monday, the sources said. It has been postponed amid the uncertainty over the governing Labour Party’s leadership contest, which opens July 9.
 
 - **2026-07-01 / The Hacker News**
   - Title: Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic
@@ -71,11 +97,25 @@ Generated: 2026-07-02 05:52:37 UTC
 
 ### BRONZE BUTLER
 
+- **2026-07-02 / BleepingComputer**
+  - Title: Alleged Scattered Spider hacker extradited to the United States
+  - URL: https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states
+  - Matched names: Nian
+  - Summary: A dual United States and Estonian citizen has been extradited to the U.S. to face charges alleging he was a member of the Scattered Spider hacking collective. [...]
+
 - **2026-07-01 / The Hacker News**
   - Title: 19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges
   - URL: https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html
   - Matched names: Nian
   - Summary: A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice&nbsp;announced&nbsp;on July 1. Peter Stokes, 19, 
+
+### Careto
+
+- **2026-07-03 / SecurityWeek**
+  - Title: Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices
+  - URL: https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices
+  - Matched names: Mask
+  - Summary: NetNut rented access to millions of compromised devices, allowing cybercriminals and nation-state actors to mask their identities during attacks. The post Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices appeared fi
 
 ### Cobalt Group
 
@@ -85,10 +125,18 @@ Generated: 2026-07-02 05:52:37 UTC
   - Matched names: Cobalt
   - Summary: A newly discovered cyber attack campaign has been observed delivering a previously undocumented malware family called SharkLoader that acts as a loader for deploying Cobalt Strike Beacon on compromised hosts. Kaspersky, which is tracking the activity
 
+### Contagious Interview
+
+- **2026-07-04 / The Hacker News**
+  - Title: North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign
+  - URL: https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html
+  - Matched names: Contagious Interview
+  - Summary: The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go, and Google Chrome as part of an ongoing activity referred to as Polin
+
 ### Earth Lusca
 
 - **2026-07-01 / The Hacker News**
-  - Title: AI-Generated Browser Ransomware Abuses Chromium API on Windows and Android
+  - Title: AI-Generated Browser Ransomware Abuses Chromium API on Windows, Linux, macOS, Android
   - URL: https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html
   - Matched names: CHROMIUM
   - Summary: Cybersecurity researchers have flagged a new malware artifact generated using DeepSeek that constructed a novel attack path combining "unrealistic browser-malware concepts with a real browser capability" to turn it into a working ransomware technique
@@ -118,6 +166,14 @@ Generated: 2026-07-02 05:52:37 UTC
   - URL: https://www.welivesecurity.com/en/eset-research/gamaredon-2025-leveraging-tunnels-workers-dead-drops-new-alliances
   - Matched names: Gamaredon
   - Summary: ESET Research analyzes Gamaredon’s new toolset and the group’s growing reliance on legitimate online services to hide its C&C infrastructure and exfiltrate stolen data
+
+### Kairos
+
+- **2026-07-04 / The Hacker News**
+  - Title: U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
+  - URL: https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
+  - Matched names: Kairos
+  - Summary: A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new&nbsp;case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: 
 
 ### Mustang Panda
 
@@ -151,19 +207,37 @@ Generated: 2026-07-02 05:52:37 UTC
 
 ### Scattered Spider
 
+- **2026-07-03 / SecurityWeek**
+  - Title: Alleged Scattered Spider Hacker Extradited to US
+  - URL: https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us
+  - Matched names: SCATTERED SPIDER, Scattered Spider
+  - Summary: Prosecutors say 19-year-old Peter Stokes was a member of Scattered Spider, the hacking group linked to more than 100 network intrusions and over $100 million in ransom payments. The post Alleged Scattered Spider Hacker Extradited to US appeared first
+
+- **2026-07-02 / BleepingComputer**
+  - Title: Alleged Scattered Spider hacker extradited to the United States
+  - URL: https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states
+  - Matched names: SCATTERED SPIDER, Scattered Spider
+  - Summary: A dual United States and Estonian citizen has been extradited to the U.S. to face charges alleging he was a member of the Scattered Spider hacking collective. [...]
+
 - **2026-07-01 / The Hacker News**
   - Title: 19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges
   - URL: https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html
-  - Matched names: Scattered Spider, SCATTERED SPIDER
+  - Matched names: SCATTERED SPIDER, Scattered Spider
   - Summary: A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice&nbsp;announced&nbsp;on July 1. Peter Stokes, 19, 
 
 - **2026-07-01 / The Record**
   - Title: Teen suspect in Scattered Spider hacks is extradited to US
   - URL: https://therecord.media/teen-suspect-in-scattered-spider-hacks-extradited-to-us
-  - Matched names: Scattered Spider, SCATTERED SPIDER
+  - Matched names: SCATTERED SPIDER, Scattered Spider
   - Summary: A complaint unsealed this week accuses a 19-year-old of participating in incidents including a breach of a "luxury-jewelry retailer" in 2025.
 
 ### ShinyHunters
+
+- **2026-07-03 / SecurityWeek**
+  - Title: Medtronic Data Breach Impacts 3.8 Million People
+  - URL: https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people
+  - Matched names: ShinyHunters
+  - Summary: In April, ShinyHunters accessed the company’s corporate IT systems and stole patients’ personal and medical information. The post Medtronic Data Breach Impacts 3.8 Million People appeared first on SecurityWeek .
 
 - **2026-07-02 / BleepingComputer**
   - Title: Medtronic notifies customers impacted by ShinyHunters data breach
@@ -171,7 +245,21 @@ Generated: 2026-07-02 05:52:37 UTC
   - Matched names: ShinyHunters
   - Summary: Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. [...]
 
+### ToddyCat
+
+- **2026-07-02 / The Hacker News**
+  - Title: ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API
+  - URL: https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html
+  - Matched names: ToddyCat
+  - Summary: The threat actor known as ToddyCat has been attributed to a new malware called Umbrij that's designed to gain surreptitious access to a victim's email correspondence via the Google API. "In this campaign, the attackers focused their attention on corp
+
 ### Turla
+
+- **2026-07-03 / The Hacker News**
+  - Title: Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer
+  - URL: https://thehackernews.com/2026/07/armored-likho-targets-government.html
+  - Matched names: Snake
+  - Summary: A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government agencies and the electric power sector across Russia, Brazil, and Kazakhstan. "Armored Likho blends financially motivated campaign
 
 - **2026-06-29 / The Hacker News**
   - Title: ⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More
@@ -180,6 +268,12 @@ Generated: 2026-07-02 05:52:37 UTC
   - Summary: This week was a reminder that attackers do not always need big tricks. One small mistake, one old access path, one missed patch, and suddenly the door is open. The noise is not all noise, either. Forums are talking, researchers are finding easy crack
 
 ### VOID MANTICORE
+
+- **2026-07-03 / SecurityWeek**
+  - Title: Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution
+  - URL: https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution
+  - Matched names: DUNE
+  - Summary: The DuneSlide vulnerabilities enable zero-click prompt injection attacks that escape Cursor's sandbox and execute arbitrary code on the underlying operating system. The post Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Exec
 
 - **2026-07-01 / The Hacker News**
   - Title: Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands
