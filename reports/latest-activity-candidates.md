@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-07-06 07:00:54 UTC
+Generated: 2026-07-13 05:58:10 UTC
 
 ## Summary
 
-- Auto candidates: 38
+- Auto candidates: 54
 - Published items: 0
 - Rejected items: 0
 
@@ -18,6 +18,24 @@ Generated: 2026-07-06 07:00:54 UTC
 ## Candidates by actor
 
 ### APT18
+
+- **2026-07-10 / SecurityWeek**
+  - Title: GigaWiper Combines Multiple Malware for System-Level Sabotage
+  - URL: https://www.securityweek.com/gigawiper-combines-multiple-malware-for-system-level-sabotage
+  - Matched names: COMBINE
+  - Summary: The backdoor’s destructive capabilities include a standalone wiper, ransomware encryption, and a multi-pass wiping command. The post GigaWiper Combines Multiple Malware for System-Level Sabotage appeared first on SecurityWeek .
+
+- **2026-07-09 / Microsoft Security Blog**
+  - Title: GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware
+  - Matched names: COMBINE
+  - Summary: GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides
+
+- **2026-07-07 / Palo Alto Unit 42**
+  - Title: Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation
+  - URL: https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis
+  - Matched names: COMBINE
+  - Summary: A cybercrime campaign combined a loader-as-a-service framework and DLL sideloading via a Go-compiled fake MpClient.dll, a novel evasion layer combination. The post Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation appeared fir
 
 - **2026-07-03 / SecurityWeek**
   - Title: Agentic AI Used to Conduct Ransomware Attack via Langflow
@@ -40,6 +58,36 @@ Generated: 2026-07-06 07:00:54 UTC
   - Summary: A shift in operational pattern of the infamous Vietnam-aligned APT group
 
 ### APT41
+
+- **2026-07-10 / The Hacker News**
+  - Title: From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale
+  - URL: https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html
+  - Matched names: LEAD
+  - Summary: Most enterprises assume their asset inventory is close enough to accurate. The evidence suggests otherwise. According to a survey of over 600 security leaders in the 2026 Axonius Actionability Report, only 45% of organizations consolidate their asset
+
+- **2026-07-10 / The Record**
+  - Title: Ryuk operator pleads guilty; Blackcat/AlphV conspirator gets nearly 6-year sentence
+  - URL: https://therecord.media/ryuk-operator-pleads-guilty-alphv-conspirator-sentenced
+  - Matched names: LEAD
+  - Summary: One man accused of deploying Ryuk ransomware pleaded guilty Wednesday in an Oregon federal court to conspiracy and computer fraud, while another man received a 70-month federal prison sentence in a Florida court for helping the Blackcat/AlphV gang ex
+
+- **2026-07-10 / BleepingComputer**
+  - Title: Ryuk ransomware member pleads guilty in the US, faces 15 years in prison
+  - URL: https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison
+  - Matched names: LEAD
+  - Summary: A 34-year-old Armenian man has pleaded guilty to hacking U.S. companies and deploying the infamous Ryuk ransomware to encrypt their systems. [...]
+
+- **2026-07-08 / The Hacker News**
+  - Title: CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV
+  - URL: https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
+  - Matched names: LEAD
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-48282 
+
+- **2026-07-08 / The Hacker News**
+  - Title: New Ghost Phishing Wave Is Breaking Traditional Email Security
+  - URL: https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html
+  - Matched names: LEAD
+  - Summary: A recent EvilTokens campaign targeting businesses across the US and Europe is exposing a new email security blind spot. This “ghost phishing” technique keeps the malicious page hidden until it decrypts and comes to life inside the victim’s browser. F
 
 - **2026-07-03 / SecurityWeek**
   - Title: Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution
@@ -97,6 +145,18 @@ Generated: 2026-07-06 07:00:54 UTC
 
 ### BRONZE BUTLER
 
+- **2026-07-10 / BleepingComputer**
+  - Title: Ryuk ransomware member pleads guilty in the US, faces 15 years in prison
+  - URL: https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison
+  - Matched names: Nian
+  - Summary: A 34-year-old Armenian man has pleaded guilty to hacking U.S. companies and deploying the infamous Ryuk ransomware to encrypt their systems. [...]
+
+- **2026-07-06 / The Hacker News**
+  - Title: Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations
+  - URL: https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html
+  - Matched names: Nian
+  - Summary: An Iranian hacking group affiliated with Iran's Ministry of Intelligence and Security (MOIS) has been wielding a previously undocumented modular command-and-control (C2) framework dubbed Cavern (aka Cav3rn) targeting Israeli organizations. The activi
+
 - **2026-07-02 / BleepingComputer**
   - Title: Alleged Scattered Spider hacker extradited to the United States
   - URL: https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states
@@ -111,11 +171,25 @@ Generated: 2026-07-06 07:00:54 UTC
 
 ### Careto
 
+- **2026-07-07 / Palo Alto Unit 42**
+  - Title: Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation
+  - URL: https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis
+  - Matched names: Mask
+  - Summary: A cybercrime campaign combined a loader-as-a-service framework and DLL sideloading via a Go-compiled fake MpClient.dll, a novel evasion layer combination. The post Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation appeared fir
+
 - **2026-07-03 / SecurityWeek**
   - Title: Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices
   - URL: https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices
   - Matched names: Mask
   - Summary: NetNut rented access to millions of compromised devices, allowing cybercriminals and nation-state actors to mask their identities during attacks. The post Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices appeared fi
+
+### Cleaver
+
+- **2026-07-10 / The Hacker News**
+  - Title: Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers
+  - URL: https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html
+  - Matched names: Alibaba
+  - Summary: A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry&nbsp;disclosed the flaw on Jul
 
 ### Cobalt Group
 
@@ -185,6 +259,12 @@ Generated: 2026-07-06 07:00:54 UTC
 
 ### Play
 
+- **2026-07-10 / The Hacker News**
+  - Title: Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking
+  - URL: https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html
+  - Matched names: Play
+  - Summary: Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., keeping their traffic private and secure. The apps flagged with at leas
+
 - **2026-06-30 / The Hacker News**
   - Title: New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials
   - URL: https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html
@@ -206,6 +286,12 @@ Generated: 2026-07-06 07:00:54 UTC
   - Summary: Attackers can exploit LLM domain hallucinations through phantom squatting to target supply chains. Read the analysis to learn more. The post Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector appeared first on Unit 42 .
 
 ### Scattered Spider
+
+- **2026-07-07 / The Hacker News**
+  - Title: Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker
+  - URL: https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html
+  - Matched names: SCATTERED SPIDER, Scattered Spider
+  - Summary: U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal complaint. Microsoft records tied that ID first to the account the attac
 
 - **2026-07-03 / SecurityWeek**
   - Title: Alleged Scattered Spider Hacker Extradited to US
@@ -245,6 +331,14 @@ Generated: 2026-07-06 07:00:54 UTC
   - Matched names: ShinyHunters
   - Summary: Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. [...]
 
+### The Gentlemen
+
+- **2026-07-10 / Palo Alto Unit 42**
+  - Title: No Manners Here: The Ruthless Rise of The Gentlemen Ransomware
+  - URL: https://unit42.paloaltonetworks.com/the-gentlemen-ransomware
+  - Matched names: The Gentlemen
+  - Summary: Unit 42 explores The Gentlemen ransomware operations, revealing the affiliate model driving its rapid growth. Learn more here. The post No Manners Here: The Ruthless Rise of The Gentlemen Ransomware appeared first on Unit 42 .
+
 ### ToddyCat
 
 - **2026-07-02 / The Hacker News**
@@ -280,3 +374,11 @@ Generated: 2026-07-06 07:00:54 UTC
   - URL: https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html
   - Matched names: DUNE
   - Summary: Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall for and no approval box to ignore. Cato AI Labs&nbsp
+
+### Void Arachne
+
+- **2026-07-10 / The Hacker News**
+  - Title: New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic
+  - URL: https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html
+  - Matched names: Silver Fox
+  - Summary: The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin said that while the threat cluster may appear like a low-sophistication,

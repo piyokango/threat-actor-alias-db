@@ -909,6 +909,15 @@
     "text": "Velvet Tempest is a threat actor associated with the BlackCat ransomware group. They have been observed deploying multiple ransomware payloads, including BlackCat, and have targeted various industries such as energy, fashion, tobacco, IT, and manufacturing. Velvet Tempest relies on access brokers to gain network access and utilizes tools like Cobalt Strike Beacons and PsExec for lateral movement and payload staging. They exfiltrate stolen data using a tool called StealBit and frequently disable unprotected antivirus products."
   },
   {
+    "actor_id": "misp-209b1452-7062-46f8-9037-3be5f7eda54f",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "ALPHA SPIDER is a threat actor known for developing and operating the Alphv ransomware as a service. They have been observed using novel offensive techniques, such as exploiting software vulnerabilities and leveraging legitimate administration tools for malicious activities. ALPHA SPIDER affiliates have demonstrated persistence in exfiltrating data and have shown the ability to bypass security measures like DNS-based filtering and multifactor authentication. Despite lacking specific operational security measures, defenders have opportunities to detect and respond to ALPHA SPIDER's operations effectively."
+  },
+  {
     "actor_id": "misp-20e2be89-a54d-46c7-a837-1f17359f30ba",
     "source_id": "misp-galaxy",
     "source_name": "MISP Galaxy",
@@ -1249,15 +1258,6 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "Sp1d3r, a threat actor, has been involved in multiple data breaches targeting companies like Truist Bank, Cylance, and Advance Auto Parts. They have stolen and attempted to sell sensitive information, including customer and employee emails, account numbers, and source code. Sp1d3r has also claimed to have obtained data from a third-party platform and a cloud storage vendor. They have utilized hacking forums to sell the stolen data for significant sums of money."
-  },
-  {
-    "actor_id": "misp-2be3426b-c216-499f-b111-6694e96918f7",
-    "source_id": "misp-galaxy",
-    "source_name": "MISP Galaxy",
-    "source_urls": [
-      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
-    ],
-    "text": "Vice Spider is a Russian-speaking ransomware group that has been active since at least April 2021 and is linked to a significant increase in identity-based attacks, with a reported 583% rise in Kerberoasting incidents. CrowdStrike attributes 27% of these intrusions specifically to Vice Spider, which exploits vulnerabilities in the Kerberos authentication protocol to crack user passwords."
   },
   {
     "actor_id": "misp-2c9e1964-9357-11e9-ad8f-5f422851e912",
@@ -2517,7 +2517,7 @@
     "source_urls": [
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
-    "text": "CL-STA-0043 is a highly skilled and sophisticated threat actor, believed to be a nation-state, targeting governmental entities in the Middle East and Africa. They exploit vulnerabilities in on-premises Internet Information Services and Microsoft Exchange servers to infiltrate target networks. They engage in reconnaissance, locate vital assets, and have been observed using native Windows tools for privilege escalation."
+    "text": "CL-STA-0043 is a Chinese state-nexus cyber-espionage actor tracked by Palo Alto Networks Unit 42, which promoted the activity cluster to the named threat actor Phantom Taurus in September 2025, having previously designated it TGR-STA-0043 and linked it to the Operation Diplomatic Specter campaign. The group targets government and telecommunications organizations, including ministries of foreign affairs, embassies and diplomatic missions, across Africa, the Middle East and Asia, with a focus on geopolitical and military intelligence collection. It typically gains access by exploiting internet-facing Internet Information Services (IIS) and Microsoft Exchange servers, then performs reconnaissance and privilege escalation using native Windows tooling. In more recent operations the actor deployed NET-STAR, a fileless .NET malware suite targeting IIS web servers that comprises the IIServerCore backdoor and the AssemblyExecuter V1 and V2 loaders."
   },
   {
     "actor_id": "misp-5e32baed-f4b5-4149-8540-7515ad8c4dc0",
@@ -2599,15 +2599,6 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "Since early 2022, Proofpoint researchers have observed a prolific threat actor, tracked as TA482, regularly engaging in credential harvesting campaigns that target the social media accounts of mostly US-based journalists and media organizations. This victimology, TA482’s use of services originating from Turkey to host its domains and infrastructure, as well as Turkey’s history of leveraging social media to spread pro-President Recep Tayyip Erdogan and pro-Justice and Development Party (Turkey’s ruling party) propaganda support Proofpoint’s assessment that TA482 is aligned with the Turkish state."
-  },
-  {
-    "actor_id": "misp-6149f3b6-510d-4e45-bf88-cd25c7193702",
-    "source_id": "misp-galaxy",
-    "source_name": "MISP Galaxy",
-    "source_urls": [
-      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
-    ],
-    "text": "ALPHA SPIDER is a threat actor known for developing and operating the Alphv ransomware as a service. They have been observed using novel offensive techniques, such as exploiting software vulnerabilities and leveraging legitimate administration tools for malicious activities. ALPHA SPIDER affiliates have demonstrated persistence in exfiltrating data and have shown the ability to bypass security measures like DNS-based filtering and multifactor authentication. Despite lacking specific operational security measures, defenders have opportunities to detect and respond to ALPHA SPIDER's operations effectively."
   },
   {
     "actor_id": "misp-615311f0-58d4-4d1d-ac86-6ba86d119317",
@@ -3168,6 +3159,15 @@
     "text": "Since the beginning of 2023, ResumeLooters have been able to compromise at least 65 websites. The group employs a variety of simple techniques, including SQL injection and XSS. The threat actor attempted to insert XSS scripts into all available forms, aiming to execute it on the administrators’ device to obtain admin credentials. While the group was able to execute the XSS script on some visitors’ devices with administrative access, allowing ResumeLooters to steal the HTML code of the pages the victims were visiting, Group-IB did not find any confirmation of admin credential thefts."
   },
   {
+    "actor_id": "misp-7732e8b8-b541-428b-8873-2d72ffd39ecb",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Microsoft threat actor profile. Origin/Threat: India, Private sector offensive actor."
+  },
+  {
     "actor_id": "misp-77742419-aa71-4bc2-94c6-29c394b350e7",
     "source_id": "misp-galaxy",
     "source_name": "MISP Galaxy",
@@ -3247,6 +3247,15 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "Scarred Manticore has been pursuing high-value targets for years, utilizing a variety of IIS-based backdoors to attack Windows servers. These include a variety of custom web shells, custom DLL backdoors, and driver-based implants."
+  },
+  {
+    "actor_id": "misp-7a609a0b-8c24-424b-aa85-393d97bbd470",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Microsoft threat actor profile. Origin/Threat: Group in development."
   },
   {
     "actor_id": "misp-7aa99279-4255-4d26-bb95-12e7156555a0",
@@ -5355,6 +5364,15 @@
     "text": "Vice Society is a ransomware group that has been active since at least June 2021. They primarily target the education and healthcare sectors, but have also been observed targeting the manufacturing industry. The group has used multiple ransomware families and has been known to utilize PowerShell scripts for their attacks. There are similarities between Vice Society and the Rhysida ransomware group, suggesting a potential connection or rebranding."
   },
   {
+    "actor_id": "misp-c4132d43-2405-43ca-9940-a6f78e007861",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Vice Spider is a Russian-speaking ransomware group that has been active since at least April 2021 and is linked to a significant increase in identity-based attacks, with a reported 583% rise in Kerberoasting incidents. CrowdStrike attributes 27% of these intrusions specifically to Vice Spider, which exploits vulnerabilities in the Kerberos authentication protocol to crack user passwords."
+  },
+  {
     "actor_id": "misp-c432d032-ce2b-4eb8-ba87-312b2a43fb7a",
     "source_id": "misp-galaxy",
     "source_name": "MISP Galaxy",
@@ -5947,6 +5965,15 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "ScamClub is a threat actor involved in malvertising activities since 2018. They target the Mobile Web market segment, particularly on iOS devices, where security software is often lacking. ScamClub utilizes obfuscation techniques and real-time bidding integration with ad exchanges to push malicious JavaScript payloads, leading to forced redirects and various scams such as phishing and gift card scams."
+  },
+  {
+    "actor_id": "misp-db3899d1-ee48-46ac-b452-870d62fbdf2e",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Microsoft threat actor profile. Origin/Threat: China."
   },
   {
     "actor_id": "misp-db774b7d-a0ee-4375-b24e-fd278f5ab2fd",
@@ -8929,6 +8956,15 @@
   },
   {
     "actor_id": "mitre-g0123",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Microsoft threat actor profile. Origin/Threat: Lebanon."
+  },
+  {
+    "actor_id": "mitre-g0123",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
@@ -9718,6 +9754,15 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "AridViper is a state-sponsored APT primarily targeting military personnel, journalists, and dissidents in the Middle East, with a focus on Israel and Palestine. The group employs custom-developed mobile malware, including variants like AridSpy, GnatSpy, and Micropsia, often delivered through spear-phishing emails and deceptive applications. Their operations involve sophisticated social engineering tactics, including the use of fake social media profiles and weaponized apps masquerading as legitimate services. AridViper's activities are characterized by a blend of technical sophistication and psychological manipulation, aiming to exfiltrate sensitive data from compromised systems."
+  },
+  {
+    "actor_id": "mitre-g1028",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Microsoft threat actor profile from the public naming mapping feed."
   },
   {
     "actor_id": "mitre-g1028",

@@ -1,22 +1,22 @@
 # Threat Actor Alias DB update report
 
-Generated: 2026-07-06 07:00:58 UTC
+Generated: 2026-07-13 05:58:13 UTC
 
 ## Summary
 
-- Actors: 1006
-- Names: 3359
-- References: 4270
-- Descriptions: 1129
-- Attribution rows: 528
+- Actors: 1007
+- Names: 3396
+- References: 4285
+- Descriptions: 1134
+- Attribution rows: 535
 - Technique links: 4546
-- Review candidates: 77
+- Review candidates: 72
 - Duplicate canonical groups merged: 0
 
 ## Actors by source
 
-- microsoft-threat-actor-naming: 80
-- misp-galaxy: 980
+- microsoft-threat-actor-naming: 85
+- misp-galaxy: 981
 - mitre-attack: 174
 
 ## Duplicate actor groups merged
@@ -84,7 +84,6 @@ Generated: 2026-07-06 07:00:58 UTC
 - (no name): no unique existing actor match 
 - (no name): no unique existing actor match (misp-a0082cfa-32e2-42b8-92d8-5c7a7409dcf1, mitre-g0003, mitre-g0049)
 - (no name): no unique existing actor match 
-- (no name): no unique existing actor match 
 - (no name): no unique existing actor match (mitre-g0025, mitre-g0044, mitre-g0096)
 - (no name): no unique existing actor match (misp-9795249f-8954-4632-830f-7e1f0ebc1dd5, mitre-g0027)
 - (no name): no unique existing actor match 
@@ -136,11 +135,7 @@ Generated: 2026-07-06 07:00:58 UTC
 - (no name): no unique existing actor match 
 - (no name): no unique existing actor match 
 - (no name): no unique existing actor match 
-- (no name): no unique existing actor match 
 - (no name): no unique existing actor match (mitre-g0129, mitre-g1014)
-- (no name): no unique existing actor match (misp-2be3426b-c216-499f-b111-6694e96918f7, misp-c4132d43-2405-43ca-9940-a6f78e007861)
-- (no name): no unique existing actor match (misp-209b1452-7062-46f8-9037-3be5f7eda54f, misp-6149f3b6-510d-4e45-bf88-cd25c7193702)
-- (no name): no unique existing actor match 
 - (no name): no unique existing actor match 
 - (no name): no unique existing actor match 
 - (no name): no unique existing actor match 

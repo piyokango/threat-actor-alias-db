@@ -23,6 +23,7 @@
         "source_id": "misp-galaxy",
         "source_urls": [
           "https://unit42.paloaltonetworks.com/operation-diplomatic-specter",
+          "https://unit42.paloaltonetworks.com/phantom-taurus",
           "https://www.paloaltonetworks.com/blog/security-operations/through-the-cortex-xdr-lens-uncovering-a-new-activity-group-targeting-governments-in-the-middle-east-and-africa",
           "https://www.securonix.com/blog/securonix-threat-labs-monthly-intelligence-insights-june-2023"
         ],
@@ -38,6 +39,7 @@
             "source_relations": [],
             "source_urls": [
               "https://unit42.paloaltonetworks.com/operation-diplomatic-specter",
+              "https://unit42.paloaltonetworks.com/phantom-taurus",
               "https://www.paloaltonetworks.com/blog/security-operations/through-the-cortex-xdr-lens-uncovering-a-new-activity-group-targeting-governments-in-the-middle-east-and-africa",
               "https://www.securonix.com/blog/securonix-threat-labs-monthly-intelligence-insights-june-2023"
             ]
@@ -45,6 +47,46 @@
         ],
         "variants": [
           "CL-STA-0043"
+        ]
+      },
+      {
+        "compact_normalized_name": "phantomtaurus",
+        "confidence": "source-provided",
+        "display_group_key": "phantomtaurus",
+        "name": "Phantom Taurus",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "phantom taurus",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://unit42.paloaltonetworks.com/operation-diplomatic-specter",
+          "https://unit42.paloaltonetworks.com/phantom-taurus",
+          "https://www.paloaltonetworks.com/blog/security-operations/through-the-cortex-xdr-lens-uncovering-a-new-activity-group-targeting-governments-in-the-middle-east-and-africa",
+          "https://www.securonix.com/blog/securonix-threat-labs-monthly-intelligence-insights-june-2023"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://unit42.paloaltonetworks.com/operation-diplomatic-specter",
+              "https://unit42.paloaltonetworks.com/phantom-taurus",
+              "https://www.paloaltonetworks.com/blog/security-operations/through-the-cortex-xdr-lens-uncovering-a-new-activity-group-targeting-governments-in-the-middle-east-and-africa",
+              "https://www.securonix.com/blog/securonix-threat-labs-monthly-intelligence-insights-june-2023"
+            ]
+          }
+        ],
+        "variants": [
+          "Phantom Taurus"
         ]
       },
       {
@@ -61,6 +103,7 @@
         "source_id": "misp-galaxy",
         "source_urls": [
           "https://unit42.paloaltonetworks.com/operation-diplomatic-specter",
+          "https://unit42.paloaltonetworks.com/phantom-taurus",
           "https://www.paloaltonetworks.com/blog/security-operations/through-the-cortex-xdr-lens-uncovering-a-new-activity-group-targeting-governments-in-the-middle-east-and-africa",
           "https://www.securonix.com/blog/securonix-threat-labs-monthly-intelligence-insights-june-2023"
         ],
@@ -76,6 +119,7 @@
             "source_relations": [],
             "source_urls": [
               "https://unit42.paloaltonetworks.com/operation-diplomatic-specter",
+              "https://unit42.paloaltonetworks.com/phantom-taurus",
               "https://www.paloaltonetworks.com/blog/security-operations/through-the-cortex-xdr-lens-uncovering-a-new-activity-group-targeting-governments-in-the-middle-east-and-africa",
               "https://www.securonix.com/blog/securonix-threat-labs-monthly-intelligence-insights-june-2023"
             ]
@@ -106,7 +150,7 @@
           ]
         }
       ],
-      "text": "CL-STA-0043 is a highly skilled and sophisticated threat actor, believed to be a nation-state, targeting governmental entities in the Middle East and Africa. They exploit vulnerabilities in on-premises Internet Information Services and Microsoft Exchange servers to infiltrate target networks. They engage in reconnaissance, locate vital assets, and have been observed using native Windows tools for privilege escalation."
+      "text": "CL-STA-0043 is a Chinese state-nexus cyber-espionage actor tracked by Palo Alto Networks Unit 42, which promoted the activity cluster to the named threat actor Phantom Taurus in September 2025, having previously designated it TGR-STA-0043 and linked it to the Operation Diplomatic Specter campaign. The group targets government and telecommunications organizations, including ministries of foreign affairs, embassies and diplomatic missions, across Africa, the Middle East and Asia, with a focus on geopolitical and military intelligence collection. It typically gains access by exploiting internet-facing Internet Information Services (IIS) and Microsoft Exchange servers, then performs..."
     },
     "primary_source": "misp-galaxy",
     "recent_activity": [],
@@ -118,6 +162,14 @@
           "external-reference"
         ],
         "url": "https://unit42.paloaltonetworks.com/operation-diplomatic-specter"
+      },
+      {
+        "actor_id": "misp-5d0aee14-f18a-44da-a44d-28d950f06b9c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/phantom-taurus"
       },
       {
         "actor_id": "misp-5d0aee14-f18a-44da-a44d-28d950f06b9c",
@@ -138,11 +190,54 @@
     ],
     "reported_attribution": {
       "classifications": [],
-      "countries": [],
-      "items": []
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
     },
     "search_names": [
       "CL-STA-0043",
+      "Phantom Taurus",
       "TGR-STA-0043"
     ],
     "source_ids": [
@@ -150,7 +245,7 @@
       "misp-galaxy"
     ],
     "status": "active",
-    "updated_at": "2026-07-06"
+    "updated_at": "2026-07-13"
   },
-  "generated_at": "2026-07-06T07:00:55Z"
+  "generated_at": "2026-07-13T05:58:12Z"
 }

@@ -10,6 +10,65 @@
     "mitre_id": null,
     "names": [
       {
+        "compact_normalized_name": "alphaspider",
+        "confidence": "source-provided",
+        "display_group_key": "alphaspider",
+        "name": "ALPHA SPIDER",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy",
+        "normalized_name": "alpha spider",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
+        "source_urls": [
+          "http://www.microsoft.com/security/blog/2022/06/13/the-many-lives-of-blackcat-ransomware",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://www.crowdstrike.com/blog/anatomy-of-alpha-spider-ransomware",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "http://www.microsoft.com/security/blog/2022/06/13/the-many-lives-of-blackcat-ransomware",
+              "https://www.crowdstrike.com/blog/anatomy-of-alpha-spider-ransomware",
+              "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself"
+            ]
+          }
+        ],
+        "variants": [
+          "Alpha Spider",
+          "ALPHA SPIDER"
+        ]
+      },
+      {
         "compact_normalized_name": "velvettempest",
         "confidence": "source-provided",
         "display_group_key": "velvettempest",
@@ -46,6 +105,40 @@
         ]
       },
       {
+        "compact_normalized_name": "alphvransomwaregroup",
+        "confidence": "source-provided",
+        "display_group_key": "alphvransomwaregroup",
+        "name": "ALPHV Ransomware Group",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "alphv ransomware group",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.crowdstrike.com/blog/anatomy-of-alpha-spider-ransomware"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.crowdstrike.com/blog/anatomy-of-alpha-spider-ransomware"
+            ]
+          }
+        ],
+        "variants": [
+          "ALPHV Ransomware Group"
+        ]
+      },
+      {
         "compact_normalized_name": "dev0504",
         "confidence": "source-provided",
         "display_group_key": "dev0504",
@@ -54,14 +147,32 @@
         "name_types": [
           "alias"
         ],
-        "naming_org": "MISP Galaxy",
+        "naming_org": "Microsoft other, MISP Galaxy",
         "normalized_name": "dev 0504",
-        "source_id": "misp-galaxy",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
         "source_urls": [
           "http://www.microsoft.com/security/blog/2022/06/13/the-many-lives-of-blackcat-ransomware",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
           "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself"
         ],
         "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
           {
             "name_types": [
               "alias"
@@ -83,7 +194,8 @@
       }
     ],
     "naming_sources": [
-      "MISP Galaxy"
+      "MISP Galaxy",
+      "Microsoft other"
     ],
     "observed_techniques": {
       "items": [],
@@ -121,24 +233,90 @@
         "source_ids": [
           "microsoft-threat-actor-naming"
         ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "misp-209b1452-7062-46f8-9037-3be5f7eda54f",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "misp-209b1452-7062-46f8-9037-3be5f7eda54f",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/blog/anatomy-of-alpha-spider-ransomware"
+      },
+      {
+        "actor_id": "misp-209b1452-7062-46f8-9037-3be5f7eda54f",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
         "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself"
       }
     ],
     "reported_attribution": {
-      "classifications": [],
+      "classifications": [
+        {
+          "display_value": "Financially motivated",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Financially motivated"
+        }
+      ],
       "countries": [],
-      "items": []
+      "items": [
+        {
+          "display_value": "Financially motivated",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Financially motivated"
+        }
+      ]
     },
     "search_names": [
+      "Alpha Spider",
+      "ALPHA SPIDER",
+      "ALPHV Ransomware Group",
       "DEV-0504",
       "Velvet Tempest"
     ],
     "source_ids": [
+      "external-reference",
       "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
-    "updated_at": "2026-07-06"
+    "updated_at": "2026-07-13"
   },
-  "generated_at": "2026-07-06T07:00:55Z"
+  "generated_at": "2026-07-13T05:58:12Z"
 }

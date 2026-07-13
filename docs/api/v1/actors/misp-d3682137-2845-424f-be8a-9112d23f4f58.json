@@ -23,10 +23,13 @@
         "normalized_name": "teampcp",
         "source_id": "microsoft-threat-actor-naming,misp-galaxy",
         "source_urls": [
+          "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+          "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
           "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
           "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
           "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
           "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+          "https://www.ic3.gov/CSA/2026/260702.pdf",
           "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
           "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
         ],
@@ -57,8 +60,11 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+              "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
               "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
               "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+              "https://www.ic3.gov/CSA/2026/260702.pdf",
               "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
               "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
             ]
@@ -81,8 +87,11 @@
         "normalized_name": "altered spider",
         "source_id": "misp-galaxy",
         "source_urls": [
+          "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+          "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
           "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
           "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+          "https://www.ic3.gov/CSA/2026/260702.pdf",
           "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
           "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
         ],
@@ -97,8 +106,11 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+              "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
               "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
               "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+              "https://www.ic3.gov/CSA/2026/260702.pdf",
               "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
               "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
             ]
@@ -106,6 +118,190 @@
         ],
         "variants": [
           "Altered Spider"
+        ]
+      },
+      {
+        "compact_normalized_name": "canisterworm",
+        "confidence": "source-provided",
+        "display_group_key": "canisterworm",
+        "name": "CanisterWorm",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "canisterworm",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+          "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+          "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+          "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+          "https://www.ic3.gov/CSA/2026/260702.pdf",
+          "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+          "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+              "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+              "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+              "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+              "https://www.ic3.gov/CSA/2026/260702.pdf",
+              "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+              "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+            ]
+          }
+        ],
+        "variants": [
+          "CanisterWorm"
+        ]
+      },
+      {
+        "compact_normalized_name": "deadcatx3",
+        "confidence": "source-provided",
+        "display_group_key": "deadcatx3",
+        "name": "DeadCatx3",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "deadcatx3",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+          "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+          "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+          "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+          "https://www.ic3.gov/CSA/2026/260702.pdf",
+          "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+          "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+              "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+              "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+              "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+              "https://www.ic3.gov/CSA/2026/260702.pdf",
+              "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+              "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+            ]
+          }
+        ],
+        "variants": [
+          "DeadCatx3"
+        ]
+      },
+      {
+        "compact_normalized_name": "pcpcat",
+        "confidence": "source-provided",
+        "display_group_key": "pcpcat",
+        "name": "PCPcat",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "pcpcat",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+          "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+          "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+          "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+          "https://www.ic3.gov/CSA/2026/260702.pdf",
+          "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+          "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+              "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+              "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+              "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+              "https://www.ic3.gov/CSA/2026/260702.pdf",
+              "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+              "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+            ]
+          }
+        ],
+        "variants": [
+          "PCPcat"
+        ]
+      },
+      {
+        "compact_normalized_name": "shellforce",
+        "confidence": "source-provided",
+        "display_group_key": "shellforce",
+        "name": "ShellForce",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "shellforce",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+          "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+          "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+          "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+          "https://www.ic3.gov/CSA/2026/260702.pdf",
+          "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+          "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+              "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+              "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+              "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+              "https://www.ic3.gov/CSA/2026/260702.pdf",
+              "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+              "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+            ]
+          }
+        ],
+        "variants": [
+          "ShellForce"
         ]
       }
     ],
@@ -137,6 +333,22 @@
     "references": [
       {
         "actor_id": "misp-d3682137-2845-424f-be8a-9112d23f4f58",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cstromblad.com/posts/threat-actor-profile-teampcp"
+      },
+      {
+        "actor_id": "misp-d3682137-2845-424f-be8a-9112d23f4f58",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware"
+      },
+      {
+        "actor_id": "misp-d3682137-2845-424f-be8a-9112d23f4f58",
         "source_id": "microsoft-threat-actor-naming",
         "source_ids": [
           "microsoft-threat-actor-naming"
@@ -166,6 +378,14 @@
           "external-reference"
         ],
         "url": "https://www.crowdstrike.com/en-us/adversaries/altered-spider"
+      },
+      {
+        "actor_id": "misp-d3682137-2845-424f-be8a-9112d23f4f58",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ic3.gov/CSA/2026/260702.pdf"
       },
       {
         "actor_id": "misp-d3682137-2845-424f-be8a-9112d23f4f58",
@@ -229,6 +449,10 @@
     },
     "search_names": [
       "Altered Spider",
+      "CanisterWorm",
+      "DeadCatx3",
+      "PCPcat",
+      "ShellForce",
       "TeamPCP"
     ],
     "source_ids": [
@@ -237,7 +461,7 @@
       "misp-galaxy"
     ],
     "status": "active",
-    "updated_at": "2026-07-06"
+    "updated_at": "2026-07-13"
   },
-  "generated_at": "2026-07-06T07:00:55Z"
+  "generated_at": "2026-07-13T05:58:12Z"
 }

@@ -34,6 +34,57 @@
     "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html"
   },
   {
+    "actor_id": "mitre-g0026",
+    "canonical_name": "APT18",
+    "collected_at": "2026-07-13T05:58:08Z",
+    "feed_url": "https://unit42.paloaltonetworks.com/feed/",
+    "id": "3cd52874e4d734b1abbf",
+    "matched_names": [
+      "COMBINE"
+    ],
+    "published_date": "2026-07-07",
+    "publisher": "Palo Alto Unit 42",
+    "review_status": "auto_candidate",
+    "source_type": "vendor_report",
+    "summary": "A cybercrime campaign combined a loader-as-a-service framework and DLL sideloading via a Go-compiled fake MpClient.dll, a novel evasion layer combination. The post Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation appeared first on Unit 42 .",
+    "title": "Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation",
+    "url": "https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis"
+  },
+  {
+    "actor_id": "mitre-g0026",
+    "canonical_name": "APT18",
+    "collected_at": "2026-07-13T05:58:06Z",
+    "feed_url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "id": "d8da2a0b21ad20319911",
+    "matched_names": [
+      "COMBINE"
+    ],
+    "published_date": "2026-07-09",
+    "publisher": "Microsoft Security Blog",
+    "review_status": "auto_candidate",
+    "source_type": "vendor_report",
+    "summary": "GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .",
+    "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware"
+  },
+  {
+    "actor_id": "mitre-g0026",
+    "canonical_name": "APT18",
+    "collected_at": "2026-07-13T05:58:09Z",
+    "feed_url": "https://www.securityweek.com/feed/",
+    "id": "c7f9b9f39fc051960c80",
+    "matched_names": [
+      "COMBINE"
+    ],
+    "published_date": "2026-07-10",
+    "publisher": "SecurityWeek",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "The backdoor’s destructive capabilities include a standalone wiper, ransomware encryption, and a multi-pass wiping command. The post GigaWiper Combines Multiple Malware for System-Level Sabotage appeared first on SecurityWeek .",
+    "title": "GigaWiper Combines Multiple Malware for System-Level Sabotage",
+    "url": "https://www.securityweek.com/gigawiper-combines-multiple-malware-for-system-level-sabotage"
+  },
+  {
     "actor_id": "mitre-g0050",
     "canonical_name": "APT32",
     "collected_at": "2026-07-06T07:00:52Z",
@@ -121,7 +172,7 @@
   {
     "actor_id": "mitre-g0096",
     "canonical_name": "APT41",
-    "collected_at": "2026-07-06T07:00:52Z",
+    "collected_at": "2026-07-13T05:58:08Z",
     "feed_url": "https://blog.talosintelligence.com/rss/",
     "id": "5787668268f6b60309bd",
     "matched_names": [
@@ -138,7 +189,7 @@
   {
     "actor_id": "mitre-g0096",
     "canonical_name": "APT41",
-    "collected_at": "2026-07-06T07:00:49Z",
+    "collected_at": "2026-07-13T05:58:06Z",
     "feed_url": "https://www.microsoft.com/en-us/security/blog/feed/",
     "id": "3a0488320687f4a5e550",
     "matched_names": [
@@ -204,6 +255,91 @@
     "url": "https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution"
   },
   {
+    "actor_id": "mitre-g0096",
+    "canonical_name": "APT41",
+    "collected_at": "2026-07-13T05:58:10Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "b2a435e19a8af06dd2fa",
+    "matched_names": [
+      "LEAD"
+    ],
+    "published_date": "2026-07-08",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe ColdFusion that could lead to arbitrary code execution in the context of the",
+    "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
+    "url": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html"
+  },
+  {
+    "actor_id": "mitre-g0096",
+    "canonical_name": "APT41",
+    "collected_at": "2026-07-13T05:58:10Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "18ad4c26c350c5300b61",
+    "matched_names": [
+      "LEAD"
+    ],
+    "published_date": "2026-07-08",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "A recent EvilTokens campaign targeting businesses across the US and Europe is exposing a new email security blind spot. This “ghost phishing” technique keeps the malicious page hidden until it decrypts and comes to life inside the victim’s browser. For security leaders, the risk is clear: traditional URL checks may miss the attack while Microsoft 365 access, sensitive data, and response time",
+    "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
+    "url": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html"
+  },
+  {
+    "actor_id": "mitre-g0096",
+    "canonical_name": "APT41",
+    "collected_at": "2026-07-13T05:58:10Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "a9d71a504138ad530eb4",
+    "matched_names": [
+      "LEAD"
+    ],
+    "published_date": "2026-07-10",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "Most enterprises assume their asset inventory is close enough to accurate. The evidence suggests otherwise. According to a survey of over 600 security leaders in the 2026 Axonius Actionability Report, only 45% of organizations consolidate their asset and exposure data into a single view, and every downstream security program inherits whatever the inventory gets wrong. Lumen Technologies, a",
+    "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
+    "url": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html"
+  },
+  {
+    "actor_id": "mitre-g0096",
+    "canonical_name": "APT41",
+    "collected_at": "2026-07-13T05:58:09Z",
+    "feed_url": "https://therecord.media/feed",
+    "id": "84627bb17a8e04a975cb",
+    "matched_names": [
+      "LEAD"
+    ],
+    "published_date": "2026-07-10",
+    "publisher": "The Record",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "One man accused of deploying Ryuk ransomware pleaded guilty Wednesday in an Oregon federal court to conspiracy and computer fraud, while another man received a 70-month federal prison sentence in a Florida court for helping the Blackcat/AlphV gang extort multiple victims.",
+    "title": "Ryuk operator pleads guilty; Blackcat/AlphV conspirator gets nearly 6-year sentence",
+    "url": "https://therecord.media/ryuk-operator-pleads-guilty-alphv-conspirator-sentenced"
+  },
+  {
+    "actor_id": "mitre-g0096",
+    "canonical_name": "APT41",
+    "collected_at": "2026-07-13T05:58:09Z",
+    "feed_url": "https://www.bleepingcomputer.com/feed/",
+    "id": "cdefdfd7323d3fa10172",
+    "matched_names": [
+      "LEAD"
+    ],
+    "published_date": "2026-07-10",
+    "publisher": "BleepingComputer",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "A 34-year-old Armenian man has pleaded guilty to hacking U.S. companies and deploying the infamous Ryuk ransomware to encrypt their systems. [...]",
+    "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
+    "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison"
+  },
+  {
     "actor_id": "mitre-g0060",
     "canonical_name": "BRONZE BUTLER",
     "collected_at": "2026-07-06T07:00:54Z",
@@ -238,6 +374,40 @@
     "url": "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states"
   },
   {
+    "actor_id": "mitre-g0060",
+    "canonical_name": "BRONZE BUTLER",
+    "collected_at": "2026-07-13T05:58:10Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "07a201cd6d12a689c0c5",
+    "matched_names": [
+      "Nian"
+    ],
+    "published_date": "2026-07-06",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "An Iranian hacking group affiliated with Iran's Ministry of Intelligence and Security (MOIS) has been wielding a previously undocumented modular command-and-control (C2) framework dubbed Cavern (aka Cav3rn) targeting Israeli organizations. The activity, which has primarily singled out IT providers and government sectors, has been attributed to a threat cluster tracked by Check Point Research",
+    "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
+    "url": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html"
+  },
+  {
+    "actor_id": "mitre-g0060",
+    "canonical_name": "BRONZE BUTLER",
+    "collected_at": "2026-07-13T05:58:09Z",
+    "feed_url": "https://www.bleepingcomputer.com/feed/",
+    "id": "1edc05cd383629d2116f",
+    "matched_names": [
+      "Nian"
+    ],
+    "published_date": "2026-07-10",
+    "publisher": "BleepingComputer",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "A 34-year-old Armenian man has pleaded guilty to hacking U.S. companies and deploying the infamous Ryuk ransomware to encrypt their systems. [...]",
+    "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
+    "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison"
+  },
+  {
     "actor_id": "misp-069ba781-b2d9-4403-9d9d-c599f5e0181d",
     "canonical_name": "Careto",
     "collected_at": "2026-07-06T07:00:53Z",
@@ -253,6 +423,40 @@
     "summary": "NetNut rented access to millions of compromised devices, allowing cybercriminals and nation-state actors to mask their identities during attacks. The post Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices appeared first on SecurityWeek .",
     "title": "Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices",
     "url": "https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices"
+  },
+  {
+    "actor_id": "misp-069ba781-b2d9-4403-9d9d-c599f5e0181d",
+    "canonical_name": "Careto",
+    "collected_at": "2026-07-13T05:58:08Z",
+    "feed_url": "https://unit42.paloaltonetworks.com/feed/",
+    "id": "c32206831e13195e4bb4",
+    "matched_names": [
+      "Mask"
+    ],
+    "published_date": "2026-07-07",
+    "publisher": "Palo Alto Unit 42",
+    "review_status": "auto_candidate",
+    "source_type": "vendor_report",
+    "summary": "A cybercrime campaign combined a loader-as-a-service framework and DLL sideloading via a Go-compiled fake MpClient.dll, a novel evasion layer combination. The post Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation appeared first on Unit 42 .",
+    "title": "Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation",
+    "url": "https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis"
+  },
+  {
+    "actor_id": "mitre-g0003",
+    "canonical_name": "Cleaver",
+    "collected_at": "2026-07-13T05:58:10Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "e6df237ba2aebc198ce7",
+    "matched_names": [
+      "Alibaba"
+    ],
+    "published_date": "2026-07-10",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry&nbsp;disclosed the flaw on July 8&nbsp;and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server",
+    "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
+    "url": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html"
   },
   {
     "actor_id": "mitre-g0080",
@@ -291,7 +495,7 @@
   {
     "actor_id": "mitre-g1006",
     "canonical_name": "Earth Lusca",
-    "collected_at": "2026-07-06T07:00:51Z",
+    "collected_at": "2026-07-13T05:58:08Z",
     "feed_url": "https://www.welivesecurity.com/feed/",
     "id": "cd402401470efc9d17ee",
     "matched_names": [
@@ -308,7 +512,7 @@
   {
     "actor_id": "mitre-g1006",
     "canonical_name": "Earth Lusca",
-    "collected_at": "2026-07-06T07:00:49Z",
+    "collected_at": "2026-07-13T05:58:06Z",
     "feed_url": "https://www.microsoft.com/en-us/security/blog/feed/",
     "id": "c9df9b1e4fdc3501c191",
     "matched_names": [
@@ -342,7 +546,7 @@
   {
     "actor_id": "mitre-g0047",
     "canonical_name": "Gamaredon Group",
-    "collected_at": "2026-07-06T07:00:51Z",
+    "collected_at": "2026-07-13T05:58:08Z",
     "feed_url": "https://www.welivesecurity.com/feed/",
     "id": "30f5dded1efc5ea12cd4",
     "matched_names": [
@@ -426,6 +630,23 @@
     "url": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html"
   },
   {
+    "actor_id": "mitre-g1040",
+    "canonical_name": "Play",
+    "collected_at": "2026-07-13T05:58:10Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "3c025dea5ce026d50c98",
+    "matched_names": [
+      "Play"
+    ],
+    "published_date": "2026-07-10",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., keeping their traffic private and secure. The apps flagged with at least one problem have been installed more than 2.4 billion times. The problems are basic, not sophisticated. 29 apps let user traffic leak outside",
+    "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
+    "url": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html"
+  },
+  {
     "actor_id": "mitre-g0034",
     "canonical_name": "Sandworm Team",
     "collected_at": "2026-07-06T07:00:54Z",
@@ -445,7 +666,7 @@
   {
     "actor_id": "mitre-g0034",
     "canonical_name": "Sandworm Team",
-    "collected_at": "2026-07-06T07:00:51Z",
+    "collected_at": "2026-07-13T05:58:08Z",
     "feed_url": "https://unit42.paloaltonetworks.com/feed/",
     "id": "98794bdd95fcb959d366",
     "matched_names": [
@@ -532,6 +753,24 @@
     "url": "https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us"
   },
   {
+    "actor_id": "mitre-g1015",
+    "canonical_name": "Scattered Spider",
+    "collected_at": "2026-07-13T05:58:10Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "cdcf2cad44fa5e2798fc",
+    "matched_names": [
+      "SCATTERED SPIDER",
+      "Scattered Spider"
+    ],
+    "published_date": "2026-07-07",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal complaint. Microsoft records tied that ID first to the account the attackers used to keep access during the May 2025 intrusion, then to online accounts prosecutors say belong to 19-year-old Peter Stokes. Stokes is",
+    "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
+    "url": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html"
+  },
+  {
     "actor_id": "misp-d4fd0a30-15d4-4dfd-bf98-beff5fe34c33",
     "canonical_name": "ShinyHunters",
     "collected_at": "2026-07-06T07:00:52Z",
@@ -564,6 +803,23 @@
     "summary": "In April, ShinyHunters accessed the company’s corporate IT systems and stole patients’ personal and medical information. The post Medtronic Data Breach Impacts 3.8 Million People appeared first on SecurityWeek .",
     "title": "Medtronic Data Breach Impacts 3.8 Million People",
     "url": "https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people"
+  },
+  {
+    "actor_id": "misp-1c047671-227b-466f-9929-37df40abd485",
+    "canonical_name": "The Gentlemen",
+    "collected_at": "2026-07-13T05:58:08Z",
+    "feed_url": "https://unit42.paloaltonetworks.com/feed/",
+    "id": "67e3dc99ada4ca237c10",
+    "matched_names": [
+      "The Gentlemen"
+    ],
+    "published_date": "2026-07-10",
+    "publisher": "Palo Alto Unit 42",
+    "review_status": "auto_candidate",
+    "source_type": "vendor_report",
+    "summary": "Unit 42 explores The Gentlemen ransomware operations, revealing the affiliate model driving its rapid growth. Learn more here. The post No Manners Here: The Ruthless Rise of The Gentlemen Ransomware appeared first on Unit 42 .",
+    "title": "No Manners Here: The Ruthless Rise of The Gentlemen Ransomware",
+    "url": "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware"
   },
   {
     "actor_id": "mitre-g1022",
@@ -649,5 +905,22 @@
     "summary": "The DuneSlide vulnerabilities enable zero-click prompt injection attacks that escape Cursor's sandbox and execute arbitrary code on the underlying operating system. The post Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution appeared first on SecurityWeek .",
     "title": "Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution",
     "url": "https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution"
+  },
+  {
+    "actor_id": "misp-2ac0db88-8e88-447b-ad44-f781326f5884",
+    "canonical_name": "Void Arachne",
+    "collected_at": "2026-07-13T05:58:10Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "7598c74aaa96e60e2fab",
+    "matched_names": [
+      "Silver Fox"
+    ],
+    "published_date": "2026-07-10",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin said that while the threat cluster may appear like a low-sophistication, high-activity operation that propagates malware via counterfeit installers using SEO poisoning techniques, it belies their true organizational",
+    "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
+    "url": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html"
   }
 ]

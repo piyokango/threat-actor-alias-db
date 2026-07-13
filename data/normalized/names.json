@@ -690,7 +690,34 @@
     ]
   },
   {
-    "actor_id": "misp-6149f3b6-510d-4e45-bf88-cd25c7193702",
+    "actor_id": "misp-209b1452-7062-46f8-9037-3be5f7eda54f",
+    "confidence": "source-provided",
+    "name": "ALPHA SPIDER",
+    "name_type": "alias",
+    "naming_org": "Microsoft",
+    "normalized_name": "alpha spider",
+    "source_id": "microsoft-threat-actor-naming",
+    "source_relation": "other_name",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
+    "actor_id": "misp-209b1452-7062-46f8-9037-3be5f7eda54f",
+    "confidence": "source-provided",
+    "name": "ALPHA SPIDER",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "alpha spider",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "http://www.microsoft.com/security/blog/2022/06/13/the-many-lives-of-blackcat-ransomware/",
+      "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+    ]
+  },
+  {
+    "actor_id": "misp-209b1452-7062-46f8-9037-3be5f7eda54f",
     "confidence": "source-provided",
     "name": "Alpha Spider",
     "name_type": "canonical",
@@ -702,7 +729,7 @@
     ]
   },
   {
-    "actor_id": "misp-6149f3b6-510d-4e45-bf88-cd25c7193702",
+    "actor_id": "misp-209b1452-7062-46f8-9037-3be5f7eda54f",
     "confidence": "source-provided",
     "name": "ALPHV Ransomware Group",
     "name_type": "alias",
@@ -756,8 +783,11 @@
     "normalized_name": "altered spider",
     "source_id": "misp-galaxy",
     "source_urls": [
+      "https://cstromblad.com/posts/threat-actor-profile-teampcp/",
+      "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
       "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
       "https://www.crowdstrike.com/en-us/adversaries/altered-spider/",
+      "https://www.ic3.gov/CSA/2026/260702.pdf",
       "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
       "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
     ]
@@ -866,6 +896,18 @@
     "source_id": "mitre-attack",
     "source_urls": [
       "https://attack.mitre.org/groups/G1030/"
+    ]
+  },
+  {
+    "actor_id": "mitre-g0123",
+    "confidence": "source-provided",
+    "name": "Amethyst Rain",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "amethyst rain",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
     ]
   },
   {
@@ -9840,6 +9882,24 @@
     ]
   },
   {
+    "actor_id": "misp-d3682137-2845-424f-be8a-9112d23f4f58",
+    "confidence": "source-provided",
+    "name": "CanisterWorm",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "canisterworm",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://cstromblad.com/posts/threat-actor-profile-teampcp/",
+      "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+      "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+      "https://www.crowdstrike.com/en-us/adversaries/altered-spider/",
+      "https://www.ic3.gov/CSA/2026/260702.pdf",
+      "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+      "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+    ]
+  },
+  {
     "actor_id": "mitre-g0050",
     "confidence": "source-provided",
     "name": "Canvas Cyclone",
@@ -10431,6 +10491,32 @@
     ]
   },
   {
+    "actor_id": "misp-7a609a0b-8c24-424b-aa85-393d97bbd470",
+    "confidence": "source-provided",
+    "name": "CHATTY SPIDER",
+    "name_type": "alias",
+    "naming_org": "Microsoft",
+    "normalized_name": "chatty spider",
+    "source_id": "microsoft-threat-actor-naming",
+    "source_relation": "other_name",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
+    "actor_id": "misp-7a609a0b-8c24-424b-aa85-393d97bbd470",
+    "confidence": "source-provided",
+    "name": "CHATTY SPIDER",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "chatty spider",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
     "actor_id": "misp-bf0df867-e482-48c3-ab32-93c8bca40ba9",
     "confidence": "source-provided",
     "name": "Chaya_004",
@@ -10981,6 +11067,7 @@
     "source_id": "misp-galaxy",
     "source_urls": [
       "https://unit42.paloaltonetworks.com/operation-diplomatic-specter/",
+      "https://unit42.paloaltonetworks.com/phantom-taurus/",
       "https://www.paloaltonetworks.com/blog/security-operations/through-the-cortex-xdr-lens-uncovering-a-new-activity-group-targeting-governments-in-the-middle-east-and-africa/",
       "https://www.securonix.com/blog/securonix-threat-labs-monthly-intelligence-insights-june-2023/"
     ]
@@ -13685,6 +13772,19 @@
     ]
   },
   {
+    "actor_id": "misp-7732e8b8-b541-428b-8873-2d72ffd39ecb",
+    "confidence": "source-provided",
+    "name": "CyberRoot",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "cyberroot",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
     "actor_id": "misp-d34ca487-1613-4ee5-8930-2ac8a60f945f",
     "confidence": "source-provided",
     "name": "CYBORG SPIDER",
@@ -14304,6 +14404,24 @@
     ]
   },
   {
+    "actor_id": "misp-d3682137-2845-424f-be8a-9112d23f4f58",
+    "confidence": "source-provided",
+    "name": "DeadCatx3",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "deadcatx3",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://cstromblad.com/posts/threat-actor-profile-teampcp/",
+      "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+      "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+      "https://www.crowdstrike.com/en-us/adversaries/altered-spider/",
+      "https://www.ic3.gov/CSA/2026/260702.pdf",
+      "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+      "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+    ]
+  },
+  {
     "actor_id": "misp-4265d44e-8372-4ed0-b428-b331a5443d7d",
     "confidence": "source-provided",
     "name": "Deadeye Jackal",
@@ -14409,6 +14527,32 @@
       "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
       "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
       "https://www.youtube.com/watch?v=FC9ARZIZglI"
+    ]
+  },
+  {
+    "actor_id": "misp-db3899d1-ee48-46ac-b452-870d62fbdf2e",
+    "confidence": "source-provided",
+    "name": "deepclif",
+    "name_type": "alias",
+    "naming_org": "Microsoft",
+    "normalized_name": "deepclif",
+    "source_id": "microsoft-threat-actor-naming",
+    "source_relation": "other_name",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
+    "actor_id": "misp-db3899d1-ee48-46ac-b452-870d62fbdf2e",
+    "confidence": "source-provided",
+    "name": "deepclif",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "deepclif",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
     ]
   },
   {
@@ -14542,6 +14686,18 @@
     "source_relation": "other_name",
     "source_urls": [
       "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
+    "actor_id": "mitre-g1028",
+    "confidence": "source-provided",
+    "name": "Desert Falcons",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "desert falcons",
+    "source_id": "misp-galaxy",
+    "source_urls": [
       "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
     ]
   },
@@ -15236,6 +15392,20 @@
     "confidence": "source-provided",
     "name": "DEV-0504",
     "name_type": "alias",
+    "naming_org": "Microsoft",
+    "normalized_name": "dev 0504",
+    "source_id": "microsoft-threat-actor-naming",
+    "source_relation": "other_name",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
+    "actor_id": "misp-209b1452-7062-46f8-9037-3be5f7eda54f",
+    "confidence": "source-provided",
+    "name": "DEV-0504",
+    "name_type": "alias",
     "naming_org": "MISP Galaxy",
     "normalized_name": "dev 0504",
     "source_id": "misp-galaxy",
@@ -15365,6 +15535,33 @@
     ]
   },
   {
+    "actor_id": "misp-7732e8b8-b541-428b-8873-2d72ffd39ecb",
+    "confidence": "source-provided",
+    "name": "DEV-0605",
+    "name_type": "alias",
+    "naming_org": "Microsoft",
+    "normalized_name": "dev 0605",
+    "source_id": "microsoft-threat-actor-naming",
+    "source_relation": "other_name",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
+    "actor_id": "misp-7732e8b8-b541-428b-8873-2d72ffd39ecb",
+    "confidence": "source-provided",
+    "name": "DEV-0605",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "dev 0605",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
     "actor_id": "misp-9c0f0db1-b773-42ff-a6f7-d4b6c1d28ca4",
     "confidence": "source-provided",
     "name": "DEV-0665",
@@ -15430,6 +15627,20 @@
       "https://twitter.com/cglyer/status/1546297609215696897",
       "https://www.databreaches.net/east-tennessee-childrens-hospital-updates-information-on-ransomware-incident/",
       "https://www.enigmasoftware.com/nwgenransomware-removal/"
+    ]
+  },
+  {
+    "actor_id": "misp-c4132d43-2405-43ca-9940-a6f78e007861",
+    "confidence": "source-provided",
+    "name": "DEV-0832",
+    "name_type": "alias",
+    "naming_org": "Microsoft",
+    "normalized_name": "dev 0832",
+    "source_id": "microsoft-threat-actor-naming",
+    "source_relation": "other_name",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
     ]
   },
   {
@@ -16003,6 +16214,32 @@
       "https://www.uscc.gov/sites/default/files/2022-02/Adam_Kozy_Testimony.pdf",
       "https://www.welivesecurity.com/2019/03/11/gaming-industry-scope-attackers-asia/",
       "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/"
+    ]
+  },
+  {
+    "actor_id": "misp-db3899d1-ee48-46ac-b452-870d62fbdf2e",
+    "confidence": "source-provided",
+    "name": "DRAGNET PANDA",
+    "name_type": "alias",
+    "naming_org": "Microsoft",
+    "normalized_name": "dragnet panda",
+    "source_id": "microsoft-threat-actor-naming",
+    "source_relation": "other_name",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
+    "actor_id": "misp-db3899d1-ee48-46ac-b452-870d62fbdf2e",
+    "confidence": "source-provided",
+    "name": "DRAGNET PANDA",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "dragnet panda",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
     ]
   },
   {
@@ -25278,6 +25515,32 @@
     ]
   },
   {
+    "actor_id": "misp-db3899d1-ee48-46ac-b452-870d62fbdf2e",
+    "confidence": "source-provided",
+    "name": "HASSIUM",
+    "name_type": "alias",
+    "naming_org": "Microsoft",
+    "normalized_name": "hassium",
+    "source_id": "microsoft-threat-actor-naming",
+    "source_relation": "other_name",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
+    "actor_id": "misp-db3899d1-ee48-46ac-b452-870d62fbdf2e",
+    "confidence": "source-provided",
+    "name": "HASSIUM",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "hassium",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
     "actor_id": "mitre-g0032",
     "confidence": "source-provided",
     "name": "Hastati Group",
@@ -26500,6 +26763,18 @@
     "source_id": "misp-galaxy",
     "source_urls": [
       "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2018GlobalThreatReport.pdf"
+    ]
+  },
+  {
+    "actor_id": "misp-db3899d1-ee48-46ac-b452-870d62fbdf2e",
+    "confidence": "source-provided",
+    "name": "Houndstooth Typhoon",
+    "name_type": "canonical",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "houndstooth typhoon",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
     ]
   },
   {
@@ -27830,6 +28105,32 @@
       "https://www.recordedfuture.com/chinese-threat-actor-tempperiscope/",
       "https://www.rnz.co.nz/news/political/447239/government-points-finger-at-china-over-cyber-attacks",
       "https://www.secureworks.com/research/threat-profiles/bronze-mohawk"
+    ]
+  },
+  {
+    "actor_id": "misp-db3899d1-ee48-46ac-b452-870d62fbdf2e",
+    "confidence": "source-provided",
+    "name": "isoon",
+    "name_type": "alias",
+    "naming_org": "Microsoft",
+    "normalized_name": "isoon",
+    "source_id": "microsoft-threat-actor-naming",
+    "source_relation": "other_name",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
+    "actor_id": "misp-db3899d1-ee48-46ac-b452-870d62fbdf2e",
+    "confidence": "source-provided",
+    "name": "isoon",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "isoon",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
     ]
   },
   {
@@ -31892,6 +32193,33 @@
     ]
   },
   {
+    "actor_id": "misp-7732e8b8-b541-428b-8873-2d72ffd39ecb",
+    "confidence": "source-provided",
+    "name": "MintedSoil",
+    "name_type": "alias",
+    "naming_org": "Microsoft",
+    "normalized_name": "mintedsoil",
+    "source_id": "microsoft-threat-actor-naming",
+    "source_relation": "other_name",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
+    "actor_id": "misp-7732e8b8-b541-428b-8873-2d72ffd39ecb",
+    "confidence": "source-provided",
+    "name": "MintedSoil",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "mintedsoil",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
     "actor_id": "mitre-g0004",
     "confidence": "source-provided",
     "name": "Mirage",
@@ -34078,6 +34406,18 @@
     "source_relation": "other_name",
     "source_urls": [
       "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
+    "actor_id": "mitre-g1028",
+    "confidence": "source-provided",
+    "name": "NIOBIUM",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "niobium",
+    "source_id": "misp-galaxy",
+    "source_urls": [
       "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
     ]
   },
@@ -36568,6 +36908,24 @@
     ]
   },
   {
+    "actor_id": "misp-d3682137-2845-424f-be8a-9112d23f4f58",
+    "confidence": "source-provided",
+    "name": "PCPcat",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "pcpcat",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://cstromblad.com/posts/threat-actor-profile-teampcp/",
+      "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+      "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+      "https://www.crowdstrike.com/en-us/adversaries/altered-spider/",
+      "https://www.ic3.gov/CSA/2026/260702.pdf",
+      "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+      "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+    ]
+  },
+  {
     "actor_id": "mitre-g0064",
     "confidence": "source-provided",
     "name": "Peach Sandstorm",
@@ -36781,6 +37139,21 @@
     ]
   },
   {
+    "actor_id": "misp-5d0aee14-f18a-44da-a44d-28d950f06b9c",
+    "confidence": "source-provided",
+    "name": "Phantom Taurus",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "phantom taurus",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://unit42.paloaltonetworks.com/operation-diplomatic-specter/",
+      "https://unit42.paloaltonetworks.com/phantom-taurus/",
+      "https://www.paloaltonetworks.com/blog/security-operations/through-the-cortex-xdr-lens-uncovering-a-new-activity-group-targeting-governments-in-the-middle-east-and-africa/",
+      "https://www.securonix.com/blog/securonix-threat-labs-monthly-intelligence-insights-june-2023/"
+    ]
+  },
+  {
     "actor_id": "misp-23410d3f-c359-422d-9a4e-45f8fdf0c84a",
     "confidence": "source-provided",
     "name": "Phantom Turk",
@@ -36987,6 +37360,18 @@
       "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
       "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
       "https://www.youtube.com/watch?v=FC9ARZIZglI"
+    ]
+  },
+  {
+    "actor_id": "mitre-g1028",
+    "confidence": "source-provided",
+    "name": "Pinstripe Lightning",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "pinstripe lightning",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
     ]
   },
   {
@@ -40290,6 +40675,18 @@
     ]
   },
   {
+    "actor_id": "mitre-g1028",
+    "confidence": "source-provided",
+    "name": "RENEGADE JACKAL",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "renegade jackal",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
     "actor_id": "misp-76dbe26b-8b39-40f5-bc2b-9620004f388e",
     "confidence": "source-provided",
     "name": "ResumeLooters",
@@ -41733,6 +42130,18 @@
     ]
   },
   {
+    "actor_id": "mitre-g1028",
+    "confidence": "source-provided",
+    "name": "Scimitar",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "scimitar",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
     "actor_id": "misp-a6c7ff17-b98b-469a-97cc-6303ba007e68",
     "confidence": "source-provided",
     "name": "ScreamedJungle",
@@ -42805,6 +43214,24 @@
       "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
       "https://www.washingtonpost.com/business/economy/keypoint-suffers-network-breach-thousands-of-fed-workers-could-be-affected/2014/12/18/e6c7146c-86e1-11e4-a702-fa31ff4ae98e_story.html",
       "https://www.youtube.com/watch?v=FC9ARZIZglI"
+    ]
+  },
+  {
+    "actor_id": "misp-d3682137-2845-424f-be8a-9112d23f4f58",
+    "confidence": "source-provided",
+    "name": "ShellForce",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "shellforce",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://cstromblad.com/posts/threat-actor-profile-teampcp/",
+      "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+      "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+      "https://www.crowdstrike.com/en-us/adversaries/altered-spider/",
+      "https://www.ic3.gov/CSA/2026/260702.pdf",
+      "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+      "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
     ]
   },
   {
@@ -45718,6 +46145,18 @@
     "source_urls": [
       "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-november-2023/ba-p/3970796",
       "https://www.microsoft.com/en-us/security/blog/2025/04/03/threat-actors-leverage-tax-season-to-deploy-tax-themed-phishing-campaigns/"
+    ]
+  },
+  {
+    "actor_id": "misp-7a609a0b-8c24-424b-aa85-393d97bbd470",
+    "confidence": "source-provided",
+    "name": "Storm-0252",
+    "name_type": "canonical",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "storm 0252",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
     ]
   },
   {
@@ -49934,8 +50373,11 @@
     "normalized_name": "teampcp",
     "source_id": "misp-galaxy",
     "source_urls": [
+      "https://cstromblad.com/posts/threat-actor-profile-teampcp/",
+      "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
       "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
       "https://www.crowdstrike.com/en-us/adversaries/altered-spider/",
+      "https://www.ic3.gov/CSA/2026/260702.pdf",
       "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
       "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
     ]
@@ -51282,6 +51724,7 @@
     "source_id": "misp-galaxy",
     "source_urls": [
       "https://unit42.paloaltonetworks.com/operation-diplomatic-specter/",
+      "https://unit42.paloaltonetworks.com/phantom-taurus/",
       "https://www.paloaltonetworks.com/blog/security-operations/through-the-cortex-xdr-lens-uncovering-a-new-activity-group-targeting-governments-in-the-middle-east-and-africa/",
       "https://www.securonix.com/blog/securonix-threat-labs-monthly-intelligence-insights-june-2023/"
     ]
@@ -56567,6 +57010,20 @@
     "confidence": "source-provided",
     "name": "Vice Society",
     "name_type": "alias",
+    "naming_org": "Microsoft",
+    "normalized_name": "vice society",
+    "source_id": "microsoft-threat-actor-naming",
+    "source_relation": "other_name",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
+    "actor_id": "misp-c4132d43-2405-43ca-9940-a6f78e007861",
+    "confidence": "source-provided",
+    "name": "Vice Society",
+    "name_type": "alias",
     "naming_org": "MISP Galaxy",
     "normalized_name": "vice society",
     "source_id": "misp-galaxy",
@@ -56578,7 +57035,36 @@
     ]
   },
   {
-    "actor_id": "misp-2be3426b-c216-499f-b111-6694e96918f7",
+    "actor_id": "misp-c4132d43-2405-43ca-9940-a6f78e007861",
+    "confidence": "source-provided",
+    "name": "VICE SPIDER",
+    "name_type": "alias",
+    "naming_org": "Microsoft",
+    "normalized_name": "vice spider",
+    "source_id": "microsoft-threat-actor-naming",
+    "source_relation": "other_name",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
+    "actor_id": "misp-c4132d43-2405-43ca-9940-a6f78e007861",
+    "confidence": "source-provided",
+    "name": "VICE SPIDER",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "vice spider",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://detect.fyi/rhysida-ransomware-and-the-detection-opportunities-3599e9a02bb2",
+      "https://fourcore.io/blogs/rhysida-ransomware-history-ttp-adversary-emulation",
+      "https://research.checkpoint.com/2023/the-rhysida-ransomware-activity-analysis-and-ties-to-vice-society/",
+      "https://www.microsoft.com/en-us/security/blog/2022/10/25/dev-0832-vice-society-opportunistic-ransomware-campaigns-impacting-us-education-sector/"
+    ]
+  },
+  {
+    "actor_id": "misp-c4132d43-2405-43ca-9940-a6f78e007861",
     "confidence": "source-provided",
     "name": "VICE SPIDER",
     "name_type": "canonical",
@@ -57039,6 +57525,18 @@
     "source_relation": "other_name",
     "source_urls": [
       "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+    ]
+  },
+  {
+    "actor_id": "mitre-g0123",
+    "confidence": "source-provided",
+    "name": "VolcanicTimber",
+    "name_type": "alias",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "volcanictimber",
+    "source_id": "misp-galaxy",
+    "source_urls": [
       "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
     ]
   },
@@ -58410,6 +58908,19 @@
     "source_id": "misp-galaxy",
     "source_urls": [
       "http://www.crowdstrike.com/blog/whois-samurai-panda/"
+    ]
+  },
+  {
+    "actor_id": "misp-7732e8b8-b541-428b-8873-2d72ffd39ecb",
+    "confidence": "source-provided",
+    "name": "Wisteria Tsunami",
+    "name_type": "canonical",
+    "naming_org": "MISP Galaxy",
+    "normalized_name": "wisteria tsunami",
+    "source_id": "misp-galaxy",
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide",
+      "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
     ]
   },
   {
