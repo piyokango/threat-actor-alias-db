@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-07-13 05:58:10 UTC
+Generated: 2026-07-20 05:58:53 UTC
 
 ## Summary
 
-- Auto candidates: 54
+- Auto candidates: 68
 - Published items: 0
 - Rejected items: 0
 
@@ -19,6 +19,12 @@ Generated: 2026-07-13 05:58:10 UTC
 
 ### APT18
 
+- **2026-07-17 / BleepingComputer**
+  - Title: Inside the Search for "Clean" Residential Proxies for Carding
+  - URL: https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding
+  - Matched names: COMBINE
+  - Summary: Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek "clean" residential proxies and combine them with browser fingerprints, device profiles, and other identity signals to
+
 - **2026-07-10 / SecurityWeek**
   - Title: GigaWiper Combines Multiple Malware for System-Level Sabotage
   - URL: https://www.securityweek.com/gigawiper-combines-multiple-malware-for-system-level-sabotage
@@ -29,7 +35,7 @@ Generated: 2026-07-13 05:58:10 UTC
   - Title: GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware
   - URL: https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware
   - Matched names: COMBINE
-  - Summary: GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides
+  - Summary: GigaWiper, also tracked as BLUERABBIT, is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate 
 
 - **2026-07-07 / Palo Alto Unit 42**
   - Title: Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation
@@ -58,6 +64,12 @@ Generated: 2026-07-13 05:58:10 UTC
   - Summary: A shift in operational pattern of the infamous Vietnam-aligned APT group
 
 ### APT41
+
+- **2026-07-16 / The Hacker News**
+  - Title: 20+ Hijacked Government Websites Became an Attack Channel
+  - URL: https://thehackernews.com/2026/07/20-hijacked-government-websites.html
+  - Matched names: LEAD
+  - Summary: More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of interactive malware analysis and threat intelligence solutions. The inv
 
 - **2026-07-10 / The Hacker News**
   - Title: From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale
@@ -145,6 +157,30 @@ Generated: 2026-07-13 05:58:10 UTC
 
 ### BRONZE BUTLER
 
+- **2026-07-19 / The Hacker News**
+  - Title: UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware
+  - URL: https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html
+  - Matched names: Nian
+  - Summary: Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emergency Response Team of Ukraine (
+
+- **2026-07-17 / BleepingComputer**
+  - Title: Ernst & Young discloses data breach after support system hack
+  - URL: https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack
+  - Matched names: Tick
+  - Summary: Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]
+
+- **2026-07-16 / The Record**
+  - Title: Ukrainians rally against dismissal of tech-minded defense minister Fedorov
+  - URL: https://therecord.media/ukraine-fedorov-drones-dismissal
+  - Matched names: Nian
+  - Summary: Ukraine President Volodymyr Zelensky dismissed Defense Minister Mykhailo Fedorov, who championed the push to integrate drone technology and digital innovation into the military.
+
+- **2026-07-14 / The Hacker News**
+  - Title: U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support
+  - URL: https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html
+  - Matched names: Nian
+  - Summary: The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has designated two individuals and a VPN service provider for enabling ransomware actors' and other cybercriminals' malicious activities, including ransomware attacks against Amer
+
 - **2026-07-10 / BleepingComputer**
   - Title: Ryuk ransomware member pleads guilty in the US, faces 15 years in prison
   - URL: https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison
@@ -201,11 +237,25 @@ Generated: 2026-07-13 05:58:10 UTC
 
 ### Contagious Interview
 
+- **2026-07-17 / The Hacker News**
+  - Title: Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images
+  - URL: https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html
+  - Matched names: Contagious Interview
+  - Summary: North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake job postings and coding challenges. "Any user who ran 
+
 - **2026-07-04 / The Hacker News**
   - Title: North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign
   - URL: https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html
   - Matched names: Contagious Interview
   - Summary: The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go, and Google Chrome as part of an ongoing activity referred to as Polin
+
+### DragonBreath
+
+- **2026-07-17 / The Hacker News**
+  - Title: GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft
+  - URL: https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html
+  - Matched names: APT-Q-27,
+  - Summary: Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (
 
 ### Earth Lusca
 
@@ -259,6 +309,12 @@ Generated: 2026-07-13 05:58:10 UTC
 
 ### Play
 
+- **2026-07-17 / The Hacker News**
+  - Title: E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants
+  - URL: https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html
+  - Matched names: Play
+  - Summary: The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the display off, and the ability to dri
+
 - **2026-07-10 / The Hacker News**
   - Title: Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking
   - URL: https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html
@@ -273,6 +329,18 @@ Generated: 2026-07-13 05:58:10 UTC
 
 ### Sandworm Team
 
+- **2026-07-19 / The Hacker News**
+  - Title: UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware
+  - URL: https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html
+  - Matched names: Sandworm
+  - Summary: Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emergency Response Team of Ukraine (
+
+- **2026-07-16 / The Hacker News**
+  - Title: 20+ Hijacked Government Websites Became an Attack Channel
+  - URL: https://thehackernews.com/2026/07/20-hijacked-government-websites.html
+  - Matched names: PHANTOM
+  - Summary: More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of interactive malware analysis and threat intelligence solutions. The inv
+
 - **2026-07-01 / The Hacker News**
   - Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
   - URL: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
@@ -286,6 +354,12 @@ Generated: 2026-07-13 05:58:10 UTC
   - Summary: Attackers can exploit LLM domain hallucinations through phantom squatting to target supply chains. Read the analysis to learn more. The post Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector appeared first on Unit 42 .
 
 ### Scattered Spider
+
+- **2026-07-16 / The Hacker News**
+  - Title: Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack
+  - URL: https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html
+  - Matched names: SCATTERED SPIDER, Scattered Spider
+  - Summary: Owen Flowers, 18, and Thalha Jubair, 20, were each sentenced to five and a half years at Woolwich Crown Court on Thursday, 16 July 2026, for the 2024 hack of Transport for London. The attack left 148 TfL systems inoperable and forced all 27,000 of th
 
 - **2026-07-07 / The Hacker News**
   - Title: Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker
@@ -319,6 +393,12 @@ Generated: 2026-07-13 05:58:10 UTC
 
 ### ShinyHunters
 
+- **2026-07-13 / Microsoft Security Blog**
+  - Title: Defending SaaS-based applications against ShinyHunters OAuth abuse
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse
+  - Matched names: ShinyHunters
+  - Summary: Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misconfigured guest access targeting SaaS-based applica
+
 - **2026-07-03 / SecurityWeek**
   - Title: Medtronic Data Breach Impacts 3.8 Million People
   - URL: https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people
@@ -330,6 +410,14 @@ Generated: 2026-07-13 05:58:10 UTC
   - URL: https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach
   - Matched names: ShinyHunters
   - Summary: Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. [...]
+
+### TIDRONE
+
+- **2026-07-17 / The Hacker News**
+  - Title: Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT
+  - URL: https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
+  - Matched names: VENOM
+  - Summary: Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package campaign, codenamed ViteVenom by Checkmarx, marks an ex
 
 ### The Gentlemen
 

@@ -36,7 +36,7 @@
   {
     "actor_id": "mitre-g0026",
     "canonical_name": "APT18",
-    "collected_at": "2026-07-13T05:58:08Z",
+    "collected_at": "2026-07-20T05:58:50Z",
     "feed_url": "https://unit42.paloaltonetworks.com/feed/",
     "id": "3cd52874e4d734b1abbf",
     "matched_names": [
@@ -53,7 +53,7 @@
   {
     "actor_id": "mitre-g0026",
     "canonical_name": "APT18",
-    "collected_at": "2026-07-13T05:58:06Z",
+    "collected_at": "2026-07-20T05:58:48Z",
     "feed_url": "https://www.microsoft.com/en-us/security/blog/feed/",
     "id": "d8da2a0b21ad20319911",
     "matched_names": [
@@ -63,7 +63,7 @@
     "publisher": "Microsoft Security Blog",
     "review_status": "auto_candidate",
     "source_type": "vendor_report",
-    "summary": "GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .",
+    "summary": "GigaWiper, also tracked as BLUERABBIT, is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .",
     "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
     "url": "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware"
   },
@@ -83,6 +83,23 @@
     "summary": "The backdoor’s destructive capabilities include a standalone wiper, ransomware encryption, and a multi-pass wiping command. The post GigaWiper Combines Multiple Malware for System-Level Sabotage appeared first on SecurityWeek .",
     "title": "GigaWiper Combines Multiple Malware for System-Level Sabotage",
     "url": "https://www.securityweek.com/gigawiper-combines-multiple-malware-for-system-level-sabotage"
+  },
+  {
+    "actor_id": "mitre-g0026",
+    "canonical_name": "APT18",
+    "collected_at": "2026-07-20T05:58:51Z",
+    "feed_url": "https://www.bleepingcomputer.com/feed/",
+    "id": "217b3da27052a46df650",
+    "matched_names": [
+      "COMBINE"
+    ],
+    "published_date": "2026-07-17",
+    "publisher": "BleepingComputer",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek \"clean\" residential proxies and combine them with browser fingerprints, device profiles, and other identity signals to evade modern fraud detection. [...]",
+    "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
+    "url": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding"
   },
   {
     "actor_id": "mitre-g0050",
@@ -172,7 +189,7 @@
   {
     "actor_id": "mitre-g0096",
     "canonical_name": "APT41",
-    "collected_at": "2026-07-13T05:58:08Z",
+    "collected_at": "2026-07-20T05:58:51Z",
     "feed_url": "https://blog.talosintelligence.com/rss/",
     "id": "5787668268f6b60309bd",
     "matched_names": [
@@ -340,6 +357,23 @@
     "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison"
   },
   {
+    "actor_id": "mitre-g0096",
+    "canonical_name": "APT41",
+    "collected_at": "2026-07-20T05:58:52Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "fa3793bb157da27a30ec",
+    "matched_names": [
+      "LEAD"
+    ],
+    "published_date": "2026-07-16",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of interactive malware analysis and threat intelligence solutions. The investigation revealed previously undocumented backdoor behavior, hidden infrastructure relationships, and multiple attack arms behind a campaign",
+    "title": "20+ Hijacked Government Websites Became an Attack Channel",
+    "url": "https://thehackernews.com/2026/07/20-hijacked-government-websites.html"
+  },
+  {
     "actor_id": "mitre-g0060",
     "canonical_name": "BRONZE BUTLER",
     "collected_at": "2026-07-06T07:00:54Z",
@@ -408,6 +442,74 @@
     "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison"
   },
   {
+    "actor_id": "mitre-g0060",
+    "canonical_name": "BRONZE BUTLER",
+    "collected_at": "2026-07-20T05:58:53Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "396e54d16517d8c4b7e8",
+    "matched_names": [
+      "Nian"
+    ],
+    "published_date": "2026-07-14",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has designated two individuals and a VPN service provider for enabling ransomware actors' and other cybercriminals' malicious activities, including ransomware attacks against Americans. The VPN, named First VPN Service (1VPNS), has been accused of offering its tools to ransomware groups, along with its 45-year-old Ukrainian",
+    "title": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
+    "url": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html"
+  },
+  {
+    "actor_id": "mitre-g0060",
+    "canonical_name": "BRONZE BUTLER",
+    "collected_at": "2026-07-20T05:58:52Z",
+    "feed_url": "https://therecord.media/feed",
+    "id": "0e1c4cafc3142da5b5cf",
+    "matched_names": [
+      "Nian"
+    ],
+    "published_date": "2026-07-16",
+    "publisher": "The Record",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "Ukraine President Volodymyr Zelensky dismissed Defense Minister Mykhailo Fedorov, who championed the push to integrate drone technology and digital innovation into the military.",
+    "title": "Ukrainians rally against dismissal of tech-minded defense minister Fedorov",
+    "url": "https://therecord.media/ukraine-fedorov-drones-dismissal"
+  },
+  {
+    "actor_id": "mitre-g0060",
+    "canonical_name": "BRONZE BUTLER",
+    "collected_at": "2026-07-20T05:58:51Z",
+    "feed_url": "https://www.bleepingcomputer.com/feed/",
+    "id": "e731a29ac827a00f8096",
+    "matched_names": [
+      "Tick"
+    ],
+    "published_date": "2026-07-17",
+    "publisher": "BleepingComputer",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
+    "title": "Ernst & Young discloses data breach after support system hack",
+    "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack"
+  },
+  {
+    "actor_id": "mitre-g0060",
+    "canonical_name": "BRONZE BUTLER",
+    "collected_at": "2026-07-20T05:58:52Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "e415fb83558f10e48ba4",
+    "matched_names": [
+      "Nian"
+    ],
+    "published_date": "2026-07-19",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emergency Response Team of Ukraine (CERT-UA), the activity has been attributed to UAC-0145, a sub-cluster within Sandworm, an advanced hacking unit affiliated with GRU, Russia's",
+    "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+    "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html"
+  },
+  {
     "actor_id": "misp-069ba781-b2d9-4403-9d9d-c599f5e0181d",
     "canonical_name": "Careto",
     "collected_at": "2026-07-06T07:00:53Z",
@@ -427,7 +529,7 @@
   {
     "actor_id": "misp-069ba781-b2d9-4403-9d9d-c599f5e0181d",
     "canonical_name": "Careto",
-    "collected_at": "2026-07-13T05:58:08Z",
+    "collected_at": "2026-07-20T05:58:50Z",
     "feed_url": "https://unit42.paloaltonetworks.com/feed/",
     "id": "c32206831e13195e4bb4",
     "matched_names": [
@@ -493,6 +595,40 @@
     "url": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html"
   },
   {
+    "actor_id": "mitre-g1052",
+    "canonical_name": "Contagious Interview",
+    "collected_at": "2026-07-20T05:58:52Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "fb0f4076f1699b2eb03e",
+    "matched_names": [
+      "Contagious Interview"
+    ],
+    "published_date": "2026-07-17",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake job postings and coding challenges. \"Any user who ran the project ended up with a four-stage payload aligned with OtterCookie: a browser credential and crypto wallet stealer, a file stealer, a",
+    "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
+    "url": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html"
+  },
+  {
+    "actor_id": "misp-708102cb-0bdd-4a3a-bc15-bcd3d15a7c7b",
+    "canonical_name": "DragonBreath",
+    "collected_at": "2026-07-20T05:58:52Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "3cfc327041c2bf57dd44",
+    "matched_names": [
+      "APT-Q-27,"
+    ],
+    "published_date": "2026-07-17",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (aka APT-Q-27, Dragon Breath, and Miuuti Group), a Chinese cybercrime group known for its targeting of the gambling and gaming sectors using",
+    "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
+    "url": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html"
+  },
+  {
     "actor_id": "mitre-g1006",
     "canonical_name": "Earth Lusca",
     "collected_at": "2026-07-13T05:58:08Z",
@@ -546,7 +682,7 @@
   {
     "actor_id": "mitre-g0047",
     "canonical_name": "Gamaredon Group",
-    "collected_at": "2026-07-13T05:58:08Z",
+    "collected_at": "2026-07-20T05:58:50Z",
     "feed_url": "https://www.welivesecurity.com/feed/",
     "id": "30f5dded1efc5ea12cd4",
     "matched_names": [
@@ -647,6 +783,23 @@
     "url": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html"
   },
   {
+    "actor_id": "mitre-g1040",
+    "canonical_name": "Play",
+    "collected_at": "2026-07-20T05:58:52Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "846567b9b286c140574d",
+    "matched_names": [
+      "Play"
+    ],
+    "published_date": "2026-07-17",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the display off, and the ability to drive other apps in the background by imitating taps and typing. Google has to ship it in the next major release, Android 18, and by 1 August 2027 at",
+    "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
+    "url": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html"
+  },
+  {
     "actor_id": "mitre-g0034",
     "canonical_name": "Sandworm Team",
     "collected_at": "2026-07-06T07:00:54Z",
@@ -666,7 +819,7 @@
   {
     "actor_id": "mitre-g0034",
     "canonical_name": "Sandworm Team",
-    "collected_at": "2026-07-13T05:58:08Z",
+    "collected_at": "2026-07-20T05:58:50Z",
     "feed_url": "https://unit42.paloaltonetworks.com/feed/",
     "id": "98794bdd95fcb959d366",
     "matched_names": [
@@ -679,6 +832,40 @@
     "summary": "Attackers can exploit LLM domain hallucinations through phantom squatting to target supply chains. Read the analysis to learn more. The post Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector appeared first on Unit 42 .",
     "title": "Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector",
     "url": "https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains"
+  },
+  {
+    "actor_id": "mitre-g0034",
+    "canonical_name": "Sandworm Team",
+    "collected_at": "2026-07-20T05:58:52Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "8b8a536dbfa9afdaee6a",
+    "matched_names": [
+      "PHANTOM"
+    ],
+    "published_date": "2026-07-16",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of interactive malware analysis and threat intelligence solutions. The investigation revealed previously undocumented backdoor behavior, hidden infrastructure relationships, and multiple attack arms behind a campaign",
+    "title": "20+ Hijacked Government Websites Became an Attack Channel",
+    "url": "https://thehackernews.com/2026/07/20-hijacked-government-websites.html"
+  },
+  {
+    "actor_id": "mitre-g0034",
+    "canonical_name": "Sandworm Team",
+    "collected_at": "2026-07-20T05:58:52Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "707e2d3a53ffb7751b02",
+    "matched_names": [
+      "Sandworm"
+    ],
+    "published_date": "2026-07-19",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emergency Response Team of Ukraine (CERT-UA), the activity has been attributed to UAC-0145, a sub-cluster within Sandworm, an advanced hacking unit affiliated with GRU, Russia's",
+    "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+    "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html"
   },
   {
     "actor_id": "mitre-g1015",
@@ -771,6 +958,24 @@
     "url": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html"
   },
   {
+    "actor_id": "mitre-g1015",
+    "canonical_name": "Scattered Spider",
+    "collected_at": "2026-07-20T05:58:52Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "cc9a2afeff0546ab3b6f",
+    "matched_names": [
+      "SCATTERED SPIDER",
+      "Scattered Spider"
+    ],
+    "published_date": "2026-07-16",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "Owen Flowers, 18, and Thalha Jubair, 20, were each sentenced to five and a half years at Woolwich Crown Court on Thursday, 16 July 2026, for the 2024 hack of Transport for London. The attack left 148 TfL systems inoperable and forced all 27,000 of the transport authority's employees into an office to get their passwords reset in person. Both the NCA and the CPS put TfL's losses and recovery",
+    "title": "Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack",
+    "url": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html"
+  },
+  {
     "actor_id": "misp-d4fd0a30-15d4-4dfd-bf98-beff5fe34c33",
     "canonical_name": "ShinyHunters",
     "collected_at": "2026-07-06T07:00:52Z",
@@ -805,9 +1010,43 @@
     "url": "https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people"
   },
   {
+    "actor_id": "misp-d4fd0a30-15d4-4dfd-bf98-beff5fe34c33",
+    "canonical_name": "ShinyHunters",
+    "collected_at": "2026-07-20T05:58:48Z",
+    "feed_url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "id": "df8ad6e1c88715da3764",
+    "matched_names": [
+      "ShinyHunters"
+    ],
+    "published_date": "2026-07-13",
+    "publisher": "Microsoft Security Blog",
+    "review_status": "auto_candidate",
+    "source_type": "vendor_report",
+    "summary": "Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misconfigured guest access targeting SaaS-based applications. The post Defending SaaS-based applications against ShinyHunters OAuth abuse appeared first on Microsoft Security Blog .",
+    "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse"
+  },
+  {
+    "actor_id": "misp-020d512f-0636-482b-8033-2bd404e0321f",
+    "canonical_name": "TIDRONE",
+    "collected_at": "2026-07-20T05:58:52Z",
+    "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+    "id": "d660f28d78eedebcfc81",
+    "matched_names": [
+      "VENOM"
+    ],
+    "published_date": "2026-07-17",
+    "publisher": "The Hacker News",
+    "review_status": "auto_candidate",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package campaign, codenamed ViteVenom by Checkmarx, marks an expansion of ChainVeil, which was observed using an \"unprecedented\" four-tier blockchain-based command-and-control (C2) infrastructure spanning Tron,",
+    "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
+    "url": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html"
+  },
+  {
     "actor_id": "misp-1c047671-227b-466f-9929-37df40abd485",
     "canonical_name": "The Gentlemen",
-    "collected_at": "2026-07-13T05:58:08Z",
+    "collected_at": "2026-07-20T05:58:50Z",
     "feed_url": "https://unit42.paloaltonetworks.com/feed/",
     "id": "67e3dc99ada4ca237c10",
     "matched_names": [

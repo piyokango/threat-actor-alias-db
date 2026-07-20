@@ -1,6 +1,6 @@
 # Threat Actor Alias DB update report
 
-Generated: 2026-07-13 05:58:13 UTC
+Generated: 2026-07-20 05:58:55 UTC
 
 ## Summary
 
@@ -10,7 +10,7 @@ Generated: 2026-07-13 05:58:13 UTC
 - Descriptions: 1134
 - Attribution rows: 535
 - Technique links: 4546
-- Review candidates: 72
+- Review candidates: 75
 - Duplicate canonical groups merged: 0
 
 ## Actors by source
@@ -91,6 +91,7 @@ Generated: 2026-07-13 05:58:13 UTC
 - (no name): no unique existing actor match (mitre-g0005, mitre-g1023)
 - (no name): no unique existing actor match (mitre-g0119, mitre-g1020)
 - (no name): no unique existing actor match 
+- (no name): no unique existing actor match 
 - (no name): no unique existing actor match (misp-02768be6-853c-4239-8fb1-823427489a86, mitre-g0032, mitre-g0138)
 - (no name): no unique existing actor match (misp-5f71a9ea-511d-4fdd-9807-271ef613f488, mitre-g0094)
 - (no name): no unique existing actor match (mitre-g0129, mitre-g1030)
@@ -101,7 +102,8 @@ Generated: 2026-07-13 05:58:13 UTC
 - (no name): no unique existing actor match (misp-b7e897da-108b-4f5b-b32b-3fd9375cc55e, misp-d8e1762a-0063-48c2-9ea1-8d176d14b70f, mitre-g0032, mitre-g0082)
 - (no name): no unique existing actor match 
 - (no name): no unique existing actor match (misp-a2a7d49f-f517-4eeb-9ec8-b9b74e3fe756, mitre-g1012)
-- (no name): no unique existing actor match (mitre-g0134, mitre-g1008)
+- (no name): no unique existing actor match 
+- (no name): no unique existing actor match 
 - (no name): no unique existing actor match 
 - (no name): no unique existing actor match 
 - (no name): no unique existing actor match 
@@ -136,6 +138,7 @@ Generated: 2026-07-13 05:58:13 UTC
 - (no name): no unique existing actor match 
 - (no name): no unique existing actor match 
 - (no name): no unique existing actor match (mitre-g0129, mitre-g1014)
+- (no name): no unique existing actor match (mitre-g0134, mitre-g1008)
 - (no name): no unique existing actor match 
 - (no name): no unique existing actor match 
 - (no name): no unique existing actor match 
