@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-07-20 05:58:53 UTC
+Generated: 2026-07-27 06:16:55 UTC
 
 ## Summary
 
-- Auto candidates: 68
+- Auto candidates: 89
 - Published items: 0
 - Rejected items: 0
 
@@ -17,7 +17,27 @@ Generated: 2026-07-20 05:58:53 UTC
 
 ## Candidates by actor
 
+### APT-C-23
+
+- **2026-07-25 / The Hacker News**
+  - Title: DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts
+  - URL: https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html
+  - Matched names: Mantis
+  - Summary: The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity comp
+
 ### APT18
+
+- **2026-07-25 / The Hacker News**
+  - Title: DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts
+  - URL: https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html
+  - Matched names: COMBINE
+  - Summary: The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity comp
+
+- **2026-07-21 / The Hacker News**
+  - Title: WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning
+  - URL: https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html
+  - Matched names: COMBINE
+  - Summary: Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable websites. The two security flaws, tracked as CVE-2026-630
 
 - **2026-07-17 / BleepingComputer**
   - Title: Inside the Search for "Clean" Residential Proxies for Carding
@@ -63,7 +83,27 @@ Generated: 2026-07-20 05:58:53 UTC
   - Matched names: OceanLotus
   - Summary: A shift in operational pattern of the infamous Vietnam-aligned APT group
 
+### APT38
+
+- **2026-07-24 / The Hacker News**
+  - Title: BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery
+  - URL: https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html
+  - Matched names: Bluenoroff
+  - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
+
 ### APT41
+
+- **2026-07-24 / The Hacker News**
+  - Title: Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say
+  - URL: https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html
+  - Matched names: LEAD
+  - Summary: Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22, 7.4.9, 8.6.4, and 8.8.0. All four chains require RESTORE. The Streams chains also need EVAL and XGROUP; the 8.8.0 chain needs 
+
+- **2026-07-22 / The Hacker News**
+  - Title: The Fastest Path to AI Adoption Runs Through Security
+  - URL: https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html
+  - Matched names: LEAD
+  - Summary: Security leaders who build fast, visible paths to AI adoption are becoming the most valued partners in their organizations. AI governance done right gives security teams the visibility they need, employees the tools they want, and CISOs the strategic
 
 - **2026-07-16 / The Hacker News**
   - Title: 20+ Hijacked Government Websites Became an Attack Channel
@@ -207,6 +247,12 @@ Generated: 2026-07-20 05:58:53 UTC
 
 ### Careto
 
+- **2026-07-21 / The Hacker News**
+  - Title: Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs
+  - URL: https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html
+  - Matched names: Mask
+  - Summary: Apple has moved to address a security flaw in its Hide My Email service that enabled users' real email addresses to be unmasked, effectively undermining the feature's privacy guarantees. 404 Media reported Tuesday that a fix for the issue was deploye
+
 - **2026-07-07 / Palo Alto Unit 42**
   - Title: Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation
   - URL: https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis
@@ -220,6 +266,18 @@ Generated: 2026-07-20 05:58:53 UTC
   - Summary: NetNut rented access to millions of compromised devices, allowing cybercriminals and nation-state actors to mask their identities during attacks. The post Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices appeared fi
 
 ### Cleaver
+
+- **2026-07-25 / The Hacker News**
+  - Title: Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
+  - URL: https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html
+  - Matched names: Alibaba
+  - Summary: Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privilege
+
+- **2026-07-23 / The Hacker News**
+  - Title: China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks
+  - URL: https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html
+  - Matched names: Alibaba
+  - Summary: An exposed Alibaba Cloud server has revealed a China-nexus operation that Group-IB tracks as JadeProx. The cluster has targeted government, healthcare, and education organizations across Asia and Latin America with a previously undocumented Windows l
 
 - **2026-07-10 / The Hacker News**
   - Title: Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers
@@ -249,6 +307,14 @@ Generated: 2026-07-20 05:58:53 UTC
   - Matched names: Contagious Interview
   - Summary: The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go, and Google Chrome as part of an ongoing activity referred to as Polin
 
+### DEV-0950
+
+- **2026-07-25 / The Hacker News**
+  - Title: Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE
+  - URL: https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
+  - Matched names: Lace Tempest
+  - Summary: Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. "Attackers ch
+
 ### DragonBreath
 
 - **2026-07-17 / The Hacker News**
@@ -277,6 +343,30 @@ Generated: 2026-07-20 05:58:53 UTC
   - Matched names: FISHMONGER
   - Summary: ESET researchers have discovered SprySOCKS for Windows, FishMonger’s backdoor weaponizing a kernel driver for advanced stealthiness
 
+### FIN1
+
+- **2026-07-25 / The Hacker News**
+  - Title: Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE
+  - URL: https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
+  - Matched names: FIN1
+  - Summary: Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. "Attackers ch
+
+### FIN11
+
+- **2026-07-25 / The Hacker News**
+  - Title: Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE
+  - URL: https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
+  - Matched names: FIN11
+  - Summary: Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. "Attackers ch
+
+### GC01
+
+- **2026-07-24 / The Hacker News**
+  - Title: Golden Chickens Resurfaces With Four New Malware Families and Modular Implants
+  - URL: https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html
+  - Matched names: Golden Chickens
+  - Summary: The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping despite extensive public disclosures into their inner wo
+
 ### Gamaredon Group
 
 - **2026-06-29 / The Hacker News**
@@ -299,6 +389,22 @@ Generated: 2026-07-20 05:58:53 UTC
   - Matched names: Kairos
   - Summary: A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new&nbsp;case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: 
 
+### Lazarus Group
+
+- **2026-07-24 / The Hacker News**
+  - Title: BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery
+  - URL: https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html
+  - Matched names: Bluenoroff
+  - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
+
+### Lotus Blossom
+
+- **2026-07-24 / BleepingComputer**
+  - Title: Europol flags 4,340 URLs for removal in 'The Com' crackdown
+  - URL: https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown
+  - Matched names: ST Group
+  - Summary: Europol has flagged 4,340 URLs for removal during a multi-week operation targeting online content linked to "The Com," a loosely organized network of nihilistic violent extremist groups. [...]
+
 ### Mustang Panda
 
 - **2026-06-29 / The Hacker News**
@@ -308,6 +414,12 @@ Generated: 2026-07-20 05:58:53 UTC
   - Summary: The China-aligned espionage group&nbsp;Mustang Panda&nbsp;is running two campaigns against the Indian government and hydropower targets, deploying new malware and turning a legitimate cloud service into its command channel. Acronis Threat Research Un
 
 ### Play
+
+- **2026-07-25 / The Hacker News**
+  - Title: CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking
+  - URL: https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html
+  - Matched names: Play
+  - Summary: For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose.
 
 - **2026-07-17 / The Hacker News**
   - Title: E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants
@@ -328,6 +440,12 @@ Generated: 2026-07-20 05:58:53 UTC
   - Summary: Convince an AI browser that it is playing a game, and it can hand over your login details. That is the finding behind&nbsp;BioShocking, a technique from security firm LayerX that tricked six AI browsers and assistants into copying a user's credential
 
 ### Sandworm Team
+
+- **2026-07-24 / BleepingComputer**
+  - Title: Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack
+  - URL: https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack
+  - Matched names: PHANTOM
+  - Summary: Slopsquatting, phantom squatting, and HalluSquatting all exploit the same late-binding attack pattern, where AI coding agents trust hallucinated package, repo, or domain names. ActiveState explains how pre-fetch verification and governed dependency m
 
 - **2026-07-19 / The Hacker News**
   - Title: UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware
@@ -393,6 +511,12 @@ Generated: 2026-07-20 05:58:53 UTC
 
 ### ShinyHunters
 
+- **2026-07-25 / BleepingComputer**
+  - Title: ShinyHunters data leaks fuel $2,000 sextortion email scam
+  - URL: https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam
+  - Matched names: ShinyHunters
+  - Summary: Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]
+
 - **2026-07-13 / Microsoft Security Blog**
   - Title: Defending SaaS-based applications against ShinyHunters OAuth abuse
   - URL: https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse
@@ -410,6 +534,14 @@ Generated: 2026-07-20 05:58:53 UTC
   - URL: https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach
   - Matched names: ShinyHunters
   - Summary: Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. [...]
+
+### TA505
+
+- **2026-07-25 / The Hacker News**
+  - Title: Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE
+  - URL: https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
+  - Matched names: GRACEFUL SPIDER
+  - Summary: Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. "Attackers ch
 
 ### TIDRONE
 
@@ -449,6 +581,14 @@ Generated: 2026-07-20 05:58:53 UTC
   - Matched names: Turla
   - Summary: This week was a reminder that attackers do not always need big tricks. One small mistake, one old access path, one missed patch, and suddenly the door is open. The noise is not all noise, either. Forums are talking, researchers are finding easy crack
 
+### UAC-0099
+
+- **2026-07-24 / The Hacker News**
+  - Title: Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks
+  - URL: https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html
+  - Matched names: UAC-0099
+  - Summary: The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems. The activity has been attributed by the agency 
+
 ### VOID MANTICORE
 
 - **2026-07-03 / SecurityWeek**
@@ -469,4 +609,12 @@ Generated: 2026-07-20 05:58:53 UTC
   - Title: New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic
   - URL: https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html
   - Matched names: Silver Fox
-  - Summary: The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin said that while the threat cluster may appear like a low-sophistication,
+  - Summary: The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin said that while the threat cluster may appear like a low-sophistication, 
+
+### Void Blizzard
+
+- **2026-07-23 / The Record**
+  - Title: International alert spotlights Russia-linked attacks on Zimbra webmail
+  - URL: https://therecord.media/zimbra-webmail-zero-click-phishing-russia-laundry-bear
+  - Matched names: Laundry Bear, LAUNDRY BEAR
+  - Summary: A Kremlin-backed group known as Laundry Bear has been using a zero-click phishing technique to break into Zimbra webmail accounts worldwide, the U.S. and other nations said.
