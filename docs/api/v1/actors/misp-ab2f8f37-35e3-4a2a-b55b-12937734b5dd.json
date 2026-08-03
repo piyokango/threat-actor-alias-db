@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-ab2f8f37-35e3-4a2a-b55b-12937734b5dd",
+    "canonical_name": "UNC2529",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-ab2f8f37-35e3-4a2a-b55b-12937734b5dd"
+    ],
+    "misp_uuid": "ab2f8f37-35e3-4a2a-b55b-12937734b5dd",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unc2529",
+        "confidence": "source-provided",
+        "display_group_key": "unc2529",
+        "name": "UNC2529",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc2529",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.fireeye.com/blog/threat-research/2021/05/unc2529-triple-double-trifecta-phishing-campaign.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.fireeye.com/blog/threat-research/2021/05/unc2529-triple-double-trifecta-phishing-campaign.html"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC2529"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UNC2529 is a well-resourced threat actor that conducted a global phishing campaign targeting various industries, utilizing tailored lures and sophisticated malware, including DOUBLEDRAG, DOUBLEDROP, and DOUBLEBACK. They compromised a legitimate domain to enhance their phishing efforts and employed at least 50 domains throughout the campaign. The actor demonstrated target research through personalized email addresses and subject lines, indicating a non-native English speaker. Their activities suggest a financial crime motive, with extensive use of obfuscation and fileless malware to evade detection."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-ab2f8f37-35e3-4a2a-b55b-12937734b5dd",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.fireeye.com/blog/threat-research/2021/05/unc2529-triple-double-trifecta-phishing-campaign.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "UNC2529"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-08-03"
+  },
+  "generated_at": "2026-08-03T06:09:39Z"
+}

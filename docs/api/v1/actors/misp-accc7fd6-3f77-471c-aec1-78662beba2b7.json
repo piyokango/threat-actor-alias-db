@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-accc7fd6-3f77-471c-aec1-78662beba2b7",
+    "canonical_name": "UAT-7810",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-accc7fd6-3f77-471c-aec1-78662beba2b7"
+    ],
+    "misp_uuid": "accc7fd6-3f77-471c-aec1-78662beba2b7",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "uat7810",
+        "confidence": "source-provided",
+        "display_group_key": "uat7810",
+        "name": "UAT-7810",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uat 7810",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.talosintelligence.com/uat-7810"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/uat-7810"
+            ]
+          }
+        ],
+        "variants": [
+          "UAT-7810"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UAT-7810 is an APT actor responsible for maintaining the LapDogs ORB network and developing custom malware, including the backdoors SHORTLEASH and LONGLEASH, as well as DOGLEASH and JARLEASH. They exploit known vulnerabilities in unpatched Ruckus wireless routers and have been observed using infrastructure to host malicious payloads across various hardware platforms. Forensic analysis has revealed their use of multiple IP addresses for hosting and deploying malware, including a test binary named LEASHTEST for functionality checks on MIPS devices. Talos assesses UAT-7810 as a China-nexus threat actor, providing infrastructure to secondary APTs while maintaining distinct objectives."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-accc7fd6-3f77-471c-aec1-78662beba2b7",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/uat-7810"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "UAT-7810"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-08-03"
+  },
+  "generated_at": "2026-08-03T06:09:39Z"
+}

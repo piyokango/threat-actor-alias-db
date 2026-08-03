@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-2c1b3ad6-6354-4e97-a407-6105b223dfe9",
+    "canonical_name": "Hyadina",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-2c1b3ad6-6354-4e97-a407-6105b223dfe9"
+    ],
+    "misp_uuid": "2c1b3ad6-6354-4e97-a407-6105b223dfe9",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "hyadina",
+        "confidence": "source-provided",
+        "display_group_key": "hyadina",
+        "name": "Hyadina",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "hyadina",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.security.com/threat-intelligence/goddamn-ransomware-beast-rebrand"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.security.com/threat-intelligence/goddamn-ransomware-beast-rebrand"
+            ]
+          }
+        ],
+        "variants": [
+          "Hyadina"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Hyadina is a threat actor that first emerged in March 2022, deploying its Monster ransomware variant primarily targeting 32-bit Windows systems while avoiding the CIS region. The group rebranded its ransomware as Beast in June 2024, enhancing its toolset to include support for Linux and VMware ESXi, and incorporating extensive use of NirSoft tools. The latest iteration, GodDamn, showcases advanced defensive evasion techniques, including the use of the PoisonX malicious driver component. Hyadina operates as a ransomware-as-a-service, collaborating with affiliates to execute attacks."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-2c1b3ad6-6354-4e97-a407-6105b223dfe9",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.security.com/threat-intelligence/goddamn-ransomware-beast-rebrand"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Hyadina"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-08-03"
+  },
+  "generated_at": "2026-08-03T06:09:39Z"
+}

@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-2281a516-8bb2-4f9d-8080-f2b8c4db42ea",
+    "canonical_name": "Cavern Manticore",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-2281a516-8bb2-4f9d-8080-f2b8c4db42ea"
+    ],
+    "misp_uuid": "2281a516-8bb2-4f9d-8080-f2b8c4db42ea",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "cavernmanticore",
+        "confidence": "source-provided",
+        "display_group_key": "cavernmanticore",
+        "name": "Cavern Manticore",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cavern manticore",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework"
+            ]
+          }
+        ],
+        "variants": [
+          "Cavern Manticore"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Cavern Manticore is an Iran-nexus APT primarily targeting Israeli organizations in the government and IT sectors, linked to the MOIS. The group employs a modular command-and-control framework built on a shared .NET foundation, utilizing multiple compilation formats to create an anti-analysis layer. Their operations demonstrate a high operational tempo and a disciplined approach to target selection, particularly during campaigns like \"Operation Epic Fury.\" By decoupling core infrastructure from mission-specific modules, Cavern Manticore enhances operational agility while complicating detection efforts for defenders."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-2281a516-8bb2-4f9d-8080-f2b8c4db42ea",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "IR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "IR"
+        }
+      ]
+    },
+    "search_names": [
+      "Cavern Manticore"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-08-03"
+  },
+  "generated_at": "2026-08-03T06:09:39Z"
+}

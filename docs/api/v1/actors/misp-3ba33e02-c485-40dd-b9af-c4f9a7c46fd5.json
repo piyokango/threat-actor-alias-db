@@ -1,0 +1,137 @@
+{
+  "actor": {
+    "actor_id": "misp-3ba33e02-c485-40dd-b9af-c4f9a7c46fd5",
+    "canonical_name": "JadePuffer",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-3ba33e02-c485-40dd-b9af-c4f9a7c46fd5"
+    ],
+    "misp_uuid": "3ba33e02-c485-40dd-b9af-c4f9a7c46fd5",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "jadepuffer",
+        "confidence": "source-provided",
+        "display_group_key": "jadepuffer",
+        "name": "JadePuffer",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "jadepuffer",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://krypt3ia.wordpress.com/2026/07/13/threat-intelligence-report-jadepuffer-agentic-ransomware-and-automated-extortion",
+          "https://nsfocusglobal.com/ai-security-incident-jadepuffer-ransomware-leverages-ai-agent-to-automate-attacks",
+          "https://securereading.com/jadepuffer-ai-ransomware-autonomous-llm-attack",
+          "https://socfortress.medium.com/jadepuffer-the-dawn-of-agentic-ransomware-operations-003a59848007",
+          "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://krypt3ia.wordpress.com/2026/07/13/threat-intelligence-report-jadepuffer-agentic-ransomware-and-automated-extortion",
+              "https://nsfocusglobal.com/ai-security-incident-jadepuffer-ransomware-leverages-ai-agent-to-automate-attacks",
+              "https://securereading.com/jadepuffer-ai-ransomware-autonomous-llm-attack",
+              "https://socfortress.medium.com/jadepuffer-the-dawn-of-agentic-ransomware-operations-003a59848007",
+              "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
+            ]
+          }
+        ],
+        "variants": [
+          "JadePuffer"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "JADEPUFFER is an agentic threat actor that executed a fully autonomous ransomware operation, leveraging a Large Language Model to automate the entire attack chain from initial access to data destruction. It exploited CVE-2025-3248 against an exposed Langflow instance for initial access, then compromised MinIO using default credentials and manipulated MySQL for privilege escalation. The operation culminated in the encryption of over 1,300 configuration records in Nacos, with the encryption key lost, rendering the data unrecoverable. JADEPUFFER exemplifies a shift towards machine-speed extortion, where traditional security models are outpaced by automated threats."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-3ba33e02-c485-40dd-b9af-c4f9a7c46fd5",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://krypt3ia.wordpress.com/2026/07/13/threat-intelligence-report-jadepuffer-agentic-ransomware-and-automated-extortion"
+      },
+      {
+        "actor_id": "misp-3ba33e02-c485-40dd-b9af-c4f9a7c46fd5",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://nsfocusglobal.com/ai-security-incident-jadepuffer-ransomware-leverages-ai-agent-to-automate-attacks"
+      },
+      {
+        "actor_id": "misp-3ba33e02-c485-40dd-b9af-c4f9a7c46fd5",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://securereading.com/jadepuffer-ai-ransomware-autonomous-llm-attack"
+      },
+      {
+        "actor_id": "misp-3ba33e02-c485-40dd-b9af-c4f9a7c46fd5",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socfortress.medium.com/jadepuffer-the-dawn-of-agentic-ransomware-operations-003a59848007"
+      },
+      {
+        "actor_id": "misp-3ba33e02-c485-40dd-b9af-c4f9a7c46fd5",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "JadePuffer"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-08-03"
+  },
+  "generated_at": "2026-08-03T06:09:39Z"
+}

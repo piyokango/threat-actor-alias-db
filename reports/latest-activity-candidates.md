@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-07-27 06:16:55 UTC
+Generated: 2026-08-03 06:09:38 UTC
 
 ## Summary
 
-- Auto candidates: 89
+- Auto candidates: 112
 - Published items: 0
 - Rejected items: 0
 
@@ -26,6 +26,18 @@ Generated: 2026-07-27 06:16:55 UTC
   - Summary: The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity comp
 
 ### APT18
+
+- **2026-07-31 / The Hacker News**
+  - Title: Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined
+  - URL: https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html
+  - Matched names: COMBINE
+  - Summary: Google on Thursday announced that it fixed a whopping 1,072 security bugs in Chrome versions 149 and 150, surpassing the total number of flaws the company fixed across the prior 23 milestones combined. Both versions were released last month. In its l
+
+- **2026-07-30 / The Hacker News**
+  - Title: SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT
+  - URL: https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html
+  - Matched names: COMBINE
+  - Summary: The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ValleyRAT 
 
 - **2026-07-25 / The Hacker News**
   - Title: DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts
@@ -75,6 +87,20 @@ Generated: 2026-07-27 06:16:55 UTC
   - Matched names: COMBINE
   - Summary: Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing traditional security controls. Avalon combines credential 
 
+### APT29
+
+- **2026-08-01 / The Hacker News**
+  - Title: Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware
+  - URL: https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html
+  - Matched names: Midnight Blizzard
+  - Summary: A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report. Researchers track the opera
+
+- **2026-07-31 / Microsoft Security Blog**
+  - Title: CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft
+  - Matched names: Midnight Blizzard
+  - Summary: Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credenti
+
 ### APT32
 
 - **2026-06-11 / ESET WeLiveSecurity**
@@ -85,6 +111,12 @@ Generated: 2026-07-27 06:16:55 UTC
 
 ### APT38
 
+- **2026-07-30 / The Hacker News**
+  - Title: Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet
+  - URL: https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html
+  - Matched names: Sapphire Sleet
+  - Summary: Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script push
+
 - **2026-07-24 / The Hacker News**
   - Title: BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery
   - URL: https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html
@@ -92,6 +124,12 @@ Generated: 2026-07-27 06:16:55 UTC
   - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
 
 ### APT41
+
+- **2026-07-29 / Microsoft Security Blog**
+  - Title: ​​Better security starts with better questions
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/07/29/better-security-starts-with-better-questions
+  - Matched names: LEAD
+  - Summary: Learn how better questions, trusted AI, and human judgment help security leaders make confident decisions and build resilient systems. The post ​​Better security starts with better questions appeared first on Microsoft Security Blog .
 
 - **2026-07-24 / The Hacker News**
   - Title: Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say
@@ -197,6 +235,18 @@ Generated: 2026-07-27 06:16:55 UTC
 
 ### BRONZE BUTLER
 
+- **2026-07-31 / SecurityWeek**
+  - Title: Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers
+  - URL: https://www.securityweek.com/cyberattacks-on-minnesota-water-systems-investigated-as-officials-warn-about-iranian-hackers
+  - Matched names: Nian
+  - Summary: Iran has the “geopolitical motivations” and a recent history of targeting water systems, experts pointed out. The post Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers appeared first on SecurityWeek .
+
+- **2026-07-28 / The Hacker News**
+  - Title: Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays
+  - URL: https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html
+  - Matched names: Nian
+  - Summary: The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South 
+
 - **2026-07-19 / The Hacker News**
   - Title: UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware
   - URL: https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html
@@ -244,6 +294,14 @@ Generated: 2026-07-27 06:16:55 UTC
   - URL: https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html
   - Matched names: Nian
   - Summary: A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice&nbsp;announced&nbsp;on July 1. Peter Stokes, 19, 
+
+### CURIUM
+
+- **2026-07-28 / The Hacker News**
+  - Title: Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays
+  - URL: https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html
+  - Matched names: Smoke Sandstorm
+  - Summary: The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South 
 
 ### Careto
 
@@ -294,6 +352,18 @@ Generated: 2026-07-27 06:16:55 UTC
   - Summary: A newly discovered cyber attack campaign has been observed delivering a previously undocumented malware family called SharkLoader that acts as a loader for deploying Cobalt Strike Beacon on compromised hosts. Kaspersky, which is tracking the activity
 
 ### Contagious Interview
+
+- **2026-07-30 / The Hacker News**
+  - Title: DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware
+  - URL: https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html
+  - Matched names: Contagious Interview
+  - Summary: Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new ite
+
+- **2026-07-29 / The Hacker News**
+  - Title: Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js
+  - URL: https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html
+  - Matched names: DEV#POPPER
+  - Summary: Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family. The list of affected packages is as follows - @joyfill/layouts@0.1.2-2773
 
 - **2026-07-17 / The Hacker News**
   - Title: Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images
@@ -389,7 +459,21 @@ Generated: 2026-07-27 06:16:55 UTC
   - Matched names: Kairos
   - Summary: A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new&nbsp;case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: 
 
+### Ke3chang
+
+- **2026-07-28 / The Hacker News**
+  - Title: Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays
+  - URL: https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html
+  - Matched names: Mirage
+  - Summary: The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South 
+
 ### Lazarus Group
+
+- **2026-07-30 / The Hacker News**
+  - Title: Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet
+  - URL: https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html
+  - Matched names: Sapphire Sleet
+  - Summary: Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script push
 
 - **2026-07-24 / The Hacker News**
   - Title: BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery
@@ -415,6 +499,18 @@ Generated: 2026-07-27 06:16:55 UTC
 
 ### Play
 
+- **2026-07-30 / The Hacker News**
+  - Title: DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware
+  - URL: https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html
+  - Matched names: Play
+  - Summary: Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new ite
+
+- **2026-07-29 / The Hacker News**
+  - Title: Mythos Asks the Right Question. It Doesn't Answer It.
+  - URL: https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html
+  - Matched names: Play
+  - Summary: AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along. The conversation happening in security circles right now goes some
+
 - **2026-07-25 / The Hacker News**
   - Title: CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking
   - URL: https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html
@@ -438,6 +534,14 @@ Generated: 2026-07-27 06:16:55 UTC
   - URL: https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html
   - Matched names: Play
   - Summary: Convince an AI browser that it is playing a game, and it can hand over your login details. That is the finding behind&nbsp;BioShocking, a technique from security firm LayerX that tricked six AI browsers and assistants into copying a user's credential
+
+### STARDUST CHOLLIMA
+
+- **2026-07-30 / The Hacker News**
+  - Title: Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet
+  - URL: https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html
+  - Matched names: Sapphire Sleet
+  - Summary: Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script push
 
 ### Sandworm Team
 
@@ -509,6 +613,14 @@ Generated: 2026-07-27 06:16:55 UTC
   - Matched names: SCATTERED SPIDER, Scattered Spider
   - Summary: A complaint unsealed this week accuses a 19-year-old of participating in incidents including a breach of a "luxury-jewelry retailer" in 2025.
 
+### Sea Turtle
+
+- **2026-07-31 / The Record**
+  - Title: Cyber Command plans Silicon Valley office to drive innovation
+  - URL: https://therecord.media/cyber-command-plans-silicon-valley-office-to-drive-innovation
+  - Matched names: SILICON
+  - Summary: The outpost will have its own director, though no one has yet been named for the post, and support the command’s nascent Cyber Warfare Innovation Center (CIWC).
+
 ### ShinyHunters
 
 - **2026-07-25 / BleepingComputer**
@@ -567,6 +679,14 @@ Generated: 2026-07-27 06:16:55 UTC
   - Matched names: ToddyCat
   - Summary: The threat actor known as ToddyCat has been attributed to a new malware called Umbrij that's designed to gain surreptitious access to a victim's email correspondence via the Google API. "In this campaign, the attackers focused their attention on corp
 
+### Tonto Team
+
+- **2026-07-30 / The Hacker News**
+  - Title: Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts
+  - URL: https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html
+  - Matched names: COPPER
+  - Summary: South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect targeted visitor
+
 ### Turla
 
 - **2026-07-03 / The Hacker News**
@@ -589,6 +709,30 @@ Generated: 2026-07-27 06:16:55 UTC
   - Matched names: UAC-0099
   - Summary: The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems. The activity has been attributed by the agency 
 
+### UAT-11795
+
+- **2026-07-16 / Cisco Talos**
+  - Title: UAT-11795 deploys novel Starland RAT and bespoke WLDR C2 implant in financially motivated campaign
+  - URL: https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign
+  - Matched names: UAT-11795
+  - Summary: Cisco Talos is disclosing UAT-11795, a sophisticated, Russian-speaking, financially motivated adversary that has been conducting a malicious campaign targeting users in the U.S. and Europe since at least June 2025.
+
+### UAT-7810
+
+- **2026-07-07 / Cisco Talos**
+  - Title: UAT-7810 continues building ORB networks using new malware
+  - URL: https://blog.talosintelligence.com/uat-7810
+  - Matched names: UAT-7810
+  - Summary: Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
+
+### UNC1549
+
+- **2026-07-28 / The Hacker News**
+  - Title: Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays
+  - URL: https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html
+  - Matched names: Nimbus Manticore, UNC1549
+  - Summary: The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South 
+
 ### VOID MANTICORE
 
 - **2026-07-03 / SecurityWeek**
@@ -605,6 +749,12 @@ Generated: 2026-07-27 06:16:55 UTC
 
 ### Void Arachne
 
+- **2026-07-30 / The Hacker News**
+  - Title: SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT
+  - URL: https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html
+  - Matched names: Silver Fox
+  - Summary: The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ValleyRAT 
+
 - **2026-07-10 / The Hacker News**
   - Title: New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic
   - URL: https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html
@@ -618,3 +768,11 @@ Generated: 2026-07-27 06:16:55 UTC
   - URL: https://therecord.media/zimbra-webmail-zero-click-phishing-russia-laundry-bear
   - Matched names: Laundry Bear, LAUNDRY BEAR
   - Summary: A Kremlin-backed group known as Laundry Bear has been using a zero-click phishing technique to break into Zimbra webmail accounts worldwide, the U.S. and other nations said.
+
+### Watchdog
+
+- **2026-07-28 / The Hacker News**
+  - Title: Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process
+  - URL: https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
+  - Matched names: Watchdog
+  - Summary: A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi N
