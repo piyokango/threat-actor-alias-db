@@ -1,0 +1,118 @@
+{
+  "actor": {
+    "actor_id": "misp-56bc8e25-6915-4e2e-8d44-9d3b14aab9f6",
+    "canonical_name": "Fox Tempest",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-56bc8e25-6915-4e2e-8d44-9d3b14aab9f6"
+    ],
+    "misp_uuid": "56bc8e25-6915-4e2e-8d44-9d3b14aab9f6",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "foxtempest",
+        "confidence": "source-provided",
+        "display_group_key": "foxtempest",
+        "name": "Fox Tempest",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "fox tempest",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blogs.microsoft.com/on-the-issues/2026/05/19/disrupting-fox-tempest-a-cybercrime-service",
+          "https://therecord.media/microsoft-disrupts-fox-tempest-malware-signing-service",
+          "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blogs.microsoft.com/on-the-issues/2026/05/19/disrupting-fox-tempest-a-cybercrime-service",
+              "https://therecord.media/microsoft-disrupts-fox-tempest-malware-signing-service",
+              "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation"
+            ]
+          }
+        ],
+        "variants": [
+          "Fox Tempest"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Fox Tempest is a financially motivated threat actor that operated a malware-signing-as-a-service (MSaaS) sold to other cybercriminals to sign malware, including ransomware, as trusted software and evade detection. The service, marketed through the domain signspace[.]cloud and a Telegram channel, abused Microsoft Artifact Signing to issue short-lived fraudulent code-signing certificates and offered signing plans priced between 5,000 and 9,000 USD, with higher tiers providing pre-configured virtual machines for signing malicious code. Microsoft tracked the operation from September 2025 and observed its certificates used to distribute malware families such as Oyster, Lumma Stealer, and Vidar..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-56bc8e25-6915-4e2e-8d44-9d3b14aab9f6",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://blogs.microsoft.com/on-the-issues/2026/05/19/disrupting-fox-tempest-a-cybercrime-service"
+      },
+      {
+        "actor_id": "misp-56bc8e25-6915-4e2e-8d44-9d3b14aab9f6",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://therecord.media/microsoft-disrupts-fox-tempest-malware-signing-service"
+      },
+      {
+        "actor_id": "misp-56bc8e25-6915-4e2e-8d44-9d3b14aab9f6",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Fox Tempest"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-08-10"
+  },
+  "generated_at": "2026-08-10T04:21:57Z"
+}

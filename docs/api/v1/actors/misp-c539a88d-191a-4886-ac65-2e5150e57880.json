@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-c539a88d-191a-4886-ac65-2e5150e57880",
+    "canonical_name": "Larva-26005",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-c539a88d-191a-4886-ac65-2e5150e57880"
+    ],
+    "misp_uuid": "c539a88d-191a-4886-ac65-2e5150e57880",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "larva26005",
+        "confidence": "source-provided",
+        "display_group_key": "larva26005",
+        "name": "Larva-26005",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "larva 26005",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/94847"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/94847"
+            ]
+          }
+        ],
+        "variants": [
+          "Larva-26005"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Larva-26005 is a threat actor confirmed to be distributing Xctdoor, a RAT, to users in Korea. The malware was initially disclosed in 2024 and was later found disguised as an integrated security program in an attack case reported by Hauri in 2026."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-c539a88d-191a-4886-ac65-2e5150e57880",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://asec.ahnlab.com/en/94847"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Larva-26005"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-08-10"
+  },
+  "generated_at": "2026-08-10T04:21:57Z"
+}

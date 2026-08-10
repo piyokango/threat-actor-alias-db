@@ -25,6 +25,7 @@
         "source_urls": [
           "https://attack.mitre.org/groups/G0013",
           "https://attack.mitre.org/wiki/Group/G0013",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://www.mandiant.com/resources/insights/apt-groups",
           "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf"
         ],
@@ -40,6 +41,7 @@
             "source_relations": [],
             "source_urls": [
               "https://attack.mitre.org/wiki/Group/G0013",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://www.mandiant.com/resources/insights/apt-groups",
               "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf"
             ]
@@ -77,6 +79,7 @@
         "source_id": "misp-galaxy",
         "source_urls": [
           "https://attack.mitre.org/wiki/Group/G0013",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://www.mandiant.com/resources/insights/apt-groups",
           "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf"
         ],
@@ -92,6 +95,7 @@
             "source_relations": [],
             "source_urls": [
               "https://attack.mitre.org/wiki/Group/G0013",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://www.mandiant.com/resources/insights/apt-groups",
               "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf"
             ]
@@ -99,6 +103,46 @@
         ],
         "variants": [
           "G0013"
+        ]
+      },
+      {
+        "compact_normalized_name": "isthmuscastle",
+        "confidence": "source-provided",
+        "display_group_key": "isthmuscastle",
+        "name": "ISTHMUS CASTLE",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "isthmus castle",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/wiki/Group/G0013",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
+          "https://www.mandiant.com/resources/insights/apt-groups",
+          "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/wiki/Group/G0013",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
+              "https://www.mandiant.com/resources/insights/apt-groups",
+              "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf"
+            ]
+          }
+        ],
+        "variants": [
+          "ISTHMUS CASTLE"
         ]
       }
     ],
@@ -248,6 +292,14 @@
         "source_ids": [
           "external-reference"
         ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system"
+      },
+      {
+        "actor_id": "mitre-g0013",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
         "url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2015/05/20081935/rpt-apt30.pdf"
       },
       {
@@ -324,7 +376,8 @@
     },
     "search_names": [
       "APT30",
-      "G0013"
+      "G0013",
+      "ISTHMUS CASTLE"
     ],
     "source_ids": [
       "external-reference",
@@ -332,7 +385,7 @@
       "mitre-attack"
     ],
     "status": "active",
-    "updated_at": "2026-08-03"
+    "updated_at": "2026-08-10"
   },
-  "generated_at": "2026-08-03T06:09:39Z"
+  "generated_at": "2026-08-10T04:21:57Z"
 }

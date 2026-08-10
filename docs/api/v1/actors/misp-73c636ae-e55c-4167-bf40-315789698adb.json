@@ -22,6 +22,7 @@
         "normalized_name": "temp hermit",
         "source_id": "misp-galaxy",
         "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://www.fireeye.com/blog/threat-research/2018/02/attacks-leveraging-adobe-zero-day.html"
         ],
         "sources": [
@@ -35,12 +36,49 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://www.fireeye.com/blog/threat-research/2018/02/attacks-leveraging-adobe-zero-day.html"
             ]
           }
         ],
         "variants": [
           "TEMP.Hermit"
+        ]
+      },
+      {
+        "compact_normalized_name": "hermitneptune",
+        "confidence": "source-provided",
+        "display_group_key": "hermitneptune",
+        "name": "HERMIT NEPTUNE",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "hermit neptune",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
+          "https://www.fireeye.com/blog/threat-research/2018/02/attacks-leveraging-adobe-zero-day.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
+              "https://www.fireeye.com/blog/threat-research/2018/02/attacks-leveraging-adobe-zero-day.html"
+            ]
+          }
+        ],
+        "variants": [
+          "HERMIT NEPTUNE"
         ]
       }
     ],
@@ -57,6 +95,14 @@
     "primary_source": "misp-galaxy",
     "recent_activity": [],
     "references": [
+      {
+        "actor_id": "misp-73c636ae-e55c-4167-bf40-315789698adb",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system"
+      },
       {
         "actor_id": "misp-73c636ae-e55c-4167-bf40-315789698adb",
         "source_id": "external-reference",
@@ -114,6 +160,7 @@
       ]
     },
     "search_names": [
+      "HERMIT NEPTUNE",
       "TEMP.Hermit"
     ],
     "source_ids": [
@@ -121,7 +168,7 @@
       "misp-galaxy"
     ],
     "status": "active",
-    "updated_at": "2026-08-03"
+    "updated_at": "2026-08-10"
   },
-  "generated_at": "2026-08-03T06:09:39Z"
+  "generated_at": "2026-08-10T04:21:57Z"
 }

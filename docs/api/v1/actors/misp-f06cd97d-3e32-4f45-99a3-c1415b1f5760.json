@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-f06cd97d-3e32-4f45-99a3-c1415b1f5760",
+    "canonical_name": "ModernStealer",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-f06cd97d-3e32-4f45-99a3-c1415b1f5760"
+    ],
+    "misp_uuid": "f06cd97d-3e32-4f45-99a3-c1415b1f5760",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "modernstealer",
+        "confidence": "source-provided",
+        "display_group_key": "modernstealer",
+        "name": "ModernStealer",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "modernstealer",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cybersecuritynews.com/modernstealer-threat-actor",
+          "https://stealthmole-intelligence-hub.blogspot.com/2026/07/the-many-faces-of-modernstealer-tracing.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cybersecuritynews.com/modernstealer-threat-actor",
+              "https://stealthmole-intelligence-hub.blogspot.com/2026/07/the-many-faces-of-modernstealer-tracing.html"
+            ]
+          }
+        ],
+        "variants": [
+          "ModernStealer"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "ModernStealer is linked to underground posts offering sensitive military, government, nuclear, and aerospace material, with connections to a Session contact identifier and a Telegram account named Sassoon Don. Analysts identified five ModernStealer listings and eight government-related listings, including references to Pakistan’s NUST and SUPARCO, as well as US defense entities. The shared identifier suggests operational overlap with other identities, but does not confirm a direct link between them. The actor exemplifies the importance of tracking durable identifiers over forum names in threat intelligence."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-f06cd97d-3e32-4f45-99a3-c1415b1f5760",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cybersecuritynews.com/modernstealer-threat-actor"
+      },
+      {
+        "actor_id": "misp-f06cd97d-3e32-4f45-99a3-c1415b1f5760",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://stealthmole-intelligence-hub.blogspot.com/2026/07/the-many-faces-of-modernstealer-tracing.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "ModernStealer"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-08-10"
+  },
+  "generated_at": "2026-08-10T04:21:57Z"
+}

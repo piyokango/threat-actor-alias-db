@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-aaba51f8-7e75-46d1-b311-5aadbc370c97",
+    "canonical_name": "Storm-2945",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-aaba51f8-7e75-46d1-b311-5aadbc370c97"
+    ],
+    "misp_uuid": "aaba51f8-7e75-46d1-b311-5aadbc370c97",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "storm2945",
+        "confidence": "source-provided",
+        "display_group_key": "storm2945",
+        "name": "Storm-2945",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 2945",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-2945"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Storm-2945 is a sub-cluster of Midnight Blizzard conducting targeted traffic manipulation attacks on hospitality sector networks served by captive portals, leveraging doppelganger domains for AitM phishing and malware delivery. Their operations include AI-augmented device code and OAuth code phishing campaigns leading to Entra device registration and data collection from Microsoft 365. The primary malware used is CornFlake, a Windows RAT that features customizable capabilities for data collection and evasion. Storm-2945 also utilizes the FruitStone web-based C2 panel to manage their campaign infrastructure and compromised endpoints."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-aaba51f8-7e75-46d1-b311-5aadbc370c97",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Storm-2945"
+    ],
+    "source_ids": [
+      "microsoft-threat-actor-naming",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-08-10"
+  },
+  "generated_at": "2026-08-10T04:21:57Z"
+}

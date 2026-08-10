@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-08-03 06:09:38 UTC
+Generated: 2026-08-10 04:21:56 UTC
 
 ## Summary
 
-- Auto candidates: 112
+- Auto candidates: 125
 - Published items: 0
 - Rejected items: 0
 
@@ -124,6 +124,42 @@ Generated: 2026-08-03 06:09:38 UTC
   - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
 
 ### APT41
+
+- **2026-08-07 / Palo Alto Unit 42**
+  - Title: Inside the Modern SOC: The Identity Front Door
+  - URL: https://unit42.paloaltonetworks.com/soc-identity-front-door
+  - Matched names: LEAD
+  - Summary: Identity-based attacks drive 90% of incidents. Learn how modern attackers exploit identities and what SOC leaders can do to respond. The post Inside the Modern SOC: The Identity Front Door appeared first on Unit 42 .
+
+- **2026-08-07 / The Hacker News**
+  - Title: New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP
+  - URL: https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html
+  - Matched names: LEAD
+  - Summary: WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server 
+
+- **2026-08-06 / The Hacker News**
+  - Title: Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People
+  - URL: https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
+  - Matched names: LEAD
+  - Summary: Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts. The intrusions reached at least 165 orga
+
+- **2026-08-06 / SecurityWeek**
+  - Title: Snowflake Hacker Pleads Guilty in US Court
+  - URL: https://www.securityweek.com/snowflake-hacker-pleads-guilty-in-us-court
+  - Matched names: LEAD
+  - Summary: Connor Riley Moucka was extradited to the United States in July 2025 after he was arrested in Canada. The post Snowflake Hacker Pleads Guilty in US Court appeared first on SecurityWeek .
+
+- **2026-08-05 / BleepingComputer**
+  - Title: Canadian pleads guilty to Snowflake cloud data-theft attacks
+  - URL: https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks
+  - Matched names: LEAD
+  - Summary: A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 organizations in a scheme to extort millions of dollars from victims. [...]
+
+- **2026-08-05 / Microsoft Security Blog**
+  - Title: ​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp
+  - Matched names: LEAD
+  - Summary: Learn why KuppingerCole named Microsoft a Leader in its Leadership Compass: Cloud Native Application Protection Platforms report. The post ​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Plat
 
 - **2026-07-29 / Microsoft Security Blog**
   - Title: ​​Better security starts with better questions
@@ -451,6 +487,14 @@ Generated: 2026-08-03 06:09:38 UTC
   - Matched names: Gamaredon
   - Summary: ESET Research analyzes Gamaredon’s new toolset and the group’s growing reliance on legitimate online services to hide its C&C infrastructure and exfiltrate stolen data
 
+### Head Mare
+
+- **2026-08-08 / BleepingComputer**
+  - Title: Hackers breach TrueConf to trojanize client installers with backdoors
+  - URL: https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors
+  - Matched names: Head Mare
+  - Summary: The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]
+
 ### Kairos
 
 - **2026-07-04 / The Hacker News**
@@ -482,6 +526,12 @@ Generated: 2026-08-03 06:09:38 UTC
   - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
 
 ### Lotus Blossom
+
+- **2026-08-08 / BleepingComputer**
+  - Title: Hackers breach TrueConf to trojanize client installers with backdoors
+  - URL: https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors
+  - Matched names: ST Group
+  - Summary: The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]
 
 - **2026-07-24 / BleepingComputer**
   - Title: Europol flags 4,340 URLs for removal in 'The Com' crackdown
@@ -647,6 +697,14 @@ Generated: 2026-08-03 06:09:38 UTC
   - Matched names: ShinyHunters
   - Summary: Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. [...]
 
+### Storm-2945
+
+- **2026-07-31 / Microsoft Security Blog**
+  - Title: CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft
+  - Matched names: Storm-2945
+  - Summary: Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credenti
+
 ### TA505
 
 - **2026-07-25 / The Hacker News**
@@ -662,6 +720,14 @@ Generated: 2026-08-03 06:09:38 UTC
   - URL: https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
   - Matched names: VENOM
   - Summary: Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package campaign, codenamed ViteVenom by Checkmarx, marks an ex
+
+### TeamPCP
+
+- **2026-08-07 / The Hacker News**
+  - Title: TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign
+  - URL: https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
+  - Matched names: TeamPCP
+  - Summary: A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the
 
 ### The Gentlemen
 
@@ -732,6 +798,26 @@ Generated: 2026-08-03 06:09:38 UTC
   - URL: https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html
   - Matched names: Nimbus Manticore, UNC1549
   - Summary: The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South 
+
+### UNC6671
+
+- **2026-08-07 / The Hacker News**
+  - Title: UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data
+  - URL: https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html
+  - Matched names: UNC6671
+  - Summary: A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671. "UNC6671 continues to rely on voice phishing (vishing) to target enterprise employe
+
+- **2026-08-07 / SecurityWeek**
+  - Title: Vishing Extortion Group UNC6671 Rebrands After Making Millions
+  - URL: https://www.securityweek.com/vishing-extortion-group-unc6671-rebrands-after-making-millions
+  - Matched names: UNC6671
+  - Summary: Initially calling itself BlackFile, the group has expanded operations to the Redact, Pink, Helix, and Falcon brands. The post Vishing Extortion Group UNC6671 Rebrands After Making Millions appeared first on SecurityWeek .
+
+- **2026-08-06 / BleepingComputer**
+  - Title: Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group
+  - URL: https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group
+  - Matched names: UNC6671
+  - Summary: A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an extortion group reportedly associated with the BlackFile threat actors. [...]
 
 ### VOID MANTICORE
 

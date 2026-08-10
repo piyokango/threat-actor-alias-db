@@ -24,6 +24,7 @@
         "source_id": "misp-galaxy,mitre-attack",
         "source_urls": [
           "https://attack.mitre.org/groups/G0129",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
           "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -52,6 +53,7 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
               "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -86,8 +88,8 @@
           }
         ],
         "variants": [
-          "Mustang Panda",
-          "MUSTANG PANDA"
+          "MUSTANG PANDA",
+          "Mustang Panda"
         ]
       },
       {
@@ -103,6 +105,7 @@
         "normalized_name": "basin",
         "source_id": "misp-galaxy",
         "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
           "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -131,6 +134,7 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
               "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -155,19 +159,19 @@
         ]
       },
       {
-        "compact_normalized_name": "bronzepresident",
+        "compact_normalized_name": "basincastle",
         "confidence": "source-provided",
-        "display_group_key": "bronzepresident",
-        "name": "BRONZE PRESIDENT",
+        "display_group_key": "basincastle",
+        "name": "BASIN CASTLE",
         "name_type": "alias",
         "name_types": [
           "alias"
         ],
-        "naming_org": "MISP Galaxy, MITRE ATT&CK",
-        "normalized_name": "bronze president",
-        "source_id": "misp-galaxy,mitre-attack",
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "basin castle",
+        "source_id": "misp-galaxy",
         "source_urls": [
-          "https://attack.mitre.org/groups/G0129",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
           "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -196,6 +200,74 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
+              "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://thecyberwire.com/podcasts/microsoft-threat-intelligence/4/notes",
+              "https://unit42.paloaltonetworks.com/stately-taurus-targets-philippines-government-cyberespionage",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+              "https://www.cfr.org/interactive/cyber-operations/mustang-panda",
+              "https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-june-mustang-panda",
+              "https://www.darkreading.com/threat-intelligence/chinese-apt-bronze-president-spy-campaign-russian-military",
+              "https://www.proofpoint.com/us/blog/threat-insight/good-bad-and-web-bug-ta416-increases-operational-tempo-against-european",
+              "https://www.proofpoint.com/us/blog/threat-insight/ta416-goes-ground-and-returns-golang-plugx-malware-loader",
+              "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+              "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+              "https://www.secureworks.com/research/threat-profiles/bronze-president",
+              "https://www.trendmicro.com/en_us/research/22/k/earth-preta-spear-phishing-governments-worldwide.html"
+            ]
+          }
+        ],
+        "variants": [
+          "BASIN CASTLE"
+        ]
+      },
+      {
+        "compact_normalized_name": "bronzepresident",
+        "confidence": "source-provided",
+        "display_group_key": "bronzepresident",
+        "name": "BRONZE PRESIDENT",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "bronze president",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0129",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
+          "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
+          "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+          "https://thecyberwire.com/podcasts/microsoft-threat-intelligence/4/notes",
+          "https://unit42.paloaltonetworks.com/stately-taurus-targets-philippines-government-cyberespionage",
+          "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Aktive_APT-Gruppen/aktive-apt-gruppen_node.html",
+          "https://www.cfr.org/interactive/cyber-operations/mustang-panda",
+          "https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-june-mustang-panda",
+          "https://www.darkreading.com/threat-intelligence/chinese-apt-bronze-president-spy-campaign-russian-military",
+          "https://www.proofpoint.com/us/blog/threat-insight/good-bad-and-web-bug-ta416-increases-operational-tempo-against-european",
+          "https://www.proofpoint.com/us/blog/threat-insight/ta416-goes-ground-and-returns-golang-plugx-malware-loader",
+          "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+          "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+          "https://www.secureworks.com/research/threat-profiles/bronze-president",
+          "https://www.trendmicro.com/en_us/research/22/k/earth-preta-spear-phishing-governments-worldwide.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
               "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -279,8 +351,8 @@
           }
         ],
         "variants": [
-          "Camaro Dragon",
-          "CAMARO DRAGON"
+          "CAMARO DRAGON",
+          "Camaro Dragon"
         ]
       },
       {
@@ -331,6 +403,7 @@
         "source_id": "misp-galaxy,mitre-attack",
         "source_urls": [
           "https://attack.mitre.org/groups/G0129",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
           "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -359,6 +432,7 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
               "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -477,6 +551,7 @@
         "normalized_name": "honeymyte",
         "source_id": "misp-galaxy",
         "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
           "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -505,6 +580,7 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
               "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -542,6 +618,7 @@
         "source_id": "misp-galaxy,mitre-attack",
         "source_urls": [
           "https://attack.mitre.org/groups/G0129",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
           "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -570,6 +647,7 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
               "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -620,6 +698,7 @@
         "normalized_name": "polaris",
         "source_id": "misp-galaxy",
         "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
           "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -648,6 +727,7 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
               "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -685,6 +765,7 @@
         "source_id": "misp-galaxy,mitre-attack",
         "source_urls": [
           "https://attack.mitre.org/groups/G0129",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
           "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -713,6 +794,7 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
               "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -811,6 +893,7 @@
         "source_id": "misp-galaxy,mitre-attack",
         "source_urls": [
           "https://attack.mitre.org/groups/G0129",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
           "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -839,6 +922,7 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
               "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -872,8 +956,8 @@
           }
         ],
         "variants": [
-          "STATELY TAURUS",
-          "Stately Taurus"
+          "Stately Taurus",
+          "STATELY TAURUS"
         ]
       },
       {
@@ -890,6 +974,7 @@
         "source_id": "misp-galaxy,mitre-attack",
         "source_urls": [
           "https://attack.mitre.org/groups/G0129",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
           "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -918,6 +1003,7 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
               "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -968,6 +1054,7 @@
         "source_id": "misp-galaxy,mitre-attack",
         "source_urls": [
           "https://attack.mitre.org/groups/G0129",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
           "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -996,6 +1083,7 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
               "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -1046,6 +1134,7 @@
         "source_id": "misp-galaxy,mitre-attack",
         "source_urls": [
           "https://attack.mitre.org/groups/G0129",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
           "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -1074,6 +1163,7 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
               "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -1107,8 +1197,8 @@
           }
         ],
         "variants": [
-          "TEMP.Hex",
-          "TEMP.HEX"
+          "TEMP.HEX",
+          "TEMP.Hex"
         ]
       },
       {
@@ -1125,6 +1215,7 @@
         "source_id": "misp-galaxy,mitre-attack",
         "source_urls": [
           "https://attack.mitre.org/groups/G0129",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
           "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -1153,6 +1244,7 @@
             ],
             "source_relations": [],
             "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_2_LT4.pdf",
               "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1aFyW",
@@ -3351,6 +3443,14 @@
         "source_ids": [
           "external-reference"
         ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system"
+      },
+      {
+        "actor_id": "mitre-g0129",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
         "url": "https://csirt-cti.net/2024/01/23/stately-taurus-targets-myanmar"
       },
       {
@@ -3715,6 +3815,7 @@
     },
     "search_names": [
       "BASIN",
+      "BASIN CASTLE",
       "BRONZE PRESIDENT",
       "CAMARO DRAGON",
       "Camaro Dragon",
@@ -3731,14 +3832,14 @@
       "Polaris",
       "Red Lich",
       "RedDelta",
-      "Stately Taurus",
       "STATELY TAURUS",
+      "Stately Taurus",
       "TA416",
       "TANTALUM",
-      "TEMP.Hex",
       "TEMP.HEX",
-      "TWILL TYPHOON",
+      "TEMP.Hex",
       "Twill Typhoon",
+      "TWILL TYPHOON",
       "UNC6384",
       "Vertigo Panda"
     ],
@@ -3749,7 +3850,7 @@
       "mitre-attack"
     ],
     "status": "active",
-    "updated_at": "2026-08-03"
+    "updated_at": "2026-08-10"
   },
-  "generated_at": "2026-08-03T06:09:39Z"
+  "generated_at": "2026-08-10T04:21:57Z"
 }

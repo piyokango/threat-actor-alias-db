@@ -1,0 +1,1841 @@
+{
+  "actor": {
+    "actor_id": "mitre-g1056",
+    "canonical_name": "TeamPCP",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g1056"
+    ],
+    "misp_uuid": "d3682137-2845-424f-be8a-9112d23f4f58",
+    "mitre_id": "G1056",
+    "names": [
+      {
+        "compact_normalized_name": "teampcp",
+        "confidence": "source-provided",
+        "display_group_key": "teampcp",
+        "name": "TeamPCP",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "Microsoft other, MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "teampcp",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1056",
+          "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+          "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
+          "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+          "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+          "https://www.ic3.gov/CSA/2026/260702.pdf",
+          "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+          "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+              "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+              "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+              "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+              "https://www.ic3.gov/CSA/2026/260702.pdf",
+              "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+              "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1056"
+            ]
+          }
+        ],
+        "variants": [
+          "TeamPCP"
+        ]
+      },
+      {
+        "compact_normalized_name": "alteredspider",
+        "confidence": "source-provided",
+        "display_group_key": "alteredspider",
+        "name": "Altered Spider",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "altered spider",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+          "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+          "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+          "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+          "https://www.ic3.gov/CSA/2026/260702.pdf",
+          "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+          "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+              "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+              "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+              "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+              "https://www.ic3.gov/CSA/2026/260702.pdf",
+              "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+              "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+            ]
+          }
+        ],
+        "variants": [
+          "Altered Spider"
+        ]
+      },
+      {
+        "compact_normalized_name": "canisterworm",
+        "confidence": "source-provided",
+        "display_group_key": "canisterworm",
+        "name": "CanisterWorm",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "canisterworm",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+          "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+          "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+          "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+          "https://www.ic3.gov/CSA/2026/260702.pdf",
+          "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+          "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+              "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+              "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+              "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+              "https://www.ic3.gov/CSA/2026/260702.pdf",
+              "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+              "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+            ]
+          }
+        ],
+        "variants": [
+          "CanisterWorm"
+        ]
+      },
+      {
+        "compact_normalized_name": "deadcatx3",
+        "confidence": "source-provided",
+        "display_group_key": "deadcatx3",
+        "name": "DeadCatx3",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "deadcatx3",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1056",
+          "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+          "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+          "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+          "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+          "https://www.ic3.gov/CSA/2026/260702.pdf",
+          "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+          "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+              "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+              "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+              "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+              "https://www.ic3.gov/CSA/2026/260702.pdf",
+              "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+              "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1056"
+            ]
+          }
+        ],
+        "variants": [
+          "DeadCatx3"
+        ]
+      },
+      {
+        "compact_normalized_name": "pcpcat",
+        "confidence": "source-provided",
+        "display_group_key": "pcpcat",
+        "name": "PCPCat",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "pcpcat",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1056",
+          "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+          "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+          "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+          "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+          "https://www.ic3.gov/CSA/2026/260702.pdf",
+          "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+          "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+              "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+              "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+              "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+              "https://www.ic3.gov/CSA/2026/260702.pdf",
+              "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+              "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1056"
+            ]
+          }
+        ],
+        "variants": [
+          "PCPCat",
+          "PCPcat"
+        ]
+      },
+      {
+        "compact_normalized_name": "shadowwater058",
+        "confidence": "source-provided",
+        "display_group_key": "shadowwater058",
+        "name": "SHADOW-WATER-058",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "shadow water 058",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1056"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1056"
+            ]
+          }
+        ],
+        "variants": [
+          "SHADOW-WATER-058"
+        ]
+      },
+      {
+        "compact_normalized_name": "shellforce",
+        "confidence": "source-provided",
+        "display_group_key": "shellforce",
+        "name": "ShellForce",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "shellforce",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1056",
+          "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+          "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+          "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+          "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+          "https://www.ic3.gov/CSA/2026/260702.pdf",
+          "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+          "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cstromblad.com/posts/threat-actor-profile-teampcp",
+              "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware",
+              "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials",
+              "https://www.crowdstrike.com/en-us/adversaries/altered-spider",
+              "https://www.ic3.gov/CSA/2026/260702.pdf",
+              "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html",
+              "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+            ]
+          },
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1056"
+            ]
+          }
+        ],
+        "variants": [
+          "ShellForce"
+        ]
+      },
+      {
+        "compact_normalized_name": "unc6780",
+        "confidence": "source-provided",
+        "display_group_key": "unc6780",
+        "name": "UNC6780",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "unc6780",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1056"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1056"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC6780"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK",
+      "Microsoft other"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g1056",
+          "name": "Acquire Infrastructure",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://flashpoint.io/blog/mini-shai-hulud-worm-new-era-ci-cd-exploitation/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583",
+          "url": "https://attack.mitre.org/techniques/T1583/"
+        },
+        {
+          "actor_id": "mitre-g1056",
+          "name": "Domains",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23",
+            "https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/",
+            "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+            "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know",
+            "https://www.ic3.gov/CSA/2026/260702.pdf",
+            "https://www.sysdig.com/blog/teampcp-expands-supply-chain-compromise-spreads-from-trivy-to-checkmarx-github-actions",
+            "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
+            "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+            "https://www.wiz.io/blog/teampcp-attack-kics-github-action",
+            "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583.001",
+          "url": "https://attack.mitre.org/techniques/T1583.001/"
+        },
+        {
+          "actor_id": "mitre-g1056",
+          "name": "Server",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://hunt.io/blog/teampcp-python-toolkit-firescale-github-c2-takedown",
+            "https://www.ic3.gov/CSA/2026/260702.pdf"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583.004",
+          "url": "https://attack.mitre.org/techniques/T1583.004/"
+        },
+        {
+          "actor_id": "mitre-g1056",
+          "name": "Web Services",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm",
+            "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know",
+            "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
+            "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+            "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583.006",
+          "url": "https://attack.mitre.org/techniques/T1583.006/"
+        },
+        {
+          "actor_id": "mitre-g1056",
+          "name": "Social Media Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/",
+            "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+            "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1585.001",
+          "url": "https://attack.mitre.org/techniques/T1585.001/"
+        },
+        {
+          "actor_id": "mitre-g1056",
+          "name": "Malware",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1587.001",
+          "url": "https://attack.mitre.org/techniques/T1587.001/"
+        },
+        {
+          "actor_id": "mitre-g1056",
+          "name": "Upload Malware",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1608.001",
+          "url": "https://attack.mitre.org/techniques/T1608.001/"
+        },
+        {
+          "actor_id": "mitre-g1056",
+          "name": "Written Content",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1683.001",
+          "url": "https://attack.mitre.org/techniques/T1683.001/"
+        },
+        {
+          "actor_id": "mitre-g1056",
+          "name": "Valid Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "actor_id": "mitre-g1056",
+          "name": "Cloud Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23",
+            "https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/",
+            "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+            "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know",
+            "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
+            "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+            "https://www.wiz.io/blog/teampcp-attack-kics-github-action",
+            "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078.004",
+          "url": "https://attack.mitre.org/techniques/T1078.004/"
+        },
+        {
+          "actor_id": "mitre-g1056",
+          "name": "Account Manipulation",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know"
+          ],
+          "tactics": [
+            "persistence",
+            "privilege-escalation"
+          ],
+          "technique_id": "T1098",
+          "url": "https://attack.mitre.org/techniques/T1098/"
+        },
+        {
+          "actor_id": "mitre-g1056",
+          "name": "IDE Extensions",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://flashpoint.io/blog/mini-shai-hulud-worm-new-era-ci-cd-exploitation/",
+            "https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/",
+            "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm",
+            "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
+            "https://www.wiz.io/blog/teampcp-attack-kics-github-action"
+          ],
+          "tactics": [
+            "persistence"
+          ],
+          "technique_id": "T1176.002",
+          "url": "https://attack.mitre.org/techniques/T1176.002/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 8,
+          "items": [
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Acquire Infrastructure",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://flashpoint.io/blog/mini-shai-hulud-worm-new-era-ci-cd-exploitation/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583",
+              "url": "https://attack.mitre.org/techniques/T1583/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23",
+                "https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/",
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know",
+                "https://www.ic3.gov/CSA/2026/260702.pdf",
+                "https://www.sysdig.com/blog/teampcp-expands-supply-chain-compromise-spreads-from-trivy-to-checkmarx-github-actions",
+                "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
+                "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+                "https://www.wiz.io/blog/teampcp-attack-kics-github-action",
+                "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Server",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://hunt.io/blog/teampcp-python-toolkit-firescale-github-c2-takedown",
+                "https://www.ic3.gov/CSA/2026/260702.pdf"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.004",
+              "url": "https://attack.mitre.org/techniques/T1583.004/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Web Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm",
+                "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know",
+                "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
+                "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+                "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.006",
+              "url": "https://attack.mitre.org/techniques/T1583.006/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Social Media Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/",
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585.001",
+              "url": "https://attack.mitre.org/techniques/T1585.001/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1587.001",
+              "url": "https://attack.mitre.org/techniques/T1587.001/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Upload Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.001",
+              "url": "https://attack.mitre.org/techniques/T1608.001/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Written Content",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1683.001",
+              "url": "https://attack.mitre.org/techniques/T1683.001/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Cloud Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23",
+                "https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/",
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know",
+                "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
+                "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+                "https://www.wiz.io/blog/teampcp-attack-kics-github-action",
+                "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.004",
+              "url": "https://attack.mitre.org/techniques/T1078.004/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Account Manipulation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1098",
+              "url": "https://attack.mitre.org/techniques/T1098/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "IDE Extensions",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://flashpoint.io/blog/mini-shai-hulud-worm-new-era-ci-cd-exploitation/",
+                "https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/",
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm",
+                "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
+                "https://www.wiz.io/blog/teampcp-attack-kics-github-action"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1176.002",
+              "url": "https://attack.mitre.org/techniques/T1176.002/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Systemd Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.wiz.io/blog/teampcp-attack-kics-github-action"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.002",
+              "url": "https://attack.mitre.org/techniques/T1543.002/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Installer Packages",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1546.016",
+              "url": "https://attack.mitre.org/techniques/T1546.016/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Cloud Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23",
+                "https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/",
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know",
+                "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
+                "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+                "https://www.wiz.io/blog/teampcp-attack-kics-github-action",
+                "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.004",
+              "url": "https://attack.mitre.org/techniques/T1078.004/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Account Manipulation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1098",
+              "url": "https://attack.mitre.org/techniques/T1098/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Systemd Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.wiz.io/blog/teampcp-attack-kics-github-action"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.002",
+              "url": "https://attack.mitre.org/techniques/T1543.002/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Installer Packages",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1546.016",
+              "url": "https://attack.mitre.org/techniques/T1546.016/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Steganography",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.003",
+              "url": "https://attack.mitre.org/techniques/T1027.003/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Match Legitimate Resource Name or Location",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm",
+                "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.005",
+              "url": "https://attack.mitre.org/techniques/T1036.005/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Cloud Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23",
+                "https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/",
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know",
+                "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
+                "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+                "https://www.wiz.io/blog/teampcp-attack-kics-github-action",
+                "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.004",
+              "url": "https://attack.mitre.org/techniques/T1078.004/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Hidden Files and Directories",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.001",
+              "url": "https://attack.mitre.org/techniques/T1564.001/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Impersonation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know",
+                "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1684.001",
+              "url": "https://attack.mitre.org/techniques/T1684.001/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Unix Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://hunt.io/blog/teampcp-python-toolkit-firescale-github-c2-takedown"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.004",
+              "url": "https://attack.mitre.org/techniques/T1059.004/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Python",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://hunt.io/blog/teampcp-python-toolkit-firescale-github-c2-takedown",
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm",
+                "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.006",
+              "url": "https://attack.mitre.org/techniques/T1059.006/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "JavaScript",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
+                "https://www.wiz.io/blog/teampcp-attack-kics-github-action"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.007",
+              "url": "https://attack.mitre.org/techniques/T1059.007/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Container CLI/API",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/",
+                "https://www.wiz.io/blog/teampcp-attack-kics-github-action"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.013",
+              "url": "https://attack.mitre.org/techniques/T1059.013/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Poisoned Pipeline Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access",
+                "https://flashpoint.io/blog/mini-shai-hulud-worm-new-era-ci-cd-exploitation/",
+                "https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23",
+                "https://hunt.io/blog/teampcp-python-toolkit-firescale-github-c2-takedown",
+                "https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/",
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm",
+                "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know",
+                "https://www.ic3.gov/CSA/2026/260702.pdf",
+                "https://www.sysdig.com/blog/teampcp-expands-supply-chain-compromise-spreads-from-trivy-to-checkmarx-github-actions",
+                "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
+                "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+                "https://www.wiz.io/blog/teampcp-attack-kics-github-action",
+                "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1677",
+              "url": "https://attack.mitre.org/techniques/T1677/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Cloud Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23",
+                "https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/",
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know",
+                "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
+                "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+                "https://www.wiz.io/blog/teampcp-attack-kics-github-action",
+                "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.004",
+              "url": "https://attack.mitre.org/techniques/T1078.004/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Exploit Public-Facing Application",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm",
+                "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know",
+                "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1190",
+              "url": "https://attack.mitre.org/techniques/T1190/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Compromise Software Dependencies and Development Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access",
+                "https://flashpoint.io/blog/mini-shai-hulud-worm-new-era-ci-cd-exploitation/",
+                "https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23",
+                "https://hunt.io/blog/teampcp-python-toolkit-firescale-github-c2-takedown",
+                "https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/",
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm",
+                "https://www.ic3.gov/CSA/2026/260702.pdf",
+                "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
+                "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+                "https://www.wiz.io/blog/teampcp-attack-kics-github-action",
+                "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1195.001",
+              "url": "https://attack.mitre.org/techniques/T1195.001/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Steal Application Access Token",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know",
+                "https://www.ic3.gov/CSA/2026/260702.pdf",
+                "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
+                "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1528",
+              "url": "https://attack.mitre.org/techniques/T1528/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Private Keys",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.ic3.gov/CSA/2026/260702.pdf",
+                "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1552.004",
+              "url": "https://attack.mitre.org/techniques/T1552.004/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Cloud Secrets Management Stores",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm",
+                "https://www.ic3.gov/CSA/2026/260702.pdf",
+                "https://www.sysdig.com/blog/teampcp-expands-supply-chain-compromise-spreads-from-trivy-to-checkmarx-github-actions"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1555.006",
+              "url": "https://attack.mitre.org/techniques/T1555.006/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Data Destruction",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1485",
+              "url": "https://attack.mitre.org/techniques/T1485/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Data Encrypted for Impact",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1486",
+              "url": "https://attack.mitre.org/techniques/T1486/"
+            },
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Financial Theft",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://flashpoint.io/blog/mini-shai-hulud-worm-new-era-ci-cd-exploitation/",
+                "https://phoenix.security/teampcp-github-breach-durabletask-pypi-supply-chain-wave-four-2026/",
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.ic3.gov/CSA/2026/260702.pdf",
+                "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1657",
+              "url": "https://attack.mitre.org/techniques/T1657/"
+            }
+          ],
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Data from Local System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://flashpoint.io/blog/mini-shai-hulud-worm-new-era-ci-cd-exploitation/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1005",
+              "url": "https://attack.mitre.org/techniques/T1005/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm",
+                "https://www.wiz.io/blog/teampcp-attack-kics-github-action"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Code Signing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1553.002",
+              "url": "https://attack.mitre.org/techniques/T1553.002/"
+            }
+          ],
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1056",
+              "name": "Application Access Token",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/",
+                "https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-canisterworm",
+                "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1550.001",
+              "url": "https://attack.mitre.org/techniques/T1550.001/"
+            }
+          ],
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 8,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 7,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 6,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 6,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 5,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 4,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 3,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 3,
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        },
+        {
+          "count": 1,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 1,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 1,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 1,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        }
+      ],
+      "total": 36
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G1056/"
+          ]
+        }
+      ],
+      "text": "TeamPCP is a financially-motivated, cloud-native threat group that has been active since at least September 2025. Initially focused on ransomware and cryptocurrency theft, TeamPCP shifted in early 2026 to systematic, worm-driven credential theft and software supply chain attacks targeting Continuous Integration and Continuous Delivery (CI/CD) workflows. TeamPCP has monetized access through extortion and through partnerships with ransomware actors including Vect and CipherForce.(Citation: Wiz TeamPCP Profile MAY 2026)(Citation: Wiz Trivy Compromise MAR 2026)(Citation: Aqua Security Trivy Compromise MAR 2026)(Citation: Aqua Security Blog Trivy Compromise APR 2026)(Citation: Palo Alto TeamPCP..."
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G1056"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cstromblad.com/posts/threat-actor-profile-teampcp"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://threats.wiz.io/all-actors/teampcp"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://tracebit.com/blog/detecting-cicd-supply-chain-attacks-with-canary-credentials"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/en-us/adversaries/altered-spider"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ic3.gov/CSA/2026/260702.pdf"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html"
+      },
+      {
+        "actor_id": "mitre-g1056",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [
+        {
+          "display_value": "Group in development",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Group in development"
+        }
+      ],
+      "countries": [],
+      "items": [
+        {
+          "display_value": "Group in development",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Group in development"
+        }
+      ]
+    },
+    "search_names": [
+      "Altered Spider",
+      "CanisterWorm",
+      "DeadCatx3",
+      "PCPCat",
+      "PCPcat",
+      "SHADOW-WATER-058",
+      "ShellForce",
+      "TeamPCP",
+      "UNC6780"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-08-10"
+  },
+  "generated_at": "2026-08-10T04:21:57Z"
+}

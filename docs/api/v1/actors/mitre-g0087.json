@@ -24,6 +24,7 @@
         "source_id": "misp-galaxy,mitre-attack",
         "source_urls": [
           "https://attack.mitre.org/groups/G0087",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://securelist.com/chafer-used-remexi-malware/89538",
           "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -46,6 +47,7 @@
             "source_relations": [],
             "source_urls": [
               "https://attack.mitre.org/groups/G0087",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://securelist.com/chafer-used-remexi-malware/89538",
               "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -90,6 +92,7 @@
         "source_id": "misp-galaxy",
         "source_urls": [
           "https://attack.mitre.org/groups/G0087",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://securelist.com/chafer-used-remexi-malware/89538",
           "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -112,6 +115,7 @@
             "source_relations": [],
             "source_urls": [
               "https://attack.mitre.org/groups/G0087",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://securelist.com/chafer-used-remexi-malware/89538",
               "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -142,6 +146,7 @@
         "source_id": "misp-galaxy,mitre-attack",
         "source_urls": [
           "https://attack.mitre.org/groups/G0087",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://securelist.com/chafer-used-remexi-malware/89538",
           "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -164,6 +169,7 @@
             "source_relations": [],
             "source_urls": [
               "https://attack.mitre.org/groups/G0087",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://securelist.com/chafer-used-remexi-malware/89538",
               "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -194,19 +200,20 @@
         ]
       },
       {
-        "compact_normalized_name": "cobalthickman",
+        "compact_normalized_name": "cinderion",
         "confidence": "source-provided",
-        "display_group_key": "cobalthickman",
-        "name": "COBALT HICKMAN",
+        "display_group_key": "cinderion",
+        "name": "CINDER ION",
         "name_type": "alias",
         "name_types": [
           "alias"
         ],
         "naming_org": "MISP Galaxy",
-        "normalized_name": "cobalt hickman",
+        "normalized_name": "cinder ion",
         "source_id": "misp-galaxy",
         "source_urls": [
           "https://attack.mitre.org/groups/G0087",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://securelist.com/chafer-used-remexi-malware/89538",
           "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -229,6 +236,61 @@
             "source_relations": [],
             "source_urls": [
               "https://attack.mitre.org/groups/G0087",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
+              "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+              "https://securelist.com/chafer-used-remexi-malware/89538",
+              "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
+              "https://unit42.paloaltonetworks.com/atoms/radioserpens",
+              "https://unit42.paloaltonetworks.com/new-python-based-payload-mechaflounder-used-by-chafer",
+              "https://www.fireeye.com/blog/threat-research/2019/01/apt39-iranian-cyber-espionage-group-focused-on-personal-information.html",
+              "https://www.secureworks.com/research/threat-profiles/cobalt-hickman",
+              "https://www.symantec.com/blogs/threat-intelligence/chafer-latest-attacks-reveal-heightened-ambitions",
+              "https://www.symantec.com/connect/blogs/iran-based-attackers-use-back-door-threats-spy-middle-eastern-targets"
+            ]
+          }
+        ],
+        "variants": [
+          "CINDER ION"
+        ]
+      },
+      {
+        "compact_normalized_name": "cobalthickman",
+        "confidence": "source-provided",
+        "display_group_key": "cobalthickman",
+        "name": "COBALT HICKMAN",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cobalt hickman",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G0087",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://securelist.com/chafer-used-remexi-malware/89538",
+          "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
+          "https://unit42.paloaltonetworks.com/atoms/radioserpens",
+          "https://unit42.paloaltonetworks.com/new-python-based-payload-mechaflounder-used-by-chafer",
+          "https://www.fireeye.com/blog/threat-research/2019/01/apt39-iranian-cyber-espionage-group-focused-on-personal-information.html",
+          "https://www.secureworks.com/research/threat-profiles/cobalt-hickman",
+          "https://www.symantec.com/blogs/threat-intelligence/chafer-latest-attacks-reveal-heightened-ambitions",
+          "https://www.symantec.com/connect/blogs/iran-based-attackers-use-back-door-threats-spy-middle-eastern-targets"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G0087",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://securelist.com/chafer-used-remexi-malware/89538",
               "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -259,6 +321,7 @@
         "source_id": "misp-galaxy",
         "source_urls": [
           "https://attack.mitre.org/groups/G0087",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://securelist.com/chafer-used-remexi-malware/89538",
           "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -281,6 +344,7 @@
             "source_relations": [],
             "source_urls": [
               "https://attack.mitre.org/groups/G0087",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://securelist.com/chafer-used-remexi-malware/89538",
               "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -311,6 +375,7 @@
         "source_id": "misp-galaxy,mitre-attack",
         "source_urls": [
           "https://attack.mitre.org/groups/G0087",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://securelist.com/chafer-used-remexi-malware/89538",
           "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -333,6 +398,7 @@
             "source_relations": [],
             "source_urls": [
               "https://attack.mitre.org/groups/G0087",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://securelist.com/chafer-used-remexi-malware/89538",
               "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -376,6 +442,7 @@
         "source_id": "misp-galaxy",
         "source_urls": [
           "https://attack.mitre.org/groups/G0087",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://securelist.com/chafer-used-remexi-malware/89538",
           "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -398,6 +465,7 @@
             "source_relations": [],
             "source_urls": [
               "https://attack.mitre.org/groups/G0087",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://securelist.com/chafer-used-remexi-malware/89538",
               "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -428,6 +496,7 @@
         "source_id": "misp-galaxy,mitre-attack",
         "source_urls": [
           "https://attack.mitre.org/groups/G0087",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://securelist.com/chafer-used-remexi-malware/89538",
           "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -450,6 +519,7 @@
             "source_relations": [],
             "source_urls": [
               "https://attack.mitre.org/groups/G0087",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://securelist.com/chafer-used-remexi-malware/89538",
               "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -476,8 +546,8 @@
           }
         ],
         "variants": [
-          "REMIX KITTEN",
-          "Remix Kitten"
+          "Remix Kitten",
+          "REMIX KITTEN"
         ]
       },
       {
@@ -494,6 +564,7 @@
         "source_id": "misp-galaxy",
         "source_urls": [
           "https://attack.mitre.org/groups/G0087",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
           "https://securelist.com/chafer-used-remexi-malware/89538",
           "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -516,6 +587,7 @@
             "source_relations": [],
             "source_urls": [
               "https://attack.mitre.org/groups/G0087",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
               "https://securelist.com/chafer-used-remexi-malware/89538",
               "https://securityintelligence.com/posts/observations-of-itg07-cyber-operations",
@@ -1951,6 +2023,14 @@
         "source_ids": [
           "external-reference"
         ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system"
+      },
+      {
+        "actor_id": "mitre-g0087",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
         "url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf"
       },
       {
@@ -2101,6 +2181,7 @@
       "APT39",
       "Burgundy Sandstorm",
       "Chafer",
+      "CINDER ION",
       "COBALT HICKMAN",
       "G0087",
       "ITG07",
@@ -2115,7 +2196,7 @@
       "mitre-attack"
     ],
     "status": "active",
-    "updated_at": "2026-08-03"
+    "updated_at": "2026-08-10"
   },
-  "generated_at": "2026-08-03T06:09:39Z"
+  "generated_at": "2026-08-10T04:21:57Z"
 }

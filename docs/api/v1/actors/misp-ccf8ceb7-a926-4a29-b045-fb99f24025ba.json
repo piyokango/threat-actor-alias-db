@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-ccf8ceb7-a926-4a29-b045-fb99f24025ba",
+    "canonical_name": "ExfilSquad",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-ccf8ceb7-a926-4a29-b045-fb99f24025ba"
+    ],
+    "misp_uuid": "ccf8ceb7-a926-4a29-b045-fb99f24025ba",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "exfilsquad",
+        "confidence": "source-provided",
+        "display_group_key": "exfilsquad",
+        "name": "ExfilSquad",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "exfilsquad",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://socradar.io/blog/dark-web-profile-exfilsquad"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://socradar.io/blog/dark-web-profile-exfilsquad"
+            ]
+          }
+        ],
+        "variants": [
+          "ExfilSquad"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "ExfilSquad is an emerging data-extortion group that surfaced on July 26, 2026, operating a Tor-hosted Data Leak Site to publicly claim data theft from 15 organizations, including Microsoft. Their model focuses on public exposure and pressure tactics without confirmed encryption, lacking evidence of a Ransomware-as-a-Service structure or specific initial-access methods. The group has not provided forensic evidence or verifiable data samples, raising questions about the credibility of their claims, which may involve reused or fabricated data."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-ccf8ceb7-a926-4a29-b045-fb99f24025ba",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/blog/dark-web-profile-exfilsquad"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "ExfilSquad"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-08-10"
+  },
+  "generated_at": "2026-08-10T04:21:57Z"
+}

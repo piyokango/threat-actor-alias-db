@@ -1,0 +1,174 @@
+{
+  "actor": {
+    "actor_id": "misp-faa47cb0-bfbf-4bd8-a499-2610c61b176b",
+    "canonical_name": "UNC1088",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-faa47cb0-bfbf-4bd8-a499-2610c61b176b"
+    ],
+    "misp_uuid": "faa47cb0-bfbf-4bd8-a499-2610c61b176b",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unc1088",
+        "confidence": "source-provided",
+        "display_group_key": "unc1088",
+        "name": "UNC1088",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc1088",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC1088"
+        ]
+      },
+      {
+        "compact_normalized_name": "ravinecastle",
+        "confidence": "source-provided",
+        "display_group_key": "ravinecastle",
+        "name": "RAVINE CASTLE",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "ravine castle",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system"
+            ]
+          }
+        ],
+        "variants": [
+          "RAVINE CASTLE"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UNC1088 is a China-nexus threat cluster tracked by Mandiant, renamed RAVINE CASTLE under Google Threat Intelligence's updated naming system."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-faa47cb0-bfbf-4bd8-a499-2610c61b176b",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "RAVINE CASTLE",
+      "UNC1088"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-08-10"
+  },
+  "generated_at": "2026-08-10T04:21:57Z"
+}

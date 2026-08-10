@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-6d957a9b-c674-41bd-bcef-31f7f4f843ae",
+    "canonical_name": "Larva-26009",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-6d957a9b-c674-41bd-bcef-31f7f4f843ae"
+    ],
+    "misp_uuid": "6d957a9b-c674-41bd-bcef-31f7f4f843ae",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "larva26009",
+        "confidence": "source-provided",
+        "display_group_key": "larva26009",
+        "name": "Larva-26009",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "larva 26009",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/94685"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/94685"
+            ]
+          }
+        ],
+        "variants": [
+          "Larva-26009"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Larva-26009 targets MS-SQL servers and has been observed installing the XMRig CoinMiner."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-6d957a9b-c674-41bd-bcef-31f7f4f843ae",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://asec.ahnlab.com/en/94685"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Larva-26009"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-08-10"
+  },
+  "generated_at": "2026-08-10T04:21:57Z"
+}

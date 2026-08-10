@@ -23,6 +23,7 @@
         "source_id": "misp-galaxy",
         "source_urls": [
           "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
           "https://www.spixnet.com/cybersecurity-blog/2023/04/03/newly-exposed-apt43-hacking-group-targeting-us-orgs-since-2018"
         ],
@@ -38,6 +39,7 @@
             "source_relations": [],
             "source_urls": [
               "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
               "https://www.spixnet.com/cybersecurity-blog/2023/04/03/newly-exposed-apt43-hacking-group-targeting-us-orgs-since-2018"
             ]
@@ -61,6 +63,7 @@
         "source_id": "misp-galaxy",
         "source_urls": [
           "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
           "https://www.spixnet.com/cybersecurity-blog/2023/04/03/newly-exposed-apt43-hacking-group-targeting-us-orgs-since-2018"
         ],
@@ -76,6 +79,7 @@
             "source_relations": [],
             "source_urls": [
               "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
               "https://www.spixnet.com/cybersecurity-blog/2023/04/03/newly-exposed-apt43-hacking-group-targeting-us-orgs-since-2018"
             ]
@@ -99,6 +103,7 @@
         "source_id": "misp-galaxy",
         "source_urls": [
           "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
           "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
           "https://www.spixnet.com/cybersecurity-blog/2023/04/03/newly-exposed-apt43-hacking-group-targeting-us-orgs-since-2018"
         ],
@@ -114,6 +119,7 @@
             "source_relations": [],
             "source_urls": [
               "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
               "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
               "https://www.spixnet.com/cybersecurity-blog/2023/04/03/newly-exposed-apt43-hacking-group-targeting-us-orgs-since-2018"
             ]
@@ -121,6 +127,46 @@
         ],
         "variants": [
           "MASAN"
+        ]
+      },
+      {
+        "compact_normalized_name": "midnightneptune",
+        "confidence": "source-provided",
+        "display_group_key": "midnightneptune",
+        "name": "MIDNIGHT NEPTUNE",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "midnight neptune",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+          "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
+          "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
+          "https://www.spixnet.com/cybersecurity-blog/2023/04/03/newly-exposed-apt43-hacking-group-targeting-us-orgs-since-2018"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+              "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system",
+              "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
+              "https://www.spixnet.com/cybersecurity-blog/2023/04/03/newly-exposed-apt43-hacking-group-targeting-us-orgs-since-2018"
+            ]
+          }
+        ],
+        "variants": [
+          "MIDNIGHT NEPTUNE"
         ]
       }
     ],
@@ -156,6 +202,14 @@
           "external-reference"
         ],
         "url": "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools"
+      },
+      {
+        "actor_id": "misp-b7e897da-108b-4f5b-b32b-3fd9375cc55e",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system"
       },
       {
         "actor_id": "misp-b7e897da-108b-4f5b-b32b-3fd9375cc55e",
@@ -224,6 +278,7 @@
     "search_names": [
       "CryptoCore",
       "MASAN",
+      "MIDNIGHT NEPTUNE",
       "UNC1069"
     ],
     "source_ids": [
@@ -231,7 +286,7 @@
       "misp-galaxy"
     ],
     "status": "active",
-    "updated_at": "2026-08-03"
+    "updated_at": "2026-08-10"
   },
-  "generated_at": "2026-08-03T06:09:39Z"
+  "generated_at": "2026-08-10T04:21:57Z"
 }
