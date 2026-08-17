@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-08-10 04:21:56 UTC
+Generated: 2026-08-17 03:40:18 UTC
 
 ## Summary
 
-- Auto candidates: 125
+- Auto candidates: 143
 - Published items: 0
 - Rejected items: 0
 
@@ -26,6 +26,30 @@ Generated: 2026-08-10 04:21:56 UTC
   - Summary: The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity comp
 
 ### APT18
+
+- **2026-08-11 / The Hacker News**
+  - Title: DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt
+  - URL: https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html
+  - Matched names: COMBINE
+  - Summary: The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience. "Its recovery ecosystem combines the Session messagin
+
+- **2026-08-11 / The Hacker News**
+  - Title: Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine
+  - URL: https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html
+  - Matched names: COMBINE
+  - Summary: Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment. The plant supplies heat to rou
+
+- **2026-08-11 / The Hacker News**
+  - Title: Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands
+  - URL: https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html
+  - Matched names: APT4
+  - Summary: The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them in
+
+- **2026-08-10 / Microsoft Security Blog**
+  - Title: Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise
+  - Matched names: COMBINE
+  - Summary: Microsoft is named a Leader in the 2026 IDC MarketScape for MDR services. Discover how Microsoft Defender Experts MDR combines AI, threat intelligence, and human expertise. The post Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR fo
 
 - **2026-07-31 / The Hacker News**
   - Title: Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined
@@ -124,6 +148,24 @@ Generated: 2026-08-10 04:21:56 UTC
   - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
 
 ### APT41
+
+- **2026-08-14 / The Record**
+  - Title: Investigation of banking hack leads to arrests in Europe, Brazil
+  - URL: https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil
+  - Matched names: LEAD
+  - Summary: Germany’s federal police agency, the BKA, said three suspects were picked up in Europe and charged with fraud, and Brazil’s federal police said four others were arrested on similar charges.
+
+- **2026-08-13 / Cisco Talos**
+  - Title: Curiouser and Curiouser
+  - URL: https://blog.talosintelligence.com/curiouser-and-curiouser
+  - Matched names: LEAD
+  - Summary: In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.
+
+- **2026-08-10 / Microsoft Security Blog**
+  - Title: Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise
+  - Matched names: LEAD
+  - Summary: Microsoft is named a Leader in the 2026 IDC MarketScape for MDR services. Discover how Microsoft Defender Experts MDR combines AI, threat intelligence, and human expertise. The post Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR fo
 
 - **2026-08-07 / Palo Alto Unit 42**
   - Title: Inside the Modern SOC: The Identity Front Door
@@ -270,6 +312,12 @@ Generated: 2026-08-10 04:21:56 UTC
   - Summary: Learn how CNAPP platforms are helping organizations prioritize exploitable risks, reduce exposure, and operationalize security across the application lifecycle. The post CNAPP evolution: How Microsoft aligns with leading cloud risk management platfor
 
 ### BRONZE BUTLER
+
+- **2026-08-10 / The Hacker News**
+  - Title: Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development
+  - URL: https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html
+  - Matched names: Nian
+  - Summary: North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in
 
 - **2026-07-31 / SecurityWeek**
   - Title: Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers
@@ -431,6 +479,12 @@ Generated: 2026-08-10 04:21:56 UTC
 
 ### Earth Lusca
 
+- **2026-08-14 / SecurityWeek**
+  - Title: AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions
+  - URL: https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions
+  - Matched names: CHROMIUM
+  - Summary: The Rust-based macOS infostealer harvests users’ passwords, keychain information, Chromium-based browser data, and Safari cookies. The post AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions appeared first on SecurityWeek .
+
 - **2026-07-01 / The Hacker News**
   - Title: AI-Generated Browser Ransomware Abuses Chromium API on Windows, Linux, macOS, Android
   - URL: https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html
@@ -489,6 +543,12 @@ Generated: 2026-08-10 04:21:56 UTC
 
 ### Head Mare
 
+- **2026-08-10 / The Hacker News**
+  - Title: TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore
+  - URL: https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html
+  - Matched names: Head Mare
+  - Summary: The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development se
+
 - **2026-08-08 / BleepingComputer**
   - Title: Hackers breach TrueConf to trojanize client installers with backdoors
   - URL: https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors
@@ -511,7 +571,21 @@ Generated: 2026-08-10 04:21:56 UTC
   - Matched names: Mirage
   - Summary: The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South 
 
+### Kimsuky
+
+- **2026-08-10 / The Hacker News**
+  - Title: Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development
+  - URL: https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html
+  - Matched names: Kimsuky
+  - Summary: North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in
+
 ### Lazarus Group
+
+- **2026-08-12 / The Hacker News**
+  - Title: Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
+  - URL: https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
+  - Matched names: Lazarus, Lazarus Group
+  - Summary: The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies acros
 
 - **2026-07-30 / The Hacker News**
   - Title: Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet
@@ -548,6 +622,18 @@ Generated: 2026-08-10 04:21:56 UTC
   - Summary: The China-aligned espionage group&nbsp;Mustang Panda&nbsp;is running two campaigns against the Indian government and hydropower targets, deploying new malware and turning a legitimate cloud service into its command channel. Acronis Threat Research Un
 
 ### Play
+
+- **2026-08-12 / The Hacker News**
+  - Title: OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning
+  - URL: https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html
+  - Matched names: Play
+  - Summary: A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords. The weakness affected encrypted 
+
+- **2026-08-11 / The Hacker News**
+  - Title: Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11
+  - URL: https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html
+  - Matched names: Play
+  - Summary: Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machine. The same PnP path can be tr
 
 - **2026-07-30 / The Hacker News**
   - Title: DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware
@@ -594,6 +680,18 @@ Generated: 2026-08-10 04:21:56 UTC
   - Summary: Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script push
 
 ### Sandworm Team
+
+- **2026-08-11 / The Hacker News**
+  - Title: Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands
+  - URL: https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html
+  - Matched names: APT44, Sandworm
+  - Summary: The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them in
+
+- **2026-08-10 / The Hacker News**
+  - Title: TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore
+  - URL: https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html
+  - Matched names: PHANTOM
+  - Summary: The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development se
 
 - **2026-07-24 / BleepingComputer**
   - Title: Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack
@@ -673,6 +771,12 @@ Generated: 2026-08-10 04:21:56 UTC
 
 ### ShinyHunters
 
+- **2026-08-14 / BleepingComputer**
+  - Title: RingCentral data breach exposed info of 1.6 million accounts
+  - URL: https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts
+  - Matched names: ShinyHunters
+  - Summary: The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]
+
 - **2026-07-25 / BleepingComputer**
   - Title: ShinyHunters data leaks fuel $2,000 sextortion email scam
   - URL: https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam
@@ -696,6 +800,14 @@ Generated: 2026-08-10 04:21:56 UTC
   - URL: https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach
   - Matched names: ShinyHunters
   - Summary: Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. [...]
+
+### Storm-1175
+
+- **2026-08-10 / The Hacker News**
+  - Title: China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw
+  - URL: https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html
+  - Matched names: Storm-1175
+  - Summary: Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor. The use of StormEncryptor marks a shift from the adversary's previous use o
 
 ### Storm-2945
 
