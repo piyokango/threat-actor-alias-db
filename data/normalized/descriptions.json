@@ -468,6 +468,15 @@
     "text": "Ghostr is a financially motivated threat actor known for stealing a confidential database containing 5.3 million records from the World-Check and leaking about 186GB of data from a stock trading platform. They have been active on Breachforums.is, revealing massive data breaches involving comprehensive details of Thai users, including full names, phone numbers, email addresses, and ID card numbers."
   },
   {
+    "actor_id": "misp-0e982626-1472-4b89-b5c5-b2ffb5ce81da",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Larva-26010 targets web servers and MS-SQL servers in Korea to install SoftEther VPN, using the systems as VPN servers. After the initial breach, the actor installs a web shell or SQLShell for control, followed by the SoftEther installation. The threat actor has not exhibited additional malicious behavior beyond installing backdoor accounts or web shells. It appears they are preparing to utilize the infected systems as C&C servers in the future."
+  },
+  {
     "actor_id": "misp-0e9bbcf1-9273-4438-b437-287317bfb989",
     "source_id": "misp-galaxy",
     "source_name": "MISP Galaxy",
@@ -1510,6 +1519,15 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "GreedyBear is a sophisticated threat actor responsible for over $1 million in cryptocurrency theft through a campaign involving 150 malicious Firefox extensions, nearly 500 malicious executables, and numerous fraudulent websites. They employ techniques such as 'Extension Hollowing' to replace legitimate extensions with malicious versions that capture wallet credentials. The campaign is centralized, with most malicious domains resolving to a single IP address, and it has expanded to target other browsers while utilizing AI-generated code to enhance scalability and evade detection."
+  },
+  {
+    "actor_id": "misp-33420fce-ac3e-4164-a1f5-ccc3d43657c2",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "SilkParasite is an activity cluster tracked by Bitdefender across Central Asia, primarily targeting government and telecommunications entities in Kyrgyzstan, Uzbekistan and Kazakhstan. Bitdefender assesses a China-nexus with medium confidence and states explicitly that it does not believe the evidence supports attribution to a named group, so this is recorded as an activity cluster rather than as an established actor. Observed tooling spans seven implant families: five named by Bitdefender (DriveSilkRAT, CookiETagRAT, NomadRAT, GoginRAT, NodeEdgeRAT) plus SpiceRAT, previously reported by Cisco Talos in connection with SneakyChef, and BloodAlchemy, a lineage descended from ShadowPad and Deed RAT. The operators favour DLL sideloading and cloud services as command-and-control channels, and register domains impersonating local hosting providers."
   },
   {
     "actor_id": "misp-33bfb09d-c6f4-4403-b434-1d4d4733ec52",
@@ -2635,6 +2653,15 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "Konni is a threat actor associated with APT37, a North Korean cyber crime group. They have been active since 2012 and are known for their cyber-espionage activities. Konni has targeted various sectors, including education, government, business organizations, and the cryptocurrency industry. They have exploited vulnerabilities such as CVE-2023-38831 and have used malware like KonniRAT to gain control of victim hosts and steal important information."
+  },
+  {
+    "actor_id": "misp-6035b10d-0cd0-4a73-9df9-75ff5f944034",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "ZeroBytes is a hacker who claimed responsibility for an attack on France's DGFiP's Professional Cadastral Data Server (SPDC), alleging the extraction of a dataset containing personal information for over 2 million individuals. The claimed dataset includes names, birth details, addresses, and property rights, potentially linking individuals to real estate assets."
   },
   {
     "actor_id": "misp-6038ceaf-4c1b-470d-af36-c62948488786",

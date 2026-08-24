@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-0e982626-1472-4b89-b5c5-b2ffb5ce81da",
+    "canonical_name": "Larva-26010",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-0e982626-1472-4b89-b5c5-b2ffb5ce81da"
+    ],
+    "misp_uuid": "0e982626-1472-4b89-b5c5-b2ffb5ce81da",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "larva26010",
+        "confidence": "source-provided",
+        "display_group_key": "larva26010",
+        "name": "Larva-26010",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "larva 26010",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://asec.ahnlab.com/en/94995"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://asec.ahnlab.com/en/94995"
+            ]
+          }
+        ],
+        "variants": [
+          "Larva-26010"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Larva-26010 targets web servers and MS-SQL servers in Korea to install SoftEther VPN, using the systems as VPN servers. After the initial breach, the actor installs a web shell or SQLShell for control, followed by the SoftEther installation. The threat actor has not exhibited additional malicious behavior beyond installing backdoor accounts or web shells. It appears they are preparing to utilize the infected systems as C&C servers in the future."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-0e982626-1472-4b89-b5c5-b2ffb5ce81da",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://asec.ahnlab.com/en/94995"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Larva-26010"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-08-24"
+  },
+  "generated_at": "2026-08-24T03:44:07Z"
+}

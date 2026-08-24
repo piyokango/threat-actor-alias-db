@@ -16,17 +16,36 @@
         "name": "UNC6040",
         "name_type": "canonical",
         "name_types": [
-          "canonical"
+          "canonical",
+          "alias"
         ],
-        "naming_org": "MISP Galaxy",
+        "naming_org": "Microsoft other, MISP Galaxy",
         "normalized_name": "unc6040",
-        "source_id": "misp-galaxy",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
         "source_urls": [
           "https://cloud.google.com/blog/topics/threat-intelligence/technical-analysis-vishing-threats",
           "https://cloud.google.com/blog/topics/threat-intelligence/voice-phishing-data-extortion",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
           "https://www.varonis.com/blog/salesforce-vishing-threat-unc604"
         ],
         "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
           {
             "name_types": [
               "canonical"
@@ -49,7 +68,8 @@
       }
     ],
     "naming_sources": [
-      "MISP Galaxy"
+      "MISP Galaxy",
+      "Microsoft other"
     ],
     "observed_techniques": {
       "items": [],
@@ -91,6 +111,22 @@
       },
       {
         "actor_id": "misp-84669320-0b46-4b26-a063-fb71e9833fec",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "misp-84669320-0b46-4b26-a063-fb71e9833fec",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "misp-84669320-0b46-4b26-a063-fb71e9833fec",
         "source_id": "external-reference",
         "source_ids": [
           "external-reference"
@@ -99,19 +135,58 @@
       }
     ],
     "reported_attribution": {
-      "classifications": [],
+      "classifications": [
+        {
+          "display_value": "Financially motivated",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Financially motivated"
+        }
+      ],
       "countries": [],
-      "items": []
+      "items": [
+        {
+          "display_value": "Financially motivated",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Financially motivated"
+        }
+      ]
     },
     "search_names": [
       "UNC6040"
     ],
     "source_ids": [
       "external-reference",
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
-    "updated_at": "2026-08-17"
+    "updated_at": "2026-08-24"
   },
-  "generated_at": "2026-08-17T03:40:19Z"
+  "generated_at": "2026-08-24T03:44:07Z"
 }

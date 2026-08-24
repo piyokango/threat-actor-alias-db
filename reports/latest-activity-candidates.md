@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-08-17 03:40:18 UTC
+Generated: 2026-08-24 03:44:06 UTC
 
 ## Summary
 
-- Auto candidates: 143
+- Auto candidates: 160
 - Published items: 0
 - Rejected items: 0
 
@@ -148,6 +148,36 @@ Generated: 2026-08-17 03:40:18 UTC
   - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
 
 ### APT41
+
+- **2026-08-21 / SecurityWeek**
+  - Title: Critical Isolated-vm Vulnerability Leads to RCE on Host
+  - URL: https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host
+  - Matched names: LEAD
+  - Summary: The type confusion bug can lead to V8 sandbox escape and control-flow hijacking of the host process. The post Critical Isolated-vm Vulnerability Leads to RCE on Host appeared first on SecurityWeek .
+
+- **2026-08-21 / SecurityWeek**
+  - Title: Former NSA Director Paul Nakasone Launches National Security Advisory Firm
+  - URL: https://www.securityweek.com/former-nsa-director-paul-nakasone-launches-national-security-advisory-firm
+  - Matched names: LEAD
+  - Summary: The newly-formed Nakasone Group will counsel government leaders, corporations, prominent families, and other private clients confronting cybersecurity, geopolitical, and personal security risks. The post Former NSA Director Paul Nakasone Launches Nat
+
+- **2026-08-20 / The Hacker News**
+  - Title: Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution
+  - URL: https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
+  - Matched names: LEAD
+  - Summary: A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska). The vulnerability in question is CVE-2026-73570 (CVSS score: 8.9)
+
+- **2026-08-20 / The Hacker News**
+  - Title: Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code
+  - URL: https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html
+  - Matched names: LEAD
+  - Summary: Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 
+
+- **2026-08-19 / Microsoft Security Blog**
+  - Title: Microsoft named a Leader in the Frost Radar™: Cloud Workload Protection Platforms, 2026
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/08/19/microsoft-named-a-leader-in-the-frost-radar-cloud-workload-protection-platforms-2026
+  - Matched names: LEAD
+  - Summary: Microsoft is named a visionary leader in the 2026 Frost Radar for Cloud Workload Protection Platforms, recognized for unified runtime security with Microsoft Defender for Cloud. The post Microsoft named a Leader in the Frost Radar™: Cloud Workload Pr
 
 - **2026-08-14 / The Record**
   - Title: Investigation of banking hack leads to arrests in Europe, Brazil
@@ -313,6 +343,18 @@ Generated: 2026-08-17 03:40:18 UTC
 
 ### BRONZE BUTLER
 
+- **2026-08-20 / The Hacker News**
+  - Title: Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices
+  - URL: https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html
+  - Matched names: Nian
+  - Summary: A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and European financial institutions, global fintech and cryptocurrency service
+
+- **2026-08-17 / The Hacker News**
+  - Title: Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic
+  - URL: https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html
+  - Matched names: Nian
+  - Summary: Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in Israel. Russian cybersecurity company Kaspersky said its
+
 - **2026-08-10 / The Hacker News**
   - Title: Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development
   - URL: https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html
@@ -408,6 +450,12 @@ Generated: 2026-08-17 03:40:18 UTC
   - Summary: NetNut rented access to millions of compromised devices, allowing cybercriminals and nation-state actors to mask their identities during attacks. The post Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices appeared fi
 
 ### Cleaver
+
+- **2026-08-20 / The Hacker News**
+  - Title: CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification
+  - URL: https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html
+  - Matched names: Alibaba
+  - Summary: Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a low-bandwidth re
 
 - **2026-07-25 / The Hacker News**
   - Title: Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
@@ -543,6 +591,12 @@ Generated: 2026-08-17 03:40:18 UTC
 
 ### Head Mare
 
+- **2026-08-21 / SecurityWeek**
+  - Title: CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities
+  - URL: https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities
+  - Matched names: Head Mare
+  - Summary: The Head Mare hacktivist group has been exploiting the bugs to deploy the PhantomCore malware. The post CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities appeared first on SecurityWeek .
+
 - **2026-08-10 / The Hacker News**
   - Title: TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore
   - URL: https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html
@@ -601,6 +655,12 @@ Generated: 2026-08-17 03:40:18 UTC
 
 ### Lotus Blossom
 
+- **2026-08-21 / SecurityWeek**
+  - Title: CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities
+  - URL: https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities
+  - Matched names: ST Group
+  - Summary: The Head Mare hacktivist group has been exploiting the bugs to deploy the PhantomCore malware. The post CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities appeared first on SecurityWeek .
+
 - **2026-08-08 / BleepingComputer**
   - Title: Hackers breach TrueConf to trojanize client installers with backdoors
   - URL: https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors
@@ -621,7 +681,27 @@ Generated: 2026-08-17 03:40:18 UTC
   - Matched names: MUSTANG PANDA, Mustang Panda
   - Summary: The China-aligned espionage group&nbsp;Mustang Panda&nbsp;is running two campaigns against the Indian government and hydropower targets, deploying new malware and turning a legitimate cloud service into its command channel. Acronis Threat Research Un
 
+### PLATINUM
+
+- **2026-08-20 / The Record**
+  - Title: China’s ‘SilkParasite’ espionage operation targeting Central Asia with AI-assisted malware
+  - URL: https://therecord.media/china-cyber-espionage-central-asia
+  - Matched names: PARASITE
+  - Summary: Suspected military-grade hackers based in China used artificial intelligence to develop malware in a campaign to penetrate Central Asian governments.
+
+- **2026-08-19 / The Hacker News**
+  - Title: SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs
+  - URL: https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html
+  - Matched names: PARASITE
+  - Summary: A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia. The intrusion set makes use of seven remote access tool (RAT) families, five of which have never been previously docu
+
 ### Play
+
+- **2026-08-23 / BleepingComputer**
+  - Title: ToxicPanda Android malware uses VPN permissions to block Google Play
+  - URL: https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play
+  - Matched names: Play
+  - Summary: The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]
 
 - **2026-08-12 / The Hacker News**
   - Title: OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning
@@ -680,6 +760,12 @@ Generated: 2026-08-17 03:40:18 UTC
   - Summary: Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script push
 
 ### Sandworm Team
+
+- **2026-08-21 / SecurityWeek**
+  - Title: CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities
+  - URL: https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities
+  - Matched names: PHANTOM
+  - Summary: The Head Mare hacktivist group has been exploiting the bugs to deploy the PhantomCore malware. The post CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities appeared first on SecurityWeek .
 
 - **2026-08-11 / The Hacker News**
   - Title: Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands
@@ -801,6 +887,20 @@ Generated: 2026-08-17 03:40:18 UTC
   - Matched names: ShinyHunters
   - Summary: Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. [...]
 
+### SilkParasite
+
+- **2026-08-20 / The Record**
+  - Title: China’s ‘SilkParasite’ espionage operation targeting Central Asia with AI-assisted malware
+  - URL: https://therecord.media/china-cyber-espionage-central-asia
+  - Matched names: SilkParasite
+  - Summary: Suspected military-grade hackers based in China used artificial intelligence to develop malware in a campaign to penetrate Central Asian governments.
+
+- **2026-08-19 / The Hacker News**
+  - Title: SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs
+  - URL: https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html
+  - Matched names: SilkParasite
+  - Summary: A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia. The intrusion set makes use of seven remote access tool (RAT) families, five of which have never been previously docu
+
 ### Storm-1175
 
 - **2026-08-10 / The Hacker News**
@@ -910,6 +1010,14 @@ Generated: 2026-08-17 03:40:18 UTC
   - URL: https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html
   - Matched names: Nimbus Manticore, UNC1549
   - Summary: The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South 
+
+### UNC6293
+
+- **2026-08-20 / The Hacker News**
+  - Title: Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts
+  - URL: https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html
+  - Matched names: UNC6293
+  - Summary: Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well a
 
 ### UNC6671
 
