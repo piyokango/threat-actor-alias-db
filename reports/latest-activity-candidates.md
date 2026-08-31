@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-08-24 03:44:06 UTC
+Generated: 2026-08-31 09:02:08 UTC
 
 ## Summary
 
-- Auto candidates: 160
+- Auto candidates: 175
 - Published items: 0
 - Rejected items: 0
 
@@ -26,6 +26,12 @@ Generated: 2026-08-24 03:44:06 UTC
   - Summary: The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity comp
 
 ### APT18
+
+- **2026-08-27 / The Hacker News**
+  - Title: Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks
+  - URL: https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html
+  - Matched names: COMBINE
+  - Summary: The Australian Federal Police (AFP) has charged two Western Australian men with a combined total of 14 offences over their alleged role in TeamPCP, the cybercrime group behind the March 2026 compromise of the open-source security scanners Trivy and C
 
 - **2026-08-11 / The Hacker News**
   - Title: DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt
@@ -111,6 +117,14 @@ Generated: 2026-08-24 03:44:06 UTC
   - Matched names: COMBINE
   - Summary: Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing traditional security controls. Avalon combines credential 
 
+### APT28
+
+- **2026-08-28 / The Hacker News**
+  - Title: APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations
+  - URL: https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html
+  - Matched names: APT28
+  - Summary: Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026. These campaigns, per Recorded Future Insikt Group, have
+
 ### APT29
 
 - **2026-08-01 / The Hacker News**
@@ -148,6 +162,12 @@ Generated: 2026-08-24 03:44:06 UTC
   - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
 
 ### APT41
+
+- **2026-08-29 / The Hacker News**
+  - Title: Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE
+  - URL: https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html
+  - Matched names: LEAD
+  - Summary: Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The
 
 - **2026-08-21 / SecurityWeek**
   - Title: Critical Isolated-vm Vulnerability Leads to RCE on Host
@@ -343,6 +363,24 @@ Generated: 2026-08-24 03:44:06 UTC
 
 ### BRONZE BUTLER
 
+- **2026-08-28 / SecurityWeek**
+  - Title: In Other News: Log4j RCE Scare, Minimus Shutdown, Iranian Hacker Sanctions
+  - URL: https://www.securityweek.com/in-other-news-log4j-rce-scare-minimus-shutdown-iranian-hacker-sanctions
+  - Matched names: Nian
+  - Summary: Noteworthy stories that might have slipped under the radar: Manchester Airports Group cyberattack, Carhartt breach data was partly fake, U.S. Bank responds to ransomware gang’s claims. The post In Other News: Log4j RCE Scare, Minimus Shutdown, Irania
+
+- **2026-08-26 / The Hacker News**
+  - Title: Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler
+  - URL: https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html
+  - Matched names: Nian
+  - Summary: Cybersecurity researchers have discovered additional infrastructure and previously undocumented malware associated with Nimbus Manticore, an Iranian state-sponsored hacking group affiliated with the Islamic Revolutionary Guard Corps (IRGC). Group-IB,
+
+- **2026-08-25 / The Hacker News**
+  - Title: U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches
+  - URL: https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html
+  - Matched names: Nian
+  - Summary: The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an "unprecedented, whole-of-government, economic campaign" against the nation and its enablers. "We are launching an economic onslaugh
+
 - **2026-08-20 / The Hacker News**
   - Title: Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices
   - URL: https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html
@@ -517,6 +555,14 @@ Generated: 2026-08-24 03:44:06 UTC
   - Matched names: Lace Tempest
   - Summary: Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. "Attackers ch
 
+### Dark Caracal
+
+- **2026-08-27 / The Hacker News**
+  - Title: GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address
+  - URL: https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html
+  - Matched names: Dark Caracal
+  - Summary: Threat actors linked by Arctic Wolf to Dark Caracal with medium confidence deployed a previously undocumented Go-based malware framework, GoCaracal, during a June 2026 intrusion at an unnamed communications organization in Venezuela. GoCaracal provid
+
 ### DragonBreath
 
 - **2026-07-17 / The Hacker News**
@@ -566,6 +612,14 @@ Generated: 2026-08-24 03:44:06 UTC
   - URL: https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
   - Matched names: FIN11
   - Summary: Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. "Attackers ch
+
+### FulcrumSec
+
+- **2026-08-30 / BleepingComputer**
+  - Title: FulcrumSec claims Manchester Airports hack, theft of 86 GB of data
+  - URL: https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data
+  - Matched names: FulcrumSec
+  - Summary: FulcrumSec claims it stole 86 GB of data from Manchester Airports Group. BleepingComputer validated one traveller's record, while samples revealed detailed customer, booking, and travel information beyond what MAG initially disclosed. [...]
 
 ### GC01
 
@@ -618,6 +672,12 @@ Generated: 2026-08-24 03:44:06 UTC
   - Summary: A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new&nbsp;case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: 
 
 ### Ke3chang
+
+- **2026-08-25 / The Hacker News**
+  - Title: Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows
+  - URL: https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html
+  - Matched names: Mirage
+  - Summary: Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows and bypassing two-factor authentication. According to
 
 - **2026-07-28 / The Hacker News**
   - Title: Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays
@@ -697,6 +757,12 @@ Generated: 2026-08-24 03:44:06 UTC
 
 ### Play
 
+- **2026-08-26 / The Hacker News**
+  - Title: Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code
+  - URL: https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html
+  - Matched names: Play
+  - Summary: The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a server and execute code on it. The flaws, tracked 
+
 - **2026-08-23 / BleepingComputer**
   - Title: ToxicPanda Android malware uses VPN permissions to block Google Play
   - URL: https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play
@@ -750,6 +816,14 @@ Generated: 2026-08-24 03:44:06 UTC
   - URL: https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html
   - Matched names: Play
   - Summary: Convince an AI browser that it is playing a game, and it can hand over your login details. That is the finding behind&nbsp;BioShocking, a technique from security firm LayerX that tricked six AI browsers and assistants into copying a user's credential
+
+### Putter Panda
+
+- **2026-08-28 / The Hacker News**
+  - Title: APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations
+  - URL: https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html
+  - Matched names: APT2
+  - Summary: Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026. These campaigns, per Recorded Future Insikt Group, have
 
 ### STARDUST CHOLLIMA
 
@@ -857,6 +931,12 @@ Generated: 2026-08-24 03:44:06 UTC
 
 ### ShinyHunters
 
+- **2026-08-28 / BleepingComputer**
+  - Title: McKesson discloses breach after ShinyHunters claims patient data theft
+  - URL: https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft
+  - Matched names: ShinyHunters
+  - Summary: Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it stole 284 million patient dat
+
 - **2026-08-14 / BleepingComputer**
   - Title: RingCentral data breach exposed info of 1.6 million accounts
   - URL: https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts
@@ -935,6 +1015,12 @@ Generated: 2026-08-24 03:44:06 UTC
 
 ### TeamPCP
 
+- **2026-08-27 / The Hacker News**
+  - Title: Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks
+  - URL: https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html
+  - Matched names: TeamPCP
+  - Summary: The Australian Federal Police (AFP) has charged two Western Australian men with a combined total of 14 offences over their alleged role in TeamPCP, the cybercrime group behind the March 2026 compromise of the open-source security scanners Trivy and C
+
 - **2026-08-07 / The Hacker News**
   - Title: TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign
   - URL: https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
@@ -1004,6 +1090,12 @@ Generated: 2026-08-24 03:44:06 UTC
   - Summary: Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
 
 ### UNC1549
+
+- **2026-08-26 / The Hacker News**
+  - Title: Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler
+  - URL: https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html
+  - Matched names: Nimbus Manticore
+  - Summary: Cybersecurity researchers have discovered additional infrastructure and previously undocumented malware associated with Nimbus Manticore, an Iranian state-sponsored hacking group affiliated with the Islamic Revolutionary Guard Corps (IRGC). Group-IB,
 
 - **2026-07-28 / The Hacker News**
   - Title: Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays
@@ -1076,6 +1168,12 @@ Generated: 2026-08-24 03:44:06 UTC
   - Summary: A Kremlin-backed group known as Laundry Bear has been using a zero-click phishing technique to break into Zimbra webmail accounts worldwide, the U.S. and other nations said.
 
 ### Watchdog
+
+- **2026-08-28 / BleepingComputer**
+  - Title: Over 8,300 Gitea servers vulnerable to code execution attacks
+  - URL: https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks
+  - Matched names: Watchdog
+  - Summary: Over 8,300 Internet-exposed Gitea instances are still unpatched against a critical security flaw exploited in ongoing remote code execution attacks, according to cybersecurity watchdog Shadowserver. [...]
 
 - **2026-07-28 / The Hacker News**
   - Title: Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process
