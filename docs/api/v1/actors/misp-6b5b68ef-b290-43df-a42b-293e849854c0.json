@@ -1,0 +1,132 @@
+{
+  "actor": {
+    "actor_id": "misp-6b5b68ef-b290-43df-a42b-293e849854c0",
+    "canonical_name": "BREEZE COMET",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-6b5b68ef-b290-43df-a42b-293e849854c0"
+    ],
+    "misp_uuid": "6b5b68ef-b290-43df-a42b-293e849854c0",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "breezecomet",
+        "confidence": "source-provided",
+        "display_group_key": "breezecomet",
+        "name": "BREEZE COMET",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "breeze comet",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.hendryadrian.com/financially-motivated-threat-actor-breeze-comet-targets-brazil"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.hendryadrian.com/financially-motivated-threat-actor-breeze-comet-targets-brazil"
+            ]
+          }
+        ],
+        "variants": [
+          "BREEZE COMET"
+        ]
+      },
+      {
+        "compact_normalized_name": "unc5669",
+        "confidence": "source-provided",
+        "display_group_key": "unc5669",
+        "name": "UNC5669",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc5669",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.hendryadrian.com/financially-motivated-threat-actor-breeze-comet-targets-brazil"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.hendryadrian.com/financially-motivated-threat-actor-breeze-comet-targets-brazil"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC5669"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "BREEZE COMET is a financially motivated threat actor targeting Brazilian financial services, retail, and eCommerce organizations through compromised websites, custom malware, and stolen credentials to manipulate payment systems and execute fraudulent transfers. The group employs custom tools such as REALBREEZE, COBALTSPIN, KICKPLATE, MILDFROST, LIGHTPAINT, and BOATBEAM for reconnaissance, lateral movement, persistence, tunneling, and stealth. Forensic evidence indicates that BREEZE COMET has executed waves of fraudulent transactions within 24-48 hours of compromise, likely stealing tens of thousands of USD in assets. The actor has also leveraged generative AI to enhance malware and script..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-6b5b68ef-b290-43df-a42b-293e849854c0",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.hendryadrian.com/financially-motivated-threat-actor-breeze-comet-targets-brazil"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "BREEZE COMET",
+      "UNC5669"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-09-07"
+  },
+  "generated_at": "2026-09-07T07:39:26Z"
+}

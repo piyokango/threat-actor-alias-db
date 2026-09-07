@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-1ac591bf-cd86-4520-a82a-dde2245c85d3",
+    "canonical_name": "QTFY",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-1ac591bf-cd86-4520-a82a-dde2245c85d3"
+    ],
+    "misp_uuid": "1ac591bf-cd86-4520-a82a-dde2245c85d3",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "qtfy",
+        "confidence": "source-provided",
+        "display_group_key": "qtfy",
+        "name": "QTFY",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "qtfy",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://zerotracelab.com/blog/qtfy-hunt-internet-sensor"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://zerotracelab.com/blog/qtfy-hunt-internet-sensor"
+            ]
+          }
+        ],
+        "variants": [
+          "QTFY"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "QTFY is a state-sponsored group from the People's Republic of China, operating as an infrastructure quartermaster that provides reconnaissance, access, and obfuscation services to various state customers, including the MSS and PLA. It developed QScan and QTRouter, leveraging high-tier commercial proxy services like fastlink.ws to obscure its traffic. QTFY personnel, including former PLA members, engage in exploit brokering and operate within a supply chain rather than merely deploying malware. The group has been linked to specific domains and infrastructure, with evidence of TLS certificate collection as part of its operational tactics."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-1ac591bf-cd86-4520-a82a-dde2245c85d3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://zerotracelab.com/blog/qtfy-hunt-internet-sensor"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "CN",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "CN"
+        }
+      ]
+    },
+    "search_names": [
+      "QTFY"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-09-07"
+  },
+  "generated_at": "2026-09-07T07:39:26Z"
+}

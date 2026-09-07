@@ -1,0 +1,139 @@
+{
+  "actor": {
+    "actor_id": "misp-67d76ea9-758b-442d-8dd8-f64f6353adeb",
+    "canonical_name": "Exilware",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-67d76ea9-758b-442d-8dd8-f64f6353adeb"
+    ],
+    "misp_uuid": "67d76ea9-758b-442d-8dd8-f64f6353adeb",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "exilware",
+        "confidence": "source-provided",
+        "display_group_key": "exilware",
+        "name": "Exilware",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "exilware",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.group-ib.com/blog/brazetsu-ai-enhanced-iab-marketplace"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.group-ib.com/blog/brazetsu-ai-enhanced-iab-marketplace"
+            ]
+          }
+        ],
+        "variants": [
+          "Exilware"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Exilware is a Brazilian threat actor operating the \"Infect Marketplace,\" which commercializes access to compromised systems using the BraZetsu malware framework. BraZetsu employs a modular architecture and AI-driven reconnaissance to optimize target value across various sectors, including banking and government systems. The actor maintains a controlled operational model, requiring customers to spend quickly to limit exposure and risk. Exilware's activities reflect a sophisticated Initial Access Broker operation, transforming compromised systems into commercial assets through automated intelligence gathering."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-67d76ea9-758b-442d-8dd8-f64f6353adeb",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.group-ib.com/blog/brazetsu-ai-enhanced-iab-marketplace"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": null,
+          "display_value": "BR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "BR"
+        }
+      ],
+      "items": [
+        {
+          "country_code": null,
+          "display_value": "BR",
+          "flag": null,
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "BR"
+        }
+      ]
+    },
+    "search_names": [
+      "Exilware"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-09-07"
+  },
+  "generated_at": "2026-09-07T07:39:26Z"
+}

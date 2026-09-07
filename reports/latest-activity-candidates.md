@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-08-31 09:02:08 UTC
+Generated: 2026-09-07 07:39:25 UTC
 
 ## Summary
 
-- Auto candidates: 175
+- Auto candidates: 197
 - Published items: 0
 - Rejected items: 0
 
@@ -162,6 +162,30 @@ Generated: 2026-08-31 09:02:08 UTC
   - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
 
 ### APT41
+
+- **2026-09-04 / The Record**
+  - Title: US offers $10 million for info on Iranian allegedly behind cyberattacks on critical infrastructure
+  - URL: https://therecord.media/us-reward-amir-yaryab-iran-irgc-cyberattacks
+  - Matched names: LEAD
+  - Summary: Amir Yaryab is the leader of the IRGC's cyber unit and oversees hacker groups such as the CyberAv3ngers, the State Department said in posting a reward for information about him.
+
+- **2026-09-03 / BleepingComputer**
+  - Title: HPE patches critical ArubaOS-CX remote code execution flaw
+  - URL: https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw
+  - Matched names: LEAD
+  - Summary: Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execution. [...]
+
+- **2026-09-01 / The Hacker News**
+  - Title: Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure
+  - URL: https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html
+  - Matched names: LEAD
+  - Summary: Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr. The vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of authentication b
+
+- **2026-08-31 / The Hacker News**
+  - Title: Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets
+  - URL: https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html
+  - Matched names: LEAD
+  - Summary: Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to findings from CloudSEK and Gambit Security. The tw
 
 - **2026-08-29 / The Hacker News**
   - Title: Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE
@@ -361,7 +385,41 @@ Generated: 2026-08-31 09:02:08 UTC
   - Matched names: LEAD
   - Summary: Learn how CNAPP platforms are helping organizations prioritize exploitable risks, reduce exposure, and operationalize security across the application lifecycle. The post CNAPP evolution: How Microsoft aligns with leading cloud risk management platfor
 
+### Attor
+
+- **2026-09-02 / The Hacker News**
+  - Title: Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands
+  - URL: https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html
+  - Matched names: Attor
+  - Summary: The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attachments to about 80,000 of its users in 2016 and 20
+
+### BREEZE COMET
+
+- **2026-09-01 / The Hacker News**
+  - Title: Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems
+  - URL: https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html
+  - Matched names: BREEZE COMET, UNC5669
+  - Summary: Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since 2024. Google Threat Intelligence Group (GTIG) and Mandiant teams described 
+
 ### BRONZE BUTLER
+
+- **2026-09-04 / The Record**
+  - Title: Russian data centers face new security requirements amid Ukraine's drone threats
+  - URL: https://therecord.media/russia-data-centers-ukraine-drone-threats
+  - Matched names: Nian
+  - Summary: Russia's data centers are concentrated in areas increasingly exposed to Ukrainian drone attacks. The Kremlin wants them to stiffen their physical defenses.
+
+- **2026-09-04 / The Record**
+  - Title: US offers $10 million for info on Iranian allegedly behind cyberattacks on critical infrastructure
+  - URL: https://therecord.media/us-reward-amir-yaryab-iran-irgc-cyberattacks
+  - Matched names: Nian
+  - Summary: Amir Yaryab is the leader of the IRGC's cyber unit and oversees hacker groups such as the CyberAv3ngers, the State Department said in posting a reward for information about him.
+
+- **2026-09-01 / The Hacker News**
+  - Title: Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests
+  - URL: https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html
+  - Matched names: Nian
+  - Summary: The Iranian Nimbus Manticore hacking group has been attributed to two previously undocumented malware families that highlight the continued evolution of its toolset and likely expand its targeting footprint to infect Linux and Apple macOS systems usi
 
 - **2026-08-28 / SecurityWeek**
   - Title: In Other News: Log4j RCE Scare, Minimus Shutdown, Iranian Hacker Sanctions
@@ -546,6 +604,14 @@ Generated: 2026-08-31 09:02:08 UTC
   - URL: https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html
   - Matched names: Contagious Interview
   - Summary: The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go, and Google Chrome as part of an ongoing activity referred to as Polin
+
+### Cyber Av3ngers
+
+- **2026-09-04 / The Record**
+  - Title: US offers $10 million for info on Iranian allegedly behind cyberattacks on critical infrastructure
+  - URL: https://therecord.media/us-reward-amir-yaryab-iran-irgc-cyberattacks
+  - Matched names: CyberAv3ngers
+  - Summary: Amir Yaryab is the leader of the IRGC's cyber unit and oversees hacker groups such as the CyberAv3ngers, the State Department said in posting a reward for information about him.
 
 ### DEV-0950
 
@@ -923,6 +989,12 @@ Generated: 2026-08-31 09:02:08 UTC
 
 ### Sea Turtle
 
+- **2026-09-03 / The Hacker News**
+  - Title: Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root
+  - URL: https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html
+  - Matched names: SILICON
+  - Summary: Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute code as root, alongside an IOS XR hardening release bundling 7 umbrella 
+
 - **2026-07-31 / The Record**
   - Title: Cyber Command plans Silicon Valley office to drive innovation
   - URL: https://therecord.media/cyber-command-plans-silicon-valley-office-to-drive-innovation
@@ -1035,6 +1107,14 @@ Generated: 2026-08-31 09:02:08 UTC
   - Matched names: The Gentlemen
   - Summary: Unit 42 explores The Gentlemen ransomware operations, revealing the affiliate model driving its rapid growth. Learn more here. The post No Manners Here: The Ruthless Rise of The Gentlemen Ransomware appeared first on Unit 42 .
 
+### TheHatman
+
+- **2026-08-18 / Palo Alto Unit 42**
+  - Title: Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18)
+  - URL: https://unit42.paloaltonetworks.com/large-scale-credential-attacks
+  - Matched names: TheHatman
+  - Summary: In August 2026, the actor TheHatman claimed to have stolen large volume of credentials from organizations' Microsoft Entra tenants. We provide guidance on mitigating large-scale credential attacks. The post Threat Brief: Mitigating Large-Scale Creden
+
 ### ToddyCat
 
 - **2026-07-02 / The Hacker News**
@@ -1067,6 +1147,12 @@ Generated: 2026-08-31 09:02:08 UTC
 
 ### UAC-0099
 
+- **2026-09-01 / The Hacker News**
+  - Title: Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis
+  - URL: https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html
+  - Matched names: UAC-0099
+  - Summary: Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to interfere with artificial intelligence (AI)-assisted ana
+
 - **2026-07-24 / The Hacker News**
   - Title: Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks
   - URL: https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html
@@ -1090,6 +1176,12 @@ Generated: 2026-08-31 09:02:08 UTC
   - Summary: Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
 
 ### UNC1549
+
+- **2026-09-01 / The Hacker News**
+  - Title: Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests
+  - URL: https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html
+  - Matched names: Nimbus Manticore
+  - Summary: The Iranian Nimbus Manticore hacking group has been attributed to two previously undocumented malware families that highlight the continued evolution of its toolset and likely expand its targeting footprint to infect Linux and Apple macOS systems usi
 
 - **2026-08-26 / The Hacker News**
   - Title: Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler
@@ -1145,7 +1237,57 @@ Generated: 2026-08-31 09:02:08 UTC
   - Matched names: DUNE
   - Summary: Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall for and no approval box to ignore. Cato AI Labs&nbsp
 
+### VantaCore
+
+- **2026-09-03 / BleepingComputer**
+  - Title: Coder's registry infrastructure compromised to push malicious modules
+  - URL: https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules
+  - Matched names: Thor
+  - Summary: Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]
+
+- **2026-09-03 / BleepingComputer**
+  - Title: French hospital fined €500,000 after breach exposes data of 727,000
+  - URL: https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000
+  - Matched names: Thor
+  - Summary: France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients' and their relatives' data. [...]
+
+- **2026-09-03 / The Hacker News**
+  - Title: Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data
+  - URL: https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html
+  - Matched names: Thor
+  - Summary: Thomson Reuters disclosed on Wednesday that an unauthorized party obtained files from C-Track, the court case management platform sold by its West Publishing Corporation unit, in March 2026, affecting courts in 11 U.S. states, the U.S. Virgin Islands
+
+- **2026-09-02 / The Hacker News**
+  - Title: Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads
+  - URL: https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html
+  - Matched names: Thor
+  - Summary: The U.S. Department of Justice (DoJ) on Tuesday announced the takedown of a long-standing peer-to-peer (P2P) botnet known as Sality as part of a coordinated law enforcement operation. The effort was undertaken on August 31, 2026, by authorities from 
+
+- **2026-09-01 / The Hacker News**
+  - Title: Attackers Steal METR API Key and Consume AI Credits Worth About $600,000
+  - URL: https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html
+  - Matched names: Thor
+  - Summary: METR (short for Model Evaluation and Threat Research and pronounced "Meter"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out long-horizon, agentic tasks, disclosed that it suffered "tw
+
+- **2026-08-25 / Palo Alto Unit 42**
+  - Title: The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution
+  - URL: https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis
+  - Matched names: Thor
+  - Summary: Explore Unit 42 research on AI-enabled malware. Learn how existing behavioral detection and endpoint analytics stop AI-authored code before execution. The post The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution appeare
+
+- **2026-08-20 / Cisco Talos**
+  - Title: Is Cyber missing the Marque?
+  - URL: https://blog.talosintelligence.com/is-cyber-missing-the-marque
+  - Matched names: Thor
+  - Summary: In this week's newsletter, new author Mick Baccio introduces himself and explores the operational and security implications of the new White House memorandum regarding private sector participation in government-authorized offensive cyber operations.
+
 ### Void Arachne
+
+- **2026-08-31 / The Hacker News**
+  - Title: ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions
+  - URL: https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html
+  - Matched names: Silver Fox
+  - Summary: The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past users who add such software to their antivirus exclu
 
 - **2026-07-30 / The Hacker News**
   - Title: SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT
