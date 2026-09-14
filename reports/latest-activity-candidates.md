@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-09-07 07:39:25 UTC
+Generated: 2026-09-14 08:15:29 UTC
 
 ## Summary
 
-- Auto candidates: 197
+- Auto candidates: 218
 - Published items: 0
 - Rejected items: 0
 
@@ -26,6 +26,12 @@ Generated: 2026-09-07 07:39:25 UTC
   - Summary: The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity comp
 
 ### APT18
+
+- **2026-09-10 / BleepingComputer**
+  - Title: New Android malware encrypts files, steals data, and harasses victims
+  - URL: https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims
+  - Matched names: COMBINE
+  - Summary: A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims. [...]
 
 - **2026-08-27 / The Hacker News**
   - Title: Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks
@@ -139,6 +145,14 @@ Generated: 2026-09-07 07:39:25 UTC
   - Matched names: Midnight Blizzard
   - Summary: Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credenti
 
+### APT3
+
+- **2026-09-09 / The Hacker News**
+  - Title: Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week
+  - URL: https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
+  - Matched names: APT3
+  - Summary: Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome. The first in-the-wild use of B
+
 ### APT32
 
 - **2026-06-11 / ESET WeLiveSecurity**
@@ -162,6 +176,24 @@ Generated: 2026-09-07 07:39:25 UTC
   - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
 
 ### APT41
+
+- **2026-09-13 / SecurityWeek**
+  - Title: Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up
+  - URL: https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up
+  - Matched names: LEAD
+  - Summary: Dario Amodei warned that within six to 12 months AI could be capable of leading a swarm of agents that could take over the entire internet. The post Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up appeared f
+
+- **2026-09-11 / BleepingComputer**
+  - Title: Passkey-themed phishing attacks lead to Microsoft 365 data theft
+  - URL: https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft
+  - Matched names: LEAD
+  - Summary: Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social engineering attacks to compromise corporate Microsoft accounts and steal data from Microsoft 365 services. [...]
+
+- **2026-09-09 / Microsoft Security Blog**
+  - Title: Passkey-themed social engineering leads to identity and cloud compromise
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise
+  - Matched names: LEAD
+  - Summary: Passkey-themed social engineering is being used to compromise identities and enable broader cloud attacks. Learn how threat actors establish MFA persistence, abuse Microsoft Graph for reconnaissance, and access SharePoint, OneDrive, and email data, a
 
 - **2026-09-04 / The Record**
   - Title: US offers $10 million for info on Iranian allegedly behind cyberattacks on critical infrastructure
@@ -403,6 +435,30 @@ Generated: 2026-09-07 07:39:25 UTC
 
 ### BRONZE BUTLER
 
+- **2026-09-11 / BleepingComputer**
+  - Title: Conti ransomware gang member sentenced to 4 years in prison
+  - URL: https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison
+  - Matched names: Nian
+  - Summary: A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]
+
+- **2026-09-11 / SecurityWeek**
+  - Title: In Other News: InjectEave Attack, SIM Swapper Sentenced, Glasswing Findings Review
+  - URL: https://www.securityweek.com/in-other-news-injecteave-attack-sim-swapper-sentenced-glasswing-findings-review
+  - Matched names: Nian
+  - Summary: Noteworthy stories that might have slipped under the radar: Invisible Unicode slips past phishing filters, US puts $10 million bounty on Iranian cyber official, military ties of Chinese hacking group QTFY. The post In Other News: InjectEave Attack, S
+
+- **2026-09-11 / SecurityWeek**
+  - Title: Ukrainian Conti Ransomware Developer Sentenced to 4 Years in US Prison
+  - URL: https://www.securityweek.com/ukrainian-conti-ransomware-developer-sentenced-to-4-years-in-us-prison
+  - Matched names: Nian
+  - Summary: Oleksii Oleksiyovych Lytvynenko has been sentenced to 4 years in prison after he was arrested in Ireland in 2023. The post Ukrainian Conti Ransomware Developer Sentenced to 4 Years in US Prison appeared first on SecurityWeek .
+
+- **2026-09-11 / The Record**
+  - Title: Ukrainian hacker gets four years in US prison over Conti ransomware attacks
+  - URL: https://therecord.media/conti-ransomware-ukraine-hacker
+  - Matched names: Nian
+  - Summary: A Ukrainian national was sentenced to four years in a U.S. prison for his role in the notorious Conti ransomware operation, which targeted more than 1,000 victims worldwide before shutting down in 2022.
+
 - **2026-09-04 / The Record**
   - Title: Russian data centers face new security requirements amid Ukraine's drone threats
   - URL: https://therecord.media/russia-data-centers-ukraine-drone-threats
@@ -547,6 +603,12 @@ Generated: 2026-09-07 07:39:25 UTC
 
 ### Cleaver
 
+- **2026-09-11 / The Hacker News**
+  - Title: Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks
+  - URL: https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html
+  - Matched names: Alibaba
+  - Summary: Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax. Knowledge distillation by itself
+
 - **2026-08-20 / The Hacker News**
   - Title: CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification
   - URL: https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html
@@ -638,6 +700,12 @@ Generated: 2026-09-07 07:39:25 UTC
   - Summary: Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (
 
 ### Earth Lusca
+
+- **2026-09-07 / The Hacker News**
+  - Title: PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution
+  - URL: https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html
+  - Matched names: CHROMIUM
+  - Summary: Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. "Requiring prior administrative or code execution access, its installer 
 
 - **2026-08-14 / SecurityWeek**
   - Title: AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions
@@ -823,6 +891,18 @@ Generated: 2026-09-07 07:39:25 UTC
 
 ### Play
 
+- **2026-09-10 / The Hacker News**
+  - Title: Google Play Early Access Abused to Push Thousands of Deceptive Android Apps
+  - URL: https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html
+  - Matched names: Play
+  - Summary: Bad actors are misusing Google Play's Early Access program to push deceptive apps that claim to offer money, rewards, casino winnings, and premium content. Early Access apps are apps that haven't been released on the official Android app marketplace.
+
+- **2026-09-09 / The Hacker News**
+  - Title: Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA
+  - URL: https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html
+  - Matched names: Play
+  - Summary: Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create "stolen keys" that grant illicit access to tools from model providers like Google, Anthropic, and others.&nbsp; Information stealers like L
+
 - **2026-08-26 / The Hacker News**
   - Title: Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code
   - URL: https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html
@@ -890,6 +970,22 @@ Generated: 2026-09-07 07:39:25 UTC
   - URL: https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html
   - Matched names: APT2
   - Summary: Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026. These campaigns, per Recorded Future Insikt Group, have
+
+### QTFY
+
+- **2026-09-11 / SecurityWeek**
+  - Title: In Other News: InjectEave Attack, SIM Swapper Sentenced, Glasswing Findings Review
+  - URL: https://www.securityweek.com/in-other-news-injecteave-attack-sim-swapper-sentenced-glasswing-findings-review
+  - Matched names: QTFY
+  - Summary: Noteworthy stories that might have slipped under the radar: Invisible Unicode slips past phishing filters, US puts $10 million bounty on Iranian cyber official, military ties of Chinese hacking group QTFY. The post In Other News: InjectEave Attack, S
+
+### Rocke
+
+- **2026-09-12 / SecurityWeek**
+  - Title: Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says
+  - URL: https://www.securityweek.com/users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-anthropic-says
+  - Matched names: Rocke
+  - Summary: Anthropic said the users did not succeed in “fielding an operational device” but did carry out a failed test of a guided rocket. The post Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says appeared first on SecurityW
 
 ### STARDUST CHOLLIMA
 
@@ -1002,6 +1098,18 @@ Generated: 2026-09-07 07:39:25 UTC
   - Summary: The outpost will have its own director, though no one has yet been named for the post, and support the command’s nascent Cyber Warfare Innovation Center (CIWC).
 
 ### ShinyHunters
+
+- **2026-09-11 / The Record**
+  - Title: Florida says motor vehicle data breach tied to credentials stolen from officer’s personal device
+  - URL: https://therecord.media/florida-shiny-hunters-motor-vehicle
+  - Matched names: ShinyHunters
+  - Summary: The Florida Department of Motor Vehicles confirmed a data breach claimed by the cybercrime group ShinyHunters, saying it originated with the theft of credentials stored on a police officer's personal device.
+
+- **2026-09-11 / BleepingComputer**
+  - Title: Passkey-themed phishing attacks lead to Microsoft 365 data theft
+  - URL: https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft
+  - Matched names: ShinyHunters
+  - Summary: Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social engineering attacks to compromise corporate Microsoft accounts and steal data from Microsoft 365 services. [...]
 
 - **2026-08-28 / BleepingComputer**
   - Title: McKesson discloses breach after ShinyHunters claims patient data theft
@@ -1195,6 +1303,14 @@ Generated: 2026-09-07 07:39:25 UTC
   - Matched names: Nimbus Manticore, UNC1549
   - Summary: The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South 
 
+### UNC3569
+
+- **2026-09-11 / The Hacker News**
+  - Title: China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor
+  - URL: https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html
+  - Matched names: UNC3569
+  - Summary: A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digital said in&nbsp;research published
+
 ### UNC6293
 
 - **2026-08-20 / The Hacker News**
@@ -1238,6 +1354,18 @@ Generated: 2026-09-07 07:39:25 UTC
   - Summary: Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall for and no approval box to ignore. Cato AI Labs&nbsp
 
 ### VantaCore
+
+- **2026-09-13 / The Record**
+  - Title: Thorough reorganization at NSA will create five 'mission centers,' including cyber and AI
+  - URL: https://therecord.media/nsa-reorganization-five-mission-centers
+  - Matched names: Thor
+  - Summary: The largest electronic spy agency in the world is reorganizing. And fast.
+
+- **2026-09-12 / The Hacker News**
+  - Title: CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV
+  - URL: https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html
+  - Matched names: Thor
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports of ac
 
 - **2026-09-03 / BleepingComputer**
   - Title: Coder's registry infrastructure compromised to push malicious modules
@@ -1322,3 +1450,11 @@ Generated: 2026-09-07 07:39:25 UTC
   - URL: https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
   - Matched names: Watchdog
   - Summary: A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi N
+
+### ZIRCONIUM
+
+- **2026-09-09 / The Hacker News**
+  - Title: Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week
+  - URL: https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
+  - Matched names: APT31, BRONZE VINEWOOD
+  - Summary: Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome. The first in-the-wild use of B
