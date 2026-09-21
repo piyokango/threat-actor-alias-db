@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-09-14 08:15:29 UTC
+Generated: 2026-09-21 08:20:16 UTC
 
 ## Summary
 
-- Auto candidates: 218
+- Auto candidates: 247
 - Published items: 0
 - Rejected items: 0
 
@@ -147,6 +147,12 @@ Generated: 2026-09-14 08:15:29 UTC
 
 ### APT3
 
+- **2026-09-18 / The Hacker News**
+  - Title: Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2
+  - URL: https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html
+  - Matched names: APT3
+  - Summary: The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan. The attacks, per Zscaler ThreatLabz
+
 - **2026-09-09 / The Hacker News**
   - Title: Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week
   - URL: https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
@@ -176,6 +182,36 @@ Generated: 2026-09-14 08:15:29 UTC
   - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
 
 ### APT41
+
+- **2026-09-19 / The Hacker News**
+  - Title: SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE
+  - URL: https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html
+  - Matched names: LEAD
+  - Summary: SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-2832
+
+- **2026-09-18 / The Hacker News**
+  - Title: RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall
+  - URL: https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html
+  - Matched names: LEAD
+  - Summary: Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices. "Distribut
+
+- **2026-09-17 / The Hacker News**
+  - Title: CISO's Expert Guide to Agentic Pentesting for Websites
+  - URL: https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html
+  - Matched names: LEAD
+  - Summary: Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what
+
+- **2026-09-16 / The Hacker News**
+  - Title: Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells
+  - URL: https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html
+  - Matched names: LEAD
+  - Summary: Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs. "This vulnerability can be leveraged by unauthenticated attackers to upload arbitrary fi
+
+- **2026-09-16 / The Hacker News**
+  - Title: Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix
+  - URL: https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html
+  - Matched names: LEAD
+  - Summary: Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software company JFrog said this week. The attack needs code already running on the machine as a normal user, so it does 
 
 - **2026-09-13 / SecurityWeek**
   - Title: Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up
@@ -435,6 +471,12 @@ Generated: 2026-09-14 08:15:29 UTC
 
 ### BRONZE BUTLER
 
+- **2026-09-15 / The Hacker News**
+  - Title: Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists
+  - URL: https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html
+  - Matched names: Nian
+  - Summary: Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists, and activists around the world. The malware is cont
+
 - **2026-09-11 / BleepingComputer**
   - Title: Conti ransomware gang member sentenced to 4 years in prison
   - URL: https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison
@@ -583,6 +625,12 @@ Generated: 2026-09-14 08:15:29 UTC
 
 ### Careto
 
+- **2026-09-14 / Palo Alto Unit 42**
+  - Title: Unmasking Cloud Identities: From Behavioral Clustering to Automated Detection
+  - URL: https://unit42.paloaltonetworks.com/behavioral-clustering-map-to-cloud-identities
+  - Matched names: Mask
+  - Summary: We designed a behavioral clustering model to map cloud identity roles from audit logs, enabling continuous threat detection using standard SQL queries. The post Unmasking Cloud Identities: From Behavioral Clustering to Automated Detection appeared fi
+
 - **2026-07-21 / The Hacker News**
   - Title: Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs
   - URL: https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html
@@ -643,6 +691,24 @@ Generated: 2026-09-14 08:15:29 UTC
 
 ### Contagious Interview
 
+- **2026-09-19 / BleepingComputer**
+  - Title: North Korean WaterPlum hackers infected 30,000 devices worldwide
+  - URL: https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide
+  - Matched names: WaterPlum
+  - Summary: A joint law enforcement advisory warns that the North Korean hacking group WaterPlum compromised at least 30,000 devices worldwide from December 2025 through July 2026 and transferred more than $10.7 million in stolen cryptocurrency to North Korea. [
+
+- **2026-09-18 / The Record**
+  - Title: North Korean hackers infect thousands of devices across 100 countries as part of ‘WaterPlum’ campaign
+  - URL: https://therecord.media/north-korean-hackers-infect-thousands-of-devices-waterplum-scheme
+  - Matched names: WaterPlum
+  - Summary: The FBI and Defense Department partnered with Japan’s National Police Agency and law enforcement agencies in Australia and Germany on a new advisory about “WaterPlum” — a group of cyber actors allegedly stealing cryptocurrency from job applicants by 
+
+- **2026-09-18 / The Hacker News**
+  - Title: WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage
+  - URL: https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html
+  - Matched names: Contagious Interview
+  - Summary: Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit. The new malware family, per OpenSourceMalware, exhibits functional overlaps w
+
 - **2026-07-30 / The Hacker News**
   - Title: DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware
   - URL: https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html
@@ -700,6 +766,12 @@ Generated: 2026-09-14 08:15:29 UTC
   - Summary: Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (
 
 ### Earth Lusca
+
+- **2026-09-16 / The Hacker News**
+  - Title: One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude
+  - URL: https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html
+  - Matched names: CHROMIUM
+  - Summary: Security researchers at&nbsp;Forever Security&nbsp;have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live in Chrome, Perplexity Comet, Microsoft Edge, Opera Neon and
 
 - **2026-09-07 / The Hacker News**
   - Title: PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution
@@ -776,6 +848,14 @@ Generated: 2026-09-14 08:15:29 UTC
   - URL: https://www.welivesecurity.com/en/eset-research/gamaredon-2025-leveraging-tunnels-workers-dead-drops-new-alliances
   - Matched names: Gamaredon
   - Summary: ESET Research analyzes Gamaredon’s new toolset and the group’s growing reliance on legitimate online services to hide its C&C infrastructure and exfiltrate stolen data
+
+### Handala
+
+- **2026-09-17 / The Hacker News**
+  - Title: Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords
+  - URL: https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html
+  - Matched names: Handala
+  - Summary: The Iran-linked "hacktivist" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE. "HEAVYGRAM offers builtin commands supporting remote command e
 
 ### Head Mare
 
@@ -874,6 +954,20 @@ Generated: 2026-09-14 08:15:29 UTC
   - URL: https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html
   - Matched names: MUSTANG PANDA, Mustang Panda
   - Summary: The China-aligned espionage group&nbsp;Mustang Panda&nbsp;is running two campaigns against the Indian government and hydropower targets, deploying new malware and turning a legitimate cloud service into its command channel. Acronis Threat Research Un
+
+### NightEagle
+
+- **2026-09-18 / The Record**
+  - Title: Hacking group ‘NightEagle’ targeting China’s high-tech sector expands operations to Russia
+  - URL: https://therecord.media/hacking-group-nighteagle-expands-russia-china
+  - Matched names: NightEagle
+  - Summary: Over the past year, Russian cybersecurity firm Kaspersky said it investigated several incidents involving the group at Russian businesses.
+
+- **2026-09-16 / The Hacker News**
+  - Title: Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers
+  - URL: https://thehackernews.com/2026/09/three-threat-groups-target-russian.html
+  - Matched names: APT-Q-95, NightEagle
+  - Summary: Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky. The cybersecurity vendor said it has identified attacks mounted by Ni
 
 ### PLATINUM
 
@@ -995,7 +1089,39 @@ Generated: 2026-09-14 08:15:29 UTC
   - Matched names: Sapphire Sleet
   - Summary: Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script push
 
+### Salt Typhoon
+
+- **2026-09-17 / ESET WeLiveSecurity**
+  - Title: Beware the SparroWock: The backdoor that bites, the commands that catch
+  - URL: https://www.welivesecurity.com/en/eset-research/beware-sparrowock-backdoor-bites-commands-catch
+  - Matched names: FamousSparrow
+  - Summary: ESET researchers document SparroWocky, the new flagship backdoor of the FamousSparrow APT group
+
+- **2026-09-17 / The Hacker News**
+  - Title: China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America
+  - URL: https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html
+  - Matched names: FamousSparrow
+  - Summary: The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin America since at least August 2025. "SparroWocky is
+
+- **2026-09-17 / The Record**
+  - Title: China’s FamousSparrow hackers target Latin America with new backdoor
+  - URL: https://therecord.media/china-hackers-latin-america-espionage
+  - Matched names: FamousSparrow
+  - Summary: Alleged Chinese hackers are breaking into government agencies across Latin America using a new backdoor that researchers are calling “SparroWocky.”
+
 ### Sandworm Team
+
+- **2026-09-18 / The Hacker News**
+  - Title: Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer
+  - URL: https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html
+  - Matched names: PHANTOM
+  - Summary: A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry. "The developer likely wrote the malware using a large language
+
+- **2026-09-18 / SecurityWeek**
+  - Title: In Other News: Ransomware Developer Sentenced, Plugin4Shell AI Attack, Critical SAP Flaw
+  - URL: https://www.securityweek.com/in-other-news-ransomware-developer-sentenced-plugin4shell-ai-attack-critical-sap-flaw
+  - Matched names: PHANTOM
+  - Summary: Noteworthy stories that might have slipped under the radar: Mandiant's 2026 AI risk report, PhantomRaven malware used by bug bounty hunter, WordPress plugin bug exploited. The post In Other News: Ransomware Developer Sentenced, Plugin4Shell AI Attack
 
 - **2026-08-21 / SecurityWeek**
   - Title: CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities
@@ -1098,6 +1224,12 @@ Generated: 2026-09-14 08:15:29 UTC
   - Summary: The outpost will have its own director, though no one has yet been named for the post, and support the command’s nascent Cyber Warfare Innovation Center (CIWC).
 
 ### ShinyHunters
+
+- **2026-09-19 / BleepingComputer**
+  - Title: ShinyHunters hacks Clop leak site, threatens to extort ransomware gang
+  - URL: https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang
+  - Matched names: ShinyHunters
+  - Summary: The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]
 
 - **2026-09-11 / The Record**
   - Title: Florida says motor vehicle data breach tied to credentials stolen from officer’s personal device
@@ -1209,6 +1341,12 @@ Generated: 2026-09-14 08:15:29 UTC
 
 ### The Gentlemen
 
+- **2026-09-17 / Cisco Talos**
+  - Title: Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use
+  - URL: https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026
+  - Matched names: The Gentlemen
+  - Summary: Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY 1 billion 
+
 - **2026-07-10 / Palo Alto Unit 42**
   - Title: No Manners Here: The Ruthless Rise of The Gentlemen Ransomware
   - URL: https://unit42.paloaltonetworks.com/the-gentlemen-ransomware
@@ -1238,6 +1376,22 @@ Generated: 2026-09-14 08:15:29 UTC
   - URL: https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html
   - Matched names: COPPER
   - Summary: South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect targeted visitor
+
+### TraderTraitor
+
+- **2026-09-21 / The Hacker News**
+  - Title: Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors
+  - URL: https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html
+  - Matched names: Jade Sleet
+  - Summary: The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based "much smaller organization" in the information technology (IT) services industry, once again highlighting how the adversary continues to target 
+
+### Transparent Tribe
+
+- **2026-09-18 / The Hacker News**
+  - Title: Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2
+  - URL: https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html
+  - Matched names: APT36, Earth Karkaddan, Transparent Tribe
+  - Summary: The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan. The attacks, per Zscaler ThreatLabz
 
 ### Turla
 
@@ -1341,6 +1495,12 @@ Generated: 2026-09-14 08:15:29 UTC
 
 ### VOID MANTICORE
 
+- **2026-09-17 / The Hacker News**
+  - Title: Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords
+  - URL: https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html
+  - Matched names: Handala Hack
+  - Summary: The Iran-linked "hacktivist" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE. "HEAVYGRAM offers builtin commands supporting remote command e
+
 - **2026-07-03 / SecurityWeek**
   - Title: Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution
   - URL: https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution
@@ -1354,6 +1514,30 @@ Generated: 2026-09-14 08:15:29 UTC
   - Summary: Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall for and no approval box to ignore. Cato AI Labs&nbsp
 
 ### VantaCore
+
+- **2026-09-18 / SecurityWeek**
+  - Title: 23 Million User Records Compromised in Gyazo Data Breach
+  - URL: https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach
+  - Matched names: Thor
+  - Summary: Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access. The post 23 Million User Records Compromised in Gyazo Data Breach appeared first on SecurityWeek .
+
+- **2026-09-18 / The Hacker News**
+  - Title: Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation
+  - URL: https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html
+  - Matched names: Thor
+  - Summary: Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0.
+
+- **2026-09-17 / The Hacker News**
+  - Title: OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads
+  - URL: https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html
+  - Matched names: Thor
+  - Summary: OpenAI on Wednesday disclosed six new instances of "unexpected or concerning model behavior" that took place over the past six months, while sharing a new framework for reporting, tracking, investigating, and disclosing model misalignment in a bid to
+
+- **2026-09-17 / The Hacker News**
+  - Title: U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks
+  - URL: https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html
+  - Matched names: Thor
+  - Summary: The U.S. Department of Justice (DoJ) on Tuesday announced the court-authorized seizure of internet domains associated with a distributed denial-of-service (DDoS)-for-hire service known as NightmareStresser. The domains in question are: nightmare-stre
 
 - **2026-09-13 / The Record**
   - Title: Thorough reorganization at NSA will create five 'mission centers,' including cyber and AI

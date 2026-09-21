@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-46b65f4d-9550-4164-a500-2c32ea243b92",
+    "canonical_name": "IAmNotAVillain",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-46b65f4d-9550-4164-a500-2c32ea243b92"
+    ],
+    "misp_uuid": "46b65f4d-9550-4164-a500-2c32ea243b92",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "iamnotavillain",
+        "confidence": "source-provided",
+        "display_group_key": "iamnotavillain",
+        "name": "IAmNotAVillain",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "iamnotavillain",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.ft.com/content/d1f2c9bd-26ce-4e87-9da4-fe0238bd531d?syn-25a6b1a6=1"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.ft.com/content/d1f2c9bd-26ce-4e87-9da4-fe0238bd531d?syn-25a6b1a6=1"
+            ]
+          }
+        ],
+        "variants": [
+          "IAmNotAVillain"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "IAmNotAVillain is a threat actor that claimed responsibility for a data breach at Revolut, threatening to sell confidential customer records unless a ransom of $3 million is paid. They asserted that they compromised an Italian government email system and communicated with Revolut for months. The group published an ultimatum online and created a new Telegram channel for further communication."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-46b65f4d-9550-4164-a500-2c32ea243b92",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ft.com/content/d1f2c9bd-26ce-4e87-9da4-fe0238bd531d?syn-25a6b1a6=1"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "IAmNotAVillain"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-09-21"
+  },
+  "generated_at": "2026-09-21T08:20:17Z"
+}
