@@ -1,6 +1,6 @@
 # Threat Actor Alias DB update report
 
-Generated: 2026-09-21 08:20:20 UTC
+Generated: 2026-09-28 09:05:31 UTC
 
 ## Summary
 

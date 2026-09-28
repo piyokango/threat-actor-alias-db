@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-09-21 08:20:16 UTC
+Generated: 2026-09-28 09:05:28 UTC
 
 ## Summary
 
-- Auto candidates: 247
+- Auto candidates: 273
 - Published items: 0
 - Rejected items: 0
 
@@ -26,6 +26,12 @@ Generated: 2026-09-21 08:20:16 UTC
   - Summary: The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity comp
 
 ### APT18
+
+- **2026-09-23 / The Hacker News**
+  - Title: MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key
+  - URL: https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html
+  - Matched names: COMBINE
+  - Summary: Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska calls MikroTrick, combines an
 
 - **2026-09-10 / BleepingComputer**
   - Title: New Android malware encrypts files, steals data, and harasses victims
@@ -182,6 +188,30 @@ Generated: 2026-09-21 08:20:16 UTC
   - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
 
 ### APT41
+
+- **2026-09-25 / SecurityWeek**
+  - Title: Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court
+  - URL: https://www.securityweek.com/kosovar-owner-of-rydox-marketplace-pleads-guilty-in-us-court
+  - Matched names: LEAD
+  - Summary: Ardit Kutleshi created and operated Rydox, which allowed miscreants to trade PII and cybercrime tools and services. The post Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court appeared first on SecurityWeek .
+
+- **2026-09-25 / The Hacker News**
+  - Title: The SOC Doesn't Need to Start Over with Every Alert
+  - URL: https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html
+  - Matched names: LEAD
+  - Summary: Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry. The routine version looks like this. An attacker lands on a low
+
+- **2026-09-23 / The Hacker News**
+  - Title: Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input
+  - URL: https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html
+  - Matched names: LEAD
+  - Summary: A new security vulnerability in Next.js could allow attackers to run code on a server via&nbsp;ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said. The risk applies when an app puts values an attacker con
+
+- **2026-09-23 / Microsoft Security Blog**
+  - Title: Reimagining the SOC for the agentic era in Microsoft Defender
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender
+  - Matched names: LEAD
+  - Summary: We are announcing ISOC in Microsoft Defender: a foundation built for agentic security that brings leading solutions for SIEM and threat protection together. The post Reimagining the SOC for the agentic era in Microsoft Defender appeared first on Micr
 
 - **2026-09-19 / The Hacker News**
   - Title: SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE
@@ -471,6 +501,18 @@ Generated: 2026-09-21 08:20:16 UTC
 
 ### BRONZE BUTLER
 
+- **2026-09-26 / The Hacker News**
+  - Title: Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials
+  - URL: https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html
+  - Matched names: Nian
+  - Summary: The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings come from Ontinue, which describ
+
+- **2026-09-24 / The Hacker News**
+  - Title: Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer
+  - URL: https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html
+  - Matched names: Nian
+  - Summary: An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information stealer called Psychedelic. "When
+
 - **2026-09-15 / The Hacker News**
   - Title: Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists
   - URL: https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html
@@ -625,6 +667,12 @@ Generated: 2026-09-21 08:20:16 UTC
 
 ### Careto
 
+- **2026-09-22 / Microsoft Security Blog**
+  - Title: Unmasking EvilTokens: Getting to the root of device code phishing
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing
+  - Matched names: Mask
+  - Summary: EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) facilitated 
+
 - **2026-09-14 / Palo Alto Unit 42**
   - Title: Unmasking Cloud Identities: From Behavioral Clustering to Automated Detection
   - URL: https://unit42.paloaltonetworks.com/behavioral-clustering-map-to-cloud-identities
@@ -765,6 +813,14 @@ Generated: 2026-09-21 08:20:16 UTC
   - Matched names: APT-Q-27,
   - Summary: Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (
 
+### DragonForce
+
+- **2026-09-24 / Microsoft Security Blog**
+  - Title: Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments
+  - Matched names: DragonForce
+  - Summary: Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity befo
+
 ### Earth Lusca
 
 - **2026-09-16 / The Hacker News**
@@ -877,6 +933,22 @@ Generated: 2026-09-21 08:20:16 UTC
   - Matched names: Head Mare
   - Summary: The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]
 
+### Inception
+
+- **2026-09-24 / The Hacker News**
+  - Title: Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions
+  - URL: https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html
+  - Matched names: OXYGEN
+  - Summary: A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats,&nbsp;chained two flaws in OnePlus's own software&nbsp;to gain root access, the highe
+
+### JadePuffer
+
+- **2026-09-25 / Microsoft Security Blog**
+  - Title: Storm-3168: Agentic-driven cloud attacks using compromised service principals
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals
+  - Matched names: JadePuffer
+  - Summary: Microsoft details JADEPUFFER-linked Azure reconnaissance, resource deletion, and credential access using compromised service principals, identifying the activity as associated with Storm-3168 and providing guidance for defenders. The post Storm-3168:
+
 ### Kairos
 
 - **2026-07-04 / The Hacker News**
@@ -984,6 +1056,18 @@ Generated: 2026-09-21 08:20:16 UTC
   - Summary: A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia. The intrusion set makes use of seven remote access tool (RAT) families, five of which have never been previously docu
 
 ### Play
+
+- **2026-09-24 / The Hacker News**
+  - Title: Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls
+  - URL: https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html
+  - Matched names: Play
+  - Summary: The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM. According to Have I Been Squatted, the campaign uses fake Google Play pages branded as CEVA and TKW Logistics to dist
+
+- **2026-09-24 / The Hacker News**
+  - Title: Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content
+  - URL: https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html
+  - Matched names: Play
+  - Summary: The "third-party[.]com" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users. "third-party[.]com has been a generic documentation placehol
 
 - **2026-09-10 / The Hacker News**
   - Title: Google Play Early Access Abused to Push Thousands of Deceptive Android Apps
@@ -1225,6 +1309,30 @@ Generated: 2026-09-21 08:20:16 UTC
 
 ### ShinyHunters
 
+- **2026-09-26 / The Hacker News**
+  - Title: Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells
+  - URL: https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html
+  - Matched names: ShinyHunters
+  - Summary: Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score
+
+- **2026-09-26 / BleepingComputer**
+  - Title: ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks
+  - URL: https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks
+  - Matched names: ShinyHunters
+  - Summary: The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume widespread exploitation of a flaw on vulnerable serve
+
+- **2026-09-25 / BleepingComputer**
+  - Title: ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw
+  - URL: https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw
+  - Matched names: ShinyHunters
+  - Summary: The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vuln
+
+- **2026-09-23 / The Hacker News**
+  - Title: ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants
+  - URL: https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html
+  - Matched names: ShinyHunters
+  - Summary: The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency. "We have compromised the FBI. We hold very sensitive 
+
 - **2026-09-19 / BleepingComputer**
   - Title: ShinyHunters hacks Clop leak site, threatens to extort ransomware gang
   - URL: https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang
@@ -1278,6 +1386,14 @@ Generated: 2026-09-21 08:20:16 UTC
   - URL: https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach
   - Matched names: ShinyHunters
   - Summary: Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. [...]
+
+### SideCopy
+
+- **2026-09-22 / The Hacker News**
+  - Title: SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing
+  - URL: https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html
+  - Matched names: SideCopy
+  - Summary: The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. "SideCopy campaign operations typically initiate through spear-phish
 
 ### SilkParasite
 
@@ -1514,6 +1630,54 @@ Generated: 2026-09-21 08:20:16 UTC
   - Summary: Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall for and no approval box to ignore. Cato AI Labs&nbsp
 
 ### VantaCore
+
+- **2026-09-26 / The Hacker News**
+  - Title: Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack
+  - URL: https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html
+  - Matched names: Thor
+  - Summary: Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack. "Kiteworks received credible threat intelli
+
+- **2026-09-25 / The Hacker News**
+  - Title: Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise
+  - URL: https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html
+  - Matched names: Thor
+  - Summary: Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets.&nbsp; "At 18:31 UTC on September 24, 2026, Bitget's security systems identified unauthorized transfers involving a limi
+
+- **2026-09-25 / The Record**
+  - Title: Kiteworks urges customers to stop using platform after warning from federal intelligence agencies
+  - URL: https://therecord.media/kiteworks-urges-customers-to-stop-using-systems-incident
+  - Matched names: Thor
+  - Summary: Frank Balonis, CISO at Kiteworks, told Recorded Future News that the company “received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems for customers.”
+
+- **2026-09-25 / SecurityWeek**
+  - Title: North Korea Suspected in $351 Million Bitget Crypto Heist
+  - URL: https://www.securityweek.com/north-korea-suspected-in-351-million-bitget-crypto-heist
+  - Matched names: Thor
+  - Summary: Bitget’s security systems caught the unauthorized transfers on September 24, and some wallet addresses linked to the attacker have been frozen. The post North Korea Suspected in $351 Million Bitget Crypto Heist appeared first on SecurityWeek .
+
+- **2026-09-23 / The Hacker News**
+  - Title: A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You
+  - URL: https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html
+  - Matched names: Thor
+  - Summary: The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you. Git
+
+- **2026-09-23 / The Hacker News**
+  - Title: F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers
+  - URL: https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html
+  - Matched names: Thor
+  - Summary: Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw,&nbsp;CVE-2026-94127, affects only systems in which APM serves as an OAuth authorizatio
+
+- **2026-09-22 / The Hacker News**
+  - Title: Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises
+  - URL: https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html
+  - Matched names: Thor
+  - Summary: Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) "at every step of the attack chain." The action, carried out with authorization from the U.S. District Court for
+
+- **2026-09-22 / The Hacker News**
+  - Title: Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates
+  - URL: https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html
+  - Matched names: Thor
+  - Summary: A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was&nbsp;published on GitHub&nbsp;on September 19. The tool, called BigDiskBuster, has no patch, no CVE,
 
 - **2026-09-18 / SecurityWeek**
   - Title: 23 Million User Records Compromised in Gyazo Data Breach
