@@ -1,13 +1,13 @@
 # Threat Actor Alias DB update report
 
-Generated: 2026-09-28 09:05:31 UTC
+Generated: 2026-10-05 09:47:04 UTC
 
 ## Summary
 
-- Actors: 1046
-- Names: 3500
-- References: 4412
-- Descriptions: 1175
+- Actors: 1048
+- Names: 3502
+- References: 4414
+- Descriptions: 1177
 - Attribution rows: 549
 - Technique links: 4628
 - Review candidates: 77
@@ -16,7 +16,7 @@ Generated: 2026-09-28 09:05:31 UTC
 ## Actors by source
 
 - microsoft-threat-actor-naming: 87
-- misp-galaxy: 1020
+- misp-galaxy: 1022
 - mitre-attack: 176
 
 ## Duplicate actor groups merged

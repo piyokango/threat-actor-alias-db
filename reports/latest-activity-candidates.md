@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-09-28 09:05:28 UTC
+Generated: 2026-10-05 09:46:59 UTC
 
 ## Summary
 
-- Auto candidates: 273
+- Auto candidates: 312
 - Published items: 0
 - Rejected items: 0
 
@@ -19,6 +19,18 @@ Generated: 2026-09-28 09:05:28 UTC
 
 ### APT-C-23
 
+- **2026-09-28 / The Hacker News**
+  - Title: Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks
+  - URL: https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html
+  - Matched names: Mantis
+  - Summary: Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in&nbsp;a technical analysis. The malware has been seen in a small number of targeted intrusions at telecommunica
+
+- **2026-09-28 / Microsoft Security Blog**
+  - Title: NeedyMantis: Unpacking a post-compromise malware family used in targeted operations
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations
+  - Matched names: Mantis
+  - Summary: Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-
+
 - **2026-07-25 / The Hacker News**
   - Title: DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts
   - URL: https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html
@@ -26,6 +38,12 @@ Generated: 2026-09-28 09:05:28 UTC
   - Summary: The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity comp
 
 ### APT18
+
+- **2026-09-28 / Microsoft Security Blog**
+  - Title: NeedyMantis: Unpacking a post-compromise malware family used in targeted operations
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations
+  - Matched names: COMBINE
+  - Summary: Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-
 
 - **2026-09-23 / The Hacker News**
   - Title: MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key
@@ -188,6 +206,54 @@ Generated: 2026-09-28 09:05:28 UTC
   - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
 
 ### APT41
+
+- **2026-10-05 / SecurityWeek**
+  - Title: Alleged ShinyHunters Leader Arrested in Jordan
+  - URL: https://www.securityweek.com/alleged-shinyhunters-leader-arrested-in-jordan
+  - Matched names: LEAD
+  - Summary: Known as Rey, the suspect is reportedly helping the FBI identify and locate other members of the extortion group. The post Alleged ShinyHunters Leader Arrested in Jordan appeared first on SecurityWeek .
+
+- **2026-10-05 / The Hacker News**
+  - Title: Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE
+  - URL: https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html
+  - Matched names: LEAD
+  - Summary: A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck. The vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use o
+
+- **2026-10-05 / The Hacker News**
+  - Title: New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline
+  - URL: https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html
+  - Matched names: LEAD
+  - Summary: Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8
+
+- **2026-10-04 / SecurityWeek**
+  - Title: Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force
+  - URL: https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force
+  - Matched names: LEAD
+  - Summary: The announcement comes after Trump hosted top executives of AI companies at the White House last week. The post Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force appeared first on SecurityWeek .
+
+- **2026-10-03 / SecurityWeek**
+  - Title: Fortra Patches Critical Vulnerabilities in BoKS
+  - URL: https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks
+  - Matched names: LEAD
+  - Summary: The bugs could lead to authentication bypass, shell command execution, and memory corruption. The post Fortra Patches Critical Vulnerabilities in BoKS appeared first on SecurityWeek .
+
+- **2026-10-01 / The Hacker News**
+  - Title: How Financial Services Companies Can Modernize Their Software Supply Chain
+  - URL: https://thehackernews.com/2026/10/how-financial-services-companies-can.html
+  - Matched names: LEAD
+  - Summary: Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform where they live. Somebody price
+
+- **2026-09-30 / The Hacker News**
+  - Title: Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets
+  - URL: https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html
+  - Matched names: LEAD
+  - Summary: Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team. The attack exploits CVE-2026-73570 (CVSS scor
+
+- **2026-09-28 / The Hacker News**
+  - Title: Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks
+  - URL: https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html
+  - Matched names: LEAD
+  - Summary: Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impact
 
 - **2026-09-25 / SecurityWeek**
   - Title: Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court
@@ -501,6 +567,18 @@ Generated: 2026-09-28 09:05:28 UTC
 
 ### BRONZE BUTLER
 
+- **2026-10-02 / SecurityWeek**
+  - Title: In Rare Move, Alleged Iranian State Hacker Extradited to US
+  - URL: https://www.securityweek.com/in-rare-move-iranian-hacker-accused-of-working-for-irgc-extradited-to-us
+  - Matched names: Nian
+  - Summary: Amir Barati, an alleged member of the Mabna Institute, was indicted for targeting universities, private organizations, and government entities in the US and abroad. The post In Rare Move, Alleged Iranian State Hacker Extradited to US appeared first o
+
+- **2026-10-01 / The Record**
+  - Title: Iranian accused of hacking American universities extradited from Montenegro
+  - URL: https://therecord.media/iran-montenegro-hacker-extradition
+  - Matched names: Nian
+  - Summary: An Iranian national accused by the U.S. of taking part in dozens of breaches involving the theft of academic data and intellectual property has been extradited from Montenegro.
+
 - **2026-09-26 / The Hacker News**
   - Title: Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials
   - URL: https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html
@@ -666,6 +744,18 @@ Generated: 2026-09-28 09:05:28 UTC
   - Summary: The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South 
 
 ### Careto
+
+- **2026-10-01 / The Hacker News**
+  - Title: MetaMask Security Incident Prompts Exit of Affected Ethereum Validators
+  - URL: https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html
+  - Matched names: Mask
+  - Summary: MetaMask on Thursday said it's responding to what it described as an "ongoing security incident" impacting part of its infrastructure. "We are actively addressing and remediating the issue internally, in coordination with external partners and securi
+
+- **2026-09-28 / ESET WeLiveSecurity**
+  - Title: The devil is still in the email – but wears a new mask
+  - URL: https://www.welivesecurity.com/en/business-security/devil-email-wearing-new-mask
+  - Matched names: Mask
+  - Summary: When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack
 
 - **2026-09-22 / Microsoft Security Blog**
   - Title: Unmasking EvilTokens: Getting to the root of device code phishing
@@ -1057,6 +1147,12 @@ Generated: 2026-09-28 09:05:28 UTC
 
 ### Play
 
+- **2026-09-30 / The Hacker News**
+  - Title: Know Your Enemy: Browser-Based Attack Techniques in 2026
+  - URL: https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html
+  - Matched names: Play
+  - Summary: Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack chain from initial access to 
+
 - **2026-09-24 / The Hacker News**
   - Title: Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls
   - URL: https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html
@@ -1195,6 +1291,12 @@ Generated: 2026-09-28 09:05:28 UTC
 
 ### Sandworm Team
 
+- **2026-09-29 / The Hacker News**
+  - Title: 101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent
+  - URL: https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html
+  - Matched names: PHANTOM
+  - Summary: Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub. "The malicious packages abuse the 'Baileys' WhatsApp open source project to add the 
+
 - **2026-09-18 / The Hacker News**
   - Title: Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer
   - URL: https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html
@@ -1309,6 +1411,30 @@ Generated: 2026-09-28 09:05:28 UTC
 
 ### ShinyHunters
 
+- **2026-10-05 / SecurityWeek**
+  - Title: Alleged ShinyHunters Leader Arrested in Jordan
+  - URL: https://www.securityweek.com/alleged-shinyhunters-leader-arrested-in-jordan
+  - Matched names: ShinyHunters
+  - Summary: Known as Rey, the suspect is reportedly helping the FBI identify and locate other members of the extortion group. The post Alleged ShinyHunters Leader Arrested in Jordan appeared first on SecurityWeek .
+
+- **2026-10-04 / The Hacker News**
+  - Title: ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members
+  - URL: https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html
+  - Matched names: ShinyHunters
+  - Summary: A suspected member of the ShinyHunters digital extortion group, who goes by the online alias "Rey," has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif ‌al
+
+- **2026-10-03 / BleepingComputer**
+  - Title: ShinyHunters hacker reportedly detained in Jordan, aiding FBI
+  - URL: https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi
+  - Matched names: ShinyHunters
+  - Summary: A suspected ShinyHunters hacking group member known online as "Rey" has reportedly been detained in Jordan and is cooperating with the FBI to help locate other members of the extortion group. [...]
+
+- **2026-09-29 / The Hacker News**
+  - Title: Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation
+  - URL: https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html
+  - Matched names: ShinyHunters
+  - Summary: Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. "It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyH
+
 - **2026-09-26 / The Hacker News**
   - Title: Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells
   - URL: https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html
@@ -1395,6 +1521,14 @@ Generated: 2026-09-28 09:05:28 UTC
   - Matched names: SideCopy
   - Summary: The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. "SideCopy campaign operations typically initiate through spear-phish
 
+### Silent Librarian
+
+- **2026-10-02 / SecurityWeek**
+  - Title: In Rare Move, Alleged Iranian State Hacker Extradited to US
+  - URL: https://www.securityweek.com/in-rare-move-iranian-hacker-accused-of-working-for-irgc-extradited-to-us
+  - Matched names: Mabna Institute
+  - Summary: Amir Barati, an alleged member of the Mabna Institute, was indicted for targeting universities, private organizations, and government entities in the US and abroad. The post In Rare Move, Alleged Iranian State Hacker Extradited to US appeared first o
+
 ### SilkParasite
 
 - **2026-08-20 / The Record**
@@ -1408,6 +1542,28 @@ Generated: 2026-09-28 09:05:28 UTC
   - URL: https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html
   - Matched names: SilkParasite
   - Summary: A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia. The intrusion set makes use of seven remote access tool (RAT) families, five of which have never been previously docu
+
+### Sima
+
+- **2026-09-29 / The Hacker News**
+  - Title: 101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent
+  - URL: https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html
+  - Matched names: Sima
+  - Summary: Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub. "The malicious packages abuse the 'Baileys' WhatsApp open source project to add the 
+
+### Star Blizzard
+
+- **2026-09-29 / The Hacker News**
+  - Title: Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor
+  - URL: https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html
+  - Matched names: Star Blizzard
+  - Summary: Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers,&nbsp;according to Microsoft. The campaigns, aimed at people and organizations tied to Ukraine, 
+
+- **2026-09-29 / Microsoft Security Blog**
+  - Title: Star Blizzard refines phishing and malware delivery with the RedFlick technique
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique
+  - Matched names: Star Blizzard
+  - Summary: Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery techniqu
 
 ### Storm-1175
 
@@ -1424,6 +1580,14 @@ Generated: 2026-09-28 09:05:28 UTC
   - URL: https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft
   - Matched names: Storm-2945
   - Summary: Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credenti
+
+### TA419
+
+- **2026-10-04 / The Hacker News**
+  - Title: China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing
+  - URL: https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html
+  - Matched names: TA419
+  - Summary: A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campai
 
 ### TA505
 
@@ -1630,6 +1794,84 @@ Generated: 2026-09-28 09:05:28 UTC
   - Summary: Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall for and no approval box to ignore. Cato AI Labs&nbsp
 
 ### VantaCore
+
+- **2026-10-05 / The Hacker News**
+  - Title: Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE
+  - URL: https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html
+  - Matched names: Thor
+  - Summary: A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck. The vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use o
+
+- **2026-10-04 / The Hacker News**
+  - Title: ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members
+  - URL: https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html
+  - Matched names: Thor
+  - Summary: A suspected member of the ShinyHunters digital extortion group, who goes by the online alias "Rey," has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif ‌al
+
+- **2026-10-03 / SecurityWeek**
+  - Title: doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures
+  - URL: https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures
+  - Matched names: Thor
+  - Summary: doxx.net’s new ADN platform prevents agentic misadventure while the agent is operating under the user’s authority. The post doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures appeared first on SecurityWeek .
+
+- **2026-10-02 / The Hacker News**
+  - Title: Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes
+  - URL: https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html
+  - Matched names: Thor
+  - Summary: Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS
+
+- **2026-10-02 / BleepingComputer**
+  - Title: Frontline Education breach exposes school district employee data
+  - URL: https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees
+  - Matched names: Thor
+  - Summary: Frontline Education is notifying school districts of a data breach after attackers exploited a vulnerability in third-party software to gain unauthorized access to its systems and steal employee information, including Social Security numbers. [...]
+
+- **2026-10-02 / The Record**
+  - Title: Mississippi mayor says ransomware incident led city to shut down systems
+  - URL: https://therecord.media/vicksburg-mississippi-government-ransomware-attack
+  - Matched names: Thor
+  - Summary: Government services were temporarily disrupted by ransomware in Vicksburg, Mississippi. Mayor Willis Thompson said the FBI and other authorities are investigating.
+
+- **2026-10-01 / The Hacker News**
+  - Title: Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs
+  - URL: https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html
+  - Matched names: Thor
+  - Summary: Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data. LevelBlue's Threat Hunt Operations &am
+
+- **2026-10-01 / BleepingComputer**
+  - Title: Fortinet warns of critical FortiMail flaw exploited in zero-day attacks
+  - URL: https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks
+  - Matched names: Thor
+  - Summary: Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code or commands on vulnerable devices. [...]
+
+- **2026-09-29 / The Hacker News**
+  - Title: Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation
+  - URL: https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html
+  - Matched names: Thor
+  - Summary: Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. "It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyH
+
+- **2026-09-29 / The Hacker News**
+  - Title: Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown
+  - URL: https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html
+  - Matched names: Thor
+  - Summary: Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown. "During the shutdown, this activity led to the dis
+
+- **2026-09-29 / The Hacker News**
+  - Title: Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials
+  - URL: https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html
+  - Matched names: Thor
+  - Summary: A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory. Affected versions sent th
+
+- **2026-09-29 / The Hacker News**
+  - Title: OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions
+  - URL: https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html
+  - Matched names: Thor
+  - Summary: OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment audits. The development was first reported by The Wall
+
+- **2026-09-28 / The Hacker News**
+  - Title: IAM for AI agents: A Practical Enterprise Framework
+  - URL: https://thehackernews.com/2026/09/iam-for-ai-agent.html
+  - Matched names: Thor
+  - Summary: What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those actors. This guide covers the limits of conventiona
 
 - **2026-09-26 / The Hacker News**
   - Title: Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack
