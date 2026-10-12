@@ -5148,6 +5148,15 @@
     "text": "SkidSec is a threat group that has engaged in operations targeting exposed printers in South Korea to disseminate North Korean propaganda, utilizing techniques such as printer exploitation and social engineering for evidence collection. The group has also experienced a leadership change following the loss of their leader, Govadmin, while continuing to mobilize their followers for various missions. They have humorously solicited financial support for their activities, framing it as a means to support their cause. Additionally, they have been noted for their potential to leak sensitive information from compromised devices."
   },
   {
+    "actor_id": "misp-afd10845-ea76-4251-b385-f51a32c2dcec",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "ZaWoo is a ransomware group that has claimed multiple attacks on various organizations across different countries, including France, New Zealand, Germany, the USA, Canada, and the Czech Republic. Their operations have resulted in encrypted and compromised systems, leading to potential disruptions in victim operations. Notable targets include ambpvc, zenithtechnology.co.nz, and fes-sport.de."
+  },
+  {
     "actor_id": "misp-b05a2a56-08dc-4827-9aef-aaade91016a4",
     "source_id": "misp-galaxy",
     "source_name": "MISP Galaxy",
@@ -6802,6 +6811,15 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "Storm-1674 is an access broker known for using tools based on the publicly available TeamsPhisher tool to distribute DarkGate malware. Storm-1674 campaigns have typically relied on phishing lures sent over Teams with malicious attachments, such as ZIP files containing a LNK file that ultimately drops DarkGate and Pikabot. In September 2023, Microsoft observed handoffs from Storm-1674 to ransomware operators that have led to Black Basta ransomware deployment."
+  },
+  {
+    "actor_id": "misp-eb8fb25d-ba4f-4970-ae8a-b0020b2b9841",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "BlackLock is a ransomware group established around March 2024, operating under a RaaS model and actively recruiting affiliates. The ransomware is developed in Go, enabling cross-platform attacks on Windows, Linux, and VMware ESXi environments, and employs ChaCha20 for file encryption. BlackLock appends encryption keys and metadata to files for decryption post-ransom payment and utilizes a covert method to delete Volume Shadow Copy Service data to hinder recovery efforts. The group has been linked to operational failures due to significant OPSEC mistakes, including a breach of its leak site that exposed internal data."
   },
   {
     "actor_id": "misp-ec3fda76-8c1c-4019-8109-3f92e6b15633",

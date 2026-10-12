@@ -16,7 +16,8 @@
         "name": "JadePuffer",
         "name_type": "canonical",
         "name_types": [
-          "canonical"
+          "canonical",
+          "alias"
         ],
         "naming_org": "MISP Galaxy",
         "normalized_name": "jadepuffer",
@@ -26,12 +27,16 @@
           "https://nsfocusglobal.com/ai-security-incident-jadepuffer-ransomware-leverages-ai-agent-to-automate-attacks",
           "https://securereading.com/jadepuffer-ai-ransomware-autonomous-llm-attack",
           "https://socfortress.medium.com/jadepuffer-the-dawn-of-agentic-ransomware-operations-003a59848007",
-          "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
+          "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+          "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals",
+          "https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion",
+          "https://www.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models"
         ],
         "sources": [
           {
             "name_types": [
-              "canonical"
+              "canonical",
+              "alias"
             ],
             "naming_org": "MISP Galaxy",
             "source_ids": [
@@ -43,12 +48,64 @@
               "https://nsfocusglobal.com/ai-security-incident-jadepuffer-ransomware-leverages-ai-agent-to-automate-attacks",
               "https://securereading.com/jadepuffer-ai-ransomware-autonomous-llm-attack",
               "https://socfortress.medium.com/jadepuffer-the-dawn-of-agentic-ransomware-operations-003a59848007",
-              "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
+              "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+              "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals",
+              "https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion",
+              "https://www.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models"
             ]
           }
         ],
         "variants": [
+          "JADEPUFFER",
           "JadePuffer"
+        ]
+      },
+      {
+        "compact_normalized_name": "storm3168",
+        "confidence": "source-provided",
+        "display_group_key": "storm3168",
+        "name": "Storm-3168",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "storm 3168",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://krypt3ia.wordpress.com/2026/07/13/threat-intelligence-report-jadepuffer-agentic-ransomware-and-automated-extortion",
+          "https://nsfocusglobal.com/ai-security-incident-jadepuffer-ransomware-leverages-ai-agent-to-automate-attacks",
+          "https://securereading.com/jadepuffer-ai-ransomware-autonomous-llm-attack",
+          "https://socfortress.medium.com/jadepuffer-the-dawn-of-agentic-ransomware-operations-003a59848007",
+          "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+          "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals",
+          "https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion",
+          "https://www.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://krypt3ia.wordpress.com/2026/07/13/threat-intelligence-report-jadepuffer-agentic-ransomware-and-automated-extortion",
+              "https://nsfocusglobal.com/ai-security-incident-jadepuffer-ransomware-leverages-ai-agent-to-automate-attacks",
+              "https://securereading.com/jadepuffer-ai-ransomware-autonomous-llm-attack",
+              "https://socfortress.medium.com/jadepuffer-the-dawn-of-agentic-ransomware-operations-003a59848007",
+              "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+              "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals",
+              "https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion",
+              "https://www.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-3168"
         ]
       }
     ],
@@ -116,6 +173,30 @@
           "external-reference"
         ],
         "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
+      },
+      {
+        "actor_id": "misp-3ba33e02-c485-40dd-b9af-c4f9a7c46fd5",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals"
+      },
+      {
+        "actor_id": "misp-3ba33e02-c485-40dd-b9af-c4f9a7c46fd5",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion"
+      },
+      {
+        "actor_id": "misp-3ba33e02-c485-40dd-b9af-c4f9a7c46fd5",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models"
       }
     ],
     "reported_attribution": {
@@ -124,14 +205,17 @@
       "items": []
     },
     "search_names": [
-      "JadePuffer"
+      "JADEPUFFER",
+      "JadePuffer",
+      "Storm-3168"
     ],
     "source_ids": [
       "external-reference",
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
-    "updated_at": "2026-10-05"
+    "updated_at": "2026-10-12"
   },
-  "generated_at": "2026-10-05T09:47:01Z"
+  "generated_at": "2026-10-12T09:57:48Z"
 }

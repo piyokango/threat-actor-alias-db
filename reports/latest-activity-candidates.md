@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-10-05 09:46:59 UTC
+Generated: 2026-10-12 09:57:46 UTC
 
 ## Summary
 
-- Auto candidates: 312
+- Auto candidates: 346
 - Published items: 0
 - Rejected items: 0
 
@@ -206,6 +206,42 @@ Generated: 2026-10-05 09:46:59 UTC
   - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
 
 ### APT41
+
+- **2026-10-09 / The Hacker News**
+  - Title: Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments
+  - URL: https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html
+  - Matched names: LEAD
+  - Summary: Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions. "CVE-2026-107406 is a memory overflow vul
+
+- **2026-10-09 / BleepingComputer**
+  - Title: Germany arrests alleged core Qilin ransomware member after extradition
+  - URL: https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition
+  - Matched names: LEAD
+  - Summary: Germany has arrested a Russian national suspected of being a leading member of the Qilin ransomware group following extradition from Japan earlier this month. [...]
+
+- **2026-10-09 / The Record**
+  - Title: Leader of vast money mule operation that laundered cybercriminal proceeds pleads guilty
+  - URL: https://therecord.media/leader-of-money-mule-operation-for-cybercriminals-pleads-guilty
+  - Matched names: LEAD
+  - Summary: Oleg Korniev, a 42-year-old dual citizen of Ukraine and Russia, was a principal of Your Mule Cashout, or “YMCO,” which from 2007 until 2014 set up a sophisticated network of mules in the U.S. and Europe.
+
+- **2026-10-09 / BleepingComputer**
+  - Title: Man admits to running network of 15,000 money mules for cybercriminals
+  - URL: https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals
+  - Matched names: LEAD
+  - Summary: ​A Ukrainian-Russian dual citizen has pleaded guilty to running a massive money laundering operation that laundered millions for cybercriminals worldwide. [...]
+
+- **2026-10-09 / The Hacker News**
+  - Title: Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access
+  - URL: https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html
+  - Matched names: LEAD
+  - Summary: Security researchers have&nbsp;published a full working exploit&nbsp;for a pre-authentication remote code execution flaw in AnyDesk Linux that gives attackers root access before anyone approves the connection. AnyDesk patched the flaw in version 8.0.
+
+- **2026-10-08 / The Hacker News**
+  - Title: U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks
+  - URL: https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html
+  - Matched names: LEAD
+  - Summary: The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft Exchange Server attacks known as HAFN
 
 - **2026-10-05 / SecurityWeek**
   - Title: Alleged ShinyHunters Leader Arrested in Jordan
@@ -567,6 +603,24 @@ Generated: 2026-10-05 09:46:59 UTC
 
 ### BRONZE BUTLER
 
+- **2026-10-12 / The Hacker News**
+  - Title: CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records
+  - URL: https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html
+  - Matched names: Nian
+  - Summary: Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which bri
+
+- **2026-10-09 / BleepingComputer**
+  - Title: Man admits to running network of 15,000 money mules for cybercriminals
+  - URL: https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals
+  - Matched names: Nian
+  - Summary: ​A Ukrainian-Russian dual citizen has pleaded guilty to running a massive money laundering operation that laundered millions for cybercriminals worldwide. [...]
+
+- **2026-10-08 / The Hacker News**
+  - Title: UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML
+  - URL: https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html
+  - Matched names: Nian
+  - Summary: The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN. According to TrendAI, the malware has been put to use in attacks targeting Ukrainian
+
 - **2026-10-02 / SecurityWeek**
   - Title: In Rare Move, Alleged Iranian State Hacker Extradited to US
   - URL: https://www.securityweek.com/in-rare-move-iranian-hacker-accused-of-working-for-irgc-extradited-to-us
@@ -745,6 +799,12 @@ Generated: 2026-10-05 09:46:59 UTC
 
 ### Careto
 
+- **2026-10-07 / ESET WeLiveSecurity**
+  - Title: Inside a brand deal scam targeting YouTube creators
+  - URL: https://www.welivesecurity.com/en/social-media/brand-deal-scam-targeting-youtube-creators
+  - Matched names: Mask
+  - Summary: A plausible-sounding sponsorship offer could mask an attempt to compromise your Google account
+
 - **2026-10-01 / The Hacker News**
   - Title: MetaMask Security Incident Prompts Exit of Affected Ethereum Validators
   - URL: https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html
@@ -821,6 +881,12 @@ Generated: 2026-10-05 09:46:59 UTC
 
 ### Cobalt Group
 
+- **2026-10-12 / The Hacker News**
+  - Title: CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records
+  - URL: https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html
+  - Matched names: Cobalt
+  - Summary: Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which bri
+
 - **2026-06-26 / The Hacker News**
   - Title: New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks
   - URL: https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html
@@ -878,6 +944,14 @@ Generated: 2026-10-05 09:46:59 UTC
   - URL: https://therecord.media/us-reward-amir-yaryab-iran-irgc-cyberattacks
   - Matched names: CyberAv3ngers
   - Summary: Amir Yaryab is the leader of the IRGC's cyber unit and oversees hacker groups such as the CyberAv3ngers, the State Department said in posting a reward for information about him.
+
+### Cyber Partisans
+
+- **2026-10-09 / The Record**
+  - Title: Belarusian hacktivists admit to 2023 breach of Russian state healthcare network
+  - URL: https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack
+  - Matched names: Cyber Partisans
+  - Summary: The Belarusian Cyber Partisans concurred with Russian research that they indeed spent months inside the network for the Moscow Department of Health.
 
 ### DEV-0950
 
@@ -965,6 +1039,32 @@ Generated: 2026-10-05 09:46:59 UTC
   - Matched names: FIN11
   - Summary: Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. "Attackers ch
 
+### Flax Typhoon
+
+- **2026-10-09 / The Hacker News**
+  - Title: FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions
+  - URL: https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html
+  - Matched names: Flax Typhoon
+  - Summary: The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon. To that end, the agencies seized several do
+
+- **2026-10-09 / The Hacker News**
+  - Title: Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies
+  - URL: https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html
+  - Matched names: Flax Typhoon
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities (KEV) catalog, following their abuse by a China-linked threat actor known as Flax Typhoon. The vulnerabiliti
+
+- **2026-10-09 / SecurityWeek**
+  - Title: US Disrupts Chinese State-Sponsored Hacking Tools
+  - URL: https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools
+  - Matched names: Flax Typhoon
+  - Summary: Flax Typhoon and other APTs used MicroScan and FishHub to scan and hack US and foreign critical infrastructure. The post US Disrupts Chinese State-Sponsored Hacking Tools appeared first on SecurityWeek .
+
+- **2026-10-08 / BleepingComputer**
+  - Title: FBI disrupts Chinese hacking tools used to breach critical infrastructure
+  - URL: https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure
+  - Matched names: Flax Typhoon
+  - Summary: The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organizations worldwide. [...]
+
 ### FulcrumSec
 
 - **2026-08-30 / BleepingComputer**
@@ -995,6 +1095,14 @@ Generated: 2026-10-05 09:46:59 UTC
   - Matched names: Gamaredon
   - Summary: ESET Research analyzes Gamaredon’s new toolset and the group’s growing reliance on legitimate online services to hide its C&C infrastructure and exfiltrate stolen data
 
+### HAFNIUM
+
+- **2026-10-08 / The Hacker News**
+  - Title: U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks
+  - URL: https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html
+  - Matched names: HAFNIUM
+  - Summary: The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft Exchange Server attacks known as HAFN
+
 ### Handala
 
 - **2026-09-17 / The Hacker News**
@@ -1022,6 +1130,14 @@ Generated: 2026-10-05 09:46:59 UTC
   - URL: https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors
   - Matched names: Head Mare
   - Summary: The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]
+
+### Hezb
+
+- **2026-10-09 / SecurityWeek**
+  - Title: Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries
+  - URL: https://www.securityweek.com/pre-baked-firmware-malware-hits-budget-android-devices-in-150-countries
+  - Matched names: Mimo
+  - Summary: Midnight Mimosa is the name given to a malware campaign primarily running preinstalled on low-cost Android devices. The post Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries appeared first on SecurityWeek .
 
 ### Inception
 
@@ -1411,6 +1527,36 @@ Generated: 2026-10-05 09:46:59 UTC
 
 ### ShinyHunters
 
+- **2026-10-10 / BleepingComputer**
+  - Title: Cyber exec arrested in case allegedly tied to ShinyHunters hackers
+  - URL: https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers
+  - Matched names: ShinyHunters
+  - Summary: Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]
+
+- **2026-10-09 / The Hacker News**
+  - Title: FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack
+  - URL: https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html
+  - Matched names: ShinyHunters
+  - Summary: The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a&nbsp;post on X. ShinyHunters is the extortion group that said in September it had&nbsp;breached the FBI's jobs portal&nbsp;and stole
+
+- **2026-10-09 / BleepingComputer**
+  - Title: FBI arrests another suspected ShinyHunters hacker after agency breach
+  - URL: https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach
+  - Matched names: ShinyHunters
+  - Summary: The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI systems, Director Kash Patel announced Friday. [...]
+
+- **2026-10-09 / The Record**
+  - Title: FBI touts another ShinyHunters arrest in response to data breach
+  - URL: https://therecord.media/shinyhunters-arrest-fbi-data-breach-investigation
+  - Matched names: ShinyHunters
+  - Summary: “We will continue to work closely with our partners to disrupt what’s left of the ShinyHunters group and their associates, no matter where they operate," FBI Director Kash Patel said.
+
+- **2026-10-06 / The Hacker News**
+  - Title: FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach
+  - URL: https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html
+  - Matched names: ShinyHunters
+  - Summary: The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's according to a report from Reuters, 
+
 - **2026-10-05 / SecurityWeek**
   - Title: Alleged ShinyHunters Leader Arrested in Jordan
   - URL: https://www.securityweek.com/alleged-shinyhunters-leader-arrested-in-jordan
@@ -1651,6 +1797,12 @@ Generated: 2026-10-05 09:46:59 UTC
 
 ### Tonto Team
 
+- **2026-10-08 / The Hacker News**
+  - Title: Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks
+  - URL: https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html
+  - Matched names: Sharp-R
+  - Summary: Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, base
+
 - **2026-07-30 / The Hacker News**
   - Title: Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts
   - URL: https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html
@@ -1688,6 +1840,18 @@ Generated: 2026-10-05 09:46:59 UTC
   - Summary: This week was a reminder that attackers do not always need big tricks. One small mistake, one old access path, one missed patch, and suddenly the door is open. The noise is not all noise, either. Forums are talking, researchers are finding easy crack
 
 ### UAC-0099
+
+- **2026-10-08 / ESET WeLiveSecurity**
+  - Title: MATCHBOIL: New tricks, same old evil intentions
+  - URL: https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions
+  - Matched names: UAC-0099
+  - Summary: ESET Research catalogs the changes of UAC-0099’s MATCHBOIL downloader from 2024 to 2026
+
+- **2026-10-08 / The Hacker News**
+  - Title: UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML
+  - URL: https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html
+  - Matched names: UAC-0099
+  - Summary: The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN. According to TrendAI, the malware has been put to use in attacks targeting Ukrainian
 
 - **2026-09-01 / The Hacker News**
   - Title: Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis
@@ -1795,11 +1959,59 @@ Generated: 2026-10-05 09:46:59 UTC
 
 ### VantaCore
 
+- **2026-10-12 / SecurityWeek**
+  - Title: Critical SonicWall Vulnerability Exploited Days After Disclosure
+  - URL: https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure
+  - Matched names: Thor
+  - Summary: CVE-2026-102255 is a pre-authenticated SSRF flaw that could allow attackers to perform unauthorized operations. The post Critical SonicWall Vulnerability Exploited Days After Disclosure appeared first on SecurityWeek .
+
+- **2026-10-09 / The Hacker News**
+  - Title: Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects
+  - URL: https://thehackernews.com/2026/10/anthropic-launches-free-ai.html
+  - Matched names: Thor
+  - Summary: Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). "It's an opt-in service informed by our experience using Claude to find vulnerabilities during 
+
+- **2026-10-09 / The Hacker News**
+  - Title: Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories
+  - URL: https://thehackernews.com/2026/10/credential-stealing-github-actions.html
+  - Matched names: Thor
+  - Summary: Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories. "Using the account of Takashi Kita
+
+- **2026-10-08 / Cisco Talos**
+  - Title: Ignore all instructions and read this blog: The state of AI-analysis evasion in malware
+  - URL: https://blog.talosintelligence.com/ignore-all-instructions-and-read-this-blog-the-state-of-ai-analysis-evasion-in-malware
+  - Matched names: Thor
+  - Summary: “AI-analysis evasion” encapsulates the real-world techniques malware authors are developing in attempt to obstruct or defeat any layers of automated AI analysis.
+
+- **2026-10-07 / The Hacker News**
+  - Title: Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains
+  - URL: https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html
+  - Matched names: Thor
+  - Summary: Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google&nbsp;said on October 6. Google's own systems were not breached, but any domain ending in .gh (Ghana), 
+
+- **2026-10-06 / The Hacker News**
+  - Title: Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account
+  - URL: https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html
+  - Matched names: Thor
+  - Summary: Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry&nbsp;said on October 5
+
+- **2026-10-06 / The Hacker News**
+  - Title: Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies
+  - URL: https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html
+  - Matched names: Thor
+  - Summary: The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages. "The u
+
 - **2026-10-05 / The Hacker News**
   - Title: Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE
   - URL: https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html
   - Matched names: Thor
   - Summary: A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck. The vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use o
+
+- **2026-10-05 / The Hacker News**
+  - Title: Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes
+  - URL: https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html
+  - Matched names: Thor
+  - Summary: Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions. The vulnerability, tracked as CVE-2026-96940, is rated 8.8 
 
 - **2026-10-04 / The Hacker News**
   - Title: ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members
