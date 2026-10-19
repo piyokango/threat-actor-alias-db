@@ -377,159 +377,115 @@
       "items": [
         {
           "actor_id": "mitre-g1045",
-          "name": "Network Sniffing",
+          "name": "Web Protocols",
           "source_id": "mitre-attack",
           "source_name": "MITRE ATT&CK",
           "source_urls": [
-            "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
           ],
           "tactics": [
-            "credential-access",
-            "discovery"
+            "command-and-control"
           ],
-          "technique_id": "T1040",
-          "url": "https://attack.mitre.org/techniques/T1040/"
+          "technique_id": "T1071.001",
+          "url": "https://attack.mitre.org/techniques/T1071.001/"
         },
         {
           "actor_id": "mitre-g1045",
-          "name": "SSH Authorized Keys",
+          "name": "File Transfer Protocols",
           "source_id": "mitre-attack",
           "source_name": "MITRE ATT&CK",
           "source_urls": [
-            "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
           ],
           "tactics": [
-            "persistence",
-            "privilege-escalation"
+            "command-and-control"
           ],
-          "technique_id": "T1098.004",
-          "url": "https://attack.mitre.org/techniques/T1098.004/"
+          "technique_id": "T1071.002",
+          "url": "https://attack.mitre.org/techniques/T1071.002/"
         },
         {
           "actor_id": "mitre-g1045",
-          "name": "Password Cracking",
+          "name": "Proxy",
           "source_id": "mitre-attack",
           "source_name": "MITRE ATT&CK",
           "source_urls": [
-            "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
           ],
           "tactics": [
-            "credential-access"
+            "command-and-control"
           ],
-          "technique_id": "T1110.002",
-          "url": "https://attack.mitre.org/techniques/T1110.002/"
+          "technique_id": "T1090",
+          "url": "https://attack.mitre.org/techniques/T1090/"
         },
         {
           "actor_id": "mitre-g1045",
-          "name": "Create Account",
+          "name": "Multi-hop Proxy",
           "source_id": "mitre-attack",
           "source_name": "MITRE ATT&CK",
           "source_urls": [
-            "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
           ],
           "tactics": [
-            "persistence"
+            "command-and-control"
           ],
-          "technique_id": "T1136",
-          "url": "https://attack.mitre.org/techniques/T1136/"
+          "technique_id": "T1090.003",
+          "url": "https://attack.mitre.org/techniques/T1090.003/"
         },
         {
           "actor_id": "mitre-g1045",
-          "name": "Malware",
+          "name": "Non-Application Layer Protocol",
           "source_id": "mitre-attack",
           "source_name": "MITRE ATT&CK",
           "source_urls": [
-            "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
           ],
           "tactics": [
-            "resource-development"
+            "command-and-control"
           ],
-          "technique_id": "T1587.001",
-          "url": "https://attack.mitre.org/techniques/T1587.001/"
+          "technique_id": "T1095",
+          "url": "https://attack.mitre.org/techniques/T1095/"
         },
         {
           "actor_id": "mitre-g1045",
-          "name": "Tool",
+          "name": "Ingress Tool Transfer",
           "source_id": "mitre-attack",
           "source_name": "MITRE ATT&CK",
           "source_urls": [
-            "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
           ],
           "tactics": [
-            "resource-development"
+            "command-and-control"
           ],
-          "technique_id": "T1588.002",
-          "url": "https://attack.mitre.org/techniques/T1588.002/"
+          "technique_id": "T1105",
+          "url": "https://attack.mitre.org/techniques/T1105/"
         },
         {
           "actor_id": "mitre-g1045",
-          "name": "Clear Linux or Mac System Logs",
+          "name": "Standard Encoding",
           "source_id": "mitre-attack",
           "source_name": "MITRE ATT&CK",
           "source_urls": [
-            "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
           ],
           "tactics": [
-            "defense-impairment"
+            "command-and-control"
           ],
-          "technique_id": "T1685.006",
-          "url": "https://attack.mitre.org/techniques/T1685.006/"
+          "technique_id": "T1132.001",
+          "url": "https://attack.mitre.org/techniques/T1132.001/"
         },
         {
           "actor_id": "mitre-g1045",
-          "name": "Disable or Modify System Firewall",
+          "name": "Non-Standard Port",
           "source_id": "mitre-attack",
           "source_name": "MITRE ATT&CK",
           "source_urls": [
-            "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
           ],
           "tactics": [
-            "defense-impairment"
+            "command-and-control"
           ],
-          "technique_id": "T1686",
-          "url": "https://attack.mitre.org/techniques/T1686/"
-        },
-        {
-          "actor_id": "mitre-g1045",
-          "name": "SSH",
-          "source_id": "mitre-attack",
-          "source_name": "MITRE ATT&CK",
-          "source_urls": [
-            "https://blog.talosintelligence.com/salt-typhoon-analysis/"
-          ],
-          "tactics": [
-            "lateral-movement"
-          ],
-          "technique_id": "T1021.004",
-          "url": "https://attack.mitre.org/techniques/T1021.004/"
-        },
-        {
-          "actor_id": "mitre-g1045",
-          "name": "Exfiltration Over Unencrypted Non-C2 Protocol",
-          "source_id": "mitre-attack",
-          "source_name": "MITRE ATT&CK",
-          "source_urls": [
-            "https://blog.talosintelligence.com/salt-typhoon-analysis/"
-          ],
-          "tactics": [
-            "exfiltration"
-          ],
-          "technique_id": "T1048.003",
-          "url": "https://attack.mitre.org/techniques/T1048.003/"
-        },
-        {
-          "actor_id": "mitre-g1045",
-          "name": "Exploit Public-Facing Application",
-          "source_id": "mitre-attack",
-          "source_name": "MITRE ATT&CK",
-          "source_urls": [
-            "https://blog.talosintelligence.com/salt-typhoon-analysis/"
-          ],
-          "tactics": [
-            "initial-access"
-          ],
-          "technique_id": "T1190",
-          "url": "https://attack.mitre.org/techniques/T1190/"
+          "technique_id": "T1571",
+          "url": "https://attack.mitre.org/techniques/T1571/"
         },
         {
           "actor_id": "mitre-g1045",
@@ -544,50 +500,449 @@
           ],
           "technique_id": "T1572",
           "url": "https://attack.mitre.org/techniques/T1572/"
+        },
+        {
+          "actor_id": "mitre-g1045",
+          "name": "Unix Shell",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.004",
+          "url": "https://attack.mitre.org/techniques/T1059.004/"
+        },
+        {
+          "actor_id": "mitre-g1045",
+          "name": "Python",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.006",
+          "url": "https://attack.mitre.org/techniques/T1059.006/"
+        },
+        {
+          "actor_id": "mitre-g1045",
+          "name": "Network Device CLI",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+          ],
+          "tactics": [
+            "execution"
+          ],
+          "technique_id": "T1059.008",
+          "url": "https://attack.mitre.org/techniques/T1059.008/"
         }
       ],
       "tactic_groups": [
         {
-          "count": 2,
+          "count": 9,
           "items": [
             {
               "actor_id": "mitre-g1045",
-              "name": "Network Sniffing",
+              "name": "Web Protocols",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
               ],
               "tactics": [
-                "credential-access",
-                "discovery"
+                "command-and-control"
               ],
-              "technique_id": "T1040",
-              "url": "https://attack.mitre.org/techniques/T1040/"
+              "technique_id": "T1071.001",
+              "url": "https://attack.mitre.org/techniques/T1071.001/"
             },
             {
               "actor_id": "mitre-g1045",
-              "name": "Password Cracking",
+              "name": "File Transfer Protocols",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1071.002",
+              "url": "https://attack.mitre.org/techniques/T1071.002/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Proxy",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1090",
+              "url": "https://attack.mitre.org/techniques/T1090/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Multi-hop Proxy",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1090.003",
+              "url": "https://attack.mitre.org/techniques/T1090.003/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Non-Application Layer Protocol",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1095",
+              "url": "https://attack.mitre.org/techniques/T1095/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Ingress Tool Transfer",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Standard Encoding",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1132.001",
+              "url": "https://attack.mitre.org/techniques/T1132.001/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Non-Standard Port",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1571",
+              "url": "https://attack.mitre.org/techniques/T1571/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Protocol Tunneling",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
                 "https://blog.talosintelligence.com/salt-typhoon-analysis/"
               ],
               "tactics": [
-                "credential-access"
+                "command-and-control"
               ],
-              "technique_id": "T1110.002",
-              "url": "https://attack.mitre.org/techniques/T1110.002/"
+              "technique_id": "T1572",
+              "url": "https://attack.mitre.org/techniques/T1572/"
             }
           ],
-          "label": "Credential Access",
-          "tactic": "credential-access",
-          "tactic_id": "TA0006",
-          "url": "https://attack.mitre.org/tactics/TA0006/"
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
         },
         {
-          "count": 2,
+          "count": 7,
           "items": [
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Unix Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.004",
+              "url": "https://attack.mitre.org/techniques/T1059.004/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Python",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.006",
+              "url": "https://attack.mitre.org/techniques/T1059.006/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Network Device CLI",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.008",
+              "url": "https://attack.mitre.org/techniques/T1059.008/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Container CLI/API",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.013",
+              "url": "https://attack.mitre.org/techniques/T1059.013/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Software Deployment Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "execution",
+                "lateral-movement"
+              ],
+              "technique_id": "T1072",
+              "url": "https://attack.mitre.org/techniques/T1072/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "System Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1569",
+              "url": "https://attack.mitre.org/techniques/T1569/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Deploy Container",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1610",
+              "url": "https://attack.mitre.org/techniques/T1610/"
+            }
+          ],
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 7,
+          "items": [
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Virtual Private Server",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.003",
+              "url": "https://attack.mitre.org/techniques/T1583.003/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Network Devices",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1584.008",
+              "url": "https://attack.mitre.org/techniques/T1584.008/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Social Media Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sentinelone.com/labs/malicious-apprentice-how-two-hackers-went-from-cisco-academy-to-cisco-cves/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585.001",
+              "url": "https://attack.mitre.org/techniques/T1585.001/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Develop Capabilities",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.sentinelone.com/labs/malicious-apprentice-how-two-hackers-went-from-cisco-academy-to-cisco-cves/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1587",
+              "url": "https://attack.mitre.org/techniques/T1587/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1587.001",
+              "url": "https://attack.mitre.org/techniques/T1587.001/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Exploits",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.005",
+              "url": "https://attack.mitre.org/techniques/T1588.005/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Modify Authentication Process",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "credential-access",
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1556",
+              "url": "https://attack.mitre.org/techniques/T1556/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Network Boundary Bridging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1599",
+              "url": "https://attack.mitre.org/techniques/T1599/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Disable or Modify Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1685",
+              "url": "https://attack.mitre.org/techniques/T1685/"
+            },
             {
               "actor_id": "mitre-g1045",
               "name": "Clear Linux or Mac System Logs",
@@ -615,6 +970,20 @@
               ],
               "technique_id": "T1686",
               "url": "https://attack.mitre.org/techniques/T1686/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Network Device Firewall",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1686.002",
+              "url": "https://attack.mitre.org/techniques/T1686.002/"
             }
           ],
           "label": "Defense Impairment",
@@ -623,15 +992,33 @@
           "url": "https://attack.mitre.org/tactics/TA0112/"
         },
         {
-          "count": 2,
+          "count": 6,
           "items": [
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
             {
               "actor_id": "mitre-g1045",
               "name": "SSH Authorized Keys",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+                "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
               ],
               "tactics": [
                 "persistence",
@@ -653,6 +1040,51 @@
               ],
               "technique_id": "T1136",
               "url": "https://attack.mitre.org/techniques/T1136/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Local Account",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1136.001",
+              "url": "https://attack.mitre.org/techniques/T1136.001/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Container Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.005",
+              "url": "https://attack.mitre.org/techniques/T1543.005/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Modify Authentication Process",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "credential-access",
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1556",
+              "url": "https://attack.mitre.org/techniques/T1556/"
             }
           ],
           "label": "Persistence",
@@ -661,52 +1093,362 @@
           "url": "https://attack.mitre.org/tactics/TA0003/"
         },
         {
-          "count": 2,
+          "count": 5,
           "items": [
             {
               "actor_id": "mitre-g1045",
-              "name": "Malware",
+              "name": "Network Sniffing",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+                "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
               ],
               "tactics": [
-                "resource-development"
+                "credential-access",
+                "discovery"
               ],
-              "technique_id": "T1587.001",
-              "url": "https://attack.mitre.org/techniques/T1587.001/"
+              "technique_id": "T1040",
+              "url": "https://attack.mitre.org/techniques/T1040/"
             },
             {
               "actor_id": "mitre-g1045",
-              "name": "Tool",
+              "name": "Password Guessing",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
               ],
               "tactics": [
-                "resource-development"
+                "credential-access"
               ],
-              "technique_id": "T1588.002",
-              "url": "https://attack.mitre.org/techniques/T1588.002/"
+              "technique_id": "T1110.001",
+              "url": "https://attack.mitre.org/techniques/T1110.001/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Password Cracking",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1110.002",
+              "url": "https://attack.mitre.org/techniques/T1110.002/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Credentials In Files",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1552.001",
+              "url": "https://attack.mitre.org/techniques/T1552.001/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Modify Authentication Process",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "credential-access",
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1556",
+              "url": "https://attack.mitre.org/techniques/T1556/"
             }
           ],
-          "label": "Resource Development",
-          "tactic": "resource-development",
-          "tactic_id": "TA0042",
-          "url": "https://attack.mitre.org/tactics/TA0042/"
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
         },
         {
-          "count": 1,
+          "count": 5,
           "items": [
+            {
+              "actor_id": "mitre-g1045",
+              "name": "System Network Configuration Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1016",
+              "url": "https://attack.mitre.org/techniques/T1016/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Remote System Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1018",
+              "url": "https://attack.mitre.org/techniques/T1018/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Network Sniffing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "credential-access",
+                "discovery"
+              ],
+              "technique_id": "T1040",
+              "url": "https://attack.mitre.org/techniques/T1040/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Network Service Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1046",
+              "url": "https://attack.mitre.org/techniques/T1046/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "System Information Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1082",
+              "url": "https://attack.mitre.org/techniques/T1082/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Command Obfuscation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.010",
+              "url": "https://attack.mitre.org/techniques/T1027.010/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Clear Command History",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.003",
+              "url": "https://attack.mitre.org/techniques/T1070.003/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Clear Network Connection History and Configurations",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.007",
+              "url": "https://attack.mitre.org/techniques/T1070.007/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Clear Persistence",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.009",
+              "url": "https://attack.mitre.org/techniques/T1070.009/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "SSH Authorized Keys",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1098.004",
+              "url": "https://attack.mitre.org/techniques/T1098.004/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Container Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.005",
+              "url": "https://attack.mitre.org/techniques/T1543.005/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Sudo and Sudo Caching",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "privilege-escalation"
+              ],
+              "technique_id": "T1548.003",
+              "url": "https://attack.mitre.org/techniques/T1548.003/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Data from Local System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1005",
+              "url": "https://attack.mitre.org/techniques/T1005/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "SNMP (MIB Dump)",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1602.001",
+              "url": "https://attack.mitre.org/techniques/T1602.001/"
+            },
             {
               "actor_id": "mitre-g1045",
               "name": "Network Device Configuration Dump",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+                "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
               ],
               "tactics": [
                 "collection"
@@ -721,62 +1463,139 @@
           "url": "https://attack.mitre.org/tactics/TA0009/"
         },
         {
-          "count": 1,
+          "count": 3,
           "items": [
             {
               "actor_id": "mitre-g1045",
-              "name": "Protocol Tunneling",
+              "name": "Remote Desktop Protocol",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
               ],
               "tactics": [
-                "command-and-control"
+                "lateral-movement"
               ],
-              "technique_id": "T1572",
-              "url": "https://attack.mitre.org/techniques/T1572/"
+              "technique_id": "T1021.001",
+              "url": "https://attack.mitre.org/techniques/T1021.001/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "SSH",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "lateral-movement"
+              ],
+              "technique_id": "T1021.004",
+              "url": "https://attack.mitre.org/techniques/T1021.004/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Software Deployment Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "execution",
+                "lateral-movement"
+              ],
+              "technique_id": "T1072",
+              "url": "https://attack.mitre.org/techniques/T1072/"
             }
           ],
-          "label": "Command and Control",
-          "tactic": "command-and-control",
-          "tactic_id": "TA0011",
-          "url": "https://attack.mitre.org/tactics/TA0011/"
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
         },
         {
-          "count": 1,
+          "count": 3,
           "items": [
             {
               "actor_id": "mitre-g1045",
-              "name": "Network Sniffing",
+              "name": "Valid Accounts",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
               ],
               "tactics": [
-                "credential-access",
-                "discovery"
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
               ],
-              "technique_id": "T1040",
-              "url": "https://attack.mitre.org/techniques/T1040/"
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Exploit Public-Facing Application",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a",
+                "https://www.sentinelone.com/labs/malicious-apprentice-how-two-hackers-went-from-cisco-academy-to-cisco-cves/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1190",
+              "url": "https://attack.mitre.org/techniques/T1190/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Trusted Relationship",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1199",
+              "url": "https://attack.mitre.org/techniques/T1199/"
             }
           ],
-          "label": "Discovery",
-          "tactic": "discovery",
-          "tactic_id": "TA0007",
-          "url": "https://attack.mitre.org/tactics/TA0007/"
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
         },
         {
-          "count": 1,
+          "count": 2,
           "items": [
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Traffic Duplication",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1020.001",
+              "url": "https://attack.mitre.org/techniques/T1020.001/"
+            },
             {
               "actor_id": "mitre-g1045",
               "name": "Exfiltration Over Unencrypted Non-C2 Protocol",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+                "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
               ],
               "tactics": [
                 "exfiltration"
@@ -791,77 +1610,7 @@
           "url": "https://attack.mitre.org/tactics/TA0010/"
         },
         {
-          "count": 1,
-          "items": [
-            {
-              "actor_id": "mitre-g1045",
-              "name": "Exploit Public-Facing Application",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://blog.talosintelligence.com/salt-typhoon-analysis/"
-              ],
-              "tactics": [
-                "initial-access"
-              ],
-              "technique_id": "T1190",
-              "url": "https://attack.mitre.org/techniques/T1190/"
-            }
-          ],
-          "label": "Initial Access",
-          "tactic": "initial-access",
-          "tactic_id": "TA0001",
-          "url": "https://attack.mitre.org/tactics/TA0001/"
-        },
-        {
-          "count": 1,
-          "items": [
-            {
-              "actor_id": "mitre-g1045",
-              "name": "SSH",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://blog.talosintelligence.com/salt-typhoon-analysis/"
-              ],
-              "tactics": [
-                "lateral-movement"
-              ],
-              "technique_id": "T1021.004",
-              "url": "https://attack.mitre.org/techniques/T1021.004/"
-            }
-          ],
-          "label": "Lateral Movement",
-          "tactic": "lateral-movement",
-          "tactic_id": "TA0008",
-          "url": "https://attack.mitre.org/tactics/TA0008/"
-        },
-        {
-          "count": 1,
-          "items": [
-            {
-              "actor_id": "mitre-g1045",
-              "name": "SSH Authorized Keys",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://blog.talosintelligence.com/salt-typhoon-analysis/"
-              ],
-              "tactics": [
-                "persistence",
-                "privilege-escalation"
-              ],
-              "technique_id": "T1098.004",
-              "url": "https://attack.mitre.org/techniques/T1098.004/"
-            }
-          ],
-          "label": "Privilege Escalation",
-          "tactic": "privilege-escalation",
-          "tactic_id": "TA0004",
-          "url": "https://attack.mitre.org/tactics/TA0004/"
-        },
-        {
-          "count": 1,
+          "count": 2,
           "items": [
             {
               "actor_id": "mitre-g1045",
@@ -869,13 +1618,28 @@
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+                "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
               ],
               "tactics": [
                 "reconnaissance"
               ],
               "technique_id": "T1590.004",
               "url": "https://attack.mitre.org/techniques/T1590.004/"
+            },
+            {
+              "actor_id": "mitre-g1045",
+              "name": "Active Scanning",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+              ],
+              "tactics": [
+                "reconnaissance"
+              ],
+              "technique_id": "T1595",
+              "url": "https://attack.mitre.org/techniques/T1595/"
             }
           ],
           "label": "Reconnaissance",
@@ -886,91 +1650,105 @@
       ],
       "tactics": [
         {
-          "count": 2,
-          "label": "Credential Access",
-          "tactic": "credential-access",
-          "tactic_id": "TA0006",
-          "url": "https://attack.mitre.org/tactics/TA0006/"
-        },
-        {
-          "count": 2,
-          "label": "Defense Impairment",
-          "tactic": "defense-impairment",
-          "tactic_id": "TA0112",
-          "url": "https://attack.mitre.org/tactics/TA0112/"
-        },
-        {
-          "count": 2,
-          "label": "Persistence",
-          "tactic": "persistence",
-          "tactic_id": "TA0003",
-          "url": "https://attack.mitre.org/tactics/TA0003/"
-        },
-        {
-          "count": 2,
-          "label": "Resource Development",
-          "tactic": "resource-development",
-          "tactic_id": "TA0042",
-          "url": "https://attack.mitre.org/tactics/TA0042/"
-        },
-        {
-          "count": 1,
-          "label": "Collection",
-          "tactic": "collection",
-          "tactic_id": "TA0009",
-          "url": "https://attack.mitre.org/tactics/TA0009/"
-        },
-        {
-          "count": 1,
+          "count": 9,
           "label": "Command and Control",
           "tactic": "command-and-control",
           "tactic_id": "TA0011",
           "url": "https://attack.mitre.org/tactics/TA0011/"
         },
         {
-          "count": 1,
+          "count": 7,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 7,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 6,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 6,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 5,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 5,
           "label": "Discovery",
           "tactic": "discovery",
           "tactic_id": "TA0007",
           "url": "https://attack.mitre.org/tactics/TA0007/"
         },
         {
-          "count": 1,
-          "label": "Exfiltration",
-          "tactic": "exfiltration",
-          "tactic_id": "TA0010",
-          "url": "https://attack.mitre.org/tactics/TA0010/"
+          "count": 5,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
         },
         {
-          "count": 1,
-          "label": "Initial Access",
-          "tactic": "initial-access",
-          "tactic_id": "TA0001",
-          "url": "https://attack.mitre.org/tactics/TA0001/"
-        },
-        {
-          "count": 1,
-          "label": "Lateral Movement",
-          "tactic": "lateral-movement",
-          "tactic_id": "TA0008",
-          "url": "https://attack.mitre.org/tactics/TA0008/"
-        },
-        {
-          "count": 1,
+          "count": 4,
           "label": "Privilege Escalation",
           "tactic": "privilege-escalation",
           "tactic_id": "TA0004",
           "url": "https://attack.mitre.org/tactics/TA0004/"
         },
         {
-          "count": 1,
+          "count": 3,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 3,
+          "label": "Lateral Movement",
+          "tactic": "lateral-movement",
+          "tactic_id": "TA0008",
+          "url": "https://attack.mitre.org/tactics/TA0008/"
+        },
+        {
+          "count": 3,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 2,
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        },
+        {
+          "count": 2,
           "label": "Reconnaissance",
           "tactic": "reconnaissance",
           "tactic_id": "TA0043",
           "url": "https://attack.mitre.org/tactics/TA0043/"
         }
       ],
-      "total": 14
+      "total": 58
     },
     "overview": {
       "generated": false,
@@ -990,7 +1768,7 @@
           ]
         }
       ],
-      "text": "Salt Typhoon is a People's Republic of China (PRC) state-backed actor that has been active since at least 2019 and responsible for numerous compromises of network infrastructure at major U.S. telecommunication and internet service providers (ISP).(Citation: US Dept. of Treasury Salt Typhoon JAN 2025)(Citation: Cisco Salt Typhoon FEB 2025)"
+      "text": "Salt Typhoon is a People's Republic of China (PRC) state-backed actor that has been active since at least 2019 and responsible for numerous compromises of network infrastructure at major U.S. telecommunication and internet service providers (ISP). Salt Typhoon has targeted and leveraged public facing network edge devices to gain access to victim environments. Salt Typhoon has been publicly associated with activities resembling other security industry reported activity groups to include OPERATOR PANDA, RedMike, GhostEmperor, and UNC5807.(Citation: US Dept. of Treasury Salt Typhoon JAN 2025)(Citation: Cisco Salt Typhoon FEB 2025)(Citation: CISA_AA25-239ASaltTyphoon_Sept2025)(Citation:..."
     },
     "primary_source": "mitre-attack",
     "recent_activity": [],
@@ -1010,6 +1788,14 @@
           "external-reference"
         ],
         "url": "https://blog.talosintelligence.com/salt-typhoon-analysis"
+      },
+      {
+        "actor_id": "mitre-g1045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026"
       },
       {
         "actor_id": "mitre-g1045",
@@ -1065,6 +1851,22 @@
         "source_ids": [
           "external-reference"
         ],
+        "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+      },
+      {
+        "actor_id": "mitre-g1045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.crowdstrike.com/en-us/adversaries/operator-panda"
+      },
+      {
+        "actor_id": "mitre-g1045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
         "url": "https://www.ncsc.gov.uk/files/NCSC-MAR-SparrowDoor.pdf"
       },
       {
@@ -1074,6 +1876,14 @@
           "external-reference"
         ],
         "url": "https://www.recordedfuture.com/research/redmike-salt-typhoon-exploits-vulnerable-devices"
+      },
+      {
+        "actor_id": "mitre-g1045",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sentinelone.com/labs/malicious-apprentice-how-two-hackers-went-from-cisco-academy-to-cisco-cves"
       },
       {
         "actor_id": "mitre-g1045",
@@ -1202,7 +2012,7 @@
       "mitre-attack"
     ],
     "status": "active",
-    "updated_at": "2026-10-12"
+    "updated_at": "2026-10-19"
   },
-  "generated_at": "2026-10-12T09:57:48Z"
+  "generated_at": "2026-10-19T08:15:05Z"
 }

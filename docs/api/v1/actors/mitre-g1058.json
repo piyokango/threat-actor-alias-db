@@ -1,0 +1,942 @@
+{
+  "actor": {
+    "actor_id": "mitre-g1058",
+    "canonical_name": "The Gentlemen",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "mitre-g1058"
+    ],
+    "misp_uuid": "1c047671-227b-466f-9929-37df40abd485",
+    "mitre_id": "G1058",
+    "names": [
+      {
+        "compact_normalized_name": "thegentlemen",
+        "confidence": "source-provided",
+        "display_group_key": "thegentlemen",
+        "name": "The Gentlemen",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical",
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy, MITRE ATT&CK",
+        "normalized_name": "the gentlemen",
+        "source_id": "misp-galaxy,mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1058",
+          "https://socradar.io/blog/dark-web-profile-the-gentlemen-ransomware",
+          "https://www.cybereason.com/blog/the-gentlemen-ransomware",
+          "https://www.sprocketsecurity.com/blog/tracing-a-threat-actors-footprints-on-tor",
+          "https://www.trendmicro.com/en_us/research/25/i/unmasking-the-gentlemen-ransomware.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://socradar.io/blog/dark-web-profile-the-gentlemen-ransomware",
+              "https://www.cybereason.com/blog/the-gentlemen-ransomware",
+              "https://www.sprocketsecurity.com/blog/tracing-a-threat-actors-footprints-on-tor",
+              "https://www.trendmicro.com/en_us/research/25/i/unmasking-the-gentlemen-ransomware.html"
+            ]
+          },
+          {
+            "name_types": [
+              "canonical",
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1058"
+            ]
+          }
+        ],
+        "variants": [
+          "The Gentlemen"
+        ]
+      },
+      {
+        "compact_normalized_name": "goldsherwood",
+        "confidence": "source-provided",
+        "display_group_key": "goldsherwood",
+        "name": "GOLD SHERWOOD",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "gold sherwood",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1058"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1058"
+            ]
+          }
+        ],
+        "variants": [
+          "GOLD SHERWOOD"
+        ]
+      },
+      {
+        "compact_normalized_name": "storm2697",
+        "confidence": "source-provided",
+        "display_group_key": "storm2697",
+        "name": "Storm-2697",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MITRE ATT&CK",
+        "normalized_name": "storm 2697",
+        "source_id": "mitre-attack",
+        "source_urls": [
+          "https://attack.mitre.org/groups/G1058"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MITRE ATT&CK",
+            "source_ids": [
+              "mitre-attack"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://attack.mitre.org/groups/G1058"
+            ]
+          }
+        ],
+        "variants": [
+          "Storm-2697"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy",
+      "MITRE ATT&CK"
+    ],
+    "observed_techniques": {
+      "items": [
+        {
+          "actor_id": "mitre-g1058",
+          "name": "Domains",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://research.checkpoint.com/2026/dfir-report-the-gentlemen/",
+            "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation",
+            "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware",
+            "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1583.001",
+          "url": "https://attack.mitre.org/techniques/T1583.001/"
+        },
+        {
+          "actor_id": "mitre-g1058",
+          "name": "Establish Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+            "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1585",
+          "url": "https://attack.mitre.org/techniques/T1585/"
+        },
+        {
+          "actor_id": "mitre-g1058",
+          "name": "Social Media Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://research.checkpoint.com/2026/dfir-report-the-gentlemen/",
+            "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1585.001",
+          "url": "https://attack.mitre.org/techniques/T1585.001/"
+        },
+        {
+          "actor_id": "mitre-g1058",
+          "name": "Tool",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+            "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen",
+            "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation",
+            "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware",
+            "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1588.002",
+          "url": "https://attack.mitre.org/techniques/T1588.002/"
+        },
+        {
+          "actor_id": "mitre-g1058",
+          "name": "Written Content",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://research.checkpoint.com/2026/dfir-report-the-gentlemen/",
+            "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+            "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen",
+            "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
+            "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation",
+            "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1683.001",
+          "url": "https://attack.mitre.org/techniques/T1683.001/"
+        },
+        {
+          "actor_id": "mitre-g1058",
+          "name": "Audio-Visual Content",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://research.checkpoint.com/2026/dfir-report-the-gentlemen/",
+            "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+            "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/"
+          ],
+          "tactics": [
+            "resource-development"
+          ],
+          "technique_id": "T1683.002",
+          "url": "https://attack.mitre.org/techniques/T1683.002/"
+        },
+        {
+          "actor_id": "mitre-g1058",
+          "name": "Software Packing",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.002",
+          "url": "https://attack.mitre.org/techniques/T1027.002/"
+        },
+        {
+          "actor_id": "mitre-g1058",
+          "name": "Masquerading",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036",
+          "url": "https://attack.mitre.org/techniques/T1036/"
+        },
+        {
+          "actor_id": "mitre-g1058",
+          "name": "Invalid Code Signature",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.001",
+          "url": "https://attack.mitre.org/techniques/T1036.001/"
+        },
+        {
+          "actor_id": "mitre-g1058",
+          "name": "Match Legitimate Resource Name or Location",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036.005/"
+        },
+        {
+          "actor_id": "mitre-g1058",
+          "name": "Valid Accounts",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+            "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+            "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen"
+          ],
+          "tactics": [
+            "initial-access",
+            "persistence",
+            "privilege-escalation",
+            "stealth"
+          ],
+          "technique_id": "T1078",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "actor_id": "mitre-g1058",
+          "name": "Exploitation for Privilege Escalation",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/"
+          ],
+          "tactics": [
+            "privilege-escalation"
+          ],
+          "technique_id": "T1068",
+          "url": "https://attack.mitre.org/techniques/T1068/"
+        }
+      ],
+      "tactic_groups": [
+        {
+          "count": 6,
+          "items": [
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.checkpoint.com/2026/dfir-report-the-gentlemen/",
+                "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation",
+                "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware",
+                "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Establish Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+                "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585",
+              "url": "https://attack.mitre.org/techniques/T1585/"
+            },
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Social Media Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.checkpoint.com/2026/dfir-report-the-gentlemen/",
+                "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585.001",
+              "url": "https://attack.mitre.org/techniques/T1585.001/"
+            },
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+                "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen",
+                "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation",
+                "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware",
+                "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Written Content",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.checkpoint.com/2026/dfir-report-the-gentlemen/",
+                "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+                "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen",
+                "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
+                "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation",
+                "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1683.001",
+              "url": "https://attack.mitre.org/techniques/T1683.001/"
+            },
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Audio-Visual Content",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.checkpoint.com/2026/dfir-report-the-gentlemen/",
+                "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+                "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1683.002",
+              "url": "https://attack.mitre.org/techniques/T1683.002/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 5,
+          "items": [
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Software Packing",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.002",
+              "url": "https://attack.mitre.org/techniques/T1027.002/"
+            },
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Masquerading",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036",
+              "url": "https://attack.mitre.org/techniques/T1036/"
+            },
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Invalid Code Signature",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.001",
+              "url": "https://attack.mitre.org/techniques/T1036.001/"
+            },
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Match Legitimate Resource Name or Location",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.005",
+              "url": "https://attack.mitre.org/techniques/T1036.005/"
+            },
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+                "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+                "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Data Encrypted for Impact",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+                "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation",
+                "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware",
+                "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1486",
+              "url": "https://attack.mitre.org/techniques/T1486/"
+            },
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Financial Theft",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://research.checkpoint.com/2026/dfir-report-the-gentlemen/",
+                "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+                "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
+                "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation",
+                "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware",
+                "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1657",
+              "url": "https://attack.mitre.org/techniques/T1657/"
+            }
+          ],
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+                "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+                "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            },
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Exploit Public-Facing Application",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+                "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen",
+                "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware",
+                "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1190",
+              "url": "https://attack.mitre.org/techniques/T1190/"
+            }
+          ],
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 2,
+          "items": [
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Exploitation for Privilege Escalation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/"
+              ],
+              "tactics": [
+                "privilege-escalation"
+              ],
+              "technique_id": "T1068",
+              "url": "https://attack.mitre.org/techniques/T1068/"
+            },
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+                "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+                "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Remote Desktop Software",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1219.002",
+              "url": "https://attack.mitre.org/techniques/T1219.002/"
+            }
+          ],
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Remote System Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1018",
+              "url": "https://attack.mitre.org/techniques/T1018/"
+            }
+          ],
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 1,
+          "items": [
+            {
+              "actor_id": "mitre-g1058",
+              "name": "Valid Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+                "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+                "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078",
+              "url": "https://attack.mitre.org/techniques/T1078/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 6,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 5,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 2,
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        },
+        {
+          "count": 2,
+          "label": "Initial Access",
+          "tactic": "initial-access",
+          "tactic_id": "TA0001",
+          "url": "https://attack.mitre.org/tactics/TA0001/"
+        },
+        {
+          "count": 2,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 1,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 1,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 1,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        }
+      ],
+      "total": 17
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        },
+        {
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://attack.mitre.org/groups/G1058/"
+          ]
+        }
+      ],
+      "text": "The Gentlemen is a group that maintains the The Gentlemen Ransomware-as-a-service (RaaS). The Gentlemen was first observed in mid-2025 who had posed The Gentlemen Ransomware as a closed ransomware and shortly later opened the ransomware as a RaaS to affiliates in September 2025. The Gentlemen has been affiliated with the threat group Storm-2697 and GOLD SHERWOOD.(Citation: MSTI_GentelmenRansomware_May2026)(Citation: Intel471_TheGentlemen_Aug2026)(Citation: Sophos_TheGentlemen_Sept2026)(Citation: SoučekESET_Gentlemen_Jun2026)(Citation: CheckPointResearch_TheGentlemen_April2026)(Citation: BradyUnit42_TheGentlemen_July2026)(Citation: CarveyODonnellWelchHuntress_TheGentlemen_May2026)(Citation:..."
+    },
+    "primary_source": "mitre-attack",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "mitre-g1058",
+        "source_id": "mitre-attack",
+        "source_ids": [
+          "mitre-attack"
+        ],
+        "url": "https://attack.mitre.org/groups/G1058"
+      },
+      {
+        "actor_id": "mitre-g1058",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://research.checkpoint.com/2026/dfir-report-the-gentlemen"
+      },
+      {
+        "actor_id": "mitre-g1058",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://socradar.io/blog/dark-web-profile-the-gentlemen-ransomware"
+      },
+      {
+        "actor_id": "mitre-g1058",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware"
+      },
+      {
+        "actor_id": "mitre-g1058",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.cybereason.com/blog/the-gentlemen-ransomware"
+      },
+      {
+        "actor_id": "mitre-g1058",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps"
+      },
+      {
+        "actor_id": "mitre-g1058",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen"
+      },
+      {
+        "actor_id": "mitre-g1058",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor"
+      },
+      {
+        "actor_id": "mitre-g1058",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation"
+      },
+      {
+        "actor_id": "mitre-g1058",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sprocketsecurity.com/blog/tracing-a-threat-actors-footprints-on-tor"
+      },
+      {
+        "actor_id": "mitre-g1058",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware"
+      },
+      {
+        "actor_id": "mitre-g1058",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendmicro.com/en_us/research/25/i/unmasking-the-gentlemen-ransomware.html"
+      },
+      {
+        "actor_id": "mitre-g1058",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "GOLD SHERWOOD",
+      "Storm-2697",
+      "The Gentlemen"
+    ],
+    "source_ids": [
+      "external-reference",
+      "microsoft-threat-actor-naming",
+      "misp-galaxy",
+      "mitre-attack"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-19"
+  },
+  "generated_at": "2026-10-19T08:15:05Z"
+}

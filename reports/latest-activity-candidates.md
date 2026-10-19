@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-10-12 09:57:46 UTC
+Generated: 2026-10-19 08:15:03 UTC
 
 ## Summary
 
-- Auto candidates: 346
+- Auto candidates: 368
 - Published items: 0
 - Rejected items: 0
 
@@ -206,6 +206,18 @@ Generated: 2026-10-12 09:57:46 UTC
   - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
 
 ### APT41
+
+- **2026-10-16 / SecurityWeek**
+  - Title: F5, Juniper Networks Patch Critical Vulnerabilities
+  - URL: https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities
+  - Matched names: LEAD
+  - Summary: Successful exploitation of some of these issues could lead to remote code execution and full device takeover. The post F5, Juniper Networks Patch Critical Vulnerabilities appeared first on SecurityWeek .
+
+- **2026-10-15 / The Hacker News**
+  - Title: ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More
+  - URL: https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html
+  - Matched names: LEAD
+  - Summary: Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ways. A small permission can l
 
 - **2026-10-09 / The Hacker News**
   - Title: Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments
@@ -797,6 +809,26 @@ Generated: 2026-10-12 09:57:46 UTC
   - Matched names: Smoke Sandstorm
   - Summary: The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South 
 
+### Caramel Tsunami
+
+- **2026-10-17 / SecurityWeek**
+  - Title: Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel
+  - URL: https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel
+  - Matched names: Candiru
+  - Summary: Israeli company Discover-Tech’s ads allow threat actors to fingerprint and track devices at scale and infect selected targets. The post Israeli Ad Firm Doubled as Candiru&#8217;s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek .
+
+- **2026-10-16 / BleepingComputer**
+  - Title: Targeted ads installed Candiru spyware in zero-click attacks
+  - URL: https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware
+  - Matched names: Candiru
+  - Summary: Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]
+
+- **2026-10-15 / The Hacker News**
+  - Title: Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads
+  - URL: https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html
+  - Matched names: Candiru
+  - Summary: Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at&nbsp;the Citizen Lab&nbsp;said Thursd
+
 ### Careto
 
 - **2026-10-07 / ESET WeLiveSecurity**
@@ -984,6 +1016,20 @@ Generated: 2026-10-12 09:57:46 UTC
   - URL: https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments
   - Matched names: DragonForce
   - Summary: Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity befo
+
+### Dragonfly
+
+- **2026-10-16 / The Hacker News**
+  - Title: China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers
+  - URL: https://thehackernews.com/2026/10/china-linked-hackers-exploited.html
+  - Matched names: CASTLE
+  - Summary: The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026. The vulnerability, tracked 
+
+- **2026-10-16 / SecurityWeek**
+  - Title: Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day
+  - URL: https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day
+  - Matched names: CASTLE
+  - Summary: Armory Castle exploited CVE-2026-102764 for initial access, deployed custom tools, and deleted logs and artifacts. The post Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day appeared first on SecurityWeek .
 
 ### Earth Lusca
 
@@ -1262,6 +1308,12 @@ Generated: 2026-10-12 09:57:46 UTC
   - Summary: A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia. The intrusion set makes use of seven remote access tool (RAT) families, five of which have never been previously docu
 
 ### Play
+
+- **2026-10-15 / The Hacker News**
+  - Title: India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1
+  - URL: https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html
+  - Matched names: Play
+  - Summary: The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to help people identify calls from
 
 - **2026-09-30 / The Hacker News**
   - Title: Know Your Enemy: Browser-Based Attack Techniques in 2026
@@ -1667,6 +1719,14 @@ Generated: 2026-10-12 09:57:46 UTC
   - Matched names: SideCopy
   - Summary: The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. "SideCopy campaign operations typically initiate through spear-phish
 
+### Silence
+
+- **2026-10-14 / Cisco Talos**
+  - Title: Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations
+  - URL: https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations
+  - Matched names: Silence
+  - Summary: Talos and Recorded Future identified UAT-6275 activity targeting government organizations across the Commonwealth of Independent States. Recovered artifacts show additional interest in water resources and energy.
+
 ### Silent Librarian
 
 - **2026-10-02 / SecurityWeek**
@@ -1937,6 +1997,14 @@ Generated: 2026-10-12 09:57:46 UTC
   - Matched names: UNC6671
   - Summary: A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an extortion group reportedly associated with the BlackFile threat actors. [...]
 
+### UTA0178
+
+- **2026-10-16 / The Hacker News**
+  - Title: China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers
+  - URL: https://thehackernews.com/2026/10/china-linked-hackers-exploited.html
+  - Matched names: UNC5221
+  - Summary: The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026. The vulnerability, tracked 
+
 ### VOID MANTICORE
 
 - **2026-09-17 / The Hacker News**
@@ -1958,6 +2026,60 @@ Generated: 2026-10-12 09:57:46 UTC
   - Summary: Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall for and no approval box to ignore. Cato AI Labs&nbsp
 
 ### VantaCore
+
+- **2026-10-18 / The Hacker News**
+  - Title: ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants
+  - URL: https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html
+  - Matched names: Thor
+  - Summary: ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microso
+
+- **2026-10-17 / The Hacker News**
+  - Title: Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants
+  - URL: https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
+  - Matched names: Thor
+  - Summary: Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized acce
+
+- **2026-10-16 / The Hacker News**
+  - Title: CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing
+  - URL: https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html
+  - Matched names: Thor
+  - Summary: AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In&nbsp;said in an advisory&nbsp;on October 15. The agents went beyond their assigned ta
+
+- **2026-10-16 / BleepingComputer**
+  - Title: Employees using personal ChatGPT at work? Here's what IT admins need to do
+  - URL: https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do
+  - Matched names: Thor
+  - Summary: Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive infor
+
+- **2026-10-16 / The Record**
+  - Title: Moscow police detain suspected DataSuckers hackers linked to breaches in Ukraine and Russia
+  - URL: https://therecord.media/russia-datasuckers-hackers-arrested
+  - Matched names: Thor
+  - Summary: Russian authorities have reportedly detained three suspected members of the DataSuckers hacking group following a cyberattack on a popular restaurant chain that exposed vast amounts of customer information.
+
+- **2026-10-16 / The Hacker News**
+  - Title: OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract
+  - URL: https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html
+  - Matched names: Thor
+  - Summary: OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a
+
+- **2026-10-15 / Cisco Talos**
+  - Title: The Q3 Vulnerability Pulse: Discovery ≠ Exploitation
+  - URL: https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation
+  - Matched names: Thor
+  - Summary: Is the cybersecurity world really facing a "Bugmageddon?" Thor breaks down the latest CVE and KEV trends in the latest Threat Source newsletter.
+
+- **2026-10-14 / The Hacker News**
+  - Title: An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.
+  - URL: https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html
+  - Matched names: Thor
+  - Summary: The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's produ
+
+- **2026-10-13 / The Hacker News**
+  - Title: Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation
+  - URL: https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html
+  - Matched names: Thor
+  - Summary: The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers. The administrative penalty is the largest issued 
 
 - **2026-10-12 / SecurityWeek**
   - Title: Critical SonicWall Vulnerability Exploited Days After Disclosure
@@ -2239,7 +2361,21 @@ Generated: 2026-10-12 09:57:46 UTC
   - Matched names: Laundry Bear, LAUNDRY BEAR
   - Summary: A Kremlin-backed group known as Laundry Bear has been using a zero-click phishing technique to break into Zimbra webmail accounts worldwide, the U.S. and other nations said.
 
+### WARP PANDA
+
+- **2026-10-16 / The Hacker News**
+  - Title: China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers
+  - URL: https://thehackernews.com/2026/10/china-linked-hackers-exploited.html
+  - Matched names: WARP PANDA
+  - Summary: The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026. The vulnerability, tracked 
+
 ### Watchdog
+
+- **2026-10-13 / The Hacker News**
+  - Title: Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation
+  - URL: https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html
+  - Matched names: Watchdog
+  - Summary: The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers. The administrative penalty is the largest issued 
 
 - **2026-08-28 / BleepingComputer**
   - Title: Over 8,300 Gitea servers vulnerable to code execution attacks
@@ -2252,6 +2388,14 @@ Generated: 2026-10-12 09:57:46 UTC
   - URL: https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
   - Matched names: Watchdog
   - Summary: A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi N
+
+### YoroTrooper
+
+- **2026-10-15 / The Hacker News**
+  - Title: Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks
+  - URL: https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html
+  - Matched names: Silent Lynx
+  - Summary: The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS). The activity, observed from June 2025 through August 2026, involves four diffe
 
 ### ZIRCONIUM
 

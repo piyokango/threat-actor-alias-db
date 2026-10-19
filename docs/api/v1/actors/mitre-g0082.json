@@ -271,6 +271,48 @@
         },
         {
           "actor_id": "mitre-g0082",
+          "name": "Command Obfuscation",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.010",
+          "url": "https://attack.mitre.org/techniques/T1027.010/"
+        },
+        {
+          "actor_id": "mitre-g0082",
+          "name": "Compression",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.015",
+          "url": "https://attack.mitre.org/techniques/T1027.015/"
+        },
+        {
+          "actor_id": "mitre-g0082",
+          "name": "Junk Code Insertion",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1027.016",
+          "url": "https://attack.mitre.org/techniques/T1027.016/"
+        },
+        {
+          "actor_id": "mitre-g0082",
           "name": "Rename Legitimate Utilities",
           "source_id": "mitre-attack",
           "source_name": "MITRE ATT&CK",
@@ -282,6 +324,22 @@
           ],
           "technique_id": "T1036.003",
           "url": "https://attack.mitre.org/techniques/T1036.003/"
+        },
+        {
+          "actor_id": "mitre-g0082",
+          "name": "Match Legitimate Resource Name or Location",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+            "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+            "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036.005/"
         },
         {
           "actor_id": "mitre-g0082",
@@ -299,11 +357,26 @@
         },
         {
           "actor_id": "mitre-g0082",
+          "name": "Masquerade File Type",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1036.008",
+          "url": "https://attack.mitre.org/techniques/T1036.008/"
+        },
+        {
+          "actor_id": "mitre-g0082",
           "name": "Process Injection",
           "source_id": "mitre-attack",
           "source_name": "MITRE ATT&CK",
           "source_urls": [
-            "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
+            "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
+            "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
           ],
           "tactics": [
             "privilege-escalation",
@@ -314,12 +387,28 @@
         },
         {
           "actor_id": "mitre-g0082",
+          "name": "Clear Command History",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+          ],
+          "tactics": [
+            "stealth"
+          ],
+          "technique_id": "T1070.003",
+          "url": "https://attack.mitre.org/techniques/T1070.003/"
+        },
+        {
+          "actor_id": "mitre-g0082",
           "name": "File Deletion",
           "source_id": "mitre-attack",
           "source_name": "MITRE ATT&CK",
           "source_urls": [
             "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf",
-            "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+            "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+            "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+            "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
           ],
           "tactics": [
             "stealth"
@@ -340,96 +429,11 @@
           ],
           "technique_id": "T1070.006",
           "url": "https://attack.mitre.org/techniques/T1070.006/"
-        },
-        {
-          "actor_id": "mitre-g0082",
-          "name": "Deobfuscate/Decode Files or Information",
-          "source_id": "mitre-attack",
-          "source_name": "MITRE ATT&CK",
-          "source_urls": [
-            "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
-          ],
-          "tactics": [
-            "stealth"
-          ],
-          "technique_id": "T1140",
-          "url": "https://attack.mitre.org/techniques/T1140/"
-        },
-        {
-          "actor_id": "mitre-g0082",
-          "name": "Compiled HTML File",
-          "source_id": "mitre-attack",
-          "source_name": "MITRE ATT&CK",
-          "source_urls": [
-            "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180244/Lazarus_Under_The_Hood_PDF_final.pdf"
-          ],
-          "tactics": [
-            "stealth"
-          ],
-          "technique_id": "T1218.001",
-          "url": "https://attack.mitre.org/techniques/T1218.001/"
-        },
-        {
-          "actor_id": "mitre-g0082",
-          "name": "Mshta",
-          "source_id": "mitre-attack",
-          "source_name": "MITRE ATT&CK",
-          "source_urls": [
-            "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
-          ],
-          "tactics": [
-            "stealth"
-          ],
-          "technique_id": "T1218.005",
-          "url": "https://attack.mitre.org/techniques/T1218.005/"
-        },
-        {
-          "actor_id": "mitre-g0082",
-          "name": "Msiexec",
-          "source_id": "mitre-attack",
-          "source_name": "MITRE ATT&CK",
-          "source_urls": [
-            "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
-          ],
-          "tactics": [
-            "stealth"
-          ],
-          "technique_id": "T1218.007",
-          "url": "https://attack.mitre.org/techniques/T1218.007/"
-        },
-        {
-          "actor_id": "mitre-g0082",
-          "name": "Rundll32",
-          "source_id": "mitre-attack",
-          "source_name": "MITRE ATT&CK",
-          "source_urls": [
-            "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
-            "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
-          ],
-          "tactics": [
-            "stealth"
-          ],
-          "technique_id": "T1218.011",
-          "url": "https://attack.mitre.org/techniques/T1218.011/"
-        },
-        {
-          "actor_id": "mitre-g0082",
-          "name": "Mutual Exclusion",
-          "source_id": "mitre-attack",
-          "source_name": "MITRE ATT&CK",
-          "source_urls": [
-            "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
-          ],
-          "tactics": [
-            "stealth"
-          ],
-          "technique_id": "T1480.002",
-          "url": "https://attack.mitre.org/techniques/T1480.002/"
         }
       ],
       "tactic_groups": [
         {
-          "count": 12,
+          "count": 27,
           "items": [
             {
               "actor_id": "mitre-g0082",
@@ -447,6 +451,48 @@
             },
             {
               "actor_id": "mitre-g0082",
+              "name": "Command Obfuscation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.010",
+              "url": "https://attack.mitre.org/techniques/T1027.010/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Compression",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.015",
+              "url": "https://attack.mitre.org/techniques/T1027.015/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Junk Code Insertion",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1027.016",
+              "url": "https://attack.mitre.org/techniques/T1027.016/"
+            },
+            {
+              "actor_id": "mitre-g0082",
               "name": "Rename Legitimate Utilities",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
@@ -458,6 +504,22 @@
               ],
               "technique_id": "T1036.003",
               "url": "https://attack.mitre.org/techniques/T1036.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Match Legitimate Resource Name or Location",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.005",
+              "url": "https://attack.mitre.org/techniques/T1036.005/"
             },
             {
               "actor_id": "mitre-g0082",
@@ -475,11 +537,26 @@
             },
             {
               "actor_id": "mitre-g0082",
+              "name": "Masquerade File Type",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1036.008",
+              "url": "https://attack.mitre.org/techniques/T1036.008/"
+            },
+            {
+              "actor_id": "mitre-g0082",
               "name": "Process Injection",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
+                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
               ],
               "tactics": [
                 "privilege-escalation",
@@ -490,12 +567,28 @@
             },
             {
               "actor_id": "mitre-g0082",
+              "name": "Clear Command History",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1070.003",
+              "url": "https://attack.mitre.org/techniques/T1070.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
               "name": "File Deletion",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
                 "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf",
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
               ],
               "tactics": [
                 "stealth"
@@ -519,11 +612,46 @@
             },
             {
               "actor_id": "mitre-g0082",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Cloud Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.004",
+              "url": "https://attack.mitre.org/techniques/T1078.004/"
+            },
+            {
+              "actor_id": "mitre-g0082",
               "name": "Deobfuscate/Decode Files or Information",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
+                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
               ],
               "tactics": [
                 "stealth"
@@ -590,6 +718,20 @@
             },
             {
               "actor_id": "mitre-g0082",
+              "name": "Execution Guardrails",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1480",
+              "url": "https://attack.mitre.org/techniques/T1480/"
+            },
+            {
+              "actor_id": "mitre-g0082",
               "name": "Mutual Exclusion",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
@@ -601,6 +743,92 @@
               ],
               "technique_id": "T1480.002",
               "url": "https://attack.mitre.org/techniques/T1480.002/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Hidden Window",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.003",
+              "url": "https://attack.mitre.org/techniques/T1564.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Ignore Process Interrupts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.011",
+              "url": "https://attack.mitre.org/techniques/T1564.011/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "File/Path Exclusions",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1564.012",
+              "url": "https://attack.mitre.org/techniques/T1564.012/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Reflective Code Loading",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1620",
+              "url": "https://attack.mitre.org/techniques/T1620/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Delay Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1678",
+              "url": "https://attack.mitre.org/techniques/T1678/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Impersonation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/"
+              ],
+              "tactics": [
+                "stealth"
+              ],
+              "technique_id": "T1684.001",
+              "url": "https://attack.mitre.org/techniques/T1684.001/"
             }
           ],
           "label": "Stealth",
@@ -609,7 +837,7 @@
           "url": "https://attack.mitre.org/tactics/TA0005/"
         },
         {
-          "count": 9,
+          "count": 15,
           "items": [
             {
               "actor_id": "mitre-g0082",
@@ -646,11 +874,29 @@
             },
             {
               "actor_id": "mitre-g0082",
+              "name": "Systemd Timers",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.006",
+              "url": "https://attack.mitre.org/techniques/T1053.006/"
+            },
+            {
+              "actor_id": "mitre-g0082",
               "name": "PowerShell",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
               ],
               "tactics": [
                 "execution"
@@ -660,12 +906,30 @@
             },
             {
               "actor_id": "mitre-g0082",
+              "name": "AppleScript",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.002",
+              "url": "https://attack.mitre.org/techniques/T1059.002/"
+            },
+            {
+              "actor_id": "mitre-g0082",
               "name": "Windows Command Shell",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
                 "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
-                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
+                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
               ],
               "tactics": [
                 "execution"
@@ -675,18 +939,64 @@
             },
             {
               "actor_id": "mitre-g0082",
+              "name": "Unix Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.004",
+              "url": "https://attack.mitre.org/techniques/T1059.004/"
+            },
+            {
+              "actor_id": "mitre-g0082",
               "name": "Visual Basic",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
                 "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+                "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
               ],
               "tactics": [
                 "execution"
               ],
               "technique_id": "T1059.005",
               "url": "https://attack.mitre.org/techniques/T1059.005/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Python",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.006",
+              "url": "https://attack.mitre.org/techniques/T1059.006/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "JavaScript",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1059.007",
+              "url": "https://attack.mitre.org/techniques/T1059.007/"
             },
             {
               "actor_id": "mitre-g0082",
@@ -708,7 +1018,10 @@
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
+                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
+                "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
               ],
               "tactics": [
                 "execution"
@@ -723,7 +1036,10 @@
               "source_name": "MITRE ATT&CK",
               "source_urls": [
                 "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+                "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
               ],
               "tactics": [
                 "execution"
@@ -737,13 +1053,29 @@
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
               ],
               "tactics": [
                 "execution"
               ],
               "technique_id": "T1569.002",
               "url": "https://attack.mitre.org/techniques/T1569.002/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Poisoned Pipeline Execution",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "execution"
+              ],
+              "technique_id": "T1677",
+              "url": "https://attack.mitre.org/techniques/T1677/"
             }
           ],
           "label": "Execution",
@@ -752,15 +1084,458 @@
           "url": "https://attack.mitre.org/tactics/TA0002/"
         },
         {
-          "count": 8,
+          "count": 14,
           "items": [
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Cron",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.003",
+              "url": "https://attack.mitre.org/techniques/T1053.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Systemd Timers",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.006",
+              "url": "https://attack.mitre.org/techniques/T1053.006/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Process Injection",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1055",
+              "url": "https://attack.mitre.org/techniques/T1055/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Cloud Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.004",
+              "url": "https://attack.mitre.org/techniques/T1078.004/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Launch Agent",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.001",
+              "url": "https://attack.mitre.org/techniques/T1543.001/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Launch Daemon",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.004",
+              "url": "https://attack.mitre.org/techniques/T1543.004/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Installer Packages",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1546.016",
+              "url": "https://attack.mitre.org/techniques/T1546.016/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Bypass User Account Control",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
+              ],
+              "tactics": [
+                "privilege-escalation"
+              ],
+              "technique_id": "T1548.002",
+              "url": "https://attack.mitre.org/techniques/T1548.002/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Sudo and Sudo Caching",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "privilege-escalation"
+              ],
+              "technique_id": "T1548.003",
+              "url": "https://attack.mitre.org/techniques/T1548.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "TCC Manipulation",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "privilege-escalation"
+              ],
+              "technique_id": "T1548.006",
+              "url": "https://attack.mitre.org/techniques/T1548.006/"
+            }
+          ],
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 12,
+          "items": [
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Cron",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.003",
+              "url": "https://attack.mitre.org/techniques/T1053.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Scheduled Task",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.005",
+              "url": "https://attack.mitre.org/techniques/T1053.005/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Systemd Timers",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "execution",
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1053.006",
+              "url": "https://attack.mitre.org/techniques/T1053.006/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Local Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Cloud Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "initial-access",
+                "persistence",
+                "privilege-escalation",
+                "stealth"
+              ],
+              "technique_id": "T1078.004",
+              "url": "https://attack.mitre.org/techniques/T1078.004/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Modify Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
+              ],
+              "tactics": [
+                "defense-impairment",
+                "persistence"
+              ],
+              "technique_id": "T1112",
+              "url": "https://attack.mitre.org/techniques/T1112/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Web Shell",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+              ],
+              "tactics": [
+                "persistence"
+              ],
+              "technique_id": "T1505.003",
+              "url": "https://attack.mitre.org/techniques/T1505.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Launch Agent",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.001",
+              "url": "https://attack.mitre.org/techniques/T1543.001/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Windows Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.003",
+              "url": "https://attack.mitre.org/techniques/T1543.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Launch Daemon",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1543.004",
+              "url": "https://attack.mitre.org/techniques/T1543.004/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Installer Packages",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1546.016",
+              "url": "https://attack.mitre.org/techniques/T1546.016/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Registry Run Keys / Startup Folder",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "persistence",
+                "privilege-escalation"
+              ],
+              "technique_id": "T1547.001",
+              "url": "https://attack.mitre.org/techniques/T1547.001/"
+            }
+          ],
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 11,
+          "items": [
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Query Registry",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1012",
+              "url": "https://attack.mitre.org/techniques/T1012/"
+            },
             {
               "actor_id": "mitre-g0082",
               "name": "System Owner/User Discovery",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
               ],
               "tactics": [
                 "discovery"
@@ -788,7 +1563,10 @@
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
+                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
               ],
               "tactics": [
                 "discovery"
@@ -802,7 +1580,10 @@
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
               ],
               "tactics": [
                 "discovery"
@@ -816,7 +1597,9 @@
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
               ],
               "tactics": [
                 "discovery"
@@ -826,11 +1609,26 @@
             },
             {
               "actor_id": "mitre-g0082",
+              "name": "System Time Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1124",
+              "url": "https://attack.mitre.org/techniques/T1124/"
+            },
+            {
+              "actor_id": "mitre-g0082",
               "name": "Network Share Discovery",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
               ],
               "tactics": [
                 "discovery"
@@ -844,7 +1642,8 @@
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
               ],
               "tactics": [
                 "discovery"
@@ -854,12 +1653,28 @@
             },
             {
               "actor_id": "mitre-g0082",
+              "name": "Software Discovery",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "discovery"
+              ],
+              "technique_id": "T1518",
+              "url": "https://attack.mitre.org/techniques/T1518/"
+            },
+            {
+              "actor_id": "mitre-g0082",
               "name": "Security Software Discovery",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
                 "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
               ],
               "tactics": [
                 "discovery"
@@ -874,7 +1689,164 @@
           "url": "https://attack.mitre.org/tactics/TA0007/"
         },
         {
-          "count": 7,
+          "count": 10,
+          "items": [
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Domains",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
+                "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.001",
+              "url": "https://attack.mitre.org/techniques/T1583.001/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Virtual Private Server",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.003",
+              "url": "https://attack.mitre.org/techniques/T1583.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Web Services",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1583.006",
+              "url": "https://attack.mitre.org/techniques/T1583.006/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Social Media Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585.001",
+              "url": "https://attack.mitre.org/techniques/T1585.001/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Email Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1585.002",
+              "url": "https://attack.mitre.org/techniques/T1585.002/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Cloud Accounts",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1586.003",
+              "url": "https://attack.mitre.org/techniques/T1586.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Tool",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.welivesecurity.com/2018/04/03/lazarus-killdisk-central-american-casino/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1588.002",
+              "url": "https://attack.mitre.org/techniques/T1588.002/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Upload Malware",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1608.001",
+              "url": "https://attack.mitre.org/techniques/T1608.001/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Written Content",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1683.001",
+              "url": "https://attack.mitre.org/techniques/T1683.001/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Audio-Visual Content",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/"
+              ],
+              "tactics": [
+                "resource-development"
+              ],
+              "technique_id": "T1683.002",
+              "url": "https://attack.mitre.org/techniques/T1683.002/"
+            }
+          ],
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 9,
           "items": [
             {
               "actor_id": "mitre-g0082",
@@ -890,6 +1862,20 @@
               ],
               "technique_id": "T1112",
               "url": "https://attack.mitre.org/techniques/T1112/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Linux and Mac Permissions",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1222.002",
+              "url": "https://attack.mitre.org/techniques/T1222.002/"
             },
             {
               "actor_id": "mitre-g0082",
@@ -918,6 +1904,20 @@
               ],
               "technique_id": "T1685",
               "url": "https://attack.mitre.org/techniques/T1685/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Modify or Spoof Tool UI",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "defense-impairment"
+              ],
+              "technique_id": "T1685.003",
+              "url": "https://attack.mitre.org/techniques/T1685.003/"
             },
             {
               "actor_id": "mitre-g0082",
@@ -967,7 +1967,10 @@
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
               ],
               "tactics": [
                 "defense-impairment"
@@ -982,7 +1985,256 @@
           "url": "https://attack.mitre.org/tactics/TA0112/"
         },
         {
-          "count": 7,
+          "count": 8,
+          "items": [
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Data from Local System",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1005",
+              "url": "https://attack.mitre.org/techniques/T1005/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Keylogging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.001",
+              "url": "https://attack.mitre.org/techniques/T1056.001/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "GUI Input Capture",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.002",
+              "url": "https://attack.mitre.org/techniques/T1056.002/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Local Data Staging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1074.001",
+              "url": "https://attack.mitre.org/techniques/T1074.001/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Clipboard Data",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1115",
+              "url": "https://attack.mitre.org/techniques/T1115/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Messaging Applications",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1213.005",
+              "url": "https://attack.mitre.org/techniques/T1213.005/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Databases",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1213.006",
+              "url": "https://attack.mitre.org/techniques/T1213.006/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Archive via Utility",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "collection"
+              ],
+              "technique_id": "T1560.001",
+              "url": "https://attack.mitre.org/techniques/T1560.001/"
+            }
+          ],
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 8,
+          "items": [
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Keylogging",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.001",
+              "url": "https://attack.mitre.org/techniques/T1056.001/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "GUI Input Capture",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "collection",
+                "credential-access"
+              ],
+              "technique_id": "T1056.002",
+              "url": "https://attack.mitre.org/techniques/T1056.002/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Brute Force",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1110",
+              "url": "https://attack.mitre.org/techniques/T1110/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Shell History",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1552.003",
+              "url": "https://attack.mitre.org/techniques/T1552.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Private Keys",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1552.004",
+              "url": "https://attack.mitre.org/techniques/T1552.004/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Credentials from Password Stores",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1555",
+              "url": "https://attack.mitre.org/techniques/T1555/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Keychain",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1555.001",
+              "url": "https://attack.mitre.org/techniques/T1555.001/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Credentials from Web Browsers",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1555.003",
+              "url": "https://attack.mitre.org/techniques/T1555.003/"
+            }
+          ],
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 8,
           "items": [
             {
               "actor_id": "mitre-g0082",
@@ -1081,6 +2333,20 @@
               ],
               "technique_id": "T1565.003",
               "url": "https://attack.mitre.org/techniques/T1565.003/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Financial Theft",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/"
+              ],
+              "tactics": [
+                "impact"
+              ],
+              "technique_id": "T1657",
+              "url": "https://attack.mitre.org/techniques/T1657/"
             }
           ],
           "label": "Impact",
@@ -1089,308 +2355,42 @@
           "url": "https://attack.mitre.org/tactics/TA0040/"
         },
         {
-          "count": 5,
+          "count": 7,
           "items": [
             {
               "actor_id": "mitre-g0082",
-              "name": "Cron",
+              "name": "Local Accounts",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
               ],
               "tactics": [
-                "execution",
+                "initial-access",
                 "persistence",
-                "privilege-escalation"
-              ],
-              "technique_id": "T1053.003",
-              "url": "https://attack.mitre.org/techniques/T1053.003/"
-            },
-            {
-              "actor_id": "mitre-g0082",
-              "name": "Scheduled Task",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
-              ],
-              "tactics": [
-                "execution",
-                "persistence",
-                "privilege-escalation"
-              ],
-              "technique_id": "T1053.005",
-              "url": "https://attack.mitre.org/techniques/T1053.005/"
-            },
-            {
-              "actor_id": "mitre-g0082",
-              "name": "Modify Registry",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
-              ],
-              "tactics": [
-                "defense-impairment",
-                "persistence"
-              ],
-              "technique_id": "T1112",
-              "url": "https://attack.mitre.org/techniques/T1112/"
-            },
-            {
-              "actor_id": "mitre-g0082",
-              "name": "Web Shell",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
-              ],
-              "tactics": [
-                "persistence"
-              ],
-              "technique_id": "T1505.003",
-              "url": "https://attack.mitre.org/techniques/T1505.003/"
-            },
-            {
-              "actor_id": "mitre-g0082",
-              "name": "Windows Service",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
-              ],
-              "tactics": [
-                "persistence",
-                "privilege-escalation"
-              ],
-              "technique_id": "T1543.003",
-              "url": "https://attack.mitre.org/techniques/T1543.003/"
-            }
-          ],
-          "label": "Persistence",
-          "tactic": "persistence",
-          "tactic_id": "TA0003",
-          "url": "https://attack.mitre.org/tactics/TA0003/"
-        },
-        {
-          "count": 5,
-          "items": [
-            {
-              "actor_id": "mitre-g0082",
-              "name": "Cron",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
-              ],
-              "tactics": [
-                "execution",
-                "persistence",
-                "privilege-escalation"
-              ],
-              "technique_id": "T1053.003",
-              "url": "https://attack.mitre.org/techniques/T1053.003/"
-            },
-            {
-              "actor_id": "mitre-g0082",
-              "name": "Scheduled Task",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
-              ],
-              "tactics": [
-                "execution",
-                "persistence",
-                "privilege-escalation"
-              ],
-              "technique_id": "T1053.005",
-              "url": "https://attack.mitre.org/techniques/T1053.005/"
-            },
-            {
-              "actor_id": "mitre-g0082",
-              "name": "Process Injection",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
-              ],
-              "tactics": [
                 "privilege-escalation",
                 "stealth"
               ],
-              "technique_id": "T1055",
-              "url": "https://attack.mitre.org/techniques/T1055/"
+              "technique_id": "T1078.003",
+              "url": "https://attack.mitre.org/techniques/T1078.003/"
             },
             {
               "actor_id": "mitre-g0082",
-              "name": "Windows Service",
+              "name": "Cloud Accounts",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
               ],
               "tactics": [
+                "initial-access",
                 "persistence",
-                "privilege-escalation"
+                "privilege-escalation",
+                "stealth"
               ],
-              "technique_id": "T1543.003",
-              "url": "https://attack.mitre.org/techniques/T1543.003/"
+              "technique_id": "T1078.004",
+              "url": "https://attack.mitre.org/techniques/T1078.004/"
             },
-            {
-              "actor_id": "mitre-g0082",
-              "name": "Bypass User Account Control",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
-              ],
-              "tactics": [
-                "privilege-escalation"
-              ],
-              "technique_id": "T1548.002",
-              "url": "https://attack.mitre.org/techniques/T1548.002/"
-            }
-          ],
-          "label": "Privilege Escalation",
-          "tactic": "privilege-escalation",
-          "tactic_id": "TA0004",
-          "url": "https://attack.mitre.org/tactics/TA0004/"
-        },
-        {
-          "count": 3,
-          "items": [
-            {
-              "actor_id": "mitre-g0082",
-              "name": "Data from Local System",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
-              ],
-              "tactics": [
-                "collection"
-              ],
-              "technique_id": "T1005",
-              "url": "https://attack.mitre.org/techniques/T1005/"
-            },
-            {
-              "actor_id": "mitre-g0082",
-              "name": "Keylogging",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
-              ],
-              "tactics": [
-                "collection",
-                "credential-access"
-              ],
-              "technique_id": "T1056.001",
-              "url": "https://attack.mitre.org/techniques/T1056.001/"
-            },
-            {
-              "actor_id": "mitre-g0082",
-              "name": "Clipboard Data",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
-              ],
-              "tactics": [
-                "collection"
-              ],
-              "technique_id": "T1115",
-              "url": "https://attack.mitre.org/techniques/T1115/"
-            }
-          ],
-          "label": "Collection",
-          "tactic": "collection",
-          "tactic_id": "TA0009",
-          "url": "https://attack.mitre.org/tactics/TA0009/"
-        },
-        {
-          "count": 2,
-          "items": [
-            {
-              "actor_id": "mitre-g0082",
-              "name": "Keylogging",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
-              ],
-              "tactics": [
-                "collection",
-                "credential-access"
-              ],
-              "technique_id": "T1056.001",
-              "url": "https://attack.mitre.org/techniques/T1056.001/"
-            },
-            {
-              "actor_id": "mitre-g0082",
-              "name": "Brute Force",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
-              ],
-              "tactics": [
-                "credential-access"
-              ],
-              "technique_id": "T1110",
-              "url": "https://attack.mitre.org/techniques/T1110/"
-            }
-          ],
-          "label": "Credential Access",
-          "tactic": "credential-access",
-          "tactic_id": "TA0006",
-          "url": "https://attack.mitre.org/tactics/TA0006/"
-        },
-        {
-          "count": 2,
-          "items": [
-            {
-              "actor_id": "mitre-g0082",
-              "name": "Web Protocols",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
-              ],
-              "tactics": [
-                "command-and-control"
-              ],
-              "technique_id": "T1071.001",
-              "url": "https://attack.mitre.org/techniques/T1071.001/"
-            },
-            {
-              "actor_id": "mitre-g0082",
-              "name": "Ingress Tool Transfer",
-              "source_id": "mitre-attack",
-              "source_name": "MITRE ATT&CK",
-              "source_urls": [
-                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
-                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
-              ],
-              "tactics": [
-                "command-and-control"
-              ],
-              "technique_id": "T1105",
-              "url": "https://attack.mitre.org/techniques/T1105/"
-            }
-          ],
-          "label": "Command and Control",
-          "tactic": "command-and-control",
-          "tactic_id": "TA0011",
-          "url": "https://attack.mitre.org/tactics/TA0011/"
-        },
-        {
-          "count": 2,
-          "items": [
             {
               "actor_id": "mitre-g0082",
               "name": "Drive-by Compromise",
@@ -1408,17 +2408,62 @@
             },
             {
               "actor_id": "mitre-g0082",
+              "name": "Compromise Software Dependencies and Development Tools",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1195.001",
+              "url": "https://attack.mitre.org/techniques/T1195.001/"
+            },
+            {
+              "actor_id": "mitre-g0082",
               "name": "Spearphishing Attachment",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
               ],
               "tactics": [
                 "initial-access"
               ],
               "technique_id": "T1566.001",
               "url": "https://attack.mitre.org/techniques/T1566.001/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Spearphishing Link",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.002",
+              "url": "https://attack.mitre.org/techniques/T1566.002/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Spearphishing via Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "initial-access"
+              ],
+              "technique_id": "T1566.003",
+              "url": "https://attack.mitre.org/techniques/T1566.003/"
             }
           ],
           "label": "Initial Access",
@@ -1427,130 +2472,224 @@
           "url": "https://attack.mitre.org/tactics/TA0001/"
         },
         {
-          "count": 2,
+          "count": 4,
           "items": [
             {
               "actor_id": "mitre-g0082",
-              "name": "Domains",
+              "name": "Web Protocols",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
+                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
               ],
               "tactics": [
-                "resource-development"
+                "command-and-control"
               ],
-              "technique_id": "T1583.001",
-              "url": "https://attack.mitre.org/techniques/T1583.001/"
+              "technique_id": "T1071.001",
+              "url": "https://attack.mitre.org/techniques/T1071.001/"
             },
             {
               "actor_id": "mitre-g0082",
-              "name": "Tool",
+              "name": "Ingress Tool Transfer",
               "source_id": "mitre-attack",
               "source_name": "MITRE ATT&CK",
               "source_urls": [
-                "https://www.welivesecurity.com/2018/04/03/lazarus-killdisk-central-american-casino/"
+                "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
+                "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
               ],
               "tactics": [
-                "resource-development"
+                "command-and-control"
               ],
-              "technique_id": "T1588.002",
-              "url": "https://attack.mitre.org/techniques/T1588.002/"
+              "technique_id": "T1105",
+              "url": "https://attack.mitre.org/techniques/T1105/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Standard Encoding",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1132.001",
+              "url": "https://attack.mitre.org/techniques/T1132.001/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Non-Standard Port",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "command-and-control"
+              ],
+              "technique_id": "T1571",
+              "url": "https://attack.mitre.org/techniques/T1571/"
             }
           ],
-          "label": "Resource Development",
-          "tactic": "resource-development",
-          "tactic_id": "TA0042",
-          "url": "https://attack.mitre.org/tactics/TA0042/"
-        }
-      ],
-      "tactics": [
-        {
-          "count": 12,
-          "label": "Stealth",
-          "tactic": "stealth",
-          "tactic_id": "TA0005",
-          "url": "https://attack.mitre.org/tactics/TA0005/"
-        },
-        {
-          "count": 9,
-          "label": "Execution",
-          "tactic": "execution",
-          "tactic_id": "TA0002",
-          "url": "https://attack.mitre.org/tactics/TA0002/"
-        },
-        {
-          "count": 8,
-          "label": "Discovery",
-          "tactic": "discovery",
-          "tactic_id": "TA0007",
-          "url": "https://attack.mitre.org/tactics/TA0007/"
-        },
-        {
-          "count": 7,
-          "label": "Defense Impairment",
-          "tactic": "defense-impairment",
-          "tactic_id": "TA0112",
-          "url": "https://attack.mitre.org/tactics/TA0112/"
-        },
-        {
-          "count": 7,
-          "label": "Impact",
-          "tactic": "impact",
-          "tactic_id": "TA0040",
-          "url": "https://attack.mitre.org/tactics/TA0040/"
-        },
-        {
-          "count": 5,
-          "label": "Persistence",
-          "tactic": "persistence",
-          "tactic_id": "TA0003",
-          "url": "https://attack.mitre.org/tactics/TA0003/"
-        },
-        {
-          "count": 5,
-          "label": "Privilege Escalation",
-          "tactic": "privilege-escalation",
-          "tactic_id": "TA0004",
-          "url": "https://attack.mitre.org/tactics/TA0004/"
-        },
-        {
-          "count": 3,
-          "label": "Collection",
-          "tactic": "collection",
-          "tactic_id": "TA0009",
-          "url": "https://attack.mitre.org/tactics/TA0009/"
-        },
-        {
-          "count": 2,
-          "label": "Credential Access",
-          "tactic": "credential-access",
-          "tactic_id": "TA0006",
-          "url": "https://attack.mitre.org/tactics/TA0006/"
-        },
-        {
-          "count": 2,
           "label": "Command and Control",
           "tactic": "command-and-control",
           "tactic_id": "TA0011",
           "url": "https://attack.mitre.org/tactics/TA0011/"
         },
         {
-          "count": 2,
+          "count": 3,
+          "items": [
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Exfiltration Over C2 Channel",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1041",
+              "url": "https://attack.mitre.org/techniques/T1041/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1048.002",
+              "url": "https://attack.mitre.org/techniques/T1048.002/"
+            },
+            {
+              "actor_id": "mitre-g0082",
+              "name": "Exfiltration Over Web Service",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+              ],
+              "tactics": [
+                "exfiltration"
+              ],
+              "technique_id": "T1567",
+              "url": "https://attack.mitre.org/techniques/T1567/"
+            }
+          ],
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
+        }
+      ],
+      "tactics": [
+        {
+          "count": 27,
+          "label": "Stealth",
+          "tactic": "stealth",
+          "tactic_id": "TA0005",
+          "url": "https://attack.mitre.org/tactics/TA0005/"
+        },
+        {
+          "count": 15,
+          "label": "Execution",
+          "tactic": "execution",
+          "tactic_id": "TA0002",
+          "url": "https://attack.mitre.org/tactics/TA0002/"
+        },
+        {
+          "count": 14,
+          "label": "Privilege Escalation",
+          "tactic": "privilege-escalation",
+          "tactic_id": "TA0004",
+          "url": "https://attack.mitre.org/tactics/TA0004/"
+        },
+        {
+          "count": 12,
+          "label": "Persistence",
+          "tactic": "persistence",
+          "tactic_id": "TA0003",
+          "url": "https://attack.mitre.org/tactics/TA0003/"
+        },
+        {
+          "count": 11,
+          "label": "Discovery",
+          "tactic": "discovery",
+          "tactic_id": "TA0007",
+          "url": "https://attack.mitre.org/tactics/TA0007/"
+        },
+        {
+          "count": 10,
+          "label": "Resource Development",
+          "tactic": "resource-development",
+          "tactic_id": "TA0042",
+          "url": "https://attack.mitre.org/tactics/TA0042/"
+        },
+        {
+          "count": 9,
+          "label": "Defense Impairment",
+          "tactic": "defense-impairment",
+          "tactic_id": "TA0112",
+          "url": "https://attack.mitre.org/tactics/TA0112/"
+        },
+        {
+          "count": 8,
+          "label": "Collection",
+          "tactic": "collection",
+          "tactic_id": "TA0009",
+          "url": "https://attack.mitre.org/tactics/TA0009/"
+        },
+        {
+          "count": 8,
+          "label": "Credential Access",
+          "tactic": "credential-access",
+          "tactic_id": "TA0006",
+          "url": "https://attack.mitre.org/tactics/TA0006/"
+        },
+        {
+          "count": 8,
+          "label": "Impact",
+          "tactic": "impact",
+          "tactic_id": "TA0040",
+          "url": "https://attack.mitre.org/tactics/TA0040/"
+        },
+        {
+          "count": 7,
           "label": "Initial Access",
           "tactic": "initial-access",
           "tactic_id": "TA0001",
           "url": "https://attack.mitre.org/tactics/TA0001/"
         },
         {
-          "count": 2,
-          "label": "Resource Development",
-          "tactic": "resource-development",
-          "tactic_id": "TA0042",
-          "url": "https://attack.mitre.org/tactics/TA0042/"
+          "count": 4,
+          "label": "Command and Control",
+          "tactic": "command-and-control",
+          "tactic_id": "TA0011",
+          "url": "https://attack.mitre.org/tactics/TA0011/"
+        },
+        {
+          "count": 3,
+          "label": "Exfiltration",
+          "tactic": "exfiltration",
+          "tactic_id": "TA0010",
+          "url": "https://attack.mitre.org/tactics/TA0010/"
         }
       ],
-      "total": 56
+      "total": 115
     },
     "overview": {
       "generated": false,
@@ -1563,7 +2702,7 @@
           ]
         }
       ],
-      "text": "APT38 is a North Korean state-sponsored threat group that specializes in financial cyber operations; it has been attributed to the Reconnaissance General Bureau.(Citation: CISA AA20-239A BeagleBoyz August 2020) Active since at least 2014, APT38 has targeted banks, financial institutions, casinos, cryptocurrency exchanges, SWIFT system endpoints, and ATMs in at least 38 countries worldwide. Significant operations include the 2016 Bank of Bangladesh heist, during which APT38 stole $81 million, as well as attacks against Bancomext (Citation: FireEye APT38 Oct 2018) and Banco de Chile (Citation: FireEye APT38 Oct 2018); some of their attacks have been destructive.(Citation: CISA AA20-239A..."
+      "text": "APT38 is a North Korean state-sponsored threat group that specializes in financial cyber operations; it has been attributed to the Reconnaissance General Bureau.(Citation: CISA AA20-239A BeagleBoyz August 2020) Active since at least 2014, APT38 has targeted banks, financial institutions, casinos, cryptocurrency exchanges, SWIFT system endpoints, and ATMs in at least 38 countries worldwide. Significant operations include the 2016 Bank of Bangladesh heist, Bancomext (Citation: FireEye APT38 Oct 2018) and Banco de Chile (Citation: FireEye APT38 Oct 2018), along with software supply chain compromises and destructive malware attacks.(Citation: CISA AA20-239A BeagleBoyz August 2020)(Citation:..."
     },
     "primary_source": "mitre-attack",
     "recent_activity": [],
@@ -1634,6 +2773,30 @@
       },
       {
         "actor_id": "mitre-g0082",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise"
+      },
+      {
+        "actor_id": "mitre-g0082",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise"
+      },
+      {
+        "actor_id": "mitre-g0082",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise"
+      },
+      {
+        "actor_id": "mitre-g0082",
         "source_id": "external-reference",
         "source_ids": [
           "external-reference"
@@ -1661,7 +2824,7 @@
       "mitre-attack"
     ],
     "status": "active",
-    "updated_at": "2026-10-12"
+    "updated_at": "2026-10-19"
   },
-  "generated_at": "2026-10-12T09:57:48Z"
+  "generated_at": "2026-10-19T08:15:05Z"
 }

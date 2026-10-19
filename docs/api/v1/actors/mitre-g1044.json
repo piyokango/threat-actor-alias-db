@@ -259,6 +259,20 @@
         },
         {
           "actor_id": "mitre-g1044",
+          "name": "Steal Application Specific Passwords",
+          "source_id": "mitre-attack",
+          "source_name": "MITRE ATT&CK",
+          "source_urls": [
+            "https://services.google.com/fh/files/misc/apt42-crooked-charms-cons-and-compromises.pdf"
+          ],
+          "tactics": [
+            "credential-access"
+          ],
+          "technique_id": "T1697",
+          "url": "https://attack.mitre.org/techniques/T1697/"
+        },
+        {
+          "actor_id": "mitre-g1044",
           "name": "Domains",
           "source_id": "mitre-attack",
           "source_name": "MITRE ATT&CK",
@@ -342,25 +356,11 @@
           ],
           "technique_id": "T1016",
           "url": "https://attack.mitre.org/techniques/T1016/"
-        },
-        {
-          "actor_id": "mitre-g1044",
-          "name": "Match Legitimate Resource Name or Location",
-          "source_id": "mitre-attack",
-          "source_name": "MITRE ATT&CK",
-          "source_urls": [
-            "https://services.google.com/fh/files/misc/apt42-crooked-charms-cons-and-compromises.pdf"
-          ],
-          "tactics": [
-            "stealth"
-          ],
-          "technique_id": "T1036.005",
-          "url": "https://attack.mitre.org/techniques/T1036.005/"
         }
       ],
       "tactic_groups": [
         {
-          "count": 5,
+          "count": 6,
           "items": [
             {
               "actor_id": "mitre-g1044",
@@ -434,6 +434,20 @@
               ],
               "technique_id": "T1555.003",
               "url": "https://attack.mitre.org/techniques/T1555.003/"
+            },
+            {
+              "actor_id": "mitre-g1044",
+              "name": "Steal Application Specific Passwords",
+              "source_id": "mitre-attack",
+              "source_name": "MITRE ATT&CK",
+              "source_urls": [
+                "https://services.google.com/fh/files/misc/apt42-crooked-charms-cons-and-compromises.pdf"
+              ],
+              "tactics": [
+                "credential-access"
+              ],
+              "technique_id": "T1697",
+              "url": "https://attack.mitre.org/techniques/T1697/"
             }
           ],
           "label": "Credential Access",
@@ -1025,7 +1039,7 @@
       ],
       "tactics": [
         {
-          "count": 5,
+          "count": 6,
           "label": "Credential Access",
           "tactic": "credential-access",
           "tactic_id": "TA0006",
@@ -1109,7 +1123,7 @@
           "url": "https://attack.mitre.org/tactics/TA0043/"
         }
       ],
-      "total": 32
+      "total": 33
     },
     "overview": {
       "generated": false,
@@ -1242,7 +1256,7 @@
       "mitre-attack"
     ],
     "status": "active",
-    "updated_at": "2026-10-12"
+    "updated_at": "2026-10-19"
   },
-  "generated_at": "2026-10-12T09:57:48Z"
+  "generated_at": "2026-10-19T08:15:05Z"
 }

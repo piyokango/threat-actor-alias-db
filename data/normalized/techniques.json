@@ -27156,6 +27156,36 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "GUI Input Capture",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "collection",
+      "credential-access"
+    ],
+    "technique_id": "T1056.002",
+    "url": "https://attack.mitre.org/techniques/T1056.002/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Local Data Staging",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "collection"
+    ],
+    "technique_id": "T1074.001",
+    "url": "https://attack.mitre.org/techniques/T1074.001/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "Clipboard Data",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
@@ -27170,11 +27200,55 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "Messaging Applications",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "collection"
+    ],
+    "technique_id": "T1213.005",
+    "url": "https://attack.mitre.org/techniques/T1213.005/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Databases",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "collection"
+    ],
+    "technique_id": "T1213.006",
+    "url": "https://attack.mitre.org/techniques/T1213.006/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Archive via Utility",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "collection"
+    ],
+    "technique_id": "T1560.001",
+    "url": "https://attack.mitre.org/techniques/T1560.001/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "Web Protocols",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
+      "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
     ],
     "tactics": [
       "command-and-control"
@@ -27189,13 +27263,45 @@
     "source_name": "MITRE ATT&CK",
     "source_urls": [
       "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
-      "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
+      "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "command-and-control"
     ],
     "technique_id": "T1105",
     "url": "https://attack.mitre.org/techniques/T1105/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Standard Encoding",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "command-and-control"
+    ],
+    "technique_id": "T1132.001",
+    "url": "https://attack.mitre.org/techniques/T1132.001/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Non-Standard Port",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "command-and-control"
+    ],
+    "technique_id": "T1571",
+    "url": "https://attack.mitre.org/techniques/T1571/"
   },
   {
     "actor_id": "mitre-g0082",
@@ -27213,6 +27319,78 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "Shell History",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "credential-access"
+    ],
+    "technique_id": "T1552.003",
+    "url": "https://attack.mitre.org/techniques/T1552.003/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Private Keys",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "credential-access"
+    ],
+    "technique_id": "T1552.004",
+    "url": "https://attack.mitre.org/techniques/T1552.004/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Credentials from Password Stores",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "credential-access"
+    ],
+    "technique_id": "T1555",
+    "url": "https://attack.mitre.org/techniques/T1555/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Keychain",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "credential-access"
+    ],
+    "technique_id": "T1555.001",
+    "url": "https://attack.mitre.org/techniques/T1555.001/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Credentials from Web Browsers",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "credential-access"
+    ],
+    "technique_id": "T1555.003",
+    "url": "https://attack.mitre.org/techniques/T1555.003/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "Modify Registry",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
@@ -27225,6 +27403,20 @@
     ],
     "technique_id": "T1112",
     "url": "https://attack.mitre.org/techniques/T1112/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Linux and Mac Permissions",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "defense-impairment"
+    ],
+    "technique_id": "T1222.002",
+    "url": "https://attack.mitre.org/techniques/T1222.002/"
   },
   {
     "actor_id": "mitre-g0082",
@@ -27253,6 +27445,20 @@
     ],
     "technique_id": "T1685",
     "url": "https://attack.mitre.org/techniques/T1685/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Modify or Spoof Tool UI",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "defense-impairment"
+    ],
+    "technique_id": "T1685.003",
+    "url": "https://attack.mitre.org/techniques/T1685.003/"
   },
   {
     "actor_id": "mitre-g0082",
@@ -27302,7 +27508,10 @@
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "defense-impairment"
@@ -27312,11 +27521,27 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "Query Registry",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "discovery"
+    ],
+    "technique_id": "T1012",
+    "url": "https://attack.mitre.org/techniques/T1012/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "System Owner/User Discovery",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "discovery"
@@ -27344,7 +27569,10 @@
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
+      "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "discovery"
@@ -27358,7 +27586,10 @@
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "discovery"
@@ -27372,7 +27603,9 @@
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
     ],
     "tactics": [
       "discovery"
@@ -27382,11 +27615,26 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "System Time Discovery",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "discovery"
+    ],
+    "technique_id": "T1124",
+    "url": "https://attack.mitre.org/techniques/T1124/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "Network Share Discovery",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
     ],
     "tactics": [
       "discovery"
@@ -27400,7 +27648,8 @@
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "discovery"
@@ -27410,12 +27659,28 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "Software Discovery",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "discovery"
+    ],
+    "technique_id": "T1518",
+    "url": "https://attack.mitre.org/techniques/T1518/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "Security Software Discovery",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
       "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
-      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "discovery"
@@ -27458,11 +27723,29 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "Systemd Timers",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "execution",
+      "persistence",
+      "privilege-escalation"
+    ],
+    "technique_id": "T1053.006",
+    "url": "https://attack.mitre.org/techniques/T1053.006/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "PowerShell",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "execution"
@@ -27472,12 +27755,30 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "AppleScript",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1059.002",
+    "url": "https://attack.mitre.org/techniques/T1059.002/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "Windows Command Shell",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
       "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
-      "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
+      "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "execution"
@@ -27487,18 +27788,64 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "Unix Shell",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1059.004",
+    "url": "https://attack.mitre.org/techniques/T1059.004/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "Visual Basic",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
       "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
-      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+      "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "execution"
     ],
     "technique_id": "T1059.005",
     "url": "https://attack.mitre.org/techniques/T1059.005/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Python",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1059.006",
+    "url": "https://attack.mitre.org/techniques/T1059.006/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "JavaScript",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1059.007",
+    "url": "https://attack.mitre.org/techniques/T1059.007/"
   },
   {
     "actor_id": "mitre-g0082",
@@ -27520,7 +27867,10 @@
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
+      "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
+      "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "execution"
@@ -27535,7 +27885,10 @@
     "source_name": "MITRE ATT&CK",
     "source_urls": [
       "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
-      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+      "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
     ],
     "tactics": [
       "execution"
@@ -27549,13 +27902,72 @@
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "execution"
     ],
     "technique_id": "T1569.002",
     "url": "https://attack.mitre.org/techniques/T1569.002/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Poisoned Pipeline Execution",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1677",
+    "url": "https://attack.mitre.org/techniques/T1677/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Exfiltration Over C2 Channel",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "exfiltration"
+    ],
+    "technique_id": "T1041",
+    "url": "https://attack.mitre.org/techniques/T1041/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "exfiltration"
+    ],
+    "technique_id": "T1048.002",
+    "url": "https://attack.mitre.org/techniques/T1048.002/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Exfiltration Over Web Service",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "exfiltration"
+    ],
+    "technique_id": "T1567",
+    "url": "https://attack.mitre.org/techniques/T1567/"
   },
   {
     "actor_id": "mitre-g0082",
@@ -27657,6 +28069,54 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "Financial Theft",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/"
+    ],
+    "tactics": [
+      "impact"
+    ],
+    "technique_id": "T1657",
+    "url": "https://attack.mitre.org/techniques/T1657/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Local Accounts",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "initial-access",
+      "persistence",
+      "privilege-escalation",
+      "stealth"
+    ],
+    "technique_id": "T1078.003",
+    "url": "https://attack.mitre.org/techniques/T1078.003/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Cloud Accounts",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "initial-access",
+      "persistence",
+      "privilege-escalation",
+      "stealth"
+    ],
+    "technique_id": "T1078.004",
+    "url": "https://attack.mitre.org/techniques/T1078.004/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "Drive-by Compromise",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
@@ -27672,17 +28132,62 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "Compromise Software Dependencies and Development Tools",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "initial-access"
+    ],
+    "technique_id": "T1195.001",
+    "url": "https://attack.mitre.org/techniques/T1195.001/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "Spearphishing Attachment",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
     ],
     "tactics": [
       "initial-access"
     ],
     "technique_id": "T1566.001",
     "url": "https://attack.mitre.org/techniques/T1566.001/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Spearphishing Link",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "initial-access"
+    ],
+    "technique_id": "T1566.002",
+    "url": "https://attack.mitre.org/techniques/T1566.002/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Spearphishing via Service",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "initial-access"
+    ],
+    "technique_id": "T1566.003",
+    "url": "https://attack.mitre.org/techniques/T1566.003/"
   },
   {
     "actor_id": "mitre-g0082",
@@ -27700,11 +28205,27 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "Launch Agent",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "persistence",
+      "privilege-escalation"
+    ],
+    "technique_id": "T1543.001",
+    "url": "https://attack.mitre.org/techniques/T1543.001/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "Windows Service",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "persistence",
@@ -27715,11 +28236,59 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "Launch Daemon",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "persistence",
+      "privilege-escalation"
+    ],
+    "technique_id": "T1543.004",
+    "url": "https://attack.mitre.org/techniques/T1543.004/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Installer Packages",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "persistence",
+      "privilege-escalation"
+    ],
+    "technique_id": "T1546.016",
+    "url": "https://attack.mitre.org/techniques/T1546.016/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Registry Run Keys / Startup Folder",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "persistence",
+      "privilege-escalation"
+    ],
+    "technique_id": "T1547.001",
+    "url": "https://attack.mitre.org/techniques/T1547.001/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "Process Injection",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
+      "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "privilege-escalation",
@@ -27744,17 +28313,123 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "Sudo and Sudo Caching",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "privilege-escalation"
+    ],
+    "technique_id": "T1548.003",
+    "url": "https://attack.mitre.org/techniques/T1548.003/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "TCC Manipulation",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "privilege-escalation"
+    ],
+    "technique_id": "T1548.006",
+    "url": "https://attack.mitre.org/techniques/T1548.006/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "Domains",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
+      "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
+      "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "resource-development"
     ],
     "technique_id": "T1583.001",
     "url": "https://attack.mitre.org/techniques/T1583.001/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Virtual Private Server",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1583.003",
+    "url": "https://attack.mitre.org/techniques/T1583.003/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Web Services",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1583.006",
+    "url": "https://attack.mitre.org/techniques/T1583.006/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Social Media Accounts",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1585.001",
+    "url": "https://attack.mitre.org/techniques/T1585.001/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Email Accounts",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1585.002",
+    "url": "https://attack.mitre.org/techniques/T1585.002/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Cloud Accounts",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1586.003",
+    "url": "https://attack.mitre.org/techniques/T1586.003/"
   },
   {
     "actor_id": "mitre-g0082",
@@ -27772,6 +28447,48 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "Upload Malware",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1608.001",
+    "url": "https://attack.mitre.org/techniques/T1608.001/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Written Content",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1683.001",
+    "url": "https://attack.mitre.org/techniques/T1683.001/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Audio-Visual Content",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1683.002",
+    "url": "https://attack.mitre.org/techniques/T1683.002/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "Software Packing",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
@@ -27783,6 +28500,48 @@
     ],
     "technique_id": "T1027.002",
     "url": "https://attack.mitre.org/techniques/T1027.002/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Command Obfuscation",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1027.010",
+    "url": "https://attack.mitre.org/techniques/T1027.010/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Compression",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1027.015",
+    "url": "https://attack.mitre.org/techniques/T1027.015/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Junk Code Insertion",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1027.016",
+    "url": "https://attack.mitre.org/techniques/T1027.016/"
   },
   {
     "actor_id": "mitre-g0082",
@@ -27800,6 +28559,22 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "Match Legitimate Resource Name or Location",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1036.005",
+    "url": "https://attack.mitre.org/techniques/T1036.005/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "Space after Filename",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
@@ -27814,12 +28589,42 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "Masquerade File Type",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1036.008",
+    "url": "https://attack.mitre.org/techniques/T1036.008/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Clear Command History",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1070.003",
+    "url": "https://attack.mitre.org/techniques/T1070.003/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "File Deletion",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
       "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf",
-      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+      "https://us-cert.cisa.gov/ncas/alerts/aa20-239a",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
     ],
     "tactics": [
       "stealth"
@@ -27847,7 +28652,8 @@
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://securelist.com/bluenoroff-methods-bypass-motw/108383/"
+      "https://securelist.com/bluenoroff-methods-bypass-motw/108383/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
     ],
     "tactics": [
       "stealth"
@@ -27914,6 +28720,20 @@
   },
   {
     "actor_id": "mitre-g0082",
+    "name": "Execution Guardrails",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1480",
+    "url": "https://attack.mitre.org/techniques/T1480/"
+  },
+  {
+    "actor_id": "mitre-g0082",
     "name": "Mutual Exclusion",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
@@ -27925,6 +28745,92 @@
     ],
     "technique_id": "T1480.002",
     "url": "https://attack.mitre.org/techniques/T1480.002/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Hidden Window",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1564.003",
+    "url": "https://attack.mitre.org/techniques/T1564.003/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Ignore Process Interrupts",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1564.011",
+    "url": "https://attack.mitre.org/techniques/T1564.011/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "File/Path Exclusions",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1564.012",
+    "url": "https://attack.mitre.org/techniques/T1564.012/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Reflective Code Loading",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1620",
+    "url": "https://attack.mitre.org/techniques/T1620/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Delay Execution",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1678",
+    "url": "https://attack.mitre.org/techniques/T1678/"
+  },
+  {
+    "actor_id": "mitre-g0082",
+    "name": "Impersonation",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2024/11/22/microsoft-shares-latest-intelligence-on-north-korean-and-chinese-threat-actors-at-cyberwarcon/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1684.001",
+    "url": "https://attack.mitre.org/techniques/T1684.001/"
   },
   {
     "actor_id": "mitre-g0083",
@@ -61052,6 +61958,20 @@
   },
   {
     "actor_id": "mitre-g1044",
+    "name": "Steal Application Specific Passwords",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://services.google.com/fh/files/misc/apt42-crooked-charms-cons-and-compromises.pdf"
+    ],
+    "tactics": [
+      "credential-access"
+    ],
+    "technique_id": "T1697",
+    "url": "https://attack.mitre.org/techniques/T1697/"
+  },
+  {
+    "actor_id": "mitre-g1044",
     "name": "Modify Registry",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
@@ -61355,17 +62275,158 @@
   },
   {
     "actor_id": "mitre-g1045",
+    "name": "Data from Local System",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "collection"
+    ],
+    "technique_id": "T1005",
+    "url": "https://attack.mitre.org/techniques/T1005/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "SNMP (MIB Dump)",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "collection"
+    ],
+    "technique_id": "T1602.001",
+    "url": "https://attack.mitre.org/techniques/T1602.001/"
+  },
+  {
+    "actor_id": "mitre-g1045",
     "name": "Network Device Configuration Dump",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+      "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
     ],
     "tactics": [
       "collection"
     ],
     "technique_id": "T1602.002",
     "url": "https://attack.mitre.org/techniques/T1602.002/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Web Protocols",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "command-and-control"
+    ],
+    "technique_id": "T1071.001",
+    "url": "https://attack.mitre.org/techniques/T1071.001/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "File Transfer Protocols",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "command-and-control"
+    ],
+    "technique_id": "T1071.002",
+    "url": "https://attack.mitre.org/techniques/T1071.002/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Proxy",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "command-and-control"
+    ],
+    "technique_id": "T1090",
+    "url": "https://attack.mitre.org/techniques/T1090/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Multi-hop Proxy",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "command-and-control"
+    ],
+    "technique_id": "T1090.003",
+    "url": "https://attack.mitre.org/techniques/T1090.003/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Non-Application Layer Protocol",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "command-and-control"
+    ],
+    "technique_id": "T1095",
+    "url": "https://attack.mitre.org/techniques/T1095/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Ingress Tool Transfer",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "command-and-control"
+    ],
+    "technique_id": "T1105",
+    "url": "https://attack.mitre.org/techniques/T1105/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Standard Encoding",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "command-and-control"
+    ],
+    "technique_id": "T1132.001",
+    "url": "https://attack.mitre.org/techniques/T1132.001/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Non-Standard Port",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "command-and-control"
+    ],
+    "technique_id": "T1571",
+    "url": "https://attack.mitre.org/techniques/T1571/"
   },
   {
     "actor_id": "mitre-g1045",
@@ -61387,7 +62448,8 @@
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+      "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
     ],
     "tactics": [
       "credential-access",
@@ -61398,17 +62460,90 @@
   },
   {
     "actor_id": "mitre-g1045",
+    "name": "Password Guessing",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "credential-access"
+    ],
+    "technique_id": "T1110.001",
+    "url": "https://attack.mitre.org/techniques/T1110.001/"
+  },
+  {
+    "actor_id": "mitre-g1045",
     "name": "Password Cracking",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+      "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
     ],
     "tactics": [
       "credential-access"
     ],
     "technique_id": "T1110.002",
     "url": "https://attack.mitre.org/techniques/T1110.002/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Credentials In Files",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "credential-access"
+    ],
+    "technique_id": "T1552.001",
+    "url": "https://attack.mitre.org/techniques/T1552.001/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Modify Authentication Process",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "credential-access",
+      "defense-impairment",
+      "persistence"
+    ],
+    "technique_id": "T1556",
+    "url": "https://attack.mitre.org/techniques/T1556/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Network Boundary Bridging",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "defense-impairment"
+    ],
+    "technique_id": "T1599",
+    "url": "https://attack.mitre.org/techniques/T1599/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Disable or Modify Tools",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "defense-impairment"
+    ],
+    "technique_id": "T1685",
+    "url": "https://attack.mitre.org/techniques/T1685/"
   },
   {
     "actor_id": "mitre-g1045",
@@ -61440,11 +62575,195 @@
   },
   {
     "actor_id": "mitre-g1045",
+    "name": "Network Device Firewall",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "defense-impairment"
+    ],
+    "technique_id": "T1686.002",
+    "url": "https://attack.mitre.org/techniques/T1686.002/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "System Network Configuration Discovery",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "discovery"
+    ],
+    "technique_id": "T1016",
+    "url": "https://attack.mitre.org/techniques/T1016/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Remote System Discovery",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "discovery"
+    ],
+    "technique_id": "T1018",
+    "url": "https://attack.mitre.org/techniques/T1018/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Network Service Discovery",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "discovery"
+    ],
+    "technique_id": "T1046",
+    "url": "https://attack.mitre.org/techniques/T1046/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "System Information Discovery",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "discovery"
+    ],
+    "technique_id": "T1082",
+    "url": "https://attack.mitre.org/techniques/T1082/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Unix Shell",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1059.004",
+    "url": "https://attack.mitre.org/techniques/T1059.004/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Python",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1059.006",
+    "url": "https://attack.mitre.org/techniques/T1059.006/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Network Device CLI",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1059.008",
+    "url": "https://attack.mitre.org/techniques/T1059.008/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Container CLI/API",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1059.013",
+    "url": "https://attack.mitre.org/techniques/T1059.013/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Software Deployment Tools",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "execution",
+      "lateral-movement"
+    ],
+    "technique_id": "T1072",
+    "url": "https://attack.mitre.org/techniques/T1072/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "System Services",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1569",
+    "url": "https://attack.mitre.org/techniques/T1569/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Deploy Container",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1610",
+    "url": "https://attack.mitre.org/techniques/T1610/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Traffic Duplication",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "exfiltration"
+    ],
+    "technique_id": "T1020.001",
+    "url": "https://attack.mitre.org/techniques/T1020.001/"
+  },
+  {
+    "actor_id": "mitre-g1045",
     "name": "Exfiltration Over Unencrypted Non-C2 Protocol",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+      "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
     ],
     "tactics": [
       "exfiltration"
@@ -61454,11 +62773,30 @@
   },
   {
     "actor_id": "mitre-g1045",
+    "name": "Valid Accounts",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "initial-access",
+      "persistence",
+      "privilege-escalation",
+      "stealth"
+    ],
+    "technique_id": "T1078",
+    "url": "https://attack.mitre.org/techniques/T1078/"
+  },
+  {
+    "actor_id": "mitre-g1045",
     "name": "Exploit Public-Facing Application",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+      "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a",
+      "https://www.sentinelone.com/labs/malicious-apprentice-how-two-hackers-went-from-cisco-academy-to-cisco-cves/"
     ],
     "tactics": [
       "initial-access"
@@ -61468,11 +62806,40 @@
   },
   {
     "actor_id": "mitre-g1045",
+    "name": "Trusted Relationship",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "initial-access"
+    ],
+    "technique_id": "T1199",
+    "url": "https://attack.mitre.org/techniques/T1199/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Remote Desktop Protocol",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "lateral-movement"
+    ],
+    "technique_id": "T1021.001",
+    "url": "https://attack.mitre.org/techniques/T1021.001/"
+  },
+  {
+    "actor_id": "mitre-g1045",
     "name": "SSH",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+      "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
     ],
     "tactics": [
       "lateral-movement"
@@ -61486,7 +62853,8 @@
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+      "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
     ],
     "tactics": [
       "persistence",
@@ -61511,17 +62879,131 @@
   },
   {
     "actor_id": "mitre-g1045",
+    "name": "Local Account",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "persistence"
+    ],
+    "technique_id": "T1136.001",
+    "url": "https://attack.mitre.org/techniques/T1136.001/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Container Service",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "persistence",
+      "privilege-escalation"
+    ],
+    "technique_id": "T1543.005",
+    "url": "https://attack.mitre.org/techniques/T1543.005/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Sudo and Sudo Caching",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "privilege-escalation"
+    ],
+    "technique_id": "T1548.003",
+    "url": "https://attack.mitre.org/techniques/T1548.003/"
+  },
+  {
+    "actor_id": "mitre-g1045",
     "name": "Network Topology",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+      "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
     ],
     "tactics": [
       "reconnaissance"
     ],
     "technique_id": "T1590.004",
     "url": "https://attack.mitre.org/techniques/T1590.004/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Active Scanning",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "reconnaissance"
+    ],
+    "technique_id": "T1595",
+    "url": "https://attack.mitre.org/techniques/T1595/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Virtual Private Server",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1583.003",
+    "url": "https://attack.mitre.org/techniques/T1583.003/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Network Devices",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1584.008",
+    "url": "https://attack.mitre.org/techniques/T1584.008/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Social Media Accounts",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.sentinelone.com/labs/malicious-apprentice-how-two-hackers-went-from-cisco-academy-to-cisco-cves/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1585.001",
+    "url": "https://attack.mitre.org/techniques/T1585.001/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Develop Capabilities",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.sentinelone.com/labs/malicious-apprentice-how-two-hackers-went-from-cisco-academy-to-cisco-cves/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1587",
+    "url": "https://attack.mitre.org/techniques/T1587/"
   },
   {
     "actor_id": "mitre-g1045",
@@ -61543,13 +63025,84 @@
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
     "source_urls": [
-      "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+      "https://blog.talosintelligence.com/salt-typhoon-analysis/",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
     ],
     "tactics": [
       "resource-development"
     ],
     "technique_id": "T1588.002",
     "url": "https://attack.mitre.org/techniques/T1588.002/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Exploits",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1588.005",
+    "url": "https://attack.mitre.org/techniques/T1588.005/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Command Obfuscation",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1027.010",
+    "url": "https://attack.mitre.org/techniques/T1027.010/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Clear Command History",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1070.003",
+    "url": "https://attack.mitre.org/techniques/T1070.003/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Clear Network Connection History and Configurations",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1070.007",
+    "url": "https://attack.mitre.org/techniques/T1070.007/"
+  },
+  {
+    "actor_id": "mitre-g1045",
+    "name": "Clear Persistence",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1070.009",
+    "url": "https://attack.mitre.org/techniques/T1070.009/"
   },
   {
     "actor_id": "mitre-g1046",
@@ -67149,6 +68702,20 @@
   },
   {
     "actor_id": "mitre-g1056",
+    "name": "Deploy Container",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1610",
+    "url": "https://attack.mitre.org/techniques/T1610/"
+  },
+  {
+    "actor_id": "mitre-g1056",
     "name": "Poisoned Pipeline Execution",
     "source_id": "mitre-attack",
     "source_name": "MITRE ATT&CK",
@@ -68257,5 +69824,1239 @@
     ],
     "technique_id": "T1684",
     "url": "https://attack.mitre.org/techniques/T1684/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Remote Desktop Software",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware"
+    ],
+    "tactics": [
+      "command-and-control"
+    ],
+    "technique_id": "T1219.002",
+    "url": "https://attack.mitre.org/techniques/T1219.002/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Remote System Discovery",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen"
+    ],
+    "tactics": [
+      "discovery"
+    ],
+    "technique_id": "T1018",
+    "url": "https://attack.mitre.org/techniques/T1018/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Data Encrypted for Impact",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+      "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation",
+      "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware",
+      "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+    ],
+    "tactics": [
+      "impact"
+    ],
+    "technique_id": "T1486",
+    "url": "https://attack.mitre.org/techniques/T1486/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Financial Theft",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://research.checkpoint.com/2026/dfir-report-the-gentlemen/",
+      "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+      "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
+      "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation",
+      "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware",
+      "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+    ],
+    "tactics": [
+      "impact"
+    ],
+    "technique_id": "T1657",
+    "url": "https://attack.mitre.org/techniques/T1657/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Valid Accounts",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+      "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+      "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen"
+    ],
+    "tactics": [
+      "initial-access",
+      "persistence",
+      "privilege-escalation",
+      "stealth"
+    ],
+    "technique_id": "T1078",
+    "url": "https://attack.mitre.org/techniques/T1078/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Exploit Public-Facing Application",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+      "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen",
+      "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware",
+      "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+    ],
+    "tactics": [
+      "initial-access"
+    ],
+    "technique_id": "T1190",
+    "url": "https://attack.mitre.org/techniques/T1190/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Exploitation for Privilege Escalation",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/"
+    ],
+    "tactics": [
+      "privilege-escalation"
+    ],
+    "technique_id": "T1068",
+    "url": "https://attack.mitre.org/techniques/T1068/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Domains",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://research.checkpoint.com/2026/dfir-report-the-gentlemen/",
+      "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation",
+      "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware",
+      "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1583.001",
+    "url": "https://attack.mitre.org/techniques/T1583.001/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Establish Accounts",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+      "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1585",
+    "url": "https://attack.mitre.org/techniques/T1585/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Social Media Accounts",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://research.checkpoint.com/2026/dfir-report-the-gentlemen/",
+      "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1585.001",
+    "url": "https://attack.mitre.org/techniques/T1585.001/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Tool",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+      "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen",
+      "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation",
+      "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware",
+      "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1588.002",
+    "url": "https://attack.mitre.org/techniques/T1588.002/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Written Content",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://research.checkpoint.com/2026/dfir-report-the-gentlemen/",
+      "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+      "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen",
+      "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
+      "https://www.sophos.com/en-gb/blog/ungentlemanly-behavior-insights-into-a-ransomware-operation",
+      "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/unmasking-the-gentlemen-ransomware"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1683.001",
+    "url": "https://attack.mitre.org/techniques/T1683.001/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Audio-Visual Content",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://research.checkpoint.com/2026/dfir-report-the-gentlemen/",
+      "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+      "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1683.002",
+    "url": "https://attack.mitre.org/techniques/T1683.002/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Software Packing",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1027.002",
+    "url": "https://attack.mitre.org/techniques/T1027.002/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Masquerading",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1036",
+    "url": "https://attack.mitre.org/techniques/T1036/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Invalid Code Signature",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1036.001",
+    "url": "https://attack.mitre.org/techniques/T1036.001/"
+  },
+  {
+    "actor_id": "mitre-g1058",
+    "name": "Match Legitimate Resource Name or Location",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1036.005",
+    "url": "https://attack.mitre.org/techniques/T1036.005/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Data from Network Shared Drive",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "collection"
+    ],
+    "technique_id": "T1039",
+    "url": "https://attack.mitre.org/techniques/T1039/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Local Email Collection",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "collection"
+    ],
+    "technique_id": "T1114.001",
+    "url": "https://attack.mitre.org/techniques/T1114.001/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Data from Information Repositories",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "collection"
+    ],
+    "technique_id": "T1213",
+    "url": "https://attack.mitre.org/techniques/T1213/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Sharepoint",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "collection"
+    ],
+    "technique_id": "T1213.002",
+    "url": "https://attack.mitre.org/techniques/T1213.002/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Messaging Applications",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "collection"
+    ],
+    "technique_id": "T1213.005",
+    "url": "https://attack.mitre.org/techniques/T1213.005/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Application Layer Protocol",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "command-and-control"
+    ],
+    "technique_id": "T1071",
+    "url": "https://attack.mitre.org/techniques/T1071/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Ingress Tool Transfer",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "command-and-control"
+    ],
+    "technique_id": "T1105",
+    "url": "https://attack.mitre.org/techniques/T1105/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "DCSync",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "credential-access"
+    ],
+    "technique_id": "T1003.006",
+    "url": "https://attack.mitre.org/techniques/T1003.006/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Password Spraying",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "credential-access"
+    ],
+    "technique_id": "T1110.003",
+    "url": "https://attack.mitre.org/techniques/T1110.003/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Unsecured Credentials",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "credential-access"
+    ],
+    "technique_id": "T1552",
+    "url": "https://attack.mitre.org/techniques/T1552/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Kerberoasting",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "credential-access"
+    ],
+    "technique_id": "T1558.003",
+    "url": "https://attack.mitre.org/techniques/T1558.003/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Steal or Forge Authentication Certificates",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "credential-access"
+    ],
+    "technique_id": "T1649",
+    "url": "https://attack.mitre.org/techniques/T1649/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Modify or Spoof Tool UI",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east",
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/",
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "defense-impairment"
+    ],
+    "technique_id": "T1685.003",
+    "url": "https://attack.mitre.org/techniques/T1685.003/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "System Service Discovery",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "discovery"
+    ],
+    "technique_id": "T1007",
+    "url": "https://attack.mitre.org/techniques/T1007/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Network Service Discovery",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "discovery"
+    ],
+    "technique_id": "T1046",
+    "url": "https://attack.mitre.org/techniques/T1046/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "System Network Connections Discovery",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "discovery"
+    ],
+    "technique_id": "T1049",
+    "url": "https://attack.mitre.org/techniques/T1049/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Process Discovery",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "discovery"
+    ],
+    "technique_id": "T1057",
+    "url": "https://attack.mitre.org/techniques/T1057/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Local Account",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "discovery"
+    ],
+    "technique_id": "T1087.001",
+    "url": "https://attack.mitre.org/techniques/T1087.001/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Domain Account",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "discovery"
+    ],
+    "technique_id": "T1087.002",
+    "url": "https://attack.mitre.org/techniques/T1087.002/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Windows Management Instrumentation",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1047",
+    "url": "https://attack.mitre.org/techniques/T1047/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Scheduled Task",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/"
+    ],
+    "tactics": [
+      "execution",
+      "persistence",
+      "privilege-escalation"
+    ],
+    "technique_id": "T1053.005",
+    "url": "https://attack.mitre.org/techniques/T1053.005/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "PowerShell",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1059.001",
+    "url": "https://attack.mitre.org/techniques/T1059.001/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "JavaScript",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1059.007",
+    "url": "https://attack.mitre.org/techniques/T1059.007/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Software Deployment Tools",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "execution",
+      "lateral-movement"
+    ],
+    "technique_id": "T1072",
+    "url": "https://attack.mitre.org/techniques/T1072/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Native API",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1106",
+    "url": "https://attack.mitre.org/techniques/T1106/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Malicious Link",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense",
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east",
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/",
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1204.001",
+    "url": "https://attack.mitre.org/techniques/T1204.001/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Malicious File",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense",
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east",
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/",
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "execution"
+    ],
+    "technique_id": "T1204.002",
+    "url": "https://attack.mitre.org/techniques/T1204.002/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "DLL",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense",
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east",
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/"
+    ],
+    "tactics": [
+      "execution",
+      "stealth"
+    ],
+    "technique_id": "T1574.001",
+    "url": "https://attack.mitre.org/techniques/T1574.001/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "AppDomainManager",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "execution",
+      "stealth"
+    ],
+    "technique_id": "T1574.014",
+    "url": "https://attack.mitre.org/techniques/T1574.014/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Domain Accounts",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "initial-access",
+      "persistence",
+      "privilege-escalation",
+      "stealth"
+    ],
+    "technique_id": "T1078.002",
+    "url": "https://attack.mitre.org/techniques/T1078.002/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Local Accounts",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "initial-access",
+      "persistence",
+      "privilege-escalation",
+      "stealth"
+    ],
+    "technique_id": "T1078.003",
+    "url": "https://attack.mitre.org/techniques/T1078.003/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Cloud Accounts",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "initial-access",
+      "persistence",
+      "privilege-escalation",
+      "stealth"
+    ],
+    "technique_id": "T1078.004",
+    "url": "https://attack.mitre.org/techniques/T1078.004/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Trusted Relationship",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "initial-access"
+    ],
+    "technique_id": "T1199",
+    "url": "https://attack.mitre.org/techniques/T1199/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Spearphishing Attachment",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "initial-access"
+    ],
+    "technique_id": "T1566.001",
+    "url": "https://attack.mitre.org/techniques/T1566.001/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Spearphishing Link",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense",
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east",
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/",
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "initial-access"
+    ],
+    "technique_id": "T1566.002",
+    "url": "https://attack.mitre.org/techniques/T1566.002/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Remote Desktop Protocol",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "lateral-movement"
+    ],
+    "technique_id": "T1021.001",
+    "url": "https://attack.mitre.org/techniques/T1021.001/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "SMB/Windows Admin Shares",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "lateral-movement"
+    ],
+    "technique_id": "T1021.002",
+    "url": "https://attack.mitre.org/techniques/T1021.002/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Internal Spearphishing",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "lateral-movement"
+    ],
+    "technique_id": "T1534",
+    "url": "https://attack.mitre.org/techniques/T1534/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "RDP Hijacking",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "lateral-movement"
+    ],
+    "technique_id": "T1563.002",
+    "url": "https://attack.mitre.org/techniques/T1563.002/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Account Manipulation",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "persistence",
+      "privilege-escalation"
+    ],
+    "technique_id": "T1098",
+    "url": "https://attack.mitre.org/techniques/T1098/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Local Account",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "persistence"
+    ],
+    "technique_id": "T1136.001",
+    "url": "https://attack.mitre.org/techniques/T1136.001/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Registry Run Keys / Startup Folder",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east",
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/"
+    ],
+    "tactics": [
+      "persistence",
+      "privilege-escalation"
+    ],
+    "technique_id": "T1547.001",
+    "url": "https://attack.mitre.org/techniques/T1547.001/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Gather Victim Org Information",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "reconnaissance"
+    ],
+    "technique_id": "T1591",
+    "url": "https://attack.mitre.org/techniques/T1591/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Spearphishing Service",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east"
+    ],
+    "tactics": [
+      "reconnaissance"
+    ],
+    "technique_id": "T1598.001",
+    "url": "https://attack.mitre.org/techniques/T1598.001/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Domains",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense",
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east",
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1583.001",
+    "url": "https://attack.mitre.org/techniques/T1583.001/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Virtual Private Server",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense",
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1583.003",
+    "url": "https://attack.mitre.org/techniques/T1583.003/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Web Services",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense",
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east",
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/",
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1583.006",
+    "url": "https://attack.mitre.org/techniques/T1583.006/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Social Media Accounts",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1585.001",
+    "url": "https://attack.mitre.org/techniques/T1585.001/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Malware",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense",
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east",
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/",
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1587.001",
+    "url": "https://attack.mitre.org/techniques/T1587.001/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Tool",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1588.002",
+    "url": "https://attack.mitre.org/techniques/T1588.002/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Code Signing Certificates",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense",
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/",
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1588.003",
+    "url": "https://attack.mitre.org/techniques/T1588.003/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Artificial Intelligence",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1588.007",
+    "url": "https://attack.mitre.org/techniques/T1588.007/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Upload Malware",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense",
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east",
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/",
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1608.001",
+    "url": "https://attack.mitre.org/techniques/T1608.001/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Link Target",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense",
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/",
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1608.005",
+    "url": "https://attack.mitre.org/techniques/T1608.005/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "SEO Poisoning",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1608.006",
+    "url": "https://attack.mitre.org/techniques/T1608.006/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Written Content",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east",
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1683.001",
+    "url": "https://attack.mitre.org/techniques/T1683.001/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Audio-Visual Content",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense",
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east",
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/"
+    ],
+    "tactics": [
+      "resource-development"
+    ],
+    "technique_id": "T1683.002",
+    "url": "https://attack.mitre.org/techniques/T1683.002/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Obfuscated Files or Information",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1027",
+    "url": "https://attack.mitre.org/techniques/T1027/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Compression",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east",
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/",
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1027.015",
+    "url": "https://attack.mitre.org/techniques/T1027.015/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Masquerade Task or Service",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1036.004",
+    "url": "https://attack.mitre.org/techniques/T1036.004/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Match Legitimate Resource Name or Location",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1036.005",
+    "url": "https://attack.mitre.org/techniques/T1036.005/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "File Deletion",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1070.004",
+    "url": "https://attack.mitre.org/techniques/T1070.004/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Clear Network Connection History and Configurations",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1070.007",
+    "url": "https://attack.mitre.org/techniques/T1070.007/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Delay Execution",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1678",
+    "url": "https://attack.mitre.org/techniques/T1678/"
+  },
+  {
+    "actor_id": "mitre-g1059",
+    "name": "Impersonation",
+    "source_id": "mitre-attack",
+    "source_name": "MITRE ATT&CK",
+    "source_urls": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/analysis-of-unc1549-ttps-targeting-aerospace-defense",
+      "https://cloud.google.com/blog/topics/threat-intelligence/suspected-iranian-unc1549-targets-israel-middle-east",
+      "https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/",
+      "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+    ],
+    "tactics": [
+      "stealth"
+    ],
+    "technique_id": "T1684.001",
+    "url": "https://attack.mitre.org/techniques/T1684.001/"
   }
 ]
