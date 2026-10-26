@@ -16,15 +16,34 @@
         "name": "Storm-1849",
         "name_type": "canonical",
         "name_types": [
-          "canonical"
+          "canonical",
+          "alias"
         ],
-        "naming_org": "MISP Galaxy",
+        "naming_org": "Microsoft other, MISP Galaxy",
         "normalized_name": "storm 1849",
-        "source_id": "misp-galaxy",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
         "source_urls": [
-          "https://blog.talosintelligence.com/arcanedoor-new-espionage-focused-campaign-found-targeting-perimeter-network-devices"
+          "https://blog.talosintelligence.com/arcanedoor-new-espionage-focused-campaign-found-targeting-perimeter-network-devices",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
         ],
         "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
           {
             "name_types": [
               "canonical"
@@ -52,13 +71,31 @@
         "name_types": [
           "alias"
         ],
-        "naming_org": "MISP Galaxy",
+        "naming_org": "Microsoft other, MISP Galaxy",
         "normalized_name": "uat4356",
-        "source_id": "misp-galaxy",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
         "source_urls": [
-          "https://blog.talosintelligence.com/arcanedoor-new-espionage-focused-campaign-found-targeting-perimeter-network-devices"
+          "https://blog.talosintelligence.com/arcanedoor-new-espionage-focused-campaign-found-targeting-perimeter-network-devices",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
         ],
         "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
           {
             "name_types": [
               "alias"
@@ -79,7 +116,8 @@
       }
     ],
     "naming_sources": [
-      "MISP Galaxy"
+      "MISP Galaxy",
+      "Microsoft other"
     ],
     "observed_techniques": {
       "items": [],
@@ -110,12 +148,70 @@
           "external-reference"
         ],
         "url": "https://blog.talosintelligence.com/arcanedoor-new-espionage-focused-campaign-found-targeting-perimeter-network-devices"
+      },
+      {
+        "actor_id": "misp-3d94ef07-9fd6-4d64-bf1e-f1316f2686a4",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "misp-3d94ef07-9fd6-4d64-bf1e-f1316f2686a4",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
       }
     ],
     "reported_attribution": {
       "classifications": [],
-      "countries": [],
-      "items": []
+      "countries": [
+        {
+          "country_code": "CN",
+          "display_value": "China",
+          "flag": "🇨🇳",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "China"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "CN",
+          "display_value": "China",
+          "flag": "🇨🇳",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "China"
+        }
+      ]
     },
     "search_names": [
       "Storm-1849",
@@ -123,10 +219,11 @@
     ],
     "source_ids": [
       "external-reference",
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
-    "updated_at": "2026-10-19"
+    "updated_at": "2026-10-26"
   },
-  "generated_at": "2026-10-19T08:15:05Z"
+  "generated_at": "2026-10-26T08:15:17Z"
 }

@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-10-19 08:15:03 UTC
+Generated: 2026-10-26 08:15:16 UTC
 
 ## Summary
 
-- Auto candidates: 368
+- Auto candidates: 401
 - Published items: 0
 - Rejected items: 0
 
@@ -38,6 +38,12 @@ Generated: 2026-10-19 08:15:03 UTC
   - Summary: The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity comp
 
 ### APT18
+
+- **2026-10-23 / The Hacker News**
+  - Title: BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations
+  - URL: https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html
+  - Matched names: APT4
+  - Summary: Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in 
 
 - **2026-09-28 / Microsoft Security Blog**
   - Title: NeedyMantis: Unpacking a post-compromise malware family used in targeted operations
@@ -149,6 +155,12 @@ Generated: 2026-10-19 08:15:03 UTC
 
 ### APT28
 
+- **2026-10-23 / SecurityWeek**
+  - Title: In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware
+  - URL: https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware
+  - Matched names: APT28
+  - Summary: Noteworthy stories that might have slipped under the radar: Russia’s APT28 hit NATO defense firms, PingCAP source code stolen, ShinyHunters negotiator probe. The post In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuildin
+
 - **2026-08-28 / The Hacker News**
   - Title: APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations
   - URL: https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html
@@ -206,6 +218,18 @@ Generated: 2026-10-19 08:15:03 UTC
   - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
 
 ### APT41
+
+- **2026-10-23 / The Hacker News**
+  - Title: BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations
+  - URL: https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html
+  - Matched names: APT41
+  - Summary: Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in 
+
+- **2026-10-23 / The Hacker News**
+  - Title: Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws
+  - URL: https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html
+  - Matched names: LEAD
+  - Summary: Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month. GitLab found that a spe
 
 - **2026-10-16 / SecurityWeek**
   - Title: F5, Juniper Networks Patch Critical Vulnerabilities
@@ -615,6 +639,18 @@ Generated: 2026-10-19 08:15:03 UTC
 
 ### BRONZE BUTLER
 
+- **2026-10-23 / The Hacker News**
+  - Title: Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack
+  - URL: https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html
+  - Matched names: Nian
+  - Summary: The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obt
+
+- **2026-10-22 / ESET WeLiveSecurity**
+  - Title: MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration
+  - URL: https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration
+  - Matched names: Nian
+  - Summary: ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm
+
 - **2026-10-12 / The Hacker News**
   - Title: CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records
   - URL: https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html
@@ -979,6 +1015,12 @@ Generated: 2026-10-19 08:15:03 UTC
 
 ### Cyber Partisans
 
+- **2026-10-21 / The Hacker News**
+  - Title: Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion
+  - URL: https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html
+  - Matched names: Cyber Partisans
+  - Summary: A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partis
+
 - **2026-10-09 / The Record**
   - Title: Belarusian hacktivists admit to 2023 breach of Russian state healthcare network
   - URL: https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack
@@ -1018,6 +1060,12 @@ Generated: 2026-10-19 08:15:03 UTC
   - Summary: Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity befo
 
 ### Dragonfly
+
+- **2026-10-21 / The Hacker News**
+  - Title: China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors
+  - URL: https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html
+  - Matched names: CASTLE
+  - Summary: Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025. "The most distinctive technical ma
 
 - **2026-10-16 / The Hacker News**
   - Title: China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers
@@ -1193,6 +1241,14 @@ Generated: 2026-10-19 08:15:03 UTC
   - Matched names: OXYGEN
   - Summary: A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats,&nbsp;chained two flaws in OnePlus's own software&nbsp;to gain root access, the highe
 
+### Infy
+
+- **2026-10-23 / SecurityWeek**
+  - Title: Iran’s Prince of Persia APT Hosts C&C in US for First Time Since 2016
+  - URL: https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016
+  - Matched names: Prince of Persia
+  - Summary: After a three-month lull, Prince of Persia hid a Tornado C&#038;C server on US shared hosting, its first US-based server since 2016. The post Iran&#8217;s Prince of Persia APT Hosts C&#038;C in US for First Time Since 2016 appeared first on SecurityW
+
 ### JadePuffer
 
 - **2026-09-25 / Microsoft Security Blog**
@@ -1253,6 +1309,12 @@ Generated: 2026-10-19 08:15:03 UTC
 
 ### Lotus Blossom
 
+- **2026-10-21 / The Hacker News**
+  - Title: Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion
+  - URL: https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html
+  - Matched names: ST Group
+  - Summary: A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partis
+
 - **2026-08-21 / SecurityWeek**
   - Title: CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities
   - URL: https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities
@@ -1308,6 +1370,12 @@ Generated: 2026-10-19 08:15:03 UTC
   - Summary: A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia. The intrusion set makes use of seven remote access tool (RAT) families, five of which have never been previously docu
 
 ### Play
+
+- **2026-10-23 / The Record**
+  - Title: Reports of PHP bug exploitation attempts grow as experts downplay viability of exploits
+  - URL: https://therecord.media/php-php2shell-exploitation-attempts-pocs
+  - Matched names: Play
+  - Summary: The headline-grabbing bugs known colloquially as PHP2Shell are giving cyber analysts a lot to track — and a lot to debunk.
 
 - **2026-10-15 / The Hacker News**
   - Title: India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1
@@ -1407,6 +1475,12 @@ Generated: 2026-10-19 08:15:03 UTC
 
 ### Putter Panda
 
+- **2026-10-23 / SecurityWeek**
+  - Title: In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware
+  - URL: https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware
+  - Matched names: APT2
+  - Summary: Noteworthy stories that might have slipped under the radar: Russia’s APT28 hit NATO defense firms, PingCAP source code stolen, ShinyHunters negotiator probe. The post In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuildin
+
 - **2026-08-28 / The Hacker News**
   - Title: APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations
   - URL: https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html
@@ -1458,6 +1532,24 @@ Generated: 2026-10-19 08:15:03 UTC
   - Summary: Alleged Chinese hackers are breaking into government agencies across Latin America using a new backdoor that researchers are calling “SparroWocky.”
 
 ### Sandworm Team
+
+- **2026-10-23 / The Hacker News**
+  - Title: Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions
+  - URL: https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html
+  - Matched names: PHANTOM
+  - Summary: Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an "Autonomous Red Team Kill Chain Framework" referred 
+
+- **2026-10-23 / The Hacker News**
+  - Title: Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack
+  - URL: https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html
+  - Matched names: Sandworm, Sandworm Team
+  - Summary: The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obt
+
+- **2026-10-22 / ESET WeLiveSecurity**
+  - Title: MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration
+  - URL: https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration
+  - Matched names: Sandworm
+  - Summary: ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm
 
 - **2026-09-29 / The Hacker News**
   - Title: 101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent
@@ -1565,6 +1657,12 @@ Generated: 2026-10-19 08:15:03 UTC
 
 ### Sea Turtle
 
+- **2026-10-23 / The Record**
+  - Title: FCC bans two devices with surveillance chips linked to Huawei
+  - URL: https://therecord.media/fcc-bans-devices-huawei-surveillance-chips
+  - Matched names: SILICON
+  - Summary: The banned items — a wireless video transmitter and dashboard camera — are made with chips manufactured by Huawei subsidiary HiSilicon, which markets its products as “designed for the surveillance market.”
+
 - **2026-09-03 / The Hacker News**
   - Title: Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root
   - URL: https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html
@@ -1578,6 +1676,12 @@ Generated: 2026-10-19 08:15:03 UTC
   - Summary: The outpost will have its own director, though no one has yet been named for the post, and support the command’s nascent Cyber Warfare Innovation Center (CIWC).
 
 ### ShinyHunters
+
+- **2026-10-23 / SecurityWeek**
+  - Title: In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware
+  - URL: https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware
+  - Matched names: ShinyHunters
+  - Summary: Noteworthy stories that might have slipped under the radar: Russia’s APT28 hit NATO defense firms, PingCAP source code stolen, ShinyHunters negotiator probe. The post In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuildin
 
 - **2026-10-10 / BleepingComputer**
   - Title: Cyber exec arrested in case allegedly tied to ShinyHunters hackers
@@ -1771,6 +1875,20 @@ Generated: 2026-10-19 08:15:03 UTC
   - Matched names: Star Blizzard
   - Summary: Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery techniqu
 
+### Storm-0940
+
+- **2026-10-22 / The Hacker News**
+  - Title: China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack
+  - URL: https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html
+  - Matched names: Storm-0940
+  - Summary: Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetrati
+
+- **2026-10-21 / Microsoft Security Blog**
+  - Title: AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise
+  - Matched names: Storm-0940
+  - Summary: Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments. The post AI-driven, large-scale nation-state campaign using ARTEX enables supply chain comp
+
 ### Storm-1175
 
 - **2026-08-10 / The Hacker News**
@@ -1826,6 +1944,12 @@ Generated: 2026-10-19 08:15:03 UTC
   - Summary: A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the
 
 ### The Gentlemen
+
+- **2026-10-23 / The Hacker News**
+  - Title: Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions
+  - URL: https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html
+  - Matched names: The Gentlemen
+  - Summary: Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an "Autonomous Red Team Kill Chain Framework" referred 
 
 - **2026-09-17 / Cisco Talos**
   - Title: Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use
@@ -1900,6 +2024,18 @@ Generated: 2026-10-19 08:15:03 UTC
   - Summary: This week was a reminder that attackers do not always need big tricks. One small mistake, one old access path, one missed patch, and suddenly the door is open. The noise is not all noise, either. Forums are talking, researchers are finding easy crack
 
 ### UAC-0099
+
+- **2026-10-23 / The Hacker News**
+  - Title: Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack
+  - URL: https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html
+  - Matched names: UAC-0099
+  - Summary: The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obt
+
+- **2026-10-22 / ESET WeLiveSecurity**
+  - Title: MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration
+  - URL: https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration
+  - Matched names: UAC-0099
+  - Summary: ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm
 
 - **2026-10-08 / ESET WeLiveSecurity**
   - Title: MATCHBOIL: New tricks, same old evil intentions
@@ -2005,6 +2141,14 @@ Generated: 2026-10-19 08:15:03 UTC
   - Matched names: UNC5221
   - Summary: The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026. The vulnerability, tracked 
 
+### Unit 8200
+
+- **2026-10-25 / SecurityWeek**
+  - Title: Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave
+  - URL: https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave
+  - Matched names: Unit 8200
+  - Summary: Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek .
+
 ### VOID MANTICORE
 
 - **2026-09-17 / The Hacker News**
@@ -2026,6 +2170,60 @@ Generated: 2026-10-19 08:15:03 UTC
   - Summary: Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall for and no approval box to ignore. Cato AI Labs&nbsp
 
 ### VantaCore
+
+- **2026-10-23 / SecurityWeek**
+  - Title: Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’
+  - URL: https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records
+  - Matched names: Thor
+  - Summary: In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders. The post Quest Diagnostics Data Breach Exposed &#8216;Certain Patient Records&#8217; ap
+
+- **2026-10-23 / BleepingComputer**
+  - Title: Quest Diagnostics confirms data breach exposed patient records
+  - URL: https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records
+  - Matched names: Thor
+  - Summary: American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]
+
+- **2026-10-22 / Palo Alto Unit 42**
+  - Title: EMudhra Intermediate CA Certificates Compromised
+  - URL: https://unit42.paloaltonetworks.com/emudhra-certificate-compromise
+  - Matched names: Thor
+  - Summary: Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide. The post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42 .
+
+- **2026-10-22 / The Hacker News**
+  - Title: INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown
+  - URL: https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html
+  - Matched names: Thor
+  - Summary: INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds. In tandem, the effort saw law enforcement agencies from 21 countries arrest 1,462 
+
+- **2026-10-22 / The Hacker News**
+  - Title: Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation
+  - URL: https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html
+  - Matched names: Thor
+  - Summary: Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed "anomalous activity" related to systems that store customer environment variables. Upon further investigation, the company found that an unauthorized third party may have gained acc
+
+- **2026-10-22 / The Hacker News**
+  - Title: eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable
+  - URL: https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html
+  - Matched names: Thor
+  - Summary: eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business,&nbsp;its board decided on Thursday. The decision came five days after a researcher&nbsp;reported recovering the private keys&nbsp;of eight of i
+
+- **2026-10-21 / The Hacker News**
+  - Title: Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites
+  - URL: https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html
+  - Matched names: Thor
+  - Summary: Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites. TeamUpdraft is the developer beh
+
+- **2026-10-21 / Cisco Talos**
+  - Title: Compromised eMudhra intermediate certificates
+  - URL: https://blog.talosintelligence.com/compromised-intermediate-certificates
+  - Matched names: Thor
+  - Summary: Cisco Talos is aware of eight intermediate certificates belonging to the intermediate certificate authority, eMudhra.
+
+- **2026-10-20 / The Hacker News**
+  - Title: Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software
+  - URL: https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html
+  - Matched names: Thor
+  - Summary: The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's Chrome Root Program&nbsp;confirms on October 20. An intermediate CA signs the certificates that websites prese
 
 - **2026-10-18 / The Hacker News**
   - Title: ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants
@@ -2404,3 +2602,11 @@ Generated: 2026-10-19 08:15:03 UTC
   - URL: https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
   - Matched names: APT31, BRONZE VINEWOOD
   - Summary: Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome. The first in-the-wild use of B
+
+### menuPass
+
+- **2026-10-23 / The Hacker News**
+  - Title: PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware
+  - URL: https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html
+  - Matched names: POTASSIUM
+  - Summary: Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than pre

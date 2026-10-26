@@ -16,15 +16,34 @@
         "name": "ExfilSquad",
         "name_type": "canonical",
         "name_types": [
-          "canonical"
+          "canonical",
+          "alias"
         ],
-        "naming_org": "MISP Galaxy",
+        "naming_org": "Microsoft other, MISP Galaxy",
         "normalized_name": "exfilsquad",
-        "source_id": "misp-galaxy",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
         "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
           "https://socradar.io/blog/dark-web-profile-exfilsquad"
         ],
         "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
           {
             "name_types": [
               "canonical"
@@ -45,7 +64,8 @@
       }
     ],
     "naming_sources": [
-      "MISP Galaxy"
+      "MISP Galaxy",
+      "Microsoft other"
     ],
     "observed_techniques": {
       "items": [],
@@ -71,6 +91,22 @@
     "references": [
       {
         "actor_id": "misp-ccf8ceb7-a926-4a29-b045-fb99f24025ba",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "misp-ccf8ceb7-a926-4a29-b045-fb99f24025ba",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "misp-ccf8ceb7-a926-4a29-b045-fb99f24025ba",
         "source_id": "external-reference",
         "source_ids": [
           "external-reference"
@@ -79,19 +115,58 @@
       }
     ],
     "reported_attribution": {
-      "classifications": [],
+      "classifications": [
+        {
+          "display_value": "Group in development",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Group in development"
+        }
+      ],
       "countries": [],
-      "items": []
+      "items": [
+        {
+          "display_value": "Group in development",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Group in development"
+        }
+      ]
     },
     "search_names": [
       "ExfilSquad"
     ],
     "source_ids": [
       "external-reference",
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
-    "updated_at": "2026-10-19"
+    "updated_at": "2026-10-26"
   },
-  "generated_at": "2026-10-19T08:15:05Z"
+  "generated_at": "2026-10-26T08:15:17Z"
 }

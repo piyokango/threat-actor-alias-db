@@ -16,16 +16,35 @@
         "name": "GTG-1002",
         "name_type": "canonical",
         "name_types": [
-          "canonical"
+          "canonical",
+          "alias"
         ],
-        "naming_org": "MISP Galaxy",
+        "naming_org": "Microsoft other, MISP Galaxy",
         "normalized_name": "gtg 1002",
-        "source_id": "misp-galaxy",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
         "source_urls": [
           "https://assets.anthropic.com/m/ec212e6566a0d47/original/Disrupting-the-first-reported-AI-orchestrated-cyber-espionage-campaign.pdf",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
           "https://socradar.io/blog/ai-powered-gtg-1002-campaign"
         ],
         "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
           {
             "name_types": [
               "canonical"
@@ -47,7 +66,8 @@
       }
     ],
     "naming_sources": [
-      "MISP Galaxy"
+      "MISP Galaxy",
+      "Microsoft other"
     ],
     "observed_techniques": {
       "items": [],
@@ -81,6 +101,22 @@
       },
       {
         "actor_id": "misp-c21d7fef-0bab-4229-a103-5e8275434141",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "misp-c21d7fef-0bab-4229-a103-5e8275434141",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "misp-c21d7fef-0bab-4229-a103-5e8275434141",
         "source_id": "external-reference",
         "source_ids": [
           "external-reference"
@@ -91,6 +127,26 @@
     "reported_attribution": {
       "classifications": [],
       "countries": [
+        {
+          "country_code": "CN",
+          "display_value": "China",
+          "flag": "🇨🇳",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "China"
+        },
         {
           "country_code": null,
           "display_value": "CN",
@@ -113,6 +169,26 @@
         }
       ],
       "items": [
+        {
+          "country_code": "CN",
+          "display_value": "China",
+          "flag": "🇨🇳",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "China"
+        },
         {
           "country_code": null,
           "display_value": "CN",
@@ -140,10 +216,11 @@
     ],
     "source_ids": [
       "external-reference",
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
-    "updated_at": "2026-10-19"
+    "updated_at": "2026-10-26"
   },
-  "generated_at": "2026-10-19T08:15:05Z"
+  "generated_at": "2026-10-26T08:15:17Z"
 }

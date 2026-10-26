@@ -16,20 +16,39 @@
         "name": "DragonForce",
         "name_type": "canonical",
         "name_types": [
-          "canonical"
+          "canonical",
+          "alias"
         ],
-        "naming_org": "MISP Galaxy",
+        "naming_org": "Microsoft other, MISP Galaxy",
         "normalized_name": "dragonforce",
-        "source_id": "misp-galaxy",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
         "source_urls": [
           "https://blog.radware.com/security/2023/05/india-one-of-the-most-targeted-countries-for-hacktivist-groups",
           "https://blog.radware.com/security/ddos/2022/08/this-was-h1-2022-part-3-beyond-the-war",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
           "https://securitybrief.asia/story/dragonforce-malaysia-attacks-israeli-institutions-radware",
           "https://www.darkowl.com/blog-content/hacktivist-groups-use-defacements-in-the-israel-hamas-conflict",
           "https://www.fortinet.com/blog/threat-research/guidance-on-hacktivist-operation-opspatuk-by-dragonforce",
           "https://www.radware.com/security/threat-advisories-and-attack-reports/opisrael-a-decade-in-review"
         ],
         "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
           {
             "name_types": [
               "canonical"
@@ -52,10 +71,49 @@
         "variants": [
           "DragonForce"
         ]
+      },
+      {
+        "compact_normalized_name": "hackledorb",
+        "confidence": "source-provided",
+        "display_group_key": "hackledorb",
+        "name": "Hackledorb",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "Microsoft other",
+        "normalized_name": "hackledorb",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          }
+        ],
+        "variants": [
+          "Hackledorb"
+        ]
       }
     ],
     "naming_sources": [
-      "MISP Galaxy"
+      "MISP Galaxy",
+      "Microsoft other"
     ],
     "observed_techniques": {
       "items": [],
@@ -97,6 +155,22 @@
       },
       {
         "actor_id": "misp-40375ed2-04ec-433f-969d-b9a004c0272e",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "misp-40375ed2-04ec-433f-969d-b9a004c0272e",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+      },
+      {
+        "actor_id": "misp-40375ed2-04ec-433f-969d-b9a004c0272e",
         "source_id": "external-reference",
         "source_ids": [
           "external-reference"
@@ -129,7 +203,26 @@
       }
     ],
     "reported_attribution": {
-      "classifications": [],
+      "classifications": [
+        {
+          "display_value": "Group in development",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Group in development"
+        }
+      ],
       "countries": [
         {
           "country_code": null,
@@ -172,18 +265,38 @@
           ],
           "type": "country",
           "value": "MY"
+        },
+        {
+          "display_value": "Group in development",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Group in development"
         }
       ]
     },
     "search_names": [
-      "DragonForce"
+      "DragonForce",
+      "Hackledorb"
     ],
     "source_ids": [
       "external-reference",
+      "microsoft-threat-actor-naming",
       "misp-galaxy"
     ],
     "status": "active",
-    "updated_at": "2026-10-19"
+    "updated_at": "2026-10-26"
   },
-  "generated_at": "2026-10-19T08:15:05Z"
+  "generated_at": "2026-10-26T08:15:17Z"
 }

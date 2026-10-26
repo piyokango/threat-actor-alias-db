@@ -19,12 +19,14 @@
           "canonical",
           "alias"
         ],
-        "naming_org": "MISP Galaxy",
+        "naming_org": "Microsoft other, MISP Galaxy",
         "normalized_name": "jadepuffer",
-        "source_id": "misp-galaxy",
+        "source_id": "microsoft-threat-actor-naming,misp-galaxy",
         "source_urls": [
           "https://krypt3ia.wordpress.com/2026/07/13/threat-intelligence-report-jadepuffer-agentic-ransomware-and-automated-extortion",
+          "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
           "https://nsfocusglobal.com/ai-security-incident-jadepuffer-ransomware-leverages-ai-agent-to-automate-attacks",
+          "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json",
           "https://securereading.com/jadepuffer-ai-ransomware-autonomous-llm-attack",
           "https://socfortress.medium.com/jadepuffer-the-dawn-of-agentic-ransomware-operations-003a59848007",
           "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
@@ -33,6 +35,22 @@
           "https://www.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models"
         ],
         "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "Microsoft other",
+            "source_ids": [
+              "microsoft-threat-actor-naming"
+            ],
+            "source_relations": [
+              "other_name"
+            ],
+            "source_urls": [
+              "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming",
+              "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
+            ]
+          },
           {
             "name_types": [
               "canonical",
@@ -56,8 +74,8 @@
           }
         ],
         "variants": [
-          "JADEPUFFER",
-          "JadePuffer"
+          "JadePuffer",
+          "JADEPUFFER"
         ]
       },
       {
@@ -110,7 +128,8 @@
       }
     ],
     "naming_sources": [
-      "MISP Galaxy"
+      "MISP Galaxy",
+      "Microsoft other"
     ],
     "observed_techniques": {
       "items": [],
@@ -144,11 +163,27 @@
       },
       {
         "actor_id": "misp-3ba33e02-c485-40dd-b9af-c4f9a7c46fd5",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+      },
+      {
+        "actor_id": "misp-3ba33e02-c485-40dd-b9af-c4f9a7c46fd5",
         "source_id": "external-reference",
         "source_ids": [
           "external-reference"
         ],
         "url": "https://nsfocusglobal.com/ai-security-incident-jadepuffer-ransomware-leverages-ai-agent-to-automate-attacks"
+      },
+      {
+        "actor_id": "misp-3ba33e02-c485-40dd-b9af-c4f9a7c46fd5",
+        "source_id": "microsoft-threat-actor-naming",
+        "source_ids": [
+          "microsoft-threat-actor-naming"
+        ],
+        "url": "https://raw.githubusercontent.com/microsoft/mstic/master/PublicFeeds/ThreatActorNaming/MicrosoftMapping.json"
       },
       {
         "actor_id": "misp-3ba33e02-c485-40dd-b9af-c4f9a7c46fd5",
@@ -200,13 +235,51 @@
       }
     ],
     "reported_attribution": {
-      "classifications": [],
+      "classifications": [
+        {
+          "display_value": "Group in development",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Group in development"
+        }
+      ],
       "countries": [],
-      "items": []
+      "items": [
+        {
+          "display_value": "Group in development",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "microsoft-threat-actor-naming",
+              "source_name": "Microsoft",
+              "source_urls": [
+                "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
+              ],
+              "types": [
+                "microsoft_origin_or_threat"
+              ]
+            }
+          ],
+          "type": "microsoft_origin_or_threat",
+          "value": "Group in development"
+        }
+      ]
     },
     "search_names": [
-      "JADEPUFFER",
       "JadePuffer",
+      "JADEPUFFER",
       "Storm-3168"
     ],
     "source_ids": [
@@ -215,7 +288,7 @@
       "misp-galaxy"
     ],
     "status": "active",
-    "updated_at": "2026-10-19"
+    "updated_at": "2026-10-26"
   },
-  "generated_at": "2026-10-19T08:15:05Z"
+  "generated_at": "2026-10-26T08:15:17Z"
 }

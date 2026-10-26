@@ -1,0 +1,218 @@
+{
+  "actor": {
+    "actor_id": "misp-57eb1be4-526a-4fa4-8dc4-ec8edb9564ad",
+    "canonical_name": "k0t",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-57eb1be4-526a-4fa4-8dc4-ec8edb9564ad"
+    ],
+    "misp_uuid": "57eb1be4-526a-4fa4-8dc4-ec8edb9564ad",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "k0t",
+        "confidence": "source-provided",
+        "display_group_key": "k0t",
+        "name": "k0t",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "k0t",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+          "https://www.group-ib.com/blog/stray-cat-network-edge"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+              "https://www.group-ib.com/blog/stray-cat-network-edge"
+            ]
+          }
+        ],
+        "variants": [
+          "k0t"
+        ]
+      },
+      {
+        "compact_normalized_name": "cryptofeel",
+        "confidence": "source-provided",
+        "display_group_key": "cryptofeel",
+        "name": "CryptoFeel",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cryptofeel",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+          "https://www.group-ib.com/blog/stray-cat-network-edge"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+              "https://www.group-ib.com/blog/stray-cat-network-edge"
+            ]
+          }
+        ],
+        "variants": [
+          "CryptoFeel"
+        ]
+      },
+      {
+        "compact_normalized_name": "member19",
+        "confidence": "source-provided",
+        "display_group_key": "member19",
+        "name": "Member19",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "member19",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+          "https://www.group-ib.com/blog/stray-cat-network-edge"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+              "https://www.group-ib.com/blog/stray-cat-network-edge"
+            ]
+          }
+        ],
+        "variants": [
+          "Member19"
+        ]
+      },
+      {
+        "compact_normalized_name": "qazwsxshop",
+        "confidence": "source-provided",
+        "display_group_key": "qazwsxshop",
+        "name": "QazWsxShop",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "qazwsxshop",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+          "https://www.group-ib.com/blog/stray-cat-network-edge"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+              "https://www.group-ib.com/blog/stray-cat-network-edge"
+            ]
+          }
+        ],
+        "variants": [
+          "QazWsxShop"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "k0t (also CryptoFeel, Member19, QazWsxShop) is a financially motivated cybercriminal actor, first seen on 22 October 2025, behind a large-scale campaign against exposed network edge devices, according to a joint investigation by Group-IB and NyxLab published in October 2026. The actor finds targets by mass enumeration with FOFA and ZoomEye rather than by researching specific organizations. It gains access by exploiting known flaws such as CVE-2025-64446 (FortiWeb) and CVE-2026-0257 (PAN-OS/Prisma Access) with custom Python scripts, or by brute-forcing Fortinet FortiGate and Palo Alto GlobalProtect appliances, then connects over OpenConnect VPN. Post-exploitation relies on NetExec, Impacket,..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-57eb1be4-526a-4fa4-8dc4-ec8edb9564ad",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html"
+      },
+      {
+        "actor_id": "misp-57eb1be4-526a-4fa4-8dc4-ec8edb9564ad",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.group-ib.com/blog/stray-cat-network-edge"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "CryptoFeel",
+      "k0t",
+      "Member19",
+      "QazWsxShop"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-26"
+  },
+  "generated_at": "2026-10-26T08:15:17Z"
+}

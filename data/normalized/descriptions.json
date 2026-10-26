@@ -2673,6 +2673,15 @@
     "text": "Starry Addax is a threat actor targeting human rights activists associated with the Sahrawi Arab Democratic Republic using a novel mobile malware called FlexStarling. They conduct phishing attacks to trick targets into installing malicious Android applications and serve credential-harvesting pages to Windows-based targets. Their infrastructure targets both Windows and Android users, with the campaign starting with spear-phishing emails containing requests to install specific mobile apps or related themes. The campaign is in its early stages, with potential for additional malware variants and infrastructure development."
   },
   {
+    "actor_id": "misp-57eb1be4-526a-4fa4-8dc4-ec8edb9564ad",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "k0t (also CryptoFeel, Member19, QazWsxShop) is a financially motivated cybercriminal actor, first seen on 22 October 2025, behind a large-scale campaign against exposed network edge devices, according to a joint investigation by Group-IB and NyxLab published in October 2026. The actor finds targets by mass enumeration with FOFA and ZoomEye rather than by researching specific organizations. It gains access by exploiting known flaws such as CVE-2025-64446 (FortiWeb) and CVE-2026-0257 (PAN-OS/Prisma Access) with custom Python scripts, or by brute-forcing Fortinet FortiGate and Palo Alto GlobalProtect appliances, then connects over OpenConnect VPN. Post-exploitation relies on NetExec, Impacket, noPac, Kerbrute, PetitPotam and Mimikatz, persistence on MeshCentral, Atera, Teramind, AnyDesk and AdaptixC2, and exfiltration on Rclone to Wasabi S3 and MEGA. More than 70,000 exposed credentials are linked to the campaign, with victims mostly in Asia Pacific and Latin America; the actor states that the US and Canada are its priority. Many victims were later listed by the Qilin and The Gentlemen ransomware groups, so k0t is assessed to be an initial access broker or affiliate, but the exact relationship is unclear. The activity partially overlaps in time with the FortiBleed credential-harvesting cluster, with negligible overlap in compromised data."
+  },
+  {
     "actor_id": "misp-583cdea6-1d72-44d4-824f-f965e8a23f3e",
     "source_id": "misp-galaxy",
     "source_name": "MISP Galaxy",
@@ -4707,6 +4716,15 @@
     "text": "financially motivated threat actor operating from China"
   },
   {
+    "actor_id": "misp-98ff9870-3da1-4642-be8c-df6834623b23",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Software supply chain campaign and its unnamed operator, first reported by GitGuardian in September 2025: malicious GitHub Actions workflows named \"Github Actions Security\" injected into compromised repositories exfiltrated CI/CD secrets, with 3,325 secrets stolen from 817 repositories. In October 2026 OpenSourceMalware reported a renewed wave and a second stage that no longer needs a CI runner: a .vscode/tasks.json launcher with a folderOpen trigger runs a Node.js credential stealer disguised as public/fonts/fa-solid-400.woff2, installs a cron job polling the operator's server, and is backed by a fallback workflow. OpenSourceMalware calls this stage a copycat of the DPRK PolinRider technique rather than an extension of it, and ties it to GhostAction through shared server infrastructure. A phishing kit on the lookalike domain my-github.com, harvesting credentials and silently authorizing an OAuth application with repo and workflow scopes, was reported on the same infrastructure."
+  },
+  {
     "actor_id": "misp-9900e010-f7ca-4354-b969-a5cd2b02f9d3",
     "source_id": "misp-galaxy",
     "source_name": "MISP Galaxy",
@@ -5409,6 +5427,15 @@
     "text": "The McAfee Advanced Threat Research team and McAfee Labs Malware Operations Group have discovered a new global campaign targeting nuclear, defense, energy, and financial companies, based on McAfee® Global Threat Intelligence. This campaign, Operation Sharpshooter, leverages an in-memory implant to download and retrieve a second-stage implant—which we call Rising Sun—for further exploitation. According to our analysis, the Rising Sun implant uses source code from the Lazarus Group’s 2015 backdoor Trojan Duuzer in a new framework to infiltrate these key industries. Operation Sharpshooter’s numerous technical links to the Lazarus Group seem too obvious to immediately draw the conclusion that they are responsible for the attacks, and instead indicate a potential for false flags. Our research focuses on how this actor operates, the global impact, and how to detect the attack. We shall leave attribution to the broader security community."
   },
   {
+    "actor_id": "misp-b101baba-907b-4aba-8ea2-1f77e53eb782",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Intrusion set tracked by Elastic Security Labs, posing as a Web3 venture accelerator (Apex Accelerator / Apex Arena, Apex Foundation) to target cryptocurrency start-ups and founders. Lures offer investment, free AI credits and security audits, and lead victims to install npm packages (@apexacc/cli, @apexacc/audit) that fetch platform-specific payloads: the CloudSyncD backdoor on macOS and a custom information stealer exfiltrating through Telegram on Windows. The packages also repackage a legitimate coding agent to route LLM traffic through attacker infrastructure and register an attacker-controlled MCP server in the victim's agent configuration. Earlier npm packages from the same operation were reported by SafeDep in July 2026. Elastic makes no state or group attribution."
+  },
+  {
     "actor_id": "misp-b1fd5c1a-f0e9-42b1-b386-9925c02ba508",
     "source_id": "misp-galaxy",
     "source_name": "MISP Galaxy",
@@ -5839,6 +5866,15 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "ShadyPanda is a threat actor behind a 7-year campaign that has infected 4.3 million users through extensions masquerading as productivity tools while functioning as comprehensive spyware. Their tactics include data exfiltration, user surveillance, and systematic collection of corporate meeting intelligence from over 28 video conferencing platforms. Notably, the WeTab extension exemplifies their capabilities, collecting full browsing history and personal data, exfiltrating to 17 different domains. The actor employs steganography to hide malicious code within PNG files and maintains persistent access through shared infrastructure across their extensions."
+  },
+  {
+    "actor_id": "misp-c1ef86d7-ab86-4188-91d2-af3f36207d96",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Uncategorized threat cluster tracked by Google Threat Intelligence Group and Mandiant, responsible for an ephemeral supply chain compromise of AOMEI Backupper between April and July 2026, investigated with ManageEngine's Threat Analysis Lab (METAL). The actor briefly modified the down_html.ini and Notifycfg.ini configuration files on AOMEI's origin servers for windows of five to ten minutes, redirecting the update and promotion flow to an attacker-hosted archive, then restored them. It deployed the CROSSROAD downloader and the SHINYROAD backdoor through trojanized Radmin components, later Adaptix C2, and on one occasion coerced NetNTLMv2 authentication through a hidden WebDAV popup. Victims were opportunistic, in IT services, telecommunications and higher education across several countries. No state nexus has been stated."
   },
   {
     "actor_id": "misp-c2049438-940f-4961-a072-4b0981e81471",

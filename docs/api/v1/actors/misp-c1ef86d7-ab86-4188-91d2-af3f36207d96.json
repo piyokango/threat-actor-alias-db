@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-c1ef86d7-ab86-4188-91d2-af3f36207d96",
+    "canonical_name": "UNC7017",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-c1ef86d7-ab86-4188-91d2-af3f36207d96"
+    ],
+    "misp_uuid": "c1ef86d7-ab86-4188-91d2-af3f36207d96",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "unc7017",
+        "confidence": "source-provided",
+        "display_group_key": "unc7017",
+        "name": "UNC7017",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "unc7017",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering",
+          "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering",
+              "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html"
+            ]
+          }
+        ],
+        "variants": [
+          "UNC7017"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Uncategorized threat cluster tracked by Google Threat Intelligence Group and Mandiant, responsible for an ephemeral supply chain compromise of AOMEI Backupper between April and July 2026, investigated with ManageEngine's Threat Analysis Lab (METAL). The actor briefly modified the down_html.ini and Notifycfg.ini configuration files on AOMEI's origin servers for windows of five to ten minutes, redirecting the update and promotion flow to an attacker-hosted archive, then restored them. It deployed the CROSSROAD downloader and the SHINYROAD backdoor through trojanized Radmin components, later Adaptix C2, and on one occasion coerced NetNTLMv2 authentication through a hidden WebDAV popup. Victims..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-c1ef86d7-ab86-4188-91d2-af3f36207d96",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering"
+      },
+      {
+        "actor_id": "misp-c1ef86d7-ab86-4188-91d2-af3f36207d96",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "UNC7017"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-26"
+  },
+  "generated_at": "2026-10-26T08:15:17Z"
+}
