@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-c2a10fc3-a12f-4310-94c2-88a1eb136719",
+    "canonical_name": "GOLD OGRE",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-c2a10fc3-a12f-4310-94c2-88a1eb136719"
+    ],
+    "misp_uuid": "c2a10fc3-a12f-4310-94c2-88a1eb136719",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "goldogre",
+        "confidence": "source-provided",
+        "display_group_key": "goldogre",
+        "name": "GOLD OGRE",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "gold ogre",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.sophos.com/en-us/blog/ai-used-in-aur0ra-ransomware-testing-and-execution"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.sophos.com/en-us/blog/ai-used-in-aur0ra-ransomware-testing-and-execution"
+            ]
+          }
+        ],
+        "variants": [
+          "GOLD OGRE"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Cybercriminal group tracked by the Sophos Counter Threat Unit (CTU) that operates the Aur0ra ransomware (also known as Aurora ransomware). Sophos reports that the group used AI extensively: it tested the evasion capabilities of tools and techniques against several EDR products in an AI-assisted post-exploitation framework built with Cursor, then gave its associates similar technology for Aur0ra intrusions, in which Cursor's Composer agent and models from Anthropic, xAI and Moonshot performed network and Active Directory discovery, password spraying, Kerberoasting, NTLM coercion and relay and credential extraction, with human operators supplying VPN credentials, SOCKS access and objectives;..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-c2a10fc3-a12f-4310-94c2-88a1eb136719",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sophos.com/en-us/blog/ai-used-in-aur0ra-ransomware-testing-and-execution"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "GOLD OGRE"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-11-02"
+  },
+  "generated_at": "2026-11-02T10:14:50Z"
+}

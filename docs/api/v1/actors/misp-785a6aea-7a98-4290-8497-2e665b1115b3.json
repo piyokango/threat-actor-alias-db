@@ -1,0 +1,174 @@
+{
+  "actor": {
+    "actor_id": "misp-785a6aea-7a98-4290-8497-2e665b1115b3",
+    "canonical_name": "Earth Sirrush",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-785a6aea-7a98-4290-8497-2e665b1115b3"
+    ],
+    "misp_uuid": "785a6aea-7a98-4290-8497-2e665b1115b3",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "earthsirrush",
+        "confidence": "source-provided",
+        "display_group_key": "earthsirrush",
+        "name": "Earth Sirrush",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "earth sirrush",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/earth-sirrush-russia-aligned-intrusion-set-4-years-evolving-espionage-tooling"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/earth-sirrush-russia-aligned-intrusion-set-4-years-evolving-espionage-tooling"
+            ]
+          }
+        ],
+        "variants": [
+          "Earth Sirrush"
+        ]
+      },
+      {
+        "compact_normalized_name": "shadowearth065",
+        "confidence": "source-provided",
+        "display_group_key": "shadowearth065",
+        "name": "SHADOW-EARTH-065",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "shadow earth 065",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/earth-sirrush-russia-aligned-intrusion-set-4-years-evolving-espionage-tooling"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/earth-sirrush-russia-aligned-intrusion-set-4-years-evolving-espionage-tooling"
+            ]
+          }
+        ],
+        "variants": [
+          "SHADOW-EARTH-065"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Earth Sirrush has conducted sustained spear-phishing campaigns against Ukrainian governmental and defense entities, deploying PowerShell and Go-based tools such as LONEPAGE and SEAGLOW, delivered via malicious archives and exploiting CVE-2023-38831. Their operations transitioned to image-based steganography in the CINDERBLOT campaign, using phishing lures that impersonate Ukrainian state services. Despite continuously adapting their tooling, identifiable indicators of compromise can link their campaigns, demonstrating consistent development habits and delivery patterns. Their targets have included the National Police, State Border Guard Service, and various ministries related to logistics..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-785a6aea-7a98-4290-8497-2e665b1115b3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/earth-sirrush-russia-aligned-intrusion-set-4-years-evolving-espionage-tooling"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ],
+      "items": [
+        {
+          "country_code": "RU",
+          "display_value": "Russia",
+          "flag": "🇷🇺",
+          "sources": [
+            {
+              "confidence": "source-provided",
+              "source_id": "misp-galaxy",
+              "source_name": "MISP Galaxy",
+              "source_urls": [
+                "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+              ],
+              "types": [
+                "country"
+              ]
+            }
+          ],
+          "type": "country",
+          "value": "Russia"
+        }
+      ]
+    },
+    "search_names": [
+      "Earth Sirrush",
+      "SHADOW-EARTH-065"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-11-02"
+  },
+  "generated_at": "2026-11-02T10:14:50Z"
+}

@@ -23,6 +23,7 @@
         "source_id": "misp-galaxy",
         "source_urls": [
           "https://blog.sekoia.io/the-transportation-sector-cyber-threat-overview",
+          "https://gbhackers.com/partisan-zmiy-malware",
           "https://riskybiznews.substack.com/p/risky-biz-news-cyber-partisans-hack",
           "https://therecord.media/cyber-partisans-belarusian-state-university-attack",
           "https://therecord.media/pro-ukraine-hackers-leak-russian-data-in-hopes-someone-will-make-sense-of-it",
@@ -40,6 +41,7 @@
             "source_relations": [],
             "source_urls": [
               "https://blog.sekoia.io/the-transportation-sector-cyber-threat-overview",
+              "https://gbhackers.com/partisan-zmiy-malware",
               "https://riskybiznews.substack.com/p/risky-biz-news-cyber-partisans-hack",
               "https://therecord.media/cyber-partisans-belarusian-state-university-attack",
               "https://therecord.media/pro-ukraine-hackers-leak-russian-data-in-hopes-someone-will-make-sense-of-it",
@@ -49,6 +51,50 @@
         ],
         "variants": [
           "Cyber Partisans"
+        ]
+      },
+      {
+        "compact_normalized_name": "partisanzmiy",
+        "confidence": "source-provided",
+        "display_group_key": "partisanzmiy",
+        "name": "Partisan Zmiy",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "partisan zmiy",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.sekoia.io/the-transportation-sector-cyber-threat-overview",
+          "https://gbhackers.com/partisan-zmiy-malware",
+          "https://riskybiznews.substack.com/p/risky-biz-news-cyber-partisans-hack",
+          "https://therecord.media/cyber-partisans-belarusian-state-university-attack",
+          "https://therecord.media/pro-ukraine-hackers-leak-russian-data-in-hopes-someone-will-make-sense-of-it",
+          "https://therecord.media/this-app-will-self-destruct-how-belarusian-hackers-created-an-alternative-telegram-for-activists"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.sekoia.io/the-transportation-sector-cyber-threat-overview",
+              "https://gbhackers.com/partisan-zmiy-malware",
+              "https://riskybiznews.substack.com/p/risky-biz-news-cyber-partisans-hack",
+              "https://therecord.media/cyber-partisans-belarusian-state-university-attack",
+              "https://therecord.media/pro-ukraine-hackers-leak-russian-data-in-hopes-someone-will-make-sense-of-it",
+              "https://therecord.media/this-app-will-self-destruct-how-belarusian-hackers-created-an-alternative-telegram-for-activists"
+            ]
+          }
+        ],
+        "variants": [
+          "Partisan Zmiy"
         ]
       }
     ],
@@ -84,6 +130,14 @@
           "external-reference"
         ],
         "url": "https://blog.sekoia.io/the-transportation-sector-cyber-threat-overview"
+      },
+      {
+        "actor_id": "misp-a9f894c6-70ab-4174-b470-5999fe93d4f3",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://gbhackers.com/partisan-zmiy-malware"
       },
       {
         "actor_id": "misp-a9f894c6-70ab-4174-b470-5999fe93d4f3",
@@ -166,14 +220,15 @@
       ]
     },
     "search_names": [
-      "Cyber Partisans"
+      "Cyber Partisans",
+      "Partisan Zmiy"
     ],
     "source_ids": [
       "external-reference",
       "misp-galaxy"
     ],
     "status": "active",
-    "updated_at": "2026-10-26"
+    "updated_at": "2026-11-02"
   },
-  "generated_at": "2026-10-26T08:15:17Z"
+  "generated_at": "2026-11-02T10:14:50Z"
 }

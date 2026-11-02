@@ -1,0 +1,144 @@
+{
+  "actor": {
+    "actor_id": "misp-5869bc41-c58a-4e06-9419-b3874a4d3a12",
+    "canonical_name": "Jingle Thief",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-5869bc41-c58a-4e06-9419-b3874a4d3a12"
+    ],
+    "misp_uuid": "5869bc41-c58a-4e06-9419-b3874a4d3a12",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "jinglethief",
+        "confidence": "source-provided",
+        "display_group_key": "jinglethief",
+        "name": "Jingle Thief",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "jingle thief",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+          "https://unit42.paloaltonetworks.com/cloud-based-gift-card-fraud-campaign"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+              "https://unit42.paloaltonetworks.com/cloud-based-gift-card-fraud-campaign"
+            ]
+          }
+        ],
+        "variants": [
+          "Jingle Thief"
+        ]
+      },
+      {
+        "compact_normalized_name": "clcri1032",
+        "confidence": "source-provided",
+        "display_group_key": "clcri1032",
+        "name": "CL-CRI-1032",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cl cri 1032",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+          "https://unit42.paloaltonetworks.com/cloud-based-gift-card-fraud-campaign"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+              "https://unit42.paloaltonetworks.com/cloud-based-gift-card-fraud-campaign"
+            ]
+          }
+        ],
+        "variants": [
+          "CL-CRI-1032"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Jingle Thief is a financially motivated gift card fraud campaign documented by Palo Alto Networks Unit 42 in October 2025 and tracked as cluster CL-CRI-1032, assessed with moderate confidence to be run by Morocco-based attackers active since 2021, not affiliated with a nation-state. It targets cloud environments of large retail and consumer services organizations: phishing and smishing harvest Microsoft 365 credentials, then the actors, without malware, perform SharePoint and OneDrive reconnaissance of gift card issuance workflows, send internal phishing from compromised accounts, set forwarding rules, and persist by registering rogue authenticator apps and enrolling devices in Entra ID; in..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-5869bc41-c58a-4e06-9419-b3874a4d3a12",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html"
+      },
+      {
+        "actor_id": "misp-5869bc41-c58a-4e06-9419-b3874a4d3a12",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/cloud-based-gift-card-fraud-campaign"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "CL-CRI-1032",
+      "Jingle Thief"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-11-02"
+  },
+  "generated_at": "2026-11-02T10:14:50Z"
+}

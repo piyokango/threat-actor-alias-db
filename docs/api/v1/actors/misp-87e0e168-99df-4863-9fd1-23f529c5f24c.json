@@ -1,0 +1,107 @@
+{
+  "actor": {
+    "actor_id": "misp-87e0e168-99df-4863-9fd1-23f529c5f24c",
+    "canonical_name": "UAT-11473",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-87e0e168-99df-4863-9fd1-23f529c5f24c"
+    ],
+    "misp_uuid": "87e0e168-99df-4863-9fd1-23f529c5f24c",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "uat11473",
+        "confidence": "source-provided",
+        "display_group_key": "uat11473",
+        "name": "UAT-11473",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uat 11473",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.talosintelligence.com/uat-11473-keydrift",
+          "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/uat-11473-keydrift",
+              "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+            ]
+          }
+        ],
+        "variants": [
+          "UAT-11473"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Highly sophisticated APT reported and named by Cisco Talos that exploited CVE-2026-20127, an authentication bypass in Cisco SD-WAN Catalyst Controller, to gain unauthorized access and install the custom KeyDrift malware framework (PolyFlame, LittleFilch), designed for long-term persistent access and automated exfiltration of sensitive keying material from SD-WAN control-plane processes. Observed targeting spans space and satellite services, defense and aerospace technology, and policy research. Talos assesses with high confidence that UAT-11473's operating infrastructure overlaps considerably with Volt Typhoon's Silent Train covert access network; this infrastructure overlap is the only..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-87e0e168-99df-4863-9fd1-23f529c5f24c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/uat-11473-keydrift"
+      },
+      {
+        "actor_id": "misp-87e0e168-99df-4863-9fd1-23f529c5f24c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "UAT-11473"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-11-02"
+  },
+  "generated_at": "2026-11-02T10:14:50Z"
+}

@@ -1,0 +1,137 @@
+{
+  "actor": {
+    "actor_id": "misp-a5a31ba2-d519-4b5d-9122-656714c28641",
+    "canonical_name": "Mimori",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-a5a31ba2-d519-4b5d-9122-656714c28641"
+    ],
+    "misp_uuid": "a5a31ba2-d519-4b5d-9122-656714c28641",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "mimori",
+        "confidence": "source-provided",
+        "display_group_key": "mimori",
+        "name": "Mimori",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "mimori",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cti.fyi/groups/Mimori.html",
+          "https://www.breachsense.com/ransomware-groups/mimori",
+          "https://www.ransomlook.io/group/Mimori",
+          "https://www.ransomware.live/group/Mimori",
+          "https://www.redtigersecurity.com/advisory/aveva-corporate-sharepoint-unauthorized-access"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cti.fyi/groups/Mimori.html",
+              "https://www.breachsense.com/ransomware-groups/mimori",
+              "https://www.ransomlook.io/group/Mimori",
+              "https://www.ransomware.live/group/Mimori",
+              "https://www.redtigersecurity.com/advisory/aveva-corporate-sharepoint-unauthorized-access"
+            ]
+          }
+        ],
+        "variants": [
+          "Mimori"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "Mimori is a data-extortion / ransomware group first observed on 2026-10-20, when it launched a leak site and listed its first two claimed victims: OpenText (Canada, technology) and AVEVA (UK, industrial software), claiming 177,234 files from AVEVA. A third claimed victim, St. James's Place (UK, financial services), was reported on 2026-10-21. The leak site, mimori.group, is a clearnet domain fronted by Cloudflare that publishes victim pages under /organizations/<victim> and threatens to publish stolen data unless victims make contact. None of the claims has been independently verified. AVEVA and OpenText have each disclosed a separate security incident (unauthorized access to AVEVA's..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-a5a31ba2-d519-4b5d-9122-656714c28641",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cti.fyi/groups/Mimori.html"
+      },
+      {
+        "actor_id": "misp-a5a31ba2-d519-4b5d-9122-656714c28641",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.breachsense.com/ransomware-groups/mimori"
+      },
+      {
+        "actor_id": "misp-a5a31ba2-d519-4b5d-9122-656714c28641",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ransomlook.io/group/Mimori"
+      },
+      {
+        "actor_id": "misp-a5a31ba2-d519-4b5d-9122-656714c28641",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.ransomware.live/group/Mimori"
+      },
+      {
+        "actor_id": "misp-a5a31ba2-d519-4b5d-9122-656714c28641",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.redtigersecurity.com/advisory/aveva-corporate-sharepoint-unauthorized-access"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Mimori"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-11-02"
+  },
+  "generated_at": "2026-11-02T10:14:50Z"
+}

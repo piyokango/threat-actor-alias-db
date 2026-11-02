@@ -1,10 +1,10 @@
 # Recent activity candidate review
 
-Generated: 2026-10-26 08:15:16 UTC
+Generated: 2026-11-02 10:14:47 UTC
 
 ## Summary
 
-- Auto candidates: 401
+- Auto candidates: 425
 - Published items: 0
 - Rejected items: 0
 
@@ -38,6 +38,12 @@ Generated: 2026-10-26 08:15:16 UTC
   - Summary: The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity comp
 
 ### APT18
+
+- **2026-10-29 / The Hacker News**
+  - Title: Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls
+  - URL: https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html
+  - Matched names: COMBINE
+  - Summary: A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account.
 
 - **2026-10-23 / The Hacker News**
   - Title: BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations
@@ -218,6 +224,54 @@ Generated: 2026-10-26 08:15:16 UTC
   - Summary: The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campai
 
 ### APT41
+
+- **2026-10-31 / BleepingComputer**
+  - Title: Northflank security breach leads to abuse of customers' AI API keys
+  - URL: https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys
+  - Matched names: LEAD
+  - Summary: Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]
+
+- **2026-10-30 / SecurityWeek**
+  - Title: Fresh WordPress Vulnerability in Attackers’ Crosshairs
+  - URL: https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs
+  - Matched names: LEAD
+  - Summary: Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution. The post Fresh WordPress Vulnerability in Attackers&#8217; Crosshairs appeared first on SecurityWeek .
+
+- **2026-10-29 / The Hacker News**
+  - Title: Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities
+  - URL: https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html
+  - Matched names: LEAD
+  - Summary: Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. "It shows significant gains across coding and agentic tasks as well as across key capabilities critic
+
+- **2026-10-29 / Microsoft Security Blog**
+  - Title: IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment
+  - Matched names: LEAD
+  - Summary: IDC has named Microsoft a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises. The post IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment ap
+
+- **2026-10-29 / Cisco Talos**
+  - Title: IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases
+  - URL: https://blog.talosintelligence.com/ir-trends-q3-2026
+  - Matched names: LEAD
+  - Summary: Phishing remained the leading initial access technique, while percentage of ransomware and pre-ransomware cases increased. Finance and public administration tied as the top-targeted industries.
+
+- **2026-10-28 / The Hacker News**
+  - Title: Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass
+  - URL: https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html
+  - Matched names: LEAD
+  - Summary: Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities
+
+- **2026-10-28 / The Hacker News**
+  - Title: Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach
+  - URL: https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html
+  - Matched names: LEAD
+  - Summary: Japan's GMO Internet Group is&nbsp;offering up to $1 million in total&nbsp;for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program opened on October 28 an
+
+- **2026-10-28 / Microsoft Security Blog**
+  - Title: The CISO’s evolving role: Protecting and defending in the agentic era
+  - URL: https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era
+  - Matched names: LEAD
+  - Summary: As AI and agents reshape the enterprise, CISOs face two critical priorities: enabling innovation with the right identity and data guardrails, and modernizing defense to keep pace with AI-powered threats. Aarti Borkar shares how security leaders can a
 
 - **2026-10-23 / The Hacker News**
   - Title: BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations
@@ -638,6 +692,12 @@ Generated: 2026-10-26 08:15:16 UTC
   - Summary: Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since 2024. Google Threat Intelligence Group (GTIG) and Mandiant teams described 
 
 ### BRONZE BUTLER
+
+- **2026-10-30 / The Hacker News**
+  - Title: Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving
+  - URL: https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html
+  - Matched names: Tick
+  - Summary: The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything.&nbsp; Their concerns are practical. 
 
 - **2026-10-23 / The Hacker News**
   - Title: Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack
@@ -1080,6 +1140,12 @@ Generated: 2026-10-26 08:15:16 UTC
   - Summary: Armory Castle exploited CVE-2026-102764 for initial access, deployed custom tools, and deleted logs and artifacts. The post Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day appeared first on SecurityWeek .
 
 ### Earth Lusca
+
+- **2026-11-02 / The Hacker News**
+  - Title: New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value
+  - URL: https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html
+  - Matched names: CHROMIUM
+  - Summary: Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer famil
 
 - **2026-09-16 / The Hacker News**
   - Title: One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude
@@ -1677,6 +1743,12 @@ Generated: 2026-10-26 08:15:16 UTC
 
 ### ShinyHunters
 
+- **2026-10-28 / The Hacker News**
+  - Title: ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws
+  - URL: https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html
+  - Matched names: ShinyHunters
+  - Summary: The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier,&nbsp;CVE-2026-35273, in June.
+
 - **2026-10-23 / SecurityWeek**
   - Title: In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware
   - URL: https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware
@@ -1995,6 +2067,30 @@ Generated: 2026-10-26 08:15:16 UTC
 
 ### TraderTraitor
 
+- **2026-11-02 / SecurityWeek**
+  - Title: FBI Flags Over 600 Addresses Tied to North Korea’s Binance Heist
+  - URL: https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist
+  - Matched names: TraderTraitor
+  - Summary: The FBI has officially pinned the $6 billion Binance hack on North Korea’s TraderTraitor as the attackers launder the stolen crypto. The post FBI Flags Over 600 Addresses Tied to North Korea&#8217;s Binance Heist appeared first on SecurityWeek .
+
+- **2026-11-02 / The Record**
+  - Title: FBI blames N. Korea’s TraderTraitor for Binance theft, urges crypto industry to block transactions
+  - URL: https://therecord.media/fbi-blames-tradertraitor-for-binance-hack
+  - Matched names: TraderTraitor
+  - Summary: The FBI and U.S. Secret Service alleged this weekend that North Korean hackers were responsible for stealing more than $6.3 billion from cryptocurrency platform Binance last week.
+
+- **2026-11-01 / The Hacker News**
+  - Title: FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist
+  - URL: https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html
+  - Matched names: Jade Sleet, Pukchong, TraderTraitor, UNC4899
+  - Summary: The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets from Binance to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCH
+
+- **2026-11-01 / BleepingComputer**
+  - Title: FBI links $6.3 billion Binance crypto heist to North Korean hackers
+  - URL: https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers
+  - Matched names: TraderTraitor
+  - Summary: The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]
+
 - **2026-09-21 / The Hacker News**
   - Title: Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors
   - URL: https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html
@@ -2061,6 +2157,14 @@ Generated: 2026-10-26 08:15:16 UTC
   - Matched names: UAC-0099
   - Summary: The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems. The activity has been attributed by the agency 
 
+### UAT-11473
+
+- **2026-10-28 / Cisco Talos**
+  - Title: Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN
+  - URL: https://blog.talosintelligence.com/uat-11473-keydrift
+  - Matched names: UAT-11473
+  - Summary: Talos has identified UAT-11473, a highly sophisticated APT, who exploited CVE-2026-20127, an authentication bypass vulnerability in Cisco SD-WAN Catalyst Controller instances to bypass authentication and gain unauthorized access to affected systems t
+
 ### UAT-11795
 
 - **2026-07-16 / Cisco Talos**
@@ -2068,6 +2172,14 @@ Generated: 2026-10-26 08:15:16 UTC
   - URL: https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign
   - Matched names: UAT-11795
   - Summary: Cisco Talos is disclosing UAT-11795, a sophisticated, Russian-speaking, financially motivated adversary that has been conducting a malicious campaign targeting users in the U.S. and Europe since at least June 2025.
+
+### UAT-6275
+
+- **2026-10-14 / Cisco Talos**
+  - Title: Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations
+  - URL: https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations
+  - Matched names: UAT-6275
+  - Summary: Talos and Recorded Future identified UAT-6275 activity targeting government organizations across the Commonwealth of Independent States. Recovered artifacts show additional interest in water resources and energy.
 
 ### UAT-7810
 
@@ -2170,6 +2282,30 @@ Generated: 2026-10-26 08:15:16 UTC
   - Summary: Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall for and no approval box to ignore. Cato AI Labs&nbsp
 
 ### VantaCore
+
+- **2026-10-31 / The Hacker News**
+  - Title: Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data
+  - URL: https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html
+  - Matched names: Thor
+  - Summary: American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its 
+
+- **2026-10-31 / BleepingComputer**
+  - Title: Northflank security breach leads to abuse of customers' AI API keys
+  - URL: https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys
+  - Matched names: Thor
+  - Summary: Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]
+
+- **2026-10-30 / The Hacker News**
+  - Title: Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw
+  - URL: https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html
+  - Matched names: Thor
+  - Summary: Drupal has warned that threat actors are exploiting a "highly critical" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions
+
+- **2026-10-28 / Cisco Talos**
+  - Title: Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN
+  - URL: https://blog.talosintelligence.com/uat-11473-keydrift
+  - Matched names: Thor
+  - Summary: Talos has identified UAT-11473, a highly sophisticated APT, who exploited CVE-2026-20127, an authentication bypass vulnerability in Cisco SD-WAN Catalyst Controller instances to bypass authentication and gain unauthorized access to affected systems t
 
 - **2026-10-23 / SecurityWeek**
   - Title: Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’
@@ -2559,7 +2695,21 @@ Generated: 2026-10-26 08:15:16 UTC
   - Matched names: Laundry Bear, LAUNDRY BEAR
   - Summary: A Kremlin-backed group known as Laundry Bear has been using a zero-click phishing technique to break into Zimbra webmail accounts worldwide, the U.S. and other nations said.
 
+### Volt Typhoon
+
+- **2026-10-28 / The Hacker News**
+  - Title: Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns
+  - URL: https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html
+  - Matched names: Volt Typhoon
+  - Summary: The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. "First identified in late 2023, Sile
+
 ### WARP PANDA
+
+- **2026-10-29 / The Hacker News**
+  - Title: China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility
+  - URL: https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html
+  - Matched names: WARP PANDA
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-
 
 - **2026-10-16 / The Hacker News**
   - Title: China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers

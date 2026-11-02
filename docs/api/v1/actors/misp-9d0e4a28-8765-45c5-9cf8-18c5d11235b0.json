@@ -1,0 +1,97 @@
+{
+  "actor": {
+    "actor_id": "misp-9d0e4a28-8765-45c5-9cf8-18c5d11235b0",
+    "canonical_name": "UAT-6275",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-9d0e4a28-8765-45c5-9cf8-18c5d11235b0"
+    ],
+    "misp_uuid": "9d0e4a28-8765-45c5-9cf8-18c5d11235b0",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "uat6275",
+        "confidence": "source-provided",
+        "display_group_key": "uat6275",
+        "name": "UAT-6275",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "uat 6275",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations"
+            ]
+          }
+        ],
+        "variants": [
+          "UAT-6275"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "UAT-6275 is a cyberespionage actor targeting government organizations across Central Asia and the CIS, with a focus on diplomacy, economic development, and environmental management. The group employs custom RATs like Chvost, Laplas, and PickleShell, leveraging methods such as WinRAR exploits and malicious documents for payload delivery. Evidence indicates UAT-6275 has a Kazakhstan nexus, supported by Russian-language artifacts and specific operational hours. Its activity includes the creation of publicly accessible malware staging directories and interest in expanding to additional platforms, including Linux."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-9d0e4a28-8765-45c5-9cf8-18c5d11235b0",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "UAT-6275"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-11-02"
+  },
+  "generated_at": "2026-11-02T10:14:50Z"
+}

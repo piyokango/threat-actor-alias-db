@@ -22,7 +22,8 @@
         "normalized_name": "unc5820",
         "source_id": "misp-galaxy",
         "source_urls": [
-          "https://cloud.google.com/blog/topics/threat-intelligence/fortimanager-zero-day-exploitation-cve-2024-47575"
+          "https://cloud.google.com/blog/topics/threat-intelligence/fortimanager-zero-day-exploitation-cve-2024-47575",
+          "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware"
         ],
         "sources": [
           {
@@ -35,12 +36,49 @@
             ],
             "source_relations": [],
             "source_urls": [
-              "https://cloud.google.com/blog/topics/threat-intelligence/fortimanager-zero-day-exploitation-cve-2024-47575"
+              "https://cloud.google.com/blog/topics/threat-intelligence/fortimanager-zero-day-exploitation-cve-2024-47575",
+              "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware"
             ]
           }
         ],
         "variants": [
           "UNC5820"
+        ]
+      },
+      {
+        "compact_normalized_name": "clsta0954",
+        "confidence": "source-provided",
+        "display_group_key": "clsta0954",
+        "name": "CL-STA-0954",
+        "name_type": "alias",
+        "name_types": [
+          "alias"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "cl sta 0954",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/fortimanager-zero-day-exploitation-cve-2024-47575",
+          "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "alias"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cloud.google.com/blog/topics/threat-intelligence/fortimanager-zero-day-exploitation-cve-2024-47575",
+              "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware"
+            ]
+          }
+        ],
+        "variants": [
+          "CL-STA-0954"
         ]
       }
     ],
@@ -76,6 +114,14 @@
           "external-reference"
         ],
         "url": "https://cloud.google.com/blog/topics/threat-intelligence/fortimanager-zero-day-exploitation-cve-2024-47575"
+      },
+      {
+        "actor_id": "misp-e13e36e7-a75b-42fa-8d51-35f9eeafebfc",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware"
       }
     ],
     "reported_attribution": {
@@ -84,6 +130,7 @@
       "items": []
     },
     "search_names": [
+      "CL-STA-0954",
       "UNC5820"
     ],
     "source_ids": [
@@ -91,7 +138,7 @@
       "misp-galaxy"
     ],
     "status": "active",
-    "updated_at": "2026-10-26"
+    "updated_at": "2026-11-02"
   },
-  "generated_at": "2026-10-26T08:15:17Z"
+  "generated_at": "2026-11-02T10:14:50Z"
 }

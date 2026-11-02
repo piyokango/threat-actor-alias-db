@@ -1,0 +1,117 @@
+{
+  "actor": {
+    "actor_id": "misp-aa09600e-29a2-4ba0-a6c0-bd305c30140c",
+    "canonical_name": "STAC4749",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-aa09600e-29a2-4ba0-a6c0-bd305c30140c"
+    ],
+    "misp_uuid": "aa09600e-29a2-4ba0-a6c0-bd305c30140c",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "stac4749",
+        "confidence": "source-provided",
+        "display_group_key": "stac4749",
+        "name": "STAC4749",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "stac4749",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://arcticwolf.com/resources/blog/threat-actors-abuse-microsoft-teams-external-chat-for-initial-access",
+          "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+          "https://www.sophos.com/en-us/blog/chaos-in-teams-vishing"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://arcticwolf.com/resources/blog/threat-actors-abuse-microsoft-teams-external-chat-for-initial-access",
+              "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+              "https://www.sophos.com/en-us/blog/chaos-in-teams-vishing"
+            ]
+          }
+        ],
+        "variants": [
+          "STAC4749"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "STAC4749 is a financially motivated activity cluster reported by Sophos in July 2026, observed between February and June 2026 against dozens of organizations, nearly 95% of them in Canada and the U.S. Operators contact victims through Microsoft Teams chats and calls impersonating IT support, using plausible employee usernames on IT-themed '.top' cloud domains rather than onmicrosoft.com tenants, and obtain a remote session through Microsoft Quick Assist or, increasingly from April 2026, the RemSupp RMM tool; RDP is then enabled for lateral movement. PowerShell retrieves a loader communicating over gRPC with hard-coded C2 addresses and checking for an appscreen.log file, later replaced by a..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-aa09600e-29a2-4ba0-a6c0-bd305c30140c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://arcticwolf.com/resources/blog/threat-actors-abuse-microsoft-teams-external-chat-for-initial-access"
+      },
+      {
+        "actor_id": "misp-aa09600e-29a2-4ba0-a6c0-bd305c30140c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html"
+      },
+      {
+        "actor_id": "misp-aa09600e-29a2-4ba0-a6c0-bd305c30140c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.sophos.com/en-us/blog/chaos-in-teams-vishing"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "STAC4749"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-11-02"
+  },
+  "generated_at": "2026-11-02T10:14:50Z"
+}

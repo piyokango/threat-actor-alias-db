@@ -1,0 +1,117 @@
+{
+  "actor": {
+    "actor_id": "misp-6722873c-8fe6-44d9-98ea-91e6c32c7f2c",
+    "canonical_name": "Whitearmor",
+    "confidence": "source-provided",
+    "merged_actor_ids": [
+      "misp-6722873c-8fe6-44d9-98ea-91e6c32c7f2c"
+    ],
+    "misp_uuid": "6722873c-8fe6-44d9-98ea-91e6c32c7f2c",
+    "mitre_id": null,
+    "names": [
+      {
+        "compact_normalized_name": "whitearmor",
+        "confidence": "source-provided",
+        "display_group_key": "whitearmor",
+        "name": "Whitearmor",
+        "name_type": "canonical",
+        "name_types": [
+          "canonical"
+        ],
+        "naming_org": "MISP Galaxy",
+        "normalized_name": "whitearmor",
+        "source_id": "misp-galaxy",
+        "source_urls": [
+          "https://cybernews.com/security/ransomware-operator-claims-hisense-demands-5-million",
+          "https://teiss.co.uk/news/whitearmor-ransomware-group-claims-hisense-data-theft-demands-5-million-18363",
+          "https://www.infostealers.com/article/38628-crypto-orders-10139-ips-what-wagyus-alleged-leak-means-for-monero-privacy"
+        ],
+        "sources": [
+          {
+            "name_types": [
+              "canonical"
+            ],
+            "naming_org": "MISP Galaxy",
+            "source_ids": [
+              "misp-galaxy"
+            ],
+            "source_relations": [],
+            "source_urls": [
+              "https://cybernews.com/security/ransomware-operator-claims-hisense-demands-5-million",
+              "https://teiss.co.uk/news/whitearmor-ransomware-group-claims-hisense-data-theft-demands-5-million-18363",
+              "https://www.infostealers.com/article/38628-crypto-orders-10139-ips-what-wagyus-alleged-leak-means-for-monero-privacy"
+            ]
+          }
+        ],
+        "variants": [
+          "Whitearmor"
+        ]
+      }
+    ],
+    "naming_sources": [
+      "MISP Galaxy"
+    ],
+    "observed_techniques": {
+      "items": [],
+      "tactic_groups": [],
+      "tactics": [],
+      "total": 0
+    },
+    "overview": {
+      "generated": false,
+      "sources": [
+        {
+          "source_id": "misp-galaxy",
+          "source_name": "MISP Galaxy",
+          "source_urls": [
+            "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+          ]
+        }
+      ],
+      "text": "WhiteArmor is a data-theft and extortion group that appeared in October 2026. It claimed its first victim, Whirlpool, around 21 October 2026, and runs a Tor data leak site plus a clearnet mirror (whitearmor.cc). Within its first week it named 14-19 organisations, mainly in the United States, across the transportation/logistics (J.B. Hunt, Ryder, Echo Global Logistics), retail (Lovesac), consumer electronics (Hisense), online gambling (Gamdom) and political (Partido Liberal, Argentina) sectors. Its most publicised claim is 19 GB of Hisense warranty, customer, supplier and CRM data covering Malaysia and Singapore, for which it demanded USD 5 million in Bitcoin, reportedly raised from USD..."
+    },
+    "primary_source": "misp-galaxy",
+    "recent_activity": [],
+    "references": [
+      {
+        "actor_id": "misp-6722873c-8fe6-44d9-98ea-91e6c32c7f2c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://cybernews.com/security/ransomware-operator-claims-hisense-demands-5-million"
+      },
+      {
+        "actor_id": "misp-6722873c-8fe6-44d9-98ea-91e6c32c7f2c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://teiss.co.uk/news/whitearmor-ransomware-group-claims-hisense-data-theft-demands-5-million-18363"
+      },
+      {
+        "actor_id": "misp-6722873c-8fe6-44d9-98ea-91e6c32c7f2c",
+        "source_id": "external-reference",
+        "source_ids": [
+          "external-reference"
+        ],
+        "url": "https://www.infostealers.com/article/38628-crypto-orders-10139-ips-what-wagyus-alleged-leak-means-for-monero-privacy"
+      }
+    ],
+    "reported_attribution": {
+      "classifications": [],
+      "countries": [],
+      "items": []
+    },
+    "search_names": [
+      "Whitearmor"
+    ],
+    "source_ids": [
+      "external-reference",
+      "misp-galaxy"
+    ],
+    "status": "active",
+    "updated_at": "2026-11-02"
+  },
+  "generated_at": "2026-11-02T10:14:50Z"
+}

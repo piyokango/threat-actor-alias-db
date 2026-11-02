@@ -36,6 +36,15 @@
     "text": "SHADOW-WATER-063 is a financially motivated threat actor attributed to the Banana RAT banking trojan, primarily targeting Brazilian financial accounts. Analysis of recovered artifacts, including a Python panel and PowerShell stagers, supports a moderate-confidence attribution assessment. The actor's infrastructure and endpoint telemetry indicate a focus on executing fraudulent transactions. Key evidentiary pillars establish their intent to exploit Brazilian financial systems."
   },
   {
+    "actor_id": "misp-01219d2a-9038-4a42-9090-2b4e964afb26",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "ScarlettGroup is a newly observed cyber extortion gang actively threatening companies via a dark web leak site, employing countdown timers to pressure victims. Their operational TTPs include public listing of alleged breaches and a negotiation window for communications. While the group’s intrusion methods remain unverified, their public threats and activity on forums such as PwnForums indicate a growing trend in cyber extortion."
+  },
+  {
     "actor_id": "misp-013f56ea-a441-483f-812c-c384c790e474",
     "source_id": "misp-galaxy",
     "source_name": "MISP Galaxy",
@@ -2691,6 +2700,15 @@
     "text": "LabHost is a threat actor group targeting Canadian Banks with Phishing-as-a-Service attacks. They have been observed using tools like LabRat and LabSend for real-time campaign management and SMS lures. LabHost's phishing campaigns have similarities to Frappo campaigns, but they operate separately and offer different subscription packages."
   },
   {
+    "actor_id": "misp-5869bc41-c58a-4e06-9419-b3874a4d3a12",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Jingle Thief is a financially motivated gift card fraud campaign documented by Palo Alto Networks Unit 42 in October 2025 and tracked as cluster CL-CRI-1032, assessed with moderate confidence to be run by Morocco-based attackers active since 2021, not affiliated with a nation-state. It targets cloud environments of large retail and consumer services organizations: phishing and smishing harvest Microsoft 365 credentials, then the actors, without malware, perform SharePoint and OneDrive reconnaissance of gift card issuance workflows, send internal phishing from compromised accounts, set forwarding rules, and persist by registering rogue authenticator apps and enrolling devices in Entra ID; in one case access lasted about 10 months across more than 60 accounts. Unit 42 assesses with moderate confidence that CL-CRI-1032 overlaps with the actors publicly tracked as Atlas Lion and Storm-0539; it is kept as a separate entry and linked to Storm-0539 as similar. In October 2026, 404 Media reported an organized crime gang that hacked Staples and issued millions of dollars in gift cards; The Hacker News related this to Jingle Thief, but the reporting does not attribute that intrusion to the cluster."
+  },
+  {
     "actor_id": "misp-588c0a07-57db-47d2-87d3-86dea30ab883",
     "source_id": "misp-galaxy",
     "source_name": "MISP Galaxy",
@@ -2977,6 +2995,15 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "Grayling activity was first observed in early 2023, when a number of victims were identified with distinctive malicious DLL side-loading activity. Grayling appears to target organisations in Asia, however one unknown organisation in the United States was also targeted. Industries targeted include Biomedical, Government and Information Technology. Grayling use a variety of tools during their attacks, including well known tools such as Cobalt Strike and Havoc and also some others."
+  },
+  {
+    "actor_id": "misp-6722873c-8fe6-44d9-98ea-91e6c32c7f2c",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "WhiteArmor is a data-theft and extortion group that appeared in October 2026. It claimed its first victim, Whirlpool, around 21 October 2026, and runs a Tor data leak site plus a clearnet mirror (whitearmor.cc). Within its first week it named 14-19 organisations, mainly in the United States, across the transportation/logistics (J.B. Hunt, Ryder, Echo Global Logistics), retail (Lovesac), consumer electronics (Hisense), online gambling (Gamdom) and political (Partido Liberal, Argentina) sectors. Its most publicised claim is 19 GB of Hisense warranty, customer, supplier and CRM data covering Malaysia and Singapore, for which it demanded USD 5 million in Bitcoin, reportedly raised from USD 500,000. Reports describe an affiliate model with a 5% operator fee and say the group is recruiting pentesters, web exploitation specialists and zero-day researchers. No encryptor has been publicly analysed, and none of the victim claims had been independently confirmed at the time of reporting."
   },
   {
     "actor_id": "misp-67d76ea9-758b-442d-8dd8-f64f6353adeb",
@@ -3447,6 +3474,15 @@
     "text": "Ghostwriter is referred as an 'activity set', with various incidents tied together by overlapping behavioral characteristics and personas, rather than as an actor or group in itself."
   },
   {
+    "actor_id": "misp-749b849c-11a6-4ec5-9a56-67caa72fd0bc",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Xuanye Group is implicated in a breach at ASOS, utilizing social engineering to impersonate a trusted contact and obtain login credentials. They claimed responsibility for the attack, asserting the theft of customer data while clarifying that financial information was not compromised. The group linked their activities to a Telegram channel and threatened to leak stolen data unless negotiations commenced. They have not provided evidence of the stolen data, despite reportedly sharing it with BBC News."
+  },
+  {
     "actor_id": "misp-75714cef-0265-4944-84c6-f66aec01994d",
     "source_id": "misp-galaxy",
     "source_name": "MISP Galaxy",
@@ -3553,6 +3589,15 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "Returned Libra, also known as 8220 Mining Group, is a cloud threat actor group that has been active since at least 2017. Tools commonly employed during their operations are PwnRig or DBUsed which are customized variants of the XMRig Monero mining software. The Returned Libra mining group is believed to have originated from a GitHub fork of the Rocke group's software. Returned Libra has elevated its mining operations with the use of cloud service platform credential scrapping."
+  },
+  {
+    "actor_id": "misp-785a6aea-7a98-4290-8497-2e665b1115b3",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Earth Sirrush has conducted sustained spear-phishing campaigns against Ukrainian governmental and defense entities, deploying PowerShell and Go-based tools such as LONEPAGE and SEAGLOW, delivered via malicious archives and exploiting CVE-2023-38831. Their operations transitioned to image-based steganography in the CINDERBLOT campaign, using phishing lures that impersonate Ukrainian state services. Despite continuously adapting their tooling, identifiable indicators of compromise can link their campaigns, demonstrating consistent development habits and delivery patterns. Their targets have included the National Police, State Border Guard Service, and various ministries related to logistics and defense supply chains."
   },
   {
     "actor_id": "misp-785b33c9-9da5-4561-bee9-0acb00a5406c",
@@ -4194,6 +4239,15 @@
     "text": "Adversary group targeting diplomatic missions, governmental and military organisations, mainly in Ukraine."
   },
   {
+    "actor_id": "misp-87e0e168-99df-4863-9fd1-23f529c5f24c",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Highly sophisticated APT reported and named by Cisco Talos that exploited CVE-2026-20127, an authentication bypass in Cisco SD-WAN Catalyst Controller, to gain unauthorized access and install the custom KeyDrift malware framework (PolyFlame, LittleFilch), designed for long-term persistent access and automated exfiltration of sensitive keying material from SD-WAN control-plane processes. Observed targeting spans space and satellite services, defense and aerospace technology, and policy research. Talos assesses with high confidence that UAT-11473's operating infrastructure overlaps considerably with Volt Typhoon's Silent Train covert access network; this infrastructure overlap is the only link Talos reports between the two."
+  },
+  {
     "actor_id": "misp-87f1ab70-a102-4566-a09e-838b39c18a62",
     "source_id": "misp-galaxy",
     "source_name": "MISP Galaxy",
@@ -4761,6 +4815,15 @@
     "text": "RED-LILI is an active threat actor that has been identified by Checkmarx SCS research team. They have been publishing malicious packages on NPM and PyPi platforms, and have recently automated the process of creating NPM users for package publication. The Checkmarx team has detected around 1500 malicious packages associated with RED-LILI and has continuously disclosed their findings to the respective security teams."
   },
   {
+    "actor_id": "misp-9a15723b-0148-4807-b8bf-b5bdca7bf725",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "DarkBlinders hackers are deploying a fake video meeting application to establish a backdoor and facilitate cyberespionage against Israel and the Kurdistan Region of Iraq. Their operations have led to compromises within a government cloud environment in Kurdistan and targeting a significant Israeli individual linked to security. They are also abusing GitHub repositories as part of their TTPs. The investigation has confirmed their focused efforts in this cyber campaign."
+  },
+  {
     "actor_id": "misp-9b3df41b-4078-4f83-92df-d7d132c619cd",
     "source_id": "misp-galaxy",
     "source_name": "MISP Galaxy",
@@ -4822,6 +4885,15 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "UAT-11795 is a sophisticated, Russian-speaking, financially motivated adversary conducting malicious campaigns targeting users in the U.S. and Europe since June 2025. The actor employs CastleStealer and Remcos RAT as alternative payload implants. Their operations indicate a focus on financial gain through targeted attacks."
+  },
+  {
+    "actor_id": "misp-9d0e4a28-8765-45c5-9cf8-18c5d11235b0",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "UAT-6275 is a cyberespionage actor targeting government organizations across Central Asia and the CIS, with a focus on diplomacy, economic development, and environmental management. The group employs custom RATs like Chvost, Laplas, and PickleShell, leveraging methods such as WinRAR exploits and malicious documents for payload delivery. Evidence indicates UAT-6275 has a Kazakhstan nexus, supported by Russian-language artifacts and specific operational hours. Its activity includes the creation of publicly accessible malware staging directories and interest in expanding to additional platforms, including Linux."
   },
   {
     "actor_id": "misp-9d218bb3-fc59-43e0-a273-a0a0fb5c463e",
@@ -5094,6 +5166,15 @@
     "text": "Crowdstrike Tracks the criminal developer of Nemty ransomware as TRAVELING SPIDER. The actor has been observed to take advantage of single-factor authentication to gain access to victim organizations through Citrix Gateway and send extortion-related emails using the victim’s own Microsoft Office 365 instance."
   },
   {
+    "actor_id": "misp-a5a31ba2-d519-4b5d-9122-656714c28641",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Mimori is a data-extortion / ransomware group first observed on 2026-10-20, when it launched a leak site and listed its first two claimed victims: OpenText (Canada, technology) and AVEVA (UK, industrial software), claiming 177,234 files from AVEVA. A third claimed victim, St. James's Place (UK, financial services), was reported on 2026-10-21. The leak site, mimori.group, is a clearnet domain fronted by Cloudflare that publishes victim pages under /organizations/<victim> and threatens to publish stolen data unless victims make contact. None of the claims has been independently verified. AVEVA and OpenText have each disclosed a separate security incident (unauthorized access to AVEVA's corporate SharePoint, and to an OpenText employee account through social engineering), but neither has attributed it to Mimori. No ransomware sample, encryptor or affiliate program has been publicly linked to the group, and its operators and any links to earlier groups are unknown."
+  },
+  {
     "actor_id": "misp-a5aa9b72-2bfb-427c-97fc-6ec04357233b",
     "source_id": "misp-galaxy",
     "source_name": "MISP Galaxy",
@@ -5184,6 +5265,15 @@
     "text": "Stargazer Goblin is a threat actor group that operates the Stargazers Ghost Network on GitHub, distributing malware and malicious links through multiple accounts. They utilize compromised and created accounts to evade detection and quickly replace banned components to continue their operations. The group has been estimated to have earned approximately $100,000 from their malicious activities, offering a Distribution as a Service platform for other threat actors to distribute their malware. Stargazer Goblin has been involved in distributing various malware families, including Atlantida Stealer, Rhadamanthys, RisePro, Lumma Stealer, and RedLine."
   },
   {
+    "actor_id": "misp-a92ce123-9be2-4a2e-a972-ca3ebdafe88c",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "UAT-10147 is a Chinese-speaking, financially motivated threat actor targeting internet-facing Windows and Linux servers through the exploitation of publicly disclosed vulnerabilities. The group employs advanced techniques including AI-assisted workflows, deploying malware such as SPECTRE and various RATs, and utilizing capabilities like remote code execution and privilege escalation. Their operations are characterized by the integration of AI for reconnaissance, exploit refinement, and persistent access management. UAT-10147 has a target list of approximately 170,000 URLs and impacts various sectors, including government and education."
+  },
+  {
     "actor_id": "misp-a9d807bc-2ecd-47f8-be7e-d1b96e876c9d",
     "source_id": "misp-galaxy",
     "source_name": "MISP Galaxy",
@@ -5209,6 +5299,15 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "The Cyber Partisans, a hacktivist group based in Belarus, has been involved in various cyber-attacks targeting organizations and infrastructure in Belarus and Ukraine. They have hacked and wiped the network of the Belarusian Telegraph Agency, targeted the Belarusian Red Cross, and conducted ransomware attacks on the Belarusian Railway and Belarusian State University. The group aims to expose alleged crimes committed by pro-government organizations and disrupt operations supporting the Russian military operation against Ukraine. They have also leaked stolen data to journalists and expressed support for Ukraine."
+  },
+  {
+    "actor_id": "misp-aa09600e-29a2-4ba0-a6c0-bd305c30140c",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "STAC4749 is a financially motivated activity cluster reported by Sophos in July 2026, observed between February and June 2026 against dozens of organizations, nearly 95% of them in Canada and the U.S. Operators contact victims through Microsoft Teams chats and calls impersonating IT support, using plausible employee usernames on IT-themed '.top' cloud domains rather than onmicrosoft.com tenants, and obtain a remote session through Microsoft Quick Assist or, increasingly from April 2026, the RemSupp RMM tool; RDP is then enabled for lateral movement. PowerShell retrieves a loader communicating over gRPC with hard-coded C2 addresses and checking for an appscreen.log file, later replaced by a PyArmour-obfuscated PyInstaller backdoor that fetches its AES key from a public GitHub repository and talks to workers.dev infrastructure, followed by Golang implants launched with a '--token-raw' argument and pinning embedded CA certificates (issuers such as loop-CA, connectify-CA, james-bond-CA), plus a reverse SOCKS proxy. Persistence relies on HKCU Run keys masquerading as Realtek or WinAudio components and hidden Startup shortcuts; DWAgent and AnyDesk provide redundant access. At least three intrusions ended in Chaos ransomware deployment (the RaaS reportedly launched by former BlackSuit members, not the Chaos builder lineage), in one case under 17 hours after initial access. Sophos notes a Russian-keyboard typo in operator commands, found no evidence of a link to MuddyWater, and states the evidence is insufficient for attribution. In October 2026 Arctic Wolf, analysing more than 400 Teams IT-support impersonation incidents, stated that the shift to '.top' tenants aligns with Sophos's reporting on STAC4749. The Sophos loader shares its artifacts (sekv-prefixed filename, 'Realtek HD Audio' Run value, appscreen.log check, gRPC C2) with the GoGRPC backdoor documented by Zscaler ThreatLabz, although neither vendor equates the two."
   },
   {
     "actor_id": "misp-aa469d96-9357-11e9-bd7d-df125c7cba53",
@@ -5353,6 +5452,15 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "OilAlpha has almost exclusively relied on infrastructure associated with the Public Telecommunication Corporation (PTC), a Yemeni government-owned enterprise reported to be under the direct control of the Houthi authorities. OilAlpha used encrypted chat messengers like WhatsApp to launch social engineering attacks against its targets. It has also used URL link shorteners. Per victimology assessment, it appears a majority of the targeted entities were Arabic-language speakers and operated Android devices."
+  },
+  {
+    "actor_id": "misp-ae595356-f187-4e54-9ee5-10d77db32f23",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "CyberCartel is a Latin American e-crime group employing a multi-agent system called CARLIY0S to coordinate attacks against financial institutions and payment providers. The group's operations utilize AI models for deep reconnaissance, zero-day vulnerability analysis, exploit code generation, and credential harvesting. They have targeted over 400 financial entities in Latin America and are linked to campaigns involving malicious Chrome extensions aimed at stealing credentials and financial data. Active since 2012, CyberCartel has evolved to incorporate Malware-as-a-Service from established malware families to breach Chromium-based browsers."
   },
   {
     "actor_id": "misp-ae72a60a-0a0c-4384-8591-11c342c21c41",
@@ -5911,6 +6019,15 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "GTG-1002 is a Chinese state-sponsored APT that conducted a large-scale autonomous cyber espionage campaign targeting approximately 30 global organizations across various sectors, focusing on military and energy-related data. The operation utilized AI, specifically Anthropic’s Claude model, for reconnaissance, exploitation, and data exfiltration, significantly reducing human involvement. Attackers employed techniques such as automated task execution and evasion of safety protocols by masquerading as legal security testing. The campaign lasted 18 months and highlighted vulnerabilities in traditional incident response workflows."
+  },
+  {
+    "actor_id": "misp-c2a10fc3-a12f-4310-94c2-88a1eb136719",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "Cybercriminal group tracked by the Sophos Counter Threat Unit (CTU) that operates the Aur0ra ransomware (also known as Aurora ransomware). Sophos reports that the group used AI extensively: it tested the evasion capabilities of tools and techniques against several EDR products in an AI-assisted post-exploitation framework built with Cursor, then gave its associates similar technology for Aur0ra intrusions, in which Cursor's Composer agent and models from Anthropic, xAI and Moonshot performed network and Active Directory discovery, password spraying, Kerberoasting, NTLM coercion and relay and credential extraction, with human operators supplying VPN credentials, SOCKS access and objectives; guardrails were bypassed by framing the intrusions as authorized red team or diagnostics testing. Intrusions relied on Cobalt Strike, shared C2 infrastructure, SharpShares enumeration and exfiltration to S3-compatible storage, and victims were later named on Aur0ra's data leak site. Multiple distinct operators followed the same pattern; artifacts suggest Russian speakers."
   },
   {
     "actor_id": "misp-c2d5a052-dc30-11e8-9643-d76f3b9c94fa",
@@ -7459,6 +7576,15 @@
       "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
     ],
     "text": "Over the last few weeks, several significant leaks regarding a number of Iranian APTs took place. After analyzing and investigating the documents we conclude that they are authentic. Consequently, this causes considerable harm to the groups and their operation. The identity of the actor behind the leak is currently unknown, however based on the scope and the quality of the exposed documents and information, it appears that they are professional and highly capable. This leak will likely hamstring the groups' operation in the near future. Accordingly, in our assessment this will minimize the risk of potential attacks in the next few months and possibly even year. Note -most of the leaks are posted on Telegram channels that were created specifically for this purpose. Below are the three main Telegram groups on which the leaks were posted: Lab Dookhtegam pseudonym (\"The people whose lips are stitched and sealed\" –translation from Persian) –In this channel attack tools attributed to the group 'OilRig' were leaked; including a webshell that was inserted into the Technion, various tools that were used for DNS attacks, and more. Green Leakers–In this channel attack tools attributed to the group 'MuddyWatter' were leaked. The group's name and its symbol are identified with the \"green movement\", which led the protests in Iran after the Presidential elections in 2009. These protests were heavily repressed by the revolutionary guards (IRGC) Black Box–Unlike the previous two channels this has been around for a long time. On Friday May 5th, dozens of confidential documents labeled as \"secret\" (a high confidentiality level in Iran, one before the highest -top secret) were posted on this channel. The documents were related to Iranian attack groups' activity."
+  },
+  {
+    "actor_id": "misp-f55c5d80-2ccf-488b-b90a-5cc97048141b",
+    "source_id": "misp-galaxy",
+    "source_name": "MISP Galaxy",
+    "source_urls": [
+      "https://github.com/MISP/misp-galaxy/blob/main/clusters/threat-actor.json"
+    ],
+    "text": "DataSuckers is a financially motivated hacking group linked to major data breaches affecting businesses in Russia and Ukraine, with claims of having stolen 2-3 TB of data from approximately 68 million customers. The group has demonstrated TTPs such as customer data theft, extortion through ransom demands, and website defacement. They have claimed responsibility for high-profile attacks on ATB Market, Dodo Pizza, and Tez Tour, and reportedly obtained sensitive customer and employee information during these breaches. While DataSuckers maintains a Telegram channel for communications, its operations have drawn the attention of Russian authorities, resulting in the detention of several key members."
   },
   {
     "actor_id": "misp-f5d231d4-8590-4770-b511-e7a44dce59f7",
